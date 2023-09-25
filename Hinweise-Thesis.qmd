@@ -57,14 +57,15 @@ Bitte beachten Sie, dass ich Themen erst dann reserviere, wenn Sie verbindlich z
 ### Fristen
 Bitte beachten Sie, dass es für die Anmeldung und Bearbeitung Ihrer Abschlussarbeit definierte Fristen gibt.
 
-Die Wahl des Themas beginnt mit Beginn des 6. Fachsemesters* (SoSe: 15. März, WiSe: 1. Oktober).
-Themen (und damit eine verbindliche Zusage meinerseits) vergebe ich bis spätestens Mitte des 6. Fachsemesters (SoSe: 15. Mai, WiSe: 15. November). Nach diesem Termin ist eine Anmeldung (bei mir) erst wieder im Folgesemester möglich (s. Abbildung).
-Das Exposé muss bis Semesterende bei mir eingereicht sein (SoSe: 30. Juni, WiSe: 31. Dezember).
-Sie bekommen gegen Ende des Prüfungszeitraums schriftliches Feedback zu Ihrem Exposé (SoSe: 31. Juli, WiSe: 31. Januar).
-Die Bearbeitungszeit Ihrer Abschlussarbeit beginnt mit Start des 7. Fachsemesters (WiSe: 1. Oktober, SoSe: 15. März).
-Die Bearbeitungszeit Ihrer Abschlussarbeit endet drei Monate nach Beginn (WiSe: 31. Dezember, SoSe: 15. Juni).
-Ihr Gutachten und Ihre Note erhalten Sie bis zu Beginn des Folgesemester.
-*es kann aber auch z.B. das 7. Fachsemester sein.
+1. Die Wahl des Themas beginnt mit Beginn des 6. Fachsemesters*(SoSe: 15. März, WiSe: 1. Oktober).^[es kann aber auch z.B. das 7. Fachsemester sein]
+2. Themen (und damit eine verbindliche Zusage meinerseits) vergebe ich bis spätestens Mitte des 6. Fachsemesters (SoSe: 15. Mai, WiSe: 15. November). Nach diesem Termin ist eine Anmeldung (bei mir) erst wieder im Folgesemester möglich (s. Abbildung).
+3. Das Exposé muss bis Semesterende bei mir eingereicht sein (SoSe: 30. Juni, WiSe: 31. Dezember).
+4. Sie bekommen gegen Ende des Prüfungszeitraums schriftliches Feedback zu Ihrem Exposé (SoSe: 31. Juli, WiSe: 31. Januar).
+5. Die Bearbeitungszeit Ihrer Abschlussarbeit beginnt mit Start des 7. Fachsemesters (WiSe: 1. Oktober, SoSe: 15. März).
+6. Die Bearbeitungszeit Ihrer Abschlussarbeit endet drei Monate nach Beginn (WiSe: 31. Dezember, SoSe: 15. Juni).
+7. Ihr Gutachten und Ihre Note erhalten Sie bis zu Beginn des Folgesemester.
+
+
 
 Die nachfolgende Abbildung stellt die Fristen im Überblick dar.
 
@@ -202,7 +203,7 @@ Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben
 
 - Befolgen Sie die Art, Statistiken zu berichten laut APA bzw. DGPs, sofern Peters und Dörfler (2019) nicht andere Angaben machen.
 
-- Werten Sie quantitative Daten mit R aus.
+- Werten Sie quantitative Daten mit R oder Python aus.
 
 - Die Bayes-Methode ist gegenüber frequentistischen Ansätzen zu bevorzugen.
 
@@ -335,29 +336,29 @@ Ich bin ein Befürworter der "offenen Wissenschaft" (open science). Das bedeutet
 ### Merkmale einer sehr guten [schlechten] Abschlussarbeit
 
 #### Formalia
-Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis.
+- Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis.
 
-Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler].
+- Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler].
 
-Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen [nicht] zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig, sondern prägnant formuliert).
+- Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen [nicht] zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig, sondern prägnant formuliert).
 
 
 
 #### Methoden
-Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert.
+- Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert.
 
-Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus.
+- Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus.
 
-Es wurde sehr viel [wenig] empirisches Material (z. B. befragte Personen) ausgewertet.
+- Es wurde sehr viel [wenig] empirisches Material (z. B. befragte Personen) ausgewertet.
 
 
 
 #### Inhalt
-Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert.
+- Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert.
 
-Ein roter Faden ist klar [nicht] ersichtlich.
+- Ein roter Faden ist klar [nicht] ersichtlich.
 
-Die Arbeit zeichnet sich nicht nur [weder] durch hohes Fachwissen, sondern auch [noch] durch wohl überlegte Argumentation aus.
+- Die Arbeit zeichnet sich nicht nur [weder] durch hohes Fachwissen, sondern auch [noch] durch wohl überlegte Argumentation aus.
 
 
 
@@ -370,39 +371,45 @@ Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bew
 
 
 ### Folgende Fehler können zum Durchfallen führen
-Die Textlänge (Hauptteil) ist zu kurz – ca. 20 % unter der formal angegeben Soll-Länge.
-Es liegen viele Zitierfehler im Text vor (z. B. 30 % fehlerbehaftete Zitationen).
-Es liegen viele Fehler im Literaturverzeichnis vor (z. B. 30 % fehlerbehaftete Zitationen).
-Es wurde die abgesprochene empirische Methode nicht verwendet.
-Das Literaturverzeichnis ist sehr kurz (weniger als 15 (Bachelor) bzw. 25 (Master) Quellen).
-Die Qualität des Literaturverzeichnisses ist gering (über 50 % Quellen von zweifelhafter Qualität, z. B. aus Ratgeber-Büchern).
-Die Lesbarkeit ist aufgrund der optischen Gestaltung oder gravierender Sprachmängel stark eingeschränkt (z. B. viele Rechtschreibfehler).
-Es findet sich ein oder mehrere Plagiate (weitere Konsequenzen sind möglich).
+- Die Textlänge (Hauptteil) ist zu kurz – ca. 20 % unter der formal angegeben Soll-Länge.
+- Es liegen viele Zitierfehler im Text vor (z. B. 30 % fehlerbehaftete Zitationen).
+- Es liegen viele Fehler im Literaturverzeichnis vor (z. B. 30 % fehlerbehaftete Zitationen).
+- Es wurde die abgesprochene empirische Methode nicht verwendet.
+- Das Literaturverzeichnis ist sehr kurz (weniger als 15 (Bachelor) bzw. 25 (Master) Quellen).
+- Die Qualität des Literaturverzeichnisses ist gering (über 50 % Quellen von zweifelhafter Qualität, z. B. aus Ratgeber-Büchern).
+- Die Lesbarkeit ist aufgrund der optischen Gestaltung oder gravierender Sprachmängel stark eingeschränkt (z. B. viele Rechtschreibfehler).
+- Es findet sich ein oder mehrere Plagiate (weitere Konsequenzen sind möglich).
 
 
 #### In quantitativen Arbeiten
 
-Es wird keine Inferenzstatistik verwendet.
-Der p-Wert oder die Post-Verteilung (und ihre Derivate) werden falsch interpretiert.
-Es wird keine Deskriptiv-Statistik berichtet.
-Hypothesen und Datenanalyse passen nicht zusammen.
-Die Stichprobe ist kleiner als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
+- Es wird keine Inferenzstatistik verwendet.
+- Der p-Wert oder die Post-Verteilung (und ihre Derivate) werden falsch interpretiert.
+- Es wird keine Deskriptiv-Statistik berichtet.
+- Hypothesen und Datenanalyse passen nicht zusammen.
+- Die Stichprobe ist kleiner als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
 
 #### In qualitativen Arbeiten
 
-Es werden keine Kategorien berichtet.
-Es werden nur wenig Kodierungen vorgenommen (unter 30).
-Es werden keine Kodierregeln berichtet.
-Die Stichprobe ist kleiner als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
+- Es werden keine Kategorien berichtet.
+- Es werden nur wenig Kodierungen vorgenommen (unter 30).
+- Es werden keine Kodierregeln berichtet.
+- Die Stichprobe ist kleiner als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
 
+#### In theoretischen Arbeiten
+
+- Es wurde ein stark verzerrtes Bild der einschlägigen Literatur berichtet.
+- Die Menge der verwendeten Literatur ist weniger als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
 
 
 
 ### Sonstige Hinweis
 
-- Für eine einfachere Kommunikation kontaktieren Sie mich per E-Mail.
+- Für eine einfachere Kommunikation kontaktieren Sie mich per E-Mail bei Fragen, die nur Sie betreffen. Bei Fragen von allgemeinem Interesse (z.B. "Bis wann müssen wir die Arbeit abgeben?") nutzen Sie bitte (sofern verfügbar) das Kursforum, damit die Kommilitonen auch von dem Austausch profitieren.
 
 - Kenntnis dieser Hinweise wird bei der Begutachtung vorausgesetzt.
+
+- Nichtbeachtung kann zu schlechteren Noten oder Durchfallen führen.
 
 - Meine Hinweise im Gutachten speise ich z.T. aus [diesem Fundus](https://sebastiansauer.github.io/textbausteine-korrektur/Textbausteine-Korrektur.html).
 

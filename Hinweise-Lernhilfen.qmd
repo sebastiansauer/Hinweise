@@ -74,7 +74,7 @@ Wenn Sie die Wahl haben, empfehle ich die Teilnahme in Präsenz, da der Lernerfo
 Online ist es meist schwieriger, sich zu konzentrieren.
 Aber auch online ist es möglich, den Stoff gut zu lernen, s. @fig-believe-in-you.
 
-![We believe in you! Image Credit: Allison Horst](img/monster_support.jpg){#fig-believe-in-you width="50%"}
+![We believe in you! Image Credit: Allison Horst](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/5ccff989-900e-4f2b-aece-55278b563cfa_rw_1920.png?h=e61fb9e7f31d490ebf29f9f69ea2977a){#fig-believe-in-you width="50%"}
 
 
 Bitte beachten Sie, dass bei einer Teilnahme in Präsenz eine aktive Mitarbeit erwartet wird.
@@ -133,7 +133,7 @@ Vermeiden Sie, das Lernen aufzuschieben. Bleiben Sie dran!$\square$
 
 ### Selbstlernkontrolle
 
-Für jedes Kapitel sind (am Kapitelende) Aufgaben eingestellt, jeweils mit Lösung.
+Für einige Kapitel sind (am Kapitelende) Aufgaben eingestellt, jeweils mit Lösung.
 Ein Teil dieser Aufgaben hat eine kurze, eindeutige Lösung (z.B. "42" oder "Antwort C");
 ein (kleiner) Teil der Aufgaben verlangen komplexere Antworten (z.B. "Welche Arten von Prioris gibt es bei `stan_glm()`?). 
 Nutzen Sie die Fragen mit eindeutiger, kurzer Lösung um sich selber zu prüfen.
