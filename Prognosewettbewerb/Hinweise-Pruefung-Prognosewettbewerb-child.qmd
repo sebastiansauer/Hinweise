@@ -333,7 +333,7 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 
 - Frage: "Kann ich die Prüfung *im* *Folgesemester wiederholen*, wenn ich durchgefallen bin? -- Antwort: Ja, das ist möglich. Lesen Sie dazu die Hinweise zu Wiederholungsprüfung.
 
-- Frage: "Gibt es eine *Musterlösung*?" -- Antwort: Die Fallstudien und Erläuterungen im Kursbuch bzw. aus dem Unterricht stellen alle Bestandteile bereit für eine sehr gute Note. Eine Musterlösung für die Fragestellung der Prüfung wird i.d.R. nicht veröffentlich, da damit u.U. die Prüfungen in den Folgesemestern einfacher wären, als es für Sie der Fall war.
+- Frage: "Gibt es eine *Musterlösung*?" -- Antwort: Die Fallstudien und Erläuterungen im Kursbuch bzw. aus dem Unterricht stellen alle Bestandteile bereit für eine sehr gute Note. Eine Musterlösung für die Fragestellung der Prüfung wird i.d.R. nicht veröffentlicht, da damit u.U. die Prüfungen in den Folgesemestern einfacher wären, als es für Sie der Fall war. Aber: Es gibt eine *Liste mit Lieblingsfehlern*, die typische Fehler und ihre Vermeidung/Lösung erläutert.
 
 
 
@@ -391,7 +391,7 @@ die Korrektheit Ihrer Note selbständig zu überprüfen.
 
 #### Einsichtnahme
 
-In der Regel gibt es keine "Einsichtnahme".
+In der Regel gibt es *keine "Einsichtnahme"*.
 Der Grund ist einfach: Sie bekommen mit der Note den Wert Ihrer Modellgüte mitgeteilt.
 Darüber hinaus wird (zumeist) keine Bewertung durchgeführt.
 In diesem Fall gibt es also neben der Modellgüte keine weiteren Korrekturhinweise und damit nichts, was eingesehen werden könnte.
@@ -454,6 +454,9 @@ Eine gute Modellierung auf den *Trainingsdaten* (z.B. hohes $R^2$) bedeutet nich
 
 8. Während der Prüfungsphase werden *keine* *inhaltlichen* Fragen ("wie macht man nochmal eine Log-Transformation?") und keine *technischen* Fragen ("wie installiert man nochmal ein R-Paket?") beantwortet. 
 
+9. Die eingereichten Arbeiten können automatisiert auf Plagiate überprüft werden. Gibt es substanzielle Überschneidungen zwischen zwei (oder mehr) Arbeiten, werden *alle* betreffenden Arbeiten mit *ungenügend* bewertet oder es folgt eine Abwertung der Note.
+
+
 
 
 ### Ich brauche Hilfe!
@@ -499,10 +502,6 @@ die die Rahmenbedingungen der Prüfungsleistung vorstellt.
 
 
 
-
-### Plagiatskontrolle
-
-Die eingereichten Arbeiten können automatisiert auf Plagiate überprüft werden. Gibt es substanzielle Überschneidungen zwischen zwei (oder mehr) Arbeiten, werden *alle* betreffenden Arbeiten mit *ungenügend* bewertet oder es folgt eine Abwertung der Note.
 
 
 
