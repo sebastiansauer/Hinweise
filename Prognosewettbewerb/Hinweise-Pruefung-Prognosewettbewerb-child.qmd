@@ -46,7 +46,7 @@ Je genauer Ihre Vorhersage, desto besser ist Ihr Prüfungsergebnis.
 
 
 
-### Vorhersage 
+### Überblick
 
 Neben der erklärenden, rückwärtsgerichteten Modellierung spielt insbesondere in der Praxis die *vorhersageorientierte* Modellierung eine wichtige Rolle: 
 Ziel ist es, bei gegebenen, neuen Beobachtungen die noch unbekannten Werte der Zielvariablen $y$ *vorherzusagen*, z.B. für neue Kunden auf Basis von soziodemographischen Daten den *Kundenwert* -- möglichst genau -- zu prognostizieren.
@@ -144,7 +144,9 @@ Die Materialien (oder Hinweise zum Bezugsort) finden Sie im entsprechenden Moodl
 
 
 
-### Zum Aufbau Ihrer Prognosedatei im CSV-Format
+### Zum Aufbau der einzureichenden Dateien
+
+#### Spaltennamen der CSV-Datei
 
 1. Die CSV-Datei muss aus genau *zwei* Spalten mit exakt folgenden *Spaltennamen* bestehen:
 
@@ -152,7 +154,6 @@ Die Materialien (oder Hinweise zum Bezugsort) finden Sie im entsprechenden Moodl
   b) `pred`: Der vorhergesagte Wert.
   
 2. Sofern nicht anderweitig definiert, entspricht die *ID* einer Beobachtung ihrer *Zeilennummer* (in der Reihenfolge, wie sie in der vom Prüfer ausgegebenen Datei vorliegt). Die erste Beobachtung (im Test-Sample) bekommt die ID `1`, die zweite Beobachtung die ID `2`, etc. Die ID ist als Zahl (reell oder ganzzahlig) zu formatieren.
-
 
 
 
@@ -167,8 +168,19 @@ Die Materialien (oder Hinweise zum Bezugsort) finden Sie im entsprechenden Moodl
    der CSV-Dateien verfälschen kann auch ohne dass man die Datei speichert.
 
 
+Tipp: Die CSV-Datei ist eine Textdatei. Öffnen Sie sie mit einem Texteditor, um zu sehen, ob sie sich "brav" öffnen lässt.
+Die ersten paar Zeilen Ihrer CSV-Datei im Texteditor sollten etwa so aussehen:
 
 
+```
+id, pred
+1, 231
+2, 324
+3, 123
+```
+
+
+#### Hinweise zu den einzureichenden Dateien
 
 
 1. Folgende *Dateiarten* sind einzureichen:
@@ -309,8 +321,19 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 <!-- - Zu Beginn des Skripts sollten die Daten von der vom Dozenten bereitgestellten URL importiert werden (*nicht* von der eigenen Festplatte, da das Skript sonst bei Dritten, wie Ihrem Prüfer, nicht lauffähig ist). -->
 
 
+#### Beachten Sie die FAQ-Liste
 
+- Frage: "Wieso haben Sie gesagt, meine *Arbeit wurde nicht eingereicht*. Ich habe doch eingereicht!". -- Antwort: Prüfen Sie, ob Sie die richtigen Dateien im richtigen Format eingereicht haben. Lesen Sie dazu auch die Hinweise oben.
 
+- Frage: "Kann man durchfallen, wenn die *CSV-Datei nicht richtig aufgebaut* ist?" -- Antwort: Ja, wenn die CSV-Datei mit der Prognose nicht richtig aufgebaut ist, führt das zum Nichtbestehen der Prüfung.
+
+- Frage: "Ich habe statt einer CSV-Datei eine *Excel-Datei mit den Prognosen* eingereicht. Das ist doch auch okay, oder? -- Antwort: Nein, eine Excel-Datei ist nicht zulässig.
+
+- Frage: "Wie kann ich Ihre *Korrektur einsehen*? -- Antwort: Die Korrektur ist die Angabe Ihrer Vorhersage- bzw. Modellgüte. Diese habe ich Ihnen mitgeteilt. Es steht Ihnen frei, diesen Kennwert nachzurechnen ggf. mich anzusprechen, falls Sie zu einem anderen Wert kommen.
+
+- Frage: "Kann ich die Prüfung *im* *Folgesemester wiederholen*, wenn ich durchgefallen bin? -- Antwort: Ja, das ist möglich. Lesen Sie dazu die Hinweise zu Wiederholungsprüfung.
+
+- Frage: "Gibt es eine *Musterlösung*?" -- Antwort: Die Fallstudien und Erläuterungen im Kursbuch bzw. aus dem Unterricht stellen alle Bestandteile bereit für eine sehr gute Note. Eine Musterlösung für die Fragestellung der Prüfung wird i.d.R. nicht veröffentlich, da damit u.U. die Prüfungen in den Folgesemestern einfacher wären, als es für Sie der Fall war.
 
 
 
@@ -383,7 +406,7 @@ die Sie auch in Ihrer eigenen Analyse finden.
 
 
 
-### Freie Wahl in der Methodik 
+#### Freie Wahl in der Methodik 
 
 Sie haben *freie Wahl bei der Modellierung und Vorverarbeitung*. Nutzen Sie den Stoff wie im Unterricht gelernt; Sie können aber auch auf weitere Inhalte, die nicht im Unterricht behandelt wurden, zugreifen. (Die freie Wahl gilt nicht für die Formalia und Randbedingungen; auch nicht für die zu verwendende Software und Programmiersprachen.)
 
