@@ -47,13 +47,14 @@ Nicht relevant sind die verlinkte externe Inhalte, d.h. Inhalte von Internetadre
 
 1. Wenn Sie bei einer Prüfung durchgefallen sein sollten, so haben Sie grundsätzlich die Möglichkeit, die *Prüfung zu wiederholen*.
 2. Denken Sie daran, sich *rechtzeitig* für Prüfungsleistungen *anzumelden*; beachten Sie die Fristen. Beim Zweit- bzw. Drittversuch gelten besondere Regeln und Fristen. Informieren Sie sich umfassend.
-3. Die *Termine* für die *Wiederholungsprüfungen* werden stets zusammen/zeitgleich mit denen der regulären Prüfungen bekannt gegeben. 
+3. Die *Termine* für die *Wiederholungsprüfungen* werden stets zusammen/zeitgleich mit denen der regulären Prüfungen bekannt gegeben (in der Regel im Moodlekurs, in dessen Rahmen auch die ursprüngliche Prüfung statt fand). 
 3. Relevanter Stoff und formale Bedingungen (wie Prüfungsform) sind *grundsätzlich identisch zur letzten abgehaltenen Prüfung des Moduls* (d.h. sofern nicht anders angegeben). Daher sind Wiederholungsprüfungen vom Anspruch vergleichbar wie die reguläre Klausur. Die Prüfungen sollen möglichst gleich vom Anspruch sein, um Fairness zu gewährleisten.
 3. Beachten Sie immer die *Hinweise*, die für die Wiederholungsprüfung angegeben sind. Im Einzelfall keine eine Wiederholungsprüfung von der vorherigen Prüfung stärker abweichen. Es gelten immer die Regeln, die dis Dozenti bei der jeweiligen Wiederholungsprüfung veröffentlicht hat.
+4. In der Regel werden alle weiteren *Hinweise* (wie z.B. die Themenvergabe) im *gleichen* *Moodlekurs* veröffentlich, in dessen Rahmen auch die ursprüngliche Prüfung ablief.
 2.  Wird ein *Modul im laufenden Semester* angeboten, so gibt es keine Wiederholungsprüfung. Stattdessen können Sie ggf. an der regulären Klausur des Moduls teilnehmen. Es gilt der aktuelle Stoff bzw. die aktuellen formalen Bedingungen. Es ist möglich, dass der Stoff sich dann substanziell ändert; meist halten sich die Änderungen (im Stoff) aber in Rahmen.
 3. Wird ein Modul im laufenden Semester nicht angeboten, gibt es eine *Wiederholungsprüfung.* 
 2.  Sprechen Sie die *Moduldozentis an für Details zur Prüfung* (bzw. lesen Sie vorab auf jeweiligen Modulseite in Moodle nach).
-2.  Manchmal fragen Studentis nach einer *Empfehlung*, ob es besser ist, eine Prüfung zu verschieben, wenn man sich nicht ausreichend vorbereiten konnte. Es ist schwer, eine Empfehlung pauschal abzugeben; es kommt auf den Einzelfall an. Grundsätzlich rate ich aber dazu, Prüfungen nicht zu verschieben: Schließlich könnte in einem folgenden Semester wieder ein unvorhergesehenes Problem auftreten.
+2.  Manchmal fragen Studentis nach einer *Empfehlung*, ob es besser ist, eine Prüfung zu verschieben, wenn man sich nicht ausreichend vorbereiten konnte. Es ist schwer, eine Empfehlung pauschal abzugeben; es kommt auf den Einzelfall an. Grundsätzlich rate ich aber dazu, *Prüfungen nicht zu verschieben*: Schließlich könnte in einem folgenden Semester wieder ein unvorhergesehenes Problem auftreten. Und was man erledigt hat, hat man erledigt :-)
 2.  Bei Fragen zum *Prüfungsrecht* sprechen Sie bitte die *Studienberatung* an.
 3. Handelt es sich bei der Prüfung um eine Projektarbeit (oder vergleichbare Leistung), so ist als Wiederholungsprüfung ein *neues Thema* zu bearbeiten. Das "alte" (nicht eingereichte) Thema darf *nicht* weitergeführt werden, da sonst die Bearbeitungszeit unzulässigerweise zu lange wäre (z.B. ein Jahr).
 
@@ -162,8 +163,9 @@ Bitte halten Sie folgende Reihenfolge ein:
 
 
 1. *Prüfungseinsicht*: Schauen Sie sich die Aufgabe und Bewertung genau an. 
-2. Gespräch mit *Gutachter*: Sprechen Sie mit Isis Gutachti, vielleicht kann man in einem Gespräch etwaige Missverständnisse klären.
-3. *Widerspruch* einlegen: Sie können formlos beim Studierendenservice Widerspruch einlegen (bis 4 Wochen nach Notenbekanntgabe). Ihr Widerspruch wird dann in der Fakultät geprüft. Studierendenservice lässt sich die Unterlagen des Prüfers geben und leitet den Widerspruch und die Prüfung an den Prüfungsausschuss weiter. Dieser entscheidet über die Note. Nur im Zweifelsfall kommt hier noch der Zweitprüfer ins Spiel.
+2. *Formale Hinweise*: Lesen Sie sich die formalen Hinweise zur Prüfung, ihren Anforderungen und typischen Fehlern genau durch, um zu sehen, ob Ihr Kritikpunkt nicht vielleicht in den Hinweisen zur Prüfung schon aufgegriffen wird.
+2. Gespräch mit *Gutachter*: Sprechen Sie mit der Lehrkraft, versichern Sie zunächst, dass Sie alle Hinwiese gelesen haben. Vielleicht kann man in einem Gespräch etwaige Missverständnisse klären.
+3. *Widerspruch* einlegen: Sie können formlos beim Studierendenservice Widerspruch einlegen (bis 4 Wochen nach Notenbekanntgabe). Ihr Widerspruch wird dann in der Fakultät geprüft. Der Studierendenservice lässt sich die Unterlagen des Prüfers geben und leitet den Widerspruch und die Prüfung an den Prüfungsausschuss weiter. Dieser entscheidet über die Note. Nur im Zweifelsfall kommt hier noch der Zweitprüfer ins Spiel.
 4. Der *Rechtsweg* steht Ihnen offen.
 
 
@@ -193,7 +195,8 @@ Folgenden Kritikpunkte von Studentis haben *Aussicht* auf eine *Änderung* der N
 
 - Legen Sie regelmäßig *Sicherheitskopien* Ihrer Projektarbeit an (ggf. auf einem anderen Datenträger).
 - Achten Sie darauf, dass Sie *nicht mit den Versionen durcheinander* kommen, in welcher Datei der aktuelle Stand Ihrer Projektarbeit liegt.
-- Lesen Sie die *Hinweise* sorgfältig durch.
+- Lesen Sie die *Hinweise* sorgfältig durch, v.a. solche zu Prüfungsbedingungen.
 - Teilen Sie sich die *Zeit* entsprechend ein.
+
 
 
