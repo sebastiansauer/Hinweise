@@ -16,9 +16,6 @@
 
 1. Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an geeignetem Ort bekannt gegeben.
     
-2. Es wird erwartet, dass Sie als Versuchsperson an den *Studien der Kommilitonis teilnehmen*, falls nötig.
-    
-2. Sie führen eine *eigene empirische Studie* durch und verfassen dazu einen Bericht; dabei stützen Sie sich i. d. R. auf selber erhobene Daten.
 
 2. Gegenstand der Arbeit ist die *Dokumentation aller Phasen der Studie* des jeweiligen Forschungsteams. 
 
@@ -77,6 +74,12 @@
 
 1. Die Methoden des *wissenschaftlichen Arbeiten* in Recherche, Zitat und Darstellung werden angewandt.
 
+2. Die Herangehensweise muss auf wissenschaftlicher Methodik beruhen, unabhängig davon, ob (insgesamt oder in bestimmten Teilen der Arbeit) empirisch auf (rein) auf Literaturbasis gearbeitet wird.
+
+
+
+### Spezifika quantitativer Arbeiten
+
 1. Wenden Sie die Methoden *quantitativer* Datenanalyse an.
 
 2. Werten Sie mit quantitative Fragestellungen komplett mit *R* aus.
@@ -84,6 +87,10 @@
 25. Für *inferenzstatistische Fragestellungen* sind *Bayes-Methoden* (bevorzugt) oder frequentistische Methoden einzusetzen.
 
 4. Tabellen (z.B. mit Daten) müssen nicht mit R erstellt sein, sondern können auch von "von Hand" erstellt sein (z.B. mit Word).
+
+2. Es wird erwartet, dass Sie als Versuchsperson an den *Studien der Kommilitonis teilnehmen*, falls nötig.
+    
+2. Sie führen eine *eigene empirische Studie* durch und verfassen dazu einen Bericht; dabei stützen Sie sich i. d. R. auf selber erhobene Daten.
 
 
 
@@ -100,7 +107,7 @@
 14. *Open Science*: Reichen Sie ggf. die Rohdaten und ggf. Syntax (elektronisch) ein. Verweisen Sie ggf. im Anhang auf eine Datei, die Sie hochladen, in der die entsprechenden Informationen zu finden sind.
 
 
-16. Das Thema muss einen *direkten empirisch-psychologischen Bezug* haben; die Forschungsfrage muss psychologisch relevante Aspekte adressieren.
+16. Das Thema soll einen *direkten psychologischen Bezug* aufweisen; eine Forschungsfrage soll psychologisch relevante Aspekte adressieren.
 
 
 
@@ -108,9 +115,8 @@
 
 24. Aus Gründen der Fairness und Effizient werden inhaltliche *Fragen* von Studierenden *nur öffentlich*, z. B. im Unterricht oder im Online-Forum, beantwortet (nicht per Mail).
 
-
-
-
+25. Projektmanagement wie das Einteilen der zur Verfügung stehenden Zeit oder Dokumentenmanagement sind Gegenstand der Prüfung. 
+Prüfungsteilnehmer:innen sind dafür eigenständig verantwortlich.
 
 
 ## Benotung
@@ -124,7 +130,7 @@
 
 2. Die drei Teilaspekte sind
     - *Formalia* (u.a. Aufbau, Gestaltung, Rechtschreibung, Zitierweise, Literaturverzeichnis, Umfang)
-    - *Methodik* (u.a. Methodenauswahl, Methodenanwendung, Interpetation)
+    - *Methodik* (u.a. Methodenauswahl, Methodenanwendung, Interpetation der Ergebnisse)
     - *Inhalt* (u.a. Gliederung, Argumentation, Literaturnutzung, sprachlicher Ausdruck, Problemlösung, Reflexion)
     
 2. Falls Teilnoten vergeben werden, muss sich die Gesamtnote *nicht* als arithmetisches Mittel der Teilnoten ergeben.
@@ -154,6 +160,9 @@ Der Anspruch an eine *gute* Arbeit ist wie folgt zu fassen (die Angaben beziehen
 
 - Überwiegende Verwendung von *Literatur hoher Qualität* (Fachartikel, peer-reviewed)
 - Ca. *15-20 Quellen* (hoher Qualität) oder mehr im Literaturverzeichnis
+
+Bei empirischen Arbeiten:
+
 - Stichprobengröße (ca.)
   - Experimentell: *Between-Design: 20-30 Fälle*, Within-Design: 20 Fälle
   - Beobachtend: 50-100 Fälle bei Einzelarbeiten
@@ -164,37 +173,6 @@ Der Anspruch an eine *gute* Arbeit ist wie folgt zu fassen (die Angaben beziehen
 
 Aufgrund der hohen individuellen Unterschiede von Forschungsfragen können nur ein grober Rahmen aufgezeigt werden.
 
-
-
-### Substanzielle Fehler
-
-*Substanzielle* Fehler können zum *Durchfallen* oder zum deutlichem Abwerten der Note führen. Beispiele für solche Fehler sind:
-
-1. Formalia
-
- - Die Textlänge (Hauptteil) ist zu *kurz* – ca. 20 % unter der formal angegeben Soll-Länge.
-  - Es liegen viele *Zitierfehler* im Text vor (z. B. 30 % oder mehr bzw. 10 oder mehr Fehler).
-  - Es liegen viele Fehler im *Literaturverzeichnis* vor (z. B. 30 % oder mehr bzw. 10 oder mehr Fehler).
-  - Es wurde die geforderte *empirische Methode* nicht verwendet.
-  - Es findet sich ein oder mehrere *Plagiate* (weitere Konsequenzen sind möglich).
-  - Die Versionen der Gruppenmitglieder (bei Gruppenarbeiten) unterscheiden sich.
-  - Es finden sich nicht zitierte Quellen im Literaturverzeichnis. 
-    
-2. Inhaltliche Mängel
-
-  - Das *Literaturverzeichnis* ist sehr ku*rz (weniger als 50% der empfohlenen Zahl von Quellen).
-  - Die *Qualität* des Literaturverzeichnisses ist gering (über 50 % Quellen von zweifelhafter Qualität, z. B. aus Ratgeber-Büchern).
-  - Die *Lesbarkeit* ist aufgrund der optischen Gestaltung oder gravierender Sprachmängel stark eingeschränkt (z. B. viele Rechtschreibfehler).
-    
-3. Methodische Mängel
-
-  - Es wird *keine Inferenzstatistik *verwendet.
-  - Zentrale Koeffizienten werden falsch interpretiert.
-  - Es wird keine/kaum Deskriptiv-Statistik berichtet.
-  - Forschungsfragen bzw. Hypothese und Datenanalyse passen nicht zusammen.
-    
-    
-    
 
 
 

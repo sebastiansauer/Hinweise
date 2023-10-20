@@ -1,5 +1,7 @@
 
 
+## Überblick über typische Fehler
+
 1. *Fachlich dünn*: Die Anzahl von guten Quellen (z. B. Fachartikel) ist gering; der Autor kennt sein Thema zu wenig. Es findet kaum Rückbezug der eigenen Studie/Daten auf die Literatur statt.
 
 2. *Stoff nicht ausreichend reflektiert*: Es werden Fakten aneinander gereiht, ohne dass ist, ob sich mit dem Stoff auseinander gesetzt wurde (z. B. werden Stärken/Schwächen einzelner Texte nicht diskutiert).
@@ -9,3 +11,40 @@
 4. *Zahlen irreführend präsentiert*: Statistiken wie werden unvollständig präsentiert oder die Anzahl der Nachkommastellen ist zu hoch oder inkonsistent.
 
 5.  *Selbstkritik fehlt*: Stärken und Schwächen der eigenen Art werden nicht diskutiert.
+
+
+
+## Beispiele für substanzielle Fehler
+
+*Substanzielle* Fehler können zum *Durchfallen* oder zum deutlichem Abwerten der Note führen. Beispiele für solche Fehler sind:
+
+1. Formalia
+
+ - Die Textlänge (Hauptteil) ist zu *kurz* – ca. 20 % unter der formal angegeben Soll-Länge.
+  - Es liegen viele *Zitierfehler* im Text vor (z. B. 30 % oder mehr bzw. 10 oder mehr Fehler).
+  - Es liegen viele Fehler im *Literaturverzeichnis* vor (z. B. 30 % oder mehr bzw. 10 oder mehr Fehler).
+  - Es wurde die geforderte *empirische Methode* nicht verwendet.
+  - Es findet sich ein oder mehrere *Plagiate* (weitere Konsequenzen sind möglich).
+  - Die Versionen der Gruppenmitglieder (bei Gruppenarbeiten) unterscheiden sich.
+  - Es finden sich nicht zitierte Quellen im Literaturverzeichnis. 
+    
+    
+    
+2. Inhaltliche Mängel
+
+  - Das *Literaturverzeichnis* ist sehr ku*rz (weniger als 50% der empfohlenen Zahl von Quellen).
+  - Die *Qualität* des Literaturverzeichnisses ist gering (über 50 % Quellen von zweifelhafter Qualität, z. B. aus Ratgeber-Büchern).
+  - Die *Lesbarkeit* ist aufgrund der optischen Gestaltung oder gravierender Sprachmängel stark eingeschränkt (z. B. viele Rechtschreibfehler).
+    
+    
+    
+3. Methodische Mängel
+
+  - Es wird *keine Inferenzstatistik *verwendet.
+  - Zentrale Koeffizienten werden falsch interpretiert.
+  - Es wird keine/kaum Deskriptiv-Statistik berichtet.
+  - Forschungsfragen bzw. Hypothese und Datenanalyse passen nicht zusammen.
+    
+    
+    
+

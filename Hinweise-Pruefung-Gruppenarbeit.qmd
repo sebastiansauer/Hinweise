@@ -23,7 +23,7 @@ Zu dem der *Hauptkapitel* des Berichts (z.B. Theorie, Methode, Ergebnis, Diskuss
 Geben Sie den Namen in geeigneter Form an, z.B. in einer Fußnote zu der Kapitelüberschrift.
 Eine Aufteilung der Hauptkapitel auf mehrere Personen eines Teams ist nicht zulässig.
 
-Die *Einleitung* soll *gemeinsam* unter Verwendung eines Textgenerators (z.B. ChatGPT) verfasst (und diskutiert) werden.
+Die *Einleitung* soll *gemeinsam*  verfasst werden.
 
 
 
@@ -32,7 +32,8 @@ Die *Einleitung* soll *gemeinsam* unter Verwendung eines Textgenerators (z.B. Ch
 ## Benotung
 
 
-2. *Einzelnote*: Jedes Mitglieder einer Arbeitsgruppe erhält eine eigene, individuelle Note. Die Noten der Gruppenglieder müssen daher nicht identisch sein (können aber). Alle Kommentare des Gutachters sind mit dem Namen (bzw. Namenskürzel) derjenigen Person versehen, an die der Kommentar gerichtet ist. In die Note (eines bestimmten Gutachtens) fließen nur Abschnitt ein, die von der/dem angegebenen Verfasser:in verfasst wurden sowie diejenigen Abschnitte, die nicht namentlich gekennzeichnet wurden (nur relevant bei Gruppenarbeiten). Kommentare zu Abschnitten, die ohne Namen in der Prüfungsleistung angegeben sind, werden auch ohne Namenshinweis aufgeführt.
+1. *Einzelnote*: Jedes Mitglieder einer Arbeitsgruppe erhält eine eigene, individuelle Note. Die Noten der Gruppenglieder müssen daher nicht identisch sein (können aber). Alle Kommentare des Gutachters sind mit dem Namen (bzw. Namenskürzel) derjenigen Person versehen, an die der Kommentar gerichtet ist. In die Note (eines bestimmten Gutachtens) fließen nur Abschnitt ein, die von der/dem angegebenen Verfasser:in verfasst wurden sowie diejenigen Abschnitte, die nicht namentlich gekennzeichnet wurden (nur relevant bei Gruppenarbeiten). Kommentare zu Abschnitten, die ohne Namen in der Prüfungsleistung angegeben sind, werden auch ohne Namenshinweis aufgeführt.
+
 2. Beachten Sie, dass die *Noten der Prüflinge einer Gruppe identisch sein können* (aber nicht müssen).
 Beachten Sie auch, dass es Aspekte eines Projekts gibt, die auf die Arbeitsteile mehrerer Gruppenmitglieder Auswirkung haben. Beispiel: Die theoretische Grundlage einer Forschungsfrage hat Auswirkung auf das zu wählende Forschungsdesign, was wiederum auf die Auswertungsmethodik auswirkt. Schließlich ist die Diskussion der Schwächen der Studien abhängig von den anderen Teilen bzw. dem Vorgehen im Projekt.
 
@@ -41,10 +42,10 @@ Beachten Sie auch, dass es Aspekte eines Projekts gibt, die auf die Arbeitsteile
 ## Formalia
 
 
-1. Wenn eine Gruppenarbeit als Prüfungsform definiert ist sind *Einzelarbeiten grundsätzlich nicht zulässig*.
+1. Wenn eine Gruppenarbeit als Prüfungsform definiert ist sind *Einzelarbeiten grundsätzlich nicht zulässig*. Umgekehrt sind Gruppenarbeiten (grundsätzlich) nicht zugelassen, wenn die Prüfungsform als Einzelarbeit definiert ist.
 
 
-2. Die *Anzahl der teilnehmenden Personen* (min., max.) einer Arbeitsgruppe wird von der Prüfperson bekanntgegeben.
+2. Die *Anzahl der teilnehmenden Personen* (min., max.) einer Arbeitsgruppe wird von der Prüfperson bekanntgegeben (z.B. min:2, max:4).
 
 <!-- 3. *Abschnittsverantwortliche*: Jedes Kapitel  muss mit genau einem Namen ausgewiesen sein. Der Namen der/des Autor*in soll als Fußnote an die jeweilige Überschrift angefügt sein. -->
 
