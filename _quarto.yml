@@ -31,6 +31,8 @@ book:
       chapters: 
         - Beispiele-Fehler-Prognosewettbewerb-frame.qmd
         - Beispiele-Fehler-Datenanalyse-frame.qmd
+        - Beispiele-Fehler-Projektarbeiten-frame.qmd
+        
   
 lang: de
 

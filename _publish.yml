@@ -1,0 +1,4 @@
+- source: project
+  netlify:
+    - id: a862a78b-62c7-4ce2-ab61-5f7ef7afc52d
+      url: 'https://candid-zuccutto-92abe1.netlify.app'
