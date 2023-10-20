@@ -40,7 +40,9 @@ lang: de
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: quartz
+      dark: darkly
 
 
 
