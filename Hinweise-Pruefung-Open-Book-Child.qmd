@@ -105,10 +105,10 @@ Immer wieder kommt es vor, dass Studierende Beanstandungen zu einer Prüfung vor
 
 ### Prüfungseinsicht
 
-Eine Prüfungseinsicht wird jedes Mal bereit gestellt (online).
+Eine Prüfungseinsicht wird für jede Prüfung dieser Art dieses Dozenten bereit gestellt (online).
 Der Termin wird allen Prüflingen rechtzeitig bekannt gegeben.
 Zur Prüfungseinsicht öffnen Sie bitte Ihre Aufgabenstellung.
-Die Musterlösung wird dann angezeigt.
+Die Musterlösung sowie Ihre Antwort inkl. Bewertung (richtig/falsch) wird dann angezeigt.
 
 
 
