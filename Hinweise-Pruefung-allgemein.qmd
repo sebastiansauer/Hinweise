@@ -4,7 +4,7 @@
 
     
 
-### Grundsätzliches
+## Grundsätzliches
 
 Die folgenden Hinweise gelten *grundsätzlich*, 
 d.h. *soweit nicht anders* in der jeweiligen Prüfung bzw. der jeweiligen Aufgabe angegeben.
@@ -18,7 +18,7 @@ d.h. *soweit nicht anders* in der jeweiligen Prüfung bzw. der jeweiligen Aufgab
 
 
 
-### Prüfungsrelevanter Stoff
+## Prüfungsrelevanter Stoff
 
 *Prüfungsrelevanter* Stoff ist alles, was im Unterricht behandelt wurde, sofern es nicht explizit (und schriftlich) als "nicht prüfungsrelevant" oder als "Vertiefung" gekennzeichnet ist.
 Insbesondere ist der komplette Inhalt des Skripts und sonstiger vom Dozenten eingestellter Unterlagen prüfungsrelevant (sofern nicht in Teilen anderweitig gekennzeichnet).
@@ -28,7 +28,7 @@ Nicht relevant sind die verlinkte externe Inhalte, d.h. Inhalte von Internetadre
 
 
 
-### Teilnahmebedingungen
+## Teilnahmebedingungen
 
 1. Eine *Prüfungsleistung* darf nur *eingereicht* werden, wenn Sie (erfolgreich) zur Prüfung *angemeldet* sind. Eine abgegebene/hochgeladene Arbeit, die nicht erfolgreich angemeldet ist, gilt nicht als erfolgreich eingereicht.
 1.  Die Prüfung ist selbständig, also alleine nur durch Sie (Prüfling), *ohne Hilfe Dritter*, zu absolvieren.
@@ -43,7 +43,7 @@ Nicht relevant sind die verlinkte externe Inhalte, d.h. Inhalte von Internetadre
 2.  Es darf *nicht* mit anderen Personen, insbesondere nicht Prüflingen, *kommuniziert* werden während der Prüfung. Dies gilt auch für den Fall von (vermeintlichen) technischen Problemen. Kontaktieren Sie den Prüfer, wenn Sie meinen, es liege ein technisches Problem vor.
 
 
-### Wiederholungsprüfungen
+## Wiederholungsprüfungen
 
 1. Wenn Sie bei einer Prüfung durchgefallen sein sollten, so haben Sie grundsätzlich die Möglichkeit, die *Prüfung zu wiederholen*.
 2. Denken Sie daran, sich *rechtzeitig* für Prüfungsleistungen *anzumelden*; beachten Sie die Fristen. Beim Zweit- bzw. Drittversuch gelten besondere Regeln und Fristen. Informieren Sie sich umfassend.
@@ -66,10 +66,10 @@ Nicht relevant sind die verlinkte externe Inhalte, d.h. Inhalte von Internetadre
 
 
 
-###  Organisatorische Hinweise
+##  Organisatorische Hinweise
 
 
-#### Allgemeines
+### Allgemeines
 
 1.  Etwaige weitere *Stoffeingrenzungen* werden schriftlich bekannt gemacht (auf der Modulseite). Besondere Schwerpunkte gibt es nicht.
 2.  Soweit bestimmte Inhalte nicht explizit ausgeschlossen sind, sind alle Inhalte, die im Rahmen des Moduls bearbeitet wurden, *prüfungsrelevant.*
@@ -86,13 +86,13 @@ Nicht relevant sind die verlinkte externe Inhalte, d.h. Inhalte von Internetadre
 
 
 
-#### Technische Probleme während der Prüfung
+### Technische Probleme während der Prüfung
 
 Im Falle eines technischen Problems auf Seiten der *Prüfungsinfrastruktur* ist sofort der Prüfer zu informieren. Ein Beispiel für so ein Problem wäre etwa der Ausfall von Moodle. Der technische Fehler ist zu dokumentieren (z.B. Screenshot) und die Dokumentation ist einzureichen. Bitte beachten Sie, dass der Prüfer bzw. die Hochschule keine Gewähr übernimmt für Probleme mit Ihrer eigenen Ausstattung. 
 
 
 
-#### Zeitrahmen der Prüfung
+### Zeitrahmen der Prüfung
 
 Die Prüfung beginnt und endet zu einem festen Zeitpunkt. Sie sind selber verantwortlich, die Prüfung zur korrekten Zeit zu beginnen und zu beenden (einzureichen). Verspätete Abgaben werden u.U. als nicht bestanden gewertet. Die Dauer der Prüfung wird Ihnen von Ihrer Prüferin bzw. Ihrem Prüfer bekannt gegeben. 
 
@@ -108,7 +108,7 @@ Die Prüfung beginnt und endet zu einem festen Zeitpunkt. Sie sind selber verant
 
 
 
-### Anspruch
+## Anspruch
 
 In die Notengebung fließt folgende Konzeption zum Anspruch an die Prüfungsarbeit ein:
 
@@ -124,7 +124,7 @@ Als "behandelter" Stoff gelten alle Inhalte, die als *prüfungsrelevant* gekennz
 
 
 
-### Plagiate
+## Plagiate
 
 Lassen Sie äußerste Vorsicht walten, dass sich keine Plagiate in Ihrer Abschlussarbeit finden. 
 Finden sich Plagiate, so wird die Arbeit mit "nicht bestanden" beurteilet. 
@@ -153,7 +153,7 @@ Eine faire Prüfung heißt: *Gleiche Chancen für alle*, und *gute Leistung wird
 
 
 
-### Widerspruch einlegen
+## Widerspruch einlegen
 
 
 Falls Sie der Meinung sind, der Gutachter hätte Ihre Arbeit nicht korrekt beurteilt, 
@@ -191,7 +191,7 @@ Folgenden Kritikpunkte von Studentis haben *Aussicht* auf eine *Änderung* der N
 - Die Aufgabenstellung war *missverständlich* ("Erläutern Sie den Hintergrund: 'Islamistische Selbstmordattentäter wollen als Mehrtürer sterben.'")
 
 
-### Tipps
+## Tipps
 
 - Legen Sie regelmäßig *Sicherheitskopien* Ihrer Projektarbeit an (ggf. auf einem anderen Datenträger).
 - Achten Sie darauf, dass Sie *nicht mit den Versionen durcheinander* kommen, in welcher Datei der aktuelle Stand Ihrer Projektarbeit liegt.

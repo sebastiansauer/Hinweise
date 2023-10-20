@@ -1,6 +1,6 @@
+# Poster
 
-
-# Posterpräsentation
 
 
 {{< include Hinweise-Pruefung-Poster-Child.qmd >}}
+

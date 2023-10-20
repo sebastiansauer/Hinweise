@@ -1,0 +1,6 @@
+# Prognosewettbewerb
+
+
+
+{{< include Prognosewettbewerb/Hinweise-Pruefung-Prognosewettbewerb-Child.qmd >}}
+

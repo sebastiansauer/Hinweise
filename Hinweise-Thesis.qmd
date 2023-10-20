@@ -3,7 +3,7 @@
 <!-- ## Hinweise zur Thesis -->
 
 
-### Willkommen
+## Willkommen
 
 Liebe Studentin, lieber Student,
 
@@ -19,14 +19,14 @@ Bitte bedenken Sie, dass die hier formulierten Erwartungen an Sie nicht zum Komf
 
 
 
-### Themenwahl
+## Themenwahl
 Sie können selber ein Thema vorschlagen oder eines der Themen wählen, die ich unter freie Themen anbiete. Das Thema soll in Bezug stehen zu Ihrem Studiengang.  Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
 Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodikk.
 
 
 
 
-### Wahl des Themas und dis Gutachtis der Abschlussarbeit
+## Wahl des Themas und dis Gutachtis der Abschlussarbeit
 
 
 @fig-anmeldung zeigt den Ablauf der Abschlussarbeit mit einem Fokus auf die Vorbereitung, also der Wahl Ihres Themas bzw. die Absprache des Themas mit dem Gutachter.
@@ -67,7 +67,7 @@ Bitte beachten Sie, dass ich Themen erst dann reserviere, wenn Sie verbindlich z
 
 
 
-### Fristen
+## Fristen
 
 Bitte beachten Sie, dass es für die Anmeldung und Bearbeitung Ihrer Abschlussarbeit definierte Fristen gibt.
 
@@ -93,7 +93,7 @@ Bitte beachten Sie, dass es für die Anmeldung und Bearbeitung Ihrer Abschlussar
 
 
 
-### Wie und wann helfen Sie mir bei meiner Abschlussarbeit?
+## Wie und wann helfen Sie mir bei meiner Abschlussarbeit?
 
 Grundsätzlich sollen Sie in der Abschlussarbeit zeigen, dass Sie befähigt sind, selbständig ein wissenschaftliches Problem zu lösen bzw. eine Problemstellung zu untersuchen, vgl. §28 Absatz 1 der APO. Ihre Selbständigkeit ist Teil meiner Erwartung; im Rahmen Ihres Studiums sollten Sie sich alle notwendigen Kompetenzen für die Abschlussarbeit angeeignet haben. Es können aber unerwartete, neue Probleme auftreten (wie eine Datenlage, die ungewöhnliche statistische Verfahren erfordert). In diesem Fall stehe ich Ihnen beratend zur Seite. Ansonsten und grundsätzlich sollten Sie selbständig arbeiten.
 
@@ -109,7 +109,7 @@ Eine wichtige Hilfe, die ich Ihnen gebe, ist ein Feedback zu Ihrem Exposé (s. u
 
 
 
-### Schreiben Sie ein Exposé
+## Schreiben Sie ein Exposé
 
 Unterm Strich spart Ihnen das Exposé Zeit bzw. ist ein zentraler Baustein für die Qualität der Arbeit. Fehler können früh erkannt und vermieden werden. Die Zeit, die Sie ins Exposé investieren, ist gut investiert. Sie dürfen auch Teile des Exposés identisch in Ihrer Abschlussarbeit verwenden.
 
@@ -117,7 +117,7 @@ Wichtig ist, dass das Exposé Ihnen genau in dem Maße nützt, wie Sie Energie i
 
 
 
-#### Gliederungsvorschlag zu Ihrem Exposé
+### Gliederungsvorschlag zu Ihrem Exposé
 
 Das Exposé ist wie ein normaler wissenschaftlicher Bericht aufzubauen. Folgende Hauptteile sind sinnvoll:
 
@@ -133,7 +133,7 @@ optional: Projektplan (Zeit- und Arbeitsplan)
 
 
 
-#### Einige Hinweise zum Exposé
+### Einige Hinweise zum Exposé
 
 - Beschreiben Sie alle relevanten Aspekte prägnant, aber nur die relevanten Aspekte.
 
@@ -167,7 +167,7 @@ optional: Projektplan (Zeit- und Arbeitsplan)
 
 
 
-### Wie "groß" soll meine empirische Studie sein?
+## Wie "groß" soll meine empirische Studie sein?
 
 Hier folgt ein grobes Mengengerüst für die empirische Studie Ihrer Abschlussarbeit, damit Sie eine Einschätzung, wie viel "gut" ist (Teilnote 2). Dieses Mengengerüst passt nicht für alle Situationen. Bitte sprechen Sie mich im Zweifel darauf an bzw. begründen Sie Ihren Studienaufbau im Exposé und in der Thesis. 
 
@@ -213,7 +213,7 @@ Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben
 
 
 
-### Formalia
+## Formalia
 
 - Zur formalen (und inhaltlichen) Gestaltung sei dieses Buch empfohlen: "Peters, J. H., & Dörfler, T. (2019). Abschlussarbeiten in der Psychologie und den Sozialwissenschaften - Schreiben und Gestalten. München: Pearson Studium." In diesem Titel finden Sie viel Wertvolles zum Aufbau und Gestaltung Ihrer Abschlussarbeit. Formatieren Sie Ihre Arbeit *nicht* wie ein Manuskript nach APA-Vorlagen, das Sie bei einem Verlag einreichen, sondern wie einen Forschungsbericht (vgl. Peters & Dörfler, 2019, S. 3). Das beinhaltet auch, dass Sie nach APA/DGPs zitieren.
 
@@ -246,7 +246,7 @@ Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben
 
 
 
-### Wie viel soll ich schreiben?
+## Wie viel soll ich schreiben?
 
 - Der Umfang sollte im Bachelor ca. *10,000 - 12,000 Wörter im Hauptteil* (~30-50 Seiten insgesamt) betragen. Beachten Sie, dass die Wortzahl wichtiger ist als die Seitenzahl. Als "Hauptteil" gilt der Teil von der Arbeit ohne Deckblatt, Verzeichnisse, Anhang und Erklärungen.
 
@@ -258,7 +258,7 @@ Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben
 
 
 
-### Wie viel Literatur soll ich zitieren?
+## Wie viel Literatur soll ich zitieren?
 
 - Für eine gute Teilnote sollte Ihr Literaturumfang ca. *40-50 Quellen (Bachelor)* bzw.* 60-80 Quellen (Master)* betragen bei einer empirischen Arbeit. Bei einer *theoretischen* Arbeit ist mit dem Faktor 2 zu rechnen.
 
@@ -268,7 +268,7 @@ Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben
 
 
 
-### Sie sind bestimmt super streng, was die Methoden/Statistik betrifft?
+## Sie sind bestimmt super streng, was die Methoden/Statistik betrifft?
 
 - Ja :-)
 
@@ -282,7 +282,7 @@ Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben
 
 
 
-### Darf ich ein Thema wählen, das ich schon früher (z.B. in einer Seminararbeit) bearbeitet habe?
+## Darf ich ein Thema wählen, das ich schon früher (z.B. in einer Seminararbeit) bearbeitet habe?
 
 Sie dürfen ein Thema bearbeiten, welches *ähnlich* zu einer früheren Prüfungsleistung ist. Auf keinen Fall dürfen Sie das gleiche Thema einer früheren Seminararbeit als Thema Ihrer Thesis verwenden. Im Zweifelsfall sprechen Sie dazu mich oder die Prüfungsabteilung an. ABER: Sie dürfen ein Exposé, welches Sie explizit als Vorbereitung für Ihre Abschlussarbeit als Prüfungsleistung eingereicht haben, als Grundlage für Ihre Abschlussarbeit verwenden.
 
@@ -290,7 +290,7 @@ Sie dürfen ein Thema bearbeiten, welches *ähnlich* zu einer früheren Prüfung
 
 
 
-### Ein Wort zu Plagiaten
+## Ein Wort zu Plagiaten
 
 Lassen Sie äußerste Vorsicht walten, dass sich keine Plagiate in Ihrer Abschlussarbeit finden. Finde ich ein oder mehrere Plagiate, so werde ich die Arbeit mit "nicht bestanden" beurteilen. Eine Leistung als die eigene auszugeben, die aber gar nicht die eigene ist, ist Betrug. Bitte bedenken Sie auch, dass eine Ausrede wie "war keine Absicht, hab nicht aufgepasst" nicht ausreicht: Sie sind für die Qualität und Redlichkeit Ihrer Arbeit verantwortlich. In Ihrer Verantwortung liegt entsprechend die notwendige Sorgfalt, Plagiate zu vermeiden. Auch die Ausrede "Mein Literaturprogramm oder Word muss hier einen Fehler gemacht haben" wird nicht gelten gelassen werden. Hier gilt wieder: Sie sind für die Qualität und Redlichkeit Ihrer Abschlussarbeit verantwortlich; die Verantwortung ist nicht an eine Maschine delegierbar. Falls Sie Fragen zu dem Thema Plagiate haben, sprechen Sie mich jederzeit gerne an.
 
@@ -298,12 +298,12 @@ Lassen Sie äußerste Vorsicht walten, dass sich keine Plagiate in Ihrer Abschlu
 
 
 
-#### ... und zu unerlaubten Hilfsmitteln
+### ... und zu unerlaubten Hilfsmitteln
 Zu unerlaubten Hilfsmitteln zählen insbesondere die Hilfe Dritter sowie von künstlicher Intelligenz. Die Arbeit darf nur mit Hilfe erlaubter Hilfsmittel geschrieben werden. So ist es nicht zulässig, dass Teile Ihrer Arbeit von anderen Personen geschrieben, verbessert oder sonstig beeinflusst werden. Zu solchen unerlaubten Hilfsmitteln zählt auch das "Korrekturlesen" durch Dritte. Es ist weiter nicht zulässig, die Arbeit in Gänze oder Teilen von einer künstlichen Intelligenz (z.B. ChatGPT) schreiben zu lassen. Bei Fragen oder im Zweifel sprechen Sie bitte Ihre Betreuerin/Ihren Betreuer an. Das Verwenden von unerlaubten Hilfsmitteln kann von der Prüfungskommission mit Nichtbestehen der Prüfung geahndet werden.
 
 
 
-### Die Benotung Ihrer Thesis
+## Die Benotung Ihrer Thesis
 
 
 Die Benotungskriterien sind 1) Formalia, 2) Methodik, 3) Inhalt.
@@ -312,7 +312,7 @@ Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in
 
 
 
-#### Formalia
+### Formalia
 - Vollständigkeit (Verzeichnisse, Anhänge, Erklärungen)
 
 - Gestaltung 
@@ -327,7 +327,7 @@ Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in
 
 
 
-#### Methoden
+### Methoden
 - Methodenauswahl (Problembezug)
 
 - Methodenanwendung (Problemlösungsbezug, Angemessenheit, Nachvollziehbarkeit)
@@ -336,7 +336,7 @@ Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in
 
 
 
-#### Inhalt - nicht-empirische Teile
+### Inhalt - nicht-empirische Teile
 - Gliederung (Logik, Problembezogenheit, Stringenz)
 
 - Problemstellung und Zielsetzung (nachvollziehbare Herleitung)
@@ -353,16 +353,16 @@ Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in
 
 
 
-### Open Science
+## Open Science
 Ich bin ein Befürworter der "offenen Wissenschaft" (open science). Das bedeutet primär, dass Daten, Analysecode und Versuchsbeschreibung der Öffentlichkeit zugänglich gemacht werden sollten - vor allem bei guten Arbeiten, die ein potenzielles Interesse bzw. potenziellen Nutzen für die (forschende) Öffentlichkeit bergen. Falls ich diesen Nutzen sehe, werde ich die Daten der Studie sowie etwaiges zusätzliches Material (z.B. Beschreibung der Studie) auf einem geeigneten Server (z.B. https://osf.io) unter meinem Konto veröffentlichen. Sie werden als Urheber der Daten dabei genannt, sofern Sie dem nicht bis zur Abgabe Ihrer Arbeit widersprechen. Anonymisierung, Datenschutz und Wahrung der Vertraulichkeit obliegt der veröffentlichenden Person (Professor Sauer). Von der Veröffentlichung informiere ich Sie. Sprechen Sie mich gerne an, wenn Sie an weiterer Forschung bzw. Veröffentlichung interessiert sind. Ggf. werde ich die Daten für weitere Forschung nutzen bzw. in geeigneten Format publizieren. Sofern Sie dem nicht widersprechen, bis spätestens 7 Tage nach der mündlichen Prüfung, gehe ich von Ihrem Einverständnis aus.
 
 
 
 
 
-### Merkmale einer sehr guten [schlechten] Abschlussarbeit
+## Merkmale einer sehr guten [schlechten] Abschlussarbeit
 
-#### Formalia
+### Formalia
 - Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis.
 
 - Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler].
@@ -371,7 +371,7 @@ Ich bin ein Befürworter der "offenen Wissenschaft" (open science). Das bedeutet
 
 
 
-#### Methoden
+### Methoden
 - Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert.
 
 - Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus.
@@ -380,7 +380,7 @@ Ich bin ein Befürworter der "offenen Wissenschaft" (open science). Das bedeutet
 
 
 
-#### Inhalt
+### Inhalt
 - Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert.
 
 - Ein roter Faden ist klar [nicht] ersichtlich.
@@ -400,7 +400,7 @@ Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bew
 
 
 
-### Folgende Fehler können zum Durchfallen führen
+## Folgende Fehler können zum Durchfallen führen
 - Die Textlänge (Hauptteil) ist zu kurz – ca. 20 % unter der formal angegeben Soll-Länge.
 - Es liegen viele Zitierfehler im Text vor (z. B. 30 % fehlerbehaftete Zitationen).
 - Es liegen viele Fehler im Literaturverzeichnis vor (z. B. 30 % fehlerbehaftete Zitationen).
@@ -411,7 +411,7 @@ Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bew
 - Es findet sich ein oder mehrere Plagiate (weitere Konsequenzen sind möglich).
 
 
-#### In quantitativen Arbeiten
+### In quantitativen Arbeiten
 
 - Es wird keine Inferenzstatistik verwendet.
 - Der p-Wert oder die Post-Verteilung (und ihre Derivate) werden falsch interpretiert.
@@ -419,21 +419,21 @@ Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bew
 - Hypothesen und Datenanalyse passen nicht zusammen.
 - Die Stichprobe ist kleiner als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
 
-#### In qualitativen Arbeiten
+### In qualitativen Arbeiten
 
 - Es werden keine Kategorien berichtet.
 - Es werden nur wenig Kodierungen vorgenommen (unter 30).
 - Es werden keine Kodierregeln berichtet.
 - Die Stichprobe ist kleiner als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
 
-#### In theoretischen Arbeiten
+### In theoretischen Arbeiten
 
 - Es wurde ein stark verzerrtes Bild der einschlägigen Literatur berichtet.
 - Die Menge der verwendeten Literatur ist weniger als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
 
 
 
-### Sonstige Hinweis
+## Sonstige Hinweis
 
 - Für eine einfachere Kommunikation kontaktieren Sie mich per E-Mail bei Fragen, die nur Sie betreffen. Bei Fragen von allgemeinem Interesse (z.B. "Bis wann müssen wir die Arbeit abgeben?") nutzen Sie bitte (sofern verfügbar) das Kursforum, damit die Kommilitonen auch von dem Austausch profitieren.
 

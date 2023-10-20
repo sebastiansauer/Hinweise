@@ -1,0 +1,6 @@
+# Häufige Fehler im Prognosewettbewerb
+
+
+
+{{< include Prognosewettbewerb/Beispiele-Fehler-Prognosewettbewerb.md >}}
+

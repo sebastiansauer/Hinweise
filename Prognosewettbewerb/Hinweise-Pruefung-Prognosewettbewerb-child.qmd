@@ -7,7 +7,7 @@ Gegenstand dieser Prüfungsform ist eine *Projektarbeit* in Form eines *Prognose
 
 
 
-### tl;dr: Zusammenfassung
+## tl;dr: Zusammenfassung
 
 Vorhersagen sind eine praktische Sache, zumindest wenn Sie stimmen. 
 Wenn Sie den DAX-Stand von morgen genau vorhersagen können, 
@@ -46,7 +46,7 @@ Je genauer Ihre Vorhersage, desto besser ist Ihr Prüfungsergebnis.
 
 
 
-### Überblick
+## Überblick
 
 Neben der erklärenden, rückwärtsgerichteten Modellierung spielt insbesondere in der Praxis die *vorhersageorientierte* Modellierung eine wichtige Rolle: 
 Ziel ist es, bei gegebenen, neuen Beobachtungen die noch unbekannten Werte der Zielvariablen $y$ *vorherzusagen*, z.B. für neue Kunden auf Basis von soziodemographischen Daten den *Kundenwert* -- möglichst genau -- zu prognostizieren.
@@ -85,7 +85,7 @@ Das Modell wird angewendet auf die Testdaten (Anwendungsdaten).
 Da man hier aber auch die Zielvariable ($y_0$) kennt, kann damit das Modell evaluiert werden.
 
 
-### Hauptziel: Genaue Prognose
+## Hauptziel: Genaue Prognose
 
 Ihre Aufgabe ist: Spielen Sie den Data-Scientist! 
 Konstruieren Sie ein Modell auf Basis der Trainingsdaten $(x,y$) 
@@ -109,7 +109,7 @@ Für eine gute Prognose sollte daher $\text{MAE}_{\text{Test}}$ möglichst klein
 
 
 
-### Prüfungsmaterial
+## Prüfungsmaterial
 
 
 Es werden Ihnen im Rahmen der Prüfung drei (Text-)Dateien bereitgestellt:
@@ -126,7 +126,7 @@ Die Materialien (oder Hinweise zum Bezugsort) finden Sie im entsprechenden Moodl
 
 
 
-### Einzureichende Dateien
+## Einzureichende Dateien
 
 
 1. Folgende *Dateiarten* sind einzureichen:
@@ -144,9 +144,9 @@ Die Materialien (oder Hinweise zum Bezugsort) finden Sie im entsprechenden Moodl
 
 
 
-### Zum Aufbau der einzureichenden Dateien
+## Zum Aufbau der einzureichenden Dateien
 
-#### Spaltennamen der CSV-Datei
+### Spaltennamen der CSV-Datei
 
 1. Die CSV-Datei muss aus genau *zwei* Spalten mit exakt folgenden *Spaltennamen* bestehen:
 
@@ -180,7 +180,7 @@ id, pred
 ```
 
 
-#### Hinweise zu den einzureichenden Dateien
+### Hinweise zu den einzureichenden Dateien
 
 
 1. Folgende *Dateiarten* sind einzureichen:
@@ -198,7 +198,7 @@ id, pred
 
 
 
-### Gliederung Ihrer Analyse
+## Gliederung Ihrer Analyse
 
 
 Ihr Analysedokument stellt alle Ihre Schritte vor, die Sie im Rahmen der Bearbeitung der Prüfungsaufgabe unternommen haben,
@@ -228,7 +228,7 @@ Die Gliederung ist kein Muss; andere Gliederung sind auch möglich.
 Entscheidend ist die fachliche Angemessenheit.
 
 
-#### Abschnitt Forschungsfrage und Hintergrund
+### Abschnitt Forschungsfrage und Hintergrund
 
 In diesem Abschnitt passiert noch keine Statistik bzw. keine Analyse.
 Stattdessen stellen Sie in "normaler Sprache", 
@@ -245,7 +245,7 @@ Eine viertel bis halbe Seite sollte für diesen Abschnitt reichen.
 
 
 
-#### Vorbereitung
+### Vorbereitung
 
 In diesem Abschnitt Ihres Analysedokuments führen Sie die technische Vorbereitung durch.
 Das betrifft vor allem das Importieren der Daten und das Starten aller R-Pakete, 
@@ -258,7 +258,7 @@ Importieren Sie die Daten z.B. auf folgende Weise: `d_train <- read_csv("d_train
 Auf diese Weise ist die Reproduzierbarkeit Ihrer Analyse sichergestellt.
 
 
-#### Explorative Datenanalyse
+### Explorative Datenanalyse
 
 Die explorative Datenanalyse (EDA) meint sowohl die deskriptive Statistik als auch die Datenvisualisierung.
 Typische Schritte sind: das Bearbeiten (oder Entfernen) von Extremwerten und fehlenden Werten,
@@ -268,7 +268,7 @@ Ziel ist, dass Sie den folgenden Schritt vorbereiten,
 also Schritte unternehmen, damit Sie die AV möglichst gut vorhersagen können.
 
 
-#### Modellierung
+### Modellierung
 
 In diesem Schritt berechnen Sie Prognosemodelle. Das sind oft lineare Modelle, also etwa `lm(av ~ uv)`.
 Es empfiehlt sich, mehrere Modelle zu berechnen und zu schauen,
@@ -279,7 +279,7 @@ Wie gut Ihre Vorhersagen also wirklich sind, erfahren Sie erst mit der Notenbeka
 Allerdings können Sie die Trainingsdaten nutzen, um die Güte Ihrer Modelle abzuschätzen.
 
 
-#### Vorhersagen
+### Vorhersagen
 
 Schließlich entscheiden Sie sich für einen Modellkandidaten.
 Diesen Modellkandidaten nehmen Sie her, um die (Ihnen unbekannten) Werte der AV (Zielvariablen) vorherzusagen.
@@ -290,10 +290,10 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 
 
 
-### Tipps
+## Tipps
 
 
-#### Tipps für eine gute Prognose
+### Tipps für eine gute Prognose
 
 - Schauen Sie in die Literatur.
 
@@ -309,19 +309,19 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 
 
 
-#### Tipps zur Datenverarbeitung
+### Tipps zur Datenverarbeitung
 
 - Ein "deutsches" Excel kann Standard-CSV-Dateien nicht ohne Weiteres lesen. Online-Dienste wie Google Sheets können dies allerdings.
 
 
-#### Tipps zum Aufbau des Analyseskripts
+### Tipps zum Aufbau des Analyseskripts
 
 - Zu Beginn des Skripts sollten alle verwendeten R-Pakete mittels `library()` gestartet werden.
 
 <!-- - Zu Beginn des Skripts sollten die Daten von der vom Dozenten bereitgestellten URL importiert werden (*nicht* von der eigenen Festplatte, da das Skript sonst bei Dritten, wie Ihrem Prüfer, nicht lauffähig ist). -->
 
 
-#### Beachten Sie die FAQ-Liste
+### Beachten Sie die FAQ-Liste
 
 - Frage: "Wieso haben Sie gesagt, meine *Arbeit wurde nicht eingereicht*. Ich habe doch eingereicht!". -- Antwort: Prüfen Sie, ob Sie die richtigen Dateien im richtigen Format eingereicht haben. Lesen Sie dazu auch die Hinweise oben.
 
@@ -337,10 +337,10 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 
 
 
-### Bewertung
+## Bewertung
 
 
-#### Kriterien
+### Kriterien
 
 - Es gibt drei Bewertungskriterien:
 
@@ -363,7 +363,7 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 
 
 
-#### Kennzahl der Modellgüte
+### Kennzahl der Modellgüte
 
 Die Güte der Vorhersage wird anhand des RMSE bemessen.
 
@@ -373,14 +373,14 @@ Die Güte der Vorhersage wird anhand des RMSE bemessen.
 <!-- $$\text{mae} = \frac{1}{n} \sum_{i=1}^n|(y_i - \hat{y}_i)|$$ -->
 
 
-#### Notenstufen
+### Notenstufen
 
 Zur Vorhersagegüte: Die Vorhersagegüte eines einfachen Minimalmodells entspricht einer $4,0$, die eines Referenzmodells des Dozenten einer $2,0$.
 
 Ihre Bewertung erfolgt entsprechend Ihrer Vorhersagegüte, d.h., sind Sie besser als das Referenzmodell erhalten Sie hier in diesem Teilaspekt eine bessere Note als $2,0$! 
 
 
-#### Bewertungsprozess
+### Bewertungsprozess
 
 Der Gutachter legt im Nachgang der Prüfung alle Teilnehmis ihre jeweilige Wert der Kennzahl der Modellgüte offen. 
 Außerdem werden die vorherzusagenden Daten veröffentlicht 
@@ -389,7 +389,7 @@ Auf dieser Basis ist es allen Teilnehmis möglich,
 die Korrektheit Ihrer Note selbständig zu überprüfen.
 
 
-#### Einsichtnahme
+### Einsichtnahme
 
 In der Regel gibt es *keine "Einsichtnahme"*.
 Der Grund ist einfach: Sie bekommen mit der Note den Wert Ihrer Modellgüte mitgeteilt.
@@ -406,7 +406,7 @@ die Sie auch in Ihrer eigenen Analyse finden.
 
 
 
-#### Freie Wahl in der Methodik 
+### Freie Wahl in der Methodik 
 
 Sie haben *freie Wahl bei der Modellierung und Vorverarbeitung*. Nutzen Sie den Stoff wie im Unterricht gelernt; Sie können aber auch auf weitere Inhalte, die nicht im Unterricht behandelt wurden, zugreifen. (Die freie Wahl gilt nicht für die Formalia und Randbedingungen; auch nicht für die zu verwendende Software und Programmiersprachen.)
 
@@ -427,7 +427,7 @@ Eine gute Modellierung auf den *Trainingsdaten* (z.B. hohes $R^2$) bedeutet nich
 
 
 
-### Formalia
+## Formalia
 
 
 
@@ -459,9 +459,9 @@ Eine gute Modellierung auf den *Trainingsdaten* (z.B. hohes $R^2$) bedeutet nich
 
 
 
-### Ich brauche Hilfe!
+## Ich brauche Hilfe!
 
-#### Wo finde ich Beispiele und Vorlagen?
+### Wo finde ich Beispiele und Vorlagen?
 
 Im Rahmen des Unterrichts wurden mehrere Fallstudien erarbeitet bzw. bereitgestellt,
 diese dienen Ihnen als ideale Vorlage.
@@ -475,7 +475,7 @@ Im Internet finden sich viele Fallstudien, von denen Sie sich inspirieren lassen
 
 
 
-#### Probeprüfung für den Prognosewettbewerb
+### Probeprüfung für den Prognosewettbewerb
 
 
 Ja, [hier](https://github.com/sebastiansauer/Lehre/tree/main/data/prognosewettbwerb-demo). In diesem Ordner liegen die Dokumente, die Sie für die echte Prüfung auch bekommen:
@@ -488,13 +488,13 @@ Ja, [hier](https://github.com/sebastiansauer/Lehre/tree/main/data/prognosewettbw
 
 
 
-#### Materialsammlung
+### Materialsammlung
 
 In [diesem Ordner](https://github.com/sebastiansauer/Lehre/tree/main/Hinweise/Prognosewettbewerb) finden Sie eine Materialsammlung zum Prognosewettbewerb.
 
 
 
-#### Videos
+### Videos
 
 [Diese Playlist](https://youtube.com/playlist?list=PLRR4REmBgpIH6uG8LZWPTSMReX1OFxfUx) beinhaltet Videos,
 die die Rahmenbedingungen der Prüfungsleistung vorstellt.

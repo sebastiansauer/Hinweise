@@ -2,7 +2,7 @@
 
 
 
-### Didaktische Ziele der Gruppenarbeit als Prüfungsform
+## Didaktische Ziele der Gruppenarbeit als Prüfungsform
 
 
 
@@ -16,7 +16,7 @@ Eine Prüfungsleistung an der Hochschule bietet dafür einen geschützten Rahmen
 
 
 
-### Arbeitsteilung der Gruppenmitglieder
+## Arbeitsteilung der Gruppenmitglieder
 
 Die Aufteilung der Teilaspekte der Arbeit soll so erfolgen, dass jedes Mitglied des Teams *ein komplettes empirischen Kapitel* (Methodenteil oder Ergebnisteil) und *ein komplettes theoretischen Kapitel* (Theorieteil oder Diskussion) verfasst. 
 Zu dem der *Hauptkapitel* des Berichts (z.B. Theorie, Methode, Ergebnis, Diskussion) ist genau ein Name anzugeben, die für das entsprechende Kapitel verantwortlich ist.
@@ -29,7 +29,7 @@ Die *Einleitung* soll *gemeinsam* unter Verwendung eines Textgenerators (z.B. Ch
 
 
 
-### Benotung
+## Benotung
 
 
 2. *Einzelnote*: Jedes Mitglieder einer Arbeitsgruppe erhält eine eigene, individuelle Note. Die Noten der Gruppenglieder müssen daher nicht identisch sein (können aber). Alle Kommentare des Gutachters sind mit dem Namen (bzw. Namenskürzel) derjenigen Person versehen, an die der Kommentar gerichtet ist. In die Note (eines bestimmten Gutachtens) fließen nur Abschnitt ein, die von der/dem angegebenen Verfasser:in verfasst wurden sowie diejenigen Abschnitte, die nicht namentlich gekennzeichnet wurden (nur relevant bei Gruppenarbeiten). Kommentare zu Abschnitten, die ohne Namen in der Prüfungsleistung angegeben sind, werden auch ohne Namenshinweis aufgeführt.
@@ -38,7 +38,7 @@ Beachten Sie auch, dass es Aspekte eines Projekts gibt, die auf die Arbeitsteile
 
 
 
-### Formalia
+## Formalia
 
 
 1. Wenn eine Gruppenarbeit als Prüfungsform definiert ist sind *Einzelarbeiten grundsätzlich nicht zulässig*.

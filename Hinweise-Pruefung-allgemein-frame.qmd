@@ -1,0 +1,6 @@
+# Allgemeine Prüfungshinweise
+
+
+
+{{< include Hinweise-Pruefung-allgemein.qmd >}}
+

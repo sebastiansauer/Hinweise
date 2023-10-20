@@ -4,9 +4,6 @@
 <!-- ## Prüfungsform Datenanalyse -->
 
 
-Alle folgenden Hinweise gelten nur insoweit Ihre Lehrkraft Ihnen keine anders lautenden Hinweise gegeben hat (schriftlich).
-
-
 
 
 ## Allgemeines
@@ -131,34 +128,6 @@ Insbesondere kann eine Fünf in einem der Kriterien zum Durchfallen führen, auc
 11. Wurden die Voraussetzungen der statistischen Verfahren geprüft?
 
 12. Sind die Ergebnisse reproduzierbar (Daten und Syntax eingereicht)?
-
-
-
-## Beispiele für Fehler
-
-
-Schwere Fehler, die zum Durchfallen oder deutlichem Abwerten der Note führen können, sind z.B.:
-
-- fehlende Inferenzstatistik (oder adäquatem Ersatz)
-- falsche Interpretation von Posteriori-Verteilungen oder p-Werten
-- keine Angabe von Konfidenzintervallen 
-- falsche Interpretation von Konfidenzintervallen
-- Wahl des falschen Intervalls (Vorhersageintervall vs. Perzentilintervall vs. HDI)
-- falsche Entscheidung zum Hypothesentest auf Basis entsprechender Kennwerte (wie ROPE-Wahrscheinlichkeit oder p-Wert) 
-- falsche Wahl des statistischen Verfahrens 
-- fehlende Deskriptivstatistik
-
-
-
-Häufige kleinere Mängel sind z. B.
-
-- pixelige Abbildungen 
-- R-Ausgaben oder R-Syntax als Screenshot 
-- fehlende Seitenzahlen (nur bei paginierten Formaten, nicht bei HTML) 
-- unübersichtliche Diagramme 
-- kein (verlinktes) Inhaltsverzeichnis ︎
-- fehlende oder unverständliche Achsenbeschriftung bei Diagrammen 
-- fehlende oder falsche Beschreibung der/des Skalenniveau(s) der untersuchten Variablen
 
 
 ## Sonstiges

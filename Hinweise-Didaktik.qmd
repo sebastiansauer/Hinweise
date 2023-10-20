@@ -2,7 +2,7 @@
 
 
 
-### Grundlagen
+## Grundlagen
 
 1. Alle *Lehrmaterialien* stelle ich vor dem Unterricht *online* bereit.
 2. Alles prüfungsrelevante Material ist *verschriftlicht* und die *Prüfungsmodalitäten* sind *frühzeitig* (schriftlich) bekannt gemacht.
@@ -19,7 +19,7 @@
 
     
 
-### Lehrkonzept
+## Lehrkonzept
 
 In der "Vorlesung" wird im Schwerpunkt *nicht* ein Folienskript "vorgelesen". Solcher Inhalt steht oft vorab als Video zur Verfügung (s. Links im Themenüberblick).
  Stattdessen steht in der "Vorlesung" die Durcharbeiten und Vertiefen des Stoffes im Vordergrund, nicht aber das Vortragen des Stoffes.
@@ -30,7 +30,7 @@ In der Übung liegt der Schwerpunkt zumeist auf dem Bearbeiten von Aufgaben.
 
 
 
-### Lerntipps
+## Lerntipps
 
 Damit Sie vom Unterricht maximal profitieren, ist es essenziell, dass Sie aktiv mitarbeiten. Ein "Nur-Zuhören" nimmt Ihnen einen Gutteil des Nutzens des Unterrichts. Sie lernen nur zum kleinen Teil vom Zuhören; der größte Teil des Lernerfolgs kommt vom Selber-Erarbeiten!
 Bitte stellen Sie Ihre Kamera (Webcam) an, wenn Sie Kommilitonis oder den Dozenten ansprechen. Das ist der Güte der Kommunikation zuträglich.
@@ -45,7 +45,7 @@ Anbieter wie Google stellen (teilweise) kostenfreie Angebote zum kollaborativen 
 
 
 
-### "Einstreuer"
+## "Einstreuer"
 
 In jedem Kapitel, gibt es eine Reihe von Lehrmaterialien,
 sozusagen orthogonal zum Inhalt, die das Verstehen und die Umsetzung anreichernd unterstützen,
@@ -68,7 +68,7 @@ das sind:
 
 
 
-### "Buch 2.0"
+## "Buch 2.0"
 
 Modernes HTML bietet eine Reihe von technischen Vorteilen,
 dazu gehört, dass verschiedene Medien eingebettet werden können.
@@ -83,7 +83,7 @@ In diesem Buch werden folgende verwendet:
 - Code-Fold, so dass die R-Syntax und Exkurse nur nach Aufklappen sichtbar sind (und ansonsten nicht stören)
 
 
-### Barrierefrei
+## Barrierefrei
 
 Auf Lehrinhalte wird oft zugegriffen, zumindest hofft das der Autor.
 Gehen wir davon aus, dass ein Kurs 15 Wochen dauert, und pro Unterrichtsstunde UE Material "im Wert von 50 Folien" angesehen werden, so kommt man auf 50 Klicks oder Kontakte,
@@ -96,7 +96,7 @@ Außerdem gibt es eine hohe Anzahl an URLs: Nicht nur pro Seite,
 sondern auch pro Abschnitt und für alle besonderen Objekte wie Tabellen und Diagramme.
 
 
-### Kompetenzorientiert
+## Kompetenzorientiert
 
 Es gibt viele Übungsaufgaben, anhand derer die Studentis ihren Lernfortschritt überprüfen können. Diese Aufgaben haben zumeist eine klare, kurze richtige Antwort (oft im MC-Format),
 so dass einfach eine Punktzahl ausgegeben kann für ein maximal klares Feedback an die Studentis.
@@ -105,7 +105,7 @@ Schließlich ist die Prüfungsform komplett kompetenzorientiert gehalten und gle
 
 
 
-### Fokus auf Modellierung
+## Fokus auf Modellierung
 
 Modelle stehen, auch in modernen und fortgeschrittenen Anwendungen, im Mittelpunkt der Statistik als (angewandte) Wissenschaft. 
 Gleichzeitig sind Sie einsteigerfreundlich, denn jeder Mensch kennt Modelle aus dem alltäglichen Leben. 
@@ -115,7 +115,7 @@ Aus diesem Grund wird das ALM als zentrale methodische Blaupause verwendet.
 Anstelle von einer Vielzahl statistischer Testverfahren, die letztlich aber fast immer Spezialfälle des ALM darstellen, wird hier zu zugunsten der Einfachheit,
 konzeptioneller Klarheit (und wissenschaftlicher Ästhetik) alles Modellieren auf dem ALM aufgebaut.
 
-### Praxisbezug
+## Praxisbezug
 
 In allen Kapiteln werden Themen aus der (künftigen) Berufswelt der Teilnehmis herangezogen.
 Ganz zu Beginn eines neuen Themas wird davon abweichend immer wieder von extrem einfachen (aber auch lebensweltlich relevanten) Beispielen Gebraucht gemacht,
@@ -123,7 +123,7 @@ zu Gunsten eines einfachen Einstiegs in neue Materie.
 Auf mathematische Herleitung wurde aus dem gleichen Grund weitgehend verzichtet.
 
 
-### Anschaulichkeit
+## Anschaulichkeit
 
 Es wurde versucht, möglichst viele Sachverhalte schematisch in Diagrammen zu illustieren.
 Damit ist bei weitem nicht nur gemeint, statische Diagramme aufzuzeichnen.
@@ -137,7 +137,7 @@ das Konzept ständig vor Augen.
 
 
 
-### Bildreichtum
+## Bildreichtum
 
 Dieses Buch verwendet viele Bilder. Das hat vor allem den Grund, das Lehren zu erleichtern.
 Es ist dröge - beim Zuhören und beim Lehren - sich durch Textwüsten und Stichpunkt-Wälder zu kämpfen.
@@ -145,7 +145,7 @@ Viel angenehmer ist es (nach meiner Erfahrung),
 wenn die Lehrperson anhand eines guten Diagramms den wesentlichen Punkt erläutert.
 
 
-### Literatur
+## Literatur
 
 Pro Thema wird Literatur ausgewiesen, die den Stoff ausführlicher erläutert oder auf vertiefende Aspekte eingeht (Aspekte, die über den Stoff und die Lernziele hinausgehen).
 Quellen der Inhalte sind pro Kapitel im Literaturverzeichnis aufgeführt.
@@ -155,7 +155,7 @@ Quellen der Inhalte sind pro Kapitel im Literaturverzeichnis aufgeführt.
 
 
 
-### Für Autodidakten geeignet
+## Für Autodidakten geeignet
 
 Folien sind zu knapp, um sie ohne Erläuterung zu verstehen. Wären Sie ausführlich, würde man sie "Buch" nennen. 
 Dieses Buch versteht sich als eine Art "Prosa-Skript", also ausformuliertes Skript zur Begleitung des Unterrichts. 

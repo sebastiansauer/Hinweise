@@ -1,0 +1,44 @@
+project:
+  type: book
+
+book:
+  title: "Hinweise"
+  author: "Sebastian Sauer"
+  date: "10/20/2023"
+  chapters:
+    - index.qmd
+    - part: "Prüfungen"
+      chapters:
+      - Hinweise-Pruefung-allgemein-frame.qmd
+      - Hinweise-Pruefung-Open-Book-frame.qmd
+      - Hinweise-Pruefung-Klausur-frame.qmd
+      - Hinweise-Pruefung-Datenanalyse-frame.qmd
+      - Hinweise-Pruefung-Praesentation-frame.qmd
+      - Hinweise-Pruefung-Projektarbeit-frame.qmd
+      - Hinweise-Pruefung-Gruppenarbeit-frame.qmd
+      - Hinweise-Pruefung-Prognosewettbewerb-frame.qmd
+      - Hinweise-Pruefung-Poster-frame.qmd
+      - Hinweise-Pruefung-Thesis-frame.qmd
+    - part: "Unterricht"
+      chapters:
+        - Hinweise-Didaktik-frame.qmd
+        - Hinweise-Unterricht-frame.qmd
+    - part: "Lernen"
+      chapters: 
+        - Hinweise-Pruefungsvorbereitung-frame.qmd
+        - Hinweise-Lernhilfen-frame.qmd
+    - part: "Häufige Fehler"
+      chapters: 
+        - Beispiele-Fehler-Prognosewettbewerb-frame.qmd
+        - Beispiele-Fehler-Datenanalyse-frame.qmd
+  
+lang: de
+
+# bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+
+
+

@@ -1,8 +1,8 @@
-## Bearbeitungshinweise für quantitative Prüfungen
 
 
 
-### Allgemeine Hinweise
+
+## Allgemeine Hinweise
 
 1. Verwenden Sie *Standardwerte* (defaults) der R-Funktionen, soweit nicht anders in der jeweiligen Aufgabe verlangt.
 2. Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die *am besten passende*.
@@ -21,7 +21,7 @@
 10. Wie auch bei den übrigen Hinweisen gelten diese Maßgaben nur soweit  nicht *explizit andere Hinweise* gegeben wurden.
 
 
-### Aufgaben zur Datenanalyse
+## Aufgaben zur Datenanalyse
 
 
 1.  Je nach Spracheinstellung in Moodle kann es sein, dass Sie als *Dezimaltrennzeichen* ein Komma oder einen Punkt verwenden müssen. Moodle weist Sie, wenn Sie die Aufgabe verlassen, darauf hin, falls eine Zahl nicht als Zahl erkannt wurde.
@@ -36,7 +36,7 @@
 
 
 
-### Besonderheiten zur Bayes-Statistik
+## Besonderheiten zur Bayes-Statistik
 
 
 1.  Verwenden Sie Methoden der *Bayes*-Statistik für inferenzstatistische Analysen (soweit nicht anders vorgegeben).

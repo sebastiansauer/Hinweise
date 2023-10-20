@@ -1,0 +1,6 @@
+# Datenanalyse 
+
+
+
+{{< include Hinweise-Pruefung-Datenanalyse-Child.qmd >}}
+

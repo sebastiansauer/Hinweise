@@ -1,12 +1,7 @@
 
----
-title: Prüfungsvorbereitung
----
 
 
-
-
-### Tipps 
+## Tipps 
 
 Ein paar Tipps für Prüfungserfolg:
 
@@ -22,12 +17,12 @@ Ein paar Tipps für Prüfungserfolg:
 
 
 
-### Lösen Sie die Aufgaben
+## Lösen Sie die Aufgaben
 
 Die Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind.
 Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfung vorzubereiten.
 
-### Arbeiten Sie kontinuierlich mit
+## Arbeiten Sie kontinuierlich mit
 
 Nach meiner Erfahrung kann jede/r eine gute Note schreiben, man muss kein "Mathe-Crack" sein.
 Stattdessen kommt es auf die Vorbereitung bzw. das Mitlernen an.
@@ -39,21 +34,21 @@ Kontinuierliches Mitlernen ist der Schlüssel zum Erfolg.
 
 
 
-### Ich brauche mehr Erklärung!
+## Ich brauche mehr Erklärung!
 
 Schauen Sie sich die Vidoes [dieser Playlist](https://youtube.com/playlist?list=PLRR4REmBgpIFQIReNf_ihRm5GYJSKh3WT) an.
 
 
 
 
-### Gibt es eine Art "Probeklausur"?
+## Gibt es eine Art "Probeklausur"?
 
 Ja, gibt es! Hinweise dazu werden im Unterricht bekannt gegeben.
 
 
 
 
-### Was sind typische Fragen in der Prüfung?
+## Was sind typische Fragen in der Prüfung?
 
 Die Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind,
 und zwar vornehmlich an den Aufgaben, die eine kurze, eindeutige Lösung haben.
@@ -64,7 +59,7 @@ Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfu
 
 
 
-### Muss man ein Statistik-Crack sein, um eine gute Note zu schreiben?
+## Muss man ein Statistik-Crack sein, um eine gute Note zu schreiben?
 
 Nach meiner Erfahrung kann jede/r eine gute Note schreiben, man muss kein "Mathe-Checker" oder "Statistik-Crack" sein.
 Stattdessen kommt es auf die Vorbereitung bzw. das Mitlernen an.
@@ -74,7 +69,7 @@ Kontinuierliches Mitlernen ist der Schlüssel zum Erfolg.
 :::
 
 
-### Welche weiteren Hilfen gibt es?
+## Welche weiteren Hilfen gibt es?
 
 
 [Hier finden Sie ein Beispiel für eine Prognose-Analyse](https://sebastiansauer.github.io/Lehre/Hinweise/Prognosewettbewerb/Beispiel-Vorhersagemodellierung2.html). Und [hier](https://sebastiansauer.github.io/Lehre/Hinweise/Prognosewettbewerb/Beispiele-Fehler-Prognosewettbewerb.html) sehen Sie Beispiele für typische Fehler bei einem Prognosewettbewerb.

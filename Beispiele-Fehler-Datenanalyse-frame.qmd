@@ -1,0 +1,6 @@
+# Häufige Fehler in der Datenanalyse
+
+
+
+{{< include Beispiele-Fehler-Datenanalyse.qmd >}}
+

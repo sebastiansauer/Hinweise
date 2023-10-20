@@ -6,7 +6,7 @@
 
 ### Hintergrund und Ziel
 
-Das Prüfungsformat Kolloquium ist eine Kombination aus Referat und mündlicher Prüfung.
+Das Prüfungsformat *Kolloquium* ist eine Kombination aus Referat und mündlicher Prüfung.
 Gegenstand ist ein wissenschaftlicher Vortrag Ihrer Seminar-/Projekt- oder Abschlussarbeit sowie eine sich anschließende wissenschaftliche Aussprache.
 Während der wisenschaftlichen Aussprache verteidigen Sie Ihre Arbeit gegenüber fachlicher Kritik.
 

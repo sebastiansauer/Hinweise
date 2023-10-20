@@ -1,0 +1,11 @@
+# Open-Book-Prüfung
+
+
+
+
+
+
+
+{{< include Hinweise-Pruefung-Open-Book-Child.qmd >}}
+
+

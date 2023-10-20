@@ -1,0 +1,6 @@
+# Besonderheiten von Gruppenarbeiten 
+
+
+
+{{< include Hinweise-Pruefung-Gruppenarbeit.qmd >}}
+
