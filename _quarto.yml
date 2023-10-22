@@ -41,8 +41,8 @@ lang: de
 format:
   html:
     theme:
-      light: quartz
-      dark: darkly
+      light: litera
+      dark: solar 
 
 
 
