@@ -212,34 +212,39 @@ Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben
 
 
 
-
 ## Formalia
 
-- Zur formalen (und inhaltlichen) Gestaltung sei dieses Buch empfohlen: "Peters, J. H., & Dörfler, T. (2019). Abschlussarbeiten in der Psychologie und den Sozialwissenschaften - Schreiben und Gestalten. München: Pearson Studium." In diesem Titel finden Sie viel Wertvolles zum Aufbau und Gestaltung Ihrer Abschlussarbeit. Formatieren Sie Ihre Arbeit *nicht* wie ein Manuskript nach APA-Vorlagen, das Sie bei einem Verlag einreichen, sondern wie einen Forschungsbericht (vgl. Peters & Dörfler, 2019, S. 3). Das beinhaltet auch, dass Sie nach APA/DGPs zitieren.
+### Formatierung 
+
+Zur formalen (und inhaltlichen) Gestaltung sei dieses Buch empfohlen: "Peters, J. H., & Dörfler, T. (2019). Abschlussarbeiten in der Psychologie und den Sozialwissenschaften - Schreiben und Gestalten. München: Pearson Studium." In diesem Titel finden Sie viel Wertvolles zum Aufbau und Gestaltung Ihrer Abschlussarbeit. Formatieren Sie Ihre Arbeit *nicht* wie ein Manuskript nach APA-Vorlagen, das Sie bei einem Verlag einreichen, sondern wie einen Forschungsbericht (vgl. Peters & Dörfler, 2019, S. 3). Das beinhaltet auch, dass Sie nach APA/DGPs zitieren.
 
 
 
-- Ambitionierte Studierende (insbesondere in einem Master-Studiengang), die auf eine sehr gute Teilnote im Bereich "Formales" abzielen, sollten sich möglichst eng an die formalen Vorgaben halten.
+Ambitionierte Studierende (insbesondere in einem Master-Studiengang), die auf eine sehr gute Teilnote im Bereich "Formales" abzielen, sollten sich möglichst eng an die formalen Vorgaben halten.
 
-- Richtlinien zur Seitenformatierung und -layout finden Sie in Peters und Dörfler (2019), vgl. Kap. 4.
+Richtlinien zur Seitenformatierung und -layout finden Sie in Peters und Dörfler (2019), vgl. Kap. 4.
+Befolgen Sie die Art, Statistiken zu berichten laut APA bzw. DGPs, sofern Peters und Dörfler (2019) nicht andere Angaben machen.
 
-- Befolgen Sie die Art, Statistiken zu berichten laut APA bzw. DGPs, sofern Peters und Dörfler (2019) nicht andere Angaben machen.
+Werten Sie quantitative Daten mit R oder Python aus.
 
-- Werten Sie quantitative Daten mit R oder Python aus.
+Gestalten Sie Ihre Arbeit nachprüfbar: Berichten Sie die Syntax, das genaue Vorgehen beim Versuch, die Stichprobenplanung, reichen Sie die Daten und ggf. das Stimulusmaterial (z.B. Bilder) ein.
 
-- Gestalten Sie Ihre Arbeit nachprüfbar: Berichten Sie die Syntax, das genaue Vorgehen beim Versuch, die Stichprobenplanung, reichen Sie die Daten und ggf. das Stimulusmaterial (z.B. Bilder) ein.
+ Informieren Sie sich im Übrigen über die Richtlinien (wie Abgabefristen) in den entsprechenden Dokumenten wie der APO und der SPO.
 
-- Informieren Sie sich im Übrigen über die Richtlinien (wie Abgabefristen) in den entsprechenden Dokumenten wie der APO und der SPO.
+Im Merkblatt für Abschlussarbeiten der Prüfungsabteilung finden Sie weitere formale Vorgaben, etwa zur ehrenwörtlichen Erklärung. 
 
-- Im Merkblatt für Abschlussarbeiten der Prüfungsabteilung finden Sie weitere formale Vorgaben, etwa zur ehrenwörtlichen Erklärung. 
-
-- Schreiben Sie die Wortzahl (nur Hauptteil, ab Einleitung bis einschl. Diskussion) auf das Deckblatt.
-
+Schreiben Sie die Wortzahl (nur Hauptteil, ab Einleitung bis einschl. Diskussion) auf das Deckblatt.
 
 
-- Die Arbeitszeit beträgt 3 Monate.
 
-- Wenn Sie ein Formular an mich (oder Dritte, wie die Prüfungsabteilung) senden, nennen Sie bitte stets Ihren Namen im Dateinamen. Falsch: "Anmeldung-Thesis.pdf". Richtig: "Anmeldung-Thesis-Sauer-Sebastian-01234567.pdf".
+
+
+### Anmeldung
+
+Wenn Sie ein Formular an mich (oder Dritte, wie die Prüfungsabteilung) senden, nennen Sie bitte stets *Ihren Namen im Dateinamen*. Falsch: "Anmeldung-Thesis.pdf". Richtig: "Anmeldung-Thesis-Müller-Marina-01234567.pdf".
+
+Bitte *füllen Sie das Formular entsprechend aus*, bevor Sie es mir schicken. D.h. tragen Sie Titel der Arbeit sowie Namen der Gutachter schon ein.
+
 
 
 
@@ -280,25 +285,44 @@ Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben
 
 
 
-
-
-## Darf ich ein Thema wählen, das ich schon früher (z.B. in einer Seminararbeit) bearbeitet habe?
-
-Sie dürfen ein Thema bearbeiten, welches *ähnlich* zu einer früheren Prüfungsleistung ist. Auf keinen Fall dürfen Sie das gleiche Thema einer früheren Seminararbeit als Thema Ihrer Thesis verwenden. Im Zweifelsfall sprechen Sie dazu mich oder die Prüfungsabteilung an. ABER: Sie dürfen ein Exposé, welches Sie explizit als Vorbereitung für Ihre Abschlussarbeit als Prüfungsleistung eingereicht haben, als Grundlage für Ihre Abschlussarbeit verwenden.
+## Plagiate 
 
 
 
 
 
-## Ein Wort zu Plagiaten
+### Don't do it
 
-Lassen Sie äußerste Vorsicht walten, dass sich keine Plagiate in Ihrer Abschlussarbeit finden. Finde ich ein oder mehrere Plagiate, so werde ich die Arbeit mit "nicht bestanden" beurteilen. Eine Leistung als die eigene auszugeben, die aber gar nicht die eigene ist, ist Betrug. Bitte bedenken Sie auch, dass eine Ausrede wie "war keine Absicht, hab nicht aufgepasst" nicht ausreicht: Sie sind für die Qualität und Redlichkeit Ihrer Arbeit verantwortlich. In Ihrer Verantwortung liegt entsprechend die notwendige Sorgfalt, Plagiate zu vermeiden. Auch die Ausrede "Mein Literaturprogramm oder Word muss hier einen Fehler gemacht haben" wird nicht gelten gelassen werden. Hier gilt wieder: Sie sind für die Qualität und Redlichkeit Ihrer Abschlussarbeit verantwortlich; die Verantwortung ist nicht an eine Maschine delegierbar. Falls Sie Fragen zu dem Thema Plagiate haben, sprechen Sie mich jederzeit gerne an.
+Lassen Sie äußerste Vorsicht walten, dass sich *keine Plagiate* in Ihrer Abschlussarbeit finden. 
+Finde ich ein oder mehrere Plagiate, so werde ich die Arbeit mit "nicht bestanden" beurteilen. 
+Eine Leistung als die eigene auszugeben, die aber gar nicht die eigene ist, ist Betrug. 
+Bitte bedenken Sie auch, dass eine Ausrede wie "war keine Absicht, hab nicht aufgepasst" nicht ausreicht: *Sie* sind für die Qualität und Redlichkeit Ihrer Arbeit verantwortlich. 
+In Ihrer Verantwortung liegt entsprechend die notwendige Sorgfalt, Plagiate zu vermeiden. Auch die Ausrede "Mein Literaturprogramm oder Word muss hier einen Fehler gemacht haben" wird nicht gelten gelassen werden. 
+Hier gilt wieder: Sie sind für die Qualität und Redlichkeit Ihrer Abschlussarbeit verantwortlich; die Verantwortung ist nicht an eine Maschine delegierbar. 
+Falls Sie Fragen zu dem Thema Plagiate haben, sprechen Sie mich jederzeit gerne an.
+
+
+
+### Darf ich ein Thema wählen, das ich schon früher (z.B. in einer Seminararbeit) bearbeitet habe?
+
+Sie dürfen ein Thema in Ihrer Abschlussarbeit bearbeiten, welches *ähnlich* zu einer früheren Prüfungsleistung ist. 
+Auf *keinen Fall* dürfen Sie das *gleiche Thema* einer früheren Seminararbeit als Thema Ihrer Thesis verwenden:
+Es ist nicht zulässig, eine Arbeit als Prüfungsleistung für mehrere Module (inkl. Thesis) einzureichen.
+Im Zweifelsfall sprechen Sie dazu mich oder die Prüfungsabteilung an. 
+
+ABER: Sie dürfen ein Exposé, welches Sie explizit als Vorbereitung für Ihre Abschlussarbeit als Prüfungsleistung eingereicht haben, als Grundlage für Ihre Abschlussarbeit verwenden.
+Sie dürfen also Teile aus Ihrem Exposé übernehmen.
+Diese müssen als (direktes oder indirektes) Zitat gekennzeichnet sein (ansonsten würde es sich um ein Selbstplagiat handeln).
+
+Ich empfehle Ihnen, keine direkten Zitate zu übernehmen, sondern wenn überhaupt dann nur indirekte Zitate.
+
 
 
 
 
 
 ### ... und zu unerlaubten Hilfsmitteln
+
 Zu unerlaubten Hilfsmitteln zählen insbesondere die Hilfe Dritter sowie von künstlicher Intelligenz. Die Arbeit darf nur mit Hilfe erlaubter Hilfsmittel geschrieben werden. So ist es nicht zulässig, dass Teile Ihrer Arbeit von anderen Personen geschrieben, verbessert oder sonstig beeinflusst werden. Zu solchen unerlaubten Hilfsmitteln zählt auch das "Korrekturlesen" durch Dritte. Es ist weiter nicht zulässig, die Arbeit in Gänze oder Teilen von einer künstlichen Intelligenz (z.B. ChatGPT) schreiben zu lassen. Bei Fragen oder im Zweifel sprechen Sie bitte Ihre Betreuerin/Ihren Betreuer an. Das Verwenden von unerlaubten Hilfsmitteln kann von der Prüfungskommission mit Nichtbestehen der Prüfung geahndet werden.
 
 
@@ -313,6 +337,7 @@ Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in
 
 
 ### Formalia
+
 - Vollständigkeit (Verzeichnisse, Anhänge, Erklärungen)
 
 - Gestaltung 
@@ -337,6 +362,7 @@ Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in
 
 
 ### Inhalt - nicht-empirische Teile
+
 - Gliederung (Logik, Problembezogenheit, Stringenz)
 
 - Problemstellung und Zielsetzung (nachvollziehbare Herleitung)
@@ -354,7 +380,23 @@ Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in
 
 
 ## Open Science
-Ich bin ein Befürworter der "offenen Wissenschaft" (open science). Das bedeutet primär, dass Daten, Analysecode und Versuchsbeschreibung der Öffentlichkeit zugänglich gemacht werden sollten - vor allem bei guten Arbeiten, die ein potenzielles Interesse bzw. potenziellen Nutzen für die (forschende) Öffentlichkeit bergen. Falls ich diesen Nutzen sehe, werde ich die Daten der Studie sowie etwaiges zusätzliches Material (z.B. Beschreibung der Studie) auf einem geeigneten Server (z.B. https://osf.io) unter meinem Konto veröffentlichen. Sie werden als Urheber der Daten dabei genannt, sofern Sie dem nicht bis zur Abgabe Ihrer Arbeit widersprechen. Anonymisierung, Datenschutz und Wahrung der Vertraulichkeit obliegt der veröffentlichenden Person (Professor Sauer). Von der Veröffentlichung informiere ich Sie. Sprechen Sie mich gerne an, wenn Sie an weiterer Forschung bzw. Veröffentlichung interessiert sind. Ggf. werde ich die Daten für weitere Forschung nutzen bzw. in geeigneten Format publizieren. Sofern Sie dem nicht widersprechen, bis spätestens 7 Tage nach der mündlichen Prüfung, gehe ich von Ihrem Einverständnis aus.
+
+Ich bin ein Befürworter der "offenen Wissenschaft" (open science). 
+Das bedeutet primär, dass Sie Daten, Analysecode und Versuchsbeschreibung zumindest dem Gutachter und besser noch der (wissenschaftlichen) Öffentlichkeit zugänglich machen  sollten.
+
+Fügen Sie also die entsprechenden Materialien Ihrer Arbeit an.
+Besser ist es noch, wenn Sie die Materialien auf einen geeigneten Server (z.B. <https://osf.io>) veröffentlichen.
+
+
+
+<!-- - vor allem bei guten Arbeiten, die ein potenzielles Interesse bzw. potenziellen Nutzen für die (forschende) Öffentlichkeit bergen.  -->
+
+
+<!-- Falls ich diesen Nutzen sehe, werde ich die Daten der Studie sowie etwaiges zusätzliches Material (z.B. Beschreibung der Studie) auf einem geeigneten Server (z.B. <https://osf.io>) unter meinem Konto veröffentlichen.  -->
+<!-- Sie werden als Urheber der Daten dabei genannt, sofern Sie dem nicht bis zur Abgabe Ihrer Arbeit widersprechen. Anonymisierung, Datenschutz und Wahrung der Vertraulichkeit obliegt der veröffentlichenden Person (Professor Sauer). Von der Veröffentlichung informiere ich Sie.  -->
+<!-- Sprechen Sie mich gerne an, wenn Sie an weiterer Forschung bzw. Veröffentlichung interessiert sind.  -->
+<!-- Ggf. werde ich die Daten für weitere Forschung nutzen bzw. in geeigneten Format publizieren.  -->
+<!-- Sofern Sie dem nicht widersprechen, bis spätestens 7 Tage nach der mündlichen Prüfung, gehe ich von Ihrem Einverständnis aus. -->
 
 
 
@@ -363,6 +405,7 @@ Ich bin ein Befürworter der "offenen Wissenschaft" (open science). Das bedeutet
 ## Merkmale einer sehr guten [schlechten] Abschlussarbeit
 
 ### Formalia
+
 - Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis.
 
 - Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler].
@@ -397,40 +440,6 @@ Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bew
 - Die Bayes-Methode ist gegenüber frequentistischen Ansätzen zu bevorzugen.
 
 - In qualitativen Studien bietet sich die Grounded Theorie als Auswertungsmethode an.
-
-
-
-## Folgende Fehler können zum Durchfallen führen
-- Die Textlänge (Hauptteil) ist zu kurz – ca. 20 % unter der formal angegeben Soll-Länge.
-- Es liegen viele Zitierfehler im Text vor (z. B. 30 % fehlerbehaftete Zitationen).
-- Es liegen viele Fehler im Literaturverzeichnis vor (z. B. 30 % fehlerbehaftete Zitationen).
-- Es wurde die abgesprochene empirische Methode nicht verwendet.
-- Das Literaturverzeichnis ist sehr kurz (weniger als 15 (Bachelor) bzw. 25 (Master) Quellen).
-- Die Qualität des Literaturverzeichnisses ist gering (über 50 % Quellen von zweifelhafter Qualität, z. B. aus Ratgeber-Büchern).
-- Die Lesbarkeit ist aufgrund der optischen Gestaltung oder gravierender Sprachmängel stark eingeschränkt (z. B. viele Rechtschreibfehler).
-- Es findet sich ein oder mehrere Plagiate (weitere Konsequenzen sind möglich).
-
-
-### In quantitativen Arbeiten
-
-- Es wird keine Inferenzstatistik verwendet.
-- Der p-Wert oder die Post-Verteilung (und ihre Derivate) werden falsch interpretiert.
-- Es wird keine Deskriptiv-Statistik berichtet.
-- Hypothesen und Datenanalyse passen nicht zusammen.
-- Die Stichprobe ist kleiner als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
-
-### In qualitativen Arbeiten
-
-- Es werden keine Kategorien berichtet.
-- Es werden nur wenig Kodierungen vorgenommen (unter 30).
-- Es werden keine Kodierregeln berichtet.
-- Die Stichprobe ist kleiner als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
-
-### In theoretischen Arbeiten
-
-- Es wurde ein stark verzerrtes Bild der einschlägigen Literatur berichtet.
-- Die Menge der verwendeten Literatur ist weniger als 50% der Menge, die für die Teilnote "gut" ausgewiesen ist.
-
 
 
 ## Sonstige Hinweis
