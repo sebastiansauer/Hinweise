@@ -2,5 +2,6 @@
 
 
 
-{{< include Prognosewettbewerb/Hinweise-Pruefung-Prognosewettbewerb-Child.qmd >}}
+
+{{< include Prognosewettbewerb/Hinweise-Pruefung-Prognosewettbewerb-child.qmd >}}
 
