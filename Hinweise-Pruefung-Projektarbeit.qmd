@@ -22,7 +22,15 @@
 
 ### Formale Anfordungen 
 
-1. Der Umfang der Arbeit umfasst im *Hauptteil* *6000* Wörter bei Gruppenarbeiten und *4000* Wörter ein Einzelarbeiten, plus/minus 10%. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Diagramm als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit an geeigneter Stelle an (Anhang).
+1. Der Umfang der Arbeit umfasst im *Hauptteil* beträgt:
+
+- *4000* Wörter ein Einzelarbeiten
+- *6000* Wörter bei Gruppenarbeiten mit 2 Personen
+- *7000* Wörter bei Gruppenarbeiten mit 3 Personen
+- *8000* Wörter bei Gruppenarbeiten mit 4 oder mehr Personen
+
+
+Diese Wortzahl gilt mit einem Puffer von plus/minus 10%. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Diagramm als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit an geeigneter Stelle an (Anhang).
 
 
 4. Textsatz und (gestalterische) *Formatierung* der Arbeit orientieren sich an den schriftlich bereitgestellten Hinweisen (z.B. im Skript).
