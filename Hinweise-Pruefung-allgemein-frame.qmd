@@ -1,6 +1,8 @@
 # Allgemeine Prüfungshinweise
 
 
+Alle Angaben gelten nur insoweit der Prüfer keine anderslautenden Hinweise gegeben hat.
+
 
 {{< include Hinweise-Pruefung-allgemein.qmd >}}
 
