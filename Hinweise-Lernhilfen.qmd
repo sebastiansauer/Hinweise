@@ -64,9 +64,9 @@ Folgendes R-Paket ist für die Bayes-Inferenz nötig:
 ### Online-Unterstützung
 
 
-Dieser Kurs kann in Präsenz und Online angeboten werden.
-Wenn Sie die Wahl haben, empfehle ich die Teilnahme in Präsenz, da der Lernerfolg höher ist.
-Online ist es meist schwieriger, sich zu konzentrieren.
+Dieser Kurs kann in Präsenz und Online angeboten (bzw. besucht) werden.
+Wenn Sie die Wahl haben, *empfehle ich die Teilnahme in Präsenz*, da der Lernerfolg höher ist.
+Online ist es meist schwieriger, sich zu konzentrieren, da es mehr Ablenkung gibt.
 Aber auch online ist es möglich, den Stoff gut zu lernen, s. @fig-believe-in-you.
 
 ![We believe in you! Image Credit: Allison Horst](https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/5ccff989-900e-4f2b-aece-55278b563cfa_rw_1920.png?h=e61fb9e7f31d490ebf29f9f69ea2977a){#fig-believe-in-you width="50%"}
@@ -81,7 +81,7 @@ die das Online-Zusammenarbeiten vereinfachen:
 
 - [Frag-Jetzt-Raum zum anonymen Fragen stellen während des Unterrichts](https://frag.jetzt/home). Der Keycode wird Ihnen bei Bedarf vom Dozenten bereitgestellt.
 - [Padlet](https://de.padlet.com/) zum einfachen (und anonymen) Hochladen von Arbeitsergebnissen der Studentis im Unterricht. Wir nutzen es als eine Art Pinwand zum Sammeln von Arbeitsbeiträgen. Die Zugangsdaten stellt Ihnen der Dozent bereit.
-- Nutzen Sie das vom Dozenten bereitgestelle Forum, um Fragen zu stellen und Fragen zu beantworten.
+- Nutzen Sie das vom Dozenten bereitgestelle *Forum*, um Fragen zu stellen und Fragen zu beantworten.
 
 
 
@@ -117,12 +117,14 @@ Vermeiden Sie, das Lernen aufzuschieben. Bleiben Sie dran!$\square$
 - *Lerngruppe*: Treten Sie einer Lerngruppe bei.
 - *Tutorium*: Besuchen Sie ein Tutorium, falls eines angeboten wird.
 - *Vor- und Nachbereitung*: Bereiten Sie den Unterricht vor und nach.
-- *Selbsttest*: Testen Sie sich mit Flashcards (Karteikarten mit Vor- und Rückseite). Wenn Sie alle Aufgaben dieses Kurses aus dem FF beherrschen, sollte die Prüfung kein Problem sein.
+- *Selbsttest*: Testen Sie sich mit Flashcards (Karteikarten, Vorderseite: Frage, Rückseite: Lösung). Wenn Sie alle Aufgaben dieses Kurses aus dem FF beherrschen, sollte die Prüfung kein Problem sein.
 - *Übungen*: Bearbeiten Sie alle Übungsaufgaben gewissenhaft.
 - Portal *Datenwerk*: Gehen Sie die Aufgaben auf dem Portal [Datenwerk](https://datenwerk.netlify.app/) durch (soweit relevant).
 - *Fallstudien*: Schauen Sie sich meine Fallstudiensammlungen an: https://sebastiansauer-academic.netlify.app/courseware/casestudies/
 - *Lehrkraft* ansprechen: Sprechen Sie die Lehrkraft an, wenn Sie Fragen haben. Haben Sie keine Scheu! Bitte lesen Sie aber vorab die Hinweise, um Redundanz zu vermeiden.
-- *Dabei bleiben*: Vermeiden Sie "Bullimie-Lernen" (lange nix, dann alles auf einmal), sondern bevorzugen Sie "Lern-Snacks" (immer wieder ein bisschen)
+- *Dabei bleiben*: Vermeiden Sie "Bullimie-Lernen" (lange nix, dann alles auf einmal), sondern bevorzugen Sie "Lern-Snacks" (immer wieder ein bisschen).
+- *Zusammenfassungen schreiben*: Schreiben Sie sich eine Zusammenfassung, am besten mit der Hand. Es gibt auch Tools (wie <https://web.hypothes.is/> oder diese [Chrome-Extension](https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek)), die Kommentare in Webseiten ermöglichen.
+
 
 
 

@@ -22,6 +22,11 @@ Ein paar Tipps für Prüfungserfolg:
 Die Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind.
 Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfung vorzubereiten.
 
+## Schreiben Sie Zusammenfassungen
+
+Schreiben Sie sich eine Zusammenfassung, am besten mit der Hand. Es gibt auch Tools (wie <https://web.hypothes.is/> oder diese [Chrome-Extension](https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek)), die Kommentare in Webseiten ermöglichen.
+
+
 ## Arbeiten Sie kontinuierlich mit
 
 Nach meiner Erfahrung kann jede/r eine gute Note schreiben, man muss kein "Mathe-Crack" sein.
