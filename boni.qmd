@@ -1,0 +1,75 @@
+# BONIs
+
+:::callout-note
+Ein BONI ist eine Alternative zu Powerpoint-Präsentationen (PPP). Anstatt von Skripten auf Basis von PPP werden hier BONIs eingesetzt: *frei zugängliche*, *Online*-*Bücher* mit *interaktiven* Elementen.
+:::
+
+
+
+## BONI: Eine Alternative zu PowerPoint
+
+Folienskripte, zu meist auf Basis von Microsoft Powerpoint, stellen den zentralen Schriftweg der Wissensvermittlung von Hochschullehrkräften zur Zuhörerschaft [@adams_powerpoint_2006]. Insgesamt zeigen die Befunde gemischte Befunde zum didaktischen Nutzen dieses Mediums auf [@cosgun_ogeyik_effectiveness_2017; gambari_effectiveness_2015]. 
+
+*BONIs* bieten ein alternatives Medium zu Folien. @fig-boni zeigt einige BONIs des Autors: [Statistik1](https://statistik1.netlify.app/), das BONI für einen einführenden Statistikkurs und [Datenwerk](https://datenwerk.netlify.app/), das BONI eine Aufgabensammlung aus der Statistik.
+
+<!-- ::: {#fig-boni layout-ncol=2} -->
+
+<!-- ![Statistik1](img/statistik1.png) -->
+
+<!-- ![Aufgabensammlung](img/datenwerk.png) -->
+<!-- ::: -->
+
+
+::: {#fig-boni}
+::: {.panel-tabset layout-ncol=2}
+
+## Statistik1
+```{=html}
+<iframe width="700" height="400" src="https://statistik1.netlify.app//" title="Ein Einführungskurs in die Statistik mit einem Schwerpunkt auf Prognosemodellierung"></iframe>
+```
+
+## Datenwerk
+
+```{=html}
+<iframe width="700" height="400" src="https://datenwerk.netlify.app/" title="DIY: Eine Aufgabensammlung für den Statistikunterricht"></iframe>
+```
+
+
+## Hinweisbuch
+
+```{=html}
+<iframe width="700" height="400" src="https://hinweisbuch.netlify.app//" title="DIY: Formale Hinweise zu Prüfungen und Unterricht bei Prof. Sauer"></iframe>
+```
+
+
+:::
+Eine Auswahl von BONIs des Autors.
+:::
+
+
+
+## Vorzüge von BONIs
+
+- 🔁 *Interaktiv*: BONIS nutzen moderne Web-Technologie, die den Einsatz vieler interaktiver Elemente erlaubt wie z.B. [Diagramme](https://statistik1.netlify.app/030-aufbereiten#fallstudie), [Animationen](https://statistik1.netlify.app/090-regression2#fig-temp-de), [Apps](https://start-bayes.netlify.app/0300-wskt#baumdiagramm-sucht-problem) oder [Übungsaufgaben](https://start-bayes.netlify.app/0600-post#zur-erinnerung-gitterwerte-in-r-berechnen). Interaktivität ist ein maßgeblicher Faktor für Lernerfolg bei Studierenden [@harbour_brief_2015].
+
+- 🚫🚧 *Offen*: BONIs stehen frei zugänglich im Internet. Dadurch wird die *Barriere minimiert*, das Lernmedium zu nutzen: Es ist nicht nötig, sich in eine Lernplattform einzuloggen. Es ist nicht nötig, eine zusätzliche Software zu öffnen. Ein einziger Klick im Browser reicht.
+
+- 🗝 *Orientiert*: BONIs sind hoch *o*rientiert und zugänglich: Einfach gesagt, ist (fast) jedes Element "verlinkt", hat also eine URL: Nicht nur Kapitel und Unterkapitel, sondern auch Diagramme, Gleichungen, Tabellen, Literaturstellen oder Aufgaben.
+
+
+## Fazit
+
+BONIS sind eine Alternative auf Basis moderner Web-Technologie mit einem hohen Grad an Interaktivität 🔁, Offenheit (barrierefrei) 🚫🚧  und Orientierungshilfen (zugänglich) 🗝️.
+
+
+:::callout-important
+BONI = interaktiv 🔁 $+$ offen 🚫🚧  $+$ zugänglich 🗝 $=$ 🎉🏆
+:::
+
+
+
+
+
+
+
+

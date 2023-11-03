@@ -23,6 +23,7 @@ book:
       chapters:
         - Hinweise-Didaktik-frame.qmd
         - Hinweise-Unterricht-frame.qmd
+        - boni.qmd
     - part: "Lernen"
       chapters: 
         - Hinweise-Pruefungsvorbereitung-frame.qmd
