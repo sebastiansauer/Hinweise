@@ -956,11 +956,22 @@
     ]
   },
   {
-    "objectID": "boni.html",
-    "href": "boni.html",
+    "objectID": "boni.html#bonis-eine-alternative-zu-powerpoint",
+    "href": "boni.html#bonis-eine-alternative-zu-powerpoint",
     "title": "14  BONIs",
-    "section": "",
-    "text": "15 BONI: Eine Alternative zu PowerPoint\nFolienskripte, zu meist auf Basis von Microsoft Powerpoint, stellen den zentralen Schriftweg der Wissensvermittlung von Hochschullehrkräften zur Zuhörerschaft [@adams_powerpoint_2006]. Insgesamt zeigen die Befunde gemischte Befunde zum didaktischen Nutzen dieses Mediums auf [@cosgun_ogeyik_effectiveness_2017; gambari_effectiveness_2015].\nBONIs bieten ein alternatives Medium zu Folien. ?fig-boni zeigt einige BONIs des Autors: Statistik1, das BONI für einen einführenden Statistikkurs und Datenwerk, das BONI eine Aufgabensammlung aus der Statistik.\n::: {#fig-boni panel-tabset layout-ncol=2}",
+    "section": "14.1 BONIs: Eine Alternative zu PowerPoint",
+    "text": "14.1 BONIs: Eine Alternative zu PowerPoint\nFolienskripte, zu meist auf Basis von Microsoft Powerpoint-Präsentationen, stellen den zentralen Schriftweg der Wissensvermittlung von Hochschullehrkräften zur Zuhörerschaft (Adams 2006). Insgesamt zeigen die Befunde gemischte Befunde zum didaktischen Nutzen dieses Mediums auf (Cosgun Ögeyik 2017; Gambari, Yusuf, und Balogun 2015).\nBONIs bieten eine Alternativzu Folien. Abbildung 14.1 zeigt einige BONIs des Autors: Statistik1, das BONI für einen einführenden Statistikkurs und Datenwerk, das BONI eine Aufgabensammlung aus der Statistik.\n\n\n\n\n\n\n\n\nStatistik1DatenwerkHinweisbuch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 14.1: Eine Auswahl von BONIs des Autors.",
+    "crumbs": [
+      "Unterricht",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>BONIs</span>"
+    ]
+  },
+  {
+    "objectID": "boni.html#vorzüge-von-bonis",
+    "href": "boni.html#vorzüge-von-bonis",
+    "title": "14  BONIs",
+    "section": "14.2 Vorzüge von BONIs",
+    "text": "14.2 Vorzüge von BONIs\n\n🔁 Interaktiv: BONIS nutzen moderne Web-Technologie, die den Einsatz vieler interaktiver Elemente erlaubt wie z.B. Diagramme, Animationen, Apps oder Übungsaufgaben. Interaktivität ist ein maßgeblicher Faktor für Lernerfolg bei Studierenden (Harbour u. a. 2015).\n🚫🚧 Offen: BONIs stehen frei zugänglich im Internet. Dadurch wird die Barriere minimiert, das Lernmedium zu nutzen: Es ist nicht nötig, sich in eine Lernplattform einzuloggen. Es ist nicht nötig, eine zusätzliche Software zu öffnen. Ein einziger Klick im Browser reicht.\n🗝 Orientiert: BONIs sind hoch orientiert und zugänglich: Einfach gesagt, ist (fast) jedes Element “verlinkt”, hat also eine URL: Nicht nur Kapitel und Unterkapitel, sondern auch Diagramme, Gleichungen, Tabellen, Literaturstellen oder Aufgaben.",
     "crumbs": [
       "Unterricht",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>BONIs</span>"
@@ -1165,55 +1176,11 @@
     ]
   },
   {
-    "objectID": "boni.html#statistik1",
-    "href": "boni.html#statistik1",
+    "objectID": "boni.html#literatur",
+    "href": "boni.html#literatur",
     "title": "14  BONIs",
-    "section": "14.2 Statistik1",
-    "text": "14.2 Statistik1",
-    "crumbs": [
-      "Unterricht",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>BONIs</span>"
-    ]
-  },
-  {
-    "objectID": "boni.html#datenwerk",
-    "href": "boni.html#datenwerk",
-    "title": "14  BONIs",
-    "section": "14.3 Datenwerk",
-    "text": "14.3 Datenwerk",
-    "crumbs": [
-      "Unterricht",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>BONIs</span>"
-    ]
-  },
-  {
-    "objectID": "boni.html#hinweisbuch",
-    "href": "boni.html#hinweisbuch",
-    "title": "14  BONIs",
-    "section": "14.4 Hinweisbuch",
-    "text": "14.4 Hinweisbuch\n\n:::",
-    "crumbs": [
-      "Unterricht",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>BONIs</span>"
-    ]
-  },
-  {
-    "objectID": "boni.html#boni-eine-alternative-zu-powerpoint",
-    "href": "boni.html#boni-eine-alternative-zu-powerpoint",
-    "title": "14  BONIs",
-    "section": "14.1 BONI: Eine Alternative zu PowerPoint",
-    "text": "14.1 BONI: Eine Alternative zu PowerPoint\nFolienskripte, zu meist auf Basis von Microsoft Powerpoint, stellen den zentralen Schriftweg der Wissensvermittlung von Hochschullehrkräften zur Zuhörerschaft [@adams_powerpoint_2006]. Insgesamt zeigen die Befunde gemischte Befunde zum didaktischen Nutzen dieses Mediums auf [@cosgun_ogeyik_effectiveness_2017; gambari_effectiveness_2015].\nBONIs bieten ein alternatives Medium zu Folien. Abbildung 14.1 zeigt einige BONIs des Autors: Statistik1, das BONI für einen einführenden Statistikkurs und Datenwerk, das BONI eine Aufgabensammlung aus der Statistik.\n\n\n\n\n\n\n\n\nStatistik1DatenwerkHinweisbuch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 14.1: Eine Auswahl von BONIs des Autors.",
-    "crumbs": [
-      "Unterricht",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>BONIs</span>"
-    ]
-  },
-  {
-    "objectID": "boni.html#vorzüge-von-bonis",
-    "href": "boni.html#vorzüge-von-bonis",
-    "title": "14  BONIs",
-    "section": "14.2 Vorzüge von BONIs",
-    "text": "14.2 Vorzüge von BONIs\n\n🔁 Interaktiv: BONIS nutzen moderne Web-Technologie, die den Einsatz vieler interaktiver Elemente erlaubt wie z.B. Diagramme, Animationen, Apps oder Übungsaufgaben. Interaktivität ist ein maßgeblicher Faktor für Lernerfolg bei Studierenden [@harbour_brief_2015].\n🚫🚧 Offen: BONIs stehen frei zugänglich im Internet. Dadurch wird die Barriere minimiert, das Lernmedium zu nutzen: Es ist nicht nötig, sich in eine Lernplattform einzuloggen. Es ist nicht nötig, eine zusätzliche Software zu öffnen. Ein einziger Klick im Browser reicht.\n🗝 Orientiert: BONIs sind hoch orientiert und zugänglich: Einfach gesagt, ist (fast) jedes Element “verlinkt”, hat also eine URL: Nicht nur Kapitel und Unterkapitel, sondern auch Diagramme, Gleichungen, Tabellen, Literaturstellen oder Aufgaben.",
+    "section": "14.4 Literatur",
+    "text": "14.4 Literatur\n\n\n\n\nAdams, Catherine. 2006. „PowerPoint, Habits of Mind, and Classroom Culture“. Journal of Curriculum Studies 38 (4): 389–411. https://doi.org/10.1080/00220270600579141.\n\n\nCosgun Ögeyik, Muhlise. 2017. „The Effectiveness of PowerPoint Presentation and Conventional Lecture on Pedagogical Content Knowledge Attainment“. Innovations in Education and Teaching International 54 (5): 503–10. https://doi.org/10.1080/14703297.2016.1250663.\n\n\nGambari, Amosa Isiaka, Hamdalat Taiwo Yusuf, und Sherifat Adepeju Balogun. 2015. „Effectiveness of PowerPoint Presentation on Students’ Cognitive Achievement in Technical Drawing“. Malaysian Online Journal of Educational Technology 3 (4): 1–12. https://eric.ed.gov/?id=EJ1085923.\n\n\nHarbour, Kristin E., Lauren L. Evanovich, Chris A. Sweigart, und Lindsay E. Hughes. 2015. „A Brief Review of Effective Teaching Practices That Maximize Student Engagement“. Preventing School Failure: Alternative Education for Children and Youth 59 (1): 5–13. https://doi.org/10.1080/1045988X.2014.919136.",
     "crumbs": [
       "Unterricht",
       "<span class='chapter-number'>14</span>  <span class='chapter-title'>BONIs</span>"

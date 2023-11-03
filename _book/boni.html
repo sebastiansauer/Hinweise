@@ -20,7 +20,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -280,9 +300,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#boni-eine-alternative-zu-powerpoint" id="toc-boni-eine-alternative-zu-powerpoint" class="nav-link active" data-scroll-target="#boni-eine-alternative-zu-powerpoint"><span class="header-section-number">14.1</span> BONI: Eine Alternative zu PowerPoint</a></li>
+  <li><a href="#bonis-eine-alternative-zu-powerpoint" id="toc-bonis-eine-alternative-zu-powerpoint" class="nav-link active" data-scroll-target="#bonis-eine-alternative-zu-powerpoint"><span class="header-section-number">14.1</span> BONIs: Eine Alternative zu PowerPoint</a></li>
   <li><a href="#vorzüge-von-bonis" id="toc-vorzüge-von-bonis" class="nav-link" data-scroll-target="#vorzüge-von-bonis"><span class="header-section-number">14.2</span> Vorzüge von BONIs</a></li>
   <li><a href="#fazit" id="toc-fazit" class="nav-link" data-scroll-target="#fazit"><span class="header-section-number">14.3</span> Fazit</a></li>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">14.4</span> Literatur</a></li>
   </ul>
 </nav>
     </div>
@@ -318,13 +339,13 @@ Hinweis
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Ein BONI ist eine Alternative zu Powerpoint-Präsentationen (PPP). Anstatt von Skripten auf Basis von PPP werden hier BONIs eingesetzt: <em>frei zugängliche</em>, <em>Online</em>-<em>Bücher</em> mit <em>interaktiven</em> Elementen.</p>
+<p>Ein BONI ist eine Alternative zu Powerpoint-Präsentationen (PPP). Anstatt von Skripten auf Basis von PPP werden hier BONIs eingesetzt: <em>frei zugängliche</em> <em>Online</em>-<em>Bücher</em> mit <em>interaktiven</em> Elementen.</p>
 </div>
 </div>
-<section id="boni-eine-alternative-zu-powerpoint" class="level2" data-number="14.1">
-<h2 data-number="14.1" class="anchored" data-anchor-id="boni-eine-alternative-zu-powerpoint"><span class="header-section-number">14.1</span> BONI: Eine Alternative zu PowerPoint</h2>
-<p>Folienskripte, zu meist auf Basis von Microsoft Powerpoint, stellen den zentralen Schriftweg der Wissensvermittlung von Hochschullehrkräften zur Zuhörerschaft <span class="citation" data-cites="adams_powerpoint_2006">[@adams_powerpoint_2006]</span>. Insgesamt zeigen die Befunde gemischte Befunde zum didaktischen Nutzen dieses Mediums auf [<span class="citation" data-cites="cosgun_ogeyik_effectiveness_2017">@cosgun_ogeyik_effectiveness_2017</span>; gambari_effectiveness_2015].</p>
-<p><em>BONIs</em> bieten ein alternatives Medium zu Folien. <a href="#fig-boni" class="quarto-xref">Abbildung&nbsp;<span>14.1</span></a> zeigt einige BONIs des Autors: <a href="https://statistik1.netlify.app/">Statistik1</a>, das BONI für einen einführenden Statistikkurs und <a href="https://datenwerk.netlify.app/">Datenwerk</a>, das BONI eine Aufgabensammlung aus der Statistik.</p>
+<section id="bonis-eine-alternative-zu-powerpoint" class="level2" data-number="14.1">
+<h2 data-number="14.1" class="anchored" data-anchor-id="bonis-eine-alternative-zu-powerpoint"><span class="header-section-number">14.1</span> BONIs: Eine Alternative zu PowerPoint</h2>
+<p>Folienskripte, zu meist auf Basis von Microsoft Powerpoint-Präsentationen, stellen den zentralen Schriftweg der Wissensvermittlung von Hochschullehrkräften zur Zuhörerschaft <span class="citation" data-cites="adams_powerpoint_2006">(<a href="#ref-adams_powerpoint_2006" role="doc-biblioref">Adams 2006</a>)</span>. Insgesamt zeigen die Befunde gemischte Befunde zum didaktischen Nutzen dieses Mediums auf <span class="citation" data-cites="cosgun_ogeyik_effectiveness_2017 gambari_effectiveness_2015">(<a href="#ref-cosgun_ogeyik_effectiveness_2017" role="doc-biblioref">Cosgun Ögeyik 2017</a>; <a href="#ref-gambari_effectiveness_2015" role="doc-biblioref">Gambari, Yusuf, und Balogun 2015</a>)</span>.</p>
+<p><em>BONIs</em> bieten eine Alternativzu Folien. <a href="#fig-boni" class="quarto-xref">Abbildung&nbsp;<span>14.1</span></a> zeigt einige BONIs des Autors: <a href="https://statistik1.netlify.app/">Statistik1</a>, das BONI für einen einführenden Statistikkurs und <a href="https://datenwerk.netlify.app/">Datenwerk</a>, das BONI eine Aufgabensammlung aus der Statistik.</p>
 <!-- ::: {#fig-boni layout-ncol=2} -->
 <!-- ![Statistik1](img/statistik1.png) -->
 <!-- ![Aufgabensammlung](img/datenwerk.png) -->
@@ -356,9 +377,9 @@ Abbildung&nbsp;14.1: Eine Auswahl von BONIs des Autors.
 <section id="vorzüge-von-bonis" class="level2" data-number="14.2">
 <h2 data-number="14.2" class="anchored" data-anchor-id="vorzüge-von-bonis"><span class="header-section-number">14.2</span> Vorzüge von BONIs</h2>
 <ul>
-<li><p>🔁 <em>Interaktiv</em>: BONIS nutzen moderne Web-Technologie, die den Einsatz vieler interaktiver Elemente erlaubt wie z.B. <a href="https://statistik1.netlify.app/030-aufbereiten#fallstudie">Diagramme</a>, <a href="https://statistik1.netlify.app/090-regression2#fig-temp-de">Animationen</a>, <a href="https://start-bayes.netlify.app/0300-wskt#baumdiagramm-sucht-problem">Apps</a> oder <a href="https://start-bayes.netlify.app/0600-post#zur-erinnerung-gitterwerte-in-r-berechnen">Übungsaufgaben</a>. Interaktivität ist ein maßgeblicher Faktor für Lernerfolg bei Studierenden <span class="citation" data-cites="harbour_brief_2015">[@harbour_brief_2015]</span>.</p></li>
+<li><p>🔁 <em>Interaktiv</em>: BONIS nutzen moderne Web-Technologie, die den Einsatz vieler interaktiver Elemente erlaubt wie z.B. <a href="https://statistik1.netlify.app/030-aufbereiten#fallstudie">Diagramme</a>, <a href="https://statistik1.netlify.app/090-regression2#fig-temp-de">Animationen</a>, <a href="https://start-bayes.netlify.app/0300-wskt#baumdiagramm-sucht-problem">Apps</a> oder <a href="https://start-bayes.netlify.app/0600-post#zur-erinnerung-gitterwerte-in-r-berechnen">Übungsaufgaben</a>. Interaktivität ist ein maßgeblicher Faktor für Lernerfolg bei Studierenden <span class="citation" data-cites="harbour_brief_2015">(<a href="#ref-harbour_brief_2015" role="doc-biblioref">Harbour u.&nbsp;a. 2015</a>)</span>.</p></li>
 <li><p>🚫🚧 <em>Offen</em>: BONIs stehen frei zugänglich im Internet. Dadurch wird die <em>Barriere minimiert</em>, das Lernmedium zu nutzen: Es ist nicht nötig, sich in eine Lernplattform einzuloggen. Es ist nicht nötig, eine zusätzliche Software zu öffnen. Ein einziger Klick im Browser reicht.</p></li>
-<li><p>🗝 <em>Orientiert</em>: BONIs sind hoch <em>o</em>rientiert und zugänglich: Einfach gesagt, ist (fast) jedes Element “verlinkt”, hat also eine URL: Nicht nur Kapitel und Unterkapitel, sondern auch Diagramme, Gleichungen, Tabellen, Literaturstellen oder Aufgaben.</p></li>
+<li><p>🗝 <em>Orientiert</em>: BONIs sind hoch <em>o</em>rientiert und zugänglich: Einfach gesagt, ist (fast) jedes Element “verlinkt”, hat also eine URL: Nicht nur Kapitel und Unterkapitel, sondern auch <a href="https://statistik1.netlify.app/#fig-yoda">Diagramme</a>, <a href="https://statistik1.netlify.app/080-regression1#eq-mod1">Gleichungen</a>, <a href="https://statistik1.netlify.app/080-regression1#tbl-lm3">Tabellen</a>, <a href="https://statistik1.netlify.app/080-regression1#literatur">Literaturstellen</a> oder <a href="https://datenwerk.netlify.app/posts/nerd-gelockert/nerd-gelockert">Aufgaben</a>.</p></li>
 </ul>
 </section>
 <section id="fazit" class="level2" data-number="14.3">
@@ -377,8 +398,25 @@ Wichtig
 <p>BONI = interaktiv 🔁 <span class="math inline">\(+\)</span> offen 🚫🚧 <span class="math inline">\(+\)</span> zugänglich 🗝 <span class="math inline">\(=\)</span> 🎉🏆</p>
 </div>
 </div>
+</section>
+<section id="literatur" class="level2" data-number="14.4">
+<h2 data-number="14.4" class="anchored" data-anchor-id="literatur"><span class="header-section-number">14.4</span> Literatur</h2>
 
 
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-adams_powerpoint_2006" class="csl-entry" role="listitem">
+Adams, Catherine. 2006. <span>„<span>PowerPoint</span>, Habits of Mind, and Classroom Culture“</span>. <em>Journal of Curriculum Studies</em> 38 (4): 389–411. <a href="https://doi.org/10.1080/00220270600579141">https://doi.org/10.1080/00220270600579141</a>.
+</div>
+<div id="ref-cosgun_ogeyik_effectiveness_2017" class="csl-entry" role="listitem">
+Cosgun Ögeyik, Muhlise. 2017. <span>„The Effectiveness of <span>PowerPoint</span> Presentation and Conventional Lecture on Pedagogical Content Knowledge Attainment“</span>. <em>Innovations in Education and Teaching International</em> 54 (5): 503–10. <a href="https://doi.org/10.1080/14703297.2016.1250663">https://doi.org/10.1080/14703297.2016.1250663</a>.
+</div>
+<div id="ref-gambari_effectiveness_2015" class="csl-entry" role="listitem">
+Gambari, Amosa Isiaka, Hamdalat Taiwo Yusuf, und Sherifat Adepeju Balogun. 2015. <span>„Effectiveness of <span>PowerPoint Presentation</span> on <span>Students</span>’ <span>Cognitive Achievement</span> in <span>Technical Drawing</span>“</span>. <em>Malaysian Online Journal of Educational Technology</em> 3 (4): 1–12. <a href="https://eric.ed.gov/?id=EJ1085923">https://eric.ed.gov/?id=EJ1085923</a>.
+</div>
+<div id="ref-harbour_brief_2015" class="csl-entry" role="listitem">
+Harbour, Kristin E., Lauren L. Evanovich, Chris A. Sweigart, und Lindsay E. Hughes. 2015. <span>„A <span>Brief Review</span> of <span>Effective Teaching Practices That Maximize Student Engagement</span>“</span>. <em>Preventing School Failure: Alternative Education for Children and Youth</em> 59 (1): 5–13. <a href="https://doi.org/10.1080/1045988X.2014.919136">https://doi.org/10.1080/1045988X.2014.919136</a>.
+</div>
+</div>
 </section>
 
 </main> <!-- /main -->
