@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.4.478">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -22,7 +22,7 @@ ul.task-list li input[type="checkbox"] {
 }
 /* CSS for syntax highlighting */
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span { line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -78,6 +78,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
 
 <main class="content" id="quarto-document-content">
+
 
 
 
@@ -137,7 +138,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="verwendete-datensätze" class="level2">
 <h2 class="anchored" data-anchor-id="verwendete-datensätze">Verwendete Datensätze</h2>
-<p>In der Prüfung werden Sie u.U. aufgefordert, einen Datensatz zu importieren und zu bearbeiten. Die folgende Liste (<strong>?@tbl-pruef-csv</strong>) zeigt, welche Datensätze in der Prüfung verwendet werden. Sie können die Datensätze vorab herunterladen (für eine schnellere Bearbeitung in der Prüfung).</p>
+<p>In der Prüfung werden Sie u.U. aufgefordert, einen Datensatz zu importieren und zu bearbeiten. Die folgende Liste (<a href="#tbl-pruef-csv" class="quarto-xref">Table&nbsp;1</a>) zeigt, welche Datensätze in der Prüfung verwendet werden. Sie können die Datensätze vorab herunterladen (für eine schnellere Bearbeitung in der Prüfung).</p>
 <p>Es werden Datensätze aus den folgenden R-Pakete verwendet:</p>
 <div class="cell">
 <div class="cell-output cell-output-stdout">
@@ -205,725 +206,1209 @@ Note
 </section>
 <section id="liste-der-prüfungsdatensätze" class="level3">
 <h3 class="anchored" data-anchor-id="liste-der-prüfungsdatensätze">Liste der Prüfungsdatensätze</h3>
-<p>In <strong>?@tbl-pruef-csv</strong> sind alle Prüfungsdatensätze aufgelistet inkl. dem Bezugsort der zugehörigen CSV-Datei sowie dem zugehörigen Code-Book (Beschreibung des Datensatzes).</p>
-<div id="tbl-pruef-csv" class="cell tbl-parent quarto-layout-panel anchored" data-tbl-cap="Prüfungsdatensätze">
-<div class="panel-caption table-caption">
-<p><strong>?(caption)</strong></p>
+<p>In <a href="#tbl-pruef-csv" class="quarto-xref">Table&nbsp;1</a> sind alle Prüfungsdatensätze aufgelistet inkl. dem Bezugsort der zugehörigen CSV-Datei sowie dem zugehörigen Code-Book (Beschreibung des Datensatzes).</p>
+<div class="cell">
+<div id="tbl-pruef-csv" class="cell anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="table quarto-float-caption quarto-float-tbl" id="tbl-pruef-csv-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Prüfungsdatensätze
+</figcaption>
+<div aria-describedby="tbl-pruef-csv-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="cell table table-sm table-striped small">
+<thead>
+<tr class="header">
+<th style="text-align: right;">id</th>
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Codebook</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">1</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv">CSV: mtcars</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/datasets/mtcars.html">Doc: mtcars</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">2</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/palmerpenguins/penguins.csv">CSV: penguins</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/palmerpenguins/penguins.html">Doc: penguins</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">3</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/reshape2/tips.csv">CSV: tips</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/reshape2/tips.html">Doc: tips</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">4</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/gt/gtcars.csv">CSV: gtcars</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/gt/gtcars.html">Doc: gtcars</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">5</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/ggplot2/msleep.csv">CSV: msleep</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/ggplot2/msleep.html">Doc: msleep</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">6</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/MASS/Boston.csv">CSV: Boston</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/MASS/Boston.html">Doc: Boston</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">7</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/AER/TeachingRatings.csv">CSV: TeachingRatings</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/AER/TeachingRatings.html">Doc: TeachingRatings</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">8</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/datasets/iris.csv">CSV: iris</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/datasets/iris.html">Doc: iris</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">9</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/datasets/airquality.csv">CSV: airquality</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/datasets/airquality.html">Doc: airquality</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/robustbase/education.csv">CSV: education</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/robustbase/education.html">Doc: education</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">11</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/AER/Affairs.csv">CSV: Affairs</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/AER/Affairs.html">Doc: Affairs</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">12</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/AER/CASchools.csv">CSV: CASchools</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/AER/CASchools.html">Doc: CASchools</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">13</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/absenteeism.csv">CSV: absenteeism</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/absenteeism.html">Doc: absenteeism</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">14</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/acs12.csv">CSV: acs12</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/acs12.html">Doc: acs12</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">15</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/age_at_mar.csv">CSV: age_at_mar</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/age_at_mar.html">Doc: age_at_mar</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">16</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ames.csv">CSV: ames</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ames.html">Doc: ames</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">17</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ami_occurrences.csv">CSV: ami_occurrences</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ami_occurrences.html">Doc: ami_occurrences</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">18</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/antibiotics.csv">CSV: antibiotics</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/antibiotics.html">Doc: antibiotics</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">19</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/arbuthnot.csv">CSV: arbuthnot</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/arbuthnot.html">Doc: arbuthnot</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">20</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ask.csv">CSV: ask</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ask.html">Doc: ask</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">21</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/association.csv">CSV: association</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/association.html">Doc: association</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">22</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/assortative_mating.csv">CSV: assortative_mating</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/assortative_mating.html">Doc: assortative_mating</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">23</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/assortive_mating.csv">CSV: assortive_mating</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/assortive_mating.html">Doc: assortive_mating</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">24</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/avandia.csv">CSV: avandia</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/avandia.html">Doc: avandia</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">25</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/babies.csv">CSV: babies</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/babies.html">Doc: babies</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">26</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/babies_crawl.csv">CSV: babies_crawl</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/babies_crawl.html">Doc: babies_crawl</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">27</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/bac.csv">CSV: bac</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/bac.html">Doc: bac</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">28</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ball_bearing.csv">CSV: ball_bearing</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ball_bearing.html">Doc: ball_bearing</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">29</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/bdims.csv">CSV: bdims</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/bdims.html">Doc: bdims</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">30</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/biontech_adolescents.csv">CSV: biontech_adolescents</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/biontech_adolescents.html">Doc: biontech_adolescents</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">31</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/birds.csv">CSV: birds</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/birds.html">Doc: birds</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">32</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/births.csv">CSV: births</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/births.html">Doc: births</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">33</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/births14.csv">CSV: births14</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/births14.html">Doc: births14</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">34</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/blizzard_salary.csv">CSV: blizzard_salary</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/blizzard_salary.html">Doc: blizzard_salary</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">35</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/books.csv">CSV: books</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/books.html">Doc: books</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">36</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/burger.csv">CSV: burger</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/burger.html">Doc: burger</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">37</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cancer_in_dogs.csv">CSV: cancer_in_dogs</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cancer_in_dogs.html">Doc: cancer_in_dogs</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">38</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cards.csv">CSV: cards</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cards.html">Doc: cards</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">39</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cars93.csv">CSV: cars93</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cars93.html">Doc: cars93</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">40</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cchousing.csv">CSV: cchousing</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cchousing.html">Doc: cchousing</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">41</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/census.csv">CSV: census</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/census.html">Doc: census</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">42</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cherry.csv">CSV: cherry</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cherry.html">Doc: cherry</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">43</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/children_gender_stereo.csv">CSV: children_gender_stereo</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/children_gender_stereo.html">Doc: children_gender_stereo</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">44</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/china.csv">CSV: china</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/china.html">Doc: china</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">45</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cia_factbook.csv">CSV: cia_factbook</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cia_factbook.html">Doc: cia_factbook</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">46</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/classdata.csv">CSV: classdata</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/classdata.html">Doc: classdata</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">47</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cle_sac.csv">CSV: cle_sac</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cle_sac.html">Doc: cle_sac</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">48</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/climate70.csv">CSV: climate70</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/climate70.html">Doc: climate70</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">49</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/climber_drugs.csv">CSV: climber_drugs</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/climber_drugs.html">Doc: climber_drugs</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">50</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/coast_starlight.csv">CSV: coast_starlight</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/coast_starlight.html">Doc: coast_starlight</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">51</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/COL.csv">CSV: COL</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/COL.html">Doc: COL</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">52</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/corr_match.csv">CSV: corr_match</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/corr_match.html">Doc: corr_match</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">53</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/country_iso.csv">CSV: country_iso</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/country_iso.html">Doc: country_iso</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">54</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cpr.csv">CSV: cpr</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cpr.html">Doc: cpr</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">55</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cpu.csv">CSV: cpu</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cpu.html">Doc: cpu</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">56</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/credits.csv">CSV: credits</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/credits.html">Doc: credits</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">57</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/daycare_fines.csv">CSV: daycare_fines</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/daycare_fines.html">Doc: daycare_fines</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">58</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/diabetes2.csv">CSV: diabetes2</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/diabetes2.html">Doc: diabetes2</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">59</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/dream.csv">CSV: dream</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/dream.html">Doc: dream</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">60</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/drone_blades.csv">CSV: drone_blades</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/drone_blades.html">Doc: drone_blades</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">61</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/drug_use.csv">CSV: drug_use</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/drug_use.html">Doc: drug_use</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">62</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/duke_forest.csv">CSV: duke_forest</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/duke_forest.html">Doc: duke_forest</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">63</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/earthquakes.csv">CSV: earthquakes</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/earthquakes.html">Doc: earthquakes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">64</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ebola_survey.csv">CSV: ebola_survey</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ebola_survey.html">Doc: ebola_survey</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">65</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/elmhurst.csv">CSV: elmhurst</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/elmhurst.html">Doc: elmhurst</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">66</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/email.csv">CSV: email</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/email.html">Doc: email</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">67</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/email_test.csv">CSV: email_test</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/email_test.html">Doc: email_test</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">68</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/email50.csv">CSV: email50</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/email50.html">Doc: email50</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">69</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/env_regulation.csv">CSV: env_regulation</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/env_regulation.html">Doc: env_regulation</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">70</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/epa2012.csv">CSV: epa2012</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/epa2012.html">Doc: epa2012</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">71</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/epa2021.csv">CSV: epa2021</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/epa2021.html">Doc: epa2021</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">72</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/esi.csv">CSV: esi</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/esi.html">Doc: esi</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">73</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ethanol.csv">CSV: ethanol</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ethanol.html">Doc: ethanol</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">74</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/evals.csv">CSV: evals</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/evals.html">Doc: evals</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">75</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/exam_grades.csv">CSV: exam_grades</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/exam_grades.html">Doc: exam_grades</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">76</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/exams.csv">CSV: exams</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/exams.html">Doc: exams</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">77</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/exclusive_relationship.csv">CSV: exclusive_relationship</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/exclusive_relationship.html">Doc: exclusive_relationship</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">78</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fact_opinion.csv">CSV: fact_opinion</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fact_opinion.html">Doc: fact_opinion</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">79</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/family_college.csv">CSV: family_college</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/family_college.html">Doc: family_college</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">80</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fastfood.csv">CSV: fastfood</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fastfood.html">Doc: fastfood</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">81</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fcid.csv">CSV: fcid</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fcid.html">Doc: fcid</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">82</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fheights.csv">CSV: fheights</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fheights.html">Doc: fheights</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">83</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fish_oil_18.csv">CSV: fish_oil_18</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fish_oil_18.html">Doc: fish_oil_18</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">84</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/flow_rates.csv">CSV: flow_rates</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/flow_rates.html">Doc: flow_rates</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">85</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/friday.csv">CSV: friday</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/friday.html">Doc: friday</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">86</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/full_body_scan.csv">CSV: full_body_scan</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/full_body_scan.html">Doc: full_body_scan</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">87</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gdp_countries.csv">CSV: gdp_countries</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gdp_countries.html">Doc: gdp_countries</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">88</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gear_company.csv">CSV: gear_company</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gear_company.html">Doc: gear_company</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">89</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gender_discrimination.csv">CSV: gender_discrimination</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gender_discrimination.html">Doc: gender_discrimination</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">90</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/get_it_dunn_run.csv">CSV: get_it_dunn_run</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/get_it_dunn_run.html">Doc: get_it_dunn_run</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">91</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gifted.csv">CSV: gifted</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gifted.html">Doc: gifted</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">92</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/global_warming_pew.csv">CSV: global_warming_pew</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/global_warming_pew.html">Doc: global_warming_pew</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">93</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/goog.csv">CSV: goog</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/goog.html">Doc: goog</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">94</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gov_poll.csv">CSV: gov_poll</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gov_poll.html">Doc: gov_poll</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">95</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gpa.csv">CSV: gpa</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gpa.html">Doc: gpa</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">96</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gpa_iq.csv">CSV: gpa_iq</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gpa_iq.html">Doc: gpa_iq</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">97</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gpa_study_hours.csv">CSV: gpa_study_hours</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gpa_study_hours.html">Doc: gpa_study_hours</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">98</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gradestv.csv">CSV: gradestv</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gradestv.html">Doc: gradestv</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">99</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gsearch.csv">CSV: gsearch</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gsearch.html">Doc: gsearch</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">100</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gss2010.csv">CSV: gss2010</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gss2010.html">Doc: gss2010</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">101</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/health_coverage.csv">CSV: health_coverage</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/health_coverage.html">Doc: health_coverage</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">102</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/healthcare_law_survey.csv">CSV: healthcare_law_survey</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/healthcare_law_survey.html">Doc: healthcare_law_survey</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">103</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/heart_transplant.csv">CSV: heart_transplant</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/heart_transplant.html">Doc: heart_transplant</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">104</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/helium.csv">CSV: helium</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/helium.html">Doc: helium</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">105</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/helmet.csv">CSV: helmet</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/helmet.html">Doc: helmet</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">106</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/hfi.csv">CSV: hfi</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/hfi.html">Doc: hfi</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">107</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/house.csv">CSV: house</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/house.html">Doc: house</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">108</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/housing.csv">CSV: housing</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/housing.html">Doc: housing</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">109</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/hsb2.csv">CSV: hsb2</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/hsb2.html">Doc: hsb2</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">110</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/husbands_wives.csv">CSV: husbands_wives</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/husbands_wives.html">Doc: husbands_wives</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">111</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/immigration.csv">CSV: immigration</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/immigration.html">Doc: immigration</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">112</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/IMSCOL.csv">CSV: IMSCOL</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/IMSCOL.html">Doc: IMSCOL</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">113</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/infmortrate.csv">CSV: infmortrate</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/infmortrate.html">Doc: infmortrate</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">114</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ipo.csv">CSV: ipo</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ipo.html">Doc: ipo</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">115</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ipod.csv">CSV: ipod</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ipod.html">Doc: ipod</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">116</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/jury.csv">CSV: jury</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/jury.html">Doc: jury</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">117</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/kobe_basket.csv">CSV: kobe_basket</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/kobe_basket.html">Doc: kobe_basket</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">118</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/labor_market_discrimination.csv">CSV: labor_market_discrimination</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/labor_market_discrimination.html">Doc: labor_market_discrimination</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">119</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/law_resume.csv">CSV: law_resume</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/law_resume.html">Doc: law_resume</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">120</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/leg_mari.csv">CSV: leg_mari</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/leg_mari.html">Doc: leg_mari</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">121</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/lizard_habitat.csv">CSV: lizard_habitat</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/lizard_habitat.html">Doc: lizard_habitat</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">122</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/lizard_run.csv">CSV: lizard_run</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/lizard_run.html">Doc: lizard_run</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">123</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/loan50.csv">CSV: loan50</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/loan50.html">Doc: loan50</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">124</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/loans_full_schema.csv">CSV: loans_full_schema</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/loans_full_schema.html">Doc: loans_full_schema</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">125</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/london_boroughs.csv">CSV: london_boroughs</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/london_boroughs.html">Doc: london_boroughs</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">126</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/london_murders.csv">CSV: london_murders</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/london_murders.html">Doc: london_murders</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">127</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mail_me.csv">CSV: mail_me</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mail_me.html">Doc: mail_me</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">128</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/major_survey.csv">CSV: major_survey</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/major_survey.html">Doc: major_survey</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">129</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/malaria.csv">CSV: malaria</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/malaria.html">Doc: malaria</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">130</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/male_heights.csv">CSV: male_heights</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/male_heights.html">Doc: male_heights</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">131</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/male_heights_fcid.csv">CSV: male_heights_fcid</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/male_heights_fcid.html">Doc: male_heights_fcid</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">132</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mammals.csv">CSV: mammals</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mammals.html">Doc: mammals</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">133</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mammogram.csv">CSV: mammogram</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mammogram.html">Doc: mammogram</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">134</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/marathon.csv">CSV: marathon</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/marathon.html">Doc: marathon</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">135</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mariokart.csv">CSV: mariokart</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mariokart.html">Doc: mariokart</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">136</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mcu_films.csv">CSV: mcu_films</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mcu_films.html">Doc: mcu_films</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">137</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/midterms_house.csv">CSV: midterms_house</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/midterms_house.html">Doc: midterms_house</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">138</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/migraine.csv">CSV: migraine</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/migraine.html">Doc: migraine</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">139</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/military.csv">CSV: military</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/military.html">Doc: military</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">140</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mlb.csv">CSV: mlb</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mlb.html">Doc: mlb</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">141</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mlb_players_18.csv">CSV: mlb_players_18</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mlb_players_18.html">Doc: mlb_players_18</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">142</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mlb_teams.csv">CSV: mlb_teams</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mlb_teams.html">Doc: mlb_teams</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">143</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mlbbat10.csv">CSV: mlbbat10</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mlbbat10.html">Doc: mlbbat10</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">144</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mn_police_use_of_force.csv">CSV: mn_police_use_of_force</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mn_police_use_of_force.html">Doc: mn_police_use_of_force</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">145</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mtl.csv">CSV: mtl</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mtl.html">Doc: mtl</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">146</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/murders.csv">CSV: murders</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/murders.html">Doc: murders</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">147</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nba_heights.csv">CSV: nba_heights</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nba_heights.html">Doc: nba_heights</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">148</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nba_players_19.csv">CSV: nba_players_19</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nba_players_19.html">Doc: nba_players_19</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">149</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ncbirths.csv">CSV: ncbirths</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ncbirths.html">Doc: ncbirths</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">150</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nuclear_survey.csv">CSV: nuclear_survey</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nuclear_survey.html">Doc: nuclear_survey</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">151</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nyc_marathon.csv">CSV: nyc_marathon</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nyc_marathon.html">Doc: nyc_marathon</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">152</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nycflights.csv">CSV: nycflights</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nycflights.html">Doc: nycflights</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">153</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/offshore_drilling.csv">CSV: offshore_drilling</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/offshore_drilling.html">Doc: offshore_drilling</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">154</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/openintro_colors.csv">CSV: openintro_colors</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/openintro_colors.html">Doc: openintro_colors</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">155</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/openintro_palettes.csv">CSV: openintro_palettes</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/openintro_palettes.html">Doc: openintro_palettes</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">156</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/opportunity_cost.csv">CSV: opportunity_cost</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/opportunity_cost.html">Doc: opportunity_cost</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">157</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/orings.csv">CSV: orings</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/orings.html">Doc: orings</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">158</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/oscars.csv">CSV: oscars</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/oscars.html">Doc: oscars</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">159</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/outliers.csv">CSV: outliers</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/outliers.html">Doc: outliers</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">160</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/penelope.csv">CSV: penelope</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/penelope.html">Doc: penelope</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">161</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/penetrating_oil.csv">CSV: penetrating_oil</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/penetrating_oil.html">Doc: penetrating_oil</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">162</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/penny_ages.csv">CSV: penny_ages</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/penny_ages.html">Doc: penny_ages</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">163</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/pew_energy_2018.csv">CSV: pew_energy_2018</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/pew_energy_2018.html">Doc: pew_energy_2018</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">164</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/photo_classify.csv">CSV: photo_classify</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/photo_classify.html">Doc: photo_classify</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">165</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/piracy.csv">CSV: piracy</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/piracy.html">Doc: piracy</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">166</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/playing_cards.csv">CSV: playing_cards</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/playing_cards.html">Doc: playing_cards</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">167</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/pm25_2011_durham.csv">CSV: pm25_2011_durham</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/pm25_2011_durham.html">Doc: pm25_2011_durham</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">168</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/poker.csv">CSV: poker</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/poker.html">Doc: poker</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">169</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/possum.csv">CSV: possum</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/possum.html">Doc: possum</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">170</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ppp_201503.csv">CSV: ppp_201503</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ppp_201503.html">Doc: ppp_201503</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">171</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/present.csv">CSV: present</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/present.html">Doc: present</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">172</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/president.csv">CSV: president</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/president.html">Doc: president</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">173</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/prison.csv">CSV: prison</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/prison.html">Doc: prison</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">174</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/prius_mpg.csv">CSV: prius_mpg</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/prius_mpg.html">Doc: prius_mpg</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">175</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/race_justice.csv">CSV: race_justice</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/race_justice.html">Doc: race_justice</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">176</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/reddit_finance.csv">CSV: reddit_finance</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/reddit_finance.html">Doc: reddit_finance</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">177</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/res_demo_1.csv">CSV: res_demo_1</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/res_demo_1.html">Doc: res_demo_1</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">178</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/res_demo_2.csv">CSV: res_demo_2</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/res_demo_2.html">Doc: res_demo_2</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">179</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/resume.csv">CSV: resume</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/resume.html">Doc: resume</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">180</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/rosling_responses.csv">CSV: rosling_responses</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/rosling_responses.html">Doc: rosling_responses</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">181</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/russian_influence_on_us_election_2016.csv">CSV: russian_influence_on_us_election_2016</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/russian_influence_on_us_election_2016.html">Doc: russian_influence_on_us_election_2016</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">182</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sa_gdp_elec.csv">CSV: sa_gdp_elec</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sa_gdp_elec.html">Doc: sa_gdp_elec</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">183</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/salinity.csv">CSV: salinity</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/salinity.html">Doc: salinity</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">184</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sat_improve.csv">CSV: sat_improve</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sat_improve.html">Doc: sat_improve</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">185</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/satgpa.csv">CSV: satgpa</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/satgpa.html">Doc: satgpa</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">186</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/scotus_healthcare.csv">CSV: scotus_healthcare</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/scotus_healthcare.html">Doc: scotus_healthcare</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">187</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/seattlepets.csv">CSV: seattlepets</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/seattlepets.html">Doc: seattlepets</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">188</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sex_discrimination.csv">CSV: sex_discrimination</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sex_discrimination.html">Doc: sex_discrimination</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">189</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/simpsons_paradox_covid.csv">CSV: simpsons_paradox_covid</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/simpsons_paradox_covid.html">Doc: simpsons_paradox_covid</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">190</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/simulated_dist.csv">CSV: simulated_dist</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/simulated_dist.html">Doc: simulated_dist</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">191</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/simulated_normal.csv">CSV: simulated_normal</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/simulated_normal.html">Doc: simulated_normal</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">192</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/simulated_scatter.csv">CSV: simulated_scatter</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/simulated_scatter.html">Doc: simulated_scatter</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">193</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sinusitis.csv">CSV: sinusitis</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sinusitis.html">Doc: sinusitis</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">194</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sleep_deprivation.csv">CSV: sleep_deprivation</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sleep_deprivation.html">Doc: sleep_deprivation</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">195</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/smallpox.csv">CSV: smallpox</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/smallpox.html">Doc: smallpox</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">196</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/smoking.csv">CSV: smoking</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/smoking.html">Doc: smoking</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">197</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/snowfall.csv">CSV: snowfall</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/snowfall.html">Doc: snowfall</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">198</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/socialexp.csv">CSV: socialexp</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/socialexp.html">Doc: socialexp</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">199</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/solar.csv">CSV: solar</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/solar.html">Doc: solar</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">200</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sowc_child_mortality.csv">CSV: sowc_child_mortality</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sowc_child_mortality.html">Doc: sowc_child_mortality</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">201</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sowc_demographics.csv">CSV: sowc_demographics</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sowc_demographics.html">Doc: sowc_demographics</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">202</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sowc_maternal_newborn.csv">CSV: sowc_maternal_newborn</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sowc_maternal_newborn.html">Doc: sowc_maternal_newborn</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">203</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sp500.csv">CSV: sp500</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sp500.html">Doc: sp500</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">204</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sp500_1950_2018.csv">CSV: sp500_1950_2018</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sp500_1950_2018.html">Doc: sp500_1950_2018</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">205</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sp500_seq.csv">CSV: sp500_seq</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sp500_seq.html">Doc: sp500_seq</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">206</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/speed_gender_height.csv">CSV: speed_gender_height</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/speed_gender_height.html">Doc: speed_gender_height</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">207</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ssd_speed.csv">CSV: ssd_speed</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ssd_speed.html">Doc: ssd_speed</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">208</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/starbucks.csv">CSV: starbucks</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/starbucks.html">Doc: starbucks</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">209</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stats_scores.csv">CSV: stats_scores</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stats_scores.html">Doc: stats_scores</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">210</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stem_cell.csv">CSV: stem_cell</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stem_cell.html">Doc: stem_cell</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">211</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stent30.csv">CSV: stent30</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stent30.html">Doc: stent30</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">212</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stent365.csv">CSV: stent365</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stent365.html">Doc: stent365</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">213</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stocks_18.csv">CSV: stocks_18</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stocks_18.html">Doc: stocks_18</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">214</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/student_housing.csv">CSV: student_housing</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/student_housing.html">Doc: student_housing</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">215</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/student_sleep.csv">CSV: student_sleep</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/student_sleep.html">Doc: student_sleep</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">216</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sulphinpyrazone.csv">CSV: sulphinpyrazone</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sulphinpyrazone.html">Doc: sulphinpyrazone</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">217</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/supreme_court.csv">CSV: supreme_court</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/supreme_court.html">Doc: supreme_court</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">218</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/teacher.csv">CSV: teacher</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/teacher.html">Doc: teacher</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">219</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/textbooks.csv">CSV: textbooks</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/textbooks.html">Doc: textbooks</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">220</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/thanksgiving_spend.csv">CSV: thanksgiving_spend</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/thanksgiving_spend.html">Doc: thanksgiving_spend</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">221</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/tips.csv">CSV: tips</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/tips.html">Doc: tips</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">222</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/toohey.csv">CSV: toohey</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/toohey.html">Doc: toohey</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">223</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/tourism.csv">CSV: tourism</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/tourism.html">Doc: tourism</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">224</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/toy_anova.csv">CSV: toy_anova</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/toy_anova.html">Doc: toy_anova</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">225</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/transplant.csv">CSV: transplant</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/transplant.html">Doc: transplant</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">226</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ucla_f18.csv">CSV: ucla_f18</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ucla_f18.html">Doc: ucla_f18</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">227</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ucla_textbooks_f18.csv">CSV: ucla_textbooks_f18</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ucla_textbooks_f18.html">Doc: ucla_textbooks_f18</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">228</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ukdemo.csv">CSV: ukdemo</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ukdemo.html">Doc: ukdemo</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">229</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/unempl.csv">CSV: unempl</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/unempl.html">Doc: unempl</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">230</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/unemploy_pres.csv">CSV: unemploy_pres</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/unemploy_pres.html">Doc: unemploy_pres</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">231</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/winery_cars.csv">CSV: winery_cars</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/winery_cars.html">Doc: winery_cars</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">232</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/world_pop.csv">CSV: world_pop</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/world_pop.html">Doc: world_pop</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">233</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/xom.csv">CSV: xom</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/xom.html">Doc: xom</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">234</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/yawn.csv">CSV: yawn</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/yawn.html">Doc: yawn</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">235</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/yrbss.csv">CSV: yrbss</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/yrbss.html">Doc: yrbss</a></td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">236</td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/csv/openintro/yrbss_samp.csv">CSV: yrbss_samp</a></td>
+<td style="text-align: left;"><a href="https://vincentarelbundock.github.io/Rdatasets/doc/openintro/yrbss_samp.html">Doc: yrbss_samp</a></td>
+</tr>
+</tbody>
+</table>
 </div>
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="cell-output cell-output-stdout quarto-layout-cell" style="flex-basis: 100.0%;justify-content: center;">
-<pre><code>     id                             Shortname        Package
-1     1                                mtcars       datasets
-2     2                              penguins palmerpenguins
-3     3                                  tips       reshape2
-4     4                                gtcars             gt
-5     5                                msleep        ggplot2
-6     6                                Boston           MASS
-7     7                       TeachingRatings            AER
-8     8                                  iris       datasets
-9     9                            airquality       datasets
-10   10                             education     robustbase
-11   11                               Affairs            AER
-12   12                             CASchools            AER
-13   13                           absenteeism      openintro
-14   14                                 acs12      openintro
-15   15                            age_at_mar      openintro
-16   16                                  ames      openintro
-17   17                       ami_occurrences      openintro
-18   18                           antibiotics      openintro
-19   19                             arbuthnot      openintro
-20   20                                   ask      openintro
-21   21                           association      openintro
-22   22                    assortative_mating      openintro
-23   23                      assortive_mating      openintro
-24   24                               avandia      openintro
-25   25                                babies      openintro
-26   26                          babies_crawl      openintro
-27   27                                   bac      openintro
-28   28                          ball_bearing      openintro
-29   29                                 bdims      openintro
-30   30                  biontech_adolescents      openintro
-31   31                                 birds      openintro
-32   32                                births      openintro
-33   33                              births14      openintro
-34   34                       blizzard_salary      openintro
-35   35                                 books      openintro
-36   36                                burger      openintro
-37   37                        cancer_in_dogs      openintro
-38   38                                 cards      openintro
-39   39                                cars93      openintro
-40   40                             cchousing      openintro
-41   41                                census      openintro
-42   42                                cherry      openintro
-43   43                children_gender_stereo      openintro
-44   44                                 china      openintro
-45   45                          cia_factbook      openintro
-46   46                             classdata      openintro
-47   47                               cle_sac      openintro
-48   48                             climate70      openintro
-49   49                         climber_drugs      openintro
-50   50                       coast_starlight      openintro
-51   51                                   COL      openintro
-52   52                            corr_match      openintro
-53   53                           country_iso      openintro
-54   54                                   cpr      openintro
-55   55                                   cpu      openintro
-56   56                               credits      openintro
-57   57                         daycare_fines      openintro
-58   58                             diabetes2      openintro
-59   59                                 dream      openintro
-60   60                          drone_blades      openintro
-61   61                              drug_use      openintro
-62   62                           duke_forest      openintro
-63   63                           earthquakes      openintro
-64   64                          ebola_survey      openintro
-65   65                              elmhurst      openintro
-66   66                                 email      openintro
-67   67                            email_test      openintro
-68   68                               email50      openintro
-69   69                        env_regulation      openintro
-70   70                               epa2012      openintro
-71   71                               epa2021      openintro
-72   72                                   esi      openintro
-73   73                               ethanol      openintro
-74   74                                 evals      openintro
-75   75                           exam_grades      openintro
-76   76                                 exams      openintro
-77   77                exclusive_relationship      openintro
-78   78                          fact_opinion      openintro
-79   79                        family_college      openintro
-80   80                              fastfood      openintro
-81   81                                  fcid      openintro
-82   82                              fheights      openintro
-83   83                           fish_oil_18      openintro
-84   84                            flow_rates      openintro
-85   85                                friday      openintro
-86   86                        full_body_scan      openintro
-87   87                         gdp_countries      openintro
-88   88                          gear_company      openintro
-89   89                 gender_discrimination      openintro
-90   90                       get_it_dunn_run      openintro
-91   91                                gifted      openintro
-92   92                    global_warming_pew      openintro
-93   93                                  goog      openintro
-94   94                              gov_poll      openintro
-95   95                                   gpa      openintro
-96   96                                gpa_iq      openintro
-97   97                       gpa_study_hours      openintro
-98   98                              gradestv      openintro
-99   99                               gsearch      openintro
-100 100                               gss2010      openintro
-101 101                       health_coverage      openintro
-102 102                 healthcare_law_survey      openintro
-103 103                      heart_transplant      openintro
-104 104                                helium      openintro
-105 105                                helmet      openintro
-106 106                                   hfi      openintro
-107 107                                 house      openintro
-108 108                               housing      openintro
-109 109                                  hsb2      openintro
-110 110                        husbands_wives      openintro
-111 111                           immigration      openintro
-112 112                                IMSCOL      openintro
-113 113                           infmortrate      openintro
-114 114                                   ipo      openintro
-115 115                                  ipod      openintro
-116 116                                  jury      openintro
-117 117                           kobe_basket      openintro
-118 118           labor_market_discrimination      openintro
-119 119                            law_resume      openintro
-120 120                              leg_mari      openintro
-121 121                        lizard_habitat      openintro
-122 122                            lizard_run      openintro
-123 123                                loan50      openintro
-124 124                     loans_full_schema      openintro
-125 125                       london_boroughs      openintro
-126 126                        london_murders      openintro
-127 127                               mail_me      openintro
-128 128                          major_survey      openintro
-129 129                               malaria      openintro
-130 130                          male_heights      openintro
-131 131                     male_heights_fcid      openintro
-132 132                               mammals      openintro
-133 133                             mammogram      openintro
-134 134                              marathon      openintro
-135 135                             mariokart      openintro
-136 136                             mcu_films      openintro
-137 137                        midterms_house      openintro
-138 138                              migraine      openintro
-139 139                              military      openintro
-140 140                                   mlb      openintro
-141 141                        mlb_players_18      openintro
-142 142                             mlb_teams      openintro
-143 143                              mlbbat10      openintro
-144 144                mn_police_use_of_force      openintro
-145 145                                   mtl      openintro
-146 146                               murders      openintro
-147 147                           nba_heights      openintro
-148 148                        nba_players_19      openintro
-149 149                              ncbirths      openintro
-150 150                        nuclear_survey      openintro
-151 151                          nyc_marathon      openintro
-152 152                            nycflights      openintro
-153 153                     offshore_drilling      openintro
-154 154                      openintro_colors      openintro
-155 155                    openintro_palettes      openintro
-156 156                      opportunity_cost      openintro
-157 157                                orings      openintro
-158 158                                oscars      openintro
-159 159                              outliers      openintro
-160 160                              penelope      openintro
-161 161                       penetrating_oil      openintro
-162 162                            penny_ages      openintro
-163 163                       pew_energy_2018      openintro
-164 164                        photo_classify      openintro
-165 165                                piracy      openintro
-166 166                         playing_cards      openintro
-167 167                      pm25_2011_durham      openintro
-168 168                                 poker      openintro
-169 169                                possum      openintro
-170 170                            ppp_201503      openintro
-171 171                               present      openintro
-172 172                             president      openintro
-173 173                                prison      openintro
-174 174                             prius_mpg      openintro
-175 175                          race_justice      openintro
-176 176                        reddit_finance      openintro
-177 177                            res_demo_1      openintro
-178 178                            res_demo_2      openintro
-179 179                                resume      openintro
-180 180                     rosling_responses      openintro
-181 181 russian_influence_on_us_election_2016      openintro
-182 182                           sa_gdp_elec      openintro
-183 183                              salinity      openintro
-184 184                           sat_improve      openintro
-185 185                                satgpa      openintro
-186 186                     scotus_healthcare      openintro
-187 187                           seattlepets      openintro
-188 188                    sex_discrimination      openintro
-189 189                simpsons_paradox_covid      openintro
-190 190                        simulated_dist      openintro
-191 191                      simulated_normal      openintro
-192 192                     simulated_scatter      openintro
-193 193                             sinusitis      openintro
-194 194                     sleep_deprivation      openintro
-195 195                              smallpox      openintro
-196 196                               smoking      openintro
-197 197                              snowfall      openintro
-198 198                             socialexp      openintro
-199 199                                 solar      openintro
-200 200                  sowc_child_mortality      openintro
-201 201                     sowc_demographics      openintro
-202 202                 sowc_maternal_newborn      openintro
-203 203                                 sp500      openintro
-204 204                       sp500_1950_2018      openintro
-205 205                             sp500_seq      openintro
-206 206                   speed_gender_height      openintro
-207 207                             ssd_speed      openintro
-208 208                             starbucks      openintro
-209 209                          stats_scores      openintro
-210 210                             stem_cell      openintro
-211 211                               stent30      openintro
-212 212                              stent365      openintro
-213 213                             stocks_18      openintro
-214 214                       student_housing      openintro
-215 215                         student_sleep      openintro
-216 216                       sulphinpyrazone      openintro
-217 217                         supreme_court      openintro
-218 218                               teacher      openintro
-219 219                             textbooks      openintro
-220 220                    thanksgiving_spend      openintro
-221 221                                  tips      openintro
-222 222                                toohey      openintro
-223 223                               tourism      openintro
-224 224                             toy_anova      openintro
-225 225                            transplant      openintro
-226 226                              ucla_f18      openintro
-227 227                    ucla_textbooks_f18      openintro
-228 228                                ukdemo      openintro
-229 229                                unempl      openintro
-230 230                         unemploy_pres      openintro
-231 231                           winery_cars      openintro
-232 232                             world_pop      openintro
-233 233                                   xom      openintro
-234 234                                  yawn      openintro
-235 235                                 yrbss      openintro
-236 236                            yrbss_samp      openintro
-                                                                                                       CSV
-1                                   https://vincentarelbundock.github.io/Rdatasets/csv/datasets/mtcars.csv
-2                           https://vincentarelbundock.github.io/Rdatasets/csv/palmerpenguins/penguins.csv
-3                                     https://vincentarelbundock.github.io/Rdatasets/csv/reshape2/tips.csv
-4                                         https://vincentarelbundock.github.io/Rdatasets/csv/gt/gtcars.csv
-5                                    https://vincentarelbundock.github.io/Rdatasets/csv/ggplot2/msleep.csv
-6                                       https://vincentarelbundock.github.io/Rdatasets/csv/MASS/Boston.csv
-7                               https://vincentarelbundock.github.io/Rdatasets/csv/AER/TeachingRatings.csv
-8                                     https://vincentarelbundock.github.io/Rdatasets/csv/datasets/iris.csv
-9                               https://vincentarelbundock.github.io/Rdatasets/csv/datasets/airquality.csv
-10                             https://vincentarelbundock.github.io/Rdatasets/csv/robustbase/education.csv
-11                                      https://vincentarelbundock.github.io/Rdatasets/csv/AER/Affairs.csv
-12                                    https://vincentarelbundock.github.io/Rdatasets/csv/AER/CASchools.csv
-13                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/absenteeism.csv
-14                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/acs12.csv
-15                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/age_at_mar.csv
-16                                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ames.csv
-17                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ami_occurrences.csv
-18                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/antibiotics.csv
-19                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/arbuthnot.csv
-20                                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ask.csv
-21                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/association.csv
-22                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/assortative_mating.csv
-23                       https://vincentarelbundock.github.io/Rdatasets/csv/openintro/assortive_mating.csv
-24                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/avandia.csv
-25                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/babies.csv
-26                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/babies_crawl.csv
-27                                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/bac.csv
-28                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ball_bearing.csv
-29                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/bdims.csv
-30                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/biontech_adolescents.csv
-31                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/birds.csv
-32                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/births.csv
-33                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/births14.csv
-34                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/blizzard_salary.csv
-35                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/books.csv
-36                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/burger.csv
-37                         https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cancer_in_dogs.csv
-38                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cards.csv
-39                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cars93.csv
-40                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cchousing.csv
-41                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/census.csv
-42                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cherry.csv
-43                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/children_gender_stereo.csv
-44                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/china.csv
-45                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cia_factbook.csv
-46                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/classdata.csv
-47                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cle_sac.csv
-48                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/climate70.csv
-49                          https://vincentarelbundock.github.io/Rdatasets/csv/openintro/climber_drugs.csv
-50                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/coast_starlight.csv
-51                                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/COL.csv
-52                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/corr_match.csv
-53                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/country_iso.csv
-54                                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cpr.csv
-55                                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/cpu.csv
-56                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/credits.csv
-57                          https://vincentarelbundock.github.io/Rdatasets/csv/openintro/daycare_fines.csv
-58                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/diabetes2.csv
-59                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/dream.csv
-60                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/drone_blades.csv
-61                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/drug_use.csv
-62                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/duke_forest.csv
-63                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/earthquakes.csv
-64                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ebola_survey.csv
-65                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/elmhurst.csv
-66                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/email.csv
-67                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/email_test.csv
-68                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/email50.csv
-69                         https://vincentarelbundock.github.io/Rdatasets/csv/openintro/env_regulation.csv
-70                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/epa2012.csv
-71                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/epa2021.csv
-72                                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/esi.csv
-73                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ethanol.csv
-74                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/evals.csv
-75                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/exam_grades.csv
-76                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/exams.csv
-77                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/exclusive_relationship.csv
-78                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fact_opinion.csv
-79                         https://vincentarelbundock.github.io/Rdatasets/csv/openintro/family_college.csv
-80                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fastfood.csv
-81                                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fcid.csv
-82                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fheights.csv
-83                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/fish_oil_18.csv
-84                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/flow_rates.csv
-85                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/friday.csv
-86                         https://vincentarelbundock.github.io/Rdatasets/csv/openintro/full_body_scan.csv
-87                          https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gdp_countries.csv
-88                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gear_company.csv
-89                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gender_discrimination.csv
-90                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/get_it_dunn_run.csv
-91                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gifted.csv
-92                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/global_warming_pew.csv
-93                                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/goog.csv
-94                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gov_poll.csv
-95                                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gpa.csv
-96                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gpa_iq.csv
-97                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gpa_study_hours.csv
-98                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gradestv.csv
-99                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gsearch.csv
-100                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/gss2010.csv
-101                       https://vincentarelbundock.github.io/Rdatasets/csv/openintro/health_coverage.csv
-102                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/healthcare_law_survey.csv
-103                      https://vincentarelbundock.github.io/Rdatasets/csv/openintro/heart_transplant.csv
-104                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/helium.csv
-105                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/helmet.csv
-106                                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/hfi.csv
-107                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/house.csv
-108                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/housing.csv
-109                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/hsb2.csv
-110                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/husbands_wives.csv
-111                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/immigration.csv
-112                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/IMSCOL.csv
-113                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/infmortrate.csv
-114                                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ipo.csv
-115                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ipod.csv
-116                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/jury.csv
-117                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/kobe_basket.csv
-118           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/labor_market_discrimination.csv
-119                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/law_resume.csv
-120                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/leg_mari.csv
-121                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/lizard_habitat.csv
-122                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/lizard_run.csv
-123                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/loan50.csv
-124                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/loans_full_schema.csv
-125                       https://vincentarelbundock.github.io/Rdatasets/csv/openintro/london_boroughs.csv
-126                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/london_murders.csv
-127                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mail_me.csv
-128                          https://vincentarelbundock.github.io/Rdatasets/csv/openintro/major_survey.csv
-129                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/malaria.csv
-130                          https://vincentarelbundock.github.io/Rdatasets/csv/openintro/male_heights.csv
-131                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/male_heights_fcid.csv
-132                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mammals.csv
-133                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mammogram.csv
-134                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/marathon.csv
-135                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mariokart.csv
-136                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mcu_films.csv
-137                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/midterms_house.csv
-138                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/migraine.csv
-139                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/military.csv
-140                                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mlb.csv
-141                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mlb_players_18.csv
-142                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mlb_teams.csv
-143                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mlbbat10.csv
-144                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mn_police_use_of_force.csv
-145                                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/mtl.csv
-146                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/murders.csv
-147                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nba_heights.csv
-148                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nba_players_19.csv
-149                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ncbirths.csv
-150                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nuclear_survey.csv
-151                          https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nyc_marathon.csv
-152                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/nycflights.csv
-153                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/offshore_drilling.csv
-154                      https://vincentarelbundock.github.io/Rdatasets/csv/openintro/openintro_colors.csv
-155                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/openintro_palettes.csv
-156                      https://vincentarelbundock.github.io/Rdatasets/csv/openintro/opportunity_cost.csv
-157                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/orings.csv
-158                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/oscars.csv
-159                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/outliers.csv
-160                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/penelope.csv
-161                       https://vincentarelbundock.github.io/Rdatasets/csv/openintro/penetrating_oil.csv
-162                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/penny_ages.csv
-163                       https://vincentarelbundock.github.io/Rdatasets/csv/openintro/pew_energy_2018.csv
-164                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/photo_classify.csv
-165                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/piracy.csv
-166                         https://vincentarelbundock.github.io/Rdatasets/csv/openintro/playing_cards.csv
-167                      https://vincentarelbundock.github.io/Rdatasets/csv/openintro/pm25_2011_durham.csv
-168                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/poker.csv
-169                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/possum.csv
-170                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ppp_201503.csv
-171                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/present.csv
-172                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/president.csv
-173                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/prison.csv
-174                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/prius_mpg.csv
-175                          https://vincentarelbundock.github.io/Rdatasets/csv/openintro/race_justice.csv
-176                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/reddit_finance.csv
-177                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/res_demo_1.csv
-178                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/res_demo_2.csv
-179                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/resume.csv
-180                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/rosling_responses.csv
-181 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/russian_influence_on_us_election_2016.csv
-182                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sa_gdp_elec.csv
-183                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/salinity.csv
-184                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sat_improve.csv
-185                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/satgpa.csv
-186                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/scotus_healthcare.csv
-187                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/seattlepets.csv
-188                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sex_discrimination.csv
-189                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/simpsons_paradox_covid.csv
-190                        https://vincentarelbundock.github.io/Rdatasets/csv/openintro/simulated_dist.csv
-191                      https://vincentarelbundock.github.io/Rdatasets/csv/openintro/simulated_normal.csv
-192                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/simulated_scatter.csv
-193                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sinusitis.csv
-194                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sleep_deprivation.csv
-195                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/smallpox.csv
-196                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/smoking.csv
-197                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/snowfall.csv
-198                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/socialexp.csv
-199                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/solar.csv
-200                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sowc_child_mortality.csv
-201                     https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sowc_demographics.csv
-202                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sowc_maternal_newborn.csv
-203                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sp500.csv
-204                       https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sp500_1950_2018.csv
-205                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sp500_seq.csv
-206                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/speed_gender_height.csv
-207                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ssd_speed.csv
-208                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/starbucks.csv
-209                          https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stats_scores.csv
-210                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stem_cell.csv
-211                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stent30.csv
-212                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stent365.csv
-213                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/stocks_18.csv
-214                       https://vincentarelbundock.github.io/Rdatasets/csv/openintro/student_housing.csv
-215                         https://vincentarelbundock.github.io/Rdatasets/csv/openintro/student_sleep.csv
-216                       https://vincentarelbundock.github.io/Rdatasets/csv/openintro/sulphinpyrazone.csv
-217                         https://vincentarelbundock.github.io/Rdatasets/csv/openintro/supreme_court.csv
-218                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/teacher.csv
-219                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/textbooks.csv
-220                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/thanksgiving_spend.csv
-221                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/tips.csv
-222                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/toohey.csv
-223                               https://vincentarelbundock.github.io/Rdatasets/csv/openintro/tourism.csv
-224                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/toy_anova.csv
-225                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/transplant.csv
-226                              https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ucla_f18.csv
-227                    https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ucla_textbooks_f18.csv
-228                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/ukdemo.csv
-229                                https://vincentarelbundock.github.io/Rdatasets/csv/openintro/unempl.csv
-230                         https://vincentarelbundock.github.io/Rdatasets/csv/openintro/unemploy_pres.csv
-231                           https://vincentarelbundock.github.io/Rdatasets/csv/openintro/winery_cars.csv
-232                             https://vincentarelbundock.github.io/Rdatasets/csv/openintro/world_pop.csv
-233                                   https://vincentarelbundock.github.io/Rdatasets/csv/openintro/xom.csv
-234                                  https://vincentarelbundock.github.io/Rdatasets/csv/openintro/yawn.csv
-235                                 https://vincentarelbundock.github.io/Rdatasets/csv/openintro/yrbss.csv
-236                            https://vincentarelbundock.github.io/Rdatasets/csv/openintro/yrbss_samp.csv
-                                                                                                        Doc
-1                                   https://vincentarelbundock.github.io/Rdatasets/doc/datasets/mtcars.html
-2                           https://vincentarelbundock.github.io/Rdatasets/doc/palmerpenguins/penguins.html
-3                                     https://vincentarelbundock.github.io/Rdatasets/doc/reshape2/tips.html
-4                                         https://vincentarelbundock.github.io/Rdatasets/doc/gt/gtcars.html
-5                                    https://vincentarelbundock.github.io/Rdatasets/doc/ggplot2/msleep.html
-6                                       https://vincentarelbundock.github.io/Rdatasets/doc/MASS/Boston.html
-7                               https://vincentarelbundock.github.io/Rdatasets/doc/AER/TeachingRatings.html
-8                                     https://vincentarelbundock.github.io/Rdatasets/doc/datasets/iris.html
-9                               https://vincentarelbundock.github.io/Rdatasets/doc/datasets/airquality.html
-10                             https://vincentarelbundock.github.io/Rdatasets/doc/robustbase/education.html
-11                                      https://vincentarelbundock.github.io/Rdatasets/doc/AER/Affairs.html
-12                                    https://vincentarelbundock.github.io/Rdatasets/doc/AER/CASchools.html
-13                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/absenteeism.html
-14                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/acs12.html
-15                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/age_at_mar.html
-16                                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ames.html
-17                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ami_occurrences.html
-18                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/antibiotics.html
-19                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/arbuthnot.html
-20                                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ask.html
-21                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/association.html
-22                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/assortative_mating.html
-23                       https://vincentarelbundock.github.io/Rdatasets/doc/openintro/assortive_mating.html
-24                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/avandia.html
-25                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/babies.html
-26                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/babies_crawl.html
-27                                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/bac.html
-28                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ball_bearing.html
-29                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/bdims.html
-30                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/biontech_adolescents.html
-31                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/birds.html
-32                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/births.html
-33                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/births14.html
-34                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/blizzard_salary.html
-35                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/books.html
-36                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/burger.html
-37                         https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cancer_in_dogs.html
-38                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cards.html
-39                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cars93.html
-40                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cchousing.html
-41                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/census.html
-42                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cherry.html
-43                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/children_gender_stereo.html
-44                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/china.html
-45                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cia_factbook.html
-46                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/classdata.html
-47                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cle_sac.html
-48                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/climate70.html
-49                          https://vincentarelbundock.github.io/Rdatasets/doc/openintro/climber_drugs.html
-50                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/coast_starlight.html
-51                                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/COL.html
-52                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/corr_match.html
-53                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/country_iso.html
-54                                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cpr.html
-55                                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/cpu.html
-56                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/credits.html
-57                          https://vincentarelbundock.github.io/Rdatasets/doc/openintro/daycare_fines.html
-58                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/diabetes2.html
-59                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/dream.html
-60                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/drone_blades.html
-61                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/drug_use.html
-62                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/duke_forest.html
-63                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/earthquakes.html
-64                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ebola_survey.html
-65                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/elmhurst.html
-66                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/email.html
-67                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/email_test.html
-68                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/email50.html
-69                         https://vincentarelbundock.github.io/Rdatasets/doc/openintro/env_regulation.html
-70                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/epa2012.html
-71                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/epa2021.html
-72                                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/esi.html
-73                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ethanol.html
-74                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/evals.html
-75                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/exam_grades.html
-76                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/exams.html
-77                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/exclusive_relationship.html
-78                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fact_opinion.html
-79                         https://vincentarelbundock.github.io/Rdatasets/doc/openintro/family_college.html
-80                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fastfood.html
-81                                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fcid.html
-82                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fheights.html
-83                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/fish_oil_18.html
-84                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/flow_rates.html
-85                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/friday.html
-86                         https://vincentarelbundock.github.io/Rdatasets/doc/openintro/full_body_scan.html
-87                          https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gdp_countries.html
-88                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gear_company.html
-89                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gender_discrimination.html
-90                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/get_it_dunn_run.html
-91                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gifted.html
-92                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/global_warming_pew.html
-93                                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/goog.html
-94                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gov_poll.html
-95                                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gpa.html
-96                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gpa_iq.html
-97                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gpa_study_hours.html
-98                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gradestv.html
-99                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gsearch.html
-100                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/gss2010.html
-101                       https://vincentarelbundock.github.io/Rdatasets/doc/openintro/health_coverage.html
-102                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/healthcare_law_survey.html
-103                      https://vincentarelbundock.github.io/Rdatasets/doc/openintro/heart_transplant.html
-104                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/helium.html
-105                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/helmet.html
-106                                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/hfi.html
-107                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/house.html
-108                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/housing.html
-109                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/hsb2.html
-110                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/husbands_wives.html
-111                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/immigration.html
-112                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/IMSCOL.html
-113                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/infmortrate.html
-114                                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ipo.html
-115                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ipod.html
-116                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/jury.html
-117                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/kobe_basket.html
-118           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/labor_market_discrimination.html
-119                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/law_resume.html
-120                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/leg_mari.html
-121                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/lizard_habitat.html
-122                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/lizard_run.html
-123                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/loan50.html
-124                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/loans_full_schema.html
-125                       https://vincentarelbundock.github.io/Rdatasets/doc/openintro/london_boroughs.html
-126                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/london_murders.html
-127                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mail_me.html
-128                          https://vincentarelbundock.github.io/Rdatasets/doc/openintro/major_survey.html
-129                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/malaria.html
-130                          https://vincentarelbundock.github.io/Rdatasets/doc/openintro/male_heights.html
-131                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/male_heights_fcid.html
-132                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mammals.html
-133                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mammogram.html
-134                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/marathon.html
-135                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mariokart.html
-136                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mcu_films.html
-137                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/midterms_house.html
-138                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/migraine.html
-139                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/military.html
-140                                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mlb.html
-141                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mlb_players_18.html
-142                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mlb_teams.html
-143                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mlbbat10.html
-144                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mn_police_use_of_force.html
-145                                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/mtl.html
-146                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/murders.html
-147                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nba_heights.html
-148                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nba_players_19.html
-149                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ncbirths.html
-150                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nuclear_survey.html
-151                          https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nyc_marathon.html
-152                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/nycflights.html
-153                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/offshore_drilling.html
-154                      https://vincentarelbundock.github.io/Rdatasets/doc/openintro/openintro_colors.html
-155                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/openintro_palettes.html
-156                      https://vincentarelbundock.github.io/Rdatasets/doc/openintro/opportunity_cost.html
-157                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/orings.html
-158                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/oscars.html
-159                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/outliers.html
-160                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/penelope.html
-161                       https://vincentarelbundock.github.io/Rdatasets/doc/openintro/penetrating_oil.html
-162                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/penny_ages.html
-163                       https://vincentarelbundock.github.io/Rdatasets/doc/openintro/pew_energy_2018.html
-164                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/photo_classify.html
-165                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/piracy.html
-166                         https://vincentarelbundock.github.io/Rdatasets/doc/openintro/playing_cards.html
-167                      https://vincentarelbundock.github.io/Rdatasets/doc/openintro/pm25_2011_durham.html
-168                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/poker.html
-169                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/possum.html
-170                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ppp_201503.html
-171                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/present.html
-172                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/president.html
-173                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/prison.html
-174                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/prius_mpg.html
-175                          https://vincentarelbundock.github.io/Rdatasets/doc/openintro/race_justice.html
-176                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/reddit_finance.html
-177                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/res_demo_1.html
-178                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/res_demo_2.html
-179                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/resume.html
-180                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/rosling_responses.html
-181 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/russian_influence_on_us_election_2016.html
-182                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sa_gdp_elec.html
-183                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/salinity.html
-184                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sat_improve.html
-185                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/satgpa.html
-186                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/scotus_healthcare.html
-187                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/seattlepets.html
-188                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sex_discrimination.html
-189                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/simpsons_paradox_covid.html
-190                        https://vincentarelbundock.github.io/Rdatasets/doc/openintro/simulated_dist.html
-191                      https://vincentarelbundock.github.io/Rdatasets/doc/openintro/simulated_normal.html
-192                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/simulated_scatter.html
-193                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sinusitis.html
-194                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sleep_deprivation.html
-195                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/smallpox.html
-196                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/smoking.html
-197                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/snowfall.html
-198                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/socialexp.html
-199                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/solar.html
-200                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sowc_child_mortality.html
-201                     https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sowc_demographics.html
-202                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sowc_maternal_newborn.html
-203                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sp500.html
-204                       https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sp500_1950_2018.html
-205                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sp500_seq.html
-206                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/speed_gender_height.html
-207                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ssd_speed.html
-208                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/starbucks.html
-209                          https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stats_scores.html
-210                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stem_cell.html
-211                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stent30.html
-212                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stent365.html
-213                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/stocks_18.html
-214                       https://vincentarelbundock.github.io/Rdatasets/doc/openintro/student_housing.html
-215                         https://vincentarelbundock.github.io/Rdatasets/doc/openintro/student_sleep.html
-216                       https://vincentarelbundock.github.io/Rdatasets/doc/openintro/sulphinpyrazone.html
-217                         https://vincentarelbundock.github.io/Rdatasets/doc/openintro/supreme_court.html
-218                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/teacher.html
-219                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/textbooks.html
-220                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/thanksgiving_spend.html
-221                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/tips.html
-222                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/toohey.html
-223                               https://vincentarelbundock.github.io/Rdatasets/doc/openintro/tourism.html
-224                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/toy_anova.html
-225                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/transplant.html
-226                              https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ucla_f18.html
-227                    https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ucla_textbooks_f18.html
-228                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/ukdemo.html
-229                                https://vincentarelbundock.github.io/Rdatasets/doc/openintro/unempl.html
-230                         https://vincentarelbundock.github.io/Rdatasets/doc/openintro/unemploy_pres.html
-231                           https://vincentarelbundock.github.io/Rdatasets/doc/openintro/winery_cars.html
-232                             https://vincentarelbundock.github.io/Rdatasets/doc/openintro/world_pop.html
-233                                   https://vincentarelbundock.github.io/Rdatasets/doc/openintro/xom.html
-234                                  https://vincentarelbundock.github.io/Rdatasets/doc/openintro/yawn.html
-235                                 https://vincentarelbundock.github.io/Rdatasets/doc/openintro/yrbss.html
-236                            https://vincentarelbundock.github.io/Rdatasets/doc/openintro/yrbss_samp.html</code></pre>
 </div>
+</figure>
 </div>
 </div>
 </section>
@@ -1010,10 +1495,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1023,8 +1507,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1037,6 +1530,128 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    const typesetMath = (el) => {
+      if (window.MathJax) {
+        // MathJax Typeset
+        window.MathJax.typeset([el]);
+      } else if (window.katex) {
+        // KaTeX Render
+        var mathElements = el.getElementsByClassName("math");
+        var macros = [];
+        for (var i = 0; i < mathElements.length; i++) {
+          var texText = mathElements[i].firstChild;
+          if (mathElements[i].tagName == "SPAN") {
+            window.katex.render(texText.data, mathElements[i], {
+              displayMode: mathElements[i].classList.contains('display'),
+              throwOnError: false,
+              macros: macros,
+              fleqn: false
+            });
+          }
+        }
+      }
+    }
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        typesetMath(container);
+        return container.innerHTML
+      } else {
+        typesetMath(note);
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      typesetMath(note);
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1080,6 +1695,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1105,6 +1721,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1165,6 +1807,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

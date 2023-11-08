@@ -29,7 +29,7 @@ library(tidyverse)
 ## Aufgaben zur Datenanalyse
 
 
-1.  Je nach Spracheinstellung in Moodle kann es sein, dass Sie als *Dezimaltrennzeichen* ein Komma oder einen Punkt verwenden müssen. Moodle weist Sie, wenn Sie die Aufgabe verlassen, darauf hin, falls eine Zahl nicht als Zahl erkannt wurde.
+1.  Je nach Spracheinstellung in Moodle kann es sein, dass Sie als *Dezimaltrennzeichen* ein Komma oder einen Punkt verwenden müssen. Moodle weist Sie darauf hin, falls eine Zahl nicht als Zahl erkannt wurde.
 2.  *Runden* Sie bei Fragen, die auf Anteile abzielen auf *zwei Dezimalstellen*, ansonsten auf eine.
 2.  Geben Sie *keine Prozentzahlen* an, sondern *Anteile* (FALSCH: `50%`, RICHTIG: `0.5` bzw. `0,5`).
 2.  Bei Aufgaben, die eine Zahl als Antwort verlangen, ist *nur Ziffern anzugeben* (nicht etwa Buchstaben).
@@ -51,9 +51,9 @@ library(tidyverse)
     - Handelt es sich um Parameter $X$ mit einem unbegrenzten Wertebereich (wie *normalverteilte* Variablen), so ist der Wertebereich $X-2\sigma \le  X \le X+2\sigma$ zu simulieren.
 3.  Nutzen Sie die Software *Stan* in Form des R-Pakets `rstanarm` für Regressionsmodelle auf Basis der Bayes-Methode.
 4.  Verwenden Sie immer folgenden *Seed-Wert* bei `stan_glm()`: `42`. Dazu setzen Sie folgenden Parameter `seed = 42` (innerhalb von `stan_glm())`.
-2.  Der *Toleranzbereich* einer Lösung liegt bei 5% des Wertes der Musterlösung (sofern nicht anders bei der jeweiligen Aufgabe angegeben). Toleranzbereiche werden verwendet für Aufgaben mit Zufallszahlen: Lösungen solcher Aufgaben können schwanken. Wenn Sie allerdings den angegebenen Seed-Wert gesetzt haben, so sollte Ihre (korrekte) Lösung exakt der Musterlösung entsprechen. Beispiele: 
-    - Der Wert laut Musterlösung liegt bei 100; dann erstreckt sich der Toleranzbereich von 95 bis 105. 
-    - Der Wert laut Musterlösung liegt bei .05; dann erstreckt sich der Toleranzbereich um ±0.0025 Punkte um 0.05.
+2.  Der *Toleranzbereich* einer Lösung liegt bei 3% des Wertes der Musterlösung (sofern nicht anders bei der jeweiligen Aufgabe angegeben). Toleranzbereiche werden verwendet für Aufgaben mit Zufallszahlen: Lösungen solcher Aufgaben können schwanken. Wenn Sie allerdings den angegebenen Seed-Wert gesetzt haben, so sollte Ihre (korrekte) Lösung exakt der Musterlösung entsprechen. Beispiele: 
+    - Der Wert laut Musterlösung liegt bei 100; dann erstreckt sich der Toleranzbereich von 93 bis 103. 
+    - Der Wert laut Musterlösung liegt bei .05; dann erstreckt sich der Toleranzbereich um ±0.0015 Punkte um 0.05.
 
 
 
@@ -66,20 +66,25 @@ library(tidyverse)
 ```{r}
 #| echo: false
 d1 <- read.csv("https://raw.githubusercontent.com/sebastiansauer/teachertools/main/data/teaching_df.csv") |> 
-  rename(Shortname = datasets_names,
+  dplyr::rename(Shortname = datasets_names,
          CSV = source,
          Doc = doc)
 
 
 
 d2 <- read.csv("https://raw.githubusercontent.com/sebastiansauer/teachertools/main/data/datasets-openintro.csv") |> 
-  rename(Shortname = Item)
+  dplyr::rename(Shortname = Item)
 
 d_joint <-
   d1 |>  
-  bind_rows(d2) |> 
-  mutate(id = row_number()) |> 
-  select(id, Shortname, Package, CSV, Doc)
+  dplyr::bind_rows(d2) |> 
+  dplyr::mutate(id = dplyr::row_number()) |> 
+  dplyr::select(id, Shortname, Package, CSV, Doc)
+
+d_joint <-
+  d_joint |> 
+  dplyr::mutate(Name = glue::glue("[CSV: {Shortname}]({CSV})")) |> 
+  dplyr::mutate(Codebook = glue::glue("[Doc: {Shortname}]({Doc})")) 
 ```
 
 
@@ -143,7 +148,9 @@ In @tbl-pruef-csv sind alle Prüfungsdatensätze aufgelistet inkl. dem Bezugsort
 #| echo: false
 #| tbl-cap: Prüfungsdatensätze
 #| label: tbl-pruef-csv
-d_joint
+d_joint |> 
+  dplyr::select(id, Name, Codebook) |> 
+  knitr::kable()
 ```
 
 
