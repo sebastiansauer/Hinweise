@@ -6,3 +6,8 @@
 .quarto
 
 /.quarto/
+
+
+test*.*
+test.*
+
