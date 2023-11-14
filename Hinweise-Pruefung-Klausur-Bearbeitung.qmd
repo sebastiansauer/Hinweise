@@ -48,4 +48,7 @@
 2.  Der *Tolerenzbereich* einer Lösung liegt bei 5% des Wertes der Musterlösung (sofern nicht anders bei der jeweiligen Aufgabe angegeben). Toleranzbereiche werden verwendet für Aufgaben mit Zufallszahlen: Lösungen solcher Aufgaben können schwanken. Wenn Sie allerdings den angegebenen Seed-Wert gesetzt haben, so sollte Ihre (korrekte) Lösung exakt der Musterlösung entsprechen. Beispiele: 
   - Der Wert laut Musterlösung liegt bei 100; dann erstreckt sich der Toleranzbereich von 95 bis 105. 
   - Der Wert laut Musterlösung liegt bei .05; dann erstreckt sich der Toleranzbereich um ±0.0025 Punkte um 0.05.
+  
+  
+
 
