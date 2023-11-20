@@ -130,7 +130,90 @@ Insbesondere kann eine Fünf in einem der Kriterien zum Durchfallen führen, auc
 12. Sind die Ergebnisse reproduzierbar (Daten und Syntax eingereicht)?
 
 
+
+
+## Fundorte für Datensätze
+
+
+
+
+### Themenübergreifende Fundorte
+
+- [Our World in Data](https://ourworldindata.org/)
+
+- [Open Science Framework](https://osf.io/)
+
+- [Figshare](https://figshare.com/search?q=data)
+
+- [Harvard Dataverse](https://data.harvard.edu/dataverse)
+
+- [UK Data Servicee](https://ukdataservice.ac.uk/find-data/browse/)
+
+- [Google DataSet Search](https://datasetsearch.research.google.com/)
+
+
+
+### Klimawandel
+
+- [German Wather Data from the DWD](https://opendata.dwd.de/)
+
+- [Nasa climeate data](https://data.giss.nasa.gov/gistemp/) such as [this data set: Tables of Global and Hemispheric Monthly Means and Zonal Annual Means](https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv)
+
+
+- [Data on CO2 and Greenhouse Gas Emissions by Our World in Data](https://github.com/owid/co2-data#data-on-co2-and-greenhouse-gas-emissions-by-our-world-in-data)
+
+
+
+### Gesundheit und Soziales
+
+- [Measuring Well-being and Progress: Well-being Research](https://www.oecd.org/wise/measuring-well-being-and-progress.htm)
+
+- [Covid-19 Cases in Germany provided by the RKI](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv)
+
+- [Paper COVIDiSTRESS Global Survey dataset on psychological and behavioural consequences of the COVID-19 outbreak with open data at osf.io](https://www.nature.com/articles/s41597-020-00784-9)
+
+- [Global Health Data Exchange](https://ghdx.healthdata.org/)
+
+- [WHO Global Tuberculosis Programme](https://www.who.int/teams/global-tuberculosis-programme/data#csv_files)
+
+- [WHO Global Health Observatory data repository](https://apps.who.int/gho/data/node.main)
+
+### Arbeit
+
+- [UK Data Service: European Company Survey, 2019](https://beta.ukdataservice.ac.uk/datacatalogue/doi/?id=8691#!#1)
+
+
+### Psychologie Divers
+
+
+
+
+- [Graham, Haidt, & Nosek (2009): Liberals and conservatives rely on different sets of moral foundations](https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/12658&studyListingIndex=0_775f45d232bb5e430d0024139e25)
+
+- [Brian Nosek Dataverse](https://dataverse.harvard.edu/dataverse/bnosek)
+
+- [The Journal of Open Psychology Data (JOPD)](https://openpsychologydata.metajnl.com/)
+
+- [Psychology data from the Race Implicit Association Test on the Project Implicit Demo website](https://osf.io/52qxL/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Sonstiges
+
+
+
+
 
 
 Eine automatische Prüfung auf Plagiate mittels geeigneter, von der Hochschule bereitgestellter Software ist möglich.

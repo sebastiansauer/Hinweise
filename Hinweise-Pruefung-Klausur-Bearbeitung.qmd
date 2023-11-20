@@ -47,8 +47,10 @@ library(tidyverse)
 
 1.  Verwenden Sie Methoden der *Bayes*-Statistik für inferenzstatistische Analysen (soweit nicht anders vorgegeben).
 2.  Bei Aufgaben zur "*Bayes-Box*" (Erstellung einer Gitterwert-Tabelle) gelten folgende Maßgaben:
-    -  Handelt es sich um Parameter mit einem begrenzten Wertebereich (wie etwa *Anteile*), so ist der ganze Wertebereich zu modellieren. Es sind *100* verschiedene Parameterwerte zu berechnen (wenn möglich, gleichabständig verteilt).
+
+    -  Handelt es sich um Parameter mit einem begrenzten Wertebereich (wie etwa *Anteile*), so ist der ganze Wertebereich zu modellieren. Es sind *101* verschiedene Parameterwerte zu berechnen (wenn möglich, gleichabständig verteilt).
     - Handelt es sich um Parameter $X$ mit einem unbegrenzten Wertebereich (wie *normalverteilte* Variablen), so ist der Wertebereich $X-2\sigma \le  X \le X+2\sigma$ zu simulieren.
+    
 3.  Nutzen Sie die Software *Stan* in Form des R-Pakets `rstanarm` für Regressionsmodelle auf Basis der Bayes-Methode.
 4.  Verwenden Sie immer folgenden *Seed-Wert* bei `stan_glm()`: `42`. Dazu setzen Sie folgenden Parameter `seed = 42` (innerhalb von `stan_glm())`.
 2.  Der *Toleranzbereich* einer Lösung liegt bei 3% des Wertes der Musterlösung (sofern nicht anders bei der jeweiligen Aufgabe angegeben). Toleranzbereiche werden verwendet für Aufgaben mit Zufallszahlen: Lösungen solcher Aufgaben können schwanken. Wenn Sie allerdings den angegebenen Seed-Wert gesetzt haben, so sollte Ihre (korrekte) Lösung exakt der Musterlösung entsprechen. Beispiele: 
@@ -87,6 +89,8 @@ d_joint <-
   dplyr::mutate(Codebook = glue::glue("[Doc: {Shortname}]({Doc})")) 
 ```
 
+
+### R-Pakete mit Prüfungsdatensätzen
 
 In der Prüfung werden Sie u.U. aufgefordert, einen Datensatz zu importieren und zu bearbeiten.
 Die folgende Liste (@tbl-pruef-csv) zeigt, welche Datensätze in der Prüfung verwendet werden.
@@ -150,7 +154,8 @@ In @tbl-pruef-csv sind alle Prüfungsdatensätze aufgelistet inkl. dem Bezugsort
 #| label: tbl-pruef-csv
 d_joint |> 
   dplyr::select(id, Name, Codebook) |> 
-  knitr::kable()
+  gt::gt()
 ```
+>>>>>>> 03a20401772c504591f64251674b5a7aa05bb050:Hinweise-Klausur-Bearbeitung.qmd
 
 
