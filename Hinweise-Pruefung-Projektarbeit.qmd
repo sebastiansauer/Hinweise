@@ -17,10 +17,15 @@
 1. Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an geeignetem Ort bekannt gegeben.
     
 
-2. Gegenstand der Arbeit ist die *Dokumentation aller Phasen der Studie* des jeweiligen Forschungsteams. 
+2. Gegenstand der Arbeit ist die *Dokumentation aller relevanten Aspekte des Projekts*.
 
 
-### Formale Anfordungen 
+### Formale Anforderungen
+
+
+
+
+### Anfordungen zum Textdokument
 
 1. Der Umfang der Arbeit umfasst im *Hauptteil* beträgt:
 
@@ -30,21 +35,29 @@
 - *8000* Wörter bei Gruppenarbeiten mit 4 oder mehr Personen
 
 
-Diese Wortzahl gilt mit einem Puffer von plus/minus 10%. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Diagramm als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit an geeigneter Stelle an (Anhang).
+2. Die aufgeführten Wortzahlen gelten mit einem Toleranzbereich von plus/minus 10%. 
+
+3. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Diagramm als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit an geeigneter Stelle an (Anhang).
 
 
-4. Textsatz und (gestalterische) *Formatierung* der Arbeit orientieren sich an den schriftlich bereitgestellten Hinweisen (z.B. im Skript).
+2. Textsatz und (gestalterische) *Formatierung* der Arbeit orientieren sich an den schriftlich bereitgestellten Hinweisen (z.B. im Skript).
 
-5. *Übrige Gestaltungsaspekte*, die nicht im bereitgestellten Leitfaden aufgeführt sind, sind nach den Vorgaben der *APA* (neueste Version) anzulegen.
 
-6. Die Arbeit kann in *deutscher* oder englischer Sprache eingereicht werden.
+3. Die Arbeit kann in *deutscher* oder *englischer* Sprache eingereicht werden.
+
+4 *Übrige Gestaltungsaspekte*, die nicht im bereitgestellten Leitfaden aufgeführt sind, sind nach den Vorgaben der *DGPS* (deutsch) oder *APA* (englisch) (jeweils in neuester Version) anzulegen.
 
 6. Auf dem *Titelblatt* ist u.a. anzugeben
     - Matrikelnummer/n sowie Nach- und Vorname/n aller Autoris (wichtig!)
     - Titel der Arbeit
     - Modulname
 
-7. Wenn die Prüfung aus einer schriftlichen Arbeit besteht oder eine Seminarleistung beinhaltet, ist diese *nur online* über das bereitgestellte System, nicht ausgedruckt einzureichen.
+7. Sie können die Arbeit entweder in einem *paginierten* Format schreiben (z.B. Word-Dokument) oder in einem *nicht-paginierten* Format (z.B. HTML-Dokument mit Quarto).
+
+
+### Formalie
+
+1. Die Arbeit ist *nur online* über das bereitgestellte System, nicht ausgedruckt, einzureichen.
 
 9. Bei der *Anmeldung* ist der Titel anzugeben; der *gleiche Titel* muss sich auch auf der eingereichten Arbeit finden.
 
@@ -68,14 +81,22 @@ Diese Wortzahl gilt mit einem Puffer von plus/minus 10%. *"Hauptteil"* ist defin
 
 25. Eine *Prüfungsleistung* darf nur eingereicht werden, wenn Sie (erfolgreich) zur Prüfung *angemeldet* sind. Eine abgegebene/hochgeladene Arbeit, die nicht erfolgreich angemeldet ist, gilt nicht als erfolgreich eingereicht.
 
-26. Sie können die Arbeit entweder in einem *paginierten* Format schreiben (z.B. Word-Dokument) oder in einem *nicht-paginierten* Format (z.B. HTML-Dokument mit Quarto).
+27. Eine Arbeit zählt nur dann als (erfolgreich) eingereicht, wenn Sie *formal korrekt eingereicht* wurde, insbesondere sind Fristen und Abgabekanäle (z.B. Moodleseite) zu beachten.
 
-27. Eine Arbeit zählt nur dann als (erfolgreich) eingericht, wenn Sie *formal korrekt eingereicht* wurde, insbesondere sind Fristen und Abgabekanäle (z.B. Moodleseite) zu beachten.
+28. Wenn Sie Dateien mit Ihren Prüfungsleistungen einreichen (hochladen), dann benennen Sie die *Dateinamen* nach folgendem Muster `nachname1-vorname1-nachname2-vorname2-prüfungsart.endung`, z.B.`sauer-sebastian-projektarbeit.pdf` oder `musterfrau-marina-anhang.zip`.
 
-28. Wenn Sie Dateien mit Ihren Prüfungsleistungen einreichen (hochladen), dann benennen Sie sie nach folgendem Muster `nachname1-vorname1-nachname2-vorname2-prüfungsart.endung`, z.B.`sauer-sebastian-projektarbeit.pdf` oder `musterfrau-marina-anhang.zip`.
+29. Nachweis der *Arbeitszeit*: Fügen Sie im Anhang eine Tabelle an, die zeigt, dass Sie die in der Modulbeschreibung geforderte Arbeitszeit (in Zeitstunden $h$, "Workload") im Rahmen der Arbeit abgeleistet haben. Weisen Sie dabei die Arbeitszeit pro Arbeitspaket aus. Ein Arbeitspaket sollte ca. 5h-20h umfassen, s. Beispiel.
 
-
-
+| Nr. | Arbeitspaket                                  | Arbeitsaufwand (h) | Kommentare |
+|-----|-----------------------------------------------|--------------------|------------|
+| 1   | Literaturrecherche                            | 25                 |            |
+| 2   | Planung der Datenerhebung                     | 5                  |            |
+| 3   | Datenerhebung                                 | 20                 |            |
+| 4   | Datenanalyse                                  | 30                 |            |
+| 5   | Dokumentation/Schreiben des Berichts          | 40                 |            |
+| 6   | Kommunikation/Abstimmung in der Arbeitsgruppe | 10                 |            |
+| 7   | Vorbereitung der Präsentation                 | 20                 |            |
+|     | SUMME                                         | 150                |            |
 
 
 ### Methodische Anforderungen
