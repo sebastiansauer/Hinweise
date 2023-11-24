@@ -22,9 +22,9 @@ Ein paar Tipps für Prüfungserfolg:
 Die Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind.
 Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfung vorzubereiten.
 
-Das [Datenwerk](https://datenwerk.netlify.app/) ist eine Aufgabensammlung. Suchen Sie dort die Tags ("Categories"), die die Themen Ihrer Prüfung betreffen und arbeiten Sie diese Aufgaben durch. Angenehmerweise sind alle Augaben mit Musterlösung versehen. 🍦 
+Das [Datenwerk](https://datenwerk.netlify.app/) ist eine Aufgabensammlung. Suchen Sie dort die Tags ("Categories"), die die Themen Ihrer Prüfung betreffen und arbeiten Sie diese Aufgaben durch. Angenehmerweise sind alle Aufgaben mit Musterlösung versehen. 🍦 
 
-Es gibt ein paar Tags, die sich verdächtig nach Prüfungsvorbereitung anhören, etwa [exam-22](https://datenwerk.netlify.app/#category=exam-22), oder [quiz1-qm2-ws23](https://datenwerk.netlify.app/#category=quiz1-qm2-ws23)
+
 
 ## Schreiben Sie Zusammenfassungen
 
