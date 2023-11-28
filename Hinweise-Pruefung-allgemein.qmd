@@ -24,7 +24,8 @@ d.h. *soweit nicht anders* in der jeweiligen Prüfung bzw. der jeweiligen Aufgab
 Insbesondere ist der komplette Inhalt des Skripts und sonstiger vom Dozenten eingestellter Unterlagen prüfungsrelevant (sofern nicht in Teilen anderweitig gekennzeichnet).
 Dazu zählen auch Hinweise auf zu lesende Literatur, aber nicht sonstige Literatur im Literaturverzeichnis.
 Nicht relevant sind die verlinkte externe Inhalte, d.h. Inhalte von Internetadressen, sofern nicht explizit als prüfungsrelevant gekennzeichnet.
-
+Der prüfungsrelevante Stoff kann von der Lehrkraft bis zum Beginn des Prüfungszeitraums geändert werden.
+Die Änderungen am Skript sind, sofern es um ein Skript handelt, das auf Github eingestellt ist, komplett dokumentiert. Der Link zum Quelltext (des Skripts) bzw. den Änderungen daran sind über Github komplett dokumentiert (inkl. Zeitstempel).
 
 
 
