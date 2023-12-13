@@ -228,15 +228,17 @@ Ambitionierte Studierende (insbesondere in einem Master-Studiengang), die auf ei
 Richtlinien zur Seitenformatierung und -layout finden Sie in Peters und Dörfler (2019), vgl. Kap. 4.
 Befolgen Sie die Art, Statistiken zu berichten laut APA bzw. DGPs, sofern Peters und Dörfler (2019) nicht andere Angaben machen.
 
-Werten Sie quantitative Daten mit R oder Python aus.
+Werten Sie quantitative Daten mit *R* oder Python aus.
 
-Gestalten Sie Ihre Arbeit nachprüfbar: Berichten Sie die Syntax, das genaue Vorgehen beim Versuch, die Stichprobenplanung, reichen Sie die Daten und ggf. das Stimulusmaterial (z.B. Bilder) ein.
+Gestalten Sie Ihre Arbeit *nachprüfbar*: Berichten Sie die Syntax, das genaue Vorgehen beim Versuch, die Stichprobenplanung, reichen Sie die Daten und ggf. das Stimulusmaterial (z.B. Bilder) ein.
 
- Informieren Sie sich im Übrigen über die Richtlinien (wie Abgabefristen) in den entsprechenden Dokumenten wie der APO und der SPO.
+ Informieren Sie sich im Übrigen über die *offiziellen Richtlinien* der Hochschule (wie Abgabefristen) in den entsprechenden Dokumenten wie der APO und der SPO.
 
 Im Merkblatt für Abschlussarbeiten der Prüfungsabteilung finden Sie weitere formale Vorgaben, etwa zur ehrenwörtlichen Erklärung. 
 
-Schreiben Sie die Wortzahl (nur Hauptteil, ab Einleitung bis einschl. Diskussion) auf das Deckblatt.
+Schreiben Sie die *Wortzahl* (nur Hauptteil, ab Einleitung bis einschl. Diskussion) auf das Deckblatt oder in den Anhang.
+
+Drucken Sie Ihre Arbeit *beidseitig*, in *Klebebindung.*
 
 
 
