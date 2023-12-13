@@ -6,10 +6,9 @@
 
 ## Hintergrund und Ziel
 
-Das Prüfungsformat *Präsentation* ist eine aus Vortragen und Fragen beantworten.
-Gegenstand ist ein wissenschaftlicher *Vortrag* zu Ihrer Seminar-/Projekt- oder Abschlussarbeit sowie eine sich anschließende wissenschaftliche *Aussprache.*
+Das Prüfungsformat *Präsentation* ist eine Kombination aus 1) Vortragen und 2) Fragen beantworten.
+Gegenstand ist also ein wissenschaftlicher *Vortrag* zu Ihrer Seminar-/Projekt- oder Abschlussarbeit sowie eine sich anschließende wissenschaftliche *Aussprache.*
 Während der wisenschaftlichen Aussprache verteidigen Sie Ihre Arbeit gegenüber fachlicher Kritik.
-
 Ziel ist, die Zuhörerschaft vom wissenschaftlichen Wert Ihrer Arbeit zu überzeugen.
 
 
@@ -19,10 +18,8 @@ Ziel ist, die Zuhörerschaft vom wissenschaftlichen Wert Ihrer Arbeit zu überze
 ### Grundlagen
 
 Im Rahmen des Vortrags stellen Sie Ihre wissenschaftliche Arbeit vor, begründen Ihr Vorgehen begründen und diskutieren Sie dessen Stärken und Schwächen.
-
 Häufig wird ein Vortrag durch das *Medium* *Präsentation* (z.B. Powerpoint) unterstützt.
-Das ist oft sinnvoll, allerdings sollte der Vortrag im Mittelpunkt, das gesprochene Wort, und nicht der Text auf einer Folie.
-
+Das ist oft sinnvoll (und ist zulässig), allerdings sollte der Vortrag im Mittelpunkt, das gesprochene Wort, und nicht der Text auf einer Folie.
 Der Aufbau des Vortrags ist Ihnen überlassen.
 Ein bewährtes Vorgehen ist es, den Vortrag analog zur Gliederung Ihrer wissenschaftlichen Arbeit aufzubauen.
 
