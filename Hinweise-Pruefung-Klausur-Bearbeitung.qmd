@@ -86,7 +86,9 @@ d_joint <-
 d_joint <-
   d_joint |> 
   dplyr::mutate(Name = glue::glue("[CSV: {Shortname}]({CSV})")) |> 
-  dplyr::mutate(Codebook = glue::glue("[Doc: {Shortname}]({Doc})")) 
+  dplyr::mutate(Codebook = glue::glue("[Doc: {Shortname}]({Doc})")) |> 
+  dplyr::mutate(csv_html = glue::glue("<a href={CSV}>CSV-Datei</a>")) |> 
+  dplyr::mutate(doc_html = glue::glue("<a href={Doc}>Dokumentation</a>"))
 ```
 
 
@@ -147,15 +149,25 @@ Es reicht, den Datensatz mit `data(name_des_datensatzes)` zu starten.
 In @tbl-pruef-csv sind alle Prüfungsdatensätze aufgelistet inkl. dem Bezugsort der zugehörigen CSV-Datei sowie dem zugehörigen Code-Book (Beschreibung des Datensatzes).
 
 
-
 ```{r}
 #| echo: false
 #| tbl-cap: Prüfungsdatensätze
 #| label: tbl-pruef-csv
 d_joint |> 
-  dplyr::select(id, Name, Codebook) |> 
-  gt::gt()
+  dplyr::select(id, Shortname, CSV = csv_html, Doc = doc_html) |> 
+  DT::datatable(escape = FALSE)
 ```
->>>>>>> 03a20401772c504591f64251674b5a7aa05bb050:Hinweise-Klausur-Bearbeitung.qmd
+
+
+
+```{r pruefungsdatensätez}
+#| echo: false
+#| eval: false
+
+d_joint |> 
+  dplyr::select(id, Name, Codebook) |> 
+  knitr::kable(format = "markdown") 
+```
+
 
 
