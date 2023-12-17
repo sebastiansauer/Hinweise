@@ -65,8 +65,9 @@ library(tidyverse)
 
 
 
-```{r}
+```{r prepare-pruefungsdatensaetze}
 #| echo: false
+#| eval: false
 d1 <- read.csv("https://raw.githubusercontent.com/sebastiansauer/teachertools/main/data/teaching_df.csv") |> 
   dplyr::rename(Shortname = datasets_names,
          CSV = source,
@@ -83,12 +84,19 @@ d_joint <-
   dplyr::mutate(id = dplyr::row_number()) |> 
   dplyr::select(id, Shortname, Package, CSV, Doc)
 
+write.csv(d_joint, "data/pruefungsdatensaetze.csv")
+```
+
+```{r load-pruefungsdatensetze}
+#| echo: false
+d_joint <- read.csv("data/pruefungsdatensaetze.csv")
+
 d_joint <-
   d_joint |> 
   dplyr::mutate(Name = glue::glue("[CSV: {Shortname}]({CSV})")) |> 
   dplyr::mutate(Codebook = glue::glue("[Doc: {Shortname}]({Doc})")) |> 
-  dplyr::mutate(csv_html = glue::glue("<a href={CSV}>CSV-Datei</a>")) |> 
-  dplyr::mutate(doc_html = glue::glue("<a href={Doc}>Dokumentation</a>"))
+  dplyr::mutate(csv_html = glue::glue("<a href={CSV}>{Shortname}: CSV-Datei</a>")) |> 
+  dplyr::mutate(doc_html = glue::glue("<a href={Doc}>{Shortname}: Info</a>"))
 ```
 
 
@@ -154,7 +162,7 @@ In @tbl-pruef-csv sind alle Prüfungsdatensätze aufgelistet inkl. dem Bezugsort
 #| tbl-cap: Prüfungsdatensätze
 #| label: tbl-pruef-csv
 d_joint |> 
-  dplyr::select(id, Shortname, CSV = csv_html, Doc = doc_html) |> 
+  dplyr::select(id, Daten = csv_html, Codebook = doc_html) |> 
   DT::datatable(escape = FALSE)
 ```
 
@@ -170,4 +178,7 @@ d_joint |>
 ```
 
 
+Sie können auch die gesamte CSV-Datei mit Namen und URL zu den Datensätzen [hier](data/pruefungsdatensaetze.csv) herunterladen.
+
+{{< downloadthis data/pruefungsdatensaetze.csv dname = "pruefungsdatensaetze.csv" >}}
 
