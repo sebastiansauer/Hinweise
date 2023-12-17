@@ -127,6 +127,9 @@ Welche Variable vorherzusagen ist (die AV), steht im Data Dictionary.
 
 Alles Prüfungsmaterial findet sich auf der Moodle-Seite des entsprechenden Moduls (unter Umständen werden Sie dann auf einen anderen Moodlekurs weitergeleitet, aber Sie finden den Zugang stets auf der Moodleseite des betreffenden Moduls).
 
+### Wo reiche ich meine Ergebnisse ein?
+
+Sie finden auf der betreffenden Moodleseite einen Abschnitt mit Namen "Einreichen Ihrer Projektarbeit" (o. Ä.). Reichen Sie dort Ihre Projektarbeit ein.
 
 ## Zeitplan
 
@@ -309,6 +312,10 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 ### Tipps für eine gute Prognose
 
 - Schauen Sie in die Literatur.
+
+- Lesen Sie sich die Hinweise durch.
+
+- Stellen Sie sicher, dass Sie wissen, wo das Prüfungsmaterial bereitgestellt ist und schauen Sie es sich rechtzeitig an.
 
 - Evtl. kann eine Datenvorverarbeitung (Variablentransformation, z.B. $\log()$ oder die Elimination von Ausreißern) helfen.
 

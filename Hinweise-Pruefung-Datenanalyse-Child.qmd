@@ -4,6 +4,7 @@
 <!-- ## Prüfungsform Datenanalyse -->
 
 
+Die folgenden Hinweise gelten nur insofern Ihnen die Prüfperson nicht anderslautende Hinweise gegeben hat (schriftlich).
 
 
 ## Allgemeines
@@ -20,7 +21,7 @@
 
 7. Die *R-Syntax* soll im Hauptteil des Berichts dokumentiert werden. R-Output darf ggf. gekürzt wiedergegeben werden.
 
-9. Fügen Sie *keine Erklärungen* oder Definitionen von statistischen Verfahren an.
+9. Fügen Sie *keine Erklärungen* oder Definitionen von gebräuchlichen statistischen Verfahren an.
 
 10. *Beschreiben* und *interpretieren* Sie jede Analyse bzw. jeden R-Code bzw. jedes Ergebnis (jede R-Ausgabe).
 
@@ -36,8 +37,6 @@
  - Abgabedatum
 
 
-14. Die *Abgabefrist endet mit Verstreichen des regulären Prüfungszeitraums* (soweit nicht vom Prüfer anderweitig angegeben).
-
 15. Studentis mit *Nachteilsausgleich* melden sich beim Prüfer und zeigen ihren Antrag auf Nachteilsausgleich an.
 
 
@@ -47,7 +46,7 @@
 
   a. der Bericht in menschenlesbarer Form (s. Formatierungshinweise)
   b. alle Dateien, die Quellcode der Analyse beinhalten. 
-  c. die Rohdaten
+  c. die Rohdaten (bzw. eine URL zu den Daten)
   
 2. Der Name der Dateien kann frei gewählt werden (bzw. folgt keinen technischen Restriktionen).
 
@@ -75,6 +74,30 @@
 3. Die *Gliederung* der Arbeit kann sich an den [PPDAC-Zyklus](https://stats-nutshell.netlify.app/basics.html#ppdac) und am [Data Science Model von Wickham und Grolemund](https://r4ds.had.co.nz/introduction.html#what-you-will-learn) orientieren.
 
 
+## Prüfungsmaterial {#sec-pruefungsmaterial}
+
+
+### Wo finde ich das Prüfungsmaterial?
+
+Alles Prüfungsmaterial findet sich auf der Moodle-Seite des entsprechenden Moduls (unter Umständen werden Sie dann auf einen anderen Moodlekurs weitergeleitet, aber Sie finden den Zugang stets auf der Moodleseite des betreffenden Moduls).
+
+
+### Wo reiche ich meine Ergebnisse ein?
+
+Sie finden auf der betreffenden Moodleseite einen Abschnitt mit Namen "Einreichen Ihrer Projektarbeit" (o. Ä.). Reichen Sie dort Ihre Projektarbeit ein.
+
+
+## Zeitplan
+
+
+
+Zu Beginn des offiziellen Prüfungszeitraums der Hochschule wird das [Prüfungsmaterial](#sec-pruefungsmaterial) veröffentlicht. 
+Dann können Sie mit der Bearbeitung beginnen.
+Die Abgabefrist der Projektarbeit endet zeitgleich mit dem Verstreichen des Prüfungszeitraums der Hochschule. 
+Während des Prüfungszeitraums haben Sie also Zeit, Ihre Projektarbeit (den Prognosewettbewerb) zu bearbeiten, s. @fig-zeitplan.
+
+
+![Zeitplan der Bearbeitung des Prognosewettbewerbs](img/Zeitplanung-Prognosewettbewerb.png){#fig-zeitplan width=67%}
 
 
 
@@ -134,7 +157,7 @@ Insbesondere kann eine Fünf in einem der Kriterien zum Durchfallen führen, auc
 
 ## Fundorte für Datensätze
 
-
+Sofern Ihnen die Prüfperson nicht einen Datensatz zugeteilt hat, können Sie die folgenden Fundorte für Datensätze nutzen, um einen Datensatz für Ihre Analyse zu finden.
 
 
 ### Themenübergreifende Fundorte
@@ -216,7 +239,7 @@ Insbesondere kann eine Fünf in einem der Kriterien zum Durchfallen führen, auc
 
 
 
-Eine automatische Prüfung auf Plagiate mittels geeigneter, von der Hochschule bereitgestellter Software ist möglich.
+Eine automatische Prüfung auf Plagiate mittels geeigneter, von der Hochschule bereitgestellter, Software ist möglich.
 
 
 

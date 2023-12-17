@@ -133,45 +133,45 @@
   {
     "objectID": "Hinweise-Pruefung-Klausur-frame.html#allgemeine-hinweise",
     "href": "Hinweise-Pruefung-Klausur-frame.html#allgemeine-hinweise",
-    "title": "\n4  Quantitative Prüfungen\n",
+    "title": "\n4  Quantitative Prüfung\n",
     "section": "\n4.1 Allgemeine Hinweise",
     "text": "4.1 Allgemeine Hinweise\n\nVerwenden Sie Standardwerte (defaults) der R-Funktionen, soweit nicht anders in der jeweiligen Aufgabe verlangt.\nFindet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die am besten passende.\n\nTreffen Sie Annahmen, (nur) wo nötig.\nDie Prüfung besteht auch aus Single- bzw. Multiple-Choice- (MC)-Aufgaben mit mehreren Antwortoptionen.\nBei Multiple-Choice-Aufgaben (MC-Aufgaben) ist zumeist genau eine Antwortoption auszuwählen aus vier oder fünf Antwortoptionen.\nIm Zweifel ist eine Aussage auf den Stoff, so wie im Unterricht behandelt, zu beziehen.\nJede Aussage einer MC-Aufgabe ist entweder richtig oder falsch (aber nicht beides oder keines).\nDie MC-Aufgaben sind nur mit Kreuzen zu beantworten; Text wird bei der Korrektur nicht berücksichtigt.\nJede Aussage gilt ceteris paribus (unter sonst gleichen Umständen). Aussagen der Art „A ist B“ (z.B. “Menschen sind sterblich”) sind nur dann als richtig auszuwählen, wenn die Aussage immer richtig ist.\nFalls Sie bei einer Aufgabe mehrere Antworten finden, aber nur nach einer gefragt ist, geben Sie nur eine an.\nFalls mehrere (widersprüchliche) Antworten gegeben wurden, wird im Zweifel die erst genannte gewertet.\nDie Aufgabenstellung in einer Moodle-Prüfung wird u.U. erst sichtbar, wenn Sie den Prüfungsbedingungen zugestimmt haben und die Prüfungszeit begonnen hat.\nDurch Ihre Teilnahme an der Prüfung bestätigen Sie, dass Sie die Hinweise zur Kenntnis genommen haben.\nBei Fragen zu R-Syntax spielen Aspekte wie Enter-Taste o.Ä. bei der Beantwortung der Frage keine Rolle; diese Aspekte dürfen zu ignorieren.\nWie auch bei den übrigen Hinweisen gelten diese Maßgaben nur soweit nicht explizit andere Hinweise gegeben wurden.",
     "crumbs": [
       "Prüfungen",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quantitative Prüfungen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quantitative Prüfung</span>"
     ]
   },
   {
     "objectID": "Hinweise-Pruefung-Klausur-frame.html#aufgaben-zur-datenanalyse",
     "href": "Hinweise-Pruefung-Klausur-frame.html#aufgaben-zur-datenanalyse",
-    "title": "\n4  Quantitative Prüfungen\n",
+    "title": "\n4  Quantitative Prüfung\n",
     "section": "\n4.2 Aufgaben zur Datenanalyse",
     "text": "4.2 Aufgaben zur Datenanalyse\n\nJe nach Spracheinstellung in Moodle kann es sein, dass Sie als Dezimaltrennzeichen ein Komma oder einen Punkt verwenden müssen. Moodle weist Sie darauf hin, falls eine Zahl nicht als Zahl erkannt wurde.\n\nRunden Sie bei Fragen, die auf Anteile abzielen auf zwei Dezimalstellen, ansonsten auf eine.\nGeben Sie keine Prozentzahlen an, sondern Anteile (FALSCH: 50%, RICHTIG: 0.5 bzw. 0,5).\nBei Aufgaben, die eine Zahl als Antwort verlangen, ist nur Ziffern anzugeben (nicht etwa Buchstaben).\nAlle Berechnungen, die Zufallszahlen beinhalten, sollen mit fixierten Startwert der Zufallszahlen durchgeführt werden. Es ist die Zahl 42 zu verwenden.\n\nWenn Stichproben simuliert werden sollen, ziehen Sie \\(10^3\\) Zufallsstichproben.\n\nIn einigen Aufgaben kann verlangt sein, dass Sie einen bestimmten Datensatz in R importieren sollen. In diesem Fall wird vorausgesetzt, dass Ihnen diese Bezugsquelle von Datensätzen bekannt ist und dass Sie wissen, wie man einen Datensatz in R importiert.\nAchten Sie darauf, R und R-Pakete sowie R-Studio in aktueller Version zu verwenden. Das Verwenden älterer Versionen kann (in seltenen Fällen) zu abweichenden Lösungen führen. Im Zweifel beziehen sich alle Aufgaben auf die jeweils aktuellste Version der verwendeten Software.\nWenn Sie Text eingeben sollen: Geben Sie nur Kleinbuchstaben ein. Geben Sie nur ein einziges Wort ein. Geben Sie keine Leerzeichen ein.",
     "crumbs": [
       "Prüfungen",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quantitative Prüfungen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quantitative Prüfung</span>"
     ]
   },
   {
     "objectID": "Hinweise-Pruefung-Klausur-frame.html#besonderheiten-zur-bayes-statistik",
     "href": "Hinweise-Pruefung-Klausur-frame.html#besonderheiten-zur-bayes-statistik",
-    "title": "\n4  Quantitative Prüfungen\n",
+    "title": "\n4  Quantitative Prüfung\n",
     "section": "\n4.3 Besonderheiten zur Bayes-Statistik",
     "text": "4.3 Besonderheiten zur Bayes-Statistik\n\nVerwenden Sie Methoden der Bayes-Statistik für inferenzstatistische Analysen (soweit nicht anders vorgegeben).\n\nBei Aufgaben zur “Bayes-Box” (Erstellung einer Gitterwert-Tabelle) gelten folgende Maßgaben:\n\nHandelt es sich um Parameter mit einem begrenzten Wertebereich (wie etwa Anteile), so ist der ganze Wertebereich zu modellieren. Es sind 101 verschiedene Parameterwerte zu berechnen (wenn möglich, gleichabständig verteilt).\nHandelt es sich um Parameter \\(X\\) mit einem unbegrenzten Wertebereich (wie normalverteilte Variablen), so ist der Wertebereich \\(X-2\\sigma \\le X \\le X+2\\sigma\\) zu simulieren.\n\n\nNutzen Sie die Software Stan in Form des R-Pakets rstanarm für Regressionsmodelle auf Basis der Bayes-Methode.\nVerwenden Sie immer folgenden Seed-Wert bei stan_glm(): 42. Dazu setzen Sie folgenden Parameter seed = 42 (innerhalb von stan_glm()).\n\nDer Toleranzbereich einer Lösung liegt bei 3% des Wertes der Musterlösung (sofern nicht anders bei der jeweiligen Aufgabe angegeben). Toleranzbereiche werden verwendet für Aufgaben mit Zufallszahlen: Lösungen solcher Aufgaben können schwanken. Wenn Sie allerdings den angegebenen Seed-Wert gesetzt haben, so sollte Ihre (korrekte) Lösung exakt der Musterlösung entsprechen. Beispiele:\n\nDer Wert laut Musterlösung liegt bei 100; dann erstreckt sich der Toleranzbereich von 93 bis 103.\nDer Wert laut Musterlösung liegt bei .05; dann erstreckt sich der Toleranzbereich um ±0.0015 Punkte um 0.05.",
     "crumbs": [
       "Prüfungen",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quantitative Prüfungen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quantitative Prüfung</span>"
     ]
   },
   {
     "objectID": "Hinweise-Pruefung-Klausur-frame.html#verwendete-datensätze",
     "href": "Hinweise-Pruefung-Klausur-frame.html#verwendete-datensätze",
-    "title": "\n4  Quantitative Prüfungen\n",
+    "title": "\n4  Quantitative Prüfung\n",
     "section": "\n4.4 Verwendete Datensätze",
     "text": "4.4 Verwendete Datensätze\n\n4.4.1 R-Pakete mit Prüfungsdatensätzen\nIn der Prüfung werden Sie u.U. aufgefordert, einen Datensatz zu importieren und zu bearbeiten. Die folgende Liste (Tabelle 4.1) zeigt, welche Datensätze in der Prüfung verwendet werden. Sie können die Datensätze vorab herunterladen (für eine schnellere Bearbeitung in der Prüfung).\nEs werden Datensätze aus den folgenden R-Pakete verwendet:\n\n\n[1] \"datasets\"       \"palmerpenguins\" \"reshape2\"       \"gt\"            \n[5] \"ggplot2\"        \"MASS\"           \"AER\"            \"robustbase\"    \n[9] \"openintro\"     \n\n\n\n4.4.2 Importieren von Daten in R\nFür die Prüfung sollten Sie wissen, wie man Datensätze (v.a. aus dem CSV-Format) in R importiert.\n\n\n\n\n\n\nHinweis\n\n\n\nSie können jeden Datensatz entweder per CSV-Datei importieren (z.B. mit read.csv) oder über Starten das zugehörige R-Paket. Letzteres kann ein bisschen schneller gehen. \\(\\square\\)\n\n\nWeg 1: Import via CSV-Datei:\n\nlibrary(tidyverse)  # `read_csv` wohnt im Tidyverse\npenguins &lt;- read_csv(\"https://vincentarelbundock.github.io/Rdatasets/csv/palmerpenguins/penguins.csv\")\n\nhead(penguins)  # Check?! Passt!\n\n\n  \n\n\n\nWeg 2: Import über das zugehörige R-Paket (das natürlich vorab installiert sein muss):\n\nlibrary(palmerpenguins)\ndata(penguins)\n\nhead(penguins)  # Wieder Prüfen ... Passt!\n\n\n  \n\n\n\nBeide Möglichkeiten führen zum Ziel.\nFür Datensätze, die schon mit R mitgeliefert werden, wie mtcars, muss kein Paket gestartet werden. Es reicht, den Datensatz mit data(name_des_datensatzes) zu starten.\n\n4.4.3 Liste der Prüfungsdatensätze\nIn Tabelle 4.1 sind alle Prüfungsdatensätze aufgelistet inkl. dem Bezugsort der zugehörigen CSV-Datei sowie dem zugehörigen Code-Book (Beschreibung des Datensatzes).\n\n\n\nTabelle 4.1: Prüfungsdatensätze\n\n\n\n\n\n\n\n\n\nSie können auch die gesamte CSV-Datei mit Namen und URL zu den Datensätzen hier herunterladen.\n Download",
     "crumbs": [
       "Prüfungen",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quantitative Prüfungen</span>"
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Quantitative Prüfung</span>"
     ]
   },
   {
@@ -179,7 +179,7 @@
     "href": "Hinweise-Pruefung-Datenanalyse-frame.html#allgemeines",
     "title": "5  Datenanalyse",
     "section": "5.1 Allgemeines",
-    "text": "5.1 Allgemeines\n\nGegenstand dieser Prüfungsform ist eine Projektarbeit in Form von Analyse eines Datensatzes nach einer Forschungsfrage und die Dokumentation dieser Analyse.\nSchreiben Sie Ihre Datenanalyse in Form eines Berichts, der sich an den Gliederungspunkten wie unten dargestellt orientiert.\nWenden Sie die passenden, im Unterricht eingeführten, statistischen Verfahren an. Es steht Ihnen frei, andere (nicht im Unterricht behandelte) Verfahren zur Analyse der Daten anzuwenden, nach Maßgabe der fachlichen Angemessenheit.\nWerten Sie die Daten mit R oder Python aus.\nDie R-Syntax soll im Hauptteil des Berichts dokumentiert werden. R-Output darf ggf. gekürzt wiedergegeben werden.\nFügen Sie keine Erklärungen oder Definitionen von statistischen Verfahren an.\nBeschreiben und interpretieren Sie jede Analyse bzw. jeden R-Code bzw. jedes Ergebnis (jede R-Ausgabe).\nVon hoher Bedeutung ist die Korrektheit der Beschreibung und Interpretation der statistischen Modellierung (z.B. mit der Regressionsanalyse).\nEs hat keinen Einfluss auf Ihre Note, ob sich ein (erwarteter) Effekt zeigt und wie stark dieser Effekt ggf. ist.\nZu Beginn der Analyse müssen folgende Metadaten gut ersichtlich platziert sein (z.B. auf einem Deckblatt):\n\n\nVorname Nachname der Autors/der Autorin\nMatrikelnummer\nModulname\nAbgabedatum\n\n\nDie Abgabefrist endet mit Verstreichen des regulären Prüfungszeitraums (soweit nicht vom Prüfer anderweitig angegeben).\nStudentis mit Nachteilsausgleich melden sich beim Prüfer und zeigen ihren Antrag auf Nachteilsausgleich an.",
+    "text": "5.1 Allgemeines\n\nGegenstand dieser Prüfungsform ist eine Projektarbeit in Form von Analyse eines Datensatzes nach einer Forschungsfrage und die Dokumentation dieser Analyse.\nSchreiben Sie Ihre Datenanalyse in Form eines Berichts, der sich an den Gliederungspunkten wie unten dargestellt orientiert.\nWenden Sie die passenden, im Unterricht eingeführten, statistischen Verfahren an. Es steht Ihnen frei, andere (nicht im Unterricht behandelte) Verfahren zur Analyse der Daten anzuwenden, nach Maßgabe der fachlichen Angemessenheit.\nWerten Sie die Daten mit R oder Python aus.\nDie R-Syntax soll im Hauptteil des Berichts dokumentiert werden. R-Output darf ggf. gekürzt wiedergegeben werden.\nFügen Sie keine Erklärungen oder Definitionen von gebräuchlichen statistischen Verfahren an.\nBeschreiben und interpretieren Sie jede Analyse bzw. jeden R-Code bzw. jedes Ergebnis (jede R-Ausgabe).\nVon hoher Bedeutung ist die Korrektheit der Beschreibung und Interpretation der statistischen Modellierung (z.B. mit der Regressionsanalyse).\nEs hat keinen Einfluss auf Ihre Note, ob sich ein (erwarteter) Effekt zeigt und wie stark dieser Effekt ggf. ist.\nZu Beginn der Analyse müssen folgende Metadaten gut ersichtlich platziert sein (z.B. auf einem Deckblatt):\n\n\nVorname Nachname der Autors/der Autorin\nMatrikelnummer\nModulname\nAbgabedatum\n\n\nStudentis mit Nachteilsausgleich melden sich beim Prüfer und zeigen ihren Antrag auf Nachteilsausgleich an.",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Datenanalyse</span>"
@@ -190,7 +190,7 @@
     "href": "Hinweise-Pruefung-Datenanalyse-frame.html#einzureichende-dateien",
     "title": "5  Datenanalyse",
     "section": "5.2 Einzureichende Dateien",
-    "text": "5.2 Einzureichende Dateien\n\nEinzureichen sind folgende Dateien:\n\n\nder Bericht in menschenlesbarer Form (s. Formatierungshinweise)\nalle Dateien, die Quellcode der Analyse beinhalten.\ndie Rohdaten\n\n\nDer Name der Dateien kann frei gewählt werden (bzw. folgt keinen technischen Restriktionen).",
+    "text": "5.2 Einzureichende Dateien\n\nEinzureichen sind folgende Dateien:\n\n\nder Bericht in menschenlesbarer Form (s. Formatierungshinweise)\nalle Dateien, die Quellcode der Analyse beinhalten.\ndie Rohdaten (bzw. eine URL zu den Daten)\n\n\nDer Name der Dateien kann frei gewählt werden (bzw. folgt keinen technischen Restriktionen).",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Datenanalyse</span>"
@@ -219,11 +219,33 @@
     ]
   },
   {
+    "objectID": "Hinweise-Pruefung-Datenanalyse-frame.html#sec-pruefungsmaterial",
+    "href": "Hinweise-Pruefung-Datenanalyse-frame.html#sec-pruefungsmaterial",
+    "title": "5  Datenanalyse",
+    "section": "5.5 Prüfungsmaterial",
+    "text": "5.5 Prüfungsmaterial\n\n5.5.1 Wo finde ich das Prüfungsmaterial?\nAlles Prüfungsmaterial findet sich auf der Moodle-Seite des entsprechenden Moduls (unter Umständen werden Sie dann auf einen anderen Moodlekurs weitergeleitet, aber Sie finden den Zugang stets auf der Moodleseite des betreffenden Moduls).\n\n\n5.5.2 Wo reiche ich meine Ergebnisse ein?\nSie finden auf der betreffenden Moodleseite einen Abschnitt mit Namen “Einreichen Ihrer Projektarbeit” (o. Ä.). Reichen Sie dort Ihre Projektarbeit ein.",
+    "crumbs": [
+      "Prüfungen",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Datenanalyse</span>"
+    ]
+  },
+  {
+    "objectID": "Hinweise-Pruefung-Datenanalyse-frame.html#zeitplan",
+    "href": "Hinweise-Pruefung-Datenanalyse-frame.html#zeitplan",
+    "title": "5  Datenanalyse",
+    "section": "5.6 Zeitplan",
+    "text": "5.6 Zeitplan\nZu Beginn des offiziellen Prüfungszeitraums der Hochschule wird das Prüfungsmaterial veröffentlicht. Dann können Sie mit der Bearbeitung beginnen. Die Abgabefrist der Projektarbeit endet zeitgleich mit dem Verstreichen des Prüfungszeitraums der Hochschule. Während des Prüfungszeitraums haben Sie also Zeit, Ihre Projektarbeit (den Prognosewettbewerb) zu bearbeiten, s. Abbildung 11.2.\n\n\n\n\n\n\nAbbildung 5.1: Zeitplan der Bearbeitung des Prognosewettbewerbs",
+    "crumbs": [
+      "Prüfungen",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Datenanalyse</span>"
+    ]
+  },
+  {
     "objectID": "Hinweise-Pruefung-Datenanalyse-frame.html#beurteilungskriterien",
     "href": "Hinweise-Pruefung-Datenanalyse-frame.html#beurteilungskriterien",
     "title": "5  Datenanalyse",
-    "section": "5.5 Beurteilungskriterien",
-    "text": "5.5 Beurteilungskriterien\nDie Arbeit wird im Hinblick auf drei Kriterien bewertet:\n\nFormalia (z. B. Vollständigkeit der Abarbeitung, Angemessenheit der äußeren Gestaltung, Fokus auf Wesentliche, Übersichtlichkeit, Ästhetik, Reproduzierbarkeit)\nMethodik (z. B. Richtige Auswahl und Anwendung der Verfahren, methodisches Verständnis)\nInhalt (z. B. Verständlichkeit, Breite und Tiefe der Problemlösung, Korrektheit der Interpretation)\n\nSie erhalten für jedes der drei Kriterien eine Teilnote sowie eine Gesamtnote. Außerdem erhalten Sie ggf. für die Kriterien noch ausformulierte Hinweise.\nDie Gesamtnote muss sich nicht als Mittelwert der Teilnoten ergeben.\nInsbesondere kann eine Fünf in einem der Kriterien zum Durchfallen führen, auch wenn die anderen beiden Kriterien gut oder sehr gut beurteilt wurden.",
+    "section": "5.7 Beurteilungskriterien",
+    "text": "5.7 Beurteilungskriterien\nDie Arbeit wird im Hinblick auf drei Kriterien bewertet:\n\nFormalia (z. B. Vollständigkeit der Abarbeitung, Angemessenheit der äußeren Gestaltung, Fokus auf Wesentliche, Übersichtlichkeit, Ästhetik, Reproduzierbarkeit)\nMethodik (z. B. Richtige Auswahl und Anwendung der Verfahren, methodisches Verständnis)\nInhalt (z. B. Verständlichkeit, Breite und Tiefe der Problemlösung, Korrektheit der Interpretation)\n\nSie erhalten für jedes der drei Kriterien eine Teilnote sowie eine Gesamtnote. Außerdem erhalten Sie ggf. für die Kriterien noch ausformulierte Hinweise.\nDie Gesamtnote muss sich nicht als Mittelwert der Teilnoten ergeben.\nInsbesondere kann eine Fünf in einem der Kriterien zum Durchfallen führen, auch wenn die anderen beiden Kriterien gut oder sehr gut beurteilt wurden.",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Datenanalyse</span>"
@@ -233,8 +255,8 @@
     "objectID": "Hinweise-Pruefung-Datenanalyse-frame.html#beispiele-für-aspekte-der-beurteilungskriterien",
     "href": "Hinweise-Pruefung-Datenanalyse-frame.html#beispiele-für-aspekte-der-beurteilungskriterien",
     "title": "5  Datenanalyse",
-    "section": "5.6 Beispiele für Aspekte der Beurteilungskriterien",
-    "text": "5.6 Beispiele für Aspekte der Beurteilungskriterien\n\nWurden deskriptive Statistiken (an angemessenen Ort) berichtet?\nWurden Diagramme und Tabellen angemessen eingesetzt?\nWurde Inferenzstatistik (angemessen) eingesetzt?\nWurden Effektstärkemaße (idealerweise mit Konfidenzintervallen dazu) berichtet?\nWurden alle relevanten Informationen für ein statistisches Verfahren angegeben (z.B. zum gewählten Prior)?\nWurde die Aussagekraft von Modellergebnissen richtig eingeschätzt?\nWaren die Schlussfolgerungen, die aus den statistischen Ergebnissen gezogen wurden, angemessen (z. B. wurde erkannt, dass ein Nicht-Verwerfeen einer Hypothese nicht automatisch ein Bestätigen derselben bedeutet)?\nWurde angemessen gerundet (inkl. konsistente Anzahl von Nachkommastellen)?\nPassen die statistischen Verfahren zu den Hypothesen?\nWurden die Voraussetzungen der statistischen Verfahren geprüft?\nSind die Ergebnisse reproduzierbar (Daten und Syntax eingereicht)?",
+    "section": "5.8 Beispiele für Aspekte der Beurteilungskriterien",
+    "text": "5.8 Beispiele für Aspekte der Beurteilungskriterien\n\nWurden deskriptive Statistiken (an angemessenen Ort) berichtet?\nWurden Diagramme und Tabellen angemessen eingesetzt?\nWurde Inferenzstatistik (angemessen) eingesetzt?\nWurden Effektstärkemaße (idealerweise mit Konfidenzintervallen dazu) berichtet?\nWurden alle relevanten Informationen für ein statistisches Verfahren angegeben (z.B. zum gewählten Prior)?\nWurde die Aussagekraft von Modellergebnissen richtig eingeschätzt?\nWaren die Schlussfolgerungen, die aus den statistischen Ergebnissen gezogen wurden, angemessen (z. B. wurde erkannt, dass ein Nicht-Verwerfeen einer Hypothese nicht automatisch ein Bestätigen derselben bedeutet)?\nWurde angemessen gerundet (inkl. konsistente Anzahl von Nachkommastellen)?\nPassen die statistischen Verfahren zu den Hypothesen?\nWurden die Voraussetzungen der statistischen Verfahren geprüft?\nSind die Ergebnisse reproduzierbar (Daten und Syntax eingereicht)?",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Datenanalyse</span>"
@@ -244,8 +266,8 @@
     "objectID": "Hinweise-Pruefung-Datenanalyse-frame.html#fundorte-für-datensätze",
     "href": "Hinweise-Pruefung-Datenanalyse-frame.html#fundorte-für-datensätze",
     "title": "5  Datenanalyse",
-    "section": "5.7 Fundorte für Datensätze",
-    "text": "5.7 Fundorte für Datensätze\n\n5.7.1 Themenübergreifende Fundorte\n\nOur World in Data\nOpen Science Framework\nFigshare\nHarvard Dataverse\nUK Data Servicee\nGoogle DataSet Search\n\n\n\n5.7.2 Klimawandel\n\nGerman Wather Data from the DWD\nNasa climeate data such as this data set: Tables of Global and Hemispheric Monthly Means and Zonal Annual Means\nData on CO2 and Greenhouse Gas Emissions by Our World in Data\n\n\n\n5.7.3 Gesundheit und Soziales\n\nMeasuring Well-being and Progress: Well-being Research\nCovid-19 Cases in Germany provided by the RKI\nPaper COVIDiSTRESS Global Survey dataset on psychological and behavioural consequences of the COVID-19 outbreak with open data at osf.io\nGlobal Health Data Exchange\nWHO Global Tuberculosis Programme\nWHO Global Health Observatory data repository\n\n\n\n5.7.4 Arbeit\n\nUK Data Service: European Company Survey, 2019\n\n\n\n5.7.5 Psychologie Divers\n\nGraham, Haidt, & Nosek (2009): Liberals and conservatives rely on different sets of moral foundations\nBrian Nosek Dataverse\nThe Journal of Open Psychology Data (JOPD)\nPsychology data from the Race Implicit Association Test on the Project Implicit Demo website",
+    "section": "5.9 Fundorte für Datensätze",
+    "text": "5.9 Fundorte für Datensätze\nSofern Ihnen die Prüfperson nicht einen Datensatz zugeteilt hat, können Sie die folgenden Fundorte für Datensätze nutzen, um einen Datensatz für Ihre Analyse zu finden.\n\n5.9.1 Themenübergreifende Fundorte\n\nOur World in Data\nOpen Science Framework\nFigshare\nHarvard Dataverse\nUK Data Servicee\nGoogle DataSet Search\n\n\n\n5.9.2 Klimawandel\n\nGerman Wather Data from the DWD\nNasa climeate data such as this data set: Tables of Global and Hemispheric Monthly Means and Zonal Annual Means\nData on CO2 and Greenhouse Gas Emissions by Our World in Data\n\n\n\n5.9.3 Gesundheit und Soziales\n\nMeasuring Well-being and Progress: Well-being Research\nCovid-19 Cases in Germany provided by the RKI\nPaper COVIDiSTRESS Global Survey dataset on psychological and behavioural consequences of the COVID-19 outbreak with open data at osf.io\nGlobal Health Data Exchange\nWHO Global Tuberculosis Programme\nWHO Global Health Observatory data repository\n\n\n\n5.9.4 Arbeit\n\nUK Data Service: European Company Survey, 2019\n\n\n\n5.9.5 Psychologie Divers\n\nGraham, Haidt, & Nosek (2009): Liberals and conservatives rely on different sets of moral foundations\nBrian Nosek Dataverse\nThe Journal of Open Psychology Data (JOPD)\nPsychology data from the Race Implicit Association Test on the Project Implicit Demo website",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Datenanalyse</span>"
@@ -255,8 +277,8 @@
     "objectID": "Hinweise-Pruefung-Datenanalyse-frame.html#sonstiges",
     "href": "Hinweise-Pruefung-Datenanalyse-frame.html#sonstiges",
     "title": "5  Datenanalyse",
-    "section": "5.8 Sonstiges",
-    "text": "5.8 Sonstiges\nEine automatische Prüfung auf Plagiate mittels geeigneter, von der Hochschule bereitgestellter Software ist möglich.",
+    "section": "5.10 Sonstiges",
+    "text": "5.10 Sonstiges\nEine automatische Prüfung auf Plagiate mittels geeigneter, von der Hochschule bereitgestellter, Software ist möglich.",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Datenanalyse</span>"
@@ -353,45 +375,45 @@
   {
     "objectID": "Hinweise-Pruefung-Gruppenarbeit-frame.html#didaktische-ziele-der-gruppenarbeit-als-prüfungsform",
     "href": "Hinweise-Pruefung-Gruppenarbeit-frame.html#didaktische-ziele-der-gruppenarbeit-als-prüfungsform",
-    "title": "8  Gruppenarbeiten",
+    "title": "8  Gruppenarbeit",
     "section": "8.1 Didaktische Ziele der Gruppenarbeit als Prüfungsform",
     "text": "8.1 Didaktische Ziele der Gruppenarbeit als Prüfungsform\nBei einer Gruppenarbeit wird ein Projekt, etwa eine empirische Studie, ein Praxisprojekt oder eine Datenanalyse, von mehreren Personen bearbeitet.\nNeben der inhaltlich-methodischen Kompetenz soll im Rahmen dieser Prüfungsform abgeprüft werden, ob und wieweit sich die Studierenden mit den sozialdynamischen Prozessen erfolgreich auseinander setzen können. Dies ist vor dem Hintergrund der Allgegenwärtigkeit von Arbeitsgruppen im Berufsleben begründet. Für die berufliche Ausbildung ist es wichtig, Erfahrung mit den Vorzügen aber Schwierigkeiten von Arbeitsgruppen gemacht zu haben. Eine Prüfungsleistung an der Hochschule bietet dafür einen geschützten Rahmen.",
     "crumbs": [
       "Prüfungen",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Gruppenarbeiten</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Gruppenarbeit</span>"
     ]
   },
   {
     "objectID": "Hinweise-Pruefung-Gruppenarbeit-frame.html#arbeitsteilung-der-gruppenmitglieder",
     "href": "Hinweise-Pruefung-Gruppenarbeit-frame.html#arbeitsteilung-der-gruppenmitglieder",
-    "title": "8  Gruppenarbeiten",
+    "title": "8  Gruppenarbeit",
     "section": "8.2 Arbeitsteilung der Gruppenmitglieder",
     "text": "8.2 Arbeitsteilung der Gruppenmitglieder\nDie Aufteilung der Teilaspekte der Arbeit soll so erfolgen, dass jedes Mitglied des Teams mit etwa gleichem Aufwand beiträgt. Dies kann sich z.B. in etwa gleich großer Zahl an geschriebenen Seiten niederschlagen.\nBei empirischen Arbeiten soll jedes Mitglied des Teams ein komplettes empirischen Kapitel (Methodenteil oder Ergebnisteil) und ein komplettes theoretischen Kapitel (Theorieteil oder Diskussion) verfasst.\nZu dem der Hauptkapitel des Berichts (z.B. Theorie, Methode, Ergebnis, Diskussion) ist jeweils genau ein Name einer Person anzugeben, die für das entsprechende Kapitel verantwortlich ist. Geben Sie den Namen in geeigneter Form an, z.B. in einer Fußnote zu der Kapitelüberschrift. Eine Aufteilung der Hauptkapitel auf mehrere Personen eines Teams ist nicht zulässig.\nDie Einleitung soll gemeinsam verfasst werden (d.h. ohne Auszeichnung eines Namens).",
     "crumbs": [
       "Prüfungen",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Gruppenarbeiten</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Gruppenarbeit</span>"
     ]
   },
   {
     "objectID": "Hinweise-Pruefung-Gruppenarbeit-frame.html#benotung",
     "href": "Hinweise-Pruefung-Gruppenarbeit-frame.html#benotung",
-    "title": "8  Gruppenarbeiten",
+    "title": "8  Gruppenarbeit",
     "section": "8.3 Benotung",
     "text": "8.3 Benotung\n\nEinzelnote: Jedes Mitglieder einer Arbeitsgruppe erhält eine eigene, individuelle Note. Die Noten der Gruppenglieder müssen daher nicht identisch sein (können aber). Alle Kommentare des Gutachters sind mit dem Namen (bzw. Namenskürzel) derjenigen Person versehen, an die der Kommentar gerichtet ist. In die Note (eines bestimmten Gutachtens) fließen nur Abschnitt ein, die von der/dem angegebenen Verfasser:in verfasst wurden sowie diejenigen Abschnitte, die nicht namentlich gekennzeichnet wurden (nur relevant bei Gruppenarbeiten). Kommentare zu Abschnitten, die ohne Namen in der Prüfungsleistung angegeben sind, werden auch ohne Namenshinweis aufgeführt.\nBeachten Sie, dass die Noten der Prüflinge einer Gruppe identisch sein können (aber nicht müssen). Beachten Sie auch, dass es Aspekte eines Projekts gibt, die auf die Arbeitsteile mehrerer Gruppenmitglieder Auswirkung haben. Beispiel: Die theoretische Grundlage einer Forschungsfrage hat Auswirkung auf das zu wählende Forschungsdesign, was wiederum auf die Auswertungsmethodik auswirkt. Schließlich ist die Diskussion der Schwächen der Studien abhängig von den anderen Teilen bzw. dem Vorgehen im Projekt.",
     "crumbs": [
       "Prüfungen",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Gruppenarbeiten</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Gruppenarbeit</span>"
     ]
   },
   {
     "objectID": "Hinweise-Pruefung-Gruppenarbeit-frame.html#formalia",
     "href": "Hinweise-Pruefung-Gruppenarbeit-frame.html#formalia",
-    "title": "8  Gruppenarbeiten",
+    "title": "8  Gruppenarbeit",
     "section": "8.4 Formalia",
     "text": "8.4 Formalia\n\nWenn eine Gruppenarbeit als Prüfungsform definiert ist sind Einzelarbeiten grundsätzlich nicht zulässig. Umgekehrt sind Gruppenarbeiten (grundsätzlich) nicht zugelassen, wenn die Prüfungsform als Einzelarbeit definiert ist.\nDie Prüfperson kann ein Datum angeben, bis zu dem (spätestens) die Gruppenwahl abgeschlossen sein muss.\nDie Anzahl der teilnehmenden Personen (min., max.) einer Arbeitsgruppe wird von der Prüfperson festgelegt und bekanntgegeben (z.B. min:2, max:5).\n\n\n\nAus formalen Gründen darf die Seminararbeit pro Arbeitsgruppe nur einmalig eingereicht werden. Im Falle mehrerer Einreichungen zählt die erste.\nGleichwertige Beiträge: Alle teilnehmenden Personen einer Forschungsgruppe (einer Gruppenarbeit) sollen in ähnlichem Umfang beitragen.\nEs ist erlaubt, eine Gruppe zu verlassen. Wer eine Gruppe verlässt, schließt sich rechtzeitig einer anderen Gruppe an.\nKonflikte in der Gruppe: Unterschiedliche Ansichten zum Vorgehen sind zuerst innerhalb der Gruppe zu klären. Falls dies erfolglos ist, soll (wenn nötig) die Lehrperson angesprochen werden. Zu beachten ist, dass das Moderieren des Gruppenprozesses Teil der Prüfungsleistung ist.\nFalls ei Studenti keine Partner bzw. keine Arbeitsgruppe findet nach selbständigen Suchen, ist bitte die Lehrkraft zu kontaktieren.",
     "crumbs": [
       "Prüfungen",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Gruppenarbeiten</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Gruppenarbeit</span>"
     ]
   },
   {
@@ -432,7 +454,7 @@
     "href": "Hinweise-Pruefung-Prognosewettbewerb-frame.html#sec-pruefungsmaterial",
     "title": "9  Prognosewettbewerb",
     "section": "9.4 Prüfungsmaterial",
-    "text": "9.4 Prüfungsmaterial\n\n9.4.1 Welches Prüfungsmaterial gibt es?\nEs werden Ihnen im Rahmen der Prüfung drei (Text-)Dateien bereitgestellt:\n\nTrainings-Datensatz\nTest-Datensatz\nData Dictionary\n\nBeachten Sie, dass der Zugriff zum Prüfungsmaterial eingeschränkt sein kann (z.B. nur während der Prüfungszeit, nur nach Bestätigung der Kenntnis der Prüfungsbedingungen, nur für angemeldete Studentis).\n\n\n9.4.2 Welche Variable ist vorherzusagen?\nWelche Variable vorherzusagen ist (die AV), steht im Data Dictionary.\n\n\n9.4.3 Wo finde ich das Prüfungsmaterial?\nAlles Prüfungsmaterial findet sich auf der Moodle-Seite des entsprechenden Moduls (unter Umständen werden Sie dann auf einen anderen Moodlekurs weitergeleitet, aber Sie finden den Zugang stets auf der Moodleseite des betreffenden Moduls).",
+    "text": "9.4 Prüfungsmaterial\n\n9.4.1 Welches Prüfungsmaterial gibt es?\nEs werden Ihnen im Rahmen der Prüfung drei (Text-)Dateien bereitgestellt:\n\nTrainings-Datensatz\nTest-Datensatz\nData Dictionary\n\nBeachten Sie, dass der Zugriff zum Prüfungsmaterial eingeschränkt sein kann (z.B. nur während der Prüfungszeit, nur nach Bestätigung der Kenntnis der Prüfungsbedingungen, nur für angemeldete Studentis).\n\n\n9.4.2 Welche Variable ist vorherzusagen?\nWelche Variable vorherzusagen ist (die AV), steht im Data Dictionary.\n\n\n9.4.3 Wo finde ich das Prüfungsmaterial?\nAlles Prüfungsmaterial findet sich auf der Moodle-Seite des entsprechenden Moduls (unter Umständen werden Sie dann auf einen anderen Moodlekurs weitergeleitet, aber Sie finden den Zugang stets auf der Moodleseite des betreffenden Moduls).\n\n\n9.4.4 Wo reiche ich meine Ergebnisse ein?\nSie finden auf der betreffenden Moodleseite einen Abschnitt mit Namen “Einreichen Ihrer Projektarbeit” (o. Ä.). Reichen Sie dort Ihre Projektarbeit ein.",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Prognosewettbewerb</span>"
@@ -487,7 +509,7 @@
     "href": "Hinweise-Pruefung-Prognosewettbewerb-frame.html#tipps",
     "title": "9  Prognosewettbewerb",
     "section": "9.9 Tipps",
-    "text": "9.9 Tipps\n\n9.9.1 Tipps für eine gute Prognose\n\nSchauen Sie in die Literatur.\nEvtl. kann eine Datenvorverarbeitung (Variablentransformation, z.B. \\(\\log()\\) oder die Elimination von Ausreißern) helfen.\nÜberlegen Sie sich Kriterien zur Modell- und/ oder Variablenauswahl. Auch hierfür gibt es Algorithmen und R-Funktionen.\nVermeiden Sie Über-Anpassung (Overfitting).\nVermeiden Sie viele fehlende Werte bei Ihrer Prognose. Fehlende Werte werden bei der Benotung mit dem Mittelwert (der vorhandenen Prognosewerte Ihrer Einreichung) aufgefüllt.\nArbeiten Sie die bereitgestellten Fallstudien durch. Wenn Sie mehr tun möchten, finden Sie im Internet eine Fülle von weiteren Fallstudien.\nIhren Datensatz wiederum in eine Train- und einen Test-Datensatz aufzuteilen, kann helfen, Overfitting zu vermeiden. Dazu berechnen Sie Ihr Modell in Ihrem Train-Datensatz und überprüfen die Modellgüte in Ihrem Test-Datensatz.\n\n\n\n9.9.2 Tipps zur Datenverarbeitung\n\nEin “deutsches” Excel kann Standard-CSV-Dateien nicht ohne Weiteres lesen. Online-Dienste wie Google Sheets können dies allerdings.\nZu Beginn des Skripts sollten alle verwendeten R-Pakete mittels library() gestartet werden.\nSie können die Daten von Ihrer Festplatte aus importieren (auch wenn das die Reproduzierbarkeit einschränkt).\n\n\n\n\n9.9.3 FAQ-Liste\n\nFrage: “Wieso haben Sie gesagt, meine Arbeit wurde nicht eingereicht. Ich habe doch eingereicht!”. – Antwort: Prüfen Sie, ob Sie die richtigen Dateien im richtigen Format eingereicht haben. Lesen Sie dazu auch die Hinweise oben.\nFrage: “Kann man durchfallen, wenn die CSV-Datei nicht richtig aufgebaut ist?” – Antwort: Ja, wenn die CSV-Datei mit der Prognose nicht richtig aufgebaut ist, führt das zum Nichtbestehen der Prüfung.\nFrage: “Ich habe statt einer CSV-Datei eine Excel-Datei mit den Prognosen eingereicht. Das ist doch auch okay, oder? – Antwort: Nein, eine Excel-Datei ist nicht zulässig.\nFrage: “Wie kann ich Ihre Korrektur einsehen? – Antwort: Die Korrektur ist die Angabe Ihrer Vorhersage- bzw. Modellgüte. Diese habe ich Ihnen mitgeteilt. Es steht Ihnen frei, diesen Kennwert nachzurechnen ggf. mich anzusprechen, falls Sie zu einem anderen Wert kommen.\nFrage: “Kann ich die Prüfung im Folgesemester wiederholen, wenn ich durchgefallen bin? – Antwort: Ja, das ist möglich. Lesen Sie dazu die Hinweise zu Wiederholungsprüfung.\nFrage: “Gibt es eine Musterlösung?” – Antwort: Die Fallstudien und Erläuterungen im Kursbuch bzw. aus dem Unterricht stellen alle Bestandteile bereit für eine sehr gute Note. Eine Musterlösung für die Fragestellung der Prüfung wird i.d.R. nicht veröffentlicht, da damit u.U. die Prüfungen in den Folgesemestern einfacher wären, als es für Sie der Fall war. Aber: Es gibt eine Liste mit Lieblingsfehlern, die typische Fehler und ihre Vermeidung/Lösung erläutert.",
+    "text": "9.9 Tipps\n\n9.9.1 Tipps für eine gute Prognose\n\nSchauen Sie in die Literatur.\nLesen Sie sich die Hinweise durch.\nStellen Sie sicher, dass Sie wissen, wo das Prüfungsmaterial bereitgestellt ist und schauen Sie es sich rechtzeitig an.\nEvtl. kann eine Datenvorverarbeitung (Variablentransformation, z.B. \\(\\log()\\) oder die Elimination von Ausreißern) helfen.\nÜberlegen Sie sich Kriterien zur Modell- und/ oder Variablenauswahl. Auch hierfür gibt es Algorithmen und R-Funktionen.\nVermeiden Sie Über-Anpassung (Overfitting).\nVermeiden Sie viele fehlende Werte bei Ihrer Prognose. Fehlende Werte werden bei der Benotung mit dem Mittelwert (der vorhandenen Prognosewerte Ihrer Einreichung) aufgefüllt.\nArbeiten Sie die bereitgestellten Fallstudien durch. Wenn Sie mehr tun möchten, finden Sie im Internet eine Fülle von weiteren Fallstudien.\nIhren Datensatz wiederum in eine Train- und einen Test-Datensatz aufzuteilen, kann helfen, Overfitting zu vermeiden. Dazu berechnen Sie Ihr Modell in Ihrem Train-Datensatz und überprüfen die Modellgüte in Ihrem Test-Datensatz.\n\n\n\n9.9.2 Tipps zur Datenverarbeitung\n\nEin “deutsches” Excel kann Standard-CSV-Dateien nicht ohne Weiteres lesen. Online-Dienste wie Google Sheets können dies allerdings.\nZu Beginn des Skripts sollten alle verwendeten R-Pakete mittels library() gestartet werden.\nSie können die Daten von Ihrer Festplatte aus importieren (auch wenn das die Reproduzierbarkeit einschränkt).\n\n\n\n\n9.9.3 FAQ-Liste\n\nFrage: “Wieso haben Sie gesagt, meine Arbeit wurde nicht eingereicht. Ich habe doch eingereicht!”. – Antwort: Prüfen Sie, ob Sie die richtigen Dateien im richtigen Format eingereicht haben. Lesen Sie dazu auch die Hinweise oben.\nFrage: “Kann man durchfallen, wenn die CSV-Datei nicht richtig aufgebaut ist?” – Antwort: Ja, wenn die CSV-Datei mit der Prognose nicht richtig aufgebaut ist, führt das zum Nichtbestehen der Prüfung.\nFrage: “Ich habe statt einer CSV-Datei eine Excel-Datei mit den Prognosen eingereicht. Das ist doch auch okay, oder? – Antwort: Nein, eine Excel-Datei ist nicht zulässig.\nFrage: “Wie kann ich Ihre Korrektur einsehen? – Antwort: Die Korrektur ist die Angabe Ihrer Vorhersage- bzw. Modellgüte. Diese habe ich Ihnen mitgeteilt. Es steht Ihnen frei, diesen Kennwert nachzurechnen ggf. mich anzusprechen, falls Sie zu einem anderen Wert kommen.\nFrage: “Kann ich die Prüfung im Folgesemester wiederholen, wenn ich durchgefallen bin? – Antwort: Ja, das ist möglich. Lesen Sie dazu die Hinweise zu Wiederholungsprüfung.\nFrage: “Gibt es eine Musterlösung?” – Antwort: Die Fallstudien und Erläuterungen im Kursbuch bzw. aus dem Unterricht stellen alle Bestandteile bereit für eine sehr gute Note. Eine Musterlösung für die Fragestellung der Prüfung wird i.d.R. nicht veröffentlicht, da damit u.U. die Prüfungen in den Folgesemestern einfacher wären, als es für Sie der Fall war. Aber: Es gibt eine Liste mit Lieblingsfehlern, die typische Fehler und ihre Vermeidung/Lösung erläutert.",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Prognosewettbewerb</span>"
