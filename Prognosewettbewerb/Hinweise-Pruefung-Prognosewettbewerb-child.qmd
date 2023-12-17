@@ -109,6 +109,7 @@ Für eine gute Prognose sollte daher $\text{MAE}_{\text{Test}}$ möglichst klein
 
 ## Prüfungsmaterial {#sec-pruefungsmaterial}
 
+### Welches Prüfungsmaterial gibt es?
 
 Es werden Ihnen im Rahmen der Prüfung drei (Text-)Dateien bereitgestellt:
 
@@ -118,14 +119,19 @@ Es werden Ihnen im Rahmen der Prüfung drei (Text-)Dateien bereitgestellt:
 
 Beachten Sie, dass der Zugriff zum Prüfungsmaterial eingeschränkt sein kann (z.B. nur während der Prüfungszeit, nur nach Bestätigung der Kenntnis der Prüfungsbedingungen, nur für angemeldete Studentis).
 
+### Welche Variable ist vorherzusagen?
+
 Welche Variable vorherzusagen ist (die AV), steht im Data Dictionary.
 
-Die Materialien (oder Hinweise zum Bezugsort) finden Sie im entsprechenden Moodlekurs.
+### Wo finde ich das Prüfungsmaterial?
+
+Alles Prüfungsmaterial findet sich auf der Moodle-Seite des entsprechenden Moduls (unter Umständen werden Sie dann auf einen anderen Moodlekurs weitergeleitet, aber Sie finden den Zugang stets auf der Moodleseite des betreffenden Moduls).
 
 
 ## Zeitplan
 
-Zu Beginn des offiziellen Prüfungszeitraums der Hochschule wird das [Prüfungsmaterial](#sec-pruefungsmaterial) veröffentlicht. Dann können Sie mit der Bearbeitung beginnen.
+Zu Beginn des offiziellen Prüfungszeitraums der Hochschule wird das [Prüfungsmaterial](#sec-pruefungsmaterial) veröffentlicht. 
+Dann können Sie mit der Bearbeitung beginnen.
 Die Abgabefrist der Projektarbeit endet zeitgleich mit dem Verstreichen des Prüfungszeitraums der Hochschule. 
 Während des Prüfungszeitraums haben Sie also Zeit, Ihre Projektarbeit (den Prognosewettbewerb) zu bearbeiten, s. @fig-zeitplan.
 
@@ -329,7 +335,7 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 <!-- - Zu Beginn des Skripts sollten die Daten von der vom Dozenten bereitgestellten URL importiert werden (*nicht* von der eigenen Festplatte, da das Skript sonst bei Dritten, wie Ihrem Prüfer, nicht lauffähig ist). -->
 
 
-### Beachten Sie die FAQ-Liste
+### FAQ-Liste
 
 - Frage: "Wieso haben Sie gesagt, meine *Arbeit wurde nicht eingereicht*. Ich habe doch eingereicht!". -- Antwort: Prüfen Sie, ob Sie die richtigen Dateien im richtigen Format eingereicht haben. Lesen Sie dazu auch die Hinweise oben.
 
