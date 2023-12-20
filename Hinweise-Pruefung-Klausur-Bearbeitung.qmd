@@ -162,8 +162,8 @@ In @tbl-pruef-csv sind alle Prüfungsdatensätze aufgelistet inkl. dem Bezugsort
 #| tbl-cap: Prüfungsdatensätze
 #| label: tbl-pruef-csv
 d_joint |> 
-  dplyr::select(id, Daten = csv_html, Codebook = doc_html) |> 
-  DT::datatable(escape = FALSE)
+  dplyr::select(id, Daten = csv_html, Codebook = doc_html, Package) |> 
+  DT::datatable(escape = FALSE,)
 ```
 
 
