@@ -8,8 +8,11 @@
 
 Das Prüfungsformat *Präsentation* ist eine Kombination aus 1) Vortragen und 2) Fragen beantworten.
 Gegenstand ist also ein wissenschaftlicher *Vortrag* zu Ihrer Seminar-/Projekt- oder Abschlussarbeit sowie eine sich anschließende wissenschaftliche *Aussprache.*
-Während der wisenschaftlichen Aussprache verteidigen Sie Ihre Arbeit gegenüber fachlicher Kritik.
+Während der wissenschaftlichen Aussprache verteidigen Sie Ihre Arbeit gegenüber fachlicher Kritik.
 Ziel ist, die Zuhörerschaft vom wissenschaftlichen Wert Ihrer Arbeit zu überzeugen.
+
+
+
 
 
 ## Teil 1: Vortragen
@@ -45,6 +48,8 @@ Die Dauer der wissenschaftlichen Aussprache beträgt *10-15 Minuten*, soweit nic
 
 
 
+
+
 ## Sonderform: Gruppenpräsentation
 
 
@@ -55,24 +60,44 @@ Bei Präsentationen im Rahmen einer Gruppenarbeit gelten einige spezielle Regelu
 - Die Beiträge der Gruppenmitglieder sollen die Teile widerspiegeln, die von der jeweiligen Person federführend bearbeitet wurden (im Rahmen der Projektarbeit).
 - Die Gruppenmitglieder präsentieren alle hintereinander, bevor es zur Aussprache kommt.
 - Beim Teil *Aussprache* werden alle Aspekte der Präsentation angesprochen.
-- Die Studierenden sollen als Arbeitgsruppe (insgesamt) ein einziges Präsentationsdokument (der Lehrkraft) bereitstellen, so dass Unterbrechungen aus technischen Gründen minimiert werden.
+- Die Studierenden sollen als Arbeitsgruppe (insgesamt) ein einziges Präsentationsdokument (der Lehrkraft) bereitstellen, so dass Unterbrechungen aus technischen Gründen minimiert werden.
+
+
+
+## Ablauf
+
+
+### Dauer
+
+Pro Präsentation sind ca. 45 Minuten angesetzt. Diese Zeit setzt sich zusammen aus Vortrag plus Diskussion plus Feedback plus Pause bzw. Umbau für die nächste Präsentation.
+
+
+### Reihenfolge der Präsentationen
+
+In der Regel präsentieren mehrere Studierende, so dass sich die Frage nach der Reihenfolge der Präsentationen stellt.
+Aus Gründen der Fairness und Einfachheit bestimmt der Dozent die Reihenfolge der Präsentationen *zufällig*.
+
+Den Studierenden steht es frei, ihre Position untereinander zu tauschen, sofern die Beteiligten alle zustimmen. 
 
 
 
 
 
-## Weitere Hinweise
+
+### Zur Durchführung Ihrer Präsentation
 
 
-In der Regel wird Sie die Lehrkraft bei Ihrer Präsentation nicht unterbrechen, damit Sie störungsfrei Ihre Argumente entwickeln können.
+In der Regel wird Sie die Lehrkraft bei Ihrer Präsentation *nicht unterbrechen*, damit Sie störungsfrei Ihre Argumente entwickeln können.
 Nur in Ausnahmefällen wird sich die Lehrkraft dennoch zu Wort melden; dies hat dann immer den Hintergrund, Sie auf den richtigen Weg zurückzuführen, ist also stets konstruktiv gemeint.
 Bitte verstehen Sie diese Maßnahmen vor der - in Anbetracht der Fülle des zu präsentierenden Materials - knappen Redezeit. Falls die Lehrkraft das Gefühl hat, dass Sie die wertvolle (da knappe) Zeit mit Unwesentlichem füllen, kann sie sich entscheiden, Sie mit einem entsprechenden Hinweis zu den wichtigeren Themen zurückführen. Bedenken Sie, dass es nachteilig für Ihren Vortrag ist, zentrale Punkte außen vor gelassen zu haben.
-Verstehen Sie also Unterbrechungen des Dozenten als Hilfestellung; sie sind immer konstruktiv und als Unterstützung gemeint.
+Verstehen Sie also Unterbrechungen durch den Dozenten als Hilfestellung; sie sind immer konstruktiv und als Unterstützung gemeint.
 
-Die Lehrkraft wird sich während Ihres Vortrags Notizen machen. Das kann dazu führen, dass die Lehrkraft Ihrem Vortrag nicht mit den Augen folgt. Natürlich muss die Lehrkraft aber Ihrem Vortrag die ganze Zeit mit voller Aufmerksamkeit beiwohnen. Werten Sie das Notizen machen also bitte nicht als Unhöflichkeit, sondern als Bringschuld zur Dokumentations- und Sorgfaltspflicht der Lehrkraft.
+Die Lehrkraft wird sich während Ihres Vortrags *Notizen* machen. Das kann dazu führen, dass die Lehrkraft Ihrem Vortrag nicht mit den Augen folgt. Natürlich muss die Lehrkraft aber Ihrem Vortrag die ganze Zeit mit voller Aufmerksamkeit beiwohnen. Werten Sie das Notizen machen also bitte nicht als Unhöflichkeit, sondern als Bringschuld zur Dokumentations- und Sorgfaltspflicht der Lehrkraft.
 
 Ein Computer (mit USB-Anschluss) sowie ein Beamer werden zur Verfügung gestellt. 
-Den Studierenden steht es frei, einen eigenen Computer zu verwenden.
+Den Studierenden steht es frei, einen eigenen Computer zu verwenden. Achten Sie in diesem Fall selbständig auf die Einsetzbarkeit. Es empfiehlt sich z.B. im Vorfeld die Technik zu überprüfen (z.B. HDMI-Anschluss? Ton-Anlage? Stromanschluss? WLAN?)
+
+
 
 
 
