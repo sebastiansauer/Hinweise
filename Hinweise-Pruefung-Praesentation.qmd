@@ -29,7 +29,7 @@ Ein bewährtes Vorgehen ist es, den Vortrag analog zur Gliederung Ihrer wissensc
 
 ### Formalia
 
-Die Dauer des Vortrags beträgt ca. *10 Minuten*, soweit nicht anders vom Dozenten angegeben.
+Die Dauer des Vortrags beträgt *10 Minuten*, soweit nicht anders vom Dozenten angegeben.
 
 Die Prüfung kann in der Regel *nur in Präsenz* abgelegt werden aus Gründen der Vergleichbarkeit der Prüfungsbedingungen.
 
@@ -78,7 +78,7 @@ In der Regel präsentieren mehrere Studierende, so dass sich die Frage nach der 
 Aus Gründen der Fairness und Einfachheit bestimmt der Dozent die Reihenfolge der Präsentationen *zufällig*.
 
 :::callout-note
-Die Zufallsreihenfolge aller angemeldeten Prüflinge bestimmt der Dozent durch die R-Funktion `sample`, wobei als Startwert das Datum des (ersten) Prüfungstags herangezogen wird^[Im Format ISO 8601, z.B. "20240126"]. $\square$
+Die Zufallsreihenfolge aller angemeldeten Prüflinge bestimmt der Dozent durch die R-Funktion `sample`, wobei als Startwert das Datum des (ersten) Prüfungstags herangezogen wird^[Im Format ISO 8601, z.B. "20240116"]. $\square$
 :::
 
 Den Studierenden steht es frei, ihre Position untereinander zu tauschen, sofern die Beteiligten alle zustimmen. 
@@ -108,6 +108,9 @@ Den Studierenden steht es frei, einen eigenen Computer zu verwenden. Achten Sie 
 Es wird erwartet, dass alle Prüflinge den gesamten Prüfungstag aufmerksam bei allen Präsentationen anwesend sind.
 
 Bitte beachten Sie, dass aktive Anwesenheit über den ganzen Prüfungstag insofern Teil der Prüfungsleistung ist, als dass die aktive Anwesenheit notwendiger Teil zum Ablegen der Prüfung ist.
+
+Bitte halten Sie Ihr Zeitfenster (Beginn und Ende) ein.
+
 
 
 
