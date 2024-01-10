@@ -53,9 +53,18 @@ library(tidyverse)
     
 3.  Nutzen Sie die Software *Stan* in Form des R-Pakets `rstanarm` für Regressionsmodelle auf Basis der Bayes-Methode.
 4.  Verwenden Sie immer folgenden *Seed-Wert* bei `stan_glm()`: `42`. Dazu setzen Sie folgenden Parameter `seed = 42` (innerhalb von `stan_glm())`.
-2.  Der *Toleranzbereich* einer Lösung liegt bei 3% des Wertes der Musterlösung (sofern nicht anders bei der jeweiligen Aufgabe angegeben). Toleranzbereiche werden verwendet für Aufgaben mit Zufallszahlen: Lösungen solcher Aufgaben können schwanken. Wenn Sie allerdings den angegebenen Seed-Wert gesetzt haben, so sollte Ihre (korrekte) Lösung exakt der Musterlösung entsprechen. Beispiele: 
-    - Der Wert laut Musterlösung liegt bei 100; dann erstreckt sich der Toleranzbereich von 93 bis 103. 
-    - Der Wert laut Musterlösung liegt bei .05; dann erstreckt sich der Toleranzbereich um ±0.0015 Punkte um 0.05.
+5. Es gibt einen *Toleranzbereich* für Lösungen bei Aufgaben, die Zufallszahlen bei der Berechnung verwenden.  Toleranzbereiche werden verwendet für Aufgaben mit Zufallszahlen: Lösungen solcher Aufgaben können schwanken (trotz gesetztem Seed). Dabei muss man unterscheiden zwischen Lösungen in Form eines Anteils (Wertebereich: 0-1 ) und sonstigen Aufgaben mit numerischer Lösung, wie Regressionsmodelllen (unbegrenztem Werbereich: $-\infty$ bis $+\infty$). 
+
+  a) Lösungen mit Wertebereich 0-1: Toleranzbereich von 5 Prozentpunkten
+  b) Lösungen mit unbegrenztem Wertebereich:
+    - *relativer* Toleranzbereich: ±5% des Werts der Musterlösung
+    - *absoluter* Toleranzbereich: 5% der SD der Outcome-Variablen (bei Regressionsmodellen)
+  
+  *Beispiele*: 
+  
+  - Der Wert laut Musterlösung liegt bei 100 (unbegrenzter Wertbereich); dann erstreckt sich der Toleranzbereich von 95 bis 105. 
+  - Der Wert laut Musterlösung liegt bei .05 (unbegrenzter Wertbereich); dann erstreckt sich der Toleranzbereich um ±0.0025 Punkte um 0.05.
+  - Der Wert laut Musterlösung liegt bei .42 (Anteil); dann erstreckt sich der Toleranzbereich um ±5 Prozentpunkte um 0.42, also von .37 bis .47 (einschließlich).
 
 
 

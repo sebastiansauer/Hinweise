@@ -48,9 +48,18 @@ Die Dauer der wissenschaftlichen Aussprache beträgt *10-15 Minuten*, soweit nic
 
 
 
+## Spezialfälle
+
+### Spezialfall Bachelor-Kolloquium
 
 
-## Sonderform: Gruppenpräsentation
+Das Bachelor-Kolloquium als Prüfungsleistung im Modul *Bachelorseminar* dient als wissenschaftliche Aussprache zu einer zentralen akademischen Qualifikationsleistung, der Thesis.
+
+
+
+
+
+### Spezialfall Gruppenpräsentation
 
 
 Bei Präsentationen im Rahmen einer Gruppenarbeit gelten einige spezielle Regelungen:
