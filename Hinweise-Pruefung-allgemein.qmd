@@ -53,7 +53,8 @@ Die Änderungen am Skript sind, sofern es um ein Skript handelt, das auf Github 
 3. Beachten Sie immer die *Hinweise*, die für die Wiederholungsprüfung angegeben sind. Im Einzelfall keine eine Wiederholungsprüfung von der vorherigen Prüfung stärker abweichen. Es gelten immer die Regeln, die dis Dozenti bei der jeweiligen Wiederholungsprüfung veröffentlicht hat.
 4. In der Regel werden alle weiteren *Hinweise* (wie z.B. die Themenvergabe) im *gleichen* *Moodlekurs* veröffentlich, in dessen Rahmen auch die ursprüngliche Prüfung ablief.
 2.  Wird ein *Modul im laufenden Semester* angeboten, so gibt es keine Wiederholungsprüfung. Stattdessen können Sie ggf. an der regulären Klausur des Moduls teilnehmen. Es gilt der aktuelle Stoff bzw. die aktuellen formalen Bedingungen. Es ist möglich, dass der Stoff sich dann substanziell ändert; meist halten sich die Änderungen (im Stoff) aber in Rahmen.
-3. Wird ein Modul im laufenden Semester nicht angeboten, gibt es eine *Wiederholungsprüfung.* 
+5. Bitte beachten Sie, dass die meisten *Module nur ein Mal pro Jahr angeboten* werden (also entweder im Sommer- oder im Wintersemester, aber nicht beides. Eine Ausnahme ist das Bachelormodul, das jedes Semester angeboten wird).
+3. Wird ein Modul im laufenden Semester nicht angeboten, gibt es eine *Wiederholungsprüfung*. 
 2.  Sprechen Sie die *Moduldozentis an für Details zur Prüfung* (bzw. lesen Sie vorab auf jeweiligen Modulseite in Moodle nach).
 2.  Manchmal fragen Studentis nach einer *Empfehlung*, ob es besser ist, eine Prüfung zu verschieben, wenn man sich nicht ausreichend vorbereiten konnte. Es ist schwer, eine Empfehlung pauschal abzugeben; es kommt auf den Einzelfall an. Grundsätzlich rate ich aber dazu, *Prüfungen nicht zu verschieben*: Schließlich könnte in einem folgenden Semester wieder ein unvorhergesehenes Problem auftreten. Und was man erledigt hat, hat man erledigt :-)
 2.  Bei Fragen zum *Prüfungsrecht* sprechen Sie bitte die *Studienberatung* an.

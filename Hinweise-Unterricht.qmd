@@ -32,13 +32,14 @@
 - Es kann sinnvoll sein, sich während der Vorlesung *Notizen* zu den Erläuterungen des Dozenten zu machen.
 - Beachten Sie die Hinweise der Hochschule (s. Moodle) wie die Orientierungshilfe, die Klausur- und *Studiengangsordnungen*. Dort finden Sie verbindliche Hinweise zu vielen organisatorischen Fragen.
 - Es können sich *Aktualisierungen* des Unterrichtsmaterials ergeben. Bitte prüfen Sie regelmäßig, ob neues Material eingestellt ist. Nachdem der Unterricht stattgefunden hat, wird das Material aber nicht mehr geändert, so dass Sie Sicherheit für das Lernen haben.
+- Bitte beachten Sie, dass die meisten Module nur ein Mal pro Jahr angeboten werden (also entweder im Sommer- oder im Wintersemester, aber nicht beides. Eine Ausnahme ist das Bachelormodul, das jedes Semester angeboten wird).
 
 
 ## Präsenzunterricht
 
-- Beachten Sie aktuell geltenden Hygienevorschriften.
-- Bitte meiden Sie datenhungrige Applikationen wie das Streamen von Filmen – Sie behindern den Unterricht und verärgern damit andere Studierende (in diesem oder anderen Kursen).
-- Bitte bringen Sie einen Computer (mit Internetanschluss) in alle Präsenztermine mit. Bringen Sie ggf. Ersatzbatterien und/oder Verlängerungskabel mit - leider sind nicht überall ausreichend Steckdosen vorhanden.
+- Beachten Sie aktuell geltenden *Hygienevorschriften*.
+- Bitte *meiden* Sie datenhungrige Applikationen wie das *Streamen* von Filmen – Sie behindern den Unterricht durch Verstopfen der Datenautobahn.
+
 
 
 ## Rechtliche Hinweise
@@ -51,7 +52,7 @@
 
 ## Datenschutz 
 
-- Einige Teile des Unterrichts werden u.U. aufgenommen. 
+- Einige Teile des Unterrichts werden u.U. *aufgenommen.* 
 - Die Aufnahme erfolgt nur nach vorheriger Information durch den Dozenten. 
 - Bei den Bild-Aufnahmen wird nur der Bildschirm des Dozenten aufgenommen; außerdem wird der Ton aufgenommen. 
 - Bitte verzichten Sie daher während der Aufnahme auf Zoom-Reaktionen wie Hand heben, da diese u.U. mit Ihrem Namen auf dem Bildschirm des Dozenten und damit auf der Aufnahme zu sehen sind. 
@@ -83,19 +84,19 @@
 
 - Stellen Sie sicher, dass Sie die jeweils aktuelle Version für die in diesem Kurs verwendete Software verwenden (z.B. bei Zoom gibt es viele Aktualisierungen).
 - Updaten Sie ggf. R, RStudio und Ihre R-Pakete.
-- [Bereiten Sie bitte R und seine Freunden vor ](https://data-se.netlify.app/2021/11/30/installation-von-r-und-seiner-freunde/) vor der ersten Unterrichtsstunde. Sie können entweder R auf Ihrem Computer installieren oder den Cloud-Dienst *RStudio Cloud* nutzen. 
-- Bitte beachten Sie die Installationshinweise für Software und stellen Sie sicher, dass die Software vor Beginn des ersten Termins einsatzbereit ist.
+- [Bereiten Sie bitte R und seine Freunden vor ](https://data-se.netlify.app/2021/11/30/installation-von-r-und-seiner-freunde/) vor der ersten Unterrichtsstunde. Sie können entweder R auf Ihrem Computer installieren oder den Cloud-Dienst [RStudio Cloud](https://posit.cloud/) nutzen. 
+- Bitte beachten Sie die Installationshinweise für Software im Skript und stellen Sie sicher, dass die Software vor *Beginn des ersten Termins einsatzbereit* ist.
 
 
 
 ## Ich brauche Hilfe. Was soll ich tun?
 
-- Versuchen Sie erst selber, das Problem zu lösen. Manchmal hilft etwas Abstand (Pause, drüber schlafen), um ein Problem klarer zu sehen (oder es als nicht mehr so wichtig zu sehen).
-- Fragen Sie Kommilitonis.
-- Recherchen Sie (online) nach einer Lösung.
-- Posten Sie das Problem im Forum oder einem Online-Forum. Wichtig: Stellen Sie Ihrem Post ein [Erbie](https://data-se.netlify.app/2022/01/31/erbie-einfache-reproduzierbare-beispiele-ihres-problems-mit-r-syntax/) bei.
-- Besuchen Sie die Sprechstunde des Dozenten.
-- Schreiben Sie möglichst keine Email, sondern posten Sie Ihre Frage im Forum o.Ä., da die meisten Fragen für Ihre Kommilitonis auch nützlich sein können (eine Ausnahme sind natürlich individuelle, persönliche Angelegenheiten, die nicht den Stoff betreffen).
+- Versuchen Sie erst selber, das Problem zu lösen. Manchmal hilft etwas *Abstand* (Pause, drüber schlafen), um ein Problem klarer zu sehen (oder es als nicht mehr so wichtig zu sehen).
+- Fragen Sie *Kommilitonis.*
+- *Recherchen* Sie (online) nach einer Lösung.
+- *Posten* Sie das Problem im Forum oder einem Online-Forum. Wichtig: Stellen Sie Ihrem Post ein [Erbie](https://data-se.netlify.app/2022/01/31/erbie-einfache-reproduzierbare-beispiele-ihres-problems-mit-r-syntax/) bei.
+- Besuchen Sie die *Sprechstunde* des Dozenten.
+- Schreiben Sie möglichst keine Email, sondern posten Sie Ihre Frage im *Forum* o.Ä., da die meisten Fragen für Ihre Kommilitonis auch nützlich sein können (eine Ausnahme sind natürlich individuelle, persönliche Angelegenheiten, die nicht den Stoff betreffen).
 
 
 
@@ -137,20 +138,20 @@ In diesem Fall gelten folgende Hinweise:
 
 ## Umgangsformen
 
-- Freundlicher Umgang miteinander ist selbstverständlich.
-- Selbstverständlich sind auch die grundlegenden Formen der höflichen Miteinanders (Begrüßung, Ansprache mit Namen, bitte/danke sagen, Pünktlichkeit, Verbindlichkeit, ...).
+- *Freundlicher* Umgang miteinander ist selbstverständlich.
+- Selbstverständlich sind auch die grundlegenden *Formen* der höflichen *Miteinanders* (Begrüßung, Ansprache mit Namen, bitte/danke sagen, Pünktlichkeit, Verbindlichkeit, ...).
 - Bei Nichtwissen oder einem inhaltlichen Fehler wird niemand bloßgestellt oder lächerlich gemacht.
-- Um eine Wortmeldung in einer Videokonferenz anzuzeigen, bietet sich die Funktion des Handhebens an.
+- Um eine Wortmeldung in einer Videokonferenz anzuzeigen, bietet sich die Funktion des *Handhebens* an.
 - In Breakout-Sessions (in Zoom) sollte aktiv mitgearbeitet werden, wer das nicht möchte, betritt den Breakout-Room nicht.
-- Spricht man eine Person in einer Videokonferenz an, sollte die Kamera angeschaltet sein.
+- Spricht man eine Person in einer Videokonferenz an, sollte die *Kamera angeschaltet* sein.
 
 
 ## Wenn der Unterricht ausfällt
 
-- Im Krankheitsfall werden Sie möglichst frühzeitig informiert (via Moodle); das kann bedeuten, dass Sie am Morgen eine Nachricht bekommen, dass der Unterricht des jeweiligen Tages ausfällt.
-- Leider muss der Unterricht in einigen Fällen aufgrund anderer Dienstverpflichtungen des Dozenten entfallen; ein Beispiel sind Berufungskomissionen (Auswahlgespräche für neu einzustellende Professor:innen).
-- Aufgrund gesetzlicher Feiertage sowie hochschulweit geltenden lehrfreien Tagen fallen jedes Semester einige Tage für den Unterricht aus. Bitte informieren Sie sich auf der zentralen Hochschulseite dazu.
-- Falls der Unterricht ausfällt, heißt das *nicht*, dass der für die jeweilige Woche geplante Stoff obsolet ist. Viel mehr ist Ihre Pflicht, den Stoff selbständig zu erarbeiten. Natürlich können Sie bei Fragen jederzeit Ihren Dozenten kontaktieren.
+- Im *Krankheitsfall* werden Sie möglichst frühzeitig informiert (via Moodle); das kann bedeuten, dass Sie am Morgen eine Nachricht bekommen, dass der Unterricht des jeweiligen Tages ausfällt.
+- Leider muss der Unterricht in einigen Fällen aufgrund anderer *Dienstverpflichtungen* des Dozenten entfallen; ein Beispiel sind Berufungskomissionen (Auswahlgespräche für neu einzustellende Professor:innen).
+- Aufgrund gesetzlicher *Feiertage* sowie hochschulweit geltenden lehrfreien Tagen fallen jedes Semester einige Tage für den Unterricht aus. Bitte informieren Sie sich auf der zentralen Hochschulseite dazu.
+- Falls der Unterricht ausfällt, heißt das *nicht*, dass der für die jeweilige Woche geplante Stoff obsolet ist. Viel mehr ist Ihre Pflicht, den Stoff *selbständig* zu erarbeiten. Natürlich können Sie bei Fragen jederzeit Ihren Dozenten kontaktieren.
 
 
 ## Salvatorische Klausel
