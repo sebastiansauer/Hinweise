@@ -26,7 +26,7 @@ Mit Hilfe Ihrer Analyse können Sie diese Frage (und andere) beantworten.
 Natürlich könnten Sie es sich leicht machen und antworten: 
 "Mei, der Notendurchschnitt war beim letzten Mal 2.7.
 Also ist 2.7 kein ganz doofer Tipp für deine Note." 
-Ja, das ist keine doofe Antwort, aber man genauere Prognose machen, 
+Ja, das ist keine doofe Antwort, aber man kann genauere Prognose machen, 
 wenn man es geschickt anstellt. 
 Da hilft Ihnen die Statistik (doch, wirklich). 
 
@@ -56,42 +56,40 @@ d.h. inklusive des für diese Kunden bekannten Kundenwertes.
 Ihnen werden *zwei Teildatenmengen* zur Verfügung gestellt: 
 Zum einen gibt es die Trainingsdaten (auch *Lerndaten* genannt) und zum anderen gibt es Anwendungsdaten (auch *Testdaten* genannt), auf die man das Modell anwendet. 
 
-1.  Bei den Trainingsdaten (Train-Sample) liegen sowohl die erklärenden Variablen ${\bf{x}} = (x_1, x_2, \ldots, x_n)$ als auch die Zielvariable $y$ vor. 
-   Auf diesen Trainingsdaten wird das Modell $y=f({x})+\epsilon = f(x_1, x_2, \ldots, x_n)+\epsilon$ gebildet und durch $\hat{f}(\cdot)$ geschätzt. Es ist also die Variable $y$ vorherzusagen.
+1.  Bei den Trainingsdaten (Train-Sample) liegen sowohl die erklärenden Variablen (Prädiktoren, UV) als auch die Zielvariable $y$ vor. 
+   Auf diesen Trainingsdaten wird ein Modell der Form `y ~ x1 + x2 + ...` berechnet. 
 
-2.  Dieses geschätzte Modell ($\hat{f}(\cdot)$) wird auf die Anwendungsdaten $x_0$, für die (Ihnen) die Werte der Zielvariable $y$ unbekannt sind,
-angewendet, d.h., es wird $\hat{y}_0 :=\hat{f}({x}_0)$ berechnet. 
-  Der unbekannte Wert $y_0$ der Zielvariable $y$ wird durch $\hat{y}_0$ prognostiziert.
+2.  Dieses  Modell  wird auf den Testdatensatz, für den (Ihnen) die Werte der Zielvariable $y$ unbekannt sind,
+angewendet. Der unbekannte Wert der Zielvariable $y$ im Testdatensatz wird durch durch Ihr Modell, das mit den Prädiktoren des Testdatensatzes gefürttert wird, prognostiziert.
 
-Liegt zu einem noch späteren Zeitpunkt der eingetroffene Wert $y_0$ der Zielvariable $y$ vor, 
-so  kann die eigene Vorhersage $\hat{y}_0$ evaluiert werden, 
-d.h. z.B. kann der Fehler $e=y_0-\hat{y}_0$ zwischen prognostiziertem Wert $\hat{y}_0$ und wahrem Wert $y_0$ analysiert werden.
+3. Liegt zu einem noch späteren Zeitpunkt der echte Wert $y$ vor, 
+so  kann die eigene Vorhersage auf ihre Genauigkeit hin evaluiert werden. Diesen Schritt erledigt die Lehrkraft für Sie.
 
-In der praktischen Anwendung können zeitlich drei aufeinanderfolgende Schritte unterschieden werden (vergleiche oben): 
+<!-- In der praktischen Anwendung können zeitlich drei aufeinanderfolgende Schritte unterschieden werden (vergleiche oben):  -->
 
-1. die *Trainingsphase*, d.h., die Phase für die sowohl erklärende ($x$) als auch die erklärte Variable ($y$) bekannt sind. 
-Hier wird das Modell geschätzt (gelernt): $\hat{f}(x)$. Dafür wird der Trainingsdatensatz genutzt.
+<!-- 1. die *Trainingsphase*, d.h., die Phase für die sowohl erklärende ($x$) als auch die erklärte Variable ($y$) bekannt sind.  -->
+<!-- Hier wird das Modell geschätzt (gelernt). Dafür wird der Trainingsdatensatz genutzt. -->
 
-2. In der folgenden *Anwendungsphase* sind nur die erklärenden Variablen ($x_0$) bekannt, nicht $y_0$. 
-Auf Basis der Ergebnisses aus dem 1. Schritt wird $\hat{y}_0 :=\hat{f}({\bf{x}}_0)$ prognostiziert.
+<!-- 2. In der folgenden *Anwendungsphase* sind nur die erklärenden Variablen ($x_0$) bekannt, aber nicht $y_0$.  -->
+<!-- Auf Basis der Ergebnisses aus dem 1. Schritt wird $\hat{y}_0 :=\hat{f}({\bf{x}}_0)$ prognostiziert. -->
 
-3. Evt. gibt es später noch die *Evaluierungsphase*, für die dann auch die Zielvariable ($y_0$) bekannt ist, so dass die Vorhersagegüte des Modells überprüft werden kann.
+<!-- 3. Evtl. gibt es später noch die *Evaluierungsphase*, für die dann auch die Zielvariable ($y_0$) bekannt ist, so dass die Vorhersagegüte des Modells überprüft werden kann. -->
 
 
-Im Computer kann man dieses Anwendungsszenario *simulieren*: 
-man teilt die Datenmenge *zufällig* in eine Lern- bzw. Trainingsstichprobe (Trainingsdaten; $(x,y)$) und eine Teststichprobe (Anwendungsdaten,  $(x_0)$) auf: 
-Die Modellierung erfolgt auf den Trainingsdaten.
-Das Modell wird angewendet auf die Testdaten (Anwendungsdaten).
-Da man hier aber auch die Zielvariable ($y_0$) kennt, kann damit das Modell evaluiert werden.
+<!-- Im Computer kann man dieses Anwendungsszenario *simulieren*:  -->
+<!-- man teilt die Datenmenge *zufällig* in eine Lern- bzw. Trainingsstichprobe (Trainingsdaten; $(x,y)$) und eine Teststichprobe (Anwendungsdaten,  $(x_0)$) auf:  -->
+<!-- Die Modellierung erfolgt auf den Trainingsdaten. -->
+<!-- Das Modell wird angewendet auf die Testdaten (Anwendungsdaten). -->
+<!-- Da man hier aber auch die Zielvariable ($y_0$) kennt, kann damit das Modell evaluiert werden. -->
 
 
 ## Hauptziel: Genaue Prognose
 
 Ihre Aufgabe ist: Spielen Sie den Data-Scientist! 
-Konstruieren Sie ein Modell auf Basis der Trainingsdaten $(x,y$) 
-und sagen Sie für die Testdaten ($x_0$) die Zielvariable möglichst genau voraus ($\hat{y}_0$). 
+Konstruieren Sie ein Modell auf Basis der Trainingsdaten
+und sagen Sie für die Testdaten die Zielvariable möglichst genau voraus.
 
-Ihr(e) Dozent\*in kennt den Wert der Zielvariable ($y_0$). Sie nicht.
+Ihr(e) Dozent\*in kennt den Wert der Zielvariable. Sie nicht. 🤷‍♂️ 
 
 
 
@@ -109,8 +107,9 @@ Für eine gute Prognose sollte daher $\text{MAE}_{\text{Test}}$ möglichst klein
 
 
 
-## Prüfungsmaterial
+## Prüfungsmaterial {#sec-pruefungsmaterial}
 
+### Welches Prüfungsmaterial gibt es?
 
 Es werden Ihnen im Rahmen der Prüfung drei (Text-)Dateien bereitgestellt:
 
@@ -120,10 +119,27 @@ Es werden Ihnen im Rahmen der Prüfung drei (Text-)Dateien bereitgestellt:
 
 Beachten Sie, dass der Zugriff zum Prüfungsmaterial eingeschränkt sein kann (z.B. nur während der Prüfungszeit, nur nach Bestätigung der Kenntnis der Prüfungsbedingungen, nur für angemeldete Studentis).
 
+### Welche Variable ist vorherzusagen?
+
 Welche Variable vorherzusagen ist (die AV), steht im Data Dictionary.
 
-Die Materialien (oder Hinweise zum Bezugsort) finden Sie im entsprechenden Moodlekurs.
+### Wo finde ich das Prüfungsmaterial?
 
+Alles Prüfungsmaterial findet sich auf der Moodle-Seite des entsprechenden Moduls (unter Umständen werden Sie dann auf einen anderen Moodlekurs weitergeleitet, aber Sie finden den Zugang stets auf der Moodleseite des betreffenden Moduls).
+
+### Wo reiche ich meine Ergebnisse ein?
+
+Sie finden auf der betreffenden Moodleseite einen Abschnitt mit Namen "Einreichen Ihrer Projektarbeit" (o. Ä.). Reichen Sie dort Ihre Projektarbeit ein.
+
+## Zeitplan
+
+Zu Beginn des offiziellen Prüfungszeitraums der Hochschule wird das [Prüfungsmaterial](#sec-pruefungsmaterial) veröffentlicht. 
+Dann können Sie mit der Bearbeitung beginnen.
+Die Abgabefrist der Projektarbeit endet zeitgleich mit dem Verstreichen des Prüfungszeitraums der Hochschule. 
+Während des Prüfungszeitraums haben Sie also Zeit, Ihre Projektarbeit (den Prognosewettbewerb) zu bearbeiten, s. @fig-zeitplan.
+
+
+![Zeitplan der Bearbeitung des Prognosewettbewerbs](img/Zeitplanung-Prognosewettbewerb.png){#fig-zeitplan width=67%}
 
 
 ## Einzureichende Dateien
@@ -297,6 +313,10 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 
 - Schauen Sie in die Literatur.
 
+- Lesen Sie sich die Hinweise durch.
+
+- Stellen Sie sicher, dass Sie wissen, wo das Prüfungsmaterial bereitgestellt ist und schauen Sie es sich rechtzeitig an.
+
 - Evtl. kann eine Datenvorverarbeitung (Variablentransformation, z.B. $\log()$ oder die Elimination von Ausreißern) helfen.
 
 - Überlegen Sie sich Kriterien zur Modell- und/ oder Variablenauswahl. Auch hierfür gibt es Algorithmen und R-Funktionen.
@@ -307,21 +327,22 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 
 - Arbeiten Sie die bereitgestellten Fallstudien durch. Wenn Sie mehr tun möchten, finden Sie im Internet eine Fülle von weiteren Fallstudien.
 
+- Ihren Datensatz wiederum in eine Train- und einen Test-Datensatz aufzuteilen, kann helfen, Overfitting zu vermeiden. Dazu berechnen Sie Ihr Modell in Ihrem Train-Datensatz und überprüfen die Modellgüte in Ihrem Test-Datensatz.
 
 
 ### Tipps zur Datenverarbeitung
 
 - Ein "deutsches" Excel kann Standard-CSV-Dateien nicht ohne Weiteres lesen. Online-Dienste wie Google Sheets können dies allerdings.
 
-
-### Tipps zum Aufbau des Analyseskripts
-
 - Zu Beginn des Skripts sollten alle verwendeten R-Pakete mittels `library()` gestartet werden.
+
+- Sie können die Daten von Ihrer Festplatte aus importieren (auch wenn das die Reproduzierbarkeit einschränkt).
+
 
 <!-- - Zu Beginn des Skripts sollten die Daten von der vom Dozenten bereitgestellten URL importiert werden (*nicht* von der eigenen Festplatte, da das Skript sonst bei Dritten, wie Ihrem Prüfer, nicht lauffähig ist). -->
 
 
-### Beachten Sie die FAQ-Liste
+### FAQ-Liste
 
 - Frage: "Wieso haben Sie gesagt, meine *Arbeit wurde nicht eingereicht*. Ich habe doch eingereicht!". -- Antwort: Prüfen Sie, ob Sie die richtigen Dateien im richtigen Format eingereicht haben. Lesen Sie dazu auch die Hinweise oben.
 
@@ -350,16 +371,11 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
   
   - *Inhalt*: **Vorhersagegüte**.
 
-- Das zentrale Bewertungskriterium ist *Inhalt*; die übrigen beiden Kriterien fließen nur bei besonders guter oder schlechter Leistung in die Gesamtnote ein.
-
-
-- Die Gesamtnote muss sich nicht als arithmetischer Mittelwert der Teilnoten ergeben.
-
-- Es werden keine Teilnoten vergeben, sondern nur eine Gesamtnote wird vergeben.
-
-- Es werden keine Hinweise vergeben, stattdessen gibt es einen Überblick an typischen Fehlern.
-
-- Es wird i.d.R. keine Musterlösung veröffentlicht, um  nachfolgende Kohorten nicht zu bevorteilen bzw. die aktuelle Kohorte nicht zu benachteiligen.
+ Das zentrale Bewertungskriterium ist *Inhalt*; die übrigen beiden Kriterien fließen nur bei besonders guter oder schlechter Leistung in die Gesamtnote ein.
+Die Gesamtnote muss sich nicht als arithmetischer Mittelwert der Teilnoten ergeben.
+Es werden keine Teilnoten vergeben, sondern nur eine Gesamtnote wird vergeben.
+Es werden keine Hinweise vergeben, stattdessen gibt es einen Überblick an typischen Fehlern.
+Es wird i.d.R. keine Musterlösung veröffentlicht, um  nachfolgende Kohorten nicht zu bevorteilen bzw. die aktuelle Kohorte nicht zu benachteiligen.
 
 
 

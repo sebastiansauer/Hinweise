@@ -53,9 +53,18 @@ library(tidyverse)
     
 3.  Nutzen Sie die Software *Stan* in Form des R-Pakets `rstanarm` für Regressionsmodelle auf Basis der Bayes-Methode.
 4.  Verwenden Sie immer folgenden *Seed-Wert* bei `stan_glm()`: `42`. Dazu setzen Sie folgenden Parameter `seed = 42` (innerhalb von `stan_glm())`.
-2.  Der *Toleranzbereich* einer Lösung liegt bei 3% des Wertes der Musterlösung (sofern nicht anders bei der jeweiligen Aufgabe angegeben). Toleranzbereiche werden verwendet für Aufgaben mit Zufallszahlen: Lösungen solcher Aufgaben können schwanken. Wenn Sie allerdings den angegebenen Seed-Wert gesetzt haben, so sollte Ihre (korrekte) Lösung exakt der Musterlösung entsprechen. Beispiele: 
-    - Der Wert laut Musterlösung liegt bei 100; dann erstreckt sich der Toleranzbereich von 93 bis 103. 
-    - Der Wert laut Musterlösung liegt bei .05; dann erstreckt sich der Toleranzbereich um ±0.0015 Punkte um 0.05.
+5. Es gibt einen *Toleranzbereich* für Lösungen bei Aufgaben, die Zufallszahlen bei der Berechnung verwenden.  Toleranzbereiche werden verwendet für Aufgaben mit Zufallszahlen: Lösungen solcher Aufgaben können schwanken (trotz gesetztem Seed). Dabei muss man unterscheiden zwischen Lösungen in Form eines Anteils (Wertebereich: 0-1 ) und sonstigen Aufgaben mit numerischer Lösung, wie Regressionsmodelllen (unbegrenztem Werbereich: $-\infty$ bis $+\infty$). 
+
+  a) Lösungen mit Wertebereich 0-1: Toleranzbereich von 5 Prozentpunkten
+  b) Lösungen mit unbegrenztem Wertebereich:
+    - *relativer* Toleranzbereich: ±5% des Werts der Musterlösung
+    - *absoluter* Toleranzbereich: 5% der SD der Outcome-Variablen (bei Regressionsmodellen)
+  
+  *Beispiele*: 
+  
+  - Der Wert laut Musterlösung liegt bei 100 (unbegrenzter Wertbereich); dann erstreckt sich der Toleranzbereich von 95 bis 105. 
+  - Der Wert laut Musterlösung liegt bei .05 (unbegrenzter Wertbereich); dann erstreckt sich der Toleranzbereich um ±0.0025 Punkte um 0.05.
+  - Der Wert laut Musterlösung liegt bei .42 (Anteil); dann erstreckt sich der Toleranzbereich um ±5 Prozentpunkte um 0.42, also von .37 bis .47 (einschließlich).
 
 
 
@@ -65,8 +74,9 @@ library(tidyverse)
 
 
 
-```{r}
+```{r prepare-pruefungsdatensaetze}
 #| echo: false
+#| eval: false
 d1 <- read.csv("https://raw.githubusercontent.com/sebastiansauer/teachertools/main/data/teaching_df.csv") |> 
   dplyr::rename(Shortname = datasets_names,
          CSV = source,
@@ -83,10 +93,19 @@ d_joint <-
   dplyr::mutate(id = dplyr::row_number()) |> 
   dplyr::select(id, Shortname, Package, CSV, Doc)
 
+write.csv(d_joint, "data/pruefungsdatensaetze.csv")
+```
+
+```{r load-pruefungsdatensetze}
+#| echo: false
+d_joint <- read.csv("data/pruefungsdatensaetze.csv")
+
 d_joint <-
   d_joint |> 
   dplyr::mutate(Name = glue::glue("[CSV: {Shortname}]({CSV})")) |> 
-  dplyr::mutate(Codebook = glue::glue("[Doc: {Shortname}]({Doc})")) 
+  dplyr::mutate(Codebook = glue::glue("[Doc: {Shortname}]({Doc})")) |> 
+  dplyr::mutate(csv_html = glue::glue("<a href={CSV}>{Shortname}: CSV-Datei</a>")) |> 
+  dplyr::mutate(doc_html = glue::glue("<a href={Doc}>{Shortname}: Info</a>"))
 ```
 
 
@@ -147,15 +166,28 @@ Es reicht, den Datensatz mit `data(name_des_datensatzes)` zu starten.
 In @tbl-pruef-csv sind alle Prüfungsdatensätze aufgelistet inkl. dem Bezugsort der zugehörigen CSV-Datei sowie dem zugehörigen Code-Book (Beschreibung des Datensatzes).
 
 
-
 ```{r}
 #| echo: false
 #| tbl-cap: Prüfungsdatensätze
 #| label: tbl-pruef-csv
 d_joint |> 
-  dplyr::select(id, Name, Codebook) |> 
-  gt::gt()
+  dplyr::select(id, Daten = csv_html, Codebook = doc_html, Package) |> 
+  DT::datatable(escape = FALSE,)
 ```
->>>>>>> 03a20401772c504591f64251674b5a7aa05bb050:Hinweise-Klausur-Bearbeitung.qmd
 
+
+
+```{r pruefungsdatensätez}
+#| echo: false
+#| eval: false
+
+d_joint |> 
+  dplyr::select(id, Name, Codebook) |> 
+  knitr::kable(format = "markdown") 
+```
+
+
+Sie können auch die gesamte CSV-Datei mit Namen und URL zu den Datensätzen [hier](data/pruefungsdatensaetze.csv) herunterladen.
+
+{{< downloadthis data/pruefungsdatensaetze.csv dname = "pruefungsdatensaetze.csv" >}}
 

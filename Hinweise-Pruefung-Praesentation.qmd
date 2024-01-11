@@ -6,11 +6,13 @@
 
 ## Hintergrund und Ziel
 
-Das Prüfungsformat *Präsentation* ist eine aus Vortragen und Fragen beantworten.
-Gegenstand ist ein wissenschaftlicher *Vortrag* zu Ihrer Seminar-/Projekt- oder Abschlussarbeit sowie eine sich anschließende wissenschaftliche *Aussprache.*
-Während der wisenschaftlichen Aussprache verteidigen Sie Ihre Arbeit gegenüber fachlicher Kritik.
-
+Das Prüfungsformat *Präsentation* ist eine Kombination aus 1) Vortragen und 2) Fragen beantworten.
+Gegenstand ist also ein wissenschaftlicher *Vortrag* zu Ihrer Seminar-/Projekt- oder Abschlussarbeit sowie eine sich anschließende wissenschaftliche *Aussprache.*
+Während der wissenschaftlichen Aussprache verteidigen Sie Ihre Arbeit gegenüber fachlicher Kritik.
 Ziel ist, die Zuhörerschaft vom wissenschaftlichen Wert Ihrer Arbeit zu überzeugen.
+
+
+
 
 
 ## Teil 1: Vortragen
@@ -19,20 +21,17 @@ Ziel ist, die Zuhörerschaft vom wissenschaftlichen Wert Ihrer Arbeit zu überze
 ### Grundlagen
 
 Im Rahmen des Vortrags stellen Sie Ihre wissenschaftliche Arbeit vor, begründen Ihr Vorgehen begründen und diskutieren Sie dessen Stärken und Schwächen.
-
 Häufig wird ein Vortrag durch das *Medium* *Präsentation* (z.B. Powerpoint) unterstützt.
-Das ist oft sinnvoll, allerdings sollte der Vortrag im Mittelpunkt, das gesprochene Wort, und nicht der Text auf einer Folie.
-
+Das ist oft sinnvoll (und ist zulässig), allerdings sollte der Vortrag im Mittelpunkt, das gesprochene Wort, und nicht der Text auf einer Folie.
 Der Aufbau des Vortrags ist Ihnen überlassen.
 Ein bewährtes Vorgehen ist es, den Vortrag analog zur Gliederung Ihrer wissenschaftlichen Arbeit aufzubauen.
 
 
 ### Formalia
 
-Die Dauer des Vortrags beträgt ca. *10 Minuten*, soweit nicht anders vom Dozenten angegeben.
+Die Dauer des Vortrags beträgt *10 Minuten*, soweit nicht anders vom Dozenten angegeben.
 
-Die Prüfung kann *nur in Präsenz* abgelegt werden. 
-Eine Online-Prüfung ist aus Gründen der Vergleichbarkeit der Prüfungsbedingungen nicht möglich.
+Die Prüfung kann in der Regel *nur in Präsenz* abgelegt werden aus Gründen der Vergleichbarkeit der Prüfungsbedingungen.
 
 
 ## Teil 2: Aussprache
@@ -46,6 +45,86 @@ Ziel ist, mögliche Bedenken zur wissenschaftlichen Qualität zu explizieren, da
 ### Formalia
 
 Die Dauer der wissenschaftlichen Aussprache beträgt *10-15 Minuten*, soweit nicht anders vom Dozenten angegeben.
+
+
+
+## Spezialfälle
+
+### Spezialfall Bachelor-Kolloquium
+
+
+Das Bachelor-Kolloquium als Prüfungsleistung im Modul *Bachelorseminar* dient als wissenschaftliche Aussprache zu einer zentralen akademischen Qualifikationsleistung, der Thesis.
+
+
+
+
+
+### Spezialfall Gruppenpräsentation
+
+
+Bei Präsentationen im Rahmen einer Gruppenarbeit gelten einige spezielle Regelungen:
+
+- Alle Gruppenmitglieder präsentieren.
+- Die Beiträge der Gruppenmitglieder sollen vergleichbar lang sein (in zeitlicher Hinsicht).
+- Die Beiträge der Gruppenmitglieder sollen die Teile widerspiegeln, die von der jeweiligen Person federführend bearbeitet wurden (im Rahmen der Projektarbeit).
+- Die Gruppenmitglieder präsentieren alle hintereinander, bevor es zur Aussprache kommt.
+- Beim Teil *Aussprache* werden alle Aspekte der Präsentation angesprochen.
+- Die Studierenden sollen als Arbeitsgruppe (insgesamt) ein einziges Präsentationsdokument (der Lehrkraft) bereitstellen, so dass Unterbrechungen aus technischen Gründen minimiert werden.
+
+
+
+## Ablauf
+
+
+### Dauer
+
+Pro Prüfling/Präsentation sind ca. 30 bis 45 Minuten angesetzt. Diese Zeit setzt sich zusammen aus Vortrag plus Diskussion plus Feedback plus Pause bzw. Umbau für die nächste Präsentation.
+
+
+### Reihenfolge der Präsentationen
+
+In der Regel präsentieren mehrere Studierende, so dass sich die Frage nach der Reihenfolge der Präsentationen stellt.
+Aus Gründen der Fairness und Einfachheit bestimmt der Dozent die Reihenfolge der Präsentationen *zufällig*.
+
+:::callout-note
+Die Zufallsreihenfolge aller angemeldeten Prüflinge bestimmt der Dozent durch die R-Funktion `sample`, wobei als Startwert das Datum des (ersten) Prüfungstags herangezogen wird^[Im Format ISO 8601, z.B. "20240116"]. $\square$
+:::
+
+Den Studierenden steht es frei, ihre Position untereinander zu tauschen, sofern die Beteiligten alle zustimmen. 
+
+
+
+
+
+
+### Die Prüfperson während Ihrer Präsentation
+
+
+In der Regel wird Sie die Lehrkraft bei Ihrer Präsentation *nicht unterbrechen*, damit Sie störungsfrei Ihre Argumente entwickeln können.
+Nur in Ausnahmefällen wird sich die Lehrkraft dennoch zu Wort melden; dies hat dann immer den Hintergrund, Sie auf den richtigen Weg zurückzuführen, ist also stets konstruktiv gemeint.
+Bitte verstehen Sie diese Maßnahmen vor der - in Anbetracht der Fülle des zu präsentierenden Materials - knappen Redezeit. Falls die Lehrkraft das Gefühl hat, dass Sie die wertvolle (da knappe) Zeit mit Unwesentlichem füllen, kann sie sich entscheiden, Sie mit einem entsprechenden Hinweis zu den wichtigeren Themen zurückführen. Bedenken Sie, dass es nachteilig für Ihren Vortrag ist, zentrale Punkte außen vor gelassen zu haben.
+Verstehen Sie also Unterbrechungen durch den Dozenten als Hilfestellung; sie sind immer konstruktiv und als Unterstützung gemeint.
+
+Die Lehrkraft wird sich während Ihres Vortrags *Notizen* machen. Das kann dazu führen, dass die Lehrkraft Ihrem Vortrag nicht mit den Augen folgt. Natürlich muss die Lehrkraft aber Ihrem Vortrag die ganze Zeit mit voller Aufmerksamkeit beiwohnen. Werten Sie das Notizen machen also bitte nicht als Unhöflichkeit, sondern als Bringschuld zur Dokumentations- und Sorgfaltspflicht der Lehrkraft.
+
+Ein Computer (mit USB-Anschluss) sowie ein Beamer werden zur Verfügung gestellt. 
+Den Studierenden steht es frei, einen eigenen Computer zu verwenden. Achten Sie in diesem Fall selbständig auf die Einsetzbarkeit. Es empfiehlt sich z.B. im Vorfeld die Technik zu überprüfen (z.B. HDMI-Anschluss? Ton-Anlage? Stromanschluss? WLAN?)
+
+
+
+### Sonstiges
+
+Es wird erwartet, dass alle Prüflinge den gesamten Prüfungstag aufmerksam bei allen Präsentationen anwesend sind.
+
+Bitte beachten Sie, dass aktive Anwesenheit über den ganzen Prüfungstag insofern Teil der Prüfungsleistung ist, als dass die aktive Anwesenheit notwendiger Teil zum Ablegen der Prüfung ist.
+
+Bitte halten Sie Ihr Zeitfenster (Beginn und Ende) ein.
+
+
+
+
+
+
 
 
 
