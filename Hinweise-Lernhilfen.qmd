@@ -4,31 +4,16 @@
 Um eine PDF-Version eines Kapitels (eines HTML-Buchs bzw. einer HTML-Seite) zu erhalten, können Sie im Browser die Druckfunktion nutzen (Strg-P). Wählen Sie dort “PDF” als Ziel.
 
 
+### Übersetzung in andere Sprachen
+
+Nutzen Sie die Übersetzungsfunktion Ihres Browsers, um ein Kapitel des Webbuchs bzw. eine Webseite in eine andere Sprache zu übersetzen.
+
+
+
 ### Videos
 
 Auf dem [YouTube-Kanal des Autors](https://www.youtube.com/channel/UCkvdtj8maE7g-SOCh4aDB9g) finden sich eine Reihe von Videos mit Bezug zum Inhalt dieses Buchs.
 Besonders [diese Playlist](https://youtube.com/playlist?list=PLRR4REmBgpIEzVFLvzCn76TB2VS4jXcfg) passt zu den Inhalten dieses Buchs.
-
-
-### Software allgemein
-
-Installieren Sie [R und seine Freunde](https://data-se.netlify.app/2021/11/30/installation-von-r-und-seiner-freunde/) für Kurse im Bereich Datenanalyse.
-
-
-
-:::{.callout-note}
-### Bei Installationsproblemen
-
-- Gibt R eine `Warning` aus, ist das zumeist kein Problem und kann ignoriert werden.
-- Starten Sie R neu, bevor Sie R-Pakete installieren.
-- Wenn Sie Probleme mit der Installation auf Ihrem Computer haben, können Sie (übergangsweise oder dauerhaft) die Online-Version von RStudio, [RStudio Cloud](https://posit.cloud/) verwenden (in gewissem Umfang kostenlos).$\square$
-:::
-
-Installieren Sie bitte auch die folgende R-Pakete^[falls Sie die Pakete schon installiert haben, können Sie  in RStudio auf "update.packages" klicken]:
-
-- tidyverse
-- easystats
-- weitere Pakete werden im Unterricht bekannt gegeben (es schadet aber nichts, jetzt schon Pakete nach eigenem Ermessen zu installieren)
 
 
 ### R-Syntax online
@@ -36,11 +21,11 @@ Installieren Sie bitte auch die folgende R-Pakete^[falls Sie die Pakete schon in
 [R Syntax aus dem Unterricht](https://github.com/sebastiansauer/Lehre) findet sich im Github-Repo bzw. Ordner zum jeweiligen Semester.
 
 
-### RStudio Cloud
+### RStudio/Posit Cloud
 
 :::{.callout-tip}
 ### RStudio-Cloud-Project
-Wenn Ihnen die Lehrkraft ein RStudio-Cloud-Projekt zur Verfügung stellt, nutzen Sie es.
+Wenn Ihnen die Lehrkraft ein Posit-Cloud-Projekt^[früher hieß Posit Cloud noch RStudio Cloud] zur Verfügung stellt, nutzen Sie es.
 Dort sind alle R-Pakete, Datensätze und Syntax-Vorlagen schon bereit gestellt.
 Sie sparen sich also eine Menge Installationsarbeit.$\square$
 :::
@@ -49,26 +34,6 @@ Sie sparen sich also eine Menge Installationsarbeit.$\square$
 ### Vorlagen für typische Analysen
 
 [Das Github-Repo 'Data-Learning-Template'](https://github.com/sebastiansauer/data-learning-template) stellt Ihnen Vorlagen für typische Analysen im Bereich Statistik und Data Science bereit.
-
-
-
-### Software für Bayes
-
-Wenn in diesem Modul Inferenzstatistik nötig ist, benötigen Sie Software für *Bayes-Inferenz*.
-
-Folgendes R-Paket ist für die Bayes-Inferenz nötig:
-
-- rstanarm
-
-
-
-
-
-
-
-
-<!-- - Installieren Sie bitte ein *Literaturverwaltungsprogramm* wie [Zotero](https://www.zotero.org/). -->
-<!--     - Denken Sie auch ggf. daran, das Plug-in für Word o.Ä. zu installieren. -->
 
 
 
