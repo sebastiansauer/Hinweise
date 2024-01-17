@@ -29,9 +29,9 @@ Aktuell ist die Version 4.x.x die neueste; Sie sollten auch R > 4.0 nutzen.
 
 
 
-#### Installieren
+#### Installation von R und RStudio
 
-Installieren Sie [R und RStudio(https://data-se.netlify.app/2021/11/30/installation-von-r-und-seiner-freunde/) für Kurse im Bereich Datenanalyse.
+Installieren Sie [R und RStudio](https://data-se.netlify.app/2021/11/30/installation-von-r-und-seiner-freunde/) für Kurse im Bereich Datenanalyse.
 
 - 📺 [Video: R und RStudio installieren für Windows](https://www.youtube.com/watch?v=X_Mxya2Fis0)
 - 📺 [Video: R und RStudio installieren für Mac](https://www.youtube.com/watch?v=Sh7JAI3XM1c)
@@ -43,15 +43,15 @@ Installieren Sie [R und RStudio(https://data-se.netlify.app/2021/11/30/installat
 
 #### Wichtige R-Pakete
 
-- tidyverse
-- easystats
-- rstanrm (nur für Bayes-Inferenz)
+- tidyverse  (Datenjudo)
+- easystats  (make stats easy again)
+- rstanarm (Bayes-Inferenz)
 
 
 :::{.callout-note}
 ### Bei Installationsproblemen
 
-- Gibt R eine `Warning` aus, ist das zumeist kein Problem und kann ignoriert werden.
+- Gibt R `Warning` aus, ist das zumeist *kein* Problem und kann ignoriert werden.
 - Starten Sie R neu, bevor Sie R-Pakete installieren.
 - Wenn Sie Probleme mit der Installation auf Ihrem Computer haben, können Sie (übergangsweise oder dauerhaft) die Online-Version von RStudio, [Posit Cloud](https://posit.cloud/) verwenden (in gewissem Umfang kostenlos).$\square$
 :::
