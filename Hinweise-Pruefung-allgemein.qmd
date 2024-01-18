@@ -84,6 +84,8 @@ Die Änderungen am Skript sind, sofern es um ein Skript handelt, das auf Github 
 2.  Beachten Sie die exakte *Prüfungsuhrzeit* (Beginn, Ende). 
 2.  Prüfungszeitraum, Aufgabenstellung und sonstige Materialien können variieren zwischen den Prüflingen etwa aufgrund von *Gruppeneinteilungen* oder *Nachteilsausgleich.*
 2.  Die zusätzliche Bearbeitungszeit bei Studentis mit *Nachteilsausgleich* ist in der Aufgabenstellung bzw. der Prüfung in Moodle hinterlegt. Die Zeit wird automatisch um den jeweiligen Faktor bzw. Wert erhöht.
+3. Falls bei einer Prüfungsaufgabe keine Hinweise angegeben sind, *gelten* die *allgemeinen Hinweise des Hinweisbuch*, also diese Seite und andere relevante des Hinweisbuches. Falls Hinweise bei einer bestimmten Prüfung oder auch einer bestimmten Aufgabe angegeben sind, haben die Hinweise bei der Aufgabe Vorrang, ansonsten haben die Hinweise der Prüfung Vorrang vor den Hinweisen im Hinweisbuch.
+
 
 
 
