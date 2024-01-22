@@ -1,0 +1,125 @@
+# Software-Installation
+
+
+## Statistik-Software
+
+### R
+
+
+
+
+
+#### Welche R-Version läuft auf meinem Computer?
+
+Die R-Version wird Ihnen in der Konsole ("Console") angezeigt. Sie können Sie auch abfragen mit diesem R-Befehl:
+
+```{r}
+getRversion()
+```
+
+
+#### Welche R-Version sollte ich nutzen?
+
+Es ist nicht entscheidend, die allerneueste Version von R zu nutzen.
+Aber eine deutlich ältere sollte es auch nicht sein. 
+
+Aktuell ist die Version 4.x.x die neueste; Sie sollten auch R > 4.0 nutzen.
+
+
+
+
+
+#### Installation von R und RStudio
+
+Installieren Sie [R und RStudio](https://data-se.netlify.app/2021/11/30/installation-von-r-und-seiner-freunde/) für Kurse im Bereich Datenanalyse.
+
+- 📺 [Video: R und RStudio installieren für Windows](https://www.youtube.com/watch?v=X_Mxya2Fis0)
+- 📺 [Video: R und RStudio installieren für Mac](https://www.youtube.com/watch?v=Sh7JAI3XM1c)
+
+#### R updaten
+
+[Installieren Sie R](https://cran.r-project.org/) neu (in der neuesten Version). RStudio wird automatisch die neueste Version von R nutzen.
+
+
+#### Wichtige R-Pakete
+
+- tidyverse  (Datenjudo)
+- easystats  (make stats easy again)
+- rstanarm (Bayes-Inferenz)
+
+
+:::{.callout-note}
+### Bei Installationsproblemen
+
+- Gibt R `Warning` aus, ist das zumeist *kein* Problem und kann ignoriert werden.
+- Starten Sie R neu, bevor Sie R-Pakete installieren.
+- Wenn Sie Probleme mit der Installation auf Ihrem Computer haben, können Sie (übergangsweise oder dauerhaft) die Online-Version von RStudio, [Posit Cloud](https://posit.cloud/) verwenden (in gewissem Umfang kostenlos).$\square$
+:::
+
+Installieren Sie bitte auch die folgende R-Pakete^[falls Sie die Pakete schon installiert haben, können Sie  in RStudio auf "update.packages" klicken]:
+
+- tidyverse
+- easystats
+- weitere Pakete werden im Unterricht bekannt gegeben (es schadet aber nichts, jetzt schon Pakete nach eigenem Ermessen zu installieren)
+
+
+### Software für Bayes
+
+Wenn in diesem Modul Inferenzstatistik nötig ist, benötigen Sie Software für *Bayes-Inferenz*.
+
+Folgendes R-Paket ist für die Bayes-Inferenz nötig:
+
+- rstanarm
+
+
+### Installation von `rstanarm`
+
+`rstanarm` ist ein R-Paket, das sich mit `Stan` verbindet. `Stan` ist ein Programm, das sehr gut und schnell Bayes-Modelle berechnen kann. Stan macht die ganze Arbeit; R schaut sozusagen nur zu. Das bedeutet aber, dass wir Stan installiert haben müssen, bevor wir `rstanarm` benutzen können. 
+Es ist leider etwas mehr Aufwand als bei einem normalen R-Paket. Aber zum Glück muss man das nur einmal machen.
+
+
+:::{.callout-note}
+### R-Version > 4 nötig
+Damit `rstanarm` gut läuft, ist R in der Version > 4.0 zu empfehlen. Updaten Sie R, wenn Sie eine ältere Version haben (R < 4). $\square$
+:::
+
+#### Schritt 1 - Vorbereitung
+
+Bevor Sie `rstanarm` installieren können, müssen Sie noch eine zusätzliche Software installieren, die `rstanarm` benötigt und zwar einen sog. Compiler. Keine Sorge, Sie müssen nicht wissen, was der macht. Ich erwähne das nur, damit Sie wissen, was Sie installieren sollen.
+
+- [Installationshinweise für Windows](https://github.com/stan-dev/rstan/wiki/Configuring-C---Toolchain-for-Windows)
+- [Installationshinweise für Mac](https://mac.thecoatlessprofessor.com/macrtools/)
+
+
+#### Schritt 2 - Altlasten loswerden
+
+Dieser Schritt ist meist nicht nötig, aber zur Sicherheit entledigen wir uns noch von etwaigen Altlasten (alten Versionen von Stan)
+
+Kopieren Sie dazu folgende R-Befehle und führen Sie si aus:
+
+
+```{r}
+#| eval: false
+remove.packages("rstan")
+if (file.exists(".RData")) file.remove(".RData")
+```
+
+
+Danach starten Sie bitte R neu (Menüleiste > Session > Restart R).
+
+### Schritt 3 - `rstanarm` installieren
+
+
+```{r}
+#| eval: false
+installed.packages("rstanarm")
+```
+
+
+
+
+## Sonstige Software
+
+Für einige Module ist es nötig, dass Sie I *Literaturverwaltungsprogramm* wie [Zotero](https://www.zotero.org/) installieren. Denken Sie auch ggf. daran, das Plug-in für Word o.Ä. zu installieren.
+
+
