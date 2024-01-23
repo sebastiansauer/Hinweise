@@ -1,22 +1,22 @@
 
-### PDF-Version
+## PDF-Version
 
 Um eine PDF-Version eines Kapitels (eines HTML-Buchs bzw. einer HTML-Seite) zu erhalten, können Sie im Browser die Druckfunktion nutzen (Strg-P). Wählen Sie dort “PDF” als Ziel.
 
 
-### Übersetzung in andere Sprachen
+## Übersetzung in andere Sprachen
 
 Nutzen Sie die Übersetzungsfunktion Ihres Browsers, um ein Kapitel des Webbuchs bzw. eine Webseite in eine andere Sprache zu übersetzen.
 
 
 
-### Videos
+## Videos
 
 Auf dem [YouTube-Kanal des Autors](https://www.youtube.com/channel/UCkvdtj8maE7g-SOCh4aDB9g) finden sich eine Reihe von Videos mit Bezug zum Inhalt dieses Buchs.
 Besonders [diese Playlist](https://youtube.com/playlist?list=PLRR4REmBgpIEzVFLvzCn76TB2VS4jXcfg) passt zu den Inhalten dieses Buchs.
 
 
-### R-Syntax online
+## R-Syntax online
 
 [R Syntax aus dem Unterricht](https://github.com/sebastiansauer/Lehre) findet sich im Github-Repo bzw. Ordner zum jeweiligen Semester.
 
@@ -31,7 +31,7 @@ Sie sparen sich also eine Menge Installationsarbeit.$\square$
 :::
 
 
-### Vorlagen für typische Analysen
+## Vorlagen für typische Analysen
 
 [Das Github-Repo 'Data-Learning-Template'](https://github.com/sebastiansauer/data-learning-template) stellt Ihnen Vorlagen für typische Analysen im Bereich Statistik und Data Science bereit.
 
