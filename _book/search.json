@@ -1134,45 +1134,56 @@
   {
     "objectID": "hinweise-software.html",
     "href": "hinweise-software.html",
-    "title": "\n14  Software-Installation\n",
+    "title": "\n14  Software\n",
     "section": "",
     "text": "14.1 Statistik-Software",
     "crumbs": [
       "Unterricht",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Software-Installation</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Software</span>"
     ]
   },
   {
     "objectID": "hinweise-software.html#statistik-software",
     "href": "hinweise-software.html#statistik-software",
-    "title": "\n14  Software-Installation\n",
+    "title": "\n14  Software\n",
     "section": "",
     "text": "14.1.1 R\n\n14.1.1.1 Welche R-Version läuft auf meinem Computer?\nDie R-Version wird Ihnen in der Konsole (“Console”) angezeigt. Sie können Sie auch abfragen mit diesem R-Befehl:\n\ngetRversion()\n\n[1] '4.2.1'\n\n\n\n14.1.1.2 Welche R-Version sollte ich nutzen?\nEs ist nicht entscheidend, die allerneueste Version von R zu nutzen. Aber eine deutlich ältere sollte es auch nicht sein.\nAktuell ist die Version 4.x.x die neueste; Sie sollten auch R &gt; 4.0 nutzen.\n\n14.1.1.3 Installation von R und RStudio\nInstallieren Sie R und RStudio für Kurse im Bereich Datenanalyse.\n\n📺 Video: R und RStudio installieren für Windows\n\n📺 Video: R und RStudio installieren für Mac\n\n\n14.1.1.4 R updaten\nInstallieren Sie R neu (in der neuesten Version). RStudio wird automatisch die neueste Version von R nutzen.\n\n14.1.1.5 Wichtige R-Pakete\n\ntidyverse (Datenjudo)\neasystats (make stats easy again)\nrstanarm (Bayes-Inferenz)\n\n\n\n\n\n\n\nBei Installationsproblemen\n\n\n\n\nGibt R Warning aus, ist das zumeist kein Problem und kann ignoriert werden.\nStarten Sie R neu, bevor Sie R-Pakete installieren.\nWenn Sie Probleme mit der Installation auf Ihrem Computer haben, können Sie (übergangsweise oder dauerhaft) die Online-Version von RStudio, Posit Cloud verwenden (in gewissem Umfang kostenlos).\\(\\square\\)\n\n\n\n\nInstallieren Sie bitte auch die folgende R-Pakete1:\n\ntidyverse\neasystats\nweitere Pakete werden im Unterricht bekannt gegeben (es schadet aber nichts, jetzt schon Pakete nach eigenem Ermessen zu installieren)\n\n14.1.2 Software für Bayes\nWenn in diesem Modul Inferenzstatistik nötig ist, benötigen Sie Software für Bayes-Inferenz.\nFolgendes R-Paket ist für die Bayes-Inferenz nötig:\n\nrstanarm\n\n14.1.3 Installation von rstanarm\n\nrstanarm ist ein R-Paket, das sich mit Stan verbindet. Stan ist ein Programm, das sehr gut und schnell Bayes-Modelle berechnen kann. Stan macht die ganze Arbeit; R schaut sozusagen nur zu. Das bedeutet aber, dass wir Stan installiert haben müssen, bevor wir rstanarm benutzen können. Es ist leider etwas mehr Aufwand als bei einem normalen R-Paket. Aber zum Glück muss man das nur einmal machen.\n\n\n\n\n\n\nR-Version &gt; 4 nötig\n\n\n\nDamit rstanarm gut läuft, ist R in der Version &gt; 4.0 zu empfehlen. Updaten Sie R, wenn Sie eine ältere Version haben (R &lt; 4). \\(\\square\\)\n\n\n\n14.1.3.1 Schritt 1 - Vorbereitung\nBevor Sie rstanarm installieren können, müssen Sie noch eine zusätzliche Software installieren, die rstanarm benötigt und zwar einen sog. Compiler. Keine Sorge, Sie müssen nicht wissen, was der macht. Ich erwähne das nur, damit Sie wissen, was Sie installieren sollen.\n\nInstallationshinweise für Windows\nInstallationshinweise für Mac\n\n14.1.3.2 Schritt 2 - Altlasten loswerden\nDieser Schritt ist meist nicht nötig, aber zur Sicherheit entledigen wir uns noch von etwaigen Altlasten (alten Versionen von Stan)\nKopieren Sie dazu folgende R-Befehle und führen Sie si aus:\n\nremove.packages(\"rstan\")\nif (file.exists(\".RData\")) file.remove(\".RData\")\n\nDanach starten Sie bitte R neu (Menüleiste &gt; Session &gt; Restart R).\n\n14.1.4 Schritt 3 - rstanarm installieren\n\ninstalled.packages(\"rstanarm\")",
     "crumbs": [
       "Unterricht",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Software-Installation</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Software</span>"
     ]
   },
   {
-    "objectID": "hinweise-software.html#sonstige-software",
-    "href": "hinweise-software.html#sonstige-software",
-    "title": "\n14  Software-Installation\n",
-    "section": "\n14.2 Sonstige Software",
-    "text": "14.2 Sonstige Software\nFür einige Module ist es nötig, dass Sie I Literaturverwaltungsprogramm wie Zotero installieren. Denken Sie auch ggf. daran, das Plug-in für Word o.Ä. zu installieren.",
+    "objectID": "hinweise-software.html#literaturverwaltung",
+    "href": "hinweise-software.html#literaturverwaltung",
+    "title": "\n14  Software\n",
+    "section": "\n14.2 Literaturverwaltung",
+    "text": "14.2 Literaturverwaltung\nFür einige Module ist es nötig, dass Sie I Literaturverwaltungsprogramm wie Zotero installieren. Denken Sie auch ggf. daran, das Plug-in für Word o.Ä. zu installieren.",
     "crumbs": [
       "Unterricht",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Software-Installation</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Software</span>"
+    ]
+  },
+  {
+    "objectID": "hinweise-software.html#kolloboration",
+    "href": "hinweise-software.html#kolloboration",
+    "title": "\n14  Software\n",
+    "section": "\n14.3 Kolloboration",
+    "text": "14.3 Kolloboration\nMit Kollaboration ist hier die Zusammenarbeit in (ggf. virtuellen) Arbeitsgruppen gemeint.\n\n\n\n\n\n\nDatenschutz\n\n\n\nViele Software-Anbieter sind nicht in der EU beheimatet; bekannte Beispiele sind Meta und Google. Der Datenschutz bei diesen Anbietern kann daher unter dem Anspruch der EU sein. Behalten Sie dies im Blick und überlegen Sie, welche Daten Sie einstellen – insbesondere, wenn Sie personenbezogene Daten Dritter (z.B. Kommilitonis) einstellen. \\(\\square\\)\n\n\n\n14.3.1 Textverarbeitung\nDas gemeinsame Schreiben von (wissenschaftliche) Texten lässt sich mit Programmen wie Microsoft Office 365 gut erledigen. Praktischerweise ist es möglich, die zitierte Literatur eines Dokuments gemeinsam zu bearbeiten. Dabei empfiehlt es sich, nicht auf Words eigene Literaturverwaltung zurückzugreifen, sondern leistungsstarke Tools wie Zotero zu verwenden.\nVergleichbare Dienste sind Google Docs oder Authorea.\n\n14.3.2 Wissensmanagement\nEindrücke nach dem Lesen eines Textes sind oft flüchtig; man vergisst vieles. Daher empfiehlt es sich, wesentliche Punkte wie “innere Strukturen” von Texten oder die Zusammenhänge zwischen Texten zu verschriftlichen. Das Verschriftlichen kann mithilfe von Exzerpten stattfinden. Um Zusammenhänge zwischen Texten zu erkennen, hilft es etwa, Texten Schlagworte zuzuteilen.\nZusammenfassungen von Texten kann man z.B. mit sog. “Hipster-PDAs” schreiben (vulgo: im Notizbuch), mittels Karteikarten (“Zettelkasten” nach Niklas Luhmann) oder mit Hilfe geeigneter Software. Eine einfache Software-Lösung bieten z.B. Powerpoint-Folien. Eine neuere Lösung sind KI-gestützte Wissensamangement-Tools wie notion. Grafisch gestützte Methoden wie Mindmaps können auch software unterstützt eingesetzt werden.\n\n14.3.3 Asynchrone Kommunikation\nSucht man niedrigschwellige Methoden der asynchronen Kommunikation, die gleichzeitig leistungsstark – aber kostengünstig – sind, so bieten sich Tools wie discord an. Noch einfacher ist natürlich WhatsApp.\n\n14.3.4 E-Mail?\nDie gute alte E-Mail ist für Diskussion nur bedingt geeignet, da es schwer sein kann, den Verlauf einer Konversation nachzuvollziehen. Außerdem ist es für Personen, die später zu einer Gesprächsrunde dazutreffen, nicht (einfach) möglich, die frühere Diskussion in Erfahrung zu bringen.\nE-Mails hin und her schicken zur gemeinsamen Bearbeitung eines Dokuments ist nicht zu empfehlen. Stellen Sie sich vor: Sie schicken Ihren Entwurf an vier Kommilitonninen. Die erste meldet sich nie zurück, die zweite schickt Ihnen einmal am Tag eine andere Version (“die vorletzte ist die finale, nä, warte Moment, est kommt noch eine post-finale, aber es gilt die finale, verstehste?”), die dritte schickt eine kaputte Datei und die vierte schickt Ihnen eine Scan eines Papierausdrucks. Und Sie sollen jetzt die Versionen zusammenführen …. Gute Nacht!",
+    "crumbs": [
+      "Unterricht",
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Software</span>"
     ]
   },
   {
     "objectID": "hinweise-software.html#footnotes",
     "href": "hinweise-software.html#footnotes",
-    "title": "\n14  Software-Installation\n",
+    "title": "\n14  Software\n",
     "section": "",
     "text": "falls Sie die Pakete schon installiert haben, können Sie in RStudio auf “update.packages” klicken↩︎",
     "crumbs": [
       "Unterricht",
-      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Software-Installation</span>"
+      "<span class='chapter-number'>14</span>  <span class='chapter-title'>Software</span>"
     ]
   },
   {

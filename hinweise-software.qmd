@@ -1,4 +1,4 @@
-# Software-Installation
+# Software
 
 
 ## Statistik-Software
@@ -118,8 +118,57 @@ installed.packages("rstanarm")
 
 
 
-## Sonstige Software
+## Literaturverwaltung
 
 Für einige Module ist es nötig, dass Sie I *Literaturverwaltungsprogramm* wie [Zotero](https://www.zotero.org/) installieren. Denken Sie auch ggf. daran, das Plug-in für Word o.Ä. zu installieren.
+
+
+
+## Kolloboration
+
+Mit *Kollaboration* ist hier die Zusammenarbeit in (ggf. virtuellen) Arbeitsgruppen gemeint.
+
+
+:::callout-caution
+### Datenschutz
+Viele Software-Anbieter sind nicht in der EU beheimatet;
+bekannte Beispiele sind Meta und Google.
+Der Datenschutz bei diesen Anbietern kann daher unter dem Anspruch der EU sein. Behalten Sie dies im Blick und überlegen Sie, welche Daten Sie einstellen -- insbesondere, wenn Sie personenbezogene Daten Dritter (z.B. Kommilitonis) einstellen. $\square$
+:::
+
+
+### Textverarbeitung
+
+Das gemeinsame Schreiben von (wissenschaftliche) Texten lässt sich mit Programmen wie [Microsoft Office 365](https://www.office.com/) gut erledigen. Praktischerweise ist es möglich, die zitierte Literatur eines Dokuments gemeinsam zu bearbeiten. Dabei empfiehlt es sich, nicht auf Words eigene Literaturverwaltung zurückzugreifen, sondern leistungsstarke Tools wie Zotero zu verwenden.
+
+Vergleichbare Dienste sind Google Docs oder [Authorea](https://www.authorea.com/). Für Latex-Fans ist [Overleaf](https://www.overleaf.com/) eine Option.^[Für Nicht-Latex-Freunde ist es *keine* Option.]
+
+
+
+
+### Wissensmanagement
+
+Eindrücke nach dem Lesen eines Textes sind oft flüchtig; man vergisst vieles. Daher empfiehlt es sich, wesentliche Punkte wie "innere Strukturen" von Texten oder die Zusammenhänge zwischen Texten zu verschriftlichen.
+Das Verschriftlichen kann mithilfe von Exzerpten stattfinden. 
+Um Zusammenhänge zwischen Texten zu erkennen, hilft es etwa, Texten Schlagworte zuzuteilen.
+
+Zusammenfassungen von Texten kann man z.B. mit sog. "Hipster-PDAs" schreiben (vulgo: im Notizbuch), mittels Karteikarten (["Zettelkasten"](https://de.wikipedia.org/wiki/Zettelkasten) nach Niklas Luhmann) oder mit Hilfe geeigneter Software. Eine einfache Software-Lösung bieten z.B. Powerpoint-Folien. Eine neuere Lösung sind KI-gestützte Wissensamangement-Tools wie [notion](https://www.notion.so/product). Grafisch gestützte Methoden wie Mindmaps können auch software unterstützt eingesetzt werden.
+
+
+### Asynchrone Kommunikation
+
+Sucht man niedrigschwellige Methoden der asynchronen Kommunikation, die gleichzeitig leistungsstark -- aber kostengünstig -- sind, so bieten sich Tools wie [discord](https://discord.com/) an. Noch einfacher ist natürlich WhatsApp.
+
+### E-Mail?
+
+Die gute alte E-Mail ist für Diskussion nur bedingt geeignet, da es schwer sein kann, den Verlauf einer Konversation nachzuvollziehen. Außerdem ist es für Personen, die später zu einer Gesprächsrunde dazutreffen, nicht (einfach) möglich, die frühere Diskussion in Erfahrung zu bringen.
+
+
+E-Mails hin und her schicken zur gemeinsamen Bearbeitung eines Dokuments ist nicht zu empfehlen. Stellen Sie sich vor: Sie schicken Ihren Entwurf an vier Kommilitonninen. Die erste meldet sich nie zurück, die zweite schickt Ihnen einmal am Tag eine andere Version ("die vorletzte ist die finale, nä, warte Moment, est kommt noch eine post-finale, aber es gilt die finale, verstehste?"), die dritte schickt eine kaputte Datei und die vierte schickt Ihnen eine Scan eines Papierausdrucks. Und Sie sollen jetzt die Versionen zusammenführen .... Gute Nacht!
+
+
+
+
+
 
 

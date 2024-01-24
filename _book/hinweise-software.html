@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.544">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>Hinweise - 14&nbsp; Software-Installation</title>
+<title>Hinweise - 14&nbsp; Software</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -133,7 +133,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Hinweise-Didaktik-frame.html">Unterricht</a></li><li class="breadcrumb-item"><a href="./hinweise-software.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Software-Installation</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Hinweise-Didaktik-frame.html">Unterricht</a></li><li class="breadcrumb-item"><a href="./hinweise-software.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Software</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -258,7 +258,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./hinweise-software.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Software-Installation</span></span></a>
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Software</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -338,13 +338,22 @@ window.Quarto = {
   <li><a href="#schritt-3---rstanarm-installieren" id="toc-schritt-3---rstanarm-installieren" class="nav-link" data-scroll-target="#schritt-3---rstanarm-installieren"><span class="header-section-number">14.1.4</span> Schritt 3 - <code>rstanarm</code> installieren</a></li>
   </ul>
 </li>
-  <li><a href="#sonstige-software" id="toc-sonstige-software" class="nav-link" data-scroll-target="#sonstige-software"><span class="header-section-number">14.2</span> Sonstige Software</a></li>
+  <li><a href="#literaturverwaltung" id="toc-literaturverwaltung" class="nav-link" data-scroll-target="#literaturverwaltung"><span class="header-section-number">14.2</span> Literaturverwaltung</a></li>
+  <li>
+<a href="#kolloboration" id="toc-kolloboration" class="nav-link" data-scroll-target="#kolloboration"><span class="header-section-number">14.3</span> Kolloboration</a>
+  <ul class="collapse">
+<li><a href="#textverarbeitung" id="toc-textverarbeitung" class="nav-link" data-scroll-target="#textverarbeitung"><span class="header-section-number">14.3.1</span> Textverarbeitung</a></li>
+  <li><a href="#wissensmanagement" id="toc-wissensmanagement" class="nav-link" data-scroll-target="#wissensmanagement"><span class="header-section-number">14.3.2</span> Wissensmanagement</a></li>
+  <li><a href="#asynchrone-kommunikation" id="toc-asynchrone-kommunikation" class="nav-link" data-scroll-target="#asynchrone-kommunikation"><span class="header-section-number">14.3.3</span> Asynchrone Kommunikation</a></li>
+  <li><a href="#e-mail" id="toc-e-mail" class="nav-link" data-scroll-target="#e-mail"><span class="header-section-number">14.3.4</span> E-Mail?</a></li>
+  </ul>
+</li>
   </ul></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Hinweise-Didaktik-frame.html">Unterricht</a></li><li class="breadcrumb-item"><a href="./hinweise-software.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Software-Installation</span></a></li></ol></nav><div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Hinweise-Didaktik-frame.html">Unterricht</a></li><li class="breadcrumb-item"><a href="./hinweise-software.html"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Software</span></a></li></ol></nav><div class="quarto-title">
 <h1 class="title">
-<span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Software-Installation</span>
+<span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Software</span>
 </h1>
 </div>
 
@@ -460,12 +469,43 @@ R-Version &gt; 4 nötig
 <div class="cell">
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/installed.packages.html">installed.packages</a></span><span class="op">(</span><span class="st">"rstanarm"</span><span class="op">)</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section></section><section id="sonstige-software" class="level2" data-number="14.2"><h2 data-number="14.2" class="anchored" data-anchor-id="sonstige-software">
-<span class="header-section-number">14.2</span> Sonstige Software</h2>
+</section></section><section id="literaturverwaltung" class="level2" data-number="14.2"><h2 data-number="14.2" class="anchored" data-anchor-id="literaturverwaltung">
+<span class="header-section-number">14.2</span> Literaturverwaltung</h2>
 <p>Für einige Module ist es nötig, dass Sie I <em>Literaturverwaltungsprogramm</em> wie <a href="https://www.zotero.org/">Zotero</a> installieren. Denken Sie auch ggf. daran, das Plug-in für Word o.Ä. zu installieren.</p>
+</section><section id="kolloboration" class="level2" data-number="14.3"><h2 data-number="14.3" class="anchored" data-anchor-id="kolloboration">
+<span class="header-section-number">14.3</span> Kolloboration</h2>
+<p>Mit <em>Kollaboration</em> ist hier die Zusammenarbeit in (ggf. virtuellen) Arbeitsgruppen gemeint.</p>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Datenschutz
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Viele Software-Anbieter sind nicht in der EU beheimatet; bekannte Beispiele sind Meta und Google. Der Datenschutz bei diesen Anbietern kann daher unter dem Anspruch der EU sein. Behalten Sie dies im Blick und überlegen Sie, welche Daten Sie einstellen – insbesondere, wenn Sie personenbezogene Daten Dritter (z.B. Kommilitonis) einstellen. <span class="math inline">\(\square\)</span></p>
+</div>
+</div>
+<section id="textverarbeitung" class="level3" data-number="14.3.1"><h3 data-number="14.3.1" class="anchored" data-anchor-id="textverarbeitung">
+<span class="header-section-number">14.3.1</span> Textverarbeitung</h3>
+<p>Das gemeinsame Schreiben von (wissenschaftliche) Texten lässt sich mit Programmen wie <a href="https://www.office.com/">Microsoft Office 365</a> gut erledigen. Praktischerweise ist es möglich, die zitierte Literatur eines Dokuments gemeinsam zu bearbeiten. Dabei empfiehlt es sich, nicht auf Words eigene Literaturverwaltung zurückzugreifen, sondern leistungsstarke Tools wie Zotero zu verwenden.</p>
+<p>Vergleichbare Dienste sind Google Docs oder Authorea.</p>
+</section><section id="wissensmanagement" class="level3" data-number="14.3.2"><h3 data-number="14.3.2" class="anchored" data-anchor-id="wissensmanagement">
+<span class="header-section-number">14.3.2</span> Wissensmanagement</h3>
+<p>Eindrücke nach dem Lesen eines Textes sind oft flüchtig; man vergisst vieles. Daher empfiehlt es sich, wesentliche Punkte wie “innere Strukturen” von Texten oder die Zusammenhänge zwischen Texten zu verschriftlichen. Das Verschriftlichen kann mithilfe von Exzerpten stattfinden. Um Zusammenhänge zwischen Texten zu erkennen, hilft es etwa, Texten Schlagworte zuzuteilen.</p>
+<p>Zusammenfassungen von Texten kann man z.B. mit sog. “Hipster-PDAs” schreiben (vulgo: im Notizbuch), mittels Karteikarten (<a href="https://de.wikipedia.org/wiki/Zettelkasten">“Zettelkasten”</a> nach Niklas Luhmann) oder mit Hilfe geeigneter Software. Eine einfache Software-Lösung bieten z.B. Powerpoint-Folien. Eine neuere Lösung sind KI-gestützte Wissensamangement-Tools wie <a href="https://www.notion.so/product">notion</a>. Grafisch gestützte Methoden wie Mindmaps können auch software unterstützt eingesetzt werden.</p>
+</section><section id="asynchrone-kommunikation" class="level3" data-number="14.3.3"><h3 data-number="14.3.3" class="anchored" data-anchor-id="asynchrone-kommunikation">
+<span class="header-section-number">14.3.3</span> Asynchrone Kommunikation</h3>
+<p>Sucht man niedrigschwellige Methoden der asynchronen Kommunikation, die gleichzeitig leistungsstark – aber kostengünstig – sind, so bieten sich Tools wie <a href="https://discord.com/">discord</a> an. Noch einfacher ist natürlich WhatsApp.</p>
+</section><section id="e-mail" class="level3" data-number="14.3.4"><h3 data-number="14.3.4" class="anchored" data-anchor-id="e-mail">
+<span class="header-section-number">14.3.4</span> E-Mail?</h3>
+<p>Die gute alte E-Mail ist für Diskussion nur bedingt geeignet, da es schwer sein kann, den Verlauf einer Konversation nachzuvollziehen. Außerdem ist es für Personen, die später zu einer Gesprächsrunde dazutreffen, nicht (einfach) möglich, die frühere Diskussion in Erfahrung zu bringen.</p>
+<p>E-Mails hin und her schicken zur gemeinsamen Bearbeitung eines Dokuments ist nicht zu empfehlen. Stellen Sie sich vor: Sie schicken Ihren Entwurf an vier Kommilitonninen. Die erste meldet sich nie zurück, die zweite schickt Ihnen einmal am Tag eine andere Version (“die vorletzte ist die finale, nä, warte Moment, est kommt noch eine post-finale, aber es gilt die finale, verstehste?”), die dritte schickt eine kaputte Datei und die vierte schickt Ihnen eine Scan eines Papierausdrucks. Und Sie sollen jetzt die Versionen zusammenführen …. Gute Nacht!</p>
 
 
-</section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><hr>
+</section></section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><hr>
 <ol>
 <li id="fn1"><p>falls Sie die Pakete schon installiert haben, können Sie in RStudio auf “update.packages” klicken<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
