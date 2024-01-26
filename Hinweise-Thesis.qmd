@@ -8,9 +8,18 @@
 Liebe Studentin, lieber Student,
 
 
-Sie überlegen, Ihre Abschlussarbeit bei Professor Sauer zu schreiben. Gut! Damit bekommen Sie einen erfahrenen Gutachter und Forscher an Ihre Seite gestellt. Wie in jeder Zusammenarbeit gibt es gewisse Erwartungen für einen erfolgreichen Abschluss. Es ist in Ihrem Sinne, die Erwartungen Ihres Prüfers gut zu kennen, damit Sie prüfen können, ob die skizzierten Rahmenbedingungen für Sie passen. Außerdem können Sie Ihre Forschungsarbeit entsprechend ausrichten. Je klarer die Erwartungen, desto unwahrscheinlicher ist es, dass im Nachgang jemand (z.B. Ihr Prüfer) sagt, er habe das ganz anders gewollt.
+Sie überlegen, Ihre Abschlussarbeit bei Professor Sauer zu schreiben. Gut! 
+Damit bekommen Sie einen erfahrenen Gutachter und Forscher an Ihre Seite gestellt. Wie in jeder Zusammenarbeit gibt es gewisse Erwartungen für einen erfolgreichen Abschluss. 
+Es ist in Ihrem Sinne, die Erwartungen Ihres Prüfers gut zu kennen, damit Sie prüfen können, ob die skizzierten Rahmenbedingungen für Sie passen. Außerdem können Sie Ihre Forschungsarbeit entsprechend ausrichten. 
+Je klarer die Erwartungen, desto unwahrscheinlicher ist es, dass im Nachgang jemand (z.B. Ihr Prüfer) sagt, er habe das ganz anders gewollt.
 
-Bitte bedenken Sie, dass die hier formulierten Erwartungen an Sie nicht zum Komfort Ihres Prüfers erstellt sind. Es geht darum, typische Fehler zu vermeiden und einen reibungslosen Ablauf der Begutachtung sicherzustellen. Gleichzeitig soll ein solides Qualitätsniveau - anspruchsvoll, aber gut machbar - sichergestellt werden. Lesen Sie sich bitte die Hinweise sorgfältig durch. Wenn Sie sich bei mir für Ihre Abschlussarbeit anmelden, gehe ich davon aus, dass Sie diese Hinweise gelesen haben und einverstanden sind.
+
+
+Bitte bedenken Sie, dass die hier formulierten Erwartungen an Sie nicht zum Komfort Ihres Prüfers erstellt sind. 
+Es geht darum, typische Fehler zu vermeiden und einen reibungslosen Ablauf der Begutachtung sicherzustellen. 
+Gleichzeitig soll ein solides Qualitätsniveau - anspruchsvoll, aber gut machbar - sichergestellt werden. 
+Lesen Sie sich bitte die Hinweise sorgfältig durch. 
+Wenn Sie sich bei mir für Ihre Abschlussarbeit anmelden, gehe ich davon aus, dass Sie diese Hinweise gelesen haben und einverstanden sind.
 
 
 
@@ -170,9 +179,16 @@ optional: Projektplan (Zeit- und Arbeitsplan)
 
 
 
-## Wie "groß" soll meine empirische Studie sein?
+## Wie "groß" soll meine  Studie sein?
 
-Hier folgt ein grobes Mengengerüst für die empirische Studie Ihrer Abschlussarbeit, damit Sie eine Einschätzung, wie viel "gut" ist (Teilnote 2). Dieses Mengengerüst passt nicht für alle Situationen. Bitte sprechen Sie mich im Zweifel darauf an bzw. begründen Sie Ihren Studienaufbau im Exposé und in der Thesis. 
+
+
+Hier folgt ein grobes Mengengerüst für die (empirische) Studie Ihrer Abschlussarbeit, damit Sie eine Einschätzung, wie viel "gut" ist (Teilnote 2). Dieses Mengengerüst passt nicht für alle Situationen. 
+Bitte sprechen Sie mich im Zweifel darauf an bzw. begründen Sie Ihren Studienaufbau im Exposé und in der Thesis. 
+
+
+
+### Quantitative Studien mit Versuchspersonen
 
 
 
@@ -205,6 +221,18 @@ Grundsätzlich gilt hier: Mehr ist besser :-)
 Da die Aussagekraft von Experimenten i.d.R. höher ist als die Aussagekraft einer Beobachtungsstudie, sollten Sie einem Experiment - sofern möglich - den Vorzug geben. Falls Sie ein Beobachtungsdesign wählen, um kausale Aussagen zu tätigen, sollten Sie die Wahl rechtfertigen und unter Verwendung einer Theorie (die Verwendung eines DAGs ist zu empfehlen) die Stichhaltigkeit Ihres Designs erläutern.
 
 Wenn Sie ein qualitatives Design bearbeiten, dann ist die *Grounded Theory* der *Inhaltsanalyse* von Mayring zu bevorzugen.
+
+
+### Qualitative Studie
+
+Ca. 8-10 Interviews zu je 30 Minuten Länge sind eine nützliche Richtgröße.
+
+Sie können KI-Tools zur Transkription nutzen wie z.B. [riverside](https://riverside.fm/transcription).
+
+
+### Reviews
+
+In die Feinanalyse sollten ca. 80-100 Reviews einfließen.
 
 
 
