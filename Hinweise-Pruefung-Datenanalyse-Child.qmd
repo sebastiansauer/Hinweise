@@ -7,7 +7,11 @@
 Die folgenden Hinweise gelten nur insofern Ihnen die Prüfperson nicht anderslautende Hinweise gegeben hat (schriftlich).
 
 
-## Allgemeines
+## Allgemeine Hinweise
+
+
+### Formalia
+
 
 
 1. Gegenstand dieser Prüfungsform ist eine Projektarbeit in Form von *Analyse* eines Datensatzes nach einer *Forschungsfrage* und die *Dokumentation* dieser Analyse.
@@ -15,11 +19,49 @@ Die folgenden Hinweise gelten nur insofern Ihnen die Prüfperson nicht anderslau
 
 4. Schreiben Sie Ihre Datenanalyse in Form eines *Berichts*, der sich an den Gliederungspunkten wie unten dargestellt orientiert.
 
+1. Richtlinien einer *Wortzahl* gibt es nicht. Entscheidend ist, dass relevante Analysen durchgeführt und beschrieben wurden. Schreiben Sie so knapp wie möglich und so ausführich wie nötig.
+
+2. Der *Anspruch* richtet sich nach dem Inhalt und Niveau des auf diese Prüfung vorbereitenden Unterricht (auch aus Modulen vorheriger Semester). Oft sind das Module in quantitativer Datenanalyse (und wissenschaftliches Arbeiten). Deren Inhalte sollen im Rahmen dieser Prüfungsleistung als selbständig und flüssig verfügbare Kompetenz von den Studentis demonstriert werden.
+
+3. Die *Gliederung* der Arbeit kann sich an den [PPDAC-Zyklus](https://stats-nutshell.netlify.app/basics.html#ppdac) und am [Data Science Model von Wickham und Grolemund](https://r4ds.had.co.nz/introduction.html#what-you-will-learn) orientieren.
+
+
+13. Zu Beginn der Analyse müssen folgende *Metadaten* *gut ersichtlich* platziert sein (z.B. auf einem Deckblatt):
+ 
+ - Vorname Nachname der Autors/der Autorin
+ - Matrikelnummer
+ - Modulname
+ - Abgabedatum
+
+15. Studentis mit *Nachteilsausgleich* melden sich (schriftlich) beim Prüfer und zeigen dabei ihren Antrag auf Nachteilsausgleich an.
+
+4. Achten Sie auf übersichtliche und ansprechende Gestaltung. Eine Gliederung und nummerierte Abschnitte tragen zur Übersichtlichkeit bei.
+
+5. Beachten Sie die Grundlagen wissenschaftlichen Schreibens etwa zu Zitieren und Referenzieren. So sollten etwa Diagramme für sich genommen (in Grundzügen) verständlich sein.
+
+1. Die Projektarbeit ist *nur elektronisch*, nicht ausgedruckt einzureichen.
+
+2. Die Projektarbeit kann in einem *paginierten Format* (z.B. Word)  oder einem *nicht-paginierten* Format (HTML-Dokument) verfasst werden. Abzugeben ist aber eine PDF-Datei oder eine HTML-Datei, die alle Bilder und sonstige Medien enthält ("Stand-Alone-HTML"). Falls der Bericht auf einem öffentlich zugänglichen Server liegt, reicht es, die URL einzureichen. Der Prüfling trägt aber die Verantwortung, dass der Bericht zugänglich ist (im Zweifel kann zusätzlich zur URL eine Datei mit dem Bericht eingereicht werden).
+
+
+4. Die Wahl eines bestimmten Stylesheets ist nicht von Bedeutung. *Lesbarkeit* und *Übersichtlichkeit* in der Formatierung sind unabhängig davon anzustreben.
+
+5. Im *Kopfbereich* (oder auf einem Deckblatt) sind die relevanten *Metadatan* anzugeben wie Name (Nachname, Vorname) der Autorin/des Autors, Abgabedatum, Titel der Arbeit, Modul.
+
+6. Achten Sie auf die Reproduzierbarkeit der Analyse.
+
+
+### Methodik
+
+
 5. Wenden Sie die passenden, im Unterricht eingeführten, *statistischen Verfahren* an. Es steht Ihnen frei, andere (nicht im Unterricht behandelte) Verfahren zur Analyse der Daten anzuwenden, nach Maßgabe der fachlichen Angemessenheit.
 
 6. Werten Sie die Daten mit *R* oder *Python* aus.
 
 7. Die *R-Syntax* soll im Hauptteil des Berichts dokumentiert werden. R-Output darf ggf. gekürzt wiedergegeben werden.
+
+
+### Inhalt
 
 9. Fügen Sie *keine Erklärungen* oder Definitionen von gebräuchlichen statistischen Verfahren an.
 
@@ -29,15 +71,11 @@ Die folgenden Hinweise gelten nur insofern Ihnen die Prüfperson nicht anderslau
 
 12. Es hat *keinen Einfluss* auf Ihre Note, ob sich ein (erwarteter) *Effekt* zeigt und wie stark dieser Effekt ggf. ist.
 
-13. Zu Beginn der Analyse müssen folgende *Metadaten* *gut ersichtlich* platziert sein (z.B. auf einem Deckblatt):
- 
- - Vorname Nachname der Autors/der Autorin
- - Matrikelnummer
- - Modulname
- - Abgabedatum
+
+13. Beschließen Sie Ihre Arbeit mit einer Diskussion der Ergebnisse.
 
 
-15. Studentis mit *Nachteilsausgleich* melden sich beim Prüfer und zeigen ihren Antrag auf Nachteilsausgleich an.
+
 
 
 ## Einzureichende Dateien
@@ -56,26 +94,10 @@ Die folgenden Hinweise gelten nur insofern Ihnen die Prüfperson nicht anderslau
 
 
 
-## Formatierung der Arbeit
-
-1. Die Projektarbeit ist *nur elektronisch*, nicht ausgedruckt einzureichen.
-
-2. Die Projektarbeit kann in einem *paginierten Format* (z.B. Word)  oder einem *nicht-paginierten* Format (HTML-Dokument) verfasst werden. Abzugeben ist aber eine PDF-Datei oder eine HTML-Datei, die alle Bilder und sonstige Medien enthält ("Stand-Alone-HTML"). Falls der Bericht auf einem öffentlich zugänglichen Server liegt, reicht es, die URL einzureichen. Der Prüfling trägt aber die Verantwortung, dass der Bericht zugänglich ist (im Zweifel kann zusätzlich zur URL eine Datei mit dem Bericht eingereicht werden).
-
-
-4. Die Wahl eines bestimmten Stylesheets ist nicht von Bedeutung. *Lesbarkeit* und *Übersichtlichkeit* in der Formatierung sind unabhängig davon anzustreben.
-
-5. Im *Kopfbereich* (oder auf einem Deckblatt) sind die relevanten *Metadatan* anzugeben wie Name (Nachname, Vorname) der Autorin/des Autors, Abgabedatum, Titel der Arbeit, Modul.
 
 
 
-## Formalia
 
-1. Richtlinien einer *Wortzahl* gibt es nicht. Entscheidend ist, dass relevante Analysen durchgeführt und beschrieben wurden. Schreiben Sie so knapp wie möglich und so ausführich wie nötig.
-
-2. Der *Anspruch* richtet sich nach dem Inhalt und Niveau des auf diese Prüfung vorbereitenden Unterricht (auch aus Modulen vorheriger Semester). Oft sind das Module in quantitativer Datenanalyse (und wissenschaftliches Arbeiten). Deren Inhalte sollen im Rahmen dieser Prüfungsleistung als selbständig und flüssig verfügbare Kompetenz von den Studentis demonstriert werden.
-
-3. Die *Gliederung* der Arbeit kann sich an den [PPDAC-Zyklus](https://stats-nutshell.netlify.app/basics.html#ppdac) und am [Data Science Model von Wickham und Grolemund](https://r4ds.had.co.nz/introduction.html#what-you-will-learn) orientieren.
 
 
 ## Prüfungsmaterial {#sec-pruefungsmaterial}
@@ -210,7 +232,7 @@ Sofern Ihnen die Prüfperson nicht einen Datensatz zugeteilt hat, können Sie di
 - [UK Data Service: European Company Survey, 2019](https://beta.ukdataservice.ac.uk/datacatalogue/doi/?id=8691#!#1)
 
 
-### Psychologie Divers
+### Psychologie, divers
 
 
 
