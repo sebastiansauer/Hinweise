@@ -78,6 +78,12 @@ Sie bekommen ein (schriftliches) Gutachten zu Ihrer Arbeit. Ein Kolloquium ist n
 Bitte beachten Sie, dass ich Themen erst dann reserviere, wenn Sie verbindlich zugesagt haben. Das hat den Grund, (vielleicht begehrte) Themen nicht unnötig "brach" liegen zu lassen.
 
 
+:::{.callout-tipp}
+## Angemeldet ist angemeldet
+Wenn Sie angemeldet sind, tickt die Uhr. Außerdem können Sie Ihren Titel nicht mehr (ohne Weiteres) ändern. Daher überlegen Sie sich Ihren Titel gut, bevor Sie die Arbeit anmelden. Der Titel ist ein zentraler Bestandteil Ihrer Arbeit und sollte wohl überlegt sein. $\square$
+:::
+
+
 
 ## Fristen
 
@@ -100,7 +106,12 @@ Bitte beachten Sie, dass es für die Anmeldung und Bearbeitung Ihrer Abschlussar
 
 
 
-
+:::callout-important
+### Fristen im Blick behalten
+Im Anmeldeformular werden o.g. Fristen eingetragen. Damit sind
+die Fristen bzw. die Arbeitsdauer festgelegt. Behalten Sie Ihre Fristen gut im Blick. $\square$
+:::
+go
 
 
 

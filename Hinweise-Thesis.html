@@ -37,6 +37,35 @@ ul.task-list li input[type="checkbox"] {
 <script src="Hinweise-Thesis_files/libs/quarto-diagram/mermaid-init.js"></script>
 <link href="Hinweise-Thesis_files/libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -91,6 +120,10 @@ Figure&nbsp;1: Ablauf der Anmeldung zur Thesis
 <p>Lesen Sie sich als Erstes die Hinweise Ihres Gutachters durch: Welche Themen gibt er oder sie vor? Welche Rahmenbedingungen gibt es? Wählen Sie ein Thema aus der Liste der verfügbaren Themen für Abschlussarbeiten. Sprechen Sie den Gutachter an, dass Sie das Thema bearbeiten wollen. Bringen Sie Ihre Fragen mit zu dem Gespräch? (Das Gespräch kann persönlich sein, via Zoom oder E-Mail) Wenn Sie sich mit dem Gutachter einig sind über das Thema, sagen Sie explizit verbindlich zu und der Gutachter sagt verbindlich zu. Jetzt schreiben Sie ein Exposé (und reichen es via Moodle ein). Der Dozent gibt Ihnen schriftlich Feedback zu Ihrem Exposé. Melden Sie dann Ihr Thema via Primuss an. Puh, jetzt heißt es für drei Monate: Lesen, Denken, Schreiben… Jippie! Fast geschafft! Sie reichen Ihre Arbeit ein. Sie bekommen ein (schriftliches) Gutachten zu Ihrer Arbeit. Ein Kolloquium ist nicht vorgesehen, aber Sie präsentieren Ihre Arbeit im Rahmen des Bachelorseminars.</p>
 <p>Bitte beachten Sie, dass ich Themen erst dann reserviere, wenn Sie verbindlich zugesagt haben. Das hat den Grund, (vielleicht begehrte) Themen nicht unnötig “brach” liegen zu lassen.</p>
 </section>
+<section id="angemeldet-ist-angemeldet" class="level2 callout-tipp">
+<h2 class="anchored" data-anchor-id="angemeldet-ist-angemeldet">Angemeldet ist angemeldet</h2>
+<p>Wenn Sie angemeldet sind, tickt die Uhr. Außerdem können Sie Ihren Titel nicht mehr (ohne Weiteres) ändern. Daher überlegen Sie sich Ihren Titel gut, bevor Sie die Arbeit anmelden. Der Titel ist ein zentraler Bestandteil Ihrer Arbeit und sollte wohl überlegt sein. <span class="math inline">\(\square\)</span></p>
+</section>
 <section id="fristen" class="level2">
 <h2 class="anchored" data-anchor-id="fristen">Fristen</h2>
 <p>Bitte beachten Sie, dass es für die Anmeldung und Bearbeitung Ihrer Abschlussarbeit definierte Fristen gibt.</p>
@@ -113,6 +146,19 @@ Figure&nbsp;1: Ablauf der Anmeldung zur Thesis
 Figure&nbsp;2: Zeitablauf und Fristen zur Erstellung der Thesis
 </figcaption>
 </figure>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Fristen im Blick behalten
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Im Anmeldeformular werden o.g. Fristen eingetragen. Damit sind die Fristen bzw. die Arbeitsdauer festgelegt. Behalten Sie Ihre Fristen gut im Blick. <span class="math inline">\(\square\)</span></p>
+</div>
 </div>
 </section>
 <section id="wie-und-wann-helfen-sie-mir-bei-meiner-abschlussarbeit" class="level2">
