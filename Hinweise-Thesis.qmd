@@ -34,7 +34,13 @@ Sie können selber ein Thema vorschlagen oder eines der Themen wählen, die ich 
 Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodikk.
 
 
+## Liste meiner freien Themen
+
 👉 [Meine Liste freier Themen](https://docs.google.com/spreadsheets/d/1m9KOCF1LzLXnO2eEXZTspYslh8RHfiuWp3oHGySd7OE/edit?usp=sharing) 👈 
+
+
+<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWolk3C_Ofx_BCAqBTFa4BWWzIudkRW01eYl1FdaQmJgvDYqWKtVQ_KWq7AnYAqoTB0_Dl6jBYi2XY/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
 
 
 
@@ -111,7 +117,7 @@ Bitte beachten Sie, dass es für die Anmeldung und Bearbeitung Ihrer Abschlussar
 Im Anmeldeformular werden o.g. Fristen eingetragen. Damit sind
 die Fristen bzw. die Arbeitsdauer festgelegt. Behalten Sie Ihre Fristen gut im Blick. $\square$
 :::
-go
+
 
 
 
