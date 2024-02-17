@@ -194,7 +194,7 @@ Bei empirischen, quantitativen Arbeiten:
 
 - Stichprobengröße (ca.)
   - Experimentell: *Between-Design: 20-30 Fälle*, Within-Design: 20 Fälle
-  - Beobachtend: 50-100 Fälle 
+  - Beobachtend: 50 Fälle 
 - Designumfang (ca.)
   - Experimentell: 2-3 Variablen
   - Beobachtend: 3-4 Variablen b
