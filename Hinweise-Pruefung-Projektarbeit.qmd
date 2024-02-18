@@ -37,8 +37,7 @@
 
 2. Die aufgeführten Wortzahlen gelten mit einem Toleranzbereich von plus/minus 10%. 
 
-3. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Diagramm als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit an geeigneter Stelle an (Anhang).
-
+3. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Diagramm als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit auf der Titelseite an. 
 
 2. Textsatz und (gestalterische) *Formatierung* der Arbeit orientieren sich an den schriftlich bereitgestellten Hinweisen (z.B. im Skript).
 
@@ -54,8 +53,10 @@
 
 7. Sie können die Arbeit entweder in einem *paginierten* Format schreiben (z.B. Word-Dokument) oder in einem *nicht-paginierten* Format (z.B. HTML-Dokument mit Quarto).
 
+8. Der *Anhang* dient zur Dokumentation von Details, die nicht wichtig genug sind für den knappen Platz des Berichts, aber dennoch zu wichtig sind, um weggelassen zu werden. Nummerieren Sie die Teile des Anhangs. Typische Inhalte des Anhangs sind: Messinstrumente, Analyse-Code, Daten, Stimuli, weiterführende Ergebnisse, Daten-Codebook, Interview-Transkriptionen.
 
-### Formalie
+
+### Formalia
 
 1. Die Arbeit ist *nur online* über das bereitgestellte System, nicht ausgedruckt, einzureichen.
 
