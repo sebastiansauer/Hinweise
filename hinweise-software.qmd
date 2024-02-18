@@ -120,7 +120,7 @@ installed.packages("rstanarm")
 
 ## Literaturverwaltung
 
-Für einige Module ist es nötig, dass Sie I *Literaturverwaltungsprogramm* wie [Zotero](https://www.zotero.org/) installieren. Denken Sie auch ggf. daran, das Plug-in für Word o.Ä. zu installieren.
+Für einige Module ist es nötig, dass Sie ein  *Literaturverwaltungsprogramm* wie [Zotero](https://www.zotero.org/) installieren. Denken Sie auch ggf. daran, das Plug-in für Word o.Ä. zu installieren.
 
 
 
@@ -161,10 +161,10 @@ Sucht man niedrigschwellige Methoden der asynchronen Kommunikation, die gleichze
 
 ### E-Mail?
 
-Die gute alte E-Mail ist für Diskussion nur bedingt geeignet, da es schwer sein kann, den Verlauf einer Konversation nachzuvollziehen. Außerdem ist es für Personen, die später zu einer Gesprächsrunde dazutreffen, nicht (einfach) möglich, die frühere Diskussion in Erfahrung zu bringen.
+Die gute alte E-Mail ist für Diskussion nur bedingt geeignet, da es schwer sein kann, den Verlauf einer Konversation nachzuvollziehen. Außerdem ist es für Personen, die später zu einer Gesprächsrunde dazukommen, nicht (einfach) möglich, die frühere Diskussion in Erfahrung zu bringen.
 
 
-E-Mails hin und her schicken zur gemeinsamen Bearbeitung eines Dokuments ist nicht zu empfehlen. Stellen Sie sich vor: Sie schicken Ihren Entwurf an vier Kommilitonninen. Die erste meldet sich nie zurück, die zweite schickt Ihnen einmal am Tag eine andere Version ("die vorletzte ist die finale, nä, warte Moment, est kommt noch eine post-finale, aber es gilt die finale, verstehste?"), die dritte schickt eine kaputte Datei und die vierte schickt Ihnen eine Scan eines Papierausdrucks. Und Sie sollen jetzt die Versionen zusammenführen .... Gute Nacht!
+E-Mails hin und her schicken zur gemeinsamen Bearbeitung eines Dokuments ist nicht zu empfehlen. Stellen Sie sich vor: Sie schicken Ihren Entwurf an vier Kommilitoninnen Die erste meldet sich nie zurück, die zweite schickt Ihnen einmal am Tag eine andere Version ("die vorletzte Dings ist die finale, nä, warte Moment, es kommt noch eine post-finale, aber es gilt die finale finale, verstehste?"), die dritte schickt eine kaputte Datei und die vierte schickt Ihnen eine Scan eines Papierausdrucks. Und Sie sollen jetzt die Versionen zusammenführen .... Gute Nacht!
 
 
 

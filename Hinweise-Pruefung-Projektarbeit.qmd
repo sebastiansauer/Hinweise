@@ -159,7 +159,7 @@ Prüfungsteilnehmer:innen sind dafür eigenständig verantwortlich.
 
 2. Die drei Teilaspekte sind
     - *Formalia* (u.a. Aufbau, Gestaltung, Rechtschreibung, Zitierweise, Literaturverzeichnis, Umfang)
-    - *Methodik* (u.a. Methodenauswahl, Methodenanwendung, Interpetation der Ergebnisse)
+    - *Methodik* (u.a. Methodenauswahl, Methodenanwendung, Interpretation der Ergebnisse)
     - *Inhalt* (u.a. Gliederung, Argumentation, Literaturnutzung, sprachlicher Ausdruck, Problemlösung, Reflexion)
     
 2. Falls Teilnoten vergeben werden, muss sich die Gesamtnote *nicht* als arithmetisches Mittel der Teilnoten ergeben.
