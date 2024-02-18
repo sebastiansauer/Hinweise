@@ -51,11 +51,11 @@ Beachten Sie auch, dass es Aspekte eines Projekts gibt, die auf die Arbeitsteile
 
 1. Die Prüfperson kann ein Datum angeben, bis zu dem (spätestens) die Gruppenwahl abgeschlossen sein muss.
 
-2. Die *Anzahl der teilnehmenden Personen* (min., max.) einer Arbeitsgruppe wird von der Prüfperson festgelegt und bekanntgegeben (z.B. min:2, max:5).
+2. Die *Anzahl der teilnehmenden Personen* (min., max.) einer Arbeitsgruppe wird von der Prüfperson festgelegt und bekanntgegeben (z.B. min:2, max:4).
 
 <!-- 3. *Abschnittsverantwortliche*: Jedes Kapitel  muss mit genau einem Namen ausgewiesen sein. Der Namen der/des Autor*in soll als Fußnote an die jeweilige Überschrift angefügt sein. -->
 
-5. Aus formalen Gründen darf die Seminararbeit *pro Arbeitsgruppe* nur *einmalig* eingereicht werden. Im Falle mehrerer Einreichungen zählt die erste.
+<!-- 5. Aus formalen Gründen darf die Seminararbeit *pro Arbeitsgruppe* nur *einmalig* eingereicht werden. Im Falle mehrerer Einreichungen zählt die erste. -->
 
 11. *Gleichwertige Beiträge*: Alle teilnehmenden Personen einer Forschungsgruppe (einer Gruppenarbeit) sollen in ähnlichem Umfang beitragen.
 
@@ -63,5 +63,7 @@ Beachten Sie auch, dass es Aspekte eines Projekts gibt, die auf die Arbeitsteile
 
 14. *Konflikte in der Gruppe*: Unterschiedliche Ansichten zum Vorgehen sind zuerst innerhalb der Gruppe zu klären. Falls dies erfolglos ist, soll (wenn nötig) die Lehrperson angesprochen werden. Zu beachten ist, dass das Moderieren des Gruppenprozesses Teil der Prüfungsleistung ist. 
 
-15. Falls ei *Studenti keine Partner* bzw. keine Arbeitsgruppe findet nach selbständigen Suchen, ist bitte die Lehrkraft zu kontaktieren.
+15. Falls ei *Studenti keine Partner* bzw. keine Arbeitsgruppe findet *nach selbständigem Suchen*, ist bitte die Lehrkraft rechtzeitig zu kontaktieren.
+
+16. Die *individuellen Beiträge* jedes Mitglieds einer Arbeitgruppe müssen *klar ersichtlich* sein.
 
