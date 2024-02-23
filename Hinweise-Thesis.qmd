@@ -31,7 +31,7 @@ Wenn Sie sich bei mir für Ihre Abschlussarbeit anmelden, gehe ich davon aus, da
 ## Themenwahl
 
 Sie können selber ein Thema vorschlagen oder eines der Themen wählen, die ich in [meiner Liste freier Themen](https://docs.google.com/spreadsheets/d/1m9KOCF1LzLXnO2eEXZTspYslh8RHfiuWp3oHGySd7OE/edit?usp=sharing) anbiete. Das Thema soll in Bezug stehen zu Ihrem Studiengang.  Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
-Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodikk.
+Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
 
 
 ## Liste meiner freien Themen
@@ -72,7 +72,7 @@ flowchart TD
 Wählen Sie ein Thema aus der Liste der verfügbaren Themen für Abschlussarbeiten.
 Verschaffen Sie sich einen Überblick über das Thema.
 
-2. *Studi kontaktiert Betreuer*: Sprechen Sie den Gutachter an, dass Sie das Thema bearbeiten wollen. Bringen Sie Ihre Fragen mit zu dem Gespräch? (Das Gespräch kann persönlich sein, via Zoom oder E-Mail stattfindetn.)
+2. *Studi kontaktiert Betreuer*: Sprechen Sie den Gutachter an, dass Sie das Thema bearbeiten wollen. Bringen Sie Ihre Fragen mit zu dem Gespräch? (Das Gespräch kann persönlich sein, via Zoom oder E-Mail stattfinden.)
 Wenn Sie sich mit dem Gutachter einig sind über das Thema, sagen Sie explizit verbindlich zu und der Gutachter sagt verbindlich zu.^[Bitte beachten Sie, dass ich Themen erst dann reserviere, wenn Sie verbindlich zugesagt haben. Das hat den Grund, (vielleicht begehrte) Themen nicht unnötig "brach" liegen zu lassen.]
 
 3. *Studi schreibt Exposé*: Jetzt schreiben Sie ein Exposé (und reichen es via Moodle ein).
