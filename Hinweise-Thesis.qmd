@@ -57,9 +57,9 @@ Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodikk.
 flowchart TD
   A[Studi liest Hinweise]
   B[Studi kontaktiert Betreuer]
-  C[Studie schreibt Exposé]
+  C[Studi schreibt Exposé]
   D[Betreuer gibt Feedback]
-  E[Studie meldet formal an]
+  E[Studi meldet formal an]
   F[Los geht's!]
   A-->B-->C-->D-->E-->F
 ```
@@ -68,22 +68,22 @@ flowchart TD
 
 
 
-1. Lesen Sie sich als Erstes die Hinweise Ihres Gutachters durch: Welche Themen gibt er oder sie vor? Welche Rahmenbedingungen gibt es?
+1. *Studi liest Hinweise*: Lesen Sie sich als Erstes die Hinweise Ihres Gutachters durch: Welche Themen gibt er oder sie vor? Welche Rahmenbedingungen gibt es?
 Wählen Sie ein Thema aus der Liste der verfügbaren Themen für Abschlussarbeiten.
 Verschaffen Sie sich einen Überblick über das Thema.
 
-2. Sprechen Sie den Gutachter an, dass Sie das Thema bearbeiten wollen. Bringen Sie Ihre Fragen mit zu dem Gespräch? (Das Gespräch kann persönlich sein, via Zoom oder E-Mail stattfindetn.)
+2. *Studi kontaktiert Betreuer*: Sprechen Sie den Gutachter an, dass Sie das Thema bearbeiten wollen. Bringen Sie Ihre Fragen mit zu dem Gespräch? (Das Gespräch kann persönlich sein, via Zoom oder E-Mail stattfindetn.)
 Wenn Sie sich mit dem Gutachter einig sind über das Thema, sagen Sie explizit verbindlich zu und der Gutachter sagt verbindlich zu.^[Bitte beachten Sie, dass ich Themen erst dann reserviere, wenn Sie verbindlich zugesagt haben. Das hat den Grund, (vielleicht begehrte) Themen nicht unnötig "brach" liegen zu lassen.]
 
-3.Jetzt schreiben Sie ein Exposé (und reichen es via Moodle ein).
+3. *Studi schreibt Exposé*: Jetzt schreiben Sie ein Exposé (und reichen es via Moodle ein).
 
-4.Der Dozent gibt Ihnen schriftlich Feedback zu Ihrem Exposé.
+4. *Betreuer gibt Feedback*: Der Dozent gibt Ihnen schriftlich Feedback zu Ihrem Exposé.
 
-5. Melden Sie zu Beginn des Semesters (in dem Sie Ihre Thesis schreiben wollen) Ihre Arbeit via Primuss an mit dem vom Prüfer bereitgestellten Formular (findet sich in Moodle auf der Seite des Bachelor-Seminars). Mit der Anmeldung wird das Thema der Arbeit fixiert.
+5. *Studi meldet formal an*: Melden Sie zu Beginn des Semesters (in dem Sie Ihre Thesis schreiben wollen) Ihre Arbeit via Primuss an mit dem vom Prüfer bereitgestellten Formular (findet sich in Moodle auf der Seite des Bachelor-Seminars). Mit der Anmeldung wird das Thema der Arbeit fixiert.
 
-5. Puh, jetzt heißt es für drei Monate: Lesen, Denken, Schreiben...
+6. *Los geht's!*: Puh, jetzt heißt es für drei Monate: Lesen, Denken, Schreiben...
 Jippie! Fast geschafft! Sie reichen Ihre Arbeit ein. 
-Sie bekommen ein (schriftliches) Gutachten zu Ihrer Arbeit. Ein Kolloquium ist im Rahmen des Bachelorseminars vorgehesen.
+Sie bekommen ein (schriftliches) Gutachten zu Ihrer Arbeit. Ein Kolloquium ist im Rahmen des Bachelorseminars vorgesehen.
 
 
 
