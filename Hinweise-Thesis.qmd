@@ -39,7 +39,6 @@ Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodikk.
 👉 [Meine Liste freier Themen](https://docs.google.com/spreadsheets/d/1m9KOCF1LzLXnO2eEXZTspYslh8RHfiuWp3oHGySd7OE/edit?usp=sharing) 👈 
 
 
-<iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vTWolk3C_Ofx_BCAqBTFa4BWWzIudkRW01eYl1FdaQmJgvDYqWKtVQ_KWq7AnYAqoTB0_Dl6jBYi2XY/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 
 
@@ -69,22 +68,28 @@ flowchart TD
 
 
 
-Lesen Sie sich als Erstes die Hinweise Ihres Gutachters durch: Welche Themen gibt er oder sie vor? Welche Rahmenbedingungen gibt es?
+1. Lesen Sie sich als Erstes die Hinweise Ihres Gutachters durch: Welche Themen gibt er oder sie vor? Welche Rahmenbedingungen gibt es?
 Wählen Sie ein Thema aus der Liste der verfügbaren Themen für Abschlussarbeiten.
-Sprechen Sie den Gutachter an, dass Sie das Thema bearbeiten wollen. Bringen Sie Ihre Fragen mit zu dem Gespräch? (Das Gespräch kann persönlich sein, via Zoom oder E-Mail)
-Wenn Sie sich mit dem Gutachter einig sind über das Thema, sagen Sie explizit verbindlich zu und der Gutachter sagt verbindlich zu. 
-Jetzt schreiben Sie ein Exposé (und reichen es via Moodle ein).
-Der Dozent gibt Ihnen schriftlich Feedback zu Ihrem Exposé.
-Melden Sie dann Ihr Thema via Primuss an.
-Puh, jetzt heißt es für drei Monate: Lesen, Denken, Schreiben...
+Verschaffen Sie sich einen Überblick über das Thema.
+
+2. Sprechen Sie den Gutachter an, dass Sie das Thema bearbeiten wollen. Bringen Sie Ihre Fragen mit zu dem Gespräch? (Das Gespräch kann persönlich sein, via Zoom oder E-Mail stattfindetn.)
+Wenn Sie sich mit dem Gutachter einig sind über das Thema, sagen Sie explizit verbindlich zu und der Gutachter sagt verbindlich zu.^[Bitte beachten Sie, dass ich Themen erst dann reserviere, wenn Sie verbindlich zugesagt haben. Das hat den Grund, (vielleicht begehrte) Themen nicht unnötig "brach" liegen zu lassen.]
+
+3.Jetzt schreiben Sie ein Exposé (und reichen es via Moodle ein).
+
+4.Der Dozent gibt Ihnen schriftlich Feedback zu Ihrem Exposé.
+
+5. Melden Sie zu Beginn des Semesters (in dem Sie Ihre Thesis schreiben wollen) Ihre Arbeit via Primuss an mit dem vom Prüfer bereitgestellten Formular (findet sich in Moodle auf der Seite des Bachelor-Seminars). Mit der Anmeldung wird das Thema der Arbeit fixiert.
+
+5. Puh, jetzt heißt es für drei Monate: Lesen, Denken, Schreiben...
 Jippie! Fast geschafft! Sie reichen Ihre Arbeit ein. 
-Sie bekommen ein (schriftliches) Gutachten zu Ihrer Arbeit. Ein Kolloquium ist nicht vorgesehen, aber Sie präsentieren Ihre Arbeit im Rahmen des Bachelorseminars.
+Sie bekommen ein (schriftliches) Gutachten zu Ihrer Arbeit. Ein Kolloquium ist im Rahmen des Bachelorseminars vorgehesen.
 
 
-Bitte beachten Sie, dass ich Themen erst dann reserviere, wenn Sie verbindlich zugesagt haben. Das hat den Grund, (vielleicht begehrte) Themen nicht unnötig "brach" liegen zu lassen.
 
 
-:::{.callout-tipp}
+
+:::{.callout-tip}
 ## Angemeldet ist angemeldet
 Wenn Sie angemeldet sind, tickt die Uhr. Außerdem können Sie Ihren Titel nicht mehr (ohne Weiteres) ändern. Daher überlegen Sie sich Ihren Titel gut, bevor Sie die Arbeit anmelden. Der Titel ist ein zentraler Bestandteil Ihrer Arbeit und sollte wohl überlegt sein. $\square$
 :::
@@ -99,9 +104,9 @@ Bitte beachten Sie, dass es für die Anmeldung und Bearbeitung Ihrer Abschlussar
 2. *Themenvergabe*: Themen (und damit eine verbindliche Zusage meinerseits) vergebe ich bis spätestens Mitte des 6. Fachsemesters (SoSe: 15. Mai, WiSe: 15. November). Nach diesem Termin ist eine Anmeldung (bei mir) erst wieder im Folgesemester möglich (s. Abbildung).
 3. *Exposé*: Das Exposé muss bis Semesterende (vor dem Semester Ihrer Abschlussarbeit) bei mir eingereicht sein (SoSe: 30. Juni, WiSe: 31. Dezember).
 4. *Feedback zum Exposé*: Sie bekommen gegen Ende des Prüfungszeitraums schriftliches Feedback zu Ihrem Exposé (SoSe: 31. Juli, WiSe: 31. Januar).
-5. Die *Bearbeitungszeit* Ihrer Abschlussarbeit *beginnt* mit *Start* des jeweiligen FS (z.B. 7. Fachsemesters; WiSe: 1. Oktober, SoSe: 15. März).
-6. Die *Bearbeitungszeit* Ihrer Abschlussarbeit endet *drei Monate* nach Beginn (WiSe: 31. Dezember, SoSe: 15. Juni).
-7. Ihr *Gutachten* und Ihre Note erhalten Sie bis zu Beginn des Folgesemester.
+5. Die *Bearbeitungszeit* Ihrer Abschlussarbeit *beginnt* mit *Start* des jeweiligen FS (z.B. 7. Fachsemesters; WiSe: 15. Oktober, SoSe: 1. April).
+6. Die *Bearbeitungszeit* Ihrer Abschlussarbeit endet *drei Monate* nach Beginn.
+7. Ihr *Gutachten* und Ihre Note erhalten Sie i.d.R. bis zu Beginn des Folgesemester.
 
 
 
@@ -196,11 +201,13 @@ optional: Projektplan (Zeit- und Arbeitsplan)
 
 
 
-## Wie "groß" soll meine  Studie sein?
+## Mengengerüst: Wie "groß" soll meine  Studie sein?
 
 
 
-Hier folgt ein grobes Mengengerüst für die (empirische) Studie Ihrer Abschlussarbeit, damit Sie eine Einschätzung, wie viel "gut" ist (Teilnote 2). Dieses Mengengerüst passt nicht für alle Situationen. 
+Hier folgt ein grobes Mengengerüst für die (empirische) Studie Ihrer Abschlussarbeit, 
+damit Sie eine Einschätzung, wie viel "gut" ist (Teilnote 2). 
+Dieses Mengengerüst passt nicht für alle Situationen. 
 Bitte sprechen Sie mich im Zweifel darauf an bzw. begründen Sie Ihren Studienaufbau im Exposé und in der Thesis. 
 
 
@@ -315,9 +322,9 @@ Bitte *füllen Sie das Formular entsprechend aus*, bevor Sie es mir schicken. D.
 
 ## Wie viel Literatur soll ich zitieren?
 
-- Für eine gute Teilnote sollte Ihr Literaturumfang ca. *40-50 Quellen (Bachelor)* bzw.* 60-80 Quellen (Master)* betragen bei einer empirischen Arbeit. Bei einer *theoretischen* Arbeit ist mit dem Faktor 2 zu rechnen.
 
-- Ca. 30% (Bachelor) bzw. 50% (Master) der zitierten Literatur sollte sich aus Fachartikeln speisen.
+Für eine gute Teilnote sollte Ihr Literaturumfang ca. *40-50 Quellen (Bachelor)* bzw.* 60-80 Quellen (Master)* betragen bei einer empirischen Arbeit. Bei einer *theoretischen* Arbeit ist mit dem Faktor 2 zu rechnen.
+Ca. 30-50% (Bachelor) bzw. 50-70% (Master) der zitierten Literatur sollte sich aus Fachartikeln speisen für eine gute Teilnote.
 
 
 
