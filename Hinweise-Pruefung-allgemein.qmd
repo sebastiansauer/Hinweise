@@ -195,9 +195,15 @@ Immer wieder kommt es vor, dass Studierende Beanstandungen zu einer Prüfung vor
 
 ### Prüfungseinsicht
 
-Eine Prüfungseinsicht wird für jede Prüfung dieser Art dieses Dozenten bereit gestellt (online).
-Der Termin wird allen Prüflingen rechtzeitig bekannt gegeben.
-Zur Prüfungseinsicht öffnen Sie bitte Ihre Aufgabenstellung.
+Sie haben das Recht, Ihre Prüfungsergebnisse einzusehen innerhalb der gesetzlich geregelten Fristen.
+Eine Prüfungseinsicht wird von mir rechtzeitig (innerhalb der Frist) bereit gestellt (online).
+Beachten Sie bitte, dass für bestimmte Prüfungsformate keine Einsicht möglich ist bzw. die Einsicht schon vorab veröffentlicht sein kann:
+
+- Bei Projekt- oder Abschlussarbeiten stelle ich ggf. ein Gutachten schon vorab bereit (z.B. via Moodle). Ich schreibe *nichts* in Ihre Projektarbeit. Außerhalb des Gutachtens gibt es (bei mir) nichts einzusehen.
+- Bei Prognosewettbewerben gründet sich die Note primär oder komplett auf die Vorhersagegüte. In aller Regel gibt es keine weiteren Korrekturen oder Hinweise zur Analyse. Daher gibt es keine Einsichtnahme für diese Prüfungsform.
+
+Der Termin zur Einsichtnahme wird allen Prüflingen rechtzeitig bekannt gegeben.
+Zur Prüfungseinsicht öffnen Sie bitte Ihre Aufgabenstellung in Moodle.
 Die Musterlösung sowie Ihre Antwort inkl. Bewertung (richtig/falsch) wird dann angezeigt.
 
 
@@ -215,21 +221,23 @@ Bitte halten Sie folgende Reihenfolge ein:
 2. *Formale Hinweise*: Lesen Sie sich die formalen Hinweise zur Prüfung, ihren Anforderungen und typischen Fehlern genau durch, um zu sehen, ob Ihr Kritikpunkt nicht vielleicht in den Hinweisen zur Prüfung schon aufgegriffen wird.
 2. *Gespräch* mit *Gutachter*: Sprechen Sie mit der Lehrkraft, versichern Sie zunächst, dass Sie alle Hinwiese gelesen haben. Vielleicht kann man in einem Gespräch etwaige Missverständnisse klären.
 3. *Formal Widerspruch einlegen*: Sie können formlos beim Studierendenservice Widerspruch einlegen (nur bis 4 Wochen nach Notenbekanntgabe). Ihr Widerspruch wird dann in der Fakultät geprüft. Der Studierendenservice lässt sich die Unterlagen des Prüfers geben und leitet den Widerspruch und die Prüfung an den Prüfungsausschuss weiter. Dieser entscheidet über die Note. Nur im Zweifelsfall kommt hier noch der Zweitprüfer ins Spiel.
-4. Der *Rechtsweg* steht Ihnen offen.
+4. Prüfen Sie ggf. rechtliche Schritte.
 
 
 Folgenden Kritikpunkte von Studentis führen i.d.R. *nicht* zu einer Änderung der Note:
 
-- "Das ist zu streng benotet."
-- "Da war kein konstruktives Feedback dabei."
-- "Der Gutachter hat nicht geschrieben, wie man den Satz/das Argument/die Seminararbeit besser formuliert hätte."
-- "Die Note passt nicht zu den Hinweisen der Gutachterin."
-- "Die Gutachterin konnte mir die Note nicht verständlich machen."
-- "Eine andere Studentin hat das aber so ähnlich geschrieben wie ich, und ihre Arbeit wurde besser benotet" - die Vergleichbarkeit von Seminararbeiten ist komplex, die Gesamtnote setzt sich aus vielen Aspekten zusammen, so dass man anhand eines einzelnen Aspekts nicht die Vergleichbarkeit der Noten beurteilen kann.
-- "Die Aufgaben waren zu schwierig."
-- "Ich bin mit der Note nicht zufrieden. Ich hätte mir was Besseres erhofft."
-- "Ich habe nichts aus dem Gutachten gelernt."
-- "Da war kaum Negatives im Gutachten."
+- "Das ist zu *streng* benotet."
+- "Da war *kein konstruktives* Feedback dabei."
+- "Der Gutachter hat nicht geschrieben, wie man den Satz/das Argument/die Seminararbeit *besser formuliert* hätte."
+- "Die *Note passt nicht zu den Hinweisen* der Gutachterin."
+- "Der Gutachter *konnte mir die Note nicht verständlich* machen."
+- "Eine *andere Studentin* hat das aber so ähnlich geschrieben wie ich, und ihre Arbeit wurde *besser benotet*" - die Vergleichbarkeit von Seminararbeiten ist komplex, die Gesamtnote setzt sich aus vielen Aspekten zusammen, so dass man anhand eines einzelnen Aspekts nicht die Vergleichbarkeit der Noten beurteilen kann.
+- "Die Aufgaben waren zu *schwierig.*"
+- "Ich bin mit der Note *nicht zufrieden*. Ich hätte mir was Besseres erhofft."
+- "Ich habe *nichts aus dem Gutachten gelernt*."
+- "Da war *kaum Negatives* im Gutachten."
+- "Ich hätte mir *mehr Unterstützung* von Ihnen gewünscht."
+
 
 
 Folgenden Kritikpunkte von Studentis haben *Aussicht* auf eine *Änderung* der Note:
