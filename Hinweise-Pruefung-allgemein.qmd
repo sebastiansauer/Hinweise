@@ -207,8 +207,17 @@ Zur Prüfungseinsicht öffnen Sie bitte Ihre Aufgabenstellung in Moodle.
 Die Musterlösung sowie Ihre Antwort inkl. Bewertung (richtig/falsch) wird dann angezeigt.
 
 
+Bitte beachten Sie bei der Einsichtnahme:
 
-### Beanstandung der Note
+1. Die Einsichtnahme findet individuell und online statt.
+2. Der Prüfer ist nicht anwesend.
+3. Falls Sie der Meinung sind, einen Fehler in einer Aufgabe oder der Korrektur gefunden zu haben, beachten Sie bitte die Hinweise unter @sec-beanstandung.
+
+
+
+
+
+### Beanstandung der Note {#sec-beanstandung}
 
 
 Falls Sie der Meinung sind, der Gutachter hätte Ihre Arbeit nicht korrekt beurteilt, 
