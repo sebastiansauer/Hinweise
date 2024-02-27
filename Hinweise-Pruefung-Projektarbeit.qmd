@@ -198,7 +198,7 @@ Bei empirischen, quantitativen Arbeiten:
   - Beobachtend: 50 Fälle 
 - Designumfang (ca.)
   - Experimentell: 2-3 Variablen
-  - Beobachtend: 3-4 Variablen b
+  - Beobachtend: 3-4 Variablen 
 
 
 Aufgrund der hohen individuellen Unterschiede von Forschungsfragen können nur ein *grober Rahmen* aufgezeigt werden.

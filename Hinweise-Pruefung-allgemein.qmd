@@ -136,10 +136,10 @@ Als "behandelter" Stoff gelten alle Inhalte, die als *prüfungsrelevant* gekennz
 ## Plagiate
 
 Lassen Sie äußerste Vorsicht walten, dass sich keine Plagiate in Ihrer Abschlussarbeit finden. 
-Finden sich Plagiate, so wird die Arbeit mit "nicht bestanden" beurteilet. 
+Finden sich Plagiate, so wird die Arbeit mit "nicht bestanden" beurteilt. 
 Eine Leistung als die eigene auszugeben, die aber gar nicht die eigene ist, ist unlauter. 
 Bitte bedenken Sie auch, dass Verteidigungen wie "war keine Absicht, hab nicht aufgepasst" nicht ausreichen: 
-*Sie* sind für die Qualität und Redlichkeit Ihrer Arbeit verantwortlich. 
+Die Autorin bzw. der Autor, also *Sie*, sind für die Qualität und Redlichkeit der eigenen Arbeit verantwortlich. 
 In Ihrer Verantwortung liegt entsprechend die notwendige Sorgfalt, Plagiate zu vermeiden. 
 Auch die Replik "Mein Literaturprogramm oder Word muss hier einen Fehler gemacht haben" wird nicht gelten gelassen werden. 
 Hier gilt wieder: Sie sind für die Qualität und Redlichkeit Ihrer Abschlussarbeit verantwortlich; 
@@ -162,6 +162,51 @@ Eine faire Prüfung heißt: *Gleiche Chancen für alle*, und *gute Leistung wird
 
 
 
+## Einsatz von KI-Tools
+
+Bei diesem Prüfer (Prof. Sauer) dürfen Sie KI-Tools ohne Einschränkung nutzen, sofern nicht explizit anders bei der jeweiligen Prüfung ausgewiesen (z.B. auf der jeweiligen Moodle-Seite).
+
+:::{#exm-ki-pruef}
+### Wo Ihnen welche KI-Tools helfen können
+
+Hier ist eine an Beispielen von KI-Tools und ihrer Einsatzmöglichkeit. Beachten Sie bitte, dass die Entwicklung sehr dynamisch ist, so dass diese Liste nicht unbedingt alle "besten" Tools beinhaltet.
+Es geht vielmehr darum, Sie zu inspirieren und Ihnen Startpunkte aufzuzeigen.
+Die aufgeführten Tools sind nicht im Sinne einer expliziten Empfehlung zu verstehen.^[Der Autor hat keine geschäftlichen Beziehungen zu den Organisationen, die diese Tools anbieten.]
+
+
+
+- Identifikation geeigneter *Literaturquellen*, [Elicit](https://elicit.com/), [Perplexity](https://www.perplexity.ai/)
+- Erstellung eines *Gliederungsvorschlags*, [ChatGPT](https://chat.openai.com/), [Gemini](https://gemini.google.com/app)
+- *Übersetzung* Ihres Texts von Deutsch auf Englisch, [DeepL](https://www.deepl.com/translator)
+- Verbesserung des *Sprachflusses*, [Grammarly](https://www.grammarly.com/), [ChatGPT](https://chat.openai.com/)
+- Ausgabe von *Computer-Code*, z.B. um eine Analyse mit R durchzuführen, [ChatGPT](https://chat.openai.com/), [StackOverflow AI](https://stackoverflow.com/ai/search)
+- Ausgabe eines *Textentwurfs*, [ChatGPT](https://chat.openai.com/) $\square$
+:::
+
+
+:::{#callout-important}
+Der Autor bzw. die Autorin eines Textes und damit Träger der Verantwortung sind Sie, die Person.
+Wenn Sie die Vorteile bestimmter technischer Systeme nutzen, so tragen Sie auch das Risiko für Nebenwirkungen.
+Es ist nicht möglich, die Verantwortung für Ihr Handeln auf eine Maschine oder einen Dienst abzuschieben.
+
+*Sie sind in der Verantwortung für Ihren Text, Ihre Arbeit und Ihr Handeln.* KI hin oder her. $\square$
+:::
+
+:::{#callout-caution}
+### Fabulieren
+Manche KI-Tools neigen zum Fabulieren, erfinden also Dinge, die es nicht gibt; liefern also falsche, unpräzise oder veraltete Information. Und sie tun das mit hoher Überzeugung.
+
+
+### Bias
+Ein Sprachmodell ist eine Art Trichter von einer großen Menge an Texten aus dem Internet. Texten, die Menschen geschrieben haben.
+Alle Vorurteile oder Stereotypen, die Sie etwa in einem Forum in den sozialen Netzwerken finden, haben gute Chancen als Antwort auf Ihren Prompt von der KI ausgegeben zu werden.
+
+### Schwafel
+Manche^[alle?] KI-Tools neigen zu Oberflächlichkeit, blumigem Ausdruck und unsteter Argumentation.
+
+
+Seien Sie also kritisch gegenüber der Informationen aus einem KI-Tools. $\square$
+:::
 
 
 ## Korrekturhinweise

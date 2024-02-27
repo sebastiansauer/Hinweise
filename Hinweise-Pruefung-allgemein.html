@@ -34,6 +34,35 @@ ul.task-list li input[type="checkbox"] {
 <link href="Hinweise-Pruefung-allgemein_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="Hinweise-Pruefung-allgemein_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -130,11 +159,45 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="plagiate" class="level2">
 <h2 class="anchored" data-anchor-id="plagiate">Plagiate</h2>
-<p>Lassen Sie äußerste Vorsicht walten, dass sich keine Plagiate in Ihrer Abschlussarbeit finden. Finden sich Plagiate, so wird die Arbeit mit “nicht bestanden” beurteilet. Eine Leistung als die eigene auszugeben, die aber gar nicht die eigene ist, ist unlauter. Bitte bedenken Sie auch, dass Verteidigungen wie “war keine Absicht, hab nicht aufgepasst” nicht ausreichen: <em>Sie</em> sind für die Qualität und Redlichkeit Ihrer Arbeit verantwortlich. In Ihrer Verantwortung liegt entsprechend die notwendige Sorgfalt, Plagiate zu vermeiden. Auch die Replik “Mein Literaturprogramm oder Word muss hier einen Fehler gemacht haben” wird nicht gelten gelassen werden. Hier gilt wieder: Sie sind für die Qualität und Redlichkeit Ihrer Abschlussarbeit verantwortlich; die Verantwortung ist nicht an eine Maschine delegierbar. Beachten Sie auch, dass sowohl direkte als auch indirekte Zitate als solche kenntlich gemacht sein müssen.</p>
+<p>Lassen Sie äußerste Vorsicht walten, dass sich keine Plagiate in Ihrer Abschlussarbeit finden. Finden sich Plagiate, so wird die Arbeit mit “nicht bestanden” beurteilt. Eine Leistung als die eigene auszugeben, die aber gar nicht die eigene ist, ist unlauter. Bitte bedenken Sie auch, dass Verteidigungen wie “war keine Absicht, hab nicht aufgepasst” nicht ausreichen: Die Autorin bzw. der Autor, also <em>Sie</em>, sind für die Qualität und Redlichkeit der eigenen Arbeit verantwortlich. In Ihrer Verantwortung liegt entsprechend die notwendige Sorgfalt, Plagiate zu vermeiden. Auch die Replik “Mein Literaturprogramm oder Word muss hier einen Fehler gemacht haben” wird nicht gelten gelassen werden. Hier gilt wieder: Sie sind für die Qualität und Redlichkeit Ihrer Abschlussarbeit verantwortlich; die Verantwortung ist nicht an eine Maschine delegierbar. Beachten Sie auch, dass sowohl direkte als auch indirekte Zitate als solche kenntlich gemacht sein müssen.</p>
 <p>Ihre Prüfungsarbeiten können auf Plagiate hin untersucht werden, auch unter Einsat von maschinellen Methoden oder KI-basierten Methoden (z.B. mit <a href="https://pubmed.ncbi.nlm.nih.gov/37426542/">dieser Methode</a>). Dabei können die Daten auch an Drittanbieter (z.B. Anbieter von Software zur Plagiatserkennung).</p>
 <p>Bitte beachten: Angenommen in den Projektarbeiten von Studenti A und B werden (substanzielle) Überlappungen gefunden. In dem Fall ist davon auszugehen, dass <em>beide</em> Studentis getäuscht haben: eine/r hat abgeschrieben, der/die andere hat die eigene Arbeit dafür bereitgestellt. Daher wird in diesem Fall u.U. bei beiden Studentis der Plagiatsfall festgestellt und geahndet (z.B. mit “nicht bestanden” bewertet). Die genauen Konsequenzen legt die Prüfungskommission im Einzelfall fest.</p>
 <p>Lassen Sie es auf keinen Fall soweit kommen: Schreiben Sie nicht ab und lassen Sie niemanden von Ihrer Arbeit abschreiben.</p>
 <p>Eine faire Prüfung heißt: <em>Gleiche Chancen für alle</em>, und <em>gute Leistung wird belohnt</em>, Täuschung nicht.</p>
+</section>
+<section id="einsatz-von-ki-tools" class="level2">
+<h2 class="anchored" data-anchor-id="einsatz-von-ki-tools">Einsatz von KI-Tools</h2>
+<p>Bei diesem Prüfer (Prof.&nbsp;Sauer) dürfen Sie KI-Tools ohne Einschränkung nutzen, sofern nicht explizit anders bei der jeweiligen Prüfung ausgewiesen (z.B. auf der jeweiligen Moodle-Seite).</p>
+<div id="exm-ki-pruef" class="theorem example">
+<p><span class="theorem-title"><strong>Example 1 (Wo Ihnen welche KI-Tools helfen können)</strong></span> Hier ist eine an Beispielen von KI-Tools und ihrer Einsatzmöglichkeit. Beachten Sie bitte, dass die Entwicklung sehr dynamisch ist, so dass diese Liste nicht unbedingt alle “besten” Tools beinhaltet. Es geht vielmehr darum, Sie zu inspirieren und Ihnen Startpunkte aufzuzeigen. Die aufgeführten Tools sind nicht im Sinne einer expliziten Empfehlung zu verstehen.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<ul>
+<li>Identifikation geeigneter <em>Literaturquellen</em>, <a href="https://elicit.com/">Elicit</a>, <a href="https://www.perplexity.ai/">Perplexity</a></li>
+<li>Erstellung eines <em>Gliederungsvorschlags</em>, <a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://gemini.google.com/app">Gemini</a></li>
+<li><em>Übersetzung</em> Ihres Texts von Deutsch auf Englisch, <a href="https://www.deepl.com/translator">DeepL</a></li>
+<li>Verbesserung des <em>Sprachflusses</em>, <a href="https://www.grammarly.com/">Grammarly</a>, <a href="https://chat.openai.com/">ChatGPT</a></li>
+<li>Ausgabe von <em>Computer-Code</em>, z.B. um eine Analyse mit R durchzuführen, <a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://stackoverflow.com/ai/search">StackOverflow AI</a></li>
+<li>Ausgabe eines <em>Textentwurfs</em>, <a href="https://chat.openai.com/">ChatGPT</a> <span class="math inline">\(\square\)</span></li>
+</ul>
+</div>
+<div id="callout-important">
+<p>Der Autor bzw. die Autorin eines Textes und damit Träger der Verantwortung sind Sie, die Person. Wenn Sie die Vorteile bestimmter technischer Systeme nutzen, so tragen Sie auch das Risiko für Nebenwirkungen. Es ist nicht möglich, die Verantwortung für Ihr Handeln auf eine Maschine oder einen Dienst abzuschieben.</p>
+<p><em>Sie sind in der Verantwortung für Ihren Text, Ihre Arbeit und Ihr Handeln.</em> KI hin oder her. <span class="math inline">\(\square\)</span></p>
+</div>
+<div id="callout-caution">
+<section id="fabulieren" class="level3">
+<h3 class="anchored" data-anchor-id="fabulieren">Fabulieren</h3>
+<p>Manche KI-Tools neigen zum Fabulieren, erfinden also Dinge, die es nicht gibt; liefern also falsche, unpräzise oder veraltete Information. Und sie tun das mit hoher Überzeugung.</p>
+</section>
+<section id="bias" class="level3">
+<h3 class="anchored" data-anchor-id="bias">Bias</h3>
+<p>Ein Sprachmodell ist eine Art Trichter von einer großen Menge an Texten aus dem Internet. Texten, die Menschen geschrieben haben. Alle Vorurteile oder Stereotypen, die Sie etwa in einem Forum in den sozialen Netzwerken finden, haben gute Chancen als Antwort auf Ihren Prompt von der KI ausgegeben zu werden.</p>
+</section>
+<section id="schwafel" class="level3">
+<h3 class="anchored" data-anchor-id="schwafel">Schwafel</h3>
+<p>Manche<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> KI-Tools neigen zu Oberflächlichkeit, blumigem Ausdruck und unsteter Argumentation.</p>
+<p>Seien Sie also kritisch gegenüber der Informationen aus einem KI-Tools. <span class="math inline">\(\square\)</span></p>
+</section>
+</div>
 </section>
 <section id="korrekturhinweise" class="level2">
 <h2 class="anchored" data-anchor-id="korrekturhinweise">Korrekturhinweise</h2>
@@ -169,7 +232,7 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>Die Einsichtnahme findet individuell und online statt.</li>
 <li>Der Prüfer ist nicht anwesend.</li>
-<li>Falls Sie der Meinung sind, einen Fehler in einer Aufgabe oder der Korrektur gefunden zu haben, beachten Sie bitte die Hinweise unter <a href="#sec-beanstandung" class="quarto-xref">Section&nbsp;8.4</a>.</li>
+<li>Falls Sie der Meinung sind, einen Fehler in einer Aufgabe oder der Korrektur gefunden zu haben, beachten Sie bitte die Hinweise unter <a href="#sec-beanstandung" class="quarto-xref">Section&nbsp;9.4</a>.</li>
 </ol>
 </section>
 <section id="sec-beanstandung" class="level3">
@@ -222,7 +285,14 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 </section>
 
-</main>
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>Der Autor hat keine geschäftlichen Beziehungen zu den Organisationen, die diese Tools anbieten.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>alle?<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section></div></main>
 <!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
