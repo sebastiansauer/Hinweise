@@ -162,9 +162,14 @@ Eine faire Prüfung heißt: *Gleiche Chancen für alle*, und *gute Leistung wird
 
 
 
-## Einsatz von KI-Tools
+## Einsatz von KI-Diensten
 
 Bei diesem Prüfer (Prof. Sauer) dürfen Sie KI-Tools ohne Einschränkung nutzen, sofern nicht explizit anders bei der jeweiligen Prüfung ausgewiesen (z.B. auf der jeweiligen Moodle-Seite).
+
+Dabei haben Sie eine *Angabepflicht*, wo und wofür Sie KI-Dienste verwendet haben.
+Es bietet sich an, im Anhang zu erwähnen, in welchen Kapiteln Sie welchen KI-Dienst verwendet haben. 
+Es ist nicht nötig, auf einzelne Absätze (oder genauer) einzugehen.
+
 
 :::{#exm-ki-pruef}
 ### Wo Ihnen welche KI-Tools helfen können
@@ -193,16 +198,14 @@ Es ist nicht möglich, die Verantwortung für Ihr Handeln auf eine Maschine oder
 :::
 
 :::{.callout-caution}
-### Fabulieren
-Manche KI-Tools neigen zum Fabulieren, erfinden also Dinge, die es nicht gibt; liefern also falsche, unpräzise oder veraltete Information. Und sie tun das mit hoher Überzeugung.
+Manche KI-Tools neigen zum *Fabulieren*, erfinden also Dinge, die es nicht gibt; liefern also falsche, unpräzise oder veraltete Information. Und sie tun das mit hoher Überzeugung.
 
 
-### Bias
 Ein Sprachmodell ist eine Art Trichter von einer großen Menge an Texten aus dem Internet. Texten, die Menschen geschrieben haben.
-Alle Vorurteile oder Stereotypen, die Sie etwa in einem Forum in den sozialen Netzwerken finden, haben gute Chancen als Antwort auf Ihren Prompt von der KI ausgegeben zu werden.
+Alle *Vorurteile* oder Stereotypen, die Sie etwa in einem Forum in den sozialen Netzwerken finden, haben gute Chancen als Antwort auf Ihren Prompt von der KI ausgegeben zu werden. Achten Sie daher auf Anzeichen von diskriminierender Sprache, wenn Sie ein KI-Sprachmodell verwenden.
 
-### Schwafel
-Manche^[alle?] KI-Tools neigen zu Oberflächlichkeit, blumigem Ausdruck und unsteter Argumentation.
+
+Manche^[alle?] KI-Tools neigen zu Oberflächlichkeit, blumigem Ausdruck und unsteter Argumentation ("*Schwafel*"). Wissenschaftliche Sprache ist dagegen präzise. Prüfen Sie etwaige Formulierungsvorschläge eines Sprachmodells daraufhin.
 
 
 Seien Sie also kritisch gegenüber der Informationen aus einem KI-Tools. $\square$
