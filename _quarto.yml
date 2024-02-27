@@ -1,5 +1,17 @@
 project:
   type: book
+  
+  
+filters:
+  - search-replace
+search-replace:
+  z.B.  : "z.&thinsp;B."
+  Z.B.  : "Z.&thinsp;B."
+  d.h.  : "d.&thinsp;h."
+  +br    : <br>\newline
+  i.d.R : "i.&thinspd.&thinspRegel"
+  
+  
 
 book:
   title: "Hinweise"
