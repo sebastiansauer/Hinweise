@@ -11,12 +11,30 @@ search-replace:
   +br    : <br>\newline
   i.d.R : "i.&thinspd.&thinspRegel"
   
+lang: de
+citation: true
+#google-scholar: true
+description: |
+  "Hinweise zu Prüfungen und Lehre bei Prof. Sebastian Sauer"
+license: "MIT" 
+
   
 
 book:
   title: "Hinweise"
-  author: "Sebastian Sauer"
-  date: today
+  author: 
+    - name: Sebastian Sauer
+      orcid: 0000-0003-1515-8348
+  image: img/hinweise-logo.png
+  description: "Hinweise zu Prüfungen und Lehre bei Prof. Sebastian Sauer"
+  date: now
+  
+  sidebar: 
+    logo: img/hinweise-logo.png
+  favicon: img/hinweise-logo.png
+  repo-url: https://github.com/sebastiansauer/hinweise
+  
+  
   chapters:
     - index.qmd
     - part: "Prüfungen"
@@ -47,8 +65,6 @@ book:
         - Beispiele-Fehler-Datenanalyse-frame.qmd
         - Beispiele-Fehler-Projektarbeiten-frame.qmd
         
-  
-lang: de
 
 bibliography: bib/bib.bib
 
