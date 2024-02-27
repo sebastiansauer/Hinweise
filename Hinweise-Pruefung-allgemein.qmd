@@ -184,7 +184,7 @@ Die aufgeführten Tools sind nicht im Sinne einer expliziten Empfehlung zu verst
 :::
 
 
-:::{#callout-important}
+:::{.callout-important}
 Der Autor bzw. die Autorin eines Textes und damit Träger der Verantwortung sind Sie, die Person.
 Wenn Sie die Vorteile bestimmter technischer Systeme nutzen, so tragen Sie auch das Risiko für Nebenwirkungen.
 Es ist nicht möglich, die Verantwortung für Ihr Handeln auf eine Maschine oder einen Dienst abzuschieben.
@@ -192,7 +192,7 @@ Es ist nicht möglich, die Verantwortung für Ihr Handeln auf eine Maschine oder
 *Sie sind in der Verantwortung für Ihren Text, Ihre Arbeit und Ihr Handeln.* KI hin oder her. $\square$
 :::
 
-:::{#callout-caution}
+:::{.callout-caution}
 ### Fabulieren
 Manche KI-Tools neigen zum Fabulieren, erfinden also Dinge, die es nicht gibt; liefern also falsche, unpräzise oder veraltete Information. Und sie tun das mit hoher Überzeugung.
 
