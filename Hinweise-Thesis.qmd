@@ -36,8 +36,19 @@ Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
 
 ## Liste meiner freien Themen {#sec-themenliste}
 
-👉 [Meine Liste freier Themen](https://docs.google.com/spreadsheets/d/1m9KOCF1LzLXnO2eEXZTspYslh8RHfiuWp3oHGySd7OE/edit?usp=sharing) 👈 
+<!-- 👉 [Meine Liste freier Themen](https://docs.google.com/spreadsheets/d/1m9KOCF1LzLXnO2eEXZTspYslh8RHfiuWp3oHGySd7OE/edit?usp=sharing) 👈  -->
 
+
+
+```{r thesisliste}
+#| echo: false
+
+d <- readxl::read_xlsx("/Users/sebastiansaueruser/Google Drive/Semester/Lehre_AKTUELL/Thesis/Thesisthemen-Prof-Sauer.xlsx")
+
+knitr::kable(d)
+
+# gt::gt(d)
+```
 
 
 
