@@ -45,6 +45,10 @@ Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
 
 d <- readxl::read_xlsx("/Users/sebastiansaueruser/Google Drive/Semester/Lehre_AKTUELL/Thesis/Thesisthemen-Prof-Sauer.xlsx")
 
+d <-
+  d |> 
+  dplyr::filter(Status == "verfügbar")
+
 knitr::kable(d)
 
 # gt::gt(d)
