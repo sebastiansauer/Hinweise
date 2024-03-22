@@ -49,7 +49,8 @@ d <-
   d |> 
   dplyr::filter(Status == "verfügbar")
 
-knitr::kable(d)
+d |> 
+  DT::datatable(escape = FALSE)
 
 # gt::gt(d)
 ```
