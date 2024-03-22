@@ -208,7 +208,7 @@ Alle *Vorurteile* oder Stereotypen, die Sie etwa in einem Forum in den sozialen 
 Manche^[alle?] KI-Tools neigen zu Oberflächlichkeit, blumigem Ausdruck und unsteter Argumentation ("*Schwafel*"). Wissenschaftliche Sprache ist dagegen präzise. Prüfen Sie etwaige Formulierungsvorschläge eines Sprachmodells daraufhin.
 
 
-Seien Sie also kritisch gegenüber der Informationen aus einem KI-Tools. $\square$
+Seien Sie also kritisch gegenüber der Informationen aus KI-Tools. $\square$
 :::
 
 

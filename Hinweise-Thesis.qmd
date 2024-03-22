@@ -30,11 +30,11 @@ Wenn Sie sich bei mir für Ihre Abschlussarbeit anmelden, gehe ich davon aus, da
 
 ## Themenwahl
 
-Sie können selber ein Thema vorschlagen oder eines der Themen wählen, die ich in [meiner Liste freier Themen](https://docs.google.com/spreadsheets/d/1m9KOCF1LzLXnO2eEXZTspYslh8RHfiuWp3oHGySd7OE/edit?usp=sharing) anbiete. Das Thema soll in Bezug stehen zu Ihrem Studiengang.  Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
+Sie können selber ein Thema vorschlagen oder eines der Themen wählen, die ich in meiner Liste freier Themen anbiete (s. @sec-themenliste). Das Thema soll in Bezug stehen zu Ihrem Studiengang.  Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
 Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
 
 
-## Liste meiner freien Themen
+## Liste meiner freien Themen {#sec-themenliste}
 
 👉 [Meine Liste freier Themen](https://docs.google.com/spreadsheets/d/1m9KOCF1LzLXnO2eEXZTspYslh8RHfiuWp3oHGySd7OE/edit?usp=sharing) 👈 
 

@@ -9,7 +9,7 @@ search-replace:
   Z.B.  : "Z.&thinsp;B."
   d.h.  : "d.&thinsp;h."
   +br    : <br>\newline
-  i.d.R : "i.&thinspd.&thinspRegel"
+  i.d.R : "i.&thinsp;d.&thinsp;Regel"
   
 lang: de
 citation: true
