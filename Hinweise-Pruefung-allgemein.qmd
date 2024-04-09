@@ -166,9 +166,19 @@ Eine faire Prüfung heißt: *Gleiche Chancen für alle*, und *gute Leistung wird
 
 Bei diesem Prüfer (Prof. Sauer) dürfen Sie KI-Tools ohne Einschränkung nutzen, sofern nicht explizit anders bei der jeweiligen Prüfung ausgewiesen (z.B. auf der jeweiligen Moodle-Seite).
 
-Dabei haben Sie eine *Angabepflicht*, wo und wofür Sie KI-Dienste verwendet haben.
-Es bietet sich an, im Anhang zu erwähnen, in welchen Kapiteln Sie welchen KI-Dienst verwendet haben. 
-Es ist nicht nötig, auf einzelne Absätze (oder genauer) einzugehen.
+Dabei haben Sie eine *Angabepflicht*, *wo*,   *wofür* und *welche*  KI-Dienste Sie verwendet haben.
+Der Anhang ist ein sinnvoller Ort, um den Angaben für Ihren KI-Einsatz zu detaillieren.
+Geben Sie dabei an, 
+ 
+- in welchen Kapiteln
+- welche KI-Dienst (inkl. Version und Anbieter)
+- Sie für welchen Zweck verwendet haben. Unter *Zweck* fallen z.B. folgende Verwendung: Zusammenfassung von Literatur, Entwurf einer Gliederung, Umformulieren von Textpassagen, Korrektur von Grammatik und Orthographie, Übersetzung, Entwurf einer Argumentationsstruktur.
+
+
+Es ist *nicht* nötig, 
+
+ - die KI-Verwendung auf einzelne Absätze (oder genauer) aufzuschlüsseln. Es reicht eine Aufschlüsselung pro Unterkapitel.
+ - die Prompts anzugeben.
 
 
 :::{#exm-ki-pruef}

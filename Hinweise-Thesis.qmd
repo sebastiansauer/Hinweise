@@ -248,8 +248,6 @@ Bitte sprechen Sie mich im Zweifel darauf an bzw. begründen Sie Ihren Studienau
 
 
 
-- Interview-Studie: ca. 120-150 Min. Interviewdauer (insgesamt), meist bieten sich mehrere Interviewpartner an
-
 
 
 Grundsätzlich gilt hier: Mehr ist besser :-)
@@ -260,17 +258,22 @@ Grundsätzlich gilt hier: Mehr ist besser :-)
 
 Da die Aussagekraft von Experimenten i.d.R. höher ist als die Aussagekraft einer Beobachtungsstudie, sollten Sie einem Experiment - sofern möglich - den Vorzug geben. Falls Sie ein Beobachtungsdesign wählen, um kausale Aussagen zu tätigen, sollten Sie die Wahl rechtfertigen und unter Verwendung einer Theorie (die Verwendung eines DAGs ist zu empfehlen) die Stichhaltigkeit Ihres Designs erläutern.
 
-Wenn Sie ein qualitatives Design bearbeiten, dann ist die *Grounded Theory* der *Inhaltsanalyse* von Mayring zu bevorzugen.
 
 
 ### Qualitative Studie
 
 Ca. 8-10 Interviews zu je 30 Minuten Länge sind eine nützliche Richtgröße.
 
+
+Wenn Sie ein qualitatives Design bearbeiten, dann ist die *Grounded Theory* der *Inhaltsanalyse* von Mayring zu bevorzugen.
+
+
+
 Sie können KI-Tools zur Transkription nutzen wie z.B. [riverside](https://riverside.fm/transcription).
 
 
-### Reviews
+
+### Systematische Reviews
 
 In die Feinanalyse sollten ca. 80-100 Reviews einfließen.
 
