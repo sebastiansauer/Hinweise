@@ -8,7 +8,7 @@
 
 <meta name="description" content="Hinweise zu Prüfungen und Lehre bei Prof.&nbsp;Sebastian Sauer">
 
-<title>Hinweise - 16&nbsp; Prüfungsvorbereitung</title>
+<title>Hinweise - 7&nbsp; Projektarbeit</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Hinweise-Lernhilfen-frame.html" rel="next">
-<link href="./140-boni.html" rel="prev">
+<link href="./070-Hinweise-Pruefung-Gruppenarbeit-frame.html" rel="next">
+<link href="./050-Hinweise-Pruefung-Praesentation-frame.html" rel="prev">
 <link href="./img/hinweise-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -73,6 +73,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -85,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Hinweise-Pruefungsvorbereitung-frame.html">Lernen</a></li><li class="breadcrumb-item"><a href="./Hinweise-Pruefungsvorbereitung-frame.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Prüfungsvorbereitung</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./010-Hinweise-Pruefung-allgemein-frame.html">Prüfungen</a></li><li class="breadcrumb-item"><a href="./060-Hinweise-Pruefung-Projektarbeit-frame.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Projektarbeit</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -164,7 +193,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./060-Hinweise-Pruefung-Projektarbeit-frame.html" class="sidebar-item-text sidebar-link">
+  <a href="./060-Hinweise-Pruefung-Projektarbeit-frame.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Projektarbeit</span></span></a>
   </div>
 </li>
@@ -240,7 +269,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Hinweise-Pruefungsvorbereitung-frame.html" class="sidebar-item-text sidebar-link active">
+  <a href="./Hinweise-Pruefungsvorbereitung-frame.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Prüfungsvorbereitung</span></span></a>
   </div>
 </li>
@@ -291,18 +320,31 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#tipps" id="toc-tipps" class="nav-link active" data-scroll-target="#tipps"><span class="header-section-number">16.1</span> Tipps</a></li>
-  <li><a href="#lösen-sie-die-aufgaben" id="toc-lösen-sie-die-aufgaben" class="nav-link" data-scroll-target="#lösen-sie-die-aufgaben"><span class="header-section-number">16.2</span> Lösen Sie die Aufgaben</a></li>
-  <li><a href="#schreiben-sie-zusammenfassungen" id="toc-schreiben-sie-zusammenfassungen" class="nav-link" data-scroll-target="#schreiben-sie-zusammenfassungen"><span class="header-section-number">16.3</span> Schreiben Sie Zusammenfassungen</a></li>
-  <li><a href="#arbeiten-sie-kontinuierlich-mit" id="toc-arbeiten-sie-kontinuierlich-mit" class="nav-link" data-scroll-target="#arbeiten-sie-kontinuierlich-mit"><span class="header-section-number">16.4</span> Arbeiten Sie kontinuierlich mit</a></li>
-  <li><a href="#ich-brauche-mehr-erklärung" id="toc-ich-brauche-mehr-erklärung" class="nav-link" data-scroll-target="#ich-brauche-mehr-erklärung"><span class="header-section-number">16.5</span> Ich brauche mehr Erklärung!</a></li>
-  <li><a href="#gibt-es-eine-art-probeklausur" id="toc-gibt-es-eine-art-probeklausur" class="nav-link" data-scroll-target="#gibt-es-eine-art-probeklausur"><span class="header-section-number">16.6</span> Gibt es eine Art “Probeklausur”?</a></li>
-  <li><a href="#was-sind-typische-fragen-in-der-prüfung" id="toc-was-sind-typische-fragen-in-der-prüfung" class="nav-link" data-scroll-target="#was-sind-typische-fragen-in-der-prüfung"><span class="header-section-number">16.7</span> Was sind typische Fragen in der Prüfung?</a></li>
-  <li><a href="#muss-man-ein-statistik-crack-sein-um-eine-gute-note-zu-schreiben" id="toc-muss-man-ein-statistik-crack-sein-um-eine-gute-note-zu-schreiben" class="nav-link" data-scroll-target="#muss-man-ein-statistik-crack-sein-um-eine-gute-note-zu-schreiben"><span class="header-section-number">16.8</span> Muss man ein Statistik-Crack sein, um eine gute Note zu schreiben?</a></li>
-  <li><a href="#welche-weiteren-hilfen-gibt-es" id="toc-welche-weiteren-hilfen-gibt-es" class="nav-link" data-scroll-target="#welche-weiteren-hilfen-gibt-es"><span class="header-section-number">16.9</span> Welche weiteren Hilfen gibt es?</a>
+  <li><a href="#prüfungsgegenstand" id="toc-prüfungsgegenstand" class="nav-link active" data-scroll-target="#prüfungsgegenstand"><span class="header-section-number">7.1</span> Prüfungsgegenstand</a>
   <ul class="collapse">
-  <li><a href="#prognose-wettbewerb" id="toc-prognose-wettbewerb" class="nav-link" data-scroll-target="#prognose-wettbewerb"><span class="header-section-number">16.9.1</span> Prognose-Wettbewerb</a></li>
-  <li><a href="#datenanalyse" id="toc-datenanalyse" class="nav-link" data-scroll-target="#datenanalyse"><span class="header-section-number">16.9.2</span> Datenanalyse</a></li>
+  <li><a href="#grundlagen" id="toc-grundlagen" class="nav-link" data-scroll-target="#grundlagen"><span class="header-section-number">7.1.1</span> Grundlagen</a></li>
+  <li><a href="#formale-anforderungen" id="toc-formale-anforderungen" class="nav-link" data-scroll-target="#formale-anforderungen"><span class="header-section-number">7.1.2</span> Formale Anforderungen</a></li>
+  <li><a href="#anfordungen-zum-textdokument" id="toc-anfordungen-zum-textdokument" class="nav-link" data-scroll-target="#anfordungen-zum-textdokument"><span class="header-section-number">7.1.3</span> Anfordungen zum Textdokument</a></li>
+  <li><a href="#formalia" id="toc-formalia" class="nav-link" data-scroll-target="#formalia"><span class="header-section-number">7.1.4</span> Formalia</a></li>
+  <li><a href="#methodische-anforderungen" id="toc-methodische-anforderungen" class="nav-link" data-scroll-target="#methodische-anforderungen"><span class="header-section-number">7.1.5</span> Methodische Anforderungen</a></li>
+  <li><a href="#spezifika-quantitativer-arbeiten" id="toc-spezifika-quantitativer-arbeiten" class="nav-link" data-scroll-target="#spezifika-quantitativer-arbeiten"><span class="header-section-number">7.1.6</span> Spezifika quantitativer Arbeiten</a></li>
+  <li><a href="#inhaltliche-anforderungen" id="toc-inhaltliche-anforderungen" class="nav-link" data-scroll-target="#inhaltliche-anforderungen"><span class="header-section-number">7.1.7</span> Inhaltliche Anforderungen</a></li>
+  </ul></li>
+  <li><a href="#benotung" id="toc-benotung" class="nav-link" data-scroll-target="#benotung"><span class="header-section-number">7.2</span> Benotung</a>
+  <ul class="collapse">
+  <li><a href="#aspekte-der-benotung" id="toc-aspekte-der-benotung" class="nav-link" data-scroll-target="#aspekte-der-benotung"><span class="header-section-number">7.2.1</span> Aspekte der Benotung</a></li>
+  <li><a href="#gutachtenerstellung" id="toc-gutachtenerstellung" class="nav-link" data-scroll-target="#gutachtenerstellung"><span class="header-section-number">7.2.2</span> Gutachtenerstellung</a></li>
+  <li><a href="#mengengerüst" id="toc-mengengerüst" class="nav-link" data-scroll-target="#mengengerüst"><span class="header-section-number">7.2.3</span> Mengengerüst</a></li>
+  <li><a href="#aus-der-checkliste-eines-gutachters" id="toc-aus-der-checkliste-eines-gutachters" class="nav-link" data-scroll-target="#aus-der-checkliste-eines-gutachters"><span class="header-section-number">7.2.4</span> Aus der Checkliste eines Gutachters</a></li>
+  </ul></li>
+  <li><a href="#merkmale-einer-sehr-guten-arbeit" id="toc-merkmale-einer-sehr-guten-arbeit" class="nav-link" data-scroll-target="#merkmale-einer-sehr-guten-arbeit"><span class="header-section-number">7.3</span> Merkmale einer sehr guten Arbeit</a>
+  <ul class="collapse">
+  <li><a href="#überblick" id="toc-überblick" class="nav-link" data-scroll-target="#überblick"><span class="header-section-number">7.3.1</span> Überblick</a></li>
+  <li><a href="#reflexion-bereichen-sie-die-welt-mit-ihren-gedanken" id="toc-reflexion-bereichen-sie-die-welt-mit-ihren-gedanken" class="nav-link" data-scroll-target="#reflexion-bereichen-sie-die-welt-mit-ihren-gedanken"><span class="header-section-number">7.3.2</span> Reflexion: Bereichen Sie die Welt mit Ihren Gedanken</a></li>
+  <li><a href="#fachwissen-zeigen-sie-dass-sie-sich-auskennen" id="toc-fachwissen-zeigen-sie-dass-sie-sich-auskennen" class="nav-link" data-scroll-target="#fachwissen-zeigen-sie-dass-sie-sich-auskennen"><span class="header-section-number">7.3.3</span> Fachwissen: Zeigen Sie, dass Sie sich auskennen</a></li>
+  <li><a href="#fluss-der-text-soll-elegant-fließen" id="toc-fluss-der-text-soll-elegant-fließen" class="nav-link" data-scroll-target="#fluss-der-text-soll-elegant-fließen"><span class="header-section-number">7.3.4</span> Fluss: Der Text soll elegant fließen</a></li>
+  <li><a href="#redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar" id="toc-redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar" class="nav-link" data-scroll-target="#redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar"><span class="header-section-number">7.3.5</span> Redlichkeit: Machen Sie Ihre Ergebnisse nachvollziehbar</a></li>
+  <li><a href="#leserseite-schreiben-sie-für-den-leser" id="toc-leserseite-schreiben-sie-für-den-leser" class="nav-link" data-scroll-target="#leserseite-schreiben-sie-für-den-leser"><span class="header-section-number">7.3.6</span> Leserseite: Schreiben Sie für den Leser</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -310,9 +352,9 @@ ul.task-list li input[type="checkbox"] {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Hinweise-Pruefungsvorbereitung-frame.html">Lernen</a></li><li class="breadcrumb-item"><a href="./Hinweise-Pruefungsvorbereitung-frame.html"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Prüfungsvorbereitung</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./010-Hinweise-Pruefung-allgemein-frame.html">Prüfungen</a></li><li class="breadcrumb-item"><a href="./060-Hinweise-Pruefung-Projektarbeit-frame.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Projektarbeit</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Prüfungsvorbereitung</span></h1>
+<h1 class="title"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Projektarbeit</span></h1>
 </div>
 
 
@@ -329,85 +371,340 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="tipps" class="level2" data-number="16.1">
-<h2 data-number="16.1" class="anchored" data-anchor-id="tipps"><span class="header-section-number">16.1</span> Tipps</h2>
-<p>Ein paar Tipps für Prüfungserfolg:</p>
+<p><em>Die folgenden Prüfungshinweise gelten nur insoweit, dass Ihnen Ihr/e Dozent/in nicht anderweitige Hinweise gegeben hat.</em></p>
+<section id="prüfungsgegenstand" class="level2" data-number="7.1">
+<h2 data-number="7.1" class="anchored" data-anchor-id="prüfungsgegenstand"><span class="header-section-number">7.1</span> Prüfungsgegenstand</h2>
+<section id="grundlagen" class="level3" data-number="7.1.1">
+<h3 data-number="7.1.1" class="anchored" data-anchor-id="grundlagen"><span class="header-section-number">7.1.1</span> Grundlagen</h3>
+<ol type="1">
+<li><p>Die <em>Prüfungsleistung</em> wird rechtzeitig von der/dem Prüfer/in definiert und an geeignetem Ort bekannt gegeben.</p></li>
+<li><p>Gegenstand der Arbeit ist die <em>Dokumentation aller relevanten Aspekte des Projekts</em>.</p></li>
+</ol>
+</section>
+<section id="formale-anforderungen" class="level3" data-number="7.1.2">
+<h3 data-number="7.1.2" class="anchored" data-anchor-id="formale-anforderungen"><span class="header-section-number">7.1.2</span> Formale Anforderungen</h3>
+</section>
+<section id="anfordungen-zum-textdokument" class="level3" data-number="7.1.3">
+<h3 data-number="7.1.3" class="anchored" data-anchor-id="anfordungen-zum-textdokument"><span class="header-section-number">7.1.3</span> Anfordungen zum Textdokument</h3>
+<ol type="1">
+<li>Der Umfang der Arbeit umfasst im <em>Hauptteil</em> beträgt:</li>
+</ol>
 <ul>
-<li>Jedes Kapitel vor- und nachbereiten</li>
-<li>Die Aufgaben am Kapitelende selber lösen</li>
-<li>Das Lernen mit der Unterricht synchronisieren, nicht erst kurz vor der Prüfung anfangen.</li>
-<li>Dem Dozenten Fragen stellen (im Unterricht und per Forum)</li>
-<li>Lerngruppen bilden</li>
-<li>Exzerpte schreiben</li>
-<li>Karteikarten nutzen, um sich selber abzufragen</li>
+<li><em>4000</em> Wörter ein Einzelarbeiten</li>
+<li><em>6000</em> Wörter bei Gruppenarbeiten mit 2 Personen</li>
+<li><em>7000</em> Wörter bei Gruppenarbeiten mit 3 Personen</li>
+<li><em>8000</em> Wörter bei Gruppenarbeiten mit 4 oder mehr Personen</li>
+</ul>
+<ol start="2" type="1">
+<li><p>Die aufgeführten Wortzahlen gelten mit einem Toleranzbereich von plus/minus 10%.</p></li>
+<li><p><em>“Hauptteil”</em> ist definiert als der <em>gesamte Text</em> von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Diagramm als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit auf der Titelseite an.</p></li>
+<li><p>Textsatz und (gestalterische) <em>Formatierung</em> der Arbeit orientieren sich an den schriftlich bereitgestellten Hinweisen (z.B. im Skript).</p></li>
+<li><p>Die Arbeit kann in <em>deutscher</em> oder <em>englischer</em> Sprache eingereicht werden.</p></li>
+</ol>
+<p>4 <em>Übrige Gestaltungsaspekte</em>, die nicht im bereitgestellten Leitfaden aufgeführt sind, sind nach den Vorgaben der <em>DGPS</em> (deutsch) oder <em>APA</em> (englisch) (jeweils in neuester Version) anzulegen.</p>
+<ol start="6" type="1">
+<li><p>Auf dem <em>Titelblatt</em> ist u.a. anzugeben</p>
+<ul>
+<li>Matrikelnummer/n sowie Nach- und Vorname/n aller Autoris (wichtig!)</li>
+<li>Titel der Arbeit</li>
+<li>Modulname</li>
+</ul></li>
+<li><p>Sie können die Arbeit entweder in einem <em>paginierten</em> Format schreiben (z.B. Word-Dokument) oder in einem <em>nicht-paginierten</em> Format (z.B. HTML-Dokument mit Quarto).</p></li>
+<li><p>Der <em>Anhang</em> dient zur Dokumentation von Details, die nicht wichtig genug sind für den knappen Platz des Berichts, aber dennoch zu wichtig sind, um weggelassen zu werden. Nummerieren Sie die Teile des Anhangs. Typische Inhalte des Anhangs sind: Messinstrumente, Analyse-Code, Daten, Stimuli, weiterführende Ergebnisse, Daten-Codebook, Interview-Transkriptionen.</p></li>
+</ol>
+</section>
+<section id="formalia" class="level3" data-number="7.1.4">
+<h3 data-number="7.1.4" class="anchored" data-anchor-id="formalia"><span class="header-section-number">7.1.4</span> Formalia</h3>
+<ol type="1">
+<li><p>Die Arbeit ist <em>nur online</em> über das bereitgestellte System, nicht ausgedruckt, einzureichen.</p></li>
+<li><p>Bei der <em>Anmeldung</em> ist der Titel anzugeben; der <em>gleiche Titel</em> muss sich auch auf der eingereichten Arbeit finden.</p></li>
+<li><p>Eine eingereichte Arbeit <em>kann nicht wieder zurückgezogen</em> werden.</p></li>
+<li><p>Reichen Sie folgende <em>zwei Dateien</em> als Prüfungsleistung ein: a) Die Arbeit als <em>PDF-Datei</em> sowie b) den <em>Anhang</em> bzw. ergänzende Materialien als eine <em>ZIP</em>-Datei.</p></li>
+<li><p>Bitte sprechen Sie Ihre Lehrkraft für Fragen des <em>Nachteilsausgleichs</em>.</p></li>
+<li><p><em>Nichteinhaltung</em> der Regeln bzw. der Hinweise kann zu <em>Nichtbestehen</em> oder einer schlechterer Note führen.</p></li>
+<li><p>Bitte beachten Sie etwaige <em>Anmeldefristen</em> für die Anmeldung zur Prüfung als auch ggf. zur Anmeldung in einzelne Arbeitsgruppen.</p></li>
+<li><p>Soweit nicht anders von der Lehrperson gesagt, gelten die <em>offiziellen</em> Anmeldefristen der Hochschule.</p></li>
+<li><p>Vermeiden Sie <em>kurzfristigen</em> Upload von Prüfungsleistungen kurz vor dem Verstreichen der Einreichefrist –- falls technische Probleme auftreten, können diese u. U. nicht mehr gelöst werden.</p></li>
+<li><p>Die Dozentis führen <em>keine Vorab-Korrektur</em> von laufenden Prüfungsleistungen durch. Fragen, die einer Vorab-Korrektur Ihrer Arbeit nahe kommen (und daher nicht beantwortet werden), sind z. B.: „Ist mein Fragebogen so o.k.?“, „Passt das so?“, „Können Sie mal drüber schauen, ob ich so anfangen kann?“, „Passen meine Hypothesen zur Theorie?“, „Hab ich was vergessen?“, „Ist die Gliederung so richtig/vollständig?“ …</p></li>
+<li><p>Eine <em>Prüfungsleistung</em> darf nur eingereicht werden, wenn Sie (erfolgreich) zur Prüfung <em>angemeldet</em> sind. Eine abgegebene/hochgeladene Arbeit, die nicht erfolgreich angemeldet ist, gilt nicht als erfolgreich eingereicht.</p></li>
+<li><p>Eine Arbeit zählt nur dann als (erfolgreich) eingereicht, wenn Sie <em>formal korrekt eingereicht</em> wurde, insbesondere sind Fristen und Abgabekanäle (z.B. Moodleseite) zu beachten.</p></li>
+<li><p>Wenn Sie Dateien mit Ihren Prüfungsleistungen einreichen (hochladen), dann benennen Sie die <em>Dateinamen</em> nach folgendem Muster <code>nachname1-vorname1-nachname2-vorname2-prüfungsart.endung</code>, z.B.<code>sauer-sebastian-projektarbeit.pdf</code> oder <code>musterfrau-marina-anhang.zip</code>.</p></li>
+<li><p>Nachweis der <em>Arbeitszeit</em>: Fügen Sie im Anhang eine Tabelle an, die zeigt, dass Sie die in der Modulbeschreibung geforderte Arbeitszeit (in Zeitstunden <span class="math inline">\(h\)</span>, “Workload”) im Rahmen der Arbeit abgeleistet haben. Weisen Sie dabei die Arbeitszeit pro Arbeitspaket aus. Ein Arbeitspaket sollte ca. 5h-20h umfassen, s. Beispiel.</p></li>
+</ol>
+<table class="table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 55%">
+<col style="width: 23%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Nr.</th>
+<th>Arbeitspaket</th>
+<th>Arbeitsaufwand (h)</th>
+<th>Kommentare</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td>Literaturrecherche</td>
+<td>25</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td>Planung der Datenerhebung</td>
+<td>5</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td>Datenerhebung</td>
+<td>20</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>Datenanalyse</td>
+<td>30</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>5</td>
+<td>Dokumentation/Schreiben des Berichts</td>
+<td>40</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>6</td>
+<td>Kommunikation/Abstimmung in der Arbeitsgruppe</td>
+<td>10</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>7</td>
+<td>Vorbereitung der Präsentation</td>
+<td>20</td>
+<td></td>
+</tr>
+<tr class="even">
+<td></td>
+<td>SUMME</td>
+<td>150</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="methodische-anforderungen" class="level3" data-number="7.1.5">
+<h3 data-number="7.1.5" class="anchored" data-anchor-id="methodische-anforderungen"><span class="header-section-number">7.1.5</span> Methodische Anforderungen</h3>
+<ol type="1">
+<li><p>Die Methoden des <em>wissenschaftlichen Arbeiten</em> in Recherche, Zitat und Darstellung werden angewandt.</p></li>
+<li><p>Die Herangehensweise muss auf wissenschaftlicher Methodik beruhen, unabhängig davon, ob (insgesamt oder in bestimmten Teilen der Arbeit) empirisch auf (rein) auf Literaturbasis gearbeitet wird.</p></li>
+</ol>
+</section>
+<section id="spezifika-quantitativer-arbeiten" class="level3" data-number="7.1.6">
+<h3 data-number="7.1.6" class="anchored" data-anchor-id="spezifika-quantitativer-arbeiten"><span class="header-section-number">7.1.6</span> Spezifika quantitativer Arbeiten</h3>
+<ol type="1">
+<li><p>Wenden Sie die Methoden <em>quantitativer</em> Datenanalyse an.</p></li>
+<li><p>Werten Sie mit quantitative Fragestellungen <em>komplett</em> mit <em>R</em> oder mit <em>Python</em> aus.</p></li>
+<li><p>Für <em>inferenzstatistische Fragestellungen</em> sind <em>Bayes-Methoden</em> (bevorzugt) oder frequentistische Methoden einzusetzen.</p></li>
+<li><p><em>Tabellen</em> (z.B. mit Daten) müssen nicht mit R erstellt sein, sondern können auch von “von Hand” erstellt sein (z.B. mit Word).</p></li>
+<li><p>Es wird erwartet, dass Sie als Versuchsperson an den <em>Studien der Kommilitonis teilnehmen</em>, falls nötig.</p></li>
+<li><p>Sie führen eine <em>eigene empirische Studie</em> durch und verfassen dazu einen Bericht; dabei stützen Sie sich i. d.&nbsp;R. auf selber erhobene Daten.</p></li>
+</ol>
+</section>
+<section id="inhaltliche-anforderungen" class="level3" data-number="7.1.7">
+<h3 data-number="7.1.7" class="anchored" data-anchor-id="inhaltliche-anforderungen"><span class="header-section-number">7.1.7</span> Inhaltliche Anforderungen</h3>
+<ol type="1">
+<li><p>Bei der Benotung wird die <em>Kenntnis der Inhalte der zugehörigen Veranstaltung</em> (inkl. dieses Skripts) vorausgesetzt.</p></li>
+<li><p>Die <em>im Unterricht behandelten Methoden</em>, Verfahren oder Inhalte sind bei der Prüfungsleistung <em>anzuwenden</em> sofern passend.</p></li>
+<li><p><em>Open Science</em>: Reichen Sie ggf. die Rohdaten und ggf. Syntax (elektronisch) ein. Verweisen Sie ggf. im Anhang auf eine Datei, die Sie hochladen, in der die entsprechenden Informationen zu finden sind.</p></li>
+<li><p>Das Thema soll einen <em>direkten psychologischen Bezug</em> aufweisen; eine Forschungsfrage soll psychologisch relevante Aspekte adressieren.</p></li>
+<li><p><em>Inhaltliche Fragen</em> (d.h. den Stoff betreffend) werden im Unterricht jederzeit beantwortet. Sprechen Sie die Dozentis auch gerne vor oder nach dem Unterricht persönlich an.</p></li>
+<li><p>Aus Gründen der Fairness und Effizient werden inhaltliche <em>Fragen</em> von Studierenden <em>nur öffentlich</em>, z. B. im Unterricht oder im Online-Forum, beantwortet (nicht per Mail).</p></li>
+<li><p>Projektmanagement wie das Einteilen der zur Verfügung stehenden Zeit oder Dokumentenmanagement sind Gegenstand der Prüfung. Prüfungsteilnehmer:innen sind dafür eigenständig verantwortlich.</p></li>
+</ol>
+</section>
+</section>
+<section id="benotung" class="level2" data-number="7.2">
+<h2 data-number="7.2" class="anchored" data-anchor-id="benotung"><span class="header-section-number">7.2</span> Benotung</h2>
+<section id="aspekte-der-benotung" class="level3" data-number="7.2.1">
+<h3 data-number="7.2.1" class="anchored" data-anchor-id="aspekte-der-benotung"><span class="header-section-number">7.2.1</span> Aspekte der Benotung</h3>
+<ol type="1">
+<li><p>Es wird eine <em>Gesamtnote</em> vergeben und ggf. drei <em>Teilnoten.</em></p></li>
+<li><p>Die Gesamtnote setzt sich aus drei Teilaspekten zusammen.</p></li>
+<li><p>Die drei Teilaspekte sind</p>
+<ul>
+<li><em>Formalia</em> (u.a. Aufbau, Gestaltung, Rechtschreibung, Zitierweise, Literaturverzeichnis, Umfang)</li>
+<li><em>Methodik</em> (u.a. Methodenauswahl, Methodenanwendung, Interpretation der Ergebnisse)</li>
+<li><em>Inhalt</em> (u.a. Gliederung, Argumentation, Literaturnutzung, sprachlicher Ausdruck, Problemlösung, Reflexion)</li>
+</ul></li>
+<li><p>Falls Teilnoten vergeben werden, muss sich die Gesamtnote <em>nicht</em> als arithmetisches Mittel der Teilnoten ergeben.</p></li>
+</ol>
+</section>
+<section id="gutachtenerstellung" class="level3" data-number="7.2.2">
+<h3 data-number="7.2.2" class="anchored" data-anchor-id="gutachtenerstellung"><span class="header-section-number">7.2.2</span> Gutachtenerstellung</h3>
+<p>Neben der Gesamtnote und den Teilnoten kann der Gutachter zusätzliche noch Kommentare, d.h. ausformulierte Aussagen zur Bewertung bestimmter Teile der Arbeit, hinzufügen.</p>
+<ul>
+<li>Ein Teil des Gesamteindrucks der Arbeit spiegelt sich in den Kommentaren des Gutachters wider. Jedoch spiegelt die Summe der Kommentare nicht (zwangsläufig) die Gesamtnote wider, sondern nur denjenigen Teil, für den der Gutachter es für sinnvoll befunden hat, explizite Kommentare anzugeben.</li>
+<li>Es ist insbesondere nicht möglich, von der Anzahl der positiven oder negativen Kommentare auf eine bestimmte Note zurückzuschließen.</li>
+<li>Auch Vergleiche zwischen Gutachten verschiedener Student/innen ist nicht rein auf Basis der Kommentare möglich, da die Kommentare nur einen Ausschnitt des Meinungsbilds des Gutachters widerspiegeln.</li>
+<li>Die Kommentare des Gutachters verfolgen erstens den Zweck einer Rückmeldung zum Leistungsstand und zweitens Hilfestellung zur Verbesserung, damit der/die entsprechend Student/in den eigenen Leistungsstand verbessern kann.</li>
+<li>Weitere Hinweise zur Notengebung und Beurteilung sind auf der Modulseite bzw. den offiziellen Regularien und Hinweisen zu finden.</li>
+<li>Sollten Sie Fragen an den Gutachter stellen wollen zu Ihrem Gutachten, so melden Sie sich zur Sprechstunde an.</li>
+</ul>
+<p>Das Gutachten kann mit Hilfe von <a href="https://sebastiansauer.github.io/textbausteine-korrektur/Textbausteine-Korrektur.html">Textbausteinen wie aus dieser Sammlung</a> erstellt sein.</p>
+</section>
+<section id="mengengerüst" class="level3" data-number="7.2.3">
+<h3 data-number="7.2.3" class="anchored" data-anchor-id="mengengerüst"><span class="header-section-number">7.2.3</span> Mengengerüst</h3>
+<p>Der Anspruch an eine <em>gute</em> Arbeit ist wie folgt zu fassen (die Angaben <em>beziehen sich auf Einzelarbeiten</em>; bei <em>Gruppenarbeiten</em> ist der <em>Faktor 2</em> an das Mengengerüst für Stichprobengröße usw. anzulegen):</p>
+<ul>
+<li>Überwiegende Verwendung von <em>Literatur hoher Qualität</em> (Fachartikel, peer-reviewed)</li>
+<li>Ca. <em>15-20 Quellen</em> (hoher Qualität) oder mehr im Literaturverzeichnis</li>
+</ul>
+<p>Bei empirischen, quantitativen Arbeiten:</p>
+<ul>
+<li>Stichprobengröße (ca.)
+<ul>
+<li>Experimentell: <em>Between-Design: 20-30 Fälle</em>, Within-Design: 20 Fälle</li>
+<li>Beobachtend: 50 Fälle</li>
+</ul></li>
+<li>Designumfang (ca.)
+<ul>
+<li>Experimentell: 2-3 Variablen</li>
+<li>Beobachtend: 3-4 Variablen</li>
+</ul></li>
+</ul>
+<p>Aufgrund der hohen individuellen Unterschiede von Forschungsfragen können nur ein <em>grober Rahmen</em> aufgezeigt werden.</p>
+</section>
+<section id="aus-der-checkliste-eines-gutachters" class="level3" data-number="7.2.4">
+<h3 data-number="7.2.4" class="anchored" data-anchor-id="aus-der-checkliste-eines-gutachters"><span class="header-section-number">7.2.4</span> Aus der Checkliste eines Gutachters</h3>
+<ul>
+<li><p>Wissen</p>
+<ul>
+<li>Wurden die wesentlichen Inhalte des Themas berücksichtigt?</li>
+<li>Sind hochwertige (und genügende) Quellen zu Rate gezogen worden?</li>
+</ul></li>
+<li><p>Denken</p>
+<ul>
+<li>Reihen sich nur Zusammenfassungen aneinander oder ist Denkarbeit erkennbar?</li>
+<li>Wurde das eigene Vorgehen angemessen kritisiert?</li>
+<li>Wurde diskutiert, verglichen, bewertet, weitergeführt, erörtert, analysiert … ?</li>
+<li>Zeugt die Arbeit von eigenen Ideen und eigenem Denken?</li>
+<li>Wurde selbständig gearbeitet?</li>
+</ul></li>
+<li><p>Schreiben</p>
+<ul>
+<li>Ist Rechtschreibung, Zeichensetzung und Grammatik korrekt?</li>
+<li>Ist der Text „im Fluss“ – gut lesbar, stringent und folgerichtig?</li>
+</ul></li>
+<li><p>Methodik</p>
+<ul>
+<li>Wurden die richtigen wissenschaftliche Methoden korrekt eingesetzt?</li>
+<li>Zeugt das methodische Vorgehen von Können und Kreativität?</li>
+<li>Ist die Studie nachprüfbar anhand des Berichts?</li>
+</ul></li>
+<li><p>Polieren</p>
+<ul>
+<li>Sind die Formalia erfüllt (z. B. korrektes Zitieren inkl. Literaturverzeichnis)?</li>
+<li>Sind Text, Abbildungen, Tabellen etc. ansprechend formatiert?</li>
+</ul></li>
 </ul>
 </section>
-<section id="lösen-sie-die-aufgaben" class="level2" data-number="16.2">
-<h2 data-number="16.2" class="anchored" data-anchor-id="lösen-sie-die-aufgaben"><span class="header-section-number">16.2</span> Lösen Sie die Aufgaben</h2>
-<p>Die Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind. Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfung vorzubereiten.</p>
-<p>Das <a href="https://datenwerk.netlify.app/">Datenwerk</a> ist eine Aufgabensammlung. Suchen Sie dort die Tags (“Categories”), die die Themen Ihrer Prüfung betreffen und arbeiten Sie diese Aufgaben durch. Angenehmerweise sind alle Aufgaben mit Musterlösung versehen. 🍦</p>
 </section>
-<section id="schreiben-sie-zusammenfassungen" class="level2" data-number="16.3">
-<h2 data-number="16.3" class="anchored" data-anchor-id="schreiben-sie-zusammenfassungen"><span class="header-section-number">16.3</span> Schreiben Sie Zusammenfassungen</h2>
-<p>Schreiben Sie sich eine Zusammenfassung, am besten mit der Hand. Es gibt auch Tools (wie <a href="https://web.hypothes.is/" class="uri">https://web.hypothes.is/</a> oder diese <a href="https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek">Chrome-Extension</a>), die Kommentare in Webseiten ermöglichen.</p>
+<section id="merkmale-einer-sehr-guten-arbeit" class="level2" data-number="7.3">
+<h2 data-number="7.3" class="anchored" data-anchor-id="merkmale-einer-sehr-guten-arbeit"><span class="header-section-number">7.3</span> Merkmale einer sehr guten Arbeit</h2>
+<section id="überblick" class="level3" data-number="7.3.1">
+<h3 data-number="7.3.1" class="anchored" data-anchor-id="überblick"><span class="header-section-number">7.3.1</span> Überblick</h3>
+<ol type="1">
+<li>Formales</li>
+</ol>
+<ul>
+<li>Die Richtlinien zur Gestaltung von wissenschaftlichen Texten wurden (fast) vollumfänglich umgesetzt. Insbesondere finden finden sich (fast) keine Zitierfehler im Text und im Literaturverzeichnis.</li>
+<li>Rechtschreibung, Zeichensetzung und Grammatik sind (fast) fehlerfrei.</li>
+<li>Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig sondern prägnant formuliert).</li>
+</ul>
+<ol start="2" type="1">
+<li>Methoden</li>
+</ol>
+<ul>
+<li>Es wurden angemessene Methoden ausgewählt und diese richtig angewendet und die Ergebnisse korrekt interpretiert.</li>
+<li>Die eingesetzte Methodik zeichnet sich durch hohe Breite und Tiefe aus.</li>
+<li>Es wurde sehr viel empirisches Material (z. B. befragte Personen) ausgewertet.</li>
+</ul>
+<ol start="3" type="1">
+<li>Inhalt</li>
+</ol>
+<ul>
+<li>Es wurde viel Literatur von hoher Qualität rezipiert.</li>
+<li>Ein roter Faden ist klar ersichtlich.</li>
+<li>Die Arbeit zeichnet sich nicht nur durch hohes Fachwissen, sondern auch durch wohl überlegte Argumentation aus.</li>
+</ul>
 </section>
-<section id="arbeiten-sie-kontinuierlich-mit" class="level2" data-number="16.4">
-<h2 data-number="16.4" class="anchored" data-anchor-id="arbeiten-sie-kontinuierlich-mit"><span class="header-section-number">16.4</span> Arbeiten Sie kontinuierlich mit</h2>
-<p>Nach meiner Erfahrung kann jede/r eine gute Note schreiben, man muss kein “Mathe-Crack” sein. Stattdessen kommt es auf die Vorbereitung bzw. das Mitlernen an.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Wichtig
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Kontinuierliches Mitlernen ist der Schlüssel zum Erfolg.</p>
-</div>
-</div>
+<section id="reflexion-bereichen-sie-die-welt-mit-ihren-gedanken" class="level3" data-number="7.3.2">
+<h3 data-number="7.3.2" class="anchored" data-anchor-id="reflexion-bereichen-sie-die-welt-mit-ihren-gedanken"><span class="header-section-number">7.3.2</span> Reflexion: Bereichen Sie die Welt mit Ihren Gedanken</h3>
+<ul>
+<li><p>Ein Hauptfehler vieler Arbeiten liegt darin, dass sie nur andere Texte nacherzählen. Wo liegt da der Mehrwert?</p></li>
+<li><p>Der Mehrwert eines wissenschaftlichen Textes liegt in der Neuartigkeit der Gedanken: Kritisieren Sie bestehende Theorien, vergleichen Sie sie, arbeiten Sie das Wesentliche heraus. Übrigens: Auch eine Wiederholungsstudie lohnt sich.</p></li>
+<li><p>Legen Sie Ihre Forschungsfrage offen, beantworten Sie sie explizit.</p></li>
+<li><p>Explizieren Sie Ihre Hypothesen (konkret und operationalisiert)</p></li>
+<li><p>Sparen Sie auch eine kritische Aufarbeitung Ihrer eigenen Arbeit nicht aus. „Kritisch“ heißt positiv und konstruktiv negativ Rückmeldungen geben.</p></li>
+<li><p>Das „Fazit“ Ihrer Arbeit ist nicht eine Zusammenfassung Ihres Textes sondern die Überlegung, wohin Sie Ihre Gedanken geführt haben.</p></li>
+<li><p>Zur Reflexion gehört auch, dass Sie an den Nutzen des Lesers denken – was bringt ihm die Lektüre Ihres Texts? Sagen Sie z. B. anfangs, warum sich Ihr Thema „lohnt“!</p></li>
+<li><p>Unterscheiden Sie zwischen Beschreibung von Ideen (oder [Ihren] empirischen Ergebnissen) und deren Beurteilung.</p></li>
+<li><p>Beziehen Sie Ihre Ergebnisse/Daten auf die Literatur.</p></li>
+</ul>
 </section>
-<section id="ich-brauche-mehr-erklärung" class="level2" data-number="16.5">
-<h2 data-number="16.5" class="anchored" data-anchor-id="ich-brauche-mehr-erklärung"><span class="header-section-number">16.5</span> Ich brauche mehr Erklärung!</h2>
-<p>Schauen Sie sich die Vidoes <a href="https://youtube.com/playlist?list=PLRR4REmBgpIFQIReNf_ihRm5GYJSKh3WT">dieser Playlist</a> an.</p>
+<section id="fachwissen-zeigen-sie-dass-sie-sich-auskennen" class="level3" data-number="7.3.3">
+<h3 data-number="7.3.3" class="anchored" data-anchor-id="fachwissen-zeigen-sie-dass-sie-sich-auskennen"><span class="header-section-number">7.3.3</span> Fachwissen: Zeigen Sie, dass Sie sich auskennen</h3>
+<ul>
+<li><p>Nachdem Sie darüber nachgedacht haben, was ein lohnendes Thema ist, recherchieren Sie nach Literatur.</p></li>
+<li><p>Ohne einen kundigen (und aktuellen) Überblick über den Stand der Forschung können Sie keine verlässlichen Aussagen treffen – und keine gute Arbeit schreiben.</p></li>
+<li><p>Scheuen Sie sich nicht Fachartikeln; machen Sie sich die Qualität Ihrer Literaturstellen bewusst.</p></li>
+<li><p>Destillieren Sie aus der Vielfalt der Texte die Essenz der Ideen heraus – die Details sind nicht so wichtig.</p></li>
+<li><p>Zeigen Sie keine Bäume, sondern den Wald. Zeigen Sie keine unumstößliche Wahrheit, sondern mehrere Blickwinkel (z. B. unterschiedliche Definitionen). Verknüpfen Sie den Gegenstand mit anderen Theorien.</p></li>
+<li><p>Ihr Fachwissen zeigen Sie auch dadurch, dass Sie kritisch zu den Texten oder dem Forschungsstand Stellung nehmen.</p></li>
+<li><p>Erläutern Sie nicht die Hintergründe Ihrer Methoden im Detail. Das steht schon in den Lehrbüchern bzw. ist nicht üblich.</p></li>
+<li><p>Gehen Sie auf wesentliche Befunde oder Theorien des Fachgebiets ein, soweit relevant bzw. zweckdienlich.</p></li>
+</ul>
 </section>
-<section id="gibt-es-eine-art-probeklausur" class="level2" data-number="16.6">
-<h2 data-number="16.6" class="anchored" data-anchor-id="gibt-es-eine-art-probeklausur"><span class="header-section-number">16.6</span> Gibt es eine Art “Probeklausur”?</h2>
-<p>Ja, gibt es! Hinweise dazu werden im Unterricht bekannt gegeben.</p>
-<p><a href="https://datenwerk.netlify.app/#category=quiz1-qm2-ws23">Hier</a> ist eine Aufgabensammlung, die als Prüfungsvorbereitung zum Thema Wahrscheinlichkeitsrechnung dienen kann. Das Tag <a href="https://datenwerk.netlify.app/#category=Verteilungen-Quiz">Verteilungen-Quiz</a> zielt auf ein ähnliches Thema ab. <a href="https://datenwerk.netlify.app/#category=exam-22">exam-22</a> umfasst Fragen, die in einer früheren Prüfung abgefragt wurden. Nützlich könnte auch die Sammlung <a href="https://datenwerk.netlify.app/#category=qm2-pruefung">qm2-pruefung</a> sein.</p>
-<p>💡 Schauen Sie sich die Tags im <a href="https://datenwerk.netlify.app/">Datenwerk</a> gut an, so können Sie relevante 🙋‍♂️ oder sogar prüfungsheiße 🔥 Aufgaben finden.</p>
+<section id="fluss-der-text-soll-elegant-fließen" class="level3" data-number="7.3.4">
+<h3 data-number="7.3.4" class="anchored" data-anchor-id="fluss-der-text-soll-elegant-fließen"><span class="header-section-number">7.3.4</span> Fluss: Der Text soll elegant fließen</h3>
+<ul>
+<li><p>Begründen Sie Ihr Vorgehen.</p></li>
+<li><p>Man soll Dinge so einfach wie möglich ausdrücken, aber nicht einfacher (Einstein). Verwechseln Sie nicht komplizierte Wörter mit gehaltvollem Inhalt.</p></li>
+<li><p>Jedes Kapitel und jeder Absatz sollte genau eine Frage beantworten.</p></li>
+<li><p>Achten Sie auf ein gefälliges Äußeres Ihres Texts: Layout, Abbildungen, Schriftbild, leere Stellen im Blocksatz etc. machen einen Eindruck auf den Leser. Schaubilder helfen oft. Spiralbindung bietet sich an. Absätze sollten nicht zu lang sein (Textwüsten schläfern ein).</p></li>
+<li><p>Die Gliederung soll den Fluss Ihrer Argumentation wiedergeben.</p></li>
+<li><p>Schreiben Sie elegant: Z. B. meiden Sie (insgesamt) Passivsätze; schreiben Sie aktiv. Wechseln Sie kurze mit langen Sätzen ab. Meiden Sie Amtsdeutsch wie der Teufel das Weihwasser. Ein guter Titel hat selten geschadet. Verwenden Sie die „Ich-Form“ sparsam; genauso das „man“.</p></li>
+<li><p>Nutzen Sie Schaubilder, Diagramme etc. soweit sinnvoll.</p></li>
+<li><p>Machen Sie keine Screenshots von R-Syntax, die Sie im Bericht wiedergeben. Stellen Sie die Syntax stattdessen in eine Datei, die Sie mit einreichen.</p></li>
+</ul>
 </section>
-<section id="was-sind-typische-fragen-in-der-prüfung" class="level2" data-number="16.7">
-<h2 data-number="16.7" class="anchored" data-anchor-id="was-sind-typische-fragen-in-der-prüfung"><span class="header-section-number">16.7</span> Was sind typische Fragen in der Prüfung?</h2>
-<p>Die Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind, und zwar vornehmlich an den Aufgaben, die eine kurze, eindeutige Lösung haben. Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfung vorzubereiten.</p>
+<section id="redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar" class="level3" data-number="7.3.5">
+<h3 data-number="7.3.5" class="anchored" data-anchor-id="redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar"><span class="header-section-number">7.3.5</span> Redlichkeit: Machen Sie Ihre Ergebnisse nachvollziehbar</h3>
+<ul>
+<li><p>Was sind Ihre eigenen Gedanken und welche Gedanken haben Sie übernommen – machen Sie dies kenntlich, indem Sie übernommen Gedanken als Zitate kennzeichnen.</p></li>
+<li><p>Es ist nicht schändlich, Gedanken anderer zu übernehmen. Im Gegenteil: „Auf den Schultern von Giganten“ ist eine Credo der Wissenschaft. Sie können also auch replizieren.</p></li>
+<li><p>Andere Wissenschaftlis sollte die Möglichkeit haben, Ihre Ergebnisse rekonstruieren zu können. Dazu zählt, dass Sie Ihre Recherchestrategie offen legen (welche Datenbanken etc.). Ebenso, dass Sie Ihr methodisches Vorgehen nachvollziehbar machen.</p></li>
+<li><p>Weisen Sie auf Schwächen (und Stärken) und sich nach Ihrer Arbeit anschließende Forschungsfragen hin, so dass andere auf Ihren Schultern weitersehen können.</p></li>
+<li><p>Explizieren Sie Ihre Suchstrategie für Literatur (welche Datenbanken? Welche Suchbegriffe? Wie viele Treffer? Welche ausgewählt? Nach welchen Kriterien?) Ausführliche Details packen Sie in den Anhang.</p></li>
+<li><p>Reichen Sie Syntax, Daten und ggf. Stimulus-Materialien (elektronisch) ein.</p></li>
+<li><p>Versuchen Sie, den Nutzen Ihrer Arbeit für Dritte aufzuzeigen.</p></li>
+</ul>
 </section>
-<section id="muss-man-ein-statistik-crack-sein-um-eine-gute-note-zu-schreiben" class="level2" data-number="16.8">
-<h2 data-number="16.8" class="anchored" data-anchor-id="muss-man-ein-statistik-crack-sein-um-eine-gute-note-zu-schreiben"><span class="header-section-number">16.8</span> Muss man ein Statistik-Crack sein, um eine gute Note zu schreiben?</h2>
-<p>Nach meiner Erfahrung kann jede/r eine gute Note schreiben, man muss kein “Mathe-Checker” oder “Statistik-Crack” sein. Stattdessen kommt es auf die Vorbereitung bzw. das Mitlernen an.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Wichtig
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Kontinuierliches Mitlernen ist der Schlüssel zum Erfolg.</p>
-</div>
-</div>
-</section>
-<section id="welche-weiteren-hilfen-gibt-es" class="level2" data-number="16.9">
-<h2 data-number="16.9" class="anchored" data-anchor-id="welche-weiteren-hilfen-gibt-es"><span class="header-section-number">16.9</span> Welche weiteren Hilfen gibt es?</h2>
-<section id="prognose-wettbewerb" class="level3" data-number="16.9.1">
-<h3 data-number="16.9.1" class="anchored" data-anchor-id="prognose-wettbewerb"><span class="header-section-number">16.9.1</span> Prognose-Wettbewerb</h3>
-<p><a href="https://sebastiansauer.github.io/Lehre/Hinweise/Prognosewettbewerb/Beispiel-Vorhersagemodellierung2.html">Hier finden Sie ein Beispiel für eine Prognose-Analyse</a>. Und <a href="https://sebastiansauer.github.io/Lehre/Hinweise/Prognosewettbewerb/Beispiele-Fehler-Prognosewettbewerb.html">hier</a> sehen Sie Beispiele für typische Fehler bei einem Prognosewettbewerb.</p>
-</section>
-<section id="datenanalyse" class="level3" data-number="16.9.2">
-<h3 data-number="16.9.2" class="anchored" data-anchor-id="datenanalyse"><span class="header-section-number">16.9.2</span> Datenanalyse</h3>
-<p>Schauen Sie sich Fallstudien (YACSDAs: Yet-Another-Case-Study-in-Data-Analysis) an, insbesondere die, auf die die Lehrkraft hingewiesen hat. <a href="https://data-se.netlify.app/">Hier</a> ist ein Fundort für YACSDAs.</p>
+<section id="leserseite-schreiben-sie-für-den-leser" class="level3" data-number="7.3.6">
+<h3 data-number="7.3.6" class="anchored" data-anchor-id="leserseite-schreiben-sie-für-den-leser"><span class="header-section-number">7.3.6</span> Leserseite: Schreiben Sie für den Leser</h3>
+<p>Hier sind einige typische Fragen, die sich Lesis - implizit oder explizit - stellen:</p>
+<ul>
+<li><em>Worum geht’s?</em> –&gt; Aussagekräftige Titel, Zusammenfassungen, Kernaussagen, Schaubilder, Fazit …</li>
+<li><em>Was nützt es mir?</em> –&gt; Sinn, Zweck, Ziel und Bedeutung in der Einleitung aufzeigen, Praxisnutzen herausstellen, ggf. Checklisten, Leitfäden etc. erstellen</li>
+<li><em>Was soll ich jetzt tun?</em> –&gt; Geben Sie Handlungsempfehlungen, ggf. „Kochrezepte“, wie in einer bestimmten Situation vorzugehen ist, z. B. Typologien beschreiben</li>
+<li><em>So what?</em> –&gt; Tja, und nun :-)</li>
+</ul>
 
 
 </section>
@@ -947,13 +1244,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./140-boni.html" class="pagination-link  aria-label=" &lt;span="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">BONIs</span></span>
+      <a href="./050-Hinweise-Pruefung-Praesentation-frame.html" class="pagination-link  aria-label=" &lt;span="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Präsentation</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Hinweise-Lernhilfen-frame.html" class="pagination-link" aria-label="<span class='chapter-number'>17</span>&nbsp; <span class='chapter-title'>Lernhilfen</span>">
-        <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Lernhilfen</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./070-Hinweise-Pruefung-Gruppenarbeit-frame.html" class="pagination-link" aria-label="<span class='chapter-number'>8</span>&nbsp; <span class='chapter-title'>Gruppenarbeit</span>">
+        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Gruppenarbeit</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

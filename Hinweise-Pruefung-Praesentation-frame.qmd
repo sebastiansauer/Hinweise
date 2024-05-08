@@ -1,6 +1,0 @@
-# Präsentation
-
-
-
-{{< include Hinweise-Pruefung-Praesentation.qmd >}}
-

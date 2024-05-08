@@ -1,6 +1,0 @@
-#  Gruppenarbeit 
-
-
-
-{{< include Hinweise-Pruefung-Gruppenarbeit.qmd >}}
-
