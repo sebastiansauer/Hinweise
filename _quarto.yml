@@ -57,13 +57,13 @@ book:
         - 140-boni.qmd
     - part: "Lernen"
       chapters: 
-        - Hinweise-Pruefungsvorbereitung-frame.qmd
-        - Hinweise-Lernhilfen-frame.qmd
+        - 150-Hinweise-Pruefungsvorbereitung-frame.qmd
+        - 160-Hinweise-Lernhilfen-frame.qmd
     - part: "Häufige Fehler"
       chapters: 
-        - 150-Beispiele-Fehler-Prognosewettbewerb-frame.qmd
-        - 160-Beispiele-Fehler-Datenanalyse-frame.qmd
-        - 170-Beispiele-Fehler-Projektarbeiten-frame.qmd
+        - 170-Beispiele-Fehler-Prognosewettbewerb-frame.qmd
+        - 180-Beispiele-Fehler-Datenanalyse-frame.qmd
+        - 190-Beispiele-Fehler-Projektarbeiten-frame.qmd
         
 
 bibliography: bib/bib.bib

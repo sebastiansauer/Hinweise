@@ -1,0 +1,86 @@
+# Prüfungsvorbereitung
+
+
+
+
+
+## Ich brauche mehr Erklärung!
+
+Schauen Sie sich die Vidoes [dieser Playlist](https://youtube.com/playlist?list=PLRR4REmBgpIFQIReNf_ihRm5GYJSKh3WT) an.
+
+
+
+
+## Klausuren in statistischen Fächern
+
+
+
+### Lösen Sie die Aufgaben
+
+Die Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind.
+Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfung vorzubereiten.
+
+Das [Datenwerk](https://datenwerk.netlify.app/) ist eine Aufgabensammlung. Suchen Sie dort die Tags ("Categories"), die die Themen Ihrer Prüfung betreffen und arbeiten Sie diese Aufgaben durch. Angenehmerweise sind alle Aufgaben mit Musterlösung versehen. 🍦 
+
+
+
+
+
+
+
+
+### Gibt es eine Art "Probeklausur"?
+
+Ja, gibt es! Hinweise dazu werden im Unterricht bekannt gegeben.
+
+
+[Hier](https://datenwerk.netlify.app/#category=quiz1-qm2-ws23) ist eine Aufgabensammlung, die als Prüfungsvorbereitung zum Thema Wahrscheinlichkeitsrechnung dienen kann.
+Das Tag [Verteilungen-Quiz](https://datenwerk.netlify.app/#category=Verteilungen-Quiz) zielt auf ein ähnliches Thema ab. 
+[exam-22](https://datenwerk.netlify.app/#category=exam-22) umfasst Fragen, die in einer früheren Prüfung abgefragt wurden.
+Nützlich könnte auch die Sammlung [qm2-pruefung](https://datenwerk.netlify.app/#category=qm2-pruefung) sein.
+
+💡 Schauen Sie sich die Tags im [Datenwerk](https://datenwerk.netlify.app/) gut an, so können Sie relevante 🙋‍♂️ oder sogar prüfungsheiße 🔥 Aufgaben finden.
+
+
+
+
+
+### Was sind typische Fragen in der Prüfung?
+
+Die Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind,
+und zwar vornehmlich an den Aufgaben, die eine kurze, eindeutige Lösung haben.
+Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfung vorzubereiten.
+
+
+
+
+
+
+### Muss man ein Statistik-Crack sein, um eine gute Note zu schreiben?
+
+Nach meiner Erfahrung kann jede/r eine gute Note schreiben, man muss kein "Mathe-Checker" oder "Statistik-Crack" sein.
+Stattdessen kommt es auf die Vorbereitung bzw. das Mitlernen an.
+
+:::callout-important
+Kontinuierliches Mitlernen ist der Schlüssel zum Erfolg.
+:::
+
+
+
+
+## Prognose-Wettbewerb
+
+
+[Hier finden Sie ein Beispiel für eine Prognose-Analyse](https://sebastiansauer.github.io/Lehre/Hinweise/Prognosewettbewerb/Beispiel-Vorhersagemodellierung2.html). Und [hier](https://sebastiansauer.github.io/Lehre/Hinweise/Prognosewettbewerb/Beispiele-Fehler-Prognosewettbewerb.html) sehen Sie Beispiele für typische Fehler bei einem Prognosewettbewerb.
+
+
+## Datenanalyse
+
+Schauen Sie sich Fallstudien (YACSDAs: Yet-Another-Case-Study-in-Data-Analysis) an, insbesondere die, auf die die Lehrkraft hingewiesen hat. Das  [Datenwerk](https://datenwerk.netlify.app/) ist ein Fundort für YACSDAs und Aufgaben.
+
+
+
+
+
+
+
