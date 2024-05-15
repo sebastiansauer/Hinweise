@@ -14,7 +14,7 @@
     "href": "index.html#technische-details-zu-diesem-online-buch",
     "title": "Hinweise",
     "section": "\n1.1 Technische Details zu diesem Online-Buch",
-    "text": "1.1 Technische Details zu diesem Online-Buch\n\n\n─ Session info ───────────────────────────────────────────────────────────────\n setting  value\n version  R version 4.2.1 (2022-06-23)\n os       macOS Big Sur ... 10.16\n system   x86_64, darwin17.0\n ui       X11\n language (EN)\n collate  en_US.UTF-8\n ctype    en_US.UTF-8\n tz       Europe/Berlin\n date     2024-05-08\n pandoc   3.1.12.2 @ /usr/local/bin/ (via rmarkdown)\n\n─ Packages ───────────────────────────────────────────────────────────────────\n package     * version date (UTC) lib source\n cli           3.6.2   2023-12-11 [1] CRAN (R 4.2.0)\n digest        0.6.33  2023-07-07 [1] CRAN (R 4.2.0)\n evaluate      0.23    2023-11-01 [1] CRAN (R 4.2.0)\n fastmap       1.1.1   2023-02-24 [1] CRAN (R 4.2.0)\n htmltools     0.5.7   2023-11-03 [1] CRAN (R 4.2.0)\n htmlwidgets   1.6.4   2023-12-06 [1] CRAN (R 4.2.0)\n jsonlite      1.8.8   2023-12-04 [1] CRAN (R 4.2.0)\n knitr         1.45    2023-10-30 [1] CRAN (R 4.2.1)\n rlang         1.1.3   2024-01-10 [1] CRAN (R 4.2.1)\n rmarkdown     2.26    2024-03-05 [1] CRAN (R 4.2.1)\n rstudioapi    0.15.0  2023-07-07 [1] CRAN (R 4.2.0)\n sessioninfo   1.2.2   2021-12-06 [1] CRAN (R 4.2.0)\n xfun          0.41    2023-11-01 [1] CRAN (R 4.2.0)\n yaml          2.3.8   2023-12-11 [1] CRAN (R 4.2.0)\n\n [1] /Users/sebastiansaueruser/Rlibs\n [2] /Library/Frameworks/R.framework/Versions/4.2/Resources/library\n\n──────────────────────────────────────────────────────────────────────────────",
+    "text": "1.1 Technische Details zu diesem Online-Buch\n\n\n─ Session info ───────────────────────────────────────────────────────────────\n setting  value\n version  R version 4.2.1 (2022-06-23)\n os       macOS Big Sur ... 10.16\n system   x86_64, darwin17.0\n ui       X11\n language (EN)\n collate  en_US.UTF-8\n ctype    en_US.UTF-8\n tz       Europe/Berlin\n date     2024-05-15\n pandoc   3.1.12.2 @ /usr/local/bin/ (via rmarkdown)\n\n─ Packages ───────────────────────────────────────────────────────────────────\n package     * version date (UTC) lib source\n cli           3.6.2   2023-12-11 [1] CRAN (R 4.2.0)\n digest        0.6.33  2023-07-07 [1] CRAN (R 4.2.0)\n evaluate      0.23    2023-11-01 [1] CRAN (R 4.2.0)\n fastmap       1.1.1   2023-02-24 [1] CRAN (R 4.2.0)\n htmltools     0.5.7   2023-11-03 [1] CRAN (R 4.2.0)\n htmlwidgets   1.6.4   2023-12-06 [1] CRAN (R 4.2.0)\n jsonlite      1.8.8   2023-12-04 [1] CRAN (R 4.2.0)\n knitr         1.45    2023-10-30 [1] CRAN (R 4.2.1)\n rlang         1.1.3   2024-01-10 [1] CRAN (R 4.2.1)\n rmarkdown     2.26    2024-03-05 [1] CRAN (R 4.2.1)\n rstudioapi    0.15.0  2023-07-07 [1] CRAN (R 4.2.0)\n sessioninfo   1.2.2   2021-12-06 [1] CRAN (R 4.2.0)\n xfun          0.41    2023-11-01 [1] CRAN (R 4.2.0)\n yaml          2.3.8   2023-12-11 [1] CRAN (R 4.2.0)\n\n [1] /Users/sebastiansaueruser/Rlibs\n [2] /Library/Frameworks/R.framework/Versions/4.2/Resources/library\n\n──────────────────────────────────────────────────────────────────────────────",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Willkommen</span>"
     ]
@@ -377,6 +377,17 @@
     "title": "\n6  Präsentation\n",
     "section": "\n6.5 Zum Ablauf",
     "text": "6.5 Zum Ablauf\n\n6.5.1 Dauer\nPro Prüfling/Präsentation sind ca. 30 bis 45 Minuten angesetzt. Diese Zeit setzt sich zusammen aus Vortrag plus Diskussion plus Feedback plus Pause bzw. Umbau für die nächste Präsentation. Bitte halten Sie Ihr Zeitfenster (Beginn und Ende) ein.\n\n6.5.2 Reihenfolge der Präsentationen\nIn der Regel präsentieren mehrere Studierende, so dass sich die Frage nach der Reihenfolge der Präsentationen stellt. Aus Gründen der Fairness und Einfachheit bestimmt der Dozent die Reihenfolge der Präsentationen zufällig.\n\n\n\n\n\n\nHinweis\n\n\n\nDie Zufallsreihenfolge aller angemeldeten Prüflinge bestimmt der Dozent durch die R-Funktion sample, wobei als Startwert das Datum des (ersten) Prüfungstags herangezogen wird1. \\(\\square\\)\n\n\nDen Studierenden steht es frei, ihre Position untereinander zu tauschen, sofern die Beteiligten alle zustimmen.\n\n6.5.3 Die Prüfperson während Ihrer Präsentation\nIn der Regel wird Sie die Lehrkraft bei Ihrer Präsentation nicht unterbrechen, damit Sie störungsfrei Ihre Argumente entwickeln können. Nur in Ausnahmefällen wird sich die Lehrkraft dennoch zu Wort melden; dies hat dann immer den Hintergrund, Sie auf den richtigen Weg zurückzuführen, ist also stets konstruktiv gemeint. Bitte verstehen Sie diese Maßnahmen vor der - in Anbetracht der Fülle des zu präsentierenden Materials - knappen Redezeit. Falls die Lehrkraft das Gefühl hat, dass Sie die wertvolle (da knappe) Zeit mit Unwesentlichem füllen, kann sie sich entscheiden, Sie mit einem entsprechenden Hinweis zu den wichtigeren Themen zurückführen. Bedenken Sie, dass es nachteilig für Ihren Vortrag ist, zentrale Punkte außen vor gelassen zu haben. Verstehen Sie also Unterbrechungen durch den Dozenten als Hilfestellung; sie sind immer konstruktiv und als Unterstützung gemeint.\nDie Lehrkraft wird sich während Ihres Vortrags Notizen machen. Das kann dazu führen, dass die Lehrkraft Ihrem Vortrag nicht mit den Augen folgt. Natürlich muss die Lehrkraft aber Ihrem Vortrag die ganze Zeit mit voller Aufmerksamkeit beiwohnen. Werten Sie das Notizen machen also bitte nicht als Unhöflichkeit, sondern als Bringschuld zur Dokumentations- und Sorgfaltspflicht der Lehrkraft.",
+    "crumbs": [
+      "Prüfungen",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Präsentation</span>"
+    ]
+  },
+  {
+    "objectID": "050-Hinweise-Pruefung-Praesentation-frame.html#beurteilungskriterien",
+    "href": "050-Hinweise-Pruefung-Praesentation-frame.html#beurteilungskriterien",
+    "title": "\n6  Präsentation\n",
+    "section": "\n6.6 Beurteilungskriterien",
+    "text": "6.6 Beurteilungskriterien\nDie Beurteilungskriterien (s. Tabelle 6.1) können von der Prüfperson angesetzt werden.\n\n\n\nTabelle 6.1: Beurteilungskriterien für Präsentationen\n\n\n\n\n\n\nKriterien\nErläuterung\nGewichtung\n\n\n\nPräsenz\nKörpersprache, Stimme, Sprechweise, Kontakt zu Publikum, Position im Raum, Blickkontakt, Stilmittel\n25%\n\n\nFachwissen\nUmfang, Korrektheit, Aufbau, Argumentation\n20,0%\n\n\nMethodik (empirisches Vorgehen)\nVersuchsplanung, Datenauswertung, Wissenschaftlichkeit,\n20,0%\n\n\nVisualisierung / Folien (ggf. zu streichen)\nSchaubilder, ansprechende Folien, sparsamer Texteinsatz\n25%\n\n\nOrganisation\nZeitmanagement, Technik\n10,0%\n\n\nFAZIT\nGesamteindruck\n100%\n\n\n\n\n\n\n\n\n\nBitte beachten Sie, dass die Gesamtnote sich nicht notwendig als arithmetisches Mittel der Teilaspekte berechnen muss. Darüber hinaus verhindert die Note 5 in einem Teilaspekt das Bestehen insgesamt.",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Präsentation</span>"
@@ -1263,275 +1274,11 @@
     ]
   },
   {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "",
-    "text": "16.1 Tipps\nEin paar Tipps für Prüfungserfolg:",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html#tipps",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html#tipps",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "",
-    "text": "Jedes Kapitel vor- und nachbereiten\nDie Aufgaben am Kapitelende selber lösen\nDas Lernen mit der Unterricht synchronisieren, nicht erst kurz vor der Prüfung anfangen.\nDem Dozenten Fragen stellen (im Unterricht und per Forum)\nLerngruppen bilden\nExzerpte schreiben\nKarteikarten nutzen, um sich selber abzufragen",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html#lösen-sie-die-aufgaben",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html#lösen-sie-die-aufgaben",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "16.2 Lösen Sie die Aufgaben",
-    "text": "16.2 Lösen Sie die Aufgaben\nDie Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind. Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfung vorzubereiten.\nDas Datenwerk ist eine Aufgabensammlung. Suchen Sie dort die Tags (“Categories”), die die Themen Ihrer Prüfung betreffen und arbeiten Sie diese Aufgaben durch. Angenehmerweise sind alle Aufgaben mit Musterlösung versehen. 🍦",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html#schreiben-sie-zusammenfassungen",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html#schreiben-sie-zusammenfassungen",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "16.3 Schreiben Sie Zusammenfassungen",
-    "text": "16.3 Schreiben Sie Zusammenfassungen\nSchreiben Sie sich eine Zusammenfassung, am besten mit der Hand. Es gibt auch Tools (wie https://web.hypothes.is/ oder diese Chrome-Extension), die Kommentare in Webseiten ermöglichen.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html#arbeiten-sie-kontinuierlich-mit",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html#arbeiten-sie-kontinuierlich-mit",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "16.4 Arbeiten Sie kontinuierlich mit",
-    "text": "16.4 Arbeiten Sie kontinuierlich mit\nNach meiner Erfahrung kann jede/r eine gute Note schreiben, man muss kein “Mathe-Crack” sein. Stattdessen kommt es auf die Vorbereitung bzw. das Mitlernen an.\n\n\n\n\n\n\nWichtig\n\n\n\nKontinuierliches Mitlernen ist der Schlüssel zum Erfolg.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html#ich-brauche-mehr-erklärung",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html#ich-brauche-mehr-erklärung",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "16.5 Ich brauche mehr Erklärung!",
-    "text": "16.5 Ich brauche mehr Erklärung!\nSchauen Sie sich die Vidoes dieser Playlist an.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html#gibt-es-eine-art-probeklausur",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html#gibt-es-eine-art-probeklausur",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "16.6 Gibt es eine Art “Probeklausur”?",
-    "text": "16.6 Gibt es eine Art “Probeklausur”?\nJa, gibt es! Hinweise dazu werden im Unterricht bekannt gegeben.\nHier ist eine Aufgabensammlung, die als Prüfungsvorbereitung zum Thema Wahrscheinlichkeitsrechnung dienen kann. Das Tag Verteilungen-Quiz zielt auf ein ähnliches Thema ab. exam-22 umfasst Fragen, die in einer früheren Prüfung abgefragt wurden. Nützlich könnte auch die Sammlung qm2-pruefung sein.\n💡 Schauen Sie sich die Tags im Datenwerk gut an, so können Sie relevante 🙋‍♂️ oder sogar prüfungsheiße 🔥 Aufgaben finden.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html#was-sind-typische-fragen-in-der-prüfung",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html#was-sind-typische-fragen-in-der-prüfung",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "16.7 Was sind typische Fragen in der Prüfung?",
-    "text": "16.7 Was sind typische Fragen in der Prüfung?\nDie Prüfung orientiert sich an den Aufgaben, die jeweils am Kapitelende gestellt sind, und zwar vornehmlich an den Aufgaben, die eine kurze, eindeutige Lösung haben. Nutzen Sie also die Aufgaben am Kapitelende fortwährend, um sich auf die Prüfung vorzubereiten.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html#muss-man-ein-statistik-crack-sein-um-eine-gute-note-zu-schreiben",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html#muss-man-ein-statistik-crack-sein-um-eine-gute-note-zu-schreiben",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "16.8 Muss man ein Statistik-Crack sein, um eine gute Note zu schreiben?",
-    "text": "16.8 Muss man ein Statistik-Crack sein, um eine gute Note zu schreiben?\nNach meiner Erfahrung kann jede/r eine gute Note schreiben, man muss kein “Mathe-Checker” oder “Statistik-Crack” sein. Stattdessen kommt es auf die Vorbereitung bzw. das Mitlernen an.\n\n\n\n\n\n\nWichtig\n\n\n\nKontinuierliches Mitlernen ist der Schlüssel zum Erfolg.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Pruefungsvorbereitung-frame.html#welche-weiteren-hilfen-gibt-es",
-    "href": "Hinweise-Pruefungsvorbereitung-frame.html#welche-weiteren-hilfen-gibt-es",
-    "title": "16  Prüfungsvorbereitung",
-    "section": "16.9 Welche weiteren Hilfen gibt es?",
-    "text": "16.9 Welche weiteren Hilfen gibt es?\n\n16.9.1 Prognose-Wettbewerb\nHier finden Sie ein Beispiel für eine Prognose-Analyse. Und hier sehen Sie Beispiele für typische Fehler bei einem Prognosewettbewerb.\n\n\n16.9.2 Datenanalyse\nSchauen Sie sich Fallstudien (YACSDAs: Yet-Another-Case-Study-in-Data-Analysis) an, insbesondere die, auf die die Lehrkraft hingewiesen hat. Hier ist ein Fundort für YACSDAs.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Lernhilfen-frame.html",
-    "href": "Hinweise-Lernhilfen-frame.html",
-    "title": "17  Lernhilfen",
-    "section": "",
-    "text": "17.1 PDF-Version\nUm eine PDF-Version eines Kapitels (eines HTML-Buchs bzw. einer HTML-Seite) zu erhalten, können Sie im Browser die Druckfunktion nutzen (Strg-P). Wählen Sie dort “PDF” als Ziel.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Lernhilfen</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Lernhilfen-frame.html#übersetzung-in-andere-sprachen",
-    "href": "Hinweise-Lernhilfen-frame.html#übersetzung-in-andere-sprachen",
-    "title": "17  Lernhilfen",
-    "section": "17.2 Übersetzung in andere Sprachen",
-    "text": "17.2 Übersetzung in andere Sprachen\nNutzen Sie die Übersetzungsfunktion Ihres Browsers, um ein Kapitel des Webbuchs bzw. eine Webseite in eine andere Sprache zu übersetzen.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Lernhilfen</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Lernhilfen-frame.html#videos",
-    "href": "Hinweise-Lernhilfen-frame.html#videos",
-    "title": "17  Lernhilfen",
-    "section": "17.3 Videos",
-    "text": "17.3 Videos\nAuf dem YouTube-Kanal des Autors finden sich eine Reihe von Videos mit Bezug zum Inhalt dieses Buchs. Besonders diese Playlist passt zu den Inhalten dieses Buchs.",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Lernhilfen</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Lernhilfen-frame.html#r-syntax-online",
-    "href": "Hinweise-Lernhilfen-frame.html#r-syntax-online",
-    "title": "17  Lernhilfen",
-    "section": "17.4 R-Syntax online",
-    "text": "17.4 R-Syntax online\nR Syntax aus dem Unterricht findet sich im Github-Repo bzw. Ordner zum jeweiligen Semester.\n\n17.4.1 RStudio/Posit Cloud\n\n\n\n\n\n\nRStudio-Cloud-Project\n\n\n\nWenn Ihnen die Lehrkraft ein Posit-Cloud-Projekt1 zur Verfügung stellt, nutzen Sie es. Dort sind alle R-Pakete, Datensätze und Syntax-Vorlagen schon bereit gestellt. Sie sparen sich also eine Menge Installationsarbeit.\\(\\square\\)",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Lernhilfen</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Lernhilfen-frame.html#vorlagen-für-typische-analysen",
-    "href": "Hinweise-Lernhilfen-frame.html#vorlagen-für-typische-analysen",
-    "title": "17  Lernhilfen",
-    "section": "17.5 Vorlagen für typische Analysen",
-    "text": "17.5 Vorlagen für typische Analysen\nDas Github-Repo ‘Data-Learning-Template’ stellt Ihnen Vorlagen für typische Analysen im Bereich Statistik und Data Science bereit.\n\n17.5.1 Online-Unterstützung\nDieser Kurs kann in Präsenz und Online angeboten (bzw. besucht) werden. Wenn Sie die Wahl haben, empfehle ich die Teilnahme in Präsenz, da der Lernerfolg höher ist. Online ist es meist schwieriger, sich zu konzentrieren, da es mehr Ablenkung gibt. Aber auch online ist es möglich, den Stoff gut zu lernen, s. Abbildung 17.1.\n\n\n\n\n\n\nAbbildung 17.1: We believe in you! Image Credit: Allison Horst\n\n\n\nBitte beachten Sie, dass bei einer Teilnahme in Präsenz eine aktive Mitarbeit erwartet wird. Hingegen ist bei einer Online-Teilnahme keine/kaum aktive Mitarbeit möglich.\nHier finden Sie einige Werkzeuge, die das Online-Zusammenarbeiten vereinfachen:\n\nFrag-Jetzt-Raum zum anonymen Fragen stellen während des Unterrichts. Der Keycode wird Ihnen bei Bedarf vom Dozenten bereitgestellt.\nPadlet zum einfachen (und anonymen) Hochladen von Arbeitsergebnissen der Studentis im Unterricht. Wir nutzen es als eine Art Pinwand zum Sammeln von Arbeitsbeiträgen. Die Zugangsdaten stellt Ihnen der Dozent bereit.\nNutzen Sie das vom Dozenten bereitgestelle Forum, um Fragen zu stellen und Fragen zu beantworten.\n\n\n\n17.5.2 Fundorte für Datensätze\nHier finden Sie Datensätze, die sich eignen, um die Analyse von Daten zu lernen:\n\nVincent Arel-Bundocks Datenseite\nDie Datenseite der University of California in Irvine (UCI)\n\n\n\n17.5.3 Aufgabensammlung\nDie Webseite Datenwerk beherbergt eine Sammlung an Übungsaufgaben rund um das Thema Datenanalyse. es gibt eine Suchfunktion (wenn Sie den Namen der Aufgabe wissen) und eine Tag-Liste, wenn Sie Aufgaben nach Themengebiet durchsehen wollen.\n\n\n17.5.4 Tipps zum Lernerfolg\n\n\n\n\n\n\nHinweis\n\n\n\nStetige Mitarbeit - auch und gerade außerhalb des Unterrichts - ist der Schlüssel zum Prüfungserfolg. Vermeiden Sie, das Lernen aufzuschieben. Bleiben Sie dran!\\(\\square\\)\n\n\n\nLerngruppe: Treten Sie einer Lerngruppe bei.\nTutorium: Besuchen Sie ein Tutorium, falls eines angeboten wird.\nVor- und Nachbereitung: Bereiten Sie den Unterricht vor und nach.\nSelbsttest: Testen Sie sich mit Flashcards (Karteikarten, Vorderseite: Frage, Rückseite: Lösung). Wenn Sie alle Aufgaben dieses Kurses aus dem FF beherrschen, sollte die Prüfung kein Problem sein.\nÜbungen: Bearbeiten Sie alle Übungsaufgaben gewissenhaft.\nPortal Datenwerk: Gehen Sie die Aufgaben auf dem Portal Datenwerk durch (soweit relevant).\nFallstudien: Schauen Sie sich meine Fallstudiensammlungen an: https://sebastiansauer-academic.netlify.app/courseware/casestudies/\nLehrkraft ansprechen: Sprechen Sie die Lehrkraft an, wenn Sie Fragen haben. Haben Sie keine Scheu! Bitte lesen Sie aber vorab die Hinweise, um Redundanz zu vermeiden.\nDabei bleiben: Vermeiden Sie “Bullimie-Lernen” (lange nix, dann alles auf einmal), sondern bevorzugen Sie “Lern-Snacks” (immer wieder ein bisschen).\nZusammenfassungen schreiben: Schreiben Sie sich eine Zusammenfassung, am besten mit der Hand. Es gibt auch Tools (wie https://web.hypothes.is/ oder diese Chrome-Extension), die Kommentare in Webseiten ermöglichen.\n\n\n\n17.5.5 Selbstlernkontrolle\nFür einige Kapitel sind (am Kapitelende) Aufgaben eingestellt, jeweils mit Lösung. Ein Teil dieser Aufgaben hat eine kurze, eindeutige Lösung (z.B. “42” oder “Antwort C”); ein (kleiner) Teil der Aufgaben verlangen komplexere Antworten (z.B. “Welche Arten von Prioris gibt es bei stan_glm()?). Nutzen Sie die Fragen mit eindeutiger, kurzer Lösung um sich selber zu prüfen. Nutzen Sie die Fragen mit komplexerer, längerer Lösung, um ein Themengebiet tiefer zu erarbeiten.\n\n\n\n\n\n\nHinweis\n\n\n\nFortwährendes Feedback zu Ihrem Lernfortschritt ist wichtig, damit Sie Ihre Lernbemühungen steuern können. Bearbeiten Sie daher die bereitgestellten Arbeiten ernsthaft.\\(\\square\\)\n\n\n\n\n17.5.6 Lernen lernen\nHier sind einige Quellen (Literatur), die Ihnen helfen sollen, das Lernen (noch besser) zu lernen:\n\nEssentielle Tipps für Bachelor-Studierende der Psychologie\nKonzentriert arbeiten: Regeln für eine Welt voller Ablenkungen\nWie man ein Buch liest\nErsti-Hilfe: 112 Tipps für Studienanfänger - erfolgreich studieren ab der ersten Vorlesung\nVon der Kürze des Lebens\nBlog “Studienscheiss”",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Lernhilfen</span>"
-    ]
-  },
-  {
-    "objectID": "Hinweise-Lernhilfen-frame.html#footnotes",
-    "href": "Hinweise-Lernhilfen-frame.html#footnotes",
-    "title": "17  Lernhilfen",
-    "section": "",
-    "text": "früher hieß Posit Cloud noch RStudio Cloud↩︎",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Lernhilfen</span>"
-    ]
-  },
-  {
-    "objectID": "150-Beispiele-Fehler-Prognosewettbewerb-frame.html",
-    "href": "150-Beispiele-Fehler-Prognosewettbewerb-frame.html",
-    "title": "18  Häufige Fehler im Prognosewettbewerb",
-    "section": "",
-    "text": "Es wird nicht die richtige Variable AV (y) modelliert.\n\nAchten Sie auf eine korrekt spezifizierte Regressionsformel, etwa: y ~ x1 + x2.\n\nEs werden leichtfertig alle Fälle (Zeilen) mit fehlenden Werten entfernt.\n\nDas kann im Extremfall dazu führen, dass der Datensatz sehr klein wird, etwa von 1000 auf 50 Beobachtungen. Achten Sie darauf, wie viele Fälle übrig bleiben. Im Notfall trennen Sie sich von Variablen, die fast nur aus fehlenden Werten bestehen (entfernen Sie solche “Schweizer Käse” aus dem Datensatz).\n\nDie AV (y) erscheint auf beiden Seiten der Regressionsformel: y ~ x1 + y.\n\nDie AV darf nur auf der linken Seite der Regressionsformel erscheinen.\n\nNominale Variablen werden in numerische umgewandelt.\n\nSagen wir, in einer Analyse gibt es die (nominale) Variable Bundesland, mit den bekannten 16 Werten, Bayern, Baden-Württemberg, … Wandelt man diese Nomen in Zahlen um, so würde zwei Mal Bayern das gleiche wie Baden-Württemberg ergeben. Kein Schluss mit dem die Bürger jener Länder einfach zustimmen würden!\n\nDer Quellcode ist nicht reproduzierbar: Der Prüfer versucht Ihre Analyse nachzuvollziehen, scheitert aber, weil er Ihre Syntax nicht zum Laufen bekommt oder es nicht (vollständig) dokumentiert ist, was Sie gemacht haben.\n\nAchten Sie darauf, dass Ihr Code lauffähig ist, auch auf einem anderen Computer. Das bedeutet idealerweise, dass Sie keine Pfade (für Daten) verwenden, die auf Ihren Computer zeigen, da darauf ja außer Ihnen niemand Zugriff hat.\n\nEs wird keine explorative Analyse durchgeführt, und auch keine sonstigen Methoden, um herauszufinden, welche Variablen prädiktiv sind. Stattdessen werden auf Geratewohl Modelle ausprobiert.\n\nVerwenden Sie die z.B. Methoden der explorativen Datenanalyse, um herauszufinden, welche Variable z.B. viele fehlende Werte aufweisen, oder keine Streuung aufweisen oder hoch mit der AV korreliert sind.\n\nEs wird ein Prognosemodell gerechnet, ohne zu prüfen, ob die verwendeten Prädiktoren viele fehlende Werte aufweisen.\n\nAls Extrembeispiel: Sagen wird, nur 10 Zeilen im Datensatz weisen keine fehlenden Werte in den Prädiktoren Ihres Modells auf. Eine Regression wird nur diese Zeilen verwenden, also nur Zeilen mit kompletten Werte (keine fehlenden Werte). Ist es zu erwarten, dass so eine kleine Stichprobe (n=10) eine präzise Vorhersage machen wird (noch dazu, wenn es viele Prädiktoren gibt)? Leider nein! Prüfen Sie also vorab, wie viele Zeilen übrig bleiben, wenn man ein Modell mit Ihren Prädiktoren rechnet. Ohne diese Prüfung wird Ihr Modell u.U. sehr unzuverlässig sein. Auch wenn es Ihre 10 Zeilen gut beschreibt, ist es sehr fraglich, ob so eine kleine Stichprobe neue Daten gut erklären wird.\n\nEs werden kollineare (hochkorrelierte) Prädiktoren aufgenommen.\n\nNimmt man zwei (fast) identische Prädiktoren in eine Regression auf, so kann das das Modell “durcheinander bringen”. Besser ist es, auf eine der beiden Variablen zu verzichten.\n\nDie Vorhersagen werden nicht mit der (richtigen) ID versehen.\n\nStellen Sie sich vor, Sie sollen Noten schon Studentis vorhersagen. Jemand sagt vorher: “Schorsch wird eine 1 haben!”. Schorsch hat tatsächlich eine 1. Toll! Jemand anderes sagt vorher: “Jemand wird eine 1 haben!”. Tja. Schon richtig. Aber wer? Diese Vorhersage ist leider nicht wenig nütze, ihr fehlt eine ID, in dem Fall wäre die richtige (oder eine rictige) ID “Schorsch”. Achten Sie darauf, für jeden Wert von pred eine id anzugeben, sonst kann die Richtigkeit Ihrer Vorhersagen nicht überprüft werden bzw. es wird kein Treffer gefunden für Ihre Vorhersagen.\n\nDen “Sanity-Check” vergessen: Den (Train-)Datensatz anschauen, ob er zumindest auf den ersten Blick vernünftig aussieht (Anzahl der Zeilen? Anzahl der Spalten? Anzahl fehlender Werte? Konstante Spalten? …)\nDie einzureichenden Dateien falsch benennen.\n\nSoll man eine Datei “cool.csv” einreichen, aber man nennt die Datei stattdessen “cool_csv”, dann wird ein einfach gestricktes Computerprogramm Probleme haben, den Namen zu erkennen. Achtung vor Rechtschreibfehlern in entscheidenden Situationen, so ähnlich wie beim Eingeben einer PIN oder eines Passworts. An manchen Stellen lohnt sich ein Doppel-Check und Vorsicht. Man sollte auch keine Zip-Datei hochladen, wenn das vorab als ausgeschlossen deklariert wurde.\n\nRechtschreibfehler Manchmal muss man genau hinschauen, und leicht vertippt man sich: So heißt der Datensatz vielleicht tips und die Spalte, um die es Ihnen geht tip (oder war es umgekehrt?). Oder die Spalte heißt bill_length aber Sie schreiben bill_lenght.\nDatensatz nicht richtig importiert Ob ein Datensatz richtig importiert ist, erkennen Sie daran, ob er im Reiter “Environment” angezeigt wird. Außerdem können Sie dort den Datensatz anklicken, um zu einer Tabellenansicht des Datensatzes zu gelangen. Dort können Sie erkennen, ob z.B. die Anzahl der Spalten korrekt ist (und nicht etwa nur eine) oder z.B. ob die Spaltennamen korrekt sind.\ndata(datensatz) ohne vorher das zugehörige R-Paket gestartet zu haben: Mit data(datensatz) können Sie den Datensatz datensatz nur dann verfügbar machen, wenn das Paket, in dem datensatz “wohnt”, mit library(paketname) gestartet worden ist. So “wohnt” z.B. penguins im Datensatz palmerpenguins. Hier finden Sie eine Übung (und weitere Erklärung) zum Importieren von Daten in R am Beispiel des Datensatzes penguins.\nVerwenden einer Funktion, ohne das zugehörige R-Paket vorab gestartet zu haben.\nDas Laden zu vieler R-Pakete, die gar nicht benötigt werden, mit dem Ergebnis, dass es mehrere Funktionen des gleichen Namens gibt (z.B. filter()). Das führt dann zu Verwirrung, da dann z.B. nicht die Funktion filter aus tidyverse (dplyr) verwendet wird, wie Sie annehmen, sondern eine Funktion gleichen Namens aus einem anderen Paket, das Sie auch gestartet haben. Tipp: Starten Sie nur die Pakete, die Sie für die Aufgabe benötigen. Zumeist sind das immer die gleichen wenigen Pakete.\nFehlerhaftes Aufteilen in Train- und Test-Sample: An sich ist es richtig (sogar oft notwendig), ein Modell in einem Datensatz zu fitten (im Train-Datensatz) und in einem zweiten Datensatz (dem Test-Sample) auf die Modellgüte hin zu prüfen (so vermeidet man Overfitting). So weit, so gut. Allerdings kann sollte das Aufteilen in Train- und Test-Sample nach dem Zufallsprinzip geschehen (idealerweise stratifiziert nach der Zielvariablen). Falsch wäre bei Zeitverlaufsdaten die Sommermonate in Train-Sample und die Wintermonate ins Test-Sample zu packen. Wenn die Zielvariable wetterabhängig ist, kann das Modell vom auf einmal ganz anderen Wetter sehr überrascht sein.\n\nOverfitting. Angenommen Sie möchten eine Datensatz mit n=2 Beobachtungen modellieren und verwenden dazu eine Gerade. Ergebnis: 100% Erklärte Varianz! Null Vorhersagefehler! Das hört sich zu gut an, um wahr zu sein. Stimmt. Zwei Punkte können immer von einer Geraden erklärt werden, das nennt man Overfitting, ihr Modell hat zu viele Freiheitsgrade für die Daten. Das Prinzip verallgemeinert sich: Wenn Sie ein Modell mit vielen Freiheitsgraden haben (etwa ein Polynom hohen Grades oder eine ein lineares Modell mit vielen Variablen und/oder vielen Interaktionen), dann wird es dem Modell leicht fallen, die Daten im Train-Sample zu erklären - Overfitting. Leider wird bei Overfitting eine bittere Enttäuschung erleben, wenn man sich die Modellgüte im Test-Sample anschaut.\n\nDie oben genannten Fehler sind eine umfassende Liste. Bitte lesen Sie in der entsprechenden Literatur die Details nach.",
-    "crumbs": [
-      "Häufige Fehler",
-      "<span class='chapter-number'>18</span>  <span class='chapter-title'>Häufige Fehler im Prognosewettbewerb</span>"
-    ]
-  },
-  {
-    "objectID": "160-Beispiele-Fehler-Datenanalyse-frame.html",
-    "href": "160-Beispiele-Fehler-Datenanalyse-frame.html",
-    "title": "19  Häufige Fehler in der Datenanalyse",
-    "section": "",
-    "text": "20 Häufige Fehler in Datenanalysen",
-    "crumbs": [
-      "Häufige Fehler",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Häufige Fehler in der Datenanalyse</span>"
-    ]
-  },
-  {
-    "objectID": "160-Beispiele-Fehler-Datenanalyse-frame.html#schwere-fehler",
-    "href": "160-Beispiele-Fehler-Datenanalyse-frame.html#schwere-fehler",
-    "title": "19  Häufige Fehler in der Datenanalyse",
-    "section": "20.1 Schwere Fehler",
-    "text": "20.1 Schwere Fehler\nSchwere Fehler, die zum Durchfallen oder deutlichem Abwerten der Note führen können, sind z.B.:\n\nfehlende Inferenzstatistik (oder adäquatem Ersatz)\nfalsche Interpretation von Posteriori-Verteilungen oder p-Werten\nkeine Angabe von Konfidenzintervallen\nfalsche Interpretation von Konfidenzintervallen\nWahl des falschen Intervalls (Vorhersageintervall vs. Perzentilintervall vs. HDI)\nfalsche Entscheidung zum Hypothesentest auf Basis entsprechender Kennwerte (wie ROPE-Wahrscheinlichkeit oder p-Wert)\nfalsche Wahl des statistischen Verfahrens\nfehlende Deskriptivstatistik",
-    "crumbs": [
-      "Häufige Fehler",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Häufige Fehler in der Datenanalyse</span>"
-    ]
-  },
-  {
-    "objectID": "160-Beispiele-Fehler-Datenanalyse-frame.html#leichte-fehler",
-    "href": "160-Beispiele-Fehler-Datenanalyse-frame.html#leichte-fehler",
-    "title": "19  Häufige Fehler in der Datenanalyse",
-    "section": "20.2 Leichte Fehler",
-    "text": "20.2 Leichte Fehler\nHäufige kleinere Mängel sind z. B.\n\npixelige Abbildungen\nR-Ausgaben oder R-Syntax als Screenshot\nfehlende Seitenzahlen (nur bei paginierten Formaten, nicht bei HTML)\nunübersichtliche Diagramme\nkein (verlinktes) Inhaltsverzeichnis ︎\nfehlende oder unverständliche Achsenbeschriftung bei Diagrammen\nfehlende oder falsche Beschreibung der/des Skalenniveau(s) der untersuchten Variablen",
-    "crumbs": [
-      "Häufige Fehler",
-      "<span class='chapter-number'>19</span>  <span class='chapter-title'>Häufige Fehler in der Datenanalyse</span>"
-    ]
-  },
-  {
-    "objectID": "170-Beispiele-Fehler-Projektarbeiten-frame.html",
-    "href": "170-Beispiele-Fehler-Projektarbeiten-frame.html",
-    "title": "20  Häufige Fehler in Projektarbeiten",
-    "section": "",
-    "text": "21 Häufige Fehler in Ausarbeitungen\n“Ausarbeitungen” sind schriftliche Prüfungen wie z.B. die Thesis oder eine Projektarbeit.",
-    "crumbs": [
-      "Häufige Fehler",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Häufige Fehler in Projektarbeiten</span>"
-    ]
-  },
-  {
-    "objectID": "170-Beispiele-Fehler-Projektarbeiten-frame.html#überblick-über-typische-fehler",
-    "href": "170-Beispiele-Fehler-Projektarbeiten-frame.html#überblick-über-typische-fehler",
-    "title": "20  Häufige Fehler in Projektarbeiten",
-    "section": "21.1 Überblick über typische Fehler",
-    "text": "21.1 Überblick über typische Fehler\n\nFachlich dünn: Die Anzahl von guten Quellen (z. B. Fachartikel) ist gering; der Autor kennt sein Thema zu wenig. Es findet kaum Rückbezug der eigenen Studie/Daten auf die Literatur statt.\nStoff nicht ausreichend reflektiert: Es werden Fakten aneinander gereiht, ohne dass ist, ob sich mit dem Stoff auseinander gesetzt wurde (z. B. werden Stärken/Schwächen einzelner Texte nicht diskutiert).\nFormalia fehlerhaft: Durch „Äußerlichkeiten“ werden Punkte verschenkt (z. B. pixelige Grafiken, optisch schlecht aufgelockerte Texte, „Löcher“ im Textfluss; Fehler im Literaturverzeichnis).\nZahlen irreführend präsentiert: Statistiken wie werden unvollständig präsentiert oder die Anzahl der Nachkommastellen ist zu hoch oder inkonsistent.\nSelbstkritik fehlt: Stärken und Schwächen der eigenen Art werden nicht diskutiert.",
-    "crumbs": [
-      "Häufige Fehler",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Häufige Fehler in Projektarbeiten</span>"
-    ]
-  },
-  {
-    "objectID": "170-Beispiele-Fehler-Projektarbeiten-frame.html#substanzielle-fehler",
-    "href": "170-Beispiele-Fehler-Projektarbeiten-frame.html#substanzielle-fehler",
-    "title": "20  Häufige Fehler in Projektarbeiten",
-    "section": "21.2 Substanzielle Fehler",
-    "text": "21.2 Substanzielle Fehler\nSubstanzielle Fehler können zum Durchfallen oder zum deutlichem Abwerten der Note führen. Beispiele für solche Fehler sind:\n\nDie Textlänge (Hauptteil) ist zu kurz – ca. 20 % unter der formal angegeben Soll-Länge.\nEs liegen viele Zitierfehler im Text vor (z. B. 30 % fehlerbehaftete Zitationen).\nEs liegen viele Fehler im Literaturverzeichnis vor (z. B. 30 % fehlerbehaftete Zitationen).\nEs wurde die abgesprochene empirische Methode nicht verwendet.\nDas Literaturverzeichnis ist sehr kurz (weniger als 15 (Bachelor) bzw. 25 (Master) Quellen).\nDie Qualität des Literaturverzeichnisses ist gering (über 50 % Quellen von zweifelhafter Qualität, z. B. aus Ratgeber-Büchern).\nDie Lesbarkeit ist aufgrund der optischen Gestaltung oder gravierender Sprachmängel stark eingeschränkt (z. B. viele Rechtschreibfehler).\nEs findet sich ein oder mehrere Plagiate (weitere Konsequenzen sind möglich).\n\n\n21.2.1 In quantitativen Arbeiten\n\nEs wird keine Inferenzstatistik verwendet.\nDer p-Wert oder die Post-Verteilung (und ihre Derivate) werden falsch interpretiert.\nEs wird keine Deskriptiv-Statistik berichtet.\nHypothesen und Datenanalyse passen nicht zusammen.\nDie Stichprobe ist kleiner als 50% der Menge, die für die Teilnote “gut” ausgewiesen ist.\n\n\n\n21.2.2 In qualitativen Arbeiten\n\nEs werden keine Kategorien berichtet.\nEs werden nur wenig Kodierungen vorgenommen.\nEs werden keine Kodierregeln berichtet.\nDie Stichprobe ist kleiner als 50% der Menge, die für die Teilnote “gut” ausgewiesen ist.\n\n\n\n21.2.3 In theoretischen Arbeiten\n\nEs wurde ein stark verzerrtes Bild der einschlägigen Literatur berichtet.\nDie Menge der verwendeten Literatur ist weniger als 50% der Menge, die für die Teilnote “gut” ausgewiesen ist.",
-    "crumbs": [
-      "Häufige Fehler",
-      "<span class='chapter-number'>20</span>  <span class='chapter-title'>Häufige Fehler in Projektarbeiten</span>"
-    ]
-  },
-  {
-    "objectID": "050-Hinweise-Pruefung-Praesentation-frame.html#beurteilungskriterien",
-    "href": "050-Hinweise-Pruefung-Praesentation-frame.html#beurteilungskriterien",
-    "title": "\n6  Präsentation\n",
-    "section": "\n6.6 Beurteilungskriterien",
-    "text": "6.6 Beurteilungskriterien\nDie Beurteilungskriterien (s. Tabelle 6.1) können von der Prüfperson angesetzt werden.\n\n\n\nTabelle 6.1: Beurteilungskriterien für Präsentationen\n\n\n\n\n\n\nKriterien\nErläuterung\nGewichtung\n\n\n\nPräsenz\nKörpersprache, Stimme, Sprechweise, Kontakt zu Publikum, Position im Raum, Blickkontakt, Stilmittel\n25%\n\n\nFachwissen\nUmfang, Korrektheit, Aufbau, Argumentation\n20,0%\n\n\nMethodik (empirisches Vorgehen)\nVersuchsplanung, Datenauswertung, Wissenschaftlichkeit,\n20,0%\n\n\nVisualisierung / Folien (ggf. zu streichen)\nSchaubilder, ansprechende Folien, sparsamer Texteinsatz\n25%\n\n\nOrganisation\nZeitmanagement, Technik\n10,0%\n\n\nFAZIT\nGesamteindruck\n100%\n\n\n\n\n\n\n\n\n\nBitte beachten Sie, dass die Gesamtnote sich nicht notwendig als arithmetisches Mittel der Teilaspekte berechnen muss. Darüber hinaus verhindert die Note 5 in einem Teilaspekt das Bestehen insgesamt.",
-    "crumbs": [
-      "Prüfungen",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Präsentation</span>"
-    ]
-  },
-  {
     "objectID": "150-Hinweise-Pruefungsvorbereitung-frame.html",
     "href": "150-Hinweise-Pruefungsvorbereitung-frame.html",
     "title": "16  Prüfungsvorbereitung",
     "section": "",
-    "text": "16.1 Ich brauche mehr Erklärung!\nSchauen Sie sich die Vidoes dieser Playlist an.\n≥",
+    "text": "16.1 Ich brauche mehr Erklärung!\nSchauen Sie sich die Vidoes dieser Playlist an.",
     "crumbs": [
       "Lernen",
       "<span class='chapter-number'>16</span>  <span class='chapter-title'>Prüfungsvorbereitung</span>"
@@ -1609,6 +1356,17 @@
     "title": "17  Lernhilfen",
     "section": "17.3 R-Syntax online",
     "text": "17.3 R-Syntax online\nR Syntax aus dem Unterricht findet sich im Github-Repo bzw. Ordner zum jeweiligen Semester.",
+    "crumbs": [
+      "Lernen",
+      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Lernhilfen</span>"
+    ]
+  },
+  {
+    "objectID": "160-Hinweise-Lernhilfen-frame.html#rstudioposit-cloud",
+    "href": "160-Hinweise-Lernhilfen-frame.html#rstudioposit-cloud",
+    "title": "17  Lernhilfen",
+    "section": "17.4 RStudio/Posit Cloud",
+    "text": "17.4 RStudio/Posit Cloud\n\n\n\n\n\n\nRStudio-Cloud-Project\n\n\n\nWenn Ihnen die Lehrkraft ein Posit-Cloud-Projekt1 zur Verfügung stellt, nutzen Sie es. Dort sind alle R-Pakete, Datensätze und Syntax-Vorlagen schon bereit gestellt. Sie sparen sich also eine Menge Installationsarbeit.\\(\\square\\)",
     "crumbs": [
       "Lernen",
       "<span class='chapter-number'>17</span>  <span class='chapter-title'>Lernhilfen</span>"
@@ -1733,17 +1491,6 @@
     "crumbs": [
       "Häufige Fehler",
       "<span class='chapter-number'>20</span>  <span class='chapter-title'>Häufige Fehler in Projektarbeiten</span>"
-    ]
-  },
-  {
-    "objectID": "160-Hinweise-Lernhilfen-frame.html#rstudioposit-cloud",
-    "href": "160-Hinweise-Lernhilfen-frame.html#rstudioposit-cloud",
-    "title": "17  Lernhilfen",
-    "section": "17.4 RStudio/Posit Cloud",
-    "text": "17.4 RStudio/Posit Cloud\n\n\n\n\n\n\nRStudio-Cloud-Project\n\n\n\nWenn Ihnen die Lehrkraft ein Posit-Cloud-Projekt1 zur Verfügung stellt, nutzen Sie es. Dort sind alle R-Pakete, Datensätze und Syntax-Vorlagen schon bereit gestellt. Sie sparen sich also eine Menge Installationsarbeit.\\(\\square\\)",
-    "crumbs": [
-      "Lernen",
-      "<span class='chapter-number'>17</span>  <span class='chapter-title'>Lernhilfen</span>"
     ]
   }
 ]
