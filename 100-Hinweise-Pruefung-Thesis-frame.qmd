@@ -1,4 +1,7 @@
-# Abschlussarbeit
+# Besonderheiten von Abschlussarbeiten {#sec-abschlussarbeiten}
+
+
+Bitte beachten Sie auch die übrigen Hinweise, insbesondere die Hinweise zu den [schriftlichen Prüfungen](@sec-schriftliche-pruefungen) sowie die [allgemeinen Prüfungshinweise](@sec-allgemeine-pruefungshinweise).
 
 
 
@@ -13,17 +16,24 @@ Liebe Studentin, lieber Student,
 
 
 Sie überlegen, Ihre Abschlussarbeit bei Professor Sauer zu schreiben. Gut! 
-Damit bekommen Sie einen erfahrenen Gutachter und Forscher an Ihre Seite gestellt. Wie in jeder Zusammenarbeit gibt es gewisse Erwartungen für einen erfolgreichen Abschluss. 
-Es ist in Ihrem Sinne, die Erwartungen Ihres Prüfers gut zu kennen, damit Sie prüfen können, ob die skizzierten Rahmenbedingungen für Sie passen. Außerdem können Sie Ihre Forschungsarbeit entsprechend ausrichten. 
-Je klarer die Erwartungen, desto unwahrscheinlicher ist es, dass im Nachgang jemand (z.B. Ihr Prüfer) sagt, er habe das ganz anders gewollt.
+Damit bekommen Sie einen erfahrenen Gutachter und Forscher an Ihre Seite gestellt. 
+Wie in jeder Zusammenarbeit gibt es gewisse Erwartungen für einen erfolgreichen Abschluss. 
+Es ist in Ihrem Sinne, die Erwartungen Ihres Prüfers gut zu kennen, damit Sie prüfen können, 
+ob die skizzierten Rahmenbedingungen für Sie passen. 
+Außerdem können Sie Ihre Forschungsarbeit entsprechend ausrichten. 
+Je klarer die Erwartungen, desto unwahrscheinlicher ist es, 
+dass im Nachgang jemand (z.B. Ihr Prüfer) sagt, 
+er habe das ganz anders gewollt.
 
 
 
 Bitte bedenken Sie, dass die hier formulierten Erwartungen an Sie nicht zum Komfort Ihres Prüfers erstellt sind. 
 Es geht darum, typische Fehler zu vermeiden und einen reibungslosen Ablauf der Begutachtung sicherzustellen. 
-Gleichzeitig soll ein solides Qualitätsniveau - anspruchsvoll, aber gut machbar - sichergestellt werden. 
+Gleichzeitig soll ein solides Qualitätsniveau - 
+anspruchsvoll, aber gut machbar - sichergestellt werden. 
 Lesen Sie sich bitte die Hinweise sorgfältig durch. 
-Wenn Sie sich bei mir für Ihre Abschlussarbeit anmelden, gehe ich davon aus, dass Sie diese Hinweise gelesen haben und einverstanden sind.
+Wenn Sie sich bei mir für Ihre Abschlussarbeit anmelden, 
+gehe ich davon aus, dass Sie diese Hinweise gelesen haben und einverstanden sind.
 
 
 
@@ -38,7 +48,7 @@ Sie können *selber ein Thema vorschlagen* oder eines der Themen wählen, die ic
 Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
 
 
-## Liste meiner freien Themen {#sec-themenliste}
+### Liste meiner freien Themen {#sec-themenliste}
 
 :::{.callout-tip}
 ### Bring your own Thema
@@ -54,7 +64,7 @@ Wenn Sie klare Vorstellungen von Ihrer Thesis haben, dann schlagen Sie mir ein T
 ```{r thesisliste}
 #| echo: false
 
-d <- readxl::read_xlsx("/Users/sebastiansaueruser/Google Drive/Semester/Lehre_AKTUELL/Thesis/Thesisthemen-Prof-Sauer.xlsx")
+d <- readxl::read_xlsx("Thesisthemen-Prof-Sauer.xlsx")
 
 d <-
   d |> 
@@ -68,12 +78,24 @@ d |>
 
 
 
+### Darf ich ein Thema wählen, das ich schon früher (z.B. in einer Seminararbeit) bearbeitet habe?
+
+Sie dürfen ein Thema in Ihrer Abschlussarbeit bearbeiten, welches *ähnlich* zu einer früheren Prüfungsleistung ist. 
+Auf *keinen Fall* dürfen Sie das *gleiche Thema* einer früheren Seminararbeit als Thema Ihrer Thesis verwenden:
+Es ist nicht zulässig, eine Arbeit als Prüfungsleistung für mehrere Module (inkl. Thesis) einzureichen.
+Im Zweifelsfall sprechen Sie dazu mich oder die Prüfungsabteilung an. 
+
+ABER: Sie dürfen ein Exposé, welches Sie explizit als Vorbereitung für Ihre Abschlussarbeit als Prüfungsleistung eingereicht haben, als Grundlage für Ihre Abschlussarbeit verwenden.
+Sie dürfen also Teile aus Ihrem Exposé übernehmen.
+Diese müssen als (direktes oder indirektes) Zitat gekennzeichnet sein (ansonsten würde es sich um ein Selbstplagiat handeln).
+
+Ich empfehle Ihnen, keine direkten Zitate zu übernehmen, sondern wenn überhaupt dann nur indirekte Zitate.
 
 
-## Wahl des Themas und dis Gutachtis der Abschlussarbeit
+## Ablauf bis zur Anmeldung
 
 
-@fig-anmeldung zeigt den Ablauf der Abschlussarbeit mit einem Fokus auf die Vorbereitung, also der Wahl Ihres Themas bzw. die Absprache des Themas mit dem Gutachter.
+@fig-anmeldung zeigt den Ablauf der Abschlussarbeit mit einem Fokus auf die Vorbereitung, also der Wahl Ihres Themas bzw. die Absprache des Themas mit dem Gutachter (d.h. bis zur Anmeldung).
 
 
 
@@ -228,105 +250,24 @@ optional: Projektplan (Zeit- und Arbeitsplan)
 
 
 
-## Mengengerüst: Wie "groß" soll meine  Studie sein?
-
-
-
-Hier folgt ein grobes Mengengerüst für die (empirische) Studie Ihrer Abschlussarbeit, 
-damit Sie eine Einschätzung, wie viel "gut" ist (Teilnote 2). 
-Dieses Mengengerüst passt nicht für alle Situationen. 
-Bitte sprechen Sie mich im Zweifel darauf an bzw. begründen Sie Ihren Studienaufbau im Exposé und in der Thesis. 
-
-
-
-### Quantitative Studien mit Versuchspersonen
-
-
-
-- Experiment: 
-
-    - Between-Design: ca. 20 Personen pro Gruppe
-
-    - Within-Design: ca. 30 pro Faktor
-
-
-
-- Beobachtungsstudie: ca. 150 Fälle; mind. 3 Variablen
-
-
-
-- Fragebogenvalidierung: ca. 200 Fälle
 
 
 
 
 
-Grundsätzlich gilt hier: Mehr ist besser :-)
 
-
-
-
-
-Da die Aussagekraft von Experimenten i.d.R. höher ist als die Aussagekraft einer Beobachtungsstudie, sollten Sie einem Experiment - sofern möglich - den Vorzug geben. Falls Sie ein Beobachtungsdesign wählen, um kausale Aussagen zu tätigen, sollten Sie die Wahl rechtfertigen und unter Verwendung einer Theorie (die Verwendung eines DAGs ist zu empfehlen) die Stichhaltigkeit Ihres Designs erläutern.
-
-
-
-### Qualitative Studie
-
-Ca. 8-10 Interviews zu je 30 Minuten Länge sind eine nützliche Richtgröße.
-
-
-Wenn Sie ein qualitatives Design bearbeiten, dann ist die *Grounded Theory* der *Inhaltsanalyse* von Mayring zu bevorzugen.
-
-
-
-Sie können KI-Tools zur Transkription nutzen wie z.B. [riverside](https://riverside.fm/transcription).
-
-
-
-### Systematische Reviews
-
-In die Feinanalyse sollten ca. 80-100 Reviews einfließen.
 
 
 
 ## Wenn ich eine theoretische Arbeit schreibe, welche Methode verwende ich dann?
 
-Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben, ist Ihre Methode zumeist die des *Literaturstudiums.* Eine unsystematische oder systematische Literaturrecherche bietet sich an; die *systematische* ist zu bevorzugen.
-
-
-
-
-## Formalia
-
-### Formatierung 
-
-Zur formalen (und inhaltlichen) Gestaltung sei dieses Buch empfohlen: "Peters, J. H., & Dörfler, T. (2019). Abschlussarbeiten in der Psychologie und den Sozialwissenschaften - Schreiben und Gestalten. München: Pearson Studium." In diesem Titel finden Sie viel Wertvolles zum Aufbau und Gestaltung Ihrer Abschlussarbeit. Formatieren Sie Ihre Arbeit *nicht* wie ein Manuskript nach APA-Vorlagen, das Sie bei einem Verlag einreichen, sondern wie einen Forschungsbericht (vgl. Peters & Dörfler, 2019, S. 3). Das beinhaltet auch, dass Sie nach APA/DGPs zitieren.
-
-
-
-Ambitionierte Studierende (insbesondere in einem Master-Studiengang), die auf eine sehr gute Teilnote im Bereich "Formales" abzielen, sollten sich möglichst eng an die formalen Vorgaben halten.
-
-Richtlinien zur Seitenformatierung und -layout finden Sie in Peters und Dörfler (2019), vgl. Kap. 4.
-Befolgen Sie die Art, Statistiken zu berichten laut APA bzw. DGPs, sofern Peters und Dörfler (2019) nicht andere Angaben machen.
-
-Werten Sie quantitative Daten mit *R* oder Python aus.
-
-Gestalten Sie Ihre Arbeit *nachprüfbar*: Berichten Sie die Syntax, das genaue Vorgehen beim Versuch, die Stichprobenplanung, reichen Sie die Daten und ggf. das Stimulusmaterial (z.B. Bilder) ein.
-
- Informieren Sie sich im Übrigen über die *offiziellen Richtlinien* der Hochschule (wie Abgabefristen) in den entsprechenden Dokumenten wie der APO und der SPO.
-
-Im Merkblatt für Abschlussarbeiten der Prüfungsabteilung finden Sie weitere formale Vorgaben, etwa zur ehrenwörtlichen Erklärung. 
-
-Schreiben Sie die *Wortzahl* (nur Hauptteil, ab Einleitung bis einschl. Diskussion) auf das Deckblatt oder in den Anhang.
-
-Drucken Sie Ihre Arbeit *beidseitig*, in *Klebebindung.*
+Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben, ist Ihre Methode zumeist die des *Literaturstudiums.* Eine unsystematische oder systematische Literaturrecherche bietet sich an; die *systematische* ist zu bevorzugen. Auch bibliometrische Analysen sind möglich.
 
 
 
 
 
-### Anmeldung
+## Anmeldung
 
 Wenn Sie ein Formular an mich (oder Dritte, wie die Prüfungsabteilung) senden, nennen Sie bitte stets *Ihren Namen im Dateinamen*. Falsch: "Anmeldung-Thesis.pdf". Richtig: "Anmeldung-Thesis-Müller-Marina-01234567.pdf".
 
@@ -338,205 +279,12 @@ Bitte *füllen Sie das Formular entsprechend aus*, bevor Sie es mir schicken. D.
 
 
 
-## Wie viel soll ich schreiben?
 
-- Der Umfang sollte im Bachelor ca. *10,000 - 12,000 Wörter im Hauptteil* (~30-50 Seiten insgesamt) betragen. Beachten Sie, dass die Wortzahl wichtiger ist als die Seitenzahl. Als "Hauptteil" gilt der Teil von der Arbeit ohne Deckblatt, Verzeichnisse, Anhang und Erklärungen.
 
-- Diese Zahlen beinhalten NUR den Hauptteil (von Einleitung bis zur Diskussion, jeweils einschließlich) -- ohne Abstract, Anhang, Literaturverzeichnis und Deckblatt (aber inklusive Tabellen und Abbildungen und sonstigem Inhalt).
 
-- Bitte geben Sie die *Wortzahl*, wie hier definiert, auf dem *Deckblatt* Ihrer Arbeit an.
+## Sonstiges
 
+Im Merkblatt für Abschlussarbeiten der Prüfungsabteilung finden Sie weitere formale Vorgaben, etwa zur ehrenwörtlichen Erklärung. 
 
-
-
-
-## Wie viel Literatur soll ich zitieren?
-
-
-Für eine gute Teilnote sollte Ihr Literaturumfang ca. *40-50 Quellen (Bachelor)* bzw.* 60-80 Quellen (Master)* betragen bei einer empirischen Arbeit. Bei einer *theoretischen* Arbeit ist mit dem Faktor 2 zu rechnen.
-Ca. 30-50% (Bachelor) bzw. 50-70% (Master) der zitierten Literatur sollte sich aus Fachartikeln speisen für eine gute Teilnote.
-
-
-
-
-
-## Sie sind bestimmt super streng, was die Methoden/Statistik betrifft?
-
-- Ja :-)
-
-- Im Ernst: Ich erwarte nicht mehr als das, was im Unterricht an methodischem Wissen vermittelt wurde.
-
-- Ambitionierten Studierenden sei empfohlen, eine experimentelle Studie durchzuführen (keine Beobachtungsstudie) - sofern möglich, die Arbeit zu präregistrieren (z.B. bei www.osf.io), generell auf gute Reproduzierbarkeit zu achten und multiple Regression zu verwenden - sofern sinnvoll.
-
-- Für neue (im Unterricht nicht behandelte quantitative) Methoden bin ich immer offen und freue mich über Ihre Ideen.
-
-
-
-## Plagiate 
-
-
-
-
-
-### Don't do it
-
-Lassen Sie äußerste Vorsicht walten, dass sich *keine Plagiate* in Ihrer Abschlussarbeit finden. 
-Finde ich ein oder mehrere Plagiate, so werde ich die Arbeit mit "nicht bestanden" beurteilen. 
-Eine Leistung als die eigene auszugeben, die aber gar nicht die eigene ist, ist Betrug. 
-Bitte bedenken Sie auch, dass eine Ausrede wie "war keine Absicht, hab nicht aufgepasst" nicht ausreicht: *Sie* sind für die Qualität und Redlichkeit Ihrer Arbeit verantwortlich. 
-In Ihrer Verantwortung liegt entsprechend die notwendige Sorgfalt, Plagiate zu vermeiden. Auch die Ausrede "Mein Literaturprogramm oder Word muss hier einen Fehler gemacht haben" wird nicht gelten gelassen werden. 
-Hier gilt wieder: Sie sind für die Qualität und Redlichkeit Ihrer Abschlussarbeit verantwortlich; die Verantwortung ist nicht an eine Maschine delegierbar. 
-Falls Sie Fragen zu dem Thema Plagiate haben, sprechen Sie mich jederzeit gerne an.
-
-
-
-### Darf ich ein Thema wählen, das ich schon früher (z.B. in einer Seminararbeit) bearbeitet habe?
-
-Sie dürfen ein Thema in Ihrer Abschlussarbeit bearbeiten, welches *ähnlich* zu einer früheren Prüfungsleistung ist. 
-Auf *keinen Fall* dürfen Sie das *gleiche Thema* einer früheren Seminararbeit als Thema Ihrer Thesis verwenden:
-Es ist nicht zulässig, eine Arbeit als Prüfungsleistung für mehrere Module (inkl. Thesis) einzureichen.
-Im Zweifelsfall sprechen Sie dazu mich oder die Prüfungsabteilung an. 
-
-ABER: Sie dürfen ein Exposé, welches Sie explizit als Vorbereitung für Ihre Abschlussarbeit als Prüfungsleistung eingereicht haben, als Grundlage für Ihre Abschlussarbeit verwenden.
-Sie dürfen also Teile aus Ihrem Exposé übernehmen.
-Diese müssen als (direktes oder indirektes) Zitat gekennzeichnet sein (ansonsten würde es sich um ein Selbstplagiat handeln).
-
-Ich empfehle Ihnen, keine direkten Zitate zu übernehmen, sondern wenn überhaupt dann nur indirekte Zitate.
-
-
-
-
-
-
-### ... und zu unerlaubten Hilfsmitteln
-
-Zu unerlaubten Hilfsmitteln zählen insbesondere die Hilfe Dritter sowie von künstlicher Intelligenz. Die Arbeit darf nur mit Hilfe erlaubter Hilfsmittel geschrieben werden. So ist es nicht zulässig, dass Teile Ihrer Arbeit von anderen Personen geschrieben, verbessert oder sonstig beeinflusst werden. Zu solchen unerlaubten Hilfsmitteln zählt auch das "Korrekturlesen" durch Dritte. Es ist weiter nicht zulässig, die Arbeit in Gänze oder Teilen von einer künstlichen Intelligenz (z.B. ChatGPT) schreiben zu lassen. Bei Fragen oder im Zweifel sprechen Sie bitte Ihre Betreuerin/Ihren Betreuer an. Das Verwenden von unerlaubten Hilfsmitteln kann von der Prüfungskommission mit Nichtbestehen der Prüfung geahndet werden.
-
-
-
-## Die Benotung Ihrer Thesis
-
-
-Die Benotungskriterien sind 1) Formalia, 2) Methodik, 3) Inhalt.
-
-Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in das jeweilige Benotungskriterium einfließen können. Bitte beachten Sie, dass die folgende Liste nicht vollständig ist und auch nicht zwangsläufig alle genannten Punkte in eine Benotung einfließen müssen. Die Gesamtnote ist nicht (notwendig) ein ungewichteter Durchschnitt aus den drei Benotungskriterien. Für die drei Benotungskriterien werden nicht notwendig Teilnoten ausgewiesen.
-
-
-
-### Formalia
-
-- Vollständigkeit (Verzeichnisse, Anhänge, Erklärungen)
-
-- Gestaltung 
-
-- Rechtschreibung und Grammatik (Korrektheit; inklusive Interpunktion)
-
-- Zitierweise in Text und Fußnoten (Einheitlichkeit, Korrektheit)
-
-- Literaturverzeichnis (Einheitlichkeit, Korrektheit)
-
-- Umfang (Problemangemessenheit - gem. Leitfaden zur formalen Gestaltung von Seminar- und Abschlussarbeiten)
-
-
-
-### Methoden
-- Methodenauswahl (Problembezug)
-
-- Methodenanwendung (Problemlösungsbezug, Angemessenheit, Nachvollziehbarkeit)
-
-- Interpretation der Ergebnisse (Problembezug, Abgewogenheit, Nachvollziehbarkeit, Vollständigkeit)
-
-
-
-### Inhalt - nicht-empirische Teile
-
-- Gliederung (Logik, Problembezogenheit, Stringenz)
-
-- Problemstellung und Zielsetzung (nachvollziehbare Herleitung)
-
-- Argumentation (Abgewogenheit, Logik, Neutralität, Problembezogenheit, Stringenz)
-
-- Literaturnutzung (angemessene Breite u. Tiefe der Bearbeitung, Aktualität u. Wissenschaftlichkeit der verwendeten Quellen)
-
-- Sprachlicher Ausdruck (Nachvollziehbarkeit, Verständlichkeit, Verwendung von Fachtermini)
-
-- Problemlösung (Breite u. Tiefe der Problemdurchdringung, Eigenständigkeit der Problemlösung, kritische Reflexion des Vorgehens)
-
-
-
-
-
-## Open Science
-
-Ich bin ein Befürworter der "offenen Wissenschaft" (open science). 
-Das bedeutet primär, dass Sie Daten, Analysecode und Versuchsbeschreibung zumindest dem Gutachter und besser noch der (wissenschaftlichen) Öffentlichkeit zugänglich machen  sollten.
-
-Fügen Sie also die entsprechenden Materialien Ihrer Arbeit an.
-Besser ist es noch, wenn Sie die Materialien auf einen geeigneten Server (z.B. <https://osf.io>) veröffentlichen.
-
-
-
-<!-- - vor allem bei guten Arbeiten, die ein potenzielles Interesse bzw. potenziellen Nutzen für die (forschende) Öffentlichkeit bergen.  -->
-
-
-<!-- Falls ich diesen Nutzen sehe, werde ich die Daten der Studie sowie etwaiges zusätzliches Material (z.B. Beschreibung der Studie) auf einem geeigneten Server (z.B. <https://osf.io>) unter meinem Konto veröffentlichen.  -->
-<!-- Sie werden als Urheber der Daten dabei genannt, sofern Sie dem nicht bis zur Abgabe Ihrer Arbeit widersprechen. Anonymisierung, Datenschutz und Wahrung der Vertraulichkeit obliegt der veröffentlichenden Person (Professor Sauer). Von der Veröffentlichung informiere ich Sie.  -->
-<!-- Sprechen Sie mich gerne an, wenn Sie an weiterer Forschung bzw. Veröffentlichung interessiert sind.  -->
-<!-- Ggf. werde ich die Daten für weitere Forschung nutzen bzw. in geeigneten Format publizieren.  -->
-<!-- Sofern Sie dem nicht widersprechen, bis spätestens 7 Tage nach der mündlichen Prüfung, gehe ich von Ihrem Einverständnis aus. -->
-
-
-
-
-
-## Merkmale einer sehr guten [schlechten] Abschlussarbeit
-
-### Formalia
-
-- Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis.
-
-- Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler].
-
-- Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen [nicht] zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig, sondern prägnant formuliert).
-
-
-
-### Methoden
-- Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert.
-
-- Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus.
-
-- Es wurde sehr viel [wenig] empirisches Material (z. B. befragte Personen) ausgewertet.
-
-
-
-### Inhalt
-- Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert.
-
-- Ein roter Faden ist klar [nicht] ersichtlich.
-
-- Die Arbeit zeichnet sich nicht nur [weder] durch hohes Fachwissen, sondern auch [noch] durch wohl überlegte Argumentation aus.
-
-
-
-Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bewertet werden.
-
-
-## Tipps
-
-- Die Bayes-Methode ist gegenüber frequentistischen Ansätzen zu bevorzugen.
-
-- In qualitativen Studien bietet sich die Grounded Theorie als Auswertungsmethode an.
-
-
-## Sonstige Hinweis
-
-- Für eine einfachere Kommunikation kontaktieren Sie mich per E-Mail bei Fragen, die nur Sie betreffen. Bei Fragen von allgemeinem Interesse (z.B. "Bis wann müssen wir die Arbeit abgeben?") nutzen Sie bitte (sofern verfügbar) das Kursforum, damit die Kommilitonen auch von dem Austausch profitieren.
-
-- Kenntnis dieser Hinweise wird bei der Begutachtung vorausgesetzt.
-
-- Nichtbeachtung kann zu schlechteren Noten oder Durchfallen führen.
-
-- Meine Hinweise im Gutachten speise ich z.T. aus [diesem Fundus](https://sebastiansauer.github.io/textbausteine-korrektur/Textbausteine-Korrektur.html).
 
 

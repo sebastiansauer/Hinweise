@@ -1,6 +1,541 @@
-# Projektarbeit
+# Schriftliche Prüfungen {#sec-schriftliche-pruefungen}
+
+
+Unter *schriftliche Prüfungen* werden hier *Projekt-, Seminar-, Abschlussarbeiten* verstanden.
+
+Bitte beachten Sie auch die übrigen Hinweise, insbesondere die Hinweise zu den [Besonderheiten von Abschlussarbeiten](@sec-abschlussarbeiten) sowie die [allgemeinen Prüfungshinweise](@sec-allgemeine-pruefungshinweise).
 
 
 
-{{< include Hinweise-Pruefung-Projektarbeit.qmd >}}
+
+
+
+
+
+*Die folgenden Prüfungshinweise gelten nur insoweit, dass Ihnen Ihr/e Dozent/in nicht anderweitige Hinweise gegeben hat.*
+
+
+## Prüfungsgegenstand
+
+
+
+
+
+
+Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an geeignetem Ort bekannt gegeben.
+    
+
+
+
+### Formale Anforderungen
+
+
+
+
+### Anfordungen zum Textdokument
+
+
+1. Die aufgeführten Wortzahlen gelten mit einem Toleranzbereich von plus/minus 10%. 
+
+2. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Diagramm als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit auf der Titelseite oder im Anhang an. 
+
+2. Textsatz und (gestalterische) *Formatierung* der Arbeit orientieren sich an den schriftlich bereitgestellten Hinweisen (z.B. im Skript).
+
+
+3. Die Arbeit kann in *deutscher* oder *englischer* Sprache eingereicht werden.
+
+4. *Übrige Gestaltungsaspekte*, die nicht im bereitgestellten Leitfaden aufgeführt sind, sind nach den Vorgaben der *DGPS* (deutsch) oder *APA* (englisch) (jeweils in neuester Version) anzulegen.
+
+6. Auf dem *Titelblatt* ist u.a. anzugeben
+    - Matrikelnummer/n sowie Nach- und Vorname/n aller Autoris (wichtig!)
+    - Titel der Arbeit
+    - Modulname
+
+7. Sie können die Arbeit entweder in einem *paginierten* Format schreiben (z.B. Word-Dokument) oder in einem *nicht-paginierten* Format (z.B. HTML-Dokument mit Quarto).
+
+8. Der *Anhang* dient zur Dokumentation von Details, die nicht wichtig genug sind für den knappen Platz des Berichts, aber dennoch zu wichtig sind, um weggelassen zu werden. Nummerieren Sie die Teile des Anhangs. Typische Inhalte des Anhangs sind: Messinstrumente, Analyse-Code, Daten, Stimuli, weiterführende Ergebnisse, Daten-Codebook, Interview-Transkriptionen.
+
+
+### Formalia
+
+1. Die Arbeit ist *nur online* über das bereitgestellte System, nicht ausgedruckt, einzureichen.
+
+9. Bei der *Anmeldung* ist der Titel anzugeben; der *gleiche Titel* muss sich auch auf der eingereichten Arbeit finden.
+
+10. Eine eingereichte Arbeit *kann nicht wieder zurückgezogen* werden.
+
+
+15. Reichen  Sie folgende *zwei Dateien* als Prüfungsleistung ein: a) Die Arbeit als *PDF-Datei* sowie b) den *Anhang* bzw. ergänzende Materialien als eine *ZIP*-Datei.
+
+
+17. Bitte sprechen Sie Ihre Lehrkraft für Fragen des *Nachteilsausgleichs*.
+
+18. *Nichteinhaltung* der Regeln bzw. der Hinweise kann zu *Nichtbestehen* oder einer schlechterer Note führen.
+
+19. Bitte beachten Sie etwaige *Anmeldefristen* für die Anmeldung zur Prüfung als auch ggf. zur Anmeldung in einzelne Arbeitsgruppen.
+
+20. Soweit nicht anders von der Lehrperson gesagt, gelten die *offiziellen* Anmeldefristen der Hochschule.
+
+21. Vermeiden Sie *kurzfristigen* Upload von Prüfungsleistungen kurz vor dem Verstreichen der  Einreichefrist –- falls technische Probleme auftreten, können diese u. U. nicht mehr gelöst werden.
+
+22. Die Dozentis führen *keine Vorab-Korrektur* von laufenden Prüfungsleistungen durch. Fragen, die einer Vorab-Korrektur Ihrer Arbeit nahe kommen (und daher nicht beantwortet werden), sind z. B.: „Ist mein Fragebogen so o.k.?“, „Passt das so?“, „Können Sie mal drüber schauen, ob ich so anfangen kann?“, „Passen meine Hypothesen zur Theorie?“, „Hab ich was vergessen?“, „Ist die Gliederung so richtig/vollständig?“ ...
+
+25. Eine *Prüfungsleistung* darf nur eingereicht werden, wenn Sie (erfolgreich) zur Prüfung *angemeldet* sind. Eine abgegebene/hochgeladene Arbeit, die nicht erfolgreich angemeldet ist, gilt nicht als erfolgreich eingereicht.
+
+27. Eine Arbeit zählt nur dann als (erfolgreich) eingereicht, wenn Sie *formal korrekt eingereicht* wurde, insbesondere sind Fristen und Abgabekanäle (z.B. Moodleseite) zu beachten.
+
+28. Wenn Sie Dateien mit Ihren Prüfungsleistungen einreichen (hochladen), dann benennen Sie die *Dateinamen* nach folgendem Muster `nachname1-vorname1-nachname2-vorname2-prüfungsart.endung`, z.B.`sauer-sebastian-projektarbeit.pdf` oder `musterfrau-marina-anhang.zip`.
+
+
+29. Kenntnis dieser Hinweise wird bei der Begutachtung vorausgesetzt.
+
+30. Nichtbeachtung kann zu schlechteren Noten oder Durchfallen führen.
+
+29. Nachweis der *Arbeitszeit*: Fügen Sie im Anhang eine Tabelle an, die zeigt, dass Sie die in der Modulbeschreibung geforderte Arbeitszeit (in Zeitstunden *h*, "Workload") im Rahmen der Arbeit abgeleistet haben. Weisen Sie dabei die Arbeitszeit pro Arbeitspaket aus. Ein Arbeitspaket sollte ca. 5h-20h umfassen, s. Beispiel.
+
+| Nr. | Arbeitspaket                                  | Arbeitsaufwand (h) | Kommentare |
+|-----|-----------------------------------------------|--------------------|------------|
+| 1   | Literaturrecherche                            | 25                 |            |
+| 2   | Planung der Datenerhebung                     | 5                  |            |
+| 3   | Datenerhebung                                 | 20                 |            |
+| 4   | Datenanalyse                                  | 30                 |            |
+| 5   | Dokumentation/Schreiben des Berichts          | 40                 |            |
+| 6   | Kommunikation/Abstimmung in der Arbeitsgruppe | 10                 |            |
+| 7   | Vorbereitung der Präsentation                 | 20                 |            |
+|     | SUMME                                         | 150                |            |
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Methodische Anforderungen
+
+1. Die Methoden des *wissenschaftlichen Arbeiten* in Recherche, Zitat und Darstellung werden angewandt.
+
+2. Die Herangehensweise muss auf wissenschaftlicher Methodik beruhen, unabhängig davon, ob (insgesamt oder in bestimmten Teilen der Arbeit) empirisch auf (rein) auf Literaturbasis gearbeitet wird.
+
+3. Da die Aussagekraft von Experimenten i.d.R. höher ist als die Aussagekraft einer Beobachtungsstudie, sollten Sie einem Experiment - sofern möglich - den Vorzug geben. Falls Sie ein Beobachtungsdesign wählen, um kausale Aussagen zu tätigen, sollten Sie die Wahl rechtfertigen und unter Verwendung einer Theorie (die Verwendung eines DAGs ist zu empfehlen) die Stichhaltigkeit Ihres Designs erläutern.
+
+4. Wenn Sie ein qualitatives Design bearbeiten, dann ist die *Grounded Theory* der *Inhaltsanalyse* von Mayring zu bevorzugen.
+
+
+### Spezifika quantitativer Arbeiten
+
+1. Wenden Sie die Methoden *quantitativer* Datenanalyse an.
+
+2. Werten Sie mit quantitative Fragestellungen *komplett* mit *R* oder mit *Python* aus.
+
+25. Für *inferenzstatistische Fragestellungen* sind *Bayes-Methoden* (bevorzugt) oder frequentistische Methoden einzusetzen.
+
+4. *Tabellen* (z.B. mit Daten) müssen nicht mit R erstellt sein, sondern können auch von "von Hand" erstellt sein (z.B. mit Word).
+
+2. Es wird erwartet, dass Sie als Versuchsperson an den *Studien der Kommilitonis teilnehmen*, falls nötig.
+    
+2. Sie führen eine *eigene empirische Studie* durch und verfassen dazu einen Bericht; dabei stützen Sie sich i. d. R. auf selber erhobene Daten.
+
+
+
+
+### Inhaltliche Anforderungen
+
+
+
+1. Bei der Benotung wird die *Kenntnis der Inhalte der zugehörigen Veranstaltung* (inkl. dieses Skripts) vorausgesetzt.
+
+2. Die *im Unterricht behandelten Methoden*, Verfahren oder Inhalte sind bei der Prüfungsleistung *anzuwenden* sofern passend.
+
+
+14. *Open Science*: Reichen Sie ggf. die Rohdaten und ggf. Syntax (elektronisch) ein. Verweisen Sie ggf. im Anhang auf eine Datei, die Sie hochladen, in der die entsprechenden Informationen zu finden sind.
+
+
+16. Das Thema soll einen *direkten psychologischen Bezug* aufweisen; eine Forschungsfrage soll psychologisch relevante Aspekte adressieren.
+
+
+
+23. *Inhaltliche Fragen* (d.h. den Stoff betreffend) werden im Unterricht jederzeit beantwortet. Sprechen Sie die Dozentis auch gerne vor oder nach dem Unterricht persönlich an.
+
+24. Aus Gründen der Fairness und Effizient werden inhaltliche *Fragen* von Studierenden *nur öffentlich*, z. B. im Unterricht oder im Online-Forum, beantwortet (nicht per Mail).
+
+25. Projektmanagement wie das Einteilen der zur Verfügung stehenden Zeit oder Dokumentenmanagement sind Gegenstand der Prüfung. 
+Prüfungsteilnehmer:innen sind dafür eigenständig verantwortlich.
+
+
+
+
+
+
+
+
+
+    
+    
+## Die Benotung
+
+Es wird eine *Gesamtnote* vergeben und ggf. drei *Teilnoten.*
+Die Gesamtnote setzt sich aus den Teilnoten zusammen.
+Die Gesamtnote ist *nicht* (notwendig) ein ungewichteter Durchschnitt aus den drei Benotungskriterien. 
+
+
+
+
+Für die drei Benotungskriterien werden nicht notwendig Teilnoten ausgewiesen.
+
+Die drei Teilaspekte sind
+    - *Formalia* (u.a. Aufbau, Gestaltung, Rechtschreibung, Zitierweise, Literaturverzeichnis, Umfang)
+    - *Methodik* (u.a. Methodenauswahl, Methodenanwendung, Interpretation der Ergebnisse)
+    - *Inhalt* (u.a. Gliederung, Argumentation, Literaturnutzung, sprachlicher Ausdruck, Problemlösung, Reflexion)
+    
+2. Falls Teilnoten vergeben werden, muss sich die Gesamtnote *nicht* als arithmetisches Mittel der Teilnoten ergeben.
+
+
+Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in das jeweilige Benotungskriterium einfließen können. 
+Bitte beachten Sie, dass die folgende Liste nicht vollständig ist und auch nicht zwangsläufig alle genannten Punkte in eine Benotung einfließen müssen. 
+
+
+### Benotungskriterien
+
+#### Formalia
+
+- Vollständigkeit (Verzeichnisse, Anhänge, Erklärungen)
+
+- Gestaltung 
+
+- Rechtschreibung und Grammatik (Korrektheit; inklusive Interpunktion)
+
+- Zitierweise in Text und Fußnoten (Einheitlichkeit, Korrektheit)
+
+- Literaturverzeichnis (Einheitlichkeit, Korrektheit)
+
+- Umfang (Problemangemessenheit - gem. Leitfaden zur formalen Gestaltung von Seminar- und Abschlussarbeiten)
+
+
+
+#### Methoden
+- Methodenauswahl (Problembezug)
+
+- Methodenanwendung (Problemlösungsbezug, Angemessenheit, Nachvollziehbarkeit)
+
+- Interpretation der Ergebnisse (Problembezug, Abgewogenheit, Nachvollziehbarkeit, Vollständigkeit)
+
+
+
+#### Inhalt (nicht-empirische Teile)
+
+- Gliederung (Logik, Problembezogenheit, Stringenz)
+
+- Problemstellung und Zielsetzung (nachvollziehbare Herleitung)
+
+- Argumentation (Abgewogenheit, Logik, Neutralität, Problembezogenheit, Stringenz)
+
+- Literaturnutzung (angemessene Breite u. Tiefe der Bearbeitung, Aktualität u. Wissenschaftlichkeit der verwendeten Quellen)
+
+- Sprachlicher Ausdruck (Nachvollziehbarkeit, Verständlichkeit, Verwendung von Fachtermini)
+
+- Problemlösung (Breite u. Tiefe der Problemdurchdringung, Eigenständigkeit der Problemlösung, kritische Reflexion des Vorgehens)
+
+
+
+
+### Gutachtenerstellung
+
+
+- Neben der Gesamtnote und den Teilnoten kann der Gutachter zusätzliche noch Kommentare, d.h. ausformulierte Aussagen zur Bewertung bestimmter Teile der Arbeit, hinzufügen.
+- Ein Teil des Gesamteindrucks der Arbeit spiegelt sich in den Kommentaren des Gutachters wider. Jedoch spiegelt die Summe der Kommentare nicht (zwangsläufig) die Gesamtnote wider, sondern nur denjenigen Teil, für den der Gutachter es für sinnvoll befunden hat, explizite Kommentare anzugeben.
+- Es ist insbesondere nicht möglich, von der Anzahl der positiven oder negativen Kommentare auf eine bestimmte Note zurückzuschließen.
+- Auch Vergleiche zwischen Gutachten verschiedener Student/innen ist nicht rein auf Basis der Kommentare möglich, da die Kommentare nur einen Ausschnitt des Meinungsbilds des Gutachters widerspiegeln.
+- Die Kommentare des Gutachters verfolgen erstens den Zweck einer Rückmeldung zum Leistungsstand und zweitens Hilfestellung zur Verbesserung, damit der/die entsprechend Student/in den eigenen Leistungsstand verbessern kann.
+- Weitere Hinweise zur Notengebung und Beurteilung sind auf der Modulseite bzw. den offiziellen Regularien und Hinweisen zu finden.
+- Sollten Sie Fragen an den Gutachter stellen wollen zu Ihrem Gutachten, so melden Sie sich zur Sprechstunde an.
+
+
+Das Gutachten kann mit Hilfe von [Textbausteinen wie aus dieser Sammlung](https://sebastiansauer.github.io/textbausteine-korrektur/Textbausteine-Korrektur.html) erstellt sein.
+
+
+    
+## Mengengerüst
+
+
+
+
+Der Anspruch an eine *gute* Arbeit ist wie folgt zu fassen (die Angaben *beziehen sich auf Einzelarbeiten*; bei *Gruppenarbeiten*  ist der *Faktor 2* an das Mengengerüst für die Stichprobengröße  anzulegen):
+
+Es sollten überwiegende *Literatur hoher Qualität* (Fachartikel, peer-reviewed) verwendet werden.
+
+
+
+Aufgrund der hohen individuellen Unterschiede von Forschungsfragen können nur ein *grober Rahmen* aufgezeigt werden.
+
+
+
+
+```{r mengengeruest}
+#| echo: false
+
+d <- readxl::read_xlsx("mengengeruest.xlsx")
+
+# d |> 
+#   DT::datatable(escape = FALSE)
+
+gt::gt(d)
+```
+
+
+
+Grundsätzlich gilt hier: Mehr ist besser :-)
+
+
+
+
+
+
+
+## Aus der Checkliste eines Gutachters
+
+- Wissen
+
+  - Wurden die wesentlichen Inhalte des Themas berücksichtigt?
+  - Sind hochwertige (und genügende) Quellen zu Rate gezogen worden?
+  
+- Denken
+
+  - Reihen sich nur Zusammenfassungen aneinander oder ist Denkarbeit erkennbar?
+  - Wurde das eigene Vorgehen angemessen kritisiert?
+  - Wurde diskutiert, verglichen, bewertet, weitergeführt, erörtert, analysiert ... ?
+  - Zeugt die Arbeit von eigenen Ideen und eigenem Denken?
+   - Wurde selbständig gearbeitet?
+   
+- Schreiben
+
+  - Ist Rechtschreibung, Zeichensetzung und Grammatik korrekt?
+  - Ist der Text „im Fluss“ – gut lesbar, stringent und folgerichtig?
+  
+- Methodik
+
+  - Wurden die richtigen wissenschaftliche Methoden korrekt eingesetzt?
+  - Zeugt das methodische Vorgehen von Können und Kreativität?
+  - Ist die Studie nachprüfbar anhand des Berichts?
+  
+- Polieren
+
+  - Sind die Formalia erfüllt (z. B. korrektes Zitieren inkl. Literaturverzeichnis)?
+  - Sind Text, Abbildungen, Tabellen etc. ansprechend formatiert?  
+  
+
+
+
+
+
+
+
+## Open Science
+
+Ich bin ein Befürworter der "offenen Wissenschaft" (open science). 
+Das bedeutet primär, dass Sie Daten, Analysecode und Versuchsbeschreibung zumindest dem Gutachter und besser noch der (wissenschaftlichen) Öffentlichkeit zugänglich machen  sollten.
+
+Fügen Sie also die entsprechenden Materialien Ihrer Arbeit an.
+Besser ist es noch, wenn Sie die Materialien auf einen geeigneten Server (z.B. <https://osf.io>) veröffentlichen.
+
+
+
+<!-- - vor allem bei guten Arbeiten, die ein potenzielles Interesse bzw. potenziellen Nutzen für die (forschende) Öffentlichkeit bergen.  -->
+
+
+<!-- Falls ich diesen Nutzen sehe, werde ich die Daten der Studie sowie etwaiges zusätzliches Material (z.B. Beschreibung der Studie) auf einem geeigneten Server (z.B. <https://osf.io>) unter meinem Konto veröffentlichen.  -->
+<!-- Sie werden als Urheber der Daten dabei genannt, sofern Sie dem nicht bis zur Abgabe Ihrer Arbeit widersprechen. Anonymisierung, Datenschutz und Wahrung der Vertraulichkeit obliegt der veröffentlichenden Person (Professor Sauer). Von der Veröffentlichung informiere ich Sie.  -->
+<!-- Sprechen Sie mich gerne an, wenn Sie an weiterer Forschung bzw. Veröffentlichung interessiert sind.  -->
+<!-- Ggf. werde ich die Daten für weitere Forschung nutzen bzw. in geeigneten Format publizieren.  -->
+<!-- Sofern Sie dem nicht widersprechen, bis spätestens 7 Tage nach der mündlichen Prüfung, gehe ich von Ihrem Einverständnis aus. -->
+
+
+
+
+
+## Merkmale einer sehr guten [schlechten] Arbeit
+
+### Formalia
+
+- Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis.
+
+- Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler].
+
+- Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen [nicht] zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig, sondern prägnant formuliert).
+
+
+
+### Methoden
+- Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert.
+
+- Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus.
+
+- Es wurde sehr viel [wenig] empirisches Material (z. B. befragte Personen) ausgewertet.
+
+
+
+### Inhalt
+- Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert.
+
+- Ein roter Faden ist klar [nicht] ersichtlich.
+
+- Die Arbeit zeichnet sich nicht nur [weder] durch hohes Fachwissen, sondern auch [noch] durch wohl überlegte Argumentation aus.
+
+
+
+Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bewertet werden.
+
+
+## Tipps
+
+Die Bayes-Methode ist gegenüber frequentistischen Ansätzen zu bevorzugen.
+
+In qualitativen Studien bietet sich die Grounded Theorie als Auswertungsmethode an.
+
+Zur formalen (und inhaltlichen) Gestaltung sei dieses Buch empfohlen: "Peters, J. H., & Dörfler, T. (2019). Abschlussarbeiten in der Psychologie und den Sozialwissenschaften - Schreiben und Gestalten. München: Pearson Studium." In diesem Titel finden Sie viel Wertvolles zum Aufbau und Gestaltung Ihrer Abschlussarbeit. Formatieren Sie Ihre Arbeit *nicht* wie ein Manuskript nach APA-Vorlagen, das Sie bei einem Verlag einreichen, sondern wie einen Forschungsbericht (vgl. Peters & Dörfler, 2019, S. 3). Das beinhaltet auch, dass Sie nach APA/DGPs zitieren.
+Ambitionierte Studierende (insbesondere in einem Master-Studiengang), die auf eine sehr gute Teilnote im Bereich "Formales" abzielen, sollten sich möglichst eng an die formalen Vorgaben halten.
+
+Richtlinien zur Seitenformatierung und -layout finden Sie in Peters und Dörfler (2019), vgl. Kap. 4.
+Befolgen Sie die Art, Statistiken zu berichten laut APA bzw. DGPs, sofern Peters und Dörfler (2019) nicht andere Angaben machen.
+
+Informieren Sie sich im Übrigen über die *offiziellen Richtlinien* der Hochschule (wie Abgabefristen) in den entsprechenden Dokumenten wie der APO und der SPO.
+
+Drucken Sie Ihre Arbeit *beidseitig*, in *Klebebindung.*
+
+
+    
+## Merkmale einer sehr guten Arbeit
+
+### Überblick
+
+1. Formales
+
+  - Die Richtlinien zur Gestaltung von wissenschaftlichen Texten wurden (fast) vollumfänglich umgesetzt. Insbesondere finden finden sich (fast) keine Zitierfehler im Text und im Literaturverzeichnis.
+  - Rechtschreibung, Zeichensetzung und Grammatik sind (fast) fehlerfrei.
+  - Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig sondern prägnant formuliert).
+
+2. Methoden
+
+  - Es wurden angemessene Methoden ausgewählt und diese richtig angewendet und die Ergebnisse korrekt interpretiert.
+  - Die eingesetzte Methodik zeichnet sich durch hohe Breite und Tiefe aus.
+  - Es wurde sehr viel empirisches Material (z. B. befragte Personen) ausgewertet.
+
+3. Inhalt
+
+  - Es wurde viel Literatur von hoher Qualität rezipiert.
+  - Ein roter Faden ist klar ersichtlich.
+  - Die Arbeit zeichnet sich nicht nur durch hohes Fachwissen, sondern auch durch wohl überlegte Argumentation aus.
+
+
+### Reflexion: Bereichen Sie die Welt mit Ihren Gedanken
+
+- Ein Hauptfehler vieler Arbeiten liegt darin, dass sie nur andere Texte nacherzählen. Wo liegt da der Mehrwert?
+
+-  Der Mehrwert eines wissenschaftlichen Textes liegt in der Neuartigkeit der Gedanken: Kritisieren Sie bestehende Theorien, vergleichen Sie sie, arbeiten Sie das Wesentliche heraus. Übrigens: Auch eine Wiederholungsstudie lohnt sich.
+
+-  Legen Sie Ihre Forschungsfrage offen, beantworten Sie sie explizit.
+
+- Explizieren Sie Ihre Hypothesen (konkret und operationalisiert)
+
+- Sparen Sie auch eine kritische Aufarbeitung Ihrer eigenen Arbeit nicht aus. „Kritisch“ heißt positiv und konstruktiv negativ Rückmeldungen geben.
+
+- Das „Fazit“ Ihrer Arbeit ist nicht eine Zusammenfassung Ihres Textes sondern die Überlegung, wohin Sie Ihre Gedanken geführt haben.
+
+- Zur Reflexion gehört auch, dass Sie an den Nutzen des Lesers denken – was bringt ihm die Lektüre Ihres Texts? Sagen Sie z. B. anfangs, warum sich Ihr Thema „lohnt“!
+
+- Unterscheiden Sie zwischen Beschreibung von Ideen (oder [Ihren] empirischen Ergebnissen) und deren Beurteilung.
+
+- Beziehen Sie Ihre Ergebnisse/Daten auf die Literatur.
+  
+  
+  
+### Fachwissen: Zeigen Sie, dass Sie sich auskennen
+
+
+- Nachdem Sie darüber nachgedacht haben, was ein lohnendes Thema ist, recherchieren Sie nach Literatur.
+
+- Ohne einen kundigen (und aktuellen) Überblick über den Stand der Forschung können Sie keine verlässlichen Aussagen treffen – und keine gute Arbeit schreiben.
+
+- Scheuen Sie sich nicht Fachartikeln; machen Sie sich die Qualität Ihrer Literaturstellen bewusst.
+
+- Destillieren Sie aus der Vielfalt der Texte die Essenz der Ideen heraus – die Details sind nicht so wichtig.
+
+- Zeigen Sie keine Bäume, sondern den Wald. Zeigen Sie keine unumstößliche Wahrheit, sondern mehrere Blickwinkel (z. B. unterschiedliche Definitionen). Verknüpfen Sie den Gegenstand mit anderen Theorien.
+
+- Ihr Fachwissen zeigen Sie auch dadurch, dass Sie kritisch zu den Texten oder dem Forschungsstand Stellung nehmen.
+
+- Erläutern Sie nicht die Hintergründe Ihrer Methoden im Detail. Das steht schon in den Lehrbüchern bzw. ist nicht üblich.
+
+- Gehen Sie auf wesentliche Befunde oder Theorien des Fachgebiets ein, soweit relevant bzw. zweckdienlich.  
+  
+  
+  
+### Fluss: Der Text soll elegant fließen
+
+- Begründen Sie Ihr Vorgehen.
+
+- Man soll Dinge so einfach wie möglich ausdrücken, aber nicht einfacher (Einstein). Verwechseln Sie nicht komplizierte Wörter mit gehaltvollem Inhalt.
+
+- Jedes Kapitel und jeder Absatz sollte genau eine Frage beantworten.
+
+- Achten Sie auf ein gefälliges Äußeres Ihres Texts: Layout, Abbildungen, Schriftbild, leere Stellen im Blocksatz etc. machen einen Eindruck auf den Leser. Schaubilder helfen oft. Spiralbindung bietet sich an. Absätze sollten nicht zu lang sein (Textwüsten schläfern ein).
+
+- Die Gliederung soll den Fluss Ihrer Argumentation wiedergeben.
+
+- Schreiben Sie elegant: Z. B. meiden Sie (insgesamt) Passivsätze; schreiben Sie aktiv. Wechseln Sie kurze mit langen Sätzen ab. Meiden Sie Amtsdeutsch wie der Teufel das Weihwasser. Ein guter Titel hat selten geschadet. Verwenden Sie die „Ich-Form“ sparsam; genauso das „man“.
+
+- Nutzen Sie Schaubilder, Diagramme etc. soweit sinnvoll.
+
+- Machen Sie keine Screenshots von R-Syntax, die Sie im Bericht wiedergeben. Stellen Sie die Syntax stattdessen in eine Datei, die Sie mit einreichen.
+
+
+
+### Redlichkeit: Machen Sie Ihre Ergebnisse nachvollziehbar
+
+- Was sind Ihre eigenen Gedanken und welche Gedanken haben Sie übernommen – machen Sie dies kenntlich, indem Sie übernommen Gedanken als Zitate kennzeichnen.
+
+- Es ist nicht schändlich, Gedanken anderer zu übernehmen. Im Gegenteil: „Auf den Schultern von Giganten“ ist eine Credo der Wissenschaft. Sie können also auch replizieren.
+
+- Andere Wissenschaftlis sollte die Möglichkeit haben, Ihre Ergebnisse rekonstruieren zu können. Dazu zählt, dass Sie Ihre Recherchestrategie offen legen (welche Datenbanken etc.). Ebenso, dass Sie Ihr methodisches Vorgehen nachvollziehbar machen.
+
+- Weisen Sie auf Schwächen (und Stärken) und sich nach Ihrer Arbeit anschließende Forschungsfragen hin, so dass andere auf Ihren Schultern weitersehen können.
+
+- Explizieren Sie Ihre Suchstrategie für Literatur (welche Datenbanken? Welche Suchbegriffe? Wie viele Treffer? Welche ausgewählt? Nach welchen Kriterien?) Ausführliche Details packen Sie in den Anhang.
+
+- Reichen Sie Syntax, Daten und ggf. Stimulus-Materialien (elektronisch) ein.
+
+- Versuchen Sie, den Nutzen Ihrer Arbeit für Dritte aufzuzeigen.
+
+
+### Leserseite: Schreiben Sie für den Leser
+
+
+Hier sind einige typische Fragen, die sich Lesis - implizit oder explizit - stellen:
+
+- *Worum geht's?* --> Aussagekräftige Titel, Zusammenfassungen, Kernaussagen, Schaubilder, Fazit ...
+- *Was nützt es mir?* --> Sinn, Zweck, Ziel und Bedeutung in der Einleitung aufzeigen, Praxisnutzen herausstellen, ggf. Checklisten, Leitfäden etc. erstellen
+- *Was soll ich jetzt tun?* --> Geben Sie Handlungsempfehlungen, ggf. „Kochrezepte“, wie in einer bestimmten Situation vorzugehen ist, z. B. Typologien beschreiben
+- *So what?*  -->  Tja, und nun :-)
+
+
+
+
+
+
+
+
+## Sie sind bestimmt super streng, was die Methoden/Statistik betrifft?
+
+Ja :-)
+
+Im Ernst: Ich erwarte nicht mehr als das, was im Unterricht an methodischem Wissen vermittelt wurde.
+
+Ambitionierten Studierenden sei empfohlen, eine experimentelle Studie durchzuführen (keine Beobachtungsstudie) - sofern möglich, die Arbeit zu präregistrieren (z.B. bei www.osf.io), generell auf gute Reproduzierbarkeit zu achten und multiple Regression zu verwenden - sofern sinnvoll.
+
+Für neue (im Unterricht nicht behandelte quantitative) Methoden bin ich immer offen und freue mich über Ihre Ideen.
 

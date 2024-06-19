@@ -74,6 +74,9 @@ format:
     theme:
       light: litera
       dark: solar
+    # theme:
+    #   - litera
+    #   - mytheme.scss
     # css: styles.css
     number-sections: true
     df-print: paged

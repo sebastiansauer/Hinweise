@@ -149,24 +149,82 @@
 Prüfungsteilnehmer:innen sind dafür eigenständig verantwortlich.
 
 
-## Benotung
 
 
-### Aspekte der Benotung
 
-1. Es wird eine *Gesamtnote* vergeben und ggf. drei *Teilnoten.*
 
-2. Die Gesamtnote setzt sich aus drei Teilaspekten zusammen.
 
-2. Die drei Teilaspekte sind
+
+
+    
+    
+## Die Benotung Ihrer Thesis
+
+Es wird eine *Gesamtnote* vergeben und ggf. drei *Teilnoten.*
+Die Gesamtnote setzt sich aus den Teilnoten zusammen.
+Die Gesamtnote ist *nicht* (notwendig) ein ungewichteter Durchschnitt aus den drei Benotungskriterien. 
+
+
+
+
+Für die drei Benotungskriterien werden nicht notwendig Teilnoten ausgewiesen.
+
+Die drei Teilaspekte sind
     - *Formalia* (u.a. Aufbau, Gestaltung, Rechtschreibung, Zitierweise, Literaturverzeichnis, Umfang)
     - *Methodik* (u.a. Methodenauswahl, Methodenanwendung, Interpretation der Ergebnisse)
     - *Inhalt* (u.a. Gliederung, Argumentation, Literaturnutzung, sprachlicher Ausdruck, Problemlösung, Reflexion)
     
 2. Falls Teilnoten vergeben werden, muss sich die Gesamtnote *nicht* als arithmetisches Mittel der Teilnoten ergeben.
 
-    
-    
+
+Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in das jeweilige Benotungskriterium einfließen können. 
+Bitte beachten Sie, dass die folgende Liste nicht vollständig ist und auch nicht zwangsläufig alle genannten Punkte in eine Benotung einfließen müssen. 
+
+
+### Benotungskriterien
+
+#### Formalia
+
+- Vollständigkeit (Verzeichnisse, Anhänge, Erklärungen)
+
+- Gestaltung 
+
+- Rechtschreibung und Grammatik (Korrektheit; inklusive Interpunktion)
+
+- Zitierweise in Text und Fußnoten (Einheitlichkeit, Korrektheit)
+
+- Literaturverzeichnis (Einheitlichkeit, Korrektheit)
+
+- Umfang (Problemangemessenheit - gem. Leitfaden zur formalen Gestaltung von Seminar- und Abschlussarbeiten)
+
+
+
+#### Methoden
+- Methodenauswahl (Problembezug)
+
+- Methodenanwendung (Problemlösungsbezug, Angemessenheit, Nachvollziehbarkeit)
+
+- Interpretation der Ergebnisse (Problembezug, Abgewogenheit, Nachvollziehbarkeit, Vollständigkeit)
+
+
+
+#### Inhalt (nicht-empirische Teile)
+
+- Gliederung (Logik, Problembezogenheit, Stringenz)
+
+- Problemstellung und Zielsetzung (nachvollziehbare Herleitung)
+
+- Argumentation (Abgewogenheit, Logik, Neutralität, Problembezogenheit, Stringenz)
+
+- Literaturnutzung (angemessene Breite u. Tiefe der Bearbeitung, Aktualität u. Wissenschaftlichkeit der verwendeten Quellen)
+
+- Sprachlicher Ausdruck (Nachvollziehbarkeit, Verständlichkeit, Verwendung von Fachtermini)
+
+- Problemlösung (Breite u. Tiefe der Problemdurchdringung, Eigenständigkeit der Problemlösung, kritische Reflexion des Vorgehens)
+
+
+
+
 ### Gutachtenerstellung
 
 
@@ -238,6 +296,87 @@ Aufgrund der hohen individuellen Unterschiede von Forschungsfragen können nur e
   - Sind die Formalia erfüllt (z. B. korrektes Zitieren inkl. Literaturverzeichnis)?
   - Sind Text, Abbildungen, Tabellen etc. ansprechend formatiert?  
   
+
+
+
+
+
+
+
+## Open Science
+
+Ich bin ein Befürworter der "offenen Wissenschaft" (open science). 
+Das bedeutet primär, dass Sie Daten, Analysecode und Versuchsbeschreibung zumindest dem Gutachter und besser noch der (wissenschaftlichen) Öffentlichkeit zugänglich machen  sollten.
+
+Fügen Sie also die entsprechenden Materialien Ihrer Arbeit an.
+Besser ist es noch, wenn Sie die Materialien auf einen geeigneten Server (z.B. <https://osf.io>) veröffentlichen.
+
+
+
+<!-- - vor allem bei guten Arbeiten, die ein potenzielles Interesse bzw. potenziellen Nutzen für die (forschende) Öffentlichkeit bergen.  -->
+
+
+<!-- Falls ich diesen Nutzen sehe, werde ich die Daten der Studie sowie etwaiges zusätzliches Material (z.B. Beschreibung der Studie) auf einem geeigneten Server (z.B. <https://osf.io>) unter meinem Konto veröffentlichen.  -->
+<!-- Sie werden als Urheber der Daten dabei genannt, sofern Sie dem nicht bis zur Abgabe Ihrer Arbeit widersprechen. Anonymisierung, Datenschutz und Wahrung der Vertraulichkeit obliegt der veröffentlichenden Person (Professor Sauer). Von der Veröffentlichung informiere ich Sie.  -->
+<!-- Sprechen Sie mich gerne an, wenn Sie an weiterer Forschung bzw. Veröffentlichung interessiert sind.  -->
+<!-- Ggf. werde ich die Daten für weitere Forschung nutzen bzw. in geeigneten Format publizieren.  -->
+<!-- Sofern Sie dem nicht widersprechen, bis spätestens 7 Tage nach der mündlichen Prüfung, gehe ich von Ihrem Einverständnis aus. -->
+
+
+
+
+
+## Merkmale einer sehr guten [schlechten] Abschlussarbeit
+
+### Formalia
+
+- Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis.
+
+- Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler].
+
+- Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen [nicht] zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig, sondern prägnant formuliert).
+
+
+
+### Methoden
+- Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert.
+
+- Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus.
+
+- Es wurde sehr viel [wenig] empirisches Material (z. B. befragte Personen) ausgewertet.
+
+
+
+### Inhalt
+- Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert.
+
+- Ein roter Faden ist klar [nicht] ersichtlich.
+
+- Die Arbeit zeichnet sich nicht nur [weder] durch hohes Fachwissen, sondern auch [noch] durch wohl überlegte Argumentation aus.
+
+
+
+Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bewertet werden.
+
+
+## Tipps
+
+- Die Bayes-Methode ist gegenüber frequentistischen Ansätzen zu bevorzugen.
+
+- In qualitativen Studien bietet sich die Grounded Theorie als Auswertungsmethode an.
+
+
+## Sonstige Hinweis
+
+- Für eine einfachere Kommunikation kontaktieren Sie mich per E-Mail bei Fragen, die nur Sie betreffen. Bei Fragen von allgemeinem Interesse (z.B. "Bis wann müssen wir die Arbeit abgeben?") nutzen Sie bitte (sofern verfügbar) das Kursforum, damit die Kommilitonen auch von dem Austausch profitieren.
+
+- Kenntnis dieser Hinweise wird bei der Begutachtung vorausgesetzt.
+
+- Nichtbeachtung kann zu schlechteren Noten oder Durchfallen führen.
+
+- Meine Hinweise im Gutachten speise ich z.T. aus [diesem Fundus](https://sebastiansauer.github.io/textbausteine-korrektur/Textbausteine-Korrektur.html).
+
+
 
 
   
@@ -360,4 +499,16 @@ Hier sind einige typische Fragen, die sich Lesis - implizit oder explizit - stel
 
 
 
+
+
+
+## Sie sind bestimmt super streng, was die Methoden/Statistik betrifft?
+
+Ja :-)
+
+Im Ernst: Ich erwarte nicht mehr als das, was im Unterricht an methodischem Wissen vermittelt wurde.
+
+Ambitionierten Studierenden sei empfohlen, eine experimentelle Studie durchzuführen (keine Beobachtungsstudie) - sofern möglich, die Arbeit zu präregistrieren (z.B. bei www.osf.io), generell auf gute Reproduzierbarkeit zu achten und multiple Regression zu verwenden - sofern sinnvoll.
+
+Für neue (im Unterricht nicht behandelte quantitative) Methoden bin ich immer offen und freue mich über Ihre Ideen.
 

@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.4.527">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -134,7 +134,7 @@ window.Quarto = {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Hinweise</a> 
         <div class="sidebar-tools-main">
-    <a href="https://github.com/sebastiansauer/hinweise" title="Quellcode" class="quarto-navigation-tool px-1" aria-label="Quellcode"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/sebastiansauer/hinweise" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Dunkelmodus umschalten"><i class="bi"></i></a>
 </div>
     </div>
@@ -194,7 +194,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./060-Hinweise-Pruefung-Projektarbeit-frame.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Projektarbeit</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Schriftliche Prüfungen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -218,7 +218,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./100-Hinweise-Pruefung-Thesis-frame.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Abschlussarbeit</span></span></a>
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Besonderheiten von Abschlussarbeiten</span></span></a>
   </div>
 </li>
       </ul>
@@ -497,7 +497,7 @@ Hinweis
 <section id="hybrider-unterricht" class="level2" data-number="17.7">
 <h2 data-number="17.7" class="anchored" data-anchor-id="hybrider-unterricht"><span class="header-section-number">17.7</span> Hybrider Unterricht</h2>
 <p>Dieser Kurs kann in Präsenz und Online angeboten (bzw. besucht) werden. Wenn Sie die Wahl haben, <em>empfehle ich die Teilnahme in Präsenz</em>, da der Lernerfolg höher ist. Online ist es meist schwieriger, sich zu konzentrieren, da es mehr Ablenkung gibt. Aber auch online ist es möglich, den Stoff gut zu lernen, s. <a href="#fig-believe-in-you" class="quarto-xref">Abbildung&nbsp;<span>17.1</span></a>.</p>
-<div id="fig-believe-in-you" class="quarto-figure quarto-figure-center quarto-float anchored">
+<div id="fig-believe-in-you" class="quarto-figure quarto-figure-center anchored" width="50%">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-believe-in-you-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <img src="https://cdn.myportfolio.com/45214904-6a61-4e23-98d6-b140f8654a40/5ccff989-900e-4f2b-aece-55278b563cfa_rw_1920.png?h=e61fb9e7f31d490ebf29f9f69ea2977a" class="img-fluid figure-img" style="width:50.0%">
@@ -517,12 +517,12 @@ Abbildung&nbsp;17.1: We believe in you! Image Credit: Allison Horst
 
 
 </section>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<aside id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn1"><p>früher hieß Posit Cloud noch RStudio Cloud<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
-</section>
+</aside>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -830,12 +830,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
+      return note.innerHTML;
     }
   }
   for (var i=0; i<xrefs.length; i++) {
