@@ -91,7 +91,7 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 
 30. Nichtbeachtung kann zu schlechteren Noten oder Durchfallen führen.
 
-29. Nachweis der *Arbeitszeit*: Fügen Sie im Anhang eine Tabelle an, die zeigt, dass Sie die in der Modulbeschreibung geforderte Arbeitszeit (in Zeitstunden *h*, "Workload") im Rahmen der Arbeit abgeleistet haben. Weisen Sie dabei die Arbeitszeit pro Arbeitspaket aus. Ein Arbeitspaket sollte ca. 5h-20h umfassen, s. Beispiel.
+29. Nachweis der *Arbeitszeit*: Fügen Sie im Anhang eine Tabelle an, die zeigt, dass Sie die in der Modulbeschreibung geforderte Arbeitszeit (in Zeitstunden *h*, "Workload") im Rahmen der Arbeit abgeleistet haben. Weisen Sie dabei die Arbeitszeit pro Arbeitspaket aus (genauere Aufschlüsselung ist nicht nötig). Ein Arbeitspaket sollte ca. 5h-20h umfassen, s. *Beispiel.*
 
 | Nr. | Arbeitspaket                                  | Arbeitsaufwand (h) | Kommentare |
 |-----|-----------------------------------------------|--------------------|------------|
@@ -104,7 +104,7 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 | 7   | Vorbereitung der Präsentation                 | 20                 |            |
 |     | SUMME                                         | 150                |            |
 
-
+Beispiel für eine Tabelle zum Nachweis der geleisteten Arbeitsstunden.
 
 
 
