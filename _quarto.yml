@@ -72,9 +72,11 @@ format:
   html:
     toc: true
     theme:
-      light: litera
+      light: [united, mytheme.scss] 
       dark: solar
-    # css: styles.css
+    # theme: 
+    #     - united
+    #     - custom.scss
     number-sections: true
     df-print: paged
     code-fold: false
@@ -85,4 +87,4 @@ format:
 
 
 execute:
-  cache: false
+  cache: refresh
