@@ -1,20 +1,68 @@
----
-title: "Prüfungshinweise - Open-Book-Prüfung (Take-home-Examen)"
-params:
-  pruefungsleistung: openbook
-output:
-  html_document:
-    number_sections: true 
----    
-
-# Prüfungleistung
-
-Die Prüfungsleistung besteht aus einer *Open-Book-Prüfung*.
+# Open-Book-Prüfung
 
 
-# Prüfungsform
 
-```{r child1, echo = FALSE, child="Hinweise/Hinweise-Pruefung-Open-Book-Child.Rmd"}
-```
+
+## Was ist das: Open-Book-Prüfung?
+
+
+### Open-Book-Prüfungen -- Einführung
+
+Einige Prüfungen werden als “Take-home-Prüfung” im “Open-Book-Format” geschrieben. Was bedeutet dies?
+
+“Take-home-Prüfung”: Sie bearbeiten die Prüfung in Ihrem privaten Umgebung in Moodle oder in Räumlichkeiten der Hochschule. Eine Überwachung per Kamera findet nicht statt.
+
+“Open-Book-Prüfung”: Sie dürfen Hilfsmittel wie Bücher und Folien während der Prüfung nutzen. 
+
+Ihre Prüferin/Ihr Prüfer informiert Sie über das Format Ihrer Prüfung.
+
+Die Prüfungsleistung ist selbständig von Ihnen zu erbringen.
+Jegliche Unterstützung Dritter während der Prüfung ist untersagt.
+
+
+
+
+### Technische und organisatorische Anforderungen einer Open-Book-Prüfung
+
+Um an einer Open-Book-Prüfung teilzunehmen, benötigen Sie IT-Ausstattung sowie Räumlichkeiten. 
+An IT-Ausstattung benötigen Sie einen Computer mit Internetanschluss; ein Smartphone reicht nicht aus. 
+Nutzen Sie Ihr eigenes Gerät (Computer) für die Prüfung; die Hochschule stellt Ihnen keinen Computer zur Verfügung. 
+Sie benötigen keine Webcam und kein Mikrofon. 
+Ein Tablett oder Smartphone reicht nicht für die Prüfung. 
+An Software benötigen Sie Zugang zu Ihrem Moodle-Konto, was einen aktuellen Internet-Browser voraussetzt. Zu den organisatorischen Anforderungen gehören ein Raum, in dem Sie die Prüfung ungestört bearbeiten können sowie ein Internetanschluss zum Bearbeiten der Klausur in Moodle. 
+Bitte benutzen Sie während der Prüfung nicht den Zurück-Button in Ihrem Browser, wenn Sie zu einer vorherigen Frage zurückgehen wollen. 
+Nutzen Sie die in der Prüfung zur Verfügung gestellten Funktionen/Buttons dafür (z.B. in Moodle).
+
+
+
+### Prüfungsrecht
+
+Für die Open-Book-Prüfungg gilt die aktuelle Prüfungsordnung; die Open-Book-Prüfung fällt *nicht* unter die BayFEV. 
+
+
+
+
+### Datenschutz
+
+Persönliche Daten werden an einer Stelle übermittelt: Moodle (über bzw. in Ihrem Konto). 
+Es findet *keine* Überwachung statt, weder kamaragestützt, akustisch oder softwaregestützt, noch mit sonstigen elektronischen Methoden.
+
+
+
+
+## Die Prüfung wird in Moodle bearbeitet
+
+Die Prüfungsaufgaben selber werden mit Moodle ausgeteilt bzw. von Ihnen bearbeitet. Dazu wird das [Moodle-Feature "Test"](https://docs.moodle.org/403/en/Quiz_activity) verwendet.
+
+Tipp: Wenn Ihr Prüfer Ihnen eine "Probeprüfung" oder Ähnliches bereitgestellt hat, nutzen Sie diese Ressource, um sich mit dem Ablauf und dem "Look and Feel" der Prüfung in Moodle vertraut zu machen.
+
+
+
+
+
+
+
+
+
 
 
