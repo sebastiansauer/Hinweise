@@ -28,16 +28,21 @@ Jegliche Unterstützung Dritter während der Prüfung ist untersagt.
 
 
 
+
 ### Technische und organisatorische Anforderungen einer Open-Book-Prüfung
 
 Um an einer Open-Book-Prüfung teilzunehmen, benötigen Sie IT-Ausstattung sowie Räumlichkeiten. 
-An IT-Ausstattung benötigen Sie einen Computer mit Internetanschluss; ein Smartphone reicht nicht aus. 
+An IT-Ausstattung benötigen Sie einen Computer mit Internetanschluss. 
 Nutzen Sie Ihr eigenes Gerät (Computer) für die Prüfung; die Hochschule stellt Ihnen keinen Computer zur Verfügung. 
 Sie benötigen keine Webcam und kein Mikrofon. 
 Ein Tablett oder Smartphone reicht nicht für die Prüfung. 
 An Software benötigen Sie Zugang zu Ihrem Moodle-Konto, was einen aktuellen Internet-Browser voraussetzt. Zu den organisatorischen Anforderungen gehören ein Raum, in dem Sie die Prüfung ungestört bearbeiten können sowie ein Internetanschluss zum Bearbeiten der Klausur in Moodle. 
+Sorgen Sie für aktuelle Versionen der von Ihnen verwendeten Software.
+
 Bitte benutzen Sie während der Prüfung nicht den Zurück-Button in Ihrem Browser, wenn Sie zu einer vorherigen Frage zurückgehen wollen. 
 Nutzen Sie die in der Prüfung zur Verfügung gestellten Funktionen/Buttons dafür (z.B. in Moodle).
+
+Die Open-Book-Prüfungen werden ggf. auf [diesem, separaten Moodle-Server](https://exam.hs-ansbach.de) durchgeführt.
 
 
 
