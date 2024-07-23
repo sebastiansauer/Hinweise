@@ -8,13 +8,3 @@ Alle folgenden Hinweise gelten nur insoweit Ihre Lehrkraft Ihnen keine anders la
 
 ![Prüfung erfolgreich bestanden. Generiert von Microsoft Bing AI, 2023-10-22](img/thesis-artwork.png){width=50% fig-align="center"}
 
-
-
-## Technische Details zu diesem Online-Buch
-
-
-```{r}
-#| echo: false
-sessioninfo::session_info()
-```
-

@@ -40,11 +40,11 @@ book:
     - part: "Prüfungen"
       chapters:
       - 010-Hinweise-Pruefung-allgemein-frame.qmd
-      - Hinweise-Pruefung-allgemein.qmd
+      # - Hinweise-Pruefung-allgemein.qmd
       - 020-Hinweise-Pruefung-Open-Book-frame.qmd
-      - Hinweise-Pruefung-Open-Book.qmd
+      # - Hinweise-Pruefung-Open-Book.qmd
       - 030-Hinweise-Pruefung-Klausur-frame.qmd
-      - Hinweise-Pruefung-Klausur-frame.qmd
+      # - Hinweise-Pruefung-Klausur-frame.qmd
       - 040-Hinweise-Pruefung-Datenanalyse-frame.qmd
       - 050-Hinweise-Pruefung-Praesentation-frame.qmd
       - 060-Hinweise-Pruefung-Projektarbeit-frame.qmd
