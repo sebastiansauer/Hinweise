@@ -44,7 +44,7 @@ gehe ich davon aus, dass Sie diese Hinweise gelesen haben und einverstanden sind
 
 ## Themenwahl
 
-Sie können *selber ein Thema vorschlagen* oder eines der Themen wählen, die ich in meiner Liste freier Themen anbiete (s. @sec-themenliste). Das Thema soll in Bezug stehen zu Ihrem Studiengang.  Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
+Sie können *selber ein Thema vorschlagen* oder eines der Themen wählen, die ich in meiner Liste freier Themen anbiete (s. @sec-themenliste und @tbl-themen). Das Thema soll in Bezug stehen zu Ihrem Studiengang.  Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
 Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
 
 
@@ -74,10 +74,9 @@ d <-
   d |> 
   dplyr::filter(Status == "verfügbar")
 
-d |> 
-  DT::datatable(escape = FALSE)
+#d |> DT::datatable(escape = FALSE)
 
-# gt::gt(d)
+gt::gt(d)
 ```
 
 
