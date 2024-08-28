@@ -50,6 +50,8 @@ Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
 
 ### Liste meiner freien Themen {#sec-themenliste}
 
+@tbl-themen gibt Ihnen einen Überblick meiner freien Themen.
+
 :::{.callout-tip}
 ### Bring your own Thema
 Wenn Sie klare Vorstellungen von Ihrer Thesis haben, dann schlagen Sie mir ein Thema vor. Voraussetzung ist, dass Sie eine quantitative Methode zur Analyse verwenden. $\square$
@@ -63,6 +65,8 @@ Wenn Sie klare Vorstellungen von Ihrer Thesis haben, dann schlagen Sie mir ein T
 
 ```{r thesisliste}
 #| echo: false
+#| tbl-cap: Liste meiner freien Themen
+#| label: tbl-themen
 
 d <- readxl::read_xlsx("Thesisthemen-Prof-Sauer.xlsx")
 
@@ -216,17 +220,17 @@ optional: Projektplan (Zeit- und Arbeitsplan)
 
 
 
-### Einige Hinweise zum Exposé
+### Einige Tipps zum Exposé
 
 - Beschreiben Sie alle relevanten Aspekte prägnant, aber nur die relevanten Aspekte.
 
 - Die Forschungsfrage sollte prägnant im Exposé vorgestellt sein.
 
-- Falls Sie ein Thema zugeteilt bekommen haben, sollten Sie es - ggf. nach Rücksprache - zu einer Forschungsfrage präzisieren.
+- Falls Sie ein (grobes) Thema zugeteilt bekommen haben, sollten Sie es - ggf. nach Rücksprache - zu einer (konkrten) Forschungsfrage präzisieren.
 
 - Formulieren Sie Hypothesen oder Forschungsfragen konkret, so dass der Leser weiß, was Sie genau machen wollen.
 
-- Stellen Sie den Ablauf des Versuchs vor (also was genau eine Versuchsperson macht).
+- Stellen Sie den Ablauf des Versuchs vor (was genau eine Versuchsperson macht).
 
 - Diskutieren Sie ggf. ethische Aspekte, die eine Rolle spielen (könnten).
 
