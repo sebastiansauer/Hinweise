@@ -1,0 +1,104 @@
+# Fachgespräch
+
+
+
+
+
+
+<!-- ## Prüfungsformat Präsentation -->
+
+
+## Hintergrund und Ziel
+
+Das Prüfungsformat *Fachgespräch* ist ein Interview, bei dem die Lehrkraft die Prüfperson zum Prüfungsstoff befragt.
+Es ist eine mündliche Prüfung.
+Ziel der Prüfung ist es, das relevante Fachwissen der Prüfperson einzuschätzen.
+
+
+
+
+## Formalia
+
+Die Dauer beträgt *10-15 Minuten*, soweit nicht anders vom Dozenten angegeben.
+
+
+
+
+### Reihenfolge
+
+In der Regel präsentieren mehrere Studierende, so dass sich die Frage nach der Reihenfolge der Prüfungen stellt.
+Aus Gründen der Fairness und Einfachheit bestimmt der Dozent die Reihenfolge  *zufällig*.
+
+:::callout-note
+Die Zufallsreihenfolge aller angemeldeten Prüflinge bestimmt der Dozent durch die R-Funktion `sample`, wobei als Startwert das Datum des (ersten) Prüfungstags herangezogen wird^[Im Format ISO 8601, z.B. "20240116"]. $\square$
+:::
+
+Den Studierenden steht es frei, ihre Position untereinander zu tauschen, sofern die Beteiligten alle zustimmen. 
+
+
+
+
+
+
+## Die Prüfperson während Ihrer Präsentation
+
+
+In der Regel wird Sie die Lehrkraft bei Ihrer Ausführungen *nicht unterbrechen*, d
+amit Sie störungsfrei Ihre Argumente entwickeln können.
+Nur in Ausnahmefällen wird sich die Lehrkraft dennoch zu Wort melden; 
+dies hat dann immer den Hintergrund, Sie auf den richtigen Weg zurückzuführen, ist also stets konstruktiv gemeint.
+Bitte verstehen Sie diese Maßnahmen vor der -- in Anbetracht der Fülle des zu präsentierenden Materials -- knappen Redezeit. 
+Falls die Lehrkraft das Gefühl hat, dass Sie die wertvolle (da knappe) Zeit mit Unwesentlichem füllen, 
+kann sie sich entscheiden, Sie mit einem entsprechenden Hinweis zu den wichtigeren Themen zurückführen. 
+Bedenken Sie, dass es nachteilig für Ihre Argumentation ist, zentrale Punkte außen vor gelassen zu haben.
+Verstehen Sie also Unterbrechungen durch den Dozenten als Hilfestellung; sie sind immer konstruktiv und als Unterstützung gemeint.
+
+Die Lehrkraft wird sich während Ihrer Ausführugen ggf. *Notizen* machen. 
+Das kann dazu führen, dass die Lehrkraft Ihrem Vortrag nicht mit den Augen folgt. 
+Natürlich muss die Lehrkraft aber Ihrem Vortrag die ganze Zeit mit voller Aufmerksamkeit beiwohnen. 
+Werten Sie das Notizen machen also bitte nicht als Unhöflichkeit, sondern als Bringschuld zur Dokumentations- und Sorgfaltspflicht der Lehrkraft.
+
+
+
+## Beurteilungskriterien
+
+Die  Beurteilungskriterien (s. @tbl-krits-praesi) können von der Prüfperson angesetzt werden.
+
+
+```{r}
+#| echo: false
+#| label: tbl-krits-praesi
+#| tbl-cap: "Beurteilungskriterien für Präsentationen"
+tibble::tribble(
+            ~Kriterium, ~Gewichtung,                                                                ~Details,
+         "Korrektheit",       "25%", "In welchem Umfang entsprechen die vorgebrachten Punkte den Tatsachen?",
+  "Breite des Wissens",       "25%",     "Wie viele Aspekte des Gegenstands kennt bzw. weiß die Prüfperson?",
+   "Tiefe des Wissens",       "25%",              "Wie tief hat die Prüfperson den Gegenstand durchdrungen?",
+       "Argumentation",       "25%",       "Wie stringent und überzeugend ist die Darlegung der Prüfperson?"
+  ) |> 
+  gt::gt()
+```
+
+
+Bitte beachten Sie, dass die Gesamtnote sich *nicht* notwendig als arithmetisches Mittel der Teilaspekte berechnen muss.
+Darüber hinaus verhindert die Note 5 in einem Teilaspekt das Bestehen insgesamt.
+
+
+
+
+
+### Hilfsmittel
+
+
+Es sind keine Hilfsmittel benötigt (und erlaubt).
+
+
+
+
+
+
+
+
+
+
+
