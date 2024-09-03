@@ -2,15 +2,6 @@ project:
   type: book
   
   
-# filters:
-#   - search-replace
-# search-replace:
-#   z.B.  : "z.&thinsp;B."
-#   Z.B.  : "Z.&thinsp;B."
-#   d.h.  : "d.&thinsp;h."
-#   +br    : <br>\newline
-#   i.d.R : "i.&thinsp;d.&thinsp;Regel"
-  
 lang: de
 citation: true
 #google-scholar: true
@@ -22,9 +13,9 @@ license: "MIT"
 
 book:
   title: "Hinweise"
-  author: 
-    - name: Sebastian Sauer
-      orcid: 0000-0003-1515-8348
+  author: Sebastian Sauer
+    # - name: Sebastian Sauer
+    #   orcid: 0000-0003-1515-8348
   image: img/hinweise-logo.png
   description: "Hinweise zu Prüfungen und Lehre bei Prof. Sebastian Sauer"
   date: now
@@ -87,5 +78,4 @@ format:
       theme: neutral
 
 
-execute:
-  cache: refresh
+
