@@ -65,6 +65,7 @@ Wenn Sie klare Vorstellungen von Ihrer Thesis haben, dann schlagen Sie mir ein T
 
 ```{r thesisliste}
 #| echo: false
+#| cache: false
 #| tbl-cap: Liste meiner freien Themen
 #| label: tbl-themen
 
@@ -84,21 +85,24 @@ gt::gt(d)
 ### Darf ich ein Thema wählen, das ich schon früher (z.B. in einer Seminararbeit) bearbeitet habe?
 
 Sie dürfen ein Thema in Ihrer Abschlussarbeit bearbeiten, welches *ähnlich* zu einer früheren Prüfungsleistung ist. 
-Auf *keinen Fall* dürfen Sie das *gleiche Thema* einer früheren Seminararbeit als Thema Ihrer Thesis verwenden:
+Auf *keinen Fall* dürfen Sie das *gleiche Thema* einer früheren Seminar- oder Abschlussarbeit als Thema Ihrer Thesis verwenden:
 Es ist nicht zulässig, eine Arbeit als Prüfungsleistung für mehrere Module (inkl. Thesis) einzureichen.
 Im Zweifelsfall sprechen Sie dazu mich oder die Prüfungsabteilung an. 
 
-ABER: Sie dürfen ein Exposé, welches Sie explizit als Vorbereitung für Ihre Abschlussarbeit als Prüfungsleistung eingereicht haben, als Grundlage für Ihre Abschlussarbeit verwenden.
+ABER: Sie dürfen ein Exposé, welches Sie explizit als Vorbereitung für Ihre Abschlussarbeit als Prüfungsleistung eingereicht haben, 
+als Grundlage für Ihre Abschlussarbeit verwenden.
 Sie dürfen also Teile aus Ihrem Exposé übernehmen.
 Diese müssen als (direktes oder indirektes) Zitat gekennzeichnet sein (ansonsten würde es sich um ein Selbstplagiat handeln).
 
-Ich empfehle Ihnen, keine direkten Zitate zu übernehmen, sondern wenn überhaupt dann nur indirekte Zitate.
+Ich empfehle Ihnen, kaum oder keine direkten Zitate zu übernehmen, 
+sondern wenn überhaupt dann nur indirekte Zitate.
 
 
 ## Ablauf bis zur Anmeldung
 
 
-@fig-anmeldung zeigt den Ablauf der Abschlussarbeit mit einem Fokus auf die Vorbereitung, also der Wahl Ihres Themas bzw. die Absprache des Themas mit dem Gutachter (d.h. bis zur Anmeldung).
+@fig-anmeldung zeigt den Ablauf der Abschlussarbeit mit einem Fokus auf die Vorbereitung, 
+also der Wahl Ihres Themas bzw. die Absprache des Themas mit dem Gutachter (d.h. bis zur Anmeldung).
 
 
 
