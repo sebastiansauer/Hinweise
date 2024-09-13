@@ -41,6 +41,7 @@ book:
       - 080-Hinweise-Pruefung-Prognosewettbewerb-frame.qmd
       - 090-Hinweise-Pruefung-Poster-frame.qmd
       - 100-Hinweise-Pruefung-Thesis-frame.qmd
+      - 105-Hinweise-Pruefung-Review-frame.qmd
     - part: "Unterricht"
       chapters:
         - 110-Hinweise-Didaktik-frame.qmd
@@ -51,6 +52,7 @@ book:
       chapters: 
         - 150-Hinweise-Pruefungsvorbereitung-frame.qmd
         - 160-Hinweise-Lernhilfen-frame.qmd
+        - 165-Hinweise-Thesis-frame.qmd
     - part: "Häufige Fehler"
       chapters: 
         - 170-Beispiele-Fehler-Prognosewettbewerb-frame.qmd
