@@ -1,4 +1,4 @@
-# Präsentation
+# Präsentation {#praesentation}
 
 
 
@@ -48,7 +48,7 @@ Ziel ist, mögliche Bedenken zur wissenschaftlichen Qualität zu explizieren, da
 
 ### Formalia
 
-Die Dauer der wissenschaftlichen Aussprache beträgt *10-15 Minuten*, soweit nicht anders vom Dozenten angegeben.
+Die Dauer dieses Prüfungsteils, der wissenschaftlichen Aussprache, beträgt *10-15 Minuten*, soweit nicht anders vom Dozenten angegeben.
 
 
 
@@ -59,6 +59,14 @@ Die Dauer der wissenschaftlichen Aussprache beträgt *10-15 Minuten*, soweit nic
 
 Das Bachelor-Kolloquium als Prüfungsleistung im Modul *Bachelorseminar* dient als wissenschaftliche Aussprache zu einer zentralen akademischen Qualifikationsleistung, der Thesis.
 
+
+
+- Bewertung: bestanden vs. nicht-bestanden, es werden keine Noten vergeben. 
+- Eine Bonusleistung ist nicht vorgesehen.
+- Es handelt sich um eine mündliche Prüfung in Form einer Präsentation.
+- Prüfungsgegenstand ist die zu bearbeitende Thesis.
+- Alle Teile der Thesis sind zu präsentieren (in fachlich sinnvoller Gewichtung).
+- Die Prüfung ist grundsätzlich in Präsenz zu erbringen.
 
 
 
