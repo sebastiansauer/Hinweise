@@ -1,0 +1,67 @@
+# Thesistipps
+
+
+
+
+
+
+
+## Gute Abschlussarbeiten
+
+Die [Schriftenreihe des iwp der FOM Hochschule](https://forschung.fom.de/forschung/institute/iwp/publikationen.html) bietet mehrere Beispiele für gute Abschlussarbeiten aus dem Bereich der (angewandten) Psychologie.
+
+Interessant ist z.B. die Arbeit zum Thema [Selbstwirksamkeit, Selbstregulation und Prokrastination – Überprüfung eines Mediationsmodells](https://forschung.fom.de/fileadmin/fom/forschung/iwp/Schriftenreihe/FOM-Forschung-iwp-Schriftenreihe-Band-11-Schuhmacher-Beatrice-Prokastination-2022.pdf) von @schuhmacher_selbstwirksamkeit_2022. Die Arbeit ist frei im Netz verfügbar.
+
+
+## Aus dem Nähkästchen des Gutachters
+
+
+[Hier](https://sebastiansauer.github.io/textbausteine-korrektur/Textbausteine-Korrektur.html) finden Sie einen Überblick über Bewertungsbausteine eines Gutachters.
+
+
+
+## Titel von Abschlussarbeiten
+
+
+Hier ist eine Liste von Titeln von früheren (von mir betreuten) Abschlussarbeiten.
+
+
+```{r source-timetable, echo = FALSE}
+#| label: tbl-zeitplan
+#| tbl-cap: Beispiele für Titeln von Abschlussarbeiten 
+thesis_title <- "specifics/supervised-theses-sauer.xlsx"
+stopifnot(file.exists(thesis_title))
+theses <- 
+  readxl::read_xlsx(thesis_title) 
+
+
+knitr::kable(theses)
+```
+
+Bitte beachten Sie, dass die Titel in @tbl-zeitplan nicht unbedingt *gute* Titel sein müssen.
+
+
+## Literaturempfehlungen
+
+
+In [dieser Zotero-Gruppe](https://www.zotero.org/groups/2502975/ses-emp-fo) finden Sie Literatur zum Thema Forschungsmethodik.
+
+
+
+
+
+
+## Quantitative Methodik
+
+### Statistik1
+
+[Grundlagen mit einem Fokus auf Vorhersagemodellierung](https://statistik1.netlify.app/)
+
+
+### Inferenzstatistik
+
+[Wahrscheinlichkeitsaussgen zu Statitiken: Der Bayes-Golem hilft](https://start-bayes.netlify.app/)
+
+### Ihr quantitatives Forschungsprojekt von A bis Z
+
+Werfen Sie einen Blick (oder mehrere) in das Kursbuch [FoPro](https://fopro.netlify.app/).

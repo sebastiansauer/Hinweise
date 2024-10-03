@@ -44,11 +44,13 @@ gehe ich davon aus, dass Sie diese Hinweise gelesen haben und einverstanden sind
 
 ## Themenwahl
 
-Sie können *selber ein Thema vorschlagen* oder eines der Themen wählen, die ich in meiner Liste freier Themen anbiete (s. @sec-themenliste). Das Thema soll in Bezug stehen zu Ihrem Studiengang.  Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
+Sie können *selber ein Thema vorschlagen* oder eines der Themen wählen, die ich in meiner Liste freier Themen anbiete (s. @sec-themenliste und @tbl-themen). Das Thema soll in Bezug stehen zu Ihrem Studiengang.  Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
 Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
 
 
 ### Liste meiner freien Themen {#sec-themenliste}
+
+@tbl-themen gibt Ihnen einen Überblick meiner freien Themen.
 
 :::{.callout-tip}
 ### Bring your own Thema
@@ -63,6 +65,9 @@ Wenn Sie klare Vorstellungen von Ihrer Thesis haben, dann schlagen Sie mir ein T
 
 ```{r thesisliste}
 #| echo: false
+#| cache: false
+#| tbl-cap: Liste meiner freien Themen
+#| label: tbl-themen
 
 d <- readxl::read_xlsx("Thesisthemen-Prof-Sauer.xlsx")
 
@@ -70,10 +75,9 @@ d <-
   d |> 
   dplyr::filter(Status == "verfügbar")
 
-d |> 
-  DT::datatable(escape = FALSE)
+#d |> DT::datatable(escape = FALSE)
 
-# gt::gt(d)
+gt::gt(d)
 ```
 
 
@@ -81,21 +85,24 @@ d |>
 ### Darf ich ein Thema wählen, das ich schon früher (z.B. in einer Seminararbeit) bearbeitet habe?
 
 Sie dürfen ein Thema in Ihrer Abschlussarbeit bearbeiten, welches *ähnlich* zu einer früheren Prüfungsleistung ist. 
-Auf *keinen Fall* dürfen Sie das *gleiche Thema* einer früheren Seminararbeit als Thema Ihrer Thesis verwenden:
+Auf *keinen Fall* dürfen Sie das *gleiche Thema* einer früheren Seminar- oder Abschlussarbeit als Thema Ihrer Thesis verwenden:
 Es ist nicht zulässig, eine Arbeit als Prüfungsleistung für mehrere Module (inkl. Thesis) einzureichen.
 Im Zweifelsfall sprechen Sie dazu mich oder die Prüfungsabteilung an. 
 
-ABER: Sie dürfen ein Exposé, welches Sie explizit als Vorbereitung für Ihre Abschlussarbeit als Prüfungsleistung eingereicht haben, als Grundlage für Ihre Abschlussarbeit verwenden.
+ABER: Sie dürfen ein Exposé, welches Sie explizit als Vorbereitung für Ihre Abschlussarbeit als Prüfungsleistung eingereicht haben, 
+als Grundlage für Ihre Abschlussarbeit verwenden.
 Sie dürfen also Teile aus Ihrem Exposé übernehmen.
 Diese müssen als (direktes oder indirektes) Zitat gekennzeichnet sein (ansonsten würde es sich um ein Selbstplagiat handeln).
 
-Ich empfehle Ihnen, keine direkten Zitate zu übernehmen, sondern wenn überhaupt dann nur indirekte Zitate.
+Ich empfehle Ihnen, kaum oder keine direkten Zitate zu übernehmen, 
+sondern wenn überhaupt dann nur indirekte Zitate.
 
 
 ## Ablauf bis zur Anmeldung
 
 
-@fig-anmeldung zeigt den Ablauf der Abschlussarbeit mit einem Fokus auf die Vorbereitung, also der Wahl Ihres Themas bzw. die Absprache des Themas mit dem Gutachter (d.h. bis zur Anmeldung).
+@fig-anmeldung zeigt den Ablauf der Abschlussarbeit mit einem Fokus auf die Vorbereitung, 
+also der Wahl Ihres Themas bzw. die Absprache des Themas mit dem Gutachter (d.h. bis zur Anmeldung).
 
 
 
@@ -216,17 +223,17 @@ optional: Projektplan (Zeit- und Arbeitsplan)
 
 
 
-### Einige Hinweise zum Exposé
+### Einige Tipps zum Exposé
 
 - Beschreiben Sie alle relevanten Aspekte prägnant, aber nur die relevanten Aspekte.
 
 - Die Forschungsfrage sollte prägnant im Exposé vorgestellt sein.
 
-- Falls Sie ein Thema zugeteilt bekommen haben, sollten Sie es - ggf. nach Rücksprache - zu einer Forschungsfrage präzisieren.
+- Falls Sie ein (grobes) Thema zugeteilt bekommen haben, sollten Sie es - ggf. nach Rücksprache - zu einer (konkrten) Forschungsfrage präzisieren.
 
 - Formulieren Sie Hypothesen oder Forschungsfragen konkret, so dass der Leser weiß, was Sie genau machen wollen.
 
-- Stellen Sie den Ablauf des Versuchs vor (also was genau eine Versuchsperson macht).
+- Stellen Sie den Ablauf des Versuchs vor (was genau eine Versuchsperson macht).
 
 - Diskutieren Sie ggf. ethische Aspekte, die eine Rolle spielen (könnten).
 

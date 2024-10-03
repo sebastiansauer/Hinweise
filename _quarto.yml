@@ -2,15 +2,6 @@ project:
   type: book
   
   
-# filters:
-#   - search-replace
-# search-replace:
-#   z.B.  : "z.&thinsp;B."
-#   Z.B.  : "Z.&thinsp;B."
-#   d.h.  : "d.&thinsp;h."
-#   +br    : <br>\newline
-#   i.d.R : "i.&thinsp;d.&thinsp;Regel"
-  
 lang: de
 citation: true
 #google-scholar: true
@@ -22,9 +13,9 @@ license: "MIT"
 
 book:
   title: "Hinweise"
-  author: 
-    - name: Sebastian Sauer
-      orcid: 0000-0003-1515-8348
+  author: Sebastian Sauer
+    # - name: Sebastian Sauer
+    #   orcid: 0000-0003-1515-8348
   image: img/hinweise-logo.png
   description: "Hinweise zu Prüfungen und Lehre bei Prof. Sebastian Sauer"
   date: now
@@ -43,12 +34,14 @@ book:
       - 020-Hinweise-Pruefung-Open-Book-frame.qmd
       - 030-Hinweise-Pruefung-Klausur-frame.qmd
       - 040-Hinweise-Pruefung-Datenanalyse-frame.qmd
+      - 045-Hinweise-Pruefung-Fachgespraech-frame.qmd
       - 050-Hinweise-Pruefung-Praesentation-frame.qmd
       - 060-Hinweise-Pruefung-Projektarbeit-frame.qmd
       - 070-Hinweise-Pruefung-Gruppenarbeit-frame.qmd
       - 080-Hinweise-Pruefung-Prognosewettbewerb-frame.qmd
       - 090-Hinweise-Pruefung-Poster-frame.qmd
       - 100-Hinweise-Pruefung-Thesis-frame.qmd
+      - 105-Hinweise-Pruefung-Review-frame.qmd
     - part: "Unterricht"
       chapters:
         - 110-Hinweise-Didaktik-frame.qmd
@@ -59,6 +52,7 @@ book:
       chapters: 
         - 150-Hinweise-Pruefungsvorbereitung-frame.qmd
         - 160-Hinweise-Lernhilfen-frame.qmd
+        - 165-Hinweise-Thesis-frame.qmd
     - part: "Häufige Fehler"
       chapters: 
         - 170-Beispiele-Fehler-Prognosewettbewerb-frame.qmd
@@ -86,5 +80,4 @@ format:
       theme: neutral
 
 
-execute:
-  cache: refresh
+

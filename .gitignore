@@ -8,9 +8,7 @@
 /.quarto/
 
 *_cache/
-*_files/
-_book/
-_freeze/
+
 
 
 
