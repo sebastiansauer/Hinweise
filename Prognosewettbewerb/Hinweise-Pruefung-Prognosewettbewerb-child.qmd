@@ -169,7 +169,7 @@ Während des Prüfungszeitraums haben Sie also Zeit, Ihre Projektarbeit (den Pro
   a) `id`: Den ID-Wert jedes vorhergesagten Wertes
   b) `pred`: Der vorhergesagte Wert.
   
-2. Sofern nicht anderweitig definiert, entspricht die *ID* einer Beobachtung ihrer *Zeilennummer* (in der Reihenfolge, wie sie in der vom Prüfer ausgegebenen Datei vorliegt). Die erste Beobachtung (im Test-Sample) bekommt die ID `1`, die zweite Beobachtung die ID `2`, etc. Die ID ist als Zahl (reell oder ganzzahlig) zu formatieren.
+2. Übernehmen Sie falls vorhanden die vorgegebenen IDs für jede Zeile im Test-Sample. Sofern dort nicht definiert, soll  die *ID* einer Beobachtung ihrer *Zeilennummer* entsprechen (in der Reihenfolge, wie sie in der vom Prüfer ausgegebenen Datei vorliegt). Die erste Beobachtung (im Test-Sample) bekommt die ID `1`, die zweite Beobachtung die ID `2`, etc. Die ID ist als Zahl (reell oder ganzzahlig) zu formatieren.
 
 
 
@@ -194,6 +194,11 @@ id, pred
 2, 324
 3, 123
 ```
+
+:::{callout-tipp}
+Wenn Sie die IDs nicht korrekt angeben, sind Ihre Prognosen praktisch Zufallswerte, 
+also sehr ungenau. Achten Sie darauf, dass die IDs korrekt sind. $\square$
+:::
 
 
 ### Hinweise zu den einzureichenden Dateien
@@ -355,6 +360,8 @@ und reichen Sie als Ihre Prüfungsleistung ein, zusammen mit Ihrer Analysedatei.
 - Frage: "Kann ich die Prüfung *im* *Folgesemester wiederholen*, wenn ich durchgefallen bin? -- Antwort: Ja, das ist möglich. Lesen Sie dazu die Hinweise zu Wiederholungsprüfung.
 
 - Frage: "Gibt es eine *Musterlösung*?" -- Antwort: Die Fallstudien und Erläuterungen im Kursbuch bzw. aus dem Unterricht stellen alle Bestandteile bereit für eine sehr gute Note. Eine Musterlösung für die Fragestellung der Prüfung wird i.d.R. nicht veröffentlicht, da damit u.U. die Prüfungen in den Folgesemestern einfacher wären, als es für Sie der Fall war. Aber: Es gibt eine *Liste mit Lieblingsfehlern*, die typische Fehler und ihre Vermeidung/Lösung erläutert.
+
+- Frage: "Wieso sind meine Vorhersagen so schlecht? Ich hatte doch ein cooles Modell. Okay, irgendwas mit meinen IDs war nicht richtig, aber kann sich das so sehr auswirken?" -- Antwort: Ja, das kann sich extrem auswirken. Wenn Sie die IDs nicht korrekt angeben, sind Ihre Prognosen praktisch Zufallswerte, also sehr ungenau. Achten Sie darauf, dass die IDs korrekt sind.
 
 
 
