@@ -169,7 +169,7 @@ Während des Prüfungszeitraums haben Sie also Zeit, Ihre Projektarbeit (den Pro
   a) `id`: Den ID-Wert jedes vorhergesagten Wertes
   b) `pred`: Der vorhergesagte Wert.
   
-2. Übernehmen Sie falls vorhanden die vorgegebenen IDs für jede Zeile im Test-Sample. Sofern dort nicht definiert, soll  die *ID* einer Beobachtung ihrer *Zeilennummer* entsprechen (in der Reihenfolge, wie sie in der vom Prüfer ausgegebenen Datei vorliegt). Die erste Beobachtung (im Test-Sample) bekommt die ID `1`, die zweite Beobachtung die ID `2`, etc. Die ID ist als Zahl (reell oder ganzzahlig) zu formatieren.
+2. Übernehmen Sie falls vorhanden die vorgegebenen IDs für jede Zeile im Test-Sample. Ändern Sie die vorgegebene ID-Reihenfolge nicht. Sofern keine ID-Spalte im Test-Sample definiert ist, soll  die *ID* einer Beobachtung ihrer *Zeilennummer* entsprechen (in der Reihenfolge, wie sie in der vom Prüfer ausgegebenen Datei vorliegt).  Die erste Beobachtung (im Test-Sample) bekommt die ID `1`, die zweite Beobachtung die ID `2`, etc. Die ID ist als Zahl (reell oder ganzzahlig) zu formatieren.
 
 
 

@@ -245,7 +245,7 @@ Das Gutachten kann mit Hilfe von [Textbausteinen wie aus dieser Sammlung](https:
 
 
     
-### Mengengerüst
+## Mengengerüst
 
 Der Anspruch an eine *gute* Arbeit ist wie folgt zu fassen (die Angaben *beziehen sich auf Einzelarbeiten*; bei *Gruppenarbeiten* ist der *Faktor 2* an das Mengengerüst für Stichprobengröße usw. anzulegen):
 
@@ -268,7 +268,7 @@ Aufgrund der hohen individuellen Unterschiede von Forschungsfragen können nur e
 
 
 
-### Aus der Checkliste eines Gutachters
+## Aus der Checkliste eines Gutachters
 
 - Wissen
 
