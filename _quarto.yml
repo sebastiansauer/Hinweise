@@ -42,6 +42,7 @@ book:
       - 090-Hinweise-Pruefung-Poster-frame.qmd
       - 100-Hinweise-Pruefung-Thesis-frame.qmd
       - 105-Hinweise-Pruefung-Review-frame.qmd
+      - 108-Hinweise-Quali-frame.qmd
     - part: "Unterricht"
       chapters:
         - 110-Hinweise-Didaktik-frame.qmd

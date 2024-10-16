@@ -1,0 +1,134 @@
+# Qualitative Forschungsansätze
+
+
+Unter qualitativer Forschung, in deren Rahmen qualitative Methoden zur Anwendung kommen, verstehen die Sozialwissenschaften eine *sinnverstehende*, *interpretative wissenschaftliche Verfahrungsweise* bei der Erhebung und Aufbereitung sozial relevanter Daten. 
+
+## Grundlagen
+
+###  Charakteristika qualitativer Forschung
+
+Qualitative Forschung will Phänomene aus Sicht der handelnden Menschen beschreiben und erklären: Die Perspektiven der Beteiligten stehen im Zentrum
+Möglichkeit zu einem vertieften Verständnis sozialer Wirklichkeit, indem sie Funktionsmerkmale sichtbar macht 
+Die beschriebenen Phänomene und Erklärungsmuster bilden die Basis, um konkrete und alltagsnahe Empfehlungen für die Gesellschaft, Organisationen und Unternehmen zu entwickeln
+Qualitativ forschen ist nicht nur Methodik, sondern eine Grundhaltung der Offenheit und Neugierde den Menschen und ihren sozialen Umwelten gegenüber!
+Gegenstandsangemessenheit: Es gibt nicht die Methode, sondern unterschiedliche Ansätze, die je nach Fragestellung eingesetzt werden
+Orientierung am Alltagsgeschehen/Kontextualisierung (vs. Laborbedingungen)
+Reflexivität:  der Forscher muss in allen Phasen des Forschungsprozesses die Fähigkeit zur Selbstbeobachtung und zur kritischen Reflexion des eigenen Handelns haben
+Verstehen (vs. Erklären) als Erkenntnisprinzip
+
+
+#### Qualitative Methoden als offenes Verfahren
+
+Qualitative Methoden sind ein offenes Verfahren, das sich an den Forschungsgegenstand anpasst. Sie sind nicht auf eine bestimmte Methode festgelegt, sondern können je nach Fragestellung und Forschungsgegenstand unterschiedlich eingesetzt werden.
+
+#### Entdeckungsverfahren
+
+- Der Aspekt der Entdeckung hat meist Vorrang gegenüber der Idee der Theorienprüfung
+- Charakter einer Heuristik: es geht um das (Er-)Finden bisher noch unbekannter oder unausgearbeiteter Ideen – Postulat der theoretischen Offenheit
+- Ausgangspunkt der Theorieentwicklung stellen in der Regel in alltagsweltlichen Kontexten hervorgebrachte Daten dar; auf dieser Basis geht es darum, zu Verallgemeinerungen bzw. zu theoretischen Konzepten zu gelangen. 
+- Abduktion: gedankliche Figur der Entdeckung von Neuem, wobei aus empirischen Daten sowohl ein theoretischer Kode (Kategorie, Begriff), als auch eine Regel (gesetzesartiger Erklärungszusammenhang) generiert wird.
+
+#### Interpretationsverfahren
+
+- Wir erkennen niemals „Dinge an sich“, sondern stets „Dinge für uns“
+- Daten sind wesentlich geprägt durch die Bedeutungszuschreibungen der Akteure („Interpretationen erster Ordnung“)
+- Bedeutung ("Sinn") muss erschlossen werden, oberflächliches Verständnis wird der Komplexität der menschlichen Lebenswelt nicht gerecht ("Auf einer Skala von 1 bis 5: Wie sehr lehnen Sie "Abtreibung" ab?")
+- Thomas-Theorem: Wenn Menschen eine Situation für real halten, dann ist die Situation in ihren Konsequenzen real.
+
+
+### Prinzipien qualitativer Forschung nach Mayring
+
+- Mensch als A und O: Gegenstand humanwissenschaftlicher Forschung sind immer Menschen, Subjekte. Die von der Forschungsfrage betroffenen Subjekte müssen Ausgangspunkt und Ziel der Forschung sein 
+- Genaue Beschreibung: Am Anfang einer Analyse muss eine genaue und umfassende Beschreibung des Gegenstandsbereiches stehen.
+- Interpretation: Der Untersuchungsgegenstand der Humanwissenschaften liegt nie völlig offen, er muss immer auch durch Interpretation erschlossen werden. 
+- Natürliches Umfeld: Humanwissenschaftliche Gegenstände müssen immer möglichst in ihrem natürlichen, alltäglichen Umfeld untersucht werden
+- Verallgemeinerbarkeit: Die Verallgemeinerbarkeit der Ergebnisse humanwissenschaftlicher Forschung stellt sich nicht automatisch über bestimmte Verfahren her; sie muss im Einzelfall begründet werden
+
+
+### Aus dem Nähkästchen des Gutachters
+
+Die Stärke der qualitativen Forschung liegt (auch) darin, einen Gegenstandsbereich zu verstehen. Das verlangt aber eine ausführliche Beschäftigung mit dem Gegenstand. Es soll eine dezidiert hohe Kompetenz zum Gegenstand ersichtlich sein. Mit einem Wort: Sie kennen sich zu dem Thema einfach gut aus! Die Darlegung des Gegenstands beinhaltet dabei nicht nur eine Aufführung relevanter Theorien und Modelle (inklusive deren Evidenz), sondern auch und gerade eine Reflexion über und eine Diskussion zu diesen theoretischen Ausführung. Den Gegenstand in der Tiefe verstehen, das ist die Leitidee, die vor Augen behalten werden soll. Die vorliegende Arbeit setzt dies nur in Teilen um.
+
+
+### Gütekriterien 
+
+Vgl. auch Mayring 2016
+
+1. Verfahrensdokumentation
+2. Argumentative Interpretationsabsicherung
+3. Regelgeleitetheit
+4. Nähe zum Gegenstand
+5. Kommunikative Validierung
+6. Triangulation
+7. Theoretische Sensibilität
+8. Reflexivität
+
+
+
+### Fazit: Das Eigentümliche qualitativer Forschung
+
+1. Zugang zu subjektiven Sichtweisen
+
+2. Beschreiben und Verstehen psychischer/sozialer Prozess
+
+3. Analyse tieferliegender semantischer Strukturen 
+
+
+
+
+## Grounded Theory
+
+### Zur Praxis des Codierens
+
+1. Lesen Sie das Material wiederholt und sorgfältig. Schreiben Sie Ihre resultierenden Überlegungen, Beobachtungen, Ideen, Hypothesen etc. in Memos („Forschungstagebuch“) auf, um später darauf zurückzugreifen. Farbige Unterstreichungen, Randnotizen etc. sind gängige Methoden, in die „Tiefe“ eines Textes vorzudringen.
+2. Überprüfen Sie regelmäßig die Zuordnung der Textstellen zu den Kategorien (und ändern Sie die Zuordnung oder die Kategorien wo nötig).
+3. Schärfen Sie die Konturen (die Essenz) Ihrer Kategorien immer wieder. Die Bedeutung dieser Definitionen ist wesentlich!
+4. Übersetzen Sie die Kategorien (wo möglich) in existierende Fachbegriffe – also in die Sprache einer existierenden Theorie. Es gibt keine theoriefreien Daten, aber reflektieren Sie über die Wahl der verwendeten Theorie. 
+5. Bringen Sie Ihre Kategorien mit bestehenden Theorien in Bezug.
+6. uchen Sie nach einem Leitthema bzw. einer Leitkategorie.
+6. Stellen Sie sicher, dass Ihre Versuchspersonen nicht deanonymisiert wurden/werden können („ich wurde dann die erste weiblich deutsche Bundeskanzlerin“).
+6. Bei einer größeren Anzahl von Kategorien macht es Sinn, „Oberkategorien“ zu erstellen (wie „Auto“ mit „BMW, „VW“ und „Lamborghini“).
+6. Versuchen Sie, Ihre Kategorien im Sinne einer Theorie zu vernetzen also in Bezug zu bringen (etwa Ursache-Wirkung-Beziehungen zu finden).
+6. Eine Visualisierung der Beziehung der Kategorien in Form eines Graphs kann nützlich sein.
+6. Integrieren Sie den Kontext des Materials: In welcher Situation entstand das Material? Die Rahmenbedingungen wirken auf das Textmaterial, finden sich aber nicht unbedingt explizit im Text.
+6. Beziehen Sie Ihr Vorwissen, Stereotypen und Vorerfahrung reflektierend ein: Welche Rolle kann Ihr eigene Erfahrung mit Vorgesetzten (oder Vaterfiguren) gespielt haben bei der Interpretation der Ergebnisse? Welche Rolle spielt es, dass Sie mit der Versuchsperson befreundet sind, wenn Sie etwa den Streit der Versuchsperson mit einer Mitarbeiterin interpretieren?  
+6. Auf intersubjektive Nachprüfbarkeit ist stets zu achten: Für einen kritischen Leser sollen alle Analyse- und Interpretationsschritte transparent sein. Das ist ein wesentliches Gütekriterium! Leser sollen nicht denken „das hätte ich zu einer anderen Kategorie zusammengefasst“. Jedenfalls nicht ohne Ihre Erläuterung, warum Sie es anders gemacht haben. Wo möglich, sollten Inter-Rater-Reliabilitäten angegeben werden.
+
+### Zur Praxis des Schreibens
+
+In Memos schreibt man Gedanken zu allen Aspekten des Forschens (mit der Grounded Theory) nieder. 
+Zu jedem Zeitpunkt im Forschungsprozess können und sollen Memos geschrieben werden.
+Memos können diskutieren z.B. Interpretationen von Textstellen, Reflexion eigener Vorannahmen, persönliche Reaktionen während einer Interaktion, Kontextelemente, Theoriefragmente, andere Memos, die eigene Arbeitsweise, Diskussion von Theorien und Befunden, Kodier-Ideen, …
+Memos sollen ständig gesichtet und überarbeitet werden.
+Memos können und sollen ständig sortiert, gruppiert und in Relation zueinander gesetzt werden; die Ergebnisse können (und tun es meist) im Lauf des Forschungsprojekts ändern
+„Stop and memo: Was immer du gerade tust – halt ein und schreib ein Memo.“
+
+
+### Die Schritte des Kodierens
+
+1. Offenes Kodieren
+
+- kleine Kodiereinheiten
+- viele Kodierungen erzeugen
+- Brainstorming zum Material, freies Assoziieren
+- Kommentare zum Material
+- Lautes Denken, unzensiert
+- W-Fragen stellen
+- Durch Memo-Schreiben unterbrochen
+
+
+
+2. Axiales Kodieren
+
+- Herausarbeiten zentraler Kodes
+- Präzisierung und Überarbeitung der initialen Kodes
+- Konsolidierung der Kode-Fülle
+- In-Beziehung-Setzen der Subkategorien einer Kategorie
+
+
+3. Selektives Kodieren
+
+- In-Beziehung-Setzen der Kategorien zu einer Theorie
+- Fokussieren und Weglassen
+- Auswahl einer Kernkategorie
+- theoretische Integration des Materials zu einem kohärenten Ganzen

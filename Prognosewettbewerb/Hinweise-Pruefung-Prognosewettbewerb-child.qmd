@@ -195,7 +195,7 @@ id, pred
 3, 123
 ```
 
-:::{callout-tipp}
+:::{.callout-tipp}
 Wenn Sie die IDs nicht korrekt angeben, sind Ihre Prognosen praktisch Zufallswerte, 
 also sehr ungenau. Achten Sie darauf, dass die IDs korrekt sind. $\square$
 :::
