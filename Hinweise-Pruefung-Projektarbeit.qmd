@@ -158,7 +158,7 @@ Prüfungsteilnehmer:innen sind dafür eigenständig verantwortlich.
 
     
     
-## Die Benotung Ihrer Thesis
+## Die Benotung
 
 Es wird eine *Gesamtnote* vergeben und ggf. drei *Teilnoten.*
 Die Gesamtnote setzt sich aus den Teilnoten zusammen.
@@ -170,11 +170,12 @@ Die Gesamtnote ist *nicht* (notwendig) ein ungewichteter Durchschnitt aus den dr
 Für die drei Benotungskriterien werden nicht notwendig Teilnoten ausgewiesen.
 
 Die drei Teilaspekte sind
-    - *Formalia* (u.a. Aufbau, Gestaltung, Rechtschreibung, Zitierweise, Literaturverzeichnis, Umfang)
-    - *Methodik* (u.a. Methodenauswahl, Methodenanwendung, Interpretation der Ergebnisse)
-    - *Inhalt* (u.a. Gliederung, Argumentation, Literaturnutzung, sprachlicher Ausdruck, Problemlösung, Reflexion)
+
+- *Formalia* (u.a. Aufbau, Gestaltung, Rechtschreibung, Zitierweise, Literaturverzeichnis, Umfang)
+- *Methodik* (u.a. Methodenauswahl, Methodenanwendung, Interpretation der Ergebnisse)
+- *Inhalt* (u.a. Gliederung, Argumentation, Literaturnutzung, sprachlicher Ausdruck, Problemlösung, Reflexion)
     
-2. Falls Teilnoten vergeben werden, muss sich die Gesamtnote *nicht* als arithmetisches Mittel der Teilnoten ergeben.
+Falls Teilnoten vergeben werden, muss sich die Gesamtnote *nicht* als arithmetisches Mittel der Teilnoten ergeben.
 
 
 Im Folgenden sind Auszüge und Beispiele für Teil-Kriterien aufgeführt, die in das jeweilige Benotungskriterium einfließen können. 
@@ -237,6 +238,8 @@ Neben der Gesamtnote und den Teilnoten kann der Gutachter zusätzliche noch Komm
 - Weitere Hinweise zur Notengebung und Beurteilung sind auf der Modulseite bzw. den offiziellen Regularien und Hinweisen zu finden.
 - Sollten Sie Fragen an den Gutachter stellen wollen zu Ihrem Gutachten, so melden Sie sich zur Sprechstunde an.
 
+
+### Textbausteine für das Gutachten
 
 Das Gutachten kann mit Hilfe von [Textbausteinen wie aus dieser Sammlung](https://sebastiansauer.github.io/textbausteine-korrektur/Textbausteine-Korrektur.html) erstellt sein.
 
