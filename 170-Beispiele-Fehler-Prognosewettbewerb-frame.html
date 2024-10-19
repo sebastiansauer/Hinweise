@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Sebastia Sauer">
 <meta name="description" content="Hinweise zu Prüfungen und Lehre bei Prof.&nbsp;Sebastian Sauer">
 
-<title>18&nbsp; BONIs – Hinweise</title>
+<title>22&nbsp; Häufige Fehler im Prognosewettbewerb – Hinweise</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,27 +22,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -51,8 +32,8 @@ div.csl-indent {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./150-Hinweise-Pruefungsvorbereitung-frame.html" rel="next">
-<link href="./130-hinweise-software.html" rel="prev">
+<link href="./180-Beispiele-Fehler-Datenanalyse-frame.html" rel="next">
+<link href="./165-Hinweise-Thesis-frame.html" rel="prev">
 <link href="./img/hinweise-logo.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -93,35 +74,6 @@ div.csl-indent {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -134,7 +86,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./110-Hinweise-Didaktik-frame.html">Unterricht</a></li><li class="breadcrumb-item"><a href="./140-boni.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">BONIs</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./170-Beispiele-Fehler-Prognosewettbewerb-frame.html">Häufige Fehler</a></li><li class="breadcrumb-item"><a href="./170-Beispiele-Fehler-Prognosewettbewerb-frame.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Beispiele für Fehler im Prognosewettbewerb</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Suchen" onclick="window.quartoOpenSearch();">
@@ -290,7 +242,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./140-boni.html" class="sidebar-item-text sidebar-link active">
+  <a href="./140-boni.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">BONIs</span></span></a>
   </div>
 </li>
@@ -336,7 +288,7 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./170-Beispiele-Fehler-Prognosewettbewerb-frame.html" class="sidebar-item-text sidebar-link">
+  <a href="./170-Beispiele-Fehler-Prognosewettbewerb-frame.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Beispiele für Fehler im Prognosewettbewerb</span></span></a>
   </div>
 </li>
@@ -359,31 +311,34 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Inhaltsverzeichnis</h2>
-   
-  <ul>
-  <li><a href="#bonis-eine-alternative-zu-powerpoint" id="toc-bonis-eine-alternative-zu-powerpoint" class="nav-link active" data-scroll-target="#bonis-eine-alternative-zu-powerpoint"><span class="header-section-number">18.1</span> BONIs: Eine Alternative zu PowerPoint</a></li>
-  <li><a href="#vorzüge-von-bonis" id="toc-vorzüge-von-bonis" class="nav-link" data-scroll-target="#vorzüge-von-bonis"><span class="header-section-number">18.2</span> Vorzüge von BONIs</a></li>
-  <li><a href="#fazit" id="toc-fazit" class="nav-link" data-scroll-target="#fazit"><span class="header-section-number">18.3</span> Fazit</a></li>
-  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">18.4</span> Literatur</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./110-Hinweise-Didaktik-frame.html">Unterricht</a></li><li class="breadcrumb-item"><a href="./140-boni.html"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">BONIs</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./170-Beispiele-Fehler-Prognosewettbewerb-frame.html">Häufige Fehler</a></li><li class="breadcrumb-item"><a href="./170-Beispiele-Fehler-Prognosewettbewerb-frame.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Beispiele für Fehler im Prognosewettbewerb</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">18</span>&nbsp; <span class="chapter-title">BONIs</span></h1>
+<h1 class="title"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Häufige Fehler im Prognosewettbewerb</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sebastia Sauer </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">12. Februar 2022</p>
+    </div>
+  </div>
   
     
   </div>
@@ -393,95 +348,60 @@ window.Quarto = {
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Hinweis
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Ein BONI (<em>O</em>rientiertes, <em>O</em>ffenes, <em>I</em>nteraktives O<em>n</em>line-<em>B</em>uch) ist eine Alternative zu Powerpoint-Präsentationen (PPP). Anstatt von Skripten auf Basis von PPP werden hier BONIs eingesetzt: <em>frei zugängliche</em> <em>Online</em>-<em>Bücher</em> mit <em>interaktiven</em> Elementen.</p>
-</div>
-</div>
-<section id="bonis-eine-alternative-zu-powerpoint" class="level2" data-number="18.1">
-<h2 data-number="18.1" class="anchored" data-anchor-id="bonis-eine-alternative-zu-powerpoint"><span class="header-section-number">18.1</span> BONIs: Eine Alternative zu PowerPoint</h2>
-<p>Folienskripte, zu meist auf Basis von Microsoft Powerpoint-Präsentationen, stellen den zentralen Schriftweg der Wissensvermittlung von Hochschullehrkräften zur Zuhörerschaft <span class="citation" data-cites="adams2006">(<a href="#ref-adams2006" role="doc-biblioref">Adams 2006</a>)</span>. Insgesamt zeigen die Befunde gemischte Befunde zum didaktischen Nutzen dieses Mediums auf <span class="citation" data-cites="cosgunogeyik2017 gambari2015">(<a href="#ref-cosgunogeyik2017" role="doc-biblioref">Cosgun Ögeyik 2017</a>; <a href="#ref-gambari2015" role="doc-biblioref">Gambari, Yusuf, und Balogun 2015</a>)</span>.</p>
-<p><em>BONIs</em> bieten eine Alternativzu Folien. <a href="#fig-boni" class="quarto-xref">Abbildung&nbsp;<span>18.1</span></a> zeigt einige BONIs des Autors: <a href="https://statistik1.netlify.app/">Statistik1</a>, das BONI für einen einführenden Statistikkurs und <a href="https://datenwerk.netlify.app/">Datenwerk</a>, das BONI eine Aufgabensammlung aus der Statistik.</p>
-<!-- ::: {#fig-boni layout-ncol=2} -->
-<!-- ![Statistik1](img/statistik1.png) -->
-<!-- ![Aufgabensammlung](img/datenwerk.png) -->
-<!-- ::: -->
-<div id="fig-boni" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-boni-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="tabset-margin-container"></div><div class="panel-tabset" data-layout-ncol="2">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Statistik1</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Datenwerk</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Hinweisbuch</a></li></ul>
-<div class="tab-content" data-layout-ncol="2">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<iframe width="700" height="400" src="https://statistik1.netlify.app//" title="Ein Einführungskurs in die Statistik mit einem Schwerpunkt auf Prognosemodellierung"></iframe>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<iframe width="700" height="400" src="https://datenwerk.netlify.app/" title="DIY: Eine Aufgabensammlung für den Statistikunterricht"></iframe>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<iframe width="700" height="400" src="https://hinweisbuch.netlify.app//" title="DIY: Formale Hinweise zu Prüfungen und Unterricht bei Prof. Sauer"></iframe>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-boni-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;18.1: Eine Auswahl von BONIs des Autors.
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="vorzüge-von-bonis" class="level2" data-number="18.2">
-<h2 data-number="18.2" class="anchored" data-anchor-id="vorzüge-von-bonis"><span class="header-section-number">18.2</span> Vorzüge von BONIs</h2>
+<ol type="1">
+<li>Es wird <em>nicht die richtige Variable AV</em> (y) modelliert.
 <ul>
-<li><p>I wie 🔁 <em>Interaktiv</em>: BONIS nutzen moderne Web-Technologie, die den Einsatz vieler interaktiver Elemente erlaubt wie z.B. <a href="https://statistik1.netlify.app/030-aufbereiten#fallstudie">Diagramme</a>, <a href="https://statistik1.netlify.app/090-regression2#fig-temp-de">Animationen</a>, <a href="https://start-bayes.netlify.app/0300-wskt#baumdiagramm-sucht-problem">Apps</a> oder <a href="https://start-bayes.netlify.app/0600-post#zur-erinnerung-gitterwerte-in-r-berechnen">Übungsaufgaben</a>. Interaktivität ist ein maßgeblicher Faktor für Lernerfolg bei Studierenden <span class="citation" data-cites="harbour2015">(<a href="#ref-harbour2015" role="doc-biblioref">Harbour u.&nbsp;a. 2015</a>)</span>.</p></li>
-<li><p>ON wie 🚫🚧 <em>Offen</em> und <em>Online</em>: BONIs stehen frei (offen) zugänglich im Internet. Dadurch wird die <em>Barriere minimiert</em>, das Lernmedium zu nutzen: Es ist nicht nötig, sich in eine Lernplattform einzuloggen. Es ist nicht nötig, eine zusätzliche Software zu öffnen. Ein einziger Klick im Browser reicht.</p></li>
-<li><p>O wie 🗝 <em>Orientiert</em>: BONIs sind hoch <em>o</em>rientiert und zugänglich: Einfach gesagt, ist (fast) jedes Element eines BONIs “verlinkt”, hat also eine URL: Nicht nur Kapitel und Unterkapitel, sondern auch <a href="https://statistik1.netlify.app/#fig-yoda">Diagramme</a>, <a href="https://statistik1.netlify.app/080-regression1#eq-mod1">Gleichungen</a>, <a href="https://statistik1.netlify.app/080-regression1#tbl-lm3">Tabellen</a>, <a href="https://statistik1.netlify.app/080-regression1#literatur">Literaturstellen</a> oder <a href="https://datenwerk.netlify.app/posts/nerd-gelockert/nerd-gelockert">Aufgaben</a>.</p></li>
-</ul>
-</section>
-<section id="fazit" class="level2" data-number="18.3">
-<h2 data-number="18.3" class="anchored" data-anchor-id="fazit"><span class="header-section-number">18.3</span> Fazit</h2>
-<p>BONIS sind eine Alternative auf Basis moderner Web-Technologie mit einem hohen Grad an Interaktivität 🔁, Offenheit (barrierefrei) 🚫🚧 und Orientierungshilfen (zugänglich) 🗝️.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Wichtig
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>BONI = interaktiv 🔁 <span class="math inline">\(+\)</span> offen 🚫🚧 <span class="math inline">\(+\)</span> zugänglich 🗝 <span class="math inline">\(=\)</span> 🎉🏆</p>
-</div>
-</div>
-</section>
-<section id="literatur" class="level2" data-number="18.4">
-<h2 data-number="18.4" class="anchored" data-anchor-id="literatur"><span class="header-section-number">18.4</span> Literatur</h2>
+<li>Achten Sie auf eine korrekt spezifizierte Regressionsformel, etwa: <code>y ~ x1 + x2</code>.</li>
+</ul></li>
+<li>Es werden <em>leichtferti</em>g alle Fälle (Zeilen) mit <em>fehlenden Werten entfern</em>t.
+<ul>
+<li>Das kann im Extremfall dazu führen, dass der Datensatz sehr klein wird, etwa von 1000 auf 50 Beobachtungen. Achten Sie darauf, wie viele Fälle übrig bleiben. Im Notfall trennen Sie sich von Variablen, die fast nur aus fehlenden Werten bestehen (entfernen Sie solche “Schweizer Käse” aus dem Datensatz).</li>
+</ul></li>
+<li>Die <em>AV (y) erscheint auf beiden Seiten der Regressionsformel</em>: <code>y ~ x1 + y</code>.
+<ul>
+<li>Die AV darf nur auf der linken Seite der Regressionsformel erscheinen.</li>
+</ul></li>
+<li><em>Nominale Variablen werden in numerisch</em>e umgewandelt.
+<ul>
+<li>Sagen wir, in einer Analyse gibt es die (nominale) Variable <em>Bundesland</em>, mit den bekannten 16 Werten, Bayern, Baden-Württemberg, … Wandelt man diese Nomen in Zahlen um, so würde zwei Mal Bayern das gleiche wie Baden-Württemberg ergeben. Kein Schluss mit dem die Bürger jener Länder einfach zustimmen würden!</li>
+</ul></li>
+<li>Der Quellcode ist <em>nicht reproduzierbar</em>: Der Prüfer versucht Ihre Analyse nachzuvollziehen, scheitert aber, weil er Ihre Syntax nicht zum Laufen bekommt oder es nicht (vollständig) dokumentiert ist, was Sie gemacht haben.
+<ul>
+<li>Achten Sie darauf, dass Ihr Code lauffähig ist, auch auf einem anderen Computer. Das bedeutet idealerweise, dass Sie keine Pfade (für Daten) verwenden, die auf Ihren Computer zeigen, da darauf ja außer Ihnen niemand Zugriff hat.</li>
+</ul></li>
+<li>Es wird <em>keine explorative Analyse</em> durchgeführt, und auch keine sonstigen Methoden, um herauszufinden, welche Variablen prädiktiv sind. Stattdessen werden auf Geratewohl Modelle ausprobiert.
+<ul>
+<li>Verwenden Sie die z.B. Methoden der explorativen Datenanalyse, um herauszufinden, welche Variable z.B. viele fehlende Werte aufweisen, oder keine Streuung aufweisen oder hoch mit der AV korreliert sind.</li>
+</ul></li>
+<li>Es wird ein Prognosemodell gerechnet, ohne zu prüfen, ob die <em>verwendeten Prädiktoren viele fehlende Werte</em> aufweisen.
+<ul>
+<li>Als Extrembeispiel: Sagen wird, nur 10 Zeilen im Datensatz weisen keine fehlenden Werte in den Prädiktoren Ihres Modells auf. Eine Regression wird nur diese Zeilen verwenden, also nur Zeilen mit kompletten Werte (keine fehlenden Werte). Ist es zu erwarten, dass so eine kleine Stichprobe (n=10) eine präzise Vorhersage machen wird (noch dazu, wenn es viele Prädiktoren gibt)? Leider nein! Prüfen Sie also vorab, wie viele Zeilen übrig bleiben, wenn man ein Modell mit Ihren Prädiktoren rechnet. Ohne diese Prüfung wird Ihr Modell u.U. sehr unzuverlässig sein. Auch wenn es Ihre 10 Zeilen gut beschreibt, ist es sehr fraglich, ob so eine kleine Stichprobe neue Daten gut erklären wird.</li>
+</ul></li>
+<li>Es werden <em>kollineare (hochkorrelierte) Prädiktoren</em> aufgenommen.
+<ul>
+<li>Nimmt man zwei (fast) identische Prädiktoren in eine Regression auf, so kann das das Modell “durcheinander bringen”. Besser ist es, auf eine der beiden Variablen zu verzichten.</li>
+</ul></li>
+<li>Die Vorhersagen werden <em>nicht mit der (richtigen) ID</em> versehen.
+<ul>
+<li>Stellen Sie sich vor, Sie sollen Noten schon Studentis vorhersagen. Jemand sagt vorher: “Schorsch wird eine 1 haben!”. Schorsch hat tatsächlich eine 1. Toll! Jemand anderes sagt vorher: “Jemand wird eine 1 haben!”. Tja. Schon richtig. Aber wer? Diese Vorhersage ist leider nicht wenig nütze, ihr fehlt eine ID, in dem Fall wäre die richtige (oder eine rictige) ID “Schorsch”. Achten Sie darauf, für jeden Wert von <code>pred</code> eine <code>id</code> anzugeben, sonst kann die Richtigkeit Ihrer Vorhersagen nicht überprüft werden bzw. es wird kein Treffer gefunden für Ihre Vorhersagen.</li>
+</ul></li>
+<li>Den <em>“Sanity-Check” vergessen</em>: Den (Train-)Datensatz anschauen, ob er zumindest auf den ersten Blick vernünftig aussieht (Anzahl der Zeilen? Anzahl der Spalten? Anzahl fehlender Werte? Konstante Spalten? …)</li>
+<li>Die einzureichenden <em>Dateien falsch</em> benennen.
+<ul>
+<li>Soll man eine Datei “cool.csv” einreichen, aber man nennt die Datei stattdessen “cool_csv”, dann wird ein einfach gestricktes Computerprogramm Probleme haben, den Namen zu erkennen. Achtung vor Rechtschreibfehlern in entscheidenden Situationen, so ähnlich wie beim Eingeben einer PIN oder eines Passworts. An manchen Stellen lohnt sich ein Doppel-Check und Vorsicht. Man sollte auch keine Zip-Datei hochladen, wenn das vorab als ausgeschlossen deklariert wurde.</li>
+</ul></li>
+<li><em>Rechtschreibfehler</em> Manchmal muss man genau hinschauen, und leicht vertippt man sich: So heißt der Datensatz vielleicht <code>tips</code> und die Spalte, um die es Ihnen geht <code>tip</code> (oder war es umgekehrt?). Oder die Spalte heißt <code>bill_length</code> aber Sie schreiben <code>bill_lenght</code>.</li>
+<li><em>Datensatz nicht richtig importiert</em> Ob ein Datensatz richtig importiert ist, erkennen Sie daran, ob er im Reiter “Environment” angezeigt wird. Außerdem können Sie dort den Datensatz anklicken, um zu einer Tabellenansicht des Datensatzes zu gelangen. Dort können Sie erkennen, ob z.B. die Anzahl der Spalten korrekt ist (und nicht etwa nur eine) oder z.B. ob die Spaltennamen korrekt sind.</li>
+<li><em><code>data(datensatz)</code> ohne vorher das zugehörige R-Paket gestartet zu haben</em>: Mit <code>data(datensatz)</code> können Sie den Datensatz <code>datensatz</code> <em>nur</em> dann verfügbar machen, wenn das Paket, in dem <code>datensatz</code> “wohnt”, mit <code>library(paketname)</code> gestartet worden ist. So “wohnt” z.B. <code>penguins</code> im Datensatz <code>palmerpenguins</code>. <a href="https://datenwerk.netlify.app/post/pfad/pfad/">Hier</a> finden Sie eine Übung (und weitere Erklärung) zum Importieren von Daten in R am Beispiel des Datensatzes <code>penguins</code>.</li>
+<li>Verwenden einer <em>Funktion, ohne das zugehörige R-Paket</em> vorab gestartet zu haben.</li>
+<li>Das Laden <em>zu vieler R-Pakete</em>, die gar nicht benötigt werden, mit dem Ergebnis, dass es mehrere Funktionen des gleichen Namens gibt (z.B. <code>filter()</code>). Das führt dann zu Verwirrung, da dann z.B. nicht die Funktion <code>filter</code> aus <code>tidyverse</code> (<code>dplyr</code>) verwendet wird, wie Sie annehmen, sondern eine Funktion gleichen Namens aus einem anderen Paket, das Sie auch gestartet haben. Tipp: Starten Sie nur die Pakete, die Sie für die Aufgabe benötigen. Zumeist sind das immer die gleichen wenigen Pakete.</li>
+<li><em>Fehlerhaftes Aufteilen in Train- und Test-Sample</em>: An sich ist es richtig (sogar oft notwendig), ein Modell in einem Datensatz zu fitten (im Train-Datensatz) und in einem zweiten Datensatz (dem Test-Sample) auf die Modellgüte hin zu prüfen (so vermeidet man Overfitting). So weit, so gut. Allerdings kann sollte das Aufteilen in Train- und Test-Sample nach dem Zufallsprinzip geschehen (idealerweise stratifiziert nach der Zielvariablen). <em>Falsch</em> wäre bei Zeitverlaufsdaten die Sommermonate in Train-Sample und die Wintermonate ins Test-Sample zu packen. Wenn die Zielvariable wetterabhängig ist, kann das Modell vom auf einmal ganz anderen Wetter sehr überrascht sein.<br>
+</li>
+<li><em>Overfitting</em>. Angenommen Sie möchten eine Datensatz mit n=2 Beobachtungen modellieren und verwenden dazu eine Gerade. Ergebnis: 100% Erklärte Varianz! Null Vorhersagefehler! Das hört sich zu gut an, um wahr zu sein. Stimmt. Zwei Punkte können immer von einer Geraden erklärt werden, das nennt man Overfitting, ihr Modell hat zu viele Freiheitsgrade für die Daten. Das Prinzip verallgemeinert sich: Wenn Sie ein Modell mit vielen Freiheitsgraden haben (etwa ein Polynom hohen Grades oder eine ein lineares Modell mit vielen Variablen und/oder vielen Interaktionen), dann wird es dem Modell leicht fallen, die Daten im Train-Sample zu erklären - Overfitting. Leider wird bei Overfitting eine bittere Enttäuschung erleben, wenn man sich die Modellgüte im Test-Sample anschaut.</li>
+</ol>
+<p>Die oben genannten Fehler sind eine umfassende Liste. Bitte lesen Sie in der entsprechenden Literatur die Details nach.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-adams2006" class="csl-entry" role="listitem">
-Adams, Catherine. 2006. <span>„<span>PowerPoint</span>, Habits of Mind, and Classroom Culture“</span>. <em>Journal of Curriculum Studies</em> 38 (4): 389–411. <a href="https://doi.org/10.1080/00220270600579141">https://doi.org/10.1080/00220270600579141</a>.
-</div>
-<div id="ref-cosgunogeyik2017" class="csl-entry" role="listitem">
-Cosgun Ögeyik, Muhlise. 2017. <span>„The Effectiveness of <span>PowerPoint</span> Presentation and Conventional Lecture on Pedagogical Content Knowledge Attainment“</span>. <em>Innovations in Education and Teaching International</em> 54 (5): 503–10. <a href="https://doi.org/10.1080/14703297.2016.1250663">https://doi.org/10.1080/14703297.2016.1250663</a>.
-</div>
-<div id="ref-gambari2015" class="csl-entry" role="listitem">
-Gambari, Amosa Isiaka, Hamdalat Taiwo Yusuf, und Sherifat Adepeju Balogun. 2015. <span>„Effectiveness of <span>PowerPoint Presentation</span> on <span>Students</span>’ <span>Cognitive Achievement</span> in <span>Technical Drawing</span>“</span>. <em>Malaysian Online Journal of Educational Technology</em> 3 (4): 1–12. <a href="https://eric.ed.gov/?id=EJ1085923">https://eric.ed.gov/?id=EJ1085923</a>.
-</div>
-<div id="ref-harbour2015" class="csl-entry" role="listitem">
-Harbour, Kristin E., Lauren L. Evanovich, Chris A. Sweigart, und Lindsay E. Hughes. 2015. <span>„A <span>Brief Review</span> of <span>Effective Teaching Practices That Maximize Student Engagement</span>“</span>. <em>Preventing School Failure: Alternative Education for Children and Youth</em> 59 (1): 5–13. <a href="https://doi.org/10.1080/1045988X.2014.919136">https://doi.org/10.1080/1045988X.2014.919136</a>.
-</div>
-</div>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1050,13 +970,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./130-hinweise-software.html" class="pagination-link" aria-label="Software">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Software</span></span>
+      <a href="./165-Hinweise-Thesis-frame.html" class="pagination-link" aria-label="Thesistipps">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Thesistipps</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./150-Hinweise-Pruefungsvorbereitung-frame.html" class="pagination-link" aria-label="Prüfungsvorbereitung">
-        <span class="nav-page-text"><span class="chapter-number">19</span>&nbsp; <span class="chapter-title">Prüfungsvorbereitung</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./180-Beispiele-Fehler-Datenanalyse-frame.html" class="pagination-link" aria-label="Häufige Fehler in der Datenanalyse">
+        <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Häufige Fehler in der Datenanalyse</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

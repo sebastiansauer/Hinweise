@@ -1,67 +1,156 @@
 # Qualitative Forschungsansätze
 
 
-Unter qualitativer Forschung, in deren Rahmen qualitative Methoden zur Anwendung kommen, verstehen die Sozialwissenschaften eine *sinnverstehende*, *interpretative wissenschaftliche Verfahrungsweise* bei der Erhebung und Aufbereitung sozial relevanter Daten. 
+Unter qualitativer Forschung, in deren Rahmen qualitative Methoden zur Anwendung kommen, 
+verstehen die Sozialwissenschaften eine *sinnverstehende*, 
+*interpretative wissenschaftliche Verfahrungsweise* bei der Erhebung und Aufbereitung sozial relevanter Daten. 
 
 ## Grundlagen
 
 ###  Charakteristika qualitativer Forschung
 
-Qualitative Forschung will Phänomene aus Sicht der handelnden Menschen beschreiben und erklären: Die Perspektiven der Beteiligten stehen im Zentrum
-Möglichkeit zu einem vertieften Verständnis sozialer Wirklichkeit, indem sie Funktionsmerkmale sichtbar macht 
-Die beschriebenen Phänomene und Erklärungsmuster bilden die Basis, um konkrete und alltagsnahe Empfehlungen für die Gesellschaft, Organisationen und Unternehmen zu entwickeln
-Qualitativ forschen ist nicht nur Methodik, sondern eine Grundhaltung der Offenheit und Neugierde den Menschen und ihren sozialen Umwelten gegenüber!
-Gegenstandsangemessenheit: Es gibt nicht die Methode, sondern unterschiedliche Ansätze, die je nach Fragestellung eingesetzt werden
+Qualitative Forschung will Phänomene aus Sicht der handelnden Menschen 
+beschreiben und erklären: 
+Die Perspektiven der Beteiligten stehen im Zentrum
+Möglichkeit zu einem vertieften Verständnis sozialer Wirklichkeit, 
+indem sie Funktionsmerkmale sichtbar macht 
+Die beschriebenen Phänomene und Erklärungsmuster bilden die Basis, 
+um konkrete und alltagsnahe Empfehlungen für die Gesellschaft, 
+Organisationen und Unternehmen zu entwickeln
+Qualitativ forschen ist nicht nur Methodik, 
+sondern eine Grundhaltung der Offenheit und Neugierde den Menschen und ihren sozialen Umwelten gegenüber!
+Gegenstandsangemessenheit: Es gibt nicht die Methode, 
+sondern unterschiedliche Ansätze, die je nach Fragestellung eingesetzt werden
 Orientierung am Alltagsgeschehen/Kontextualisierung (vs. Laborbedingungen)
-Reflexivität:  der Forscher muss in allen Phasen des Forschungsprozesses die Fähigkeit zur Selbstbeobachtung und zur kritischen Reflexion des eigenen Handelns haben
+Reflexivität:  der Forscher muss in allen Phasen des Forschungsprozesses die 
+Fähigkeit zur Selbstbeobachtung und zur kritischen Reflexion des eigenen Handelns haben
 Verstehen (vs. Erklären) als Erkenntnisprinzip
 
 
 #### Qualitative Methoden als offenes Verfahren
 
-Qualitative Methoden sind ein offenes Verfahren, das sich an den Forschungsgegenstand anpasst. Sie sind nicht auf eine bestimmte Methode festgelegt, sondern können je nach Fragestellung und Forschungsgegenstand unterschiedlich eingesetzt werden.
+Qualitative Methoden sind ein offenes Verfahren, das sich an den Forschungsgegenstand anpasst.
+Sie sind nicht auf eine bestimmte Methode festgelegt, sondern können je nach Fragestellung 
+und Forschungsgegenstand unterschiedlich eingesetzt werden.
 
 #### Entdeckungsverfahren
 
 - Der Aspekt der Entdeckung hat meist Vorrang gegenüber der Idee der Theorienprüfung
-- Charakter einer Heuristik: es geht um das (Er-)Finden bisher noch unbekannter oder unausgearbeiteter Ideen – Postulat der theoretischen Offenheit
-- Ausgangspunkt der Theorieentwicklung stellen in der Regel in alltagsweltlichen Kontexten hervorgebrachte Daten dar; auf dieser Basis geht es darum, zu Verallgemeinerungen bzw. zu theoretischen Konzepten zu gelangen. 
-- Abduktion: gedankliche Figur der Entdeckung von Neuem, wobei aus empirischen Daten sowohl ein theoretischer Kode (Kategorie, Begriff), als auch eine Regel (gesetzesartiger Erklärungszusammenhang) generiert wird.
+- Charakter einer Heuristik: es geht um das (Er-)Finden bisher noch unbekannter oder unausgearbeiteter Ideen –
+Postulat der theoretischen Offenheit
+- Ausgangspunkt der Theorieentwicklung stellen in der Regel in alltagsweltlichen Kontexten 
+hervorgebrachte Daten dar; auf dieser Basis geht es darum, zu Verallgemeinerungen bzw. zu theoretischen Konzepten zu gelangen. 
+- Abduktion: gedankliche Figur der Entdeckung von Neuem, wobei aus empirischen Daten sowohl 
+ein theoretischer Kode (Kategorie, Begriff), als auch eine Regel (gesetzesartiger Erklärungszusammenhang) generiert wird.
 
 #### Interpretationsverfahren
 
 - Wir erkennen niemals „Dinge an sich“, sondern stets „Dinge für uns“
-- Daten sind wesentlich geprägt durch die Bedeutungszuschreibungen der Akteure („Interpretationen erster Ordnung“)
-- Bedeutung ("Sinn") muss erschlossen werden, oberflächliches Verständnis wird der Komplexität der menschlichen Lebenswelt nicht gerecht ("Auf einer Skala von 1 bis 5: Wie sehr lehnen Sie "Abtreibung" ab?")
-- Thomas-Theorem: Wenn Menschen eine Situation für real halten, dann ist die Situation in ihren Konsequenzen real.
+- Daten sind wesentlich geprägt durch die Bedeutungszuschreibungen der Akteure 
+(„Interpretationen erster Ordnung“)
+- Bedeutung ("Sinn") muss erschlossen werden, oberflächliches Verständnis wird der Komplexität der 
+menschlichen Lebenswelt nicht gerecht ("Auf einer Skala von 1 bis 5: Wie sehr lehnen Sie "Abtreibung" ab?")
+- Thomas-Theorem: Wenn Menschen eine Situation für real halten, dann ist die Situation 
+in ihren Konsequenzen real.
 
 
-### Prinzipien qualitativer Forschung nach Mayring
+### Prinzipien qualitativer Forschung nach @mayring2022
 
-- Mensch als A und O: Gegenstand humanwissenschaftlicher Forschung sind immer Menschen, Subjekte. Die von der Forschungsfrage betroffenen Subjekte müssen Ausgangspunkt und Ziel der Forschung sein 
+- Mensch als A und O: Gegenstand humanwissenschaftlicher Forschung sind immer Menschen, Subjekte. 
+Die von der Forschungsfrage betroffenen Subjekte müssen Ausgangspunkt und Ziel der Forschung sein 
 - Genaue Beschreibung: Am Anfang einer Analyse muss eine genaue und umfassende Beschreibung des Gegenstandsbereiches stehen.
-- Interpretation: Der Untersuchungsgegenstand der Humanwissenschaften liegt nie völlig offen, er muss immer auch durch Interpretation erschlossen werden. 
+- Interpretation: Der Untersuchungsgegenstand der Humanwissenschaften liegt nie völlig offen, 
+er muss immer auch durch Interpretation erschlossen werden. 
 - Natürliches Umfeld: Humanwissenschaftliche Gegenstände müssen immer möglichst in ihrem natürlichen, alltäglichen Umfeld untersucht werden
-- Verallgemeinerbarkeit: Die Verallgemeinerbarkeit der Ergebnisse humanwissenschaftlicher Forschung stellt sich nicht automatisch über bestimmte Verfahren her; sie muss im Einzelfall begründet werden
+- Verallgemeinerbarkeit: Die Verallgemeinerbarkeit der Ergebnisse humanwissenschaftlicher Forschung 
+stellt sich nicht automatisch über bestimmte Verfahren her; sie muss im Einzelfall begründet werden
 
 
 ### Aus dem Nähkästchen des Gutachters
 
-Die Stärke der qualitativen Forschung liegt (auch) darin, einen Gegenstandsbereich zu verstehen. Das verlangt aber eine ausführliche Beschäftigung mit dem Gegenstand. Es soll eine dezidiert hohe Kompetenz zum Gegenstand ersichtlich sein. Mit einem Wort: Sie kennen sich zu dem Thema einfach gut aus! Die Darlegung des Gegenstands beinhaltet dabei nicht nur eine Aufführung relevanter Theorien und Modelle (inklusive deren Evidenz), sondern auch und gerade eine Reflexion über und eine Diskussion zu diesen theoretischen Ausführung. Den Gegenstand in der Tiefe verstehen, das ist die Leitidee, die vor Augen behalten werden soll. Die vorliegende Arbeit setzt dies nur in Teilen um.
+Die Stärke der qualitativen Forschung liegt (auch) darin, einen Gegenstandsbereich zu verstehen. 
+Das verlangt aber eine ausführliche Beschäftigung mit dem Gegenstand. Es soll eine dezidiert 
+hohe Kompetenz zum Gegenstand ersichtlich sein. 
+Mit einem Wort: Sie kennen sich zu dem Thema einfach gut aus! Die Darlegung des Gegenstands beinhaltet dabei nicht nur eine Aufführung relevanter Theorien und Modelle (inklusive deren Evidenz), 
+sondern auch und gerade eine Reflexion über und eine Diskussion zu diesen theoretischen Ausführung. 
+Den Gegenstand in der Tiefe verstehen, das ist die Leitidee, 
+die vor Augen behalten werden soll. Die vorliegende Arbeit setzt dies nur in Teilen um.
+
+
+
+### Basisdesigns nach @flick2020
+
+```{r}
+#| echo: false
+library(tibble)
+
+flick_df <- tribble(
+  ~Kriterien, ~Fallanalyse, ~Vergleichsstudie, ~Retrospektive_Studie, ~Momentaufnahme, ~Längsschnittstudie,
+  "Offenheit für den Gegenstand", "Fokus auf einen Fall", "Gewisse Standardisierung nötig", "Verlauf wird aus Sicht der Befragten rekonstruiert", "„Snapshot“ – keine Entwicklung, keine Prozesse", "Begleitung einer Entwicklung",
+  "Strukturierung des Gegenstandes", "Auswahl des Falls", "Festlegung der Vergleichs-dimensionen", "Rückblick; Prozessperspektive", "Beschränkung auf aktuellen Stand", "Festlegung des untersuchten Zeitraums",
+  "Anwendung", "Institutionen; Biographien", "Komparative Fragen", "Lebensgeschichten, Verläufe", "Routinen, Normen, Wissen", "Entwicklungs-verläufe",
+  "Probleme", "„Rundes“ i.S.v. breites Bild zeichnen", "Wahl der Vergleichsdimensionen", "Überlagerung des Aktuellen auf das Alte", "Entscheidung über Relevanz", "Relevante Variablen vorab bestimmen",
+  "Grenzen", "Verallge-meinerung", "Verallgemeinerung", "„Was wäre wenn…“ ist schwierig", "Prozesse", "Aufwand"
+)
+
+gt::gt(flick_df)
+
+```
+
+
+### Taxonomie qualitativer Datenerhebung
+
+|                               | **Beobachtung**          | **Narrative Analyse**    |
+|-------------------------------|--------------------------|--------------------------|
+| **Personen als Objekt**        | Interaktionsanalyse      | Kommunikationsprotokolle |
+| **Dinge als Objekt**           | Nicht reaktive Messungen  | Dokumentenanalyse        |
+
+
+### Konzeptionelle Relevanz als Kriterium des Stichprobenumfangs
+
+Fälle sollten sich hinsichtlich potenziell relevanter Faktoren teils ähnlich sein, 
+teils aber auch unterscheiden.
+die Fallauswahl wird dann abgebrochen, 
+wenn die Einbeziehung neuer Fälle keine weitere Modifikation der Theorie mehr erfordert,
+die Theorie gilt dann als gesättigt („theoretische Sättigung“).
+Die Fallauswahl wird primär durch die theoretische Relevanz der Eigenschaften des Falles begründet.
+
 
 
 ### Gütekriterien 
 
-Vgl. auch Mayring 2016
+Vgl. auch @mayring2019a
 
 1. Verfahrensdokumentation
+
+Da die Methoden häufig in Abhängigkeit vom Forschungsgegenstand spezifiziert werden, muss das Verfahren differenziert und explizit dokumentiert werden: Explikation des Vorverständnisses, Zusammenstellung des Analyseinstrumentariums, Durchführung und Auswertung
+
+
 2. Argumentative Interpretationsabsicherung
+
+Interpretationen müssen argumentativ begründet werden: Kriterien sind: a) adäquates Vorverständnis der Interpretation, b) Interpretation muss in sich schlüssig sein, Alternativdeutungen müssen gesucht und überprüft werden, Negativdeutung kann ein wichtiges Argument für die Geltungsbegründung sein. 
+
 3. Regelgeleitetheit
+
+Qualität der Interpretation wird durch schrittweises, sequenzielles Vorgehen abgesichert; Analyseschritte werden vorab festgelegt und systematisch durchgeführt
+
 4. Nähe zum Gegenstand
+
+Gegenstandsangemessenheit und Nähe zum Gegenstand durch das nahe Anknüpfen an der Alltagswelt der beforschten Subjekte. Prüfung inwieweit eine größtmögliche Nähe zum Forschungsgegenstand gelungen ist.
+
 5. Kommunikative Validierung
+
+Die Gültigkeit der Ergebnisse, der Interpretationen wird dadurch überprüft, indem sie den Beforschten vorgelegt und mit diesen diskutiert werden.
 6. Triangulation
-7. Theoretische Sensibilität
+
+Verschiedene Datenquellen, unterschiedliche Interpreten, unterschiedliche Methoden oder Theorieansätze; Ergebnisse der verschiedenen Perspektiven werden miteinander verglichen und zu einem kaleidoskopartigen Bild zusammengesetzt. 
+
 8. Reflexivität
+
+Befunde und Theorien werden nicht nur beschrieben, sondern: verknüpft, weiterentwickelt, hinterfragt,
+angewendet, transferiert, kritisiert, …
+Es wird nicht von einem objektiven, unpersönlichen, nicht-situierten Standpunkt ausgegangen,
+sondern auch die eigene Rolle und die eigene Perspektive wird reflektiert.
 
 
 
@@ -75,15 +164,87 @@ Vgl. auch Mayring 2016
 
 
 
+### Mögliche Gliederung 
+
+
+#### ... des Methodenteils
+
+1. Studiendesign
+  - z.B. qualitative Beobachtungsstudie
+  - Anführung des Forschungsrahmens wie Grounded Theory oder Mayrings Inhaltsanalyse
+  - Begründung für das gewählte Design
+  - Beschreibung möglicher Schwächen des Designs
+  - Fallauswahl und -beschreibung
+2. Beschreibung der Fälle
+  - Begründung der Fallauswahl
+3. Interviewleitfaden 
+  - Vorstellung zentraler Elemente des Leitfadens
+  - Begründung der gewählten Fragen
+  - Ankopplung an Theorieteil und Rückbezug auf relevante Theorien
+4. Datenerhebung
+  - Beschreibung der Erhebungssituation
+  - Beschreibung möglicher Schwächen der Erhebung
+5. Selbstreflexion der Forschungsperson
+  - Beschreibung relevanter Vorerfahrungen etc.
+  - Diskussion der eigenen Rezeption und Position zu theoretischen Positionen
+6. Auswertungsstrategie
+  - Anführung des Verfahrens
+  - Hinweise zur Dokumentation
+  - Hinweise auf Abweichungen von typischen Regeln
+
+
+#### ... des Ergebnisteils
+
+
+1. Zwischenergebnisse
+  - Hinweise auf Generalisierungen etc.
+  - Hinweise auf Veränderungen der Kategorien im Laufe der Forschung
+  - Hinweise auf Veränderungen der Erhebungsinstrumente im Lauf der Forschung
+2. Zentrale Ergebnisse
+  - Vorstellung des Theorientwurf (Grounded Theory)
+  - Darstellung zentraler Kategorien (Mayring und Grounded Theory)
+3. Ggf. sonstige Ergebnisse
+
+
+
+## Aus dem Nähkästchen des Gutachters
+
+- Die Auswahl der untersuchten Personen bzw. die Zusammenstellung der Stichprobe wurde adäquat begründet.
+- Ethische Aspekte in Bezug auf die Datenerhebung wurden diskutiert und angemessen umgesetzt.
+- Die Kodierregeln sind stimmig gewählt und transparent dokumentiert.
+- Zentrale Aussagen der Kategorien wurden treffend wiedergegeben.
+- Die Kategorien des Kategoriensystems wurden adäquat definiert.
+- Es wurden plausible Kategorien abgeleitet, die das Material stimmig widerzuspiegeln scheinen.
+- Der Ergebnisteil stellt die Kategorien bzw. die Ergebnisse in differenzierter und klarer Weise dar.
+- Der Ergebnisteil berichtet umfangreiches Material zu den Kategorien.
+
+
+
 
 ## Grounded Theory
+
+
+### Grundgedanken
+
+Die Grounded Theory ist eine Methode der qualitativen Sozialforschung, die von Glaser und Strauss entwickelt wurde [@white2022; @glaser2017].
+Es sollen Zusammenhänge und Strukturen in den Daten entdeckt werden, ohne dass eine Theorie vorgegeben ist. 
+Die Theorie wird aus den Daten „herausgearbeitet“ („grounded“) und insofern entwickelt.
+Es wird nicht nur das "Was", sondern auch das "Wie" des Datenmaterials aufgegriffen.
+Es ist keine einmalige Stufenabfolge, sondern ein spiraliges Vorgehen, das sich immer wieder auf frühere Schritte bezieht.
+Es wird "Metatext" erstellt, um die Kategorien zu beschreiben und zu erklären.
+Es wird auf intersubjektive Nachprüfbarkeit geachtet.
+Es ist eine kreative Methode, die stärker als Mayrings Inhaltsanalyse die Theorieentwicklung im Blick hat.
+
+Die Grounded Theory ist daher besonders geeignet und charakteristisch für die qualitative Forschung.
+
+
 
 ### Zur Praxis des Codierens
 
 1. Lesen Sie das Material wiederholt und sorgfältig. Schreiben Sie Ihre resultierenden Überlegungen, Beobachtungen, Ideen, Hypothesen etc. in Memos („Forschungstagebuch“) auf, um später darauf zurückzugreifen. Farbige Unterstreichungen, Randnotizen etc. sind gängige Methoden, in die „Tiefe“ eines Textes vorzudringen.
 2. Überprüfen Sie regelmäßig die Zuordnung der Textstellen zu den Kategorien (und ändern Sie die Zuordnung oder die Kategorien wo nötig).
 3. Schärfen Sie die Konturen (die Essenz) Ihrer Kategorien immer wieder. Die Bedeutung dieser Definitionen ist wesentlich!
-4. Übersetzen Sie die Kategorien (wo möglich) in existierende Fachbegriffe – also in die Sprache einer existierenden Theorie. Es gibt keine theoriefreien Daten, aber reflektieren Sie über die Wahl der verwendeten Theorie. 
+4. Übersetzen Sie die Kategorien (wo möglich) in existierende Fachbegriffe – also in die Sprache einer existierenden Theorie. Es gibt keine theoriefreien Daten, aber reflektieren Sie über die Wahl der verwendeten Theorie. 
 5. Bringen Sie Ihre Kategorien mit bestehenden Theorien in Bezug.
 6. uchen Sie nach einem Leitthema bzw. einer Leitkategorie.
 6. Stellen Sie sicher, dass Ihre Versuchspersonen nicht deanonymisiert wurden/werden können („ich wurde dann die erste weiblich deutsche Bundeskanzlerin“).
@@ -132,3 +293,41 @@ Memos können und sollen ständig sortiert, gruppiert und in Relation zueinander
 - Fokussieren und Weglassen
 - Auswahl einer Kernkategorie
 - theoretische Integration des Materials zu einem kohärenten Ganzen
+
+
+
+### Kodierfamilien
+
+@flick2020 (S. 393f) schlägt folgende Kodierfamilien vor:
+
+| **Kodier-Familie**   | **Beschreibung**                                          | **Beispiel**                                      |
+|----------------------|-----------------------------------------------------------|---------------------------------------------------|
+| **C**                | Ursachen, Konsequenzen, Korrelationen, Bedingungen         | Ursachen von Schmerz                              |
+| **Prozess**          | Stadien, Phasen, Verläufe, Passagen, Entwicklungen         | Karriere eines Patienten mit chronischem Schmerz  |
+| **Grad**             | Ausmaß, Grad, Intensität, Niveau                           | Ausmaß des Schmerzes                              |
+| **Typen**            | Typen, Klassen, Genres, Klassifikation                     | Art des Schmerzes (pochend)                       |
+| **Strategie**        | Strategie, Technik, Intervention, Handlung                 | Bewältigungsstrategie                             |
+| **Interaktion**      | Interaktion, Wechselwirkung, Symmetrie                     | Wechselwirkung von Schmerz und Bewältigung        |
+| **Identität**        | Identität, Selbst, Fremdbilder                             | Fremdbild des Patienten                           |
+| **Qualitativer Sprung** | Grenze, kritischer Punkt, Umschung                      | Beginn der Chronifizierung                        |
+| **Kultur**           | Normen, Werte, Einstellungen                               | Wertesystem der Familie                           |
+| **Konsens**          | Kontrakt, Konformität, Compliance                          | Befolgung der Anweisungen des Arztes              |
+
+
+Hier ist ein Vorschlag für Kodierfamilien zum axialen Kodieren.
+
+```{mermaid}
+
+flowchart LR
+    Ursachen -->| | Phänomen
+    Kontext -->| | Phänomen
+    Phänomen -->| | Konsequenzen
+    Interventionen -->| | Phänomen
+```
+
+
+
+
+## Literatur
+
+
