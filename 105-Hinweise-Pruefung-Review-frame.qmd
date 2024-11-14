@@ -5,7 +5,7 @@
 
 
 Es gibt viele Anleitungen, wie man einen (guten systematischen) Literaturüberblick schreibt; 
-@siddaway_how_2019 stellen einen empfehlenswerten mit Schwerpunkt auf der Psychologie bereit.
+@siddaway2019 stellen einen empfehlenswerten mit Schwerpunkt auf der Psychologie bereit.
 
 Für Recherchen mit Google Scholar ist die Software [Publish or Perish](https://harzing.com/resources/publish-or-perish/windows) zu empfehlen.
 
