@@ -208,7 +208,7 @@ Vereinfacht gesagt: Zugelassen sind *nicht-programmierbare, wissenschaftliche* T
 
 
 
->     Ein Taschenrechner gilt als programmierbar, wenn zusätzliche, zum ursprünglichen Funktionsumfang nicht gehörige Routinen gespeichert werden können. (Anlage zum KMS Az.: VI.7 – 5 S 5500 – 6b.80372 vom 11. November 2011)
+>  Ein Taschenrechner gilt als programmierbar, wenn zusätzliche, zum ursprünglichen Funktionsumfang nicht gehörige Routinen gespeichert werden können. (Anlage zum KMS Az.: VI.7 – 5 S 5500 – 6b.80372 vom 11. November 2011)
 
 
 
