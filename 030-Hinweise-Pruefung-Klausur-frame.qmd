@@ -197,6 +197,21 @@ Sie können auch die gesamte CSV-Datei mit Namen und URL zu den Datensätzen [hi
 
 
 
-## Liste zugelassener Taschenrechner
+## Zugelassene Taschenrechner
 
-Wenn Taschenrechner in der Prüfung zugelassen sind, dann 
+Taschenrechner sind nur dann in der Prüfung zugelassen, 
+wenn dies explizit in der Prüfungsplan vermerkt ist.
+Zugelassen sind in dann nur wissenschaftlicher Taschenrechner, dessen Funktionalität den Regelungen des KMS Nr. VI.7–5 S 5500–6b.80372 vom 11.11.2011 und der [Anlage dazu](https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Faecher/Mathematik/KMBek_und_KMS/Hilfsmittel/regelungen_zur_verwendung_von_taschenrechnern_als_hilfsmittel_bei_leistungsnachweisen.pdf) entspricht.
+
+
+Vereinfacht gesagt: Zugelassen sind *nicht-programmierbare, wissenschaftliche* Taschenrechner.
+
+
+
+>     Ein Taschenrechner gilt als programmierbar, wenn zusätzliche, zum ursprünglichen Funktionsumfang nicht gehörige Routinen gespeichert werden können. (Anlage zum KMS Az.: VI.7 – 5 S 5500 – 6b.80372 vom 11. November 2011)
+
+
+
+
+
+
