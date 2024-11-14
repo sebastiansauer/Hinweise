@@ -288,12 +288,16 @@ Immer wieder kommt es vor, dass Studierende Beanstandungen zu einer Prüfung vor
 
 ### Prüfungseinsicht
 
-Sie haben das Recht, Ihre Prüfungsergebnisse einzusehen innerhalb der gesetzlich geregelten Fristen.
-Eine Prüfungseinsicht wird von mir rechtzeitig (innerhalb der Frist) bereit gestellt (online).
+Sie haben das Recht, Ihre Prüfungsergebnisse einzusehen  innerhalb der gesetzlich geregelten Fristen.
+Der Termin zur Einsichtnahme in die Prüfungsergebnisse wird von mir rechtzeitig (innerhalb der Frist) bereit gestellt (online).
 Beachten Sie bitte, dass für bestimmte Prüfungsformate keine Einsicht möglich ist bzw. die Einsicht schon vorab veröffentlicht sein kann:
 
 - Bei Projekt- oder Abschlussarbeiten stelle ich ggf. ein Gutachten schon vorab bereit (z.B. via Moodle). Ich schreibe *nichts* in Ihre Projektarbeit. Außerhalb des Gutachtens gibt es (bei mir) nichts einzusehen.
 - Bei Prognosewettbewerben gründet sich die Note primär oder komplett auf die Vorhersagegüte. In aller Regel gibt es keine weiteren Korrekturen oder Hinweise zur Analyse. Daher gibt es keine Einsichtnahme für diese Prüfungsform.
+
+Die Prüfungseinsicht findet zu Beginn
+des Folgesemesters statt. Der Termin wird auf der Moodle-Seite,
+auf der auch die Prüfungsaufgaben stehen, bekannt gegeben.
 
 Zur Prüfungseinsicht öffnen Sie bitte Ihre Aufgabenstellung in Moodle.
 Die Musterlösung sowie Ihre Antwort inkl. Bewertung (richtig/falsch) wird dann angezeigt.

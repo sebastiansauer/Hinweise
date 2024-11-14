@@ -196,3 +196,7 @@ Sie können auch die gesamte CSV-Datei mit Namen und URL zu den Datensätzen [hi
 {{< downloadthis data/pruefungsdatensaetze.csv dname = "pruefungsdatensaetze.csv" >}}
 
 
+
+## Liste zugelassener Taschenrechner
+
+Wenn Taschenrechner in der Prüfung zugelassen sind, dann 
