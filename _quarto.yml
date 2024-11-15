@@ -68,7 +68,10 @@ book:
         - 170-Beispiele-Fehler-Prognosewettbewerb-frame.qmd
         - 180-Beispiele-Fehler-Datenanalyse-frame.qmd
         - 190-Beispiele-Fehler-Projektarbeiten-frame.qmd
-        
+    - part: Rechtliches
+      chapter:
+        - impressum.qmd
+        - datenschutz.qmd        
 
 bibliography: bib/bib.bib
 
