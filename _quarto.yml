@@ -69,7 +69,7 @@ book:
         - 180-Beispiele-Fehler-Datenanalyse-frame.qmd
         - 190-Beispiele-Fehler-Projektarbeiten-frame.qmd
     - part: Rechtliches
-      chapter:
+      chapters:
         - impressum.qmd
         - datenschutz.qmd        
 
