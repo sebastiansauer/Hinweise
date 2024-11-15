@@ -33,7 +33,7 @@ book:
     logo: img/hinweise-logo.png
   favicon: img/hinweise-logo.png
   repo-url: https://github.com/sebastiansauer/hinweise
-  
+  repo-actions: [issue] 
   
   chapters:
     - index.qmd
