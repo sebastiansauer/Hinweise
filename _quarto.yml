@@ -19,6 +19,15 @@ book:
   image: img/hinweise-logo.png
   description: "Hinweise zu Prüfungen und Lehre bei Prof. Sebastian Sauer"
   date: now
+  reader-mode: true
+  page-footer:
+    border: true
+    left: |
+      Powered by [Quarto](https://quarto.org)
+    center: |
+      [Impressum](https://sebastiansauer.github.io/hinweisbuch/impressum.html)
+    right: |
+      [Datenschutzhinweise](https://sebastiansauer.github.io/hinweisbuch/datenschutz.html)
   
   sidebar: 
     logo: img/hinweise-logo.png
@@ -77,6 +86,7 @@ format:
     code-fold: false
     fig-align: center
     code-link: true
+    author-meta: "Sebastian Sauer"
     mermaid:
       theme: neutral
 
