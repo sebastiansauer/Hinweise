@@ -52,6 +52,7 @@ book:
       - 100-Hinweise-Pruefung-Thesis-frame.qmd
       - 105-Hinweise-Pruefung-Review-frame.qmd
       - 108-Hinweise-Quali-frame.qmd
+      - 109-Hinweise-Programmieren.qmd
     - part: "Unterricht"
       chapters:
         - 110-Hinweise-Didaktik-frame.qmd
@@ -73,7 +74,7 @@ book:
         - impressum.qmd
         - datenschutz.qmd        
 
-bibliography: bib/bib.bib
+bibliography: bib-local.bib
 
 format:
   html:

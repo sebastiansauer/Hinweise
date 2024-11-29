@@ -2,5 +2,274 @@
 
 
 
-{{< include Hinweise-Pruefung-Datenanalyse-Child.qmd >}}
+
+<!-- ## Prüfungsform Datenanalyse -->
+
+
+Die folgenden Hinweise gelten nur insofern Ihnen die Prüfperson nicht anderslautende Hinweise gegeben hat (schriftlich).
+
+
+## Allgemeine Hinweise
+
+
+### Formalia
+
+
+
+1. Gegenstand dieser Prüfungsform ist eine Projektarbeit in Form von *Analyse* eines Datensatzes nach einer *Forschungsfrage* und die *Dokumentation* dieser Analyse.
+
+
+4. Schreiben Sie Ihre Datenanalyse in Form eines *Berichts*, der sich an den Gliederungspunkten wie unten dargestellt orientiert.
+
+1. Richtlinien einer *Wortzahl* gibt es nicht. Entscheidend ist, dass relevante Analysen durchgeführt und beschrieben wurden. Schreiben Sie so knapp wie möglich und so ausführlich wie nötig.
+
+2. Der *Anspruch* richtet sich nach dem Inhalt und Niveau des auf diese Prüfung vorbereitenden Unterricht (auch aus Modulen vorheriger Semester). Oft sind das Module in quantitativer Datenanalyse (und wissenschaftliches Arbeiten). Deren Inhalte sollen im Rahmen dieser Prüfungsleistung als selbständig und flüssig verfügbare Kompetenz von den Studentis demonstriert werden.
+
+3. Die *Gliederung* der Arbeit kann sich an den [PPDAC-Zyklus](https://stats-nutshell.netlify.app/basics.html#ppdac) und am [Data Science Model von Wickham und Grolemund](https://r4ds.had.co.nz/introduction.html#what-you-will-learn) orientieren.
+
+
+13. Zu Beginn der Analyse müssen folgende *Metadaten* *gut ersichtlich* platziert sein (z.B. auf einem Deckblatt):
+ 
+ - Vorname Nachname der Autors/der Autorin
+ - Matrikelnummer
+ - Modulname
+ - Abgabedatum
+
+15. Studentis mit *Nachteilsausgleich* melden sich (schriftlich) beim Prüfer und zeigen dabei ihren Antrag auf Nachteilsausgleich an.
+
+4. Achten Sie auf *Übersichtlichkeit* und ansprechende Gestaltung. Eine Gliederung und nummerierte Abschnitte tragen zur Übersichtlichkeit bei.
+
+5. Beachten Sie die *Grundlagen des wissenschaftlichen Schreibens* etwa zu Zitieren und Referenzieren. So sollten etwa Diagramme für sich genommen (in Grundzügen) verständlich sein.
+
+1. Die Projektarbeit ist *nur elektronisch*, nicht ausgedruckt einzureichen.
+
+2. Die Projektarbeit kann in einem *paginierten Format* (z.B. Word)  oder einem *nicht-paginierten* Format (HTML-Dokument) verfasst werden. Abzugeben ist aber eine PDF-Datei oder eine HTML-Datei, die alle Bilder und sonstige Medien enthält ("Stand-Alone-HTML"). Falls der Bericht auf einem öffentlich zugänglichen Server liegt, reicht es, die URL einzureichen. Der Prüfling trägt aber die Verantwortung, dass der Bericht zugänglich ist (im Zweifel kann zusätzlich zur URL eine Datei mit dem Bericht eingereicht werden).
+
+
+4. Die Wahl eines bestimmten Stylesheets ist nicht von Bedeutung. *Lesbarkeit* und *Übersichtlichkeit* in der Formatierung sind unabhängig davon anzustreben.
+
+5. Im *Kopfbereich* (oder auf einem Deckblatt) sind die relevanten *Metadatan* anzugeben wie Name (Nachname, Vorname) der Autorin/des Autors, Abgabedatum, Titel der Arbeit, Modul.
+
+6. Legen Sie Wert auf die *Reproduzierbarkeit* der Analyse.
+
+7. *Prüfen Sie* zu Beginn der Prüfungszeit, ob Sie auf die *Daten zugreifen* können und diese einlesen können. Melden Sie sich bei Problemen vor Beginn der Prüfungszeit beim Dozenten.
+
+
+
+
+### Methodik
+
+
+5. Wenden Sie die passenden, im Unterricht eingeführten, *statistischen Verfahren* an. Es steht Ihnen frei, andere (nicht im Unterricht behandelte) Verfahren zur Analyse der Daten anzuwenden, nach Maßgabe der fachlichen Angemessenheit.
+
+6. Werten Sie die Daten mit *R* oder *Python* aus.
+
+7. Die *R-Syntax* soll im Hauptteil des Berichts dokumentiert werden. R-Output soll im Hauptteil berichtet werden, kann aber ggf. gekürzt wiedergegeben werden.
+
+
+### Inhalt
+
+9. Fügen Sie *keine Erklärungen* oder Definitionen von gebräuchlichen statistischen Verfahren an.
+
+10. *Beschreiben* und *interpretieren* Sie jede Analyse bzw. jeden R-Code bzw. jedes Ergebnis (jede R-Ausgabe).
+
+11. Von hoher Bedeutung ist die *Korrektheit* der Beschreibung und Interpretation der *statistischen Modellierung* (z.B. mit der Regressionsanalyse).
+
+12. Es hat *keinen Einfluss* auf Ihre Note, ob sich ein (erwarteter) *Effekt* zeigt und wie stark dieser Effekt ggf. ist.
+
+
+13. Beschließen Sie Ihre Arbeit mit einer Diskussion der Ergebnisse.
+
+
+
+
+
+## Einzureichende Dateien
+
+1. Einzureichen sind folgende Dateien:
+
+  a. der *Bericht* in menschenlesbarer Form (erstellt mit z.B. Quarto oder Word; s. Formatierungshinweise)
+  b. alle weiteren Dateien, die *Quellcode* der statistische Analysen beinhalten
+  c. die *Rohdaten* 
+  
+2. Wenn eine Datei auf einem *öffentlich zugänglichen Server* liegt, reicht es, die URL zur jeweiligen Datei anzugeben.
+
+3. Wird der Bericht in einem Notebook-Format (wie Quarto) geschrieben, muss keine zusätzliche Datei mit Quellcode eingereicht werden.
+  
+3. *Benennen* Sie Ihre *Dateien* nach folgendem Schema: <Nachname>-<Vorname>-<Matrikelnummer>.<Dateiendung>, z.B.
+`mustermann-max-01234567.R`.
+
+
+
+
+
+
+
+
+
+
+## Prüfungsmaterial {#sec-pruefungsmaterial}
+
+
+### Wo finde ich das Prüfungsmaterial?
+
+Alles Prüfungsmaterial findet sich auf der Moodle-Seite des entsprechenden Moduls (unter Umständen werden Sie dann auf einen anderen Moodlekurs weitergeleitet, aber Sie finden den Zugang stets auf der Moodleseite des betreffenden Moduls).
+
+
+### Wo reiche ich meine Ergebnisse ein?
+
+Sie finden auf der betreffenden Moodleseite einen Abschnitt mit Namen "Einreichen Ihrer Projektarbeit" (o. Ä.). Reichen Sie dort Ihre Projektarbeit ein.
+
+
+## Zeitplan
+
+
+
+Zu Beginn des offiziellen Prüfungszeitraums der Hochschule wird das [Prüfungsmaterial](#sec-pruefungsmaterial) veröffentlicht. 
+Dann können Sie mit der Bearbeitung beginnen.
+Die Abgabefrist der Projektarbeit endet zeitgleich mit dem Verstreichen des Prüfungszeitraums der Hochschule. 
+Während des Prüfungszeitraums haben Sie also Zeit, Ihre Projektarbeit (den Prognosewettbewerb) zu bearbeiten, s. @fig-zeitplan.
+
+
+![Zeitplan der Bearbeitung des Prognosewettbewerbs](img/Zeitplanung-Prognosewettbewerb.png){#fig-zeitplan width=67%}
+
+
+
+
+
+## Beurteilungskriterien
+
+
+Die Arbeit wird im Hinblick auf *drei Kriterien* bewertet:
+
+1. *Formalia* (z. B. Vollständigkeit der Abarbeitung, Angemessenheit der äußeren Gestaltung, Fokus auf Wesentliche, Übersichtlichkeit, Ästhetik, Reproduzierbarkeit)
+
+2. *Methodik* (z. B. Richtige Auswahl und Anwendung der Verfahren, methodisches Verständnis)
+
+3. *Inhalt* (z. B. Verständlichkeit, Breite und Tiefe der Problemlösung, Korrektheit der Interpretation)
+
+
+
+
+Sie erhalten für jedes der drei Kriterien eine Teilnote sowie eine Gesamtnote. Außerdem erhalten Sie ggf. für die Kriterien noch ausformulierte Hinweise.
+
+Die Gesamtnote muss sich *nicht* als Mittelwert der Teilnoten ergeben.
+
+Insbesondere kann eine Fünf in einem der Kriterien zum Durchfallen führen, auch wenn die anderen beiden Kriterien gut oder sehr gut beurteilt wurden.
+
+
+
+
+
+## Beispiele für Aspekte der Beurteilungskriterien
+
+
+1. Wurden deskriptive Statistiken (an angemessenen Ort) berichtet?
+
+2. Wurden Diagramme und Tabellen angemessen eingesetzt?
+
+3. Wurde Inferenzstatistik (angemessen) eingesetzt?
+
+5. Wurden Effektstärkemaße (idealerweise mit Konfidenzintervallen dazu) berichtet?
+
+6. Wurden alle relevanten Informationen für ein statistisches Verfahren angegeben (z.B. zum gewählten Prior)?
+
+7. Wurde die Aussagekraft von Modellergebnissen richtig eingeschätzt?
+
+8. Waren die Schlussfolgerungen, die aus den statistischen Ergebnissen gezogen wurden, angemessen (z. B. wurde erkannt, dass ein Nicht-Verwerfeen einer Hypothese nicht automatisch ein Bestätigen derselben bedeutet)?
+
+9. Wurde angemessen gerundet (inkl. konsistente Anzahl von Nachkommastellen)?
+
+10. Passen die statistischen Verfahren zu den Hypothesen?
+
+11. Wurden die Voraussetzungen der statistischen Verfahren geprüft?
+
+12. Sind die Ergebnisse reproduzierbar (Daten und Syntax eingereicht)?
+
+
+
+
+## Fundorte für Datensätze
+
+Sofern Ihnen die Prüfperson nicht einen Datensatz zugeteilt hat, können Sie die folgenden Fundorte für Datensätze nutzen, um einen Datensatz für Ihre Analyse zu finden.
+
+
+### Themenübergreifende Fundorte
+
+- [Our World in Data](https://ourworldindata.org/)
+
+- [Open Science Framework](https://osf.io/)
+
+- [Figshare](https://figshare.com/search?q=data)
+
+- [Harvard Dataverse](https://data.harvard.edu/dataverse)
+
+- [UK Data Servicee](https://ukdataservice.ac.uk/find-data/browse/)
+
+- [Google DataSet Search](https://datasetsearch.research.google.com/)
+
+
+
+### Klimawandel
+
+- [German Wather Data from the DWD](https://opendata.dwd.de/)
+
+- [Nasa climeate data](https://data.giss.nasa.gov/gistemp/) such as [this data set: Tables of Global and Hemispheric Monthly Means and Zonal Annual Means](https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv)
+
+
+- [Data on CO2 and Greenhouse Gas Emissions by Our World in Data](https://github.com/owid/co2-data#data-on-co2-and-greenhouse-gas-emissions-by-our-world-in-data)
+
+
+
+### Gesundheit und Soziales
+
+- [Measuring Well-being and Progress: Well-being Research](https://www.oecd.org/wise/measuring-well-being-and-progress.htm)
+
+- [Covid-19 Cases in Germany provided by the RKI](https://github.com/robert-koch-institut/SARS-CoV-2-Infektionen_in_Deutschland_Archiv)
+
+- [Paper COVIDiSTRESS Global Survey dataset on psychological and behavioural consequences of the COVID-19 outbreak with open data at osf.io](https://www.nature.com/articles/s41597-020-00784-9)
+
+- [Global Health Data Exchange](https://ghdx.healthdata.org/)
+
+- [WHO Global Tuberculosis Programme](https://www.who.int/teams/global-tuberculosis-programme/data#csv_files)
+
+- [WHO Global Health Observatory data repository](https://apps.who.int/gho/data/node.main)
+
+### Arbeit
+
+- [UK Data Service: European Company Survey, 2019](https://beta.ukdataservice.ac.uk/datacatalogue/doi/?id=8691#!#1)
+
+
+### Psychologie, divers
+
+
+
+
+- [Graham, Haidt, & Nosek (2009): Liberals and conservatives rely on different sets of moral foundations](https://dataverse.harvard.edu/dataset.xhtml?persistentId=hdl:1902.1/12658&studyListingIndex=0_775f45d232bb5e430d0024139e25)
+
+- [Brian Nosek Dataverse](https://dataverse.harvard.edu/dataverse/bnosek)
+
+- [The Journal of Open Psychology Data (JOPD)](https://openpsychologydata.metajnl.com/)
+
+- [Psychology data from the Race Implicit Association Test on the Project Implicit Demo website](https://osf.io/52qxL/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Tipps
+
+
+- Chatbots wie ChatGPT können Ihnen helfen, Ihre Idee in Code umzusetzen.
+- Wiederholen Sie die Grundlagen des Datenjudos.
+- Dieses Modul ist sehr angewandt; theoretische Konzepte stehen nicht im Vordergrund. Stattdessen geht es darum, praktische Probleme zu lösen. In solchen Situationen geht Probieren (oft) über Studieren.
 

@@ -1,0 +1,107 @@
+# Programmieren
+
+
+
+
+
+## Schöner Programmieren
+
+
+- Schreiben Sie Ihren Code in kleine, *in sich abgeschlossene Abschnitte*.
+- Gliedern Sie Ihren Code in *Funktionen.*
+- Schreiben Sie *nicht "hardcoded"*, sondern verwenden Sie allgemeinere, wiederverndbare, flexible Strukturen.
+- Finden Sie *prägnante Namen* für Ihre Objekte.
+- *Kommentieren* Sie Ihren Code.
+- Nutzen Sie RMarkdown und/oder *Quarto*, um Ihren Code und Ihre Ergebnisse zu dokumentieren.
+- Nutzen Sie *Git* und GitHub, um Ihren Code zu versionieren und zu teilen.
+- Nutzen Sie möglichst *einfach verständlichen Code*; schreiben Sie in erster Linie für Menschen, und erst in zweiter Linie für Maschinen.
+- Nutzen Sie *bewährte R-Pakete*, um Ihre Arbeit zu erleichtern.
+- Nutzen Sie die [*Tidyverse-Pakete*](https://www.tidyverse.org/), soweit möglich, um Ihren Code zu schreiben.
+- Verwenden Sie den *[Tidyverse-Styleguide](https://style.tidyverse.org/)*.
+
+
+
+:::{.exm-einfacher-code}
+### Code vereinfachen
+
+
+```{r}
+library(tidyverse)
+library(janitor)
+data("penguins", package = "palmerpenguins")
+```
+Datenbeispiel:
+
+```{r}
+d <-
+  tibble(
+    x = c(1, 2, 3, NA, 5),
+    y = c(NA, 2, 3, 4, 5),
+    z = 1
+  )
+
+d
+```
+
+Komplizierter Code:
+
+```{r}
+d_no_const_cols <- 
+  d[, sapply(d, function(col) length(unique(col[!is.na(col)])) > 1)]
+d_no_const_cols
+```
+
+Einfacher Code:
+
+```{r}
+d_no_const_cols <- 
+  d |> select(where(~ n_distinct(.) > 1))
+d_no_const_cols
+```
+
+Ähnlicher, aber nicht unbedingt einfacherer Code:
+
+
+```{r}
+nicht_alle_gleich <- function(spalte){
+  n_distinct(spalte) > 1
+}
+
+d |> select(where(nicht_alle_gleich))
+
+```
+
+
+
+Sehr einfacher Code:
+
+```{r}
+d_no_const_cols <- 
+  d |> remove_constant()  # aus janitor
+d_no_const_cols
+```
+
+
+Hilfe zur Funktion `remove_constant` erhält man mit `?remove_constant` (das zugehörige Paket, `janitor`, muss dafür geladen sein).
+:::
+
+
+
+
+
+## Tipps
+
+
+- Wiederholen Sie die Grundlagen des Datenjudos.
+- Programmieraufgaben sind angewandt; theoretische Konzepte stehen nicht im Vordergrund. Stattdessen geht es darum, praktische Probleme zu lösen. In solchen Situationen geht Probieren (oft) über Studieren.
+- Häufig ist es nützlich, nicht sofort loszuschreiben, sondern sich in Ruhe einen Plan für die Lösung zu machen. Zwei Minuten Nachdenken ersetzt oft zwanzig Minuten Programmieren.
+- Wenn Sie nicht weiterkommen, suchen Sie Hilfe. Das kann ein Kommilitone, ein Buch, ein Online-Tutorial oder ein Chatbot sein.
+- Ein bekanntest und gutes Buch für guten Programmierstil haben @thomas2020 geschrieben.
+
+
+
+
+
+
+
+
