@@ -394,7 +394,15 @@ div.csl-indent {
 <li><a href="#code-vereinfachen" id="toc-code-vereinfachen" class="nav-link" data-scroll-target="#code-vereinfachen"><span class="header-section-number">15.1.1</span> Code vereinfachen</a></li>
   </ul>
 </li>
-  <li><a href="#tipps" id="toc-tipps" class="nav-link" data-scroll-target="#tipps"><span class="header-section-number">15.2</span> Tipps</a></li>
+  <li>
+<a href="#pipelines-mit-targets" id="toc-pipelines-mit-targets" class="nav-link" data-scroll-target="#pipelines-mit-targets"><span class="header-section-number">15.2</span> Pipelines mit Targets</a>
+  <ul class="collapse">
+<li><a href="#einf%C3%BChrung" id="toc-einführung" class="nav-link" data-scroll-target="#einf%C3%BChrung"><span class="header-section-number">15.2.1</span> Einführung</a></li>
+  <li><a href="#richtlinien" id="toc-richtlinien" class="nav-link" data-scroll-target="#richtlinien"><span class="header-section-number">15.2.2</span> Richtlinien</a></li>
+  </ul>
+</li>
+  <li><a href="#tipps" id="toc-tipps" class="nav-link" data-scroll-target="#tipps"><span class="header-section-number">15.3</span> Tipps</a></li>
+  <li><a href="#literatur" id="toc-literatur" class="nav-link" data-scroll-target="#literatur"><span class="header-section-number">15.4</span> Literatur</a></li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/sebastiansauer/hinweise/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
 <!-- main -->
@@ -421,48 +429,23 @@ div.csl-indent {
 <li>Schreiben Sie Ihren Code in kleine, <em>in sich abgeschlossene Abschnitte</em>.</li>
 <li>Gliedern Sie Ihren Code in <em>Funktionen.</em>
 </li>
-<li>Schreiben Sie <em>nicht “hardcoded”</em>, sondern verwenden Sie allgemeinere, wiederverndbare, flexible Strukturen.</li>
+<li>Schreiben Sie <em>nicht “hardcoded”</em>, sondern verwenden Sie allgemeinere, wiederverwendbare, flexible Strukturen.</li>
 <li>Finden Sie <em>prägnante Namen</em> für Ihre Objekte.</li>
 <li>
 <em>Kommentieren</em> Sie Ihren Code.</li>
-<li>Nutzen Sie RMarkdown und/oder <em>Quarto</em>, um Ihren Code und Ihre Ergebnisse zu dokumentieren.</li>
+<li>Nutzen Sie (nach Möglichkeit) <em>Quarto</em>, um Ihren Code und Ihre Ergebnisse zu dokumentieren.</li>
 <li>Nutzen Sie <em>Git</em> und GitHub, um Ihren Code zu versionieren und zu teilen.</li>
 <li>Nutzen Sie möglichst <em>einfach verständlichen Code</em>; schreiben Sie in erster Linie für Menschen, und erst in zweiter Linie für Maschinen.</li>
-<li>Nutzen Sie <em>bewährte R-Pakete</em>, um Ihre Arbeit zu erleichtern.</li>
+<li>Nutzen Sie <em>bewährte (R-)Pakete</em>, um Ihre Arbeit zu erleichtern.</li>
 <li>Nutzen Sie die <a href="https://www.tidyverse.org/"><em>Tidyverse-Pakete</em></a>, soweit möglich, um Ihren Code zu schreiben.</li>
 <li>Verwenden Sie den <em><a href="https://style.tidyverse.org/">Tidyverse-Styleguide</a></em>.</li>
 </ul>
 <section id="code-vereinfachen" class="level3 exm-einfacher-code" data-number="15.1.1"><h3 data-number="15.1.1" class="anchored" data-anchor-id="code-vereinfachen">
 <span class="header-section-number">15.1.1</span> Code vereinfachen</h3>
-<div class="cell">
-<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://tidyverse.tidyverse.org">tidyverse</a></span><span class="op">)</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
-✔ dplyr     1.1.4     ✔ readr     2.1.5
-✔ forcats   1.0.0     ✔ stringr   1.5.1
-✔ ggplot2   3.5.1     ✔ tibble    3.2.1
-✔ lubridate 1.9.3     ✔ tidyr     1.3.1
-✔ purrr     1.0.2     
-── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
-✖ dplyr::filter() masks stats::filter()
-✖ dplyr::lag()    masks stats::lag()
-ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
-</div>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/sfirke/janitor">janitor</a></span><span class="op">)</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stderr">
-<pre><code>
-Attaching package: 'janitor'
-
-The following objects are masked from 'package:stats':
-
-    chisq.test, fisher.test</code></pre>
-</div>
-<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="fu"><a href="https://rdrr.io/r/utils/data.html">data</a></span><span class="op">(</span><span class="st">"penguins"</span>, package <span class="op">=</span> <span class="st">"palmerpenguins"</span><span class="op">)</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
 <p>Datenbeispiel:</p>
 <div class="cell">
-<div class="sourceCode" id="cb6"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">d</span> <span class="op">&lt;-</span></span>
-<span>  <span class="fu"><a href="https://tibble.tidyverse.org/reference/tibble.html">tibble</a></span><span class="op">(</span></span>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">d</span> <span class="op">&lt;-</span></span>
+<span>  <span class="fu">tibble</span><span class="op">(</span></span>
 <span>    x <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>, <span class="fl">2</span>, <span class="fl">3</span>, <span class="cn">NA</span>, <span class="fl">5</span><span class="op">)</span>,</span>
 <span>    y <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="cn">NA</span>, <span class="fl">2</span>, <span class="fl">3</span>, <span class="fl">4</span>, <span class="fl">5</span><span class="op">)</span>,</span>
 <span>    z <span class="op">=</span> <span class="fl">1</span></span>
@@ -479,7 +462,7 @@ The following objects are masked from 'package:stats':
 </div>
 <p>Komplizierter Code:</p>
 <div class="cell">
-<div class="sourceCode" id="cb7"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">d_no_const_cols</span> <span class="op">&lt;-</span> </span>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">d_no_const_cols</span> <span class="op">&lt;-</span> </span>
 <span>  <span class="va">d</span><span class="op">[</span>, <span class="fu"><a href="https://rdrr.io/r/base/lapply.html">sapply</a></span><span class="op">(</span><span class="va">d</span>, <span class="kw">function</span><span class="op">(</span><span class="va">col</span><span class="op">)</span> <span class="fu"><a href="https://rdrr.io/r/base/length.html">length</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/unique.html">unique</a></span><span class="op">(</span><span class="va">col</span><span class="op">[</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html">is.na</a></span><span class="op">(</span><span class="va">col</span><span class="op">)</span><span class="op">]</span><span class="op">)</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">1</span><span class="op">)</span><span class="op">]</span></span>
 <span><span class="va">d_no_const_cols</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
@@ -492,8 +475,8 @@ The following objects are masked from 'package:stats':
 </div>
 <p>Einfacher Code:</p>
 <div class="cell">
-<div class="sourceCode" id="cb8"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">d_no_const_cols</span> <span class="op">&lt;-</span> </span>
-<span>  <span class="va">d</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/where.html">where</a></span><span class="op">(</span><span class="op">~</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/n_distinct.html">n_distinct</a></span><span class="op">(</span><span class="va">.</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">1</span><span class="op">)</span><span class="op">)</span></span>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">d_no_const_cols</span> <span class="op">&lt;-</span> </span>
+<span>  <span class="va">d</span> <span class="op">|&gt;</span> <span class="fu">select</span><span class="op">(</span><span class="fu">where</span><span class="op">(</span><span class="op">~</span> <span class="fu">n_distinct</span><span class="op">(</span><span class="va">.</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">1</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="va">d_no_const_cols</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div data-pagedtable="false">
@@ -505,11 +488,11 @@ The following objects are masked from 'package:stats':
 </div>
 <p>Ähnlicher, aber nicht unbedingt einfacherer Code:</p>
 <div class="cell">
-<div class="sourceCode" id="cb9"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">nicht_alle_gleich</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">spalte</span><span class="op">)</span><span class="op">{</span></span>
-<span>  <span class="fu"><a href="https://dplyr.tidyverse.org/reference/n_distinct.html">n_distinct</a></span><span class="op">(</span><span class="va">spalte</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">1</span></span>
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">nicht_alle_gleich</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">spalte</span><span class="op">)</span><span class="op">{</span></span>
+<span>  <span class="fu">n_distinct</span><span class="op">(</span><span class="va">spalte</span><span class="op">)</span> <span class="op">&gt;</span> <span class="fl">1</span></span>
 <span><span class="op">}</span></span>
 <span></span>
-<span><span class="va">d</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://dplyr.tidyverse.org/reference/select.html">select</a></span><span class="op">(</span><span class="fu"><a href="https://tidyselect.r-lib.org/reference/where.html">where</a></span><span class="op">(</span><span class="va">nicht_alle_gleich</span><span class="op">)</span><span class="op">)</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span><span class="va">d</span> <span class="op">|&gt;</span> <span class="fu">select</span><span class="op">(</span><span class="fu">where</span><span class="op">(</span><span class="va">nicht_alle_gleich</span><span class="op">)</span><span class="op">)</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div data-pagedtable="false">
   <script data-pagedtable-source="" type="application/json">
@@ -520,8 +503,8 @@ The following objects are masked from 'package:stats':
 </div>
 <p>Sehr einfacher Code:</p>
 <div class="cell">
-<div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">d_no_const_cols</span> <span class="op">&lt;-</span> </span>
-<span>  <span class="va">d</span> <span class="op">|&gt;</span> <span class="fu"><a href="https://sfirke.github.io/janitor/reference/remove_constant.html">remove_constant</a></span><span class="op">(</span><span class="op">)</span>  <span class="co"># aus janitor</span></span>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="va">d_no_const_cols</span> <span class="op">&lt;-</span> </span>
+<span>  <span class="va">d</span> <span class="op">|&gt;</span> <span class="fu">remove_constant</span><span class="op">(</span><span class="op">)</span>  <span class="co"># aus janitor</span></span>
 <span><span class="va">d_no_const_cols</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output-display">
 <div data-pagedtable="false">
@@ -531,16 +514,35 @@ The following objects are masked from 'package:stats':
 </div>
 </div>
 </div>
-<p>Hilfe zur Funktion <code>remove_constant</code> erhält man mit <code><a href="https://sfirke.github.io/janitor/reference/remove_constant.html">?remove_constant</a></code> (das zugehörige Paket, <code>janitor</code>, muss dafür geladen sein).</p>
-</section></section><section id="tipps" class="level2" data-number="15.2"><h2 data-number="15.2" class="anchored" data-anchor-id="tipps">
-<span class="header-section-number">15.2</span> Tipps</h2>
+<p>Hilfe zur Funktion <code>remove_constant</code> erhält man mit <code>?remove_constant</code> (das zugehörige Paket, <code>janitor</code>, muss dafür geladen sein).</p>
+</section></section><section id="pipelines-mit-targets" class="level2" data-number="15.2"><h2 data-number="15.2" class="anchored" data-anchor-id="pipelines-mit-targets">
+<span class="header-section-number">15.2</span> Pipelines mit Targets</h2>
+<section id="einführung" class="level3" data-number="15.2.1"><h3 data-number="15.2.1" class="anchored" data-anchor-id="einführung">
+<span class="header-section-number">15.2.1</span> Einführung</h3>
+<p>Eine Analyse mit vielen Schritten kann leicht unübersichtlich werden. Ein anderes Problem ist, dass man viele Objekte erzeugt, als Ergebnisse der Zwischenschritte. Ändert man einen Zwischenschritt, so ändert sich der Input für alle darauf folgende Analyseschritte. Man muss also nachfolgenden Objekte neu berechnen. Gefährlich wäre, würde man vergessen, diese Objekte neu zu berechnen: Man würde mit einem “veralteten” also falschen Objekt weiterarbeiten, was zwangsläufig zu falschen Ergebnissen führten würde.</p>
+<p>Wäre es nicht schön, wenn es ein Tool gäbe, das für Sie den Überblick behält und dafür sorgt, dass die veralteten Objekte (und nur die) bei Bedarf neu berechnet werden?</p>
+<p>Solche Tools gibt es. Wir schauen uns dazu das Tool <a href="https://books.ropensci.org/targets/">targets</a> an.</p>
+<p><a href="https://books.ropensci.org/targets/walkthrough.html">Hier ist ein erstes Beispiel</a>, und <a href="https://carpentries-incubator.github.io/targets-workshop/aio.html">hier</a> ist eine weitere Einführung in Targets.</p>
+<p>Diese <a href="https://wlandau.github.io/targets-tutorial/#1">Präsentation</a> führt in Targets ein mit einer Data-Science-Anwendung.</p>
+</section><section id="richtlinien" class="level3" data-number="15.2.2"><h3 data-number="15.2.2" class="anchored" data-anchor-id="richtlinien">
+<span class="header-section-number">15.2.2</span> Richtlinien</h3>
+<p>Wenn Sie eine Analyse mit Targets durchführen, sollten Sie folgende Richtlinien beachten:</p>
+<ul>
+<li>Schreiben Sie Ihre Targets-Pipeline in einer separaten Datei.</li>
+<li>In einer Targets-Pipeline-Datei sollte nur die Pipeline stehen (inkl. Vorbereitung wie Pakete bereitstellen etc.).</li>
+<li>Eine Targets-Pipeline-Datei ist ein reines R-Skript.</li>
+<li>Wenn Sie Funktionen schreiben, die Sie in der Pipeline verwenden, schreiben Sie diese in einer separaten Skript-Datei (oder pro Funktion eine eigene Skript-Datei).</li>
+<li>Reichen Sie alle Dateien, also auch die Funktionen-Skripte, ein.</li>
+</ul></section></section><section id="tipps" class="level2" data-number="15.3"><h2 data-number="15.3" class="anchored" data-anchor-id="tipps">
+<span class="header-section-number">15.3</span> Tipps</h2>
 <ul>
 <li>Wiederholen Sie die Grundlagen des Datenjudos.</li>
 <li>Programmieraufgaben sind angewandt; theoretische Konzepte stehen nicht im Vordergrund. Stattdessen geht es darum, praktische Probleme zu lösen. In solchen Situationen geht Probieren (oft) über Studieren.</li>
 <li>Häufig ist es nützlich, nicht sofort loszuschreiben, sondern sich in Ruhe einen Plan für die Lösung zu machen. Zwei Minuten Nachdenken ersetzt oft zwanzig Minuten Programmieren.</li>
 <li>Wenn Sie nicht weiterkommen, suchen Sie Hilfe. Das kann ein Kommilitone, ein Buch, ein Online-Tutorial oder ein Chatbot sein.</li>
 <li>Ein bekanntest und gutes Buch für guten Programmierstil haben <span class="citation" data-cites="thomas2020">Thomas und Hunt (<a href="#ref-thomas2020" role="doc-biblioref">2020</a>)</span> geschrieben.</li>
-</ul>
+</ul></section><section id="literatur" class="level2" data-number="15.4"><h2 data-number="15.4" class="anchored" data-anchor-id="literatur">
+<span class="header-section-number">15.4</span> Literatur</h2>
 
 
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">

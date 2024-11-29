@@ -971,7 +971,7 @@
     "href": "109-Hinweise-Programmieren.html#schöner-programmieren",
     "title": "\n15  Programmieren\n",
     "section": "",
-    "text": "Schreiben Sie Ihren Code in kleine, in sich abgeschlossene Abschnitte.\nGliedern Sie Ihren Code in Funktionen.\n\nSchreiben Sie nicht “hardcoded”, sondern verwenden Sie allgemeinere, wiederverndbare, flexible Strukturen.\nFinden Sie prägnante Namen für Ihre Objekte.\n\nKommentieren Sie Ihren Code.\nNutzen Sie RMarkdown und/oder Quarto, um Ihren Code und Ihre Ergebnisse zu dokumentieren.\nNutzen Sie Git und GitHub, um Ihren Code zu versionieren und zu teilen.\nNutzen Sie möglichst einfach verständlichen Code; schreiben Sie in erster Linie für Menschen, und erst in zweiter Linie für Maschinen.\nNutzen Sie bewährte R-Pakete, um Ihre Arbeit zu erleichtern.\nNutzen Sie die Tidyverse-Pakete, soweit möglich, um Ihren Code zu schreiben.\nVerwenden Sie den Tidyverse-Styleguide.\n\n\n15.1.1 Code vereinfachen\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.1     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(janitor)\n\n\nAttaching package: 'janitor'\n\nThe following objects are masked from 'package:stats':\n\n    chisq.test, fisher.test\n\ndata(\"penguins\", package = \"palmerpenguins\")\n\nDatenbeispiel:\n\nd &lt;-\n  tibble(\n    x = c(1, 2, 3, NA, 5),\n    y = c(NA, 2, 3, 4, 5),\n    z = 1\n  )\n\nd\n\n\n  \n\n\n\nKomplizierter Code:\n\nd_no_const_cols &lt;- \n  d[, sapply(d, function(col) length(unique(col[!is.na(col)])) &gt; 1)]\nd_no_const_cols\n\n\n  \n\n\n\nEinfacher Code:\n\nd_no_const_cols &lt;- \n  d |&gt; select(where(~ n_distinct(.) &gt; 1))\nd_no_const_cols\n\n\n  \n\n\n\nÄhnlicher, aber nicht unbedingt einfacherer Code:\n\nnicht_alle_gleich &lt;- function(spalte){\n  n_distinct(spalte) &gt; 1\n}\n\nd |&gt; select(where(nicht_alle_gleich))\n\n\n  \n\n\n\nSehr einfacher Code:\n\nd_no_const_cols &lt;- \n  d |&gt; remove_constant()  # aus janitor\nd_no_const_cols\n\n\n  \n\n\n\nHilfe zur Funktion remove_constant erhält man mit ?remove_constant (das zugehörige Paket, janitor, muss dafür geladen sein).",
+    "text": "Schreiben Sie Ihren Code in kleine, in sich abgeschlossene Abschnitte.\nGliedern Sie Ihren Code in Funktionen.\n\nSchreiben Sie nicht “hardcoded”, sondern verwenden Sie allgemeinere, wiederverwendbare, flexible Strukturen.\nFinden Sie prägnante Namen für Ihre Objekte.\n\nKommentieren Sie Ihren Code.\nNutzen Sie (nach Möglichkeit) Quarto, um Ihren Code und Ihre Ergebnisse zu dokumentieren.\nNutzen Sie Git und GitHub, um Ihren Code zu versionieren und zu teilen.\nNutzen Sie möglichst einfach verständlichen Code; schreiben Sie in erster Linie für Menschen, und erst in zweiter Linie für Maschinen.\nNutzen Sie bewährte (R-)Pakete, um Ihre Arbeit zu erleichtern.\nNutzen Sie die Tidyverse-Pakete, soweit möglich, um Ihren Code zu schreiben.\nVerwenden Sie den Tidyverse-Styleguide.\n\n\n15.1.1 Code vereinfachen\nDatenbeispiel:\n\nd &lt;-\n  tibble(\n    x = c(1, 2, 3, NA, 5),\n    y = c(NA, 2, 3, 4, 5),\n    z = 1\n  )\n\nd\n\n\n  \n\n\n\nKomplizierter Code:\n\nd_no_const_cols &lt;- \n  d[, sapply(d, function(col) length(unique(col[!is.na(col)])) &gt; 1)]\nd_no_const_cols\n\n\n  \n\n\n\nEinfacher Code:\n\nd_no_const_cols &lt;- \n  d |&gt; select(where(~ n_distinct(.) &gt; 1))\nd_no_const_cols\n\n\n  \n\n\n\nÄhnlicher, aber nicht unbedingt einfacherer Code:\n\nnicht_alle_gleich &lt;- function(spalte){\n  n_distinct(spalte) &gt; 1\n}\n\nd |&gt; select(where(nicht_alle_gleich))\n\n\n  \n\n\n\nSehr einfacher Code:\n\nd_no_const_cols &lt;- \n  d |&gt; remove_constant()  # aus janitor\nd_no_const_cols\n\n\n  \n\n\n\nHilfe zur Funktion remove_constant erhält man mit ?remove_constant (das zugehörige Paket, janitor, muss dafür geladen sein).",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Programmieren</span>"
@@ -981,8 +981,8 @@
     "objectID": "109-Hinweise-Programmieren.html#tipps",
     "href": "109-Hinweise-Programmieren.html#tipps",
     "title": "\n15  Programmieren\n",
-    "section": "\n15.2 Tipps",
-    "text": "15.2 Tipps\n\nWiederholen Sie die Grundlagen des Datenjudos.\nProgrammieraufgaben sind angewandt; theoretische Konzepte stehen nicht im Vordergrund. Stattdessen geht es darum, praktische Probleme zu lösen. In solchen Situationen geht Probieren (oft) über Studieren.\nHäufig ist es nützlich, nicht sofort loszuschreiben, sondern sich in Ruhe einen Plan für die Lösung zu machen. Zwei Minuten Nachdenken ersetzt oft zwanzig Minuten Programmieren.\nWenn Sie nicht weiterkommen, suchen Sie Hilfe. Das kann ein Kommilitone, ein Buch, ein Online-Tutorial oder ein Chatbot sein.\nEin bekanntest und gutes Buch für guten Programmierstil haben Thomas und Hunt (2020) geschrieben.\n\n\n\n\n\nThomas, David, und Andrew Hunt. 2020. The Pragmatic Programmer: Your Journey to Mastery. Second edition, 20th anniversary edtion. Boston: Addison-Wesley.",
+    "section": "\n15.3 Tipps",
+    "text": "15.3 Tipps\n\nWiederholen Sie die Grundlagen des Datenjudos.\nProgrammieraufgaben sind angewandt; theoretische Konzepte stehen nicht im Vordergrund. Stattdessen geht es darum, praktische Probleme zu lösen. In solchen Situationen geht Probieren (oft) über Studieren.\nHäufig ist es nützlich, nicht sofort loszuschreiben, sondern sich in Ruhe einen Plan für die Lösung zu machen. Zwei Minuten Nachdenken ersetzt oft zwanzig Minuten Programmieren.\nWenn Sie nicht weiterkommen, suchen Sie Hilfe. Das kann ein Kommilitone, ein Buch, ein Online-Tutorial oder ein Chatbot sein.\nEin bekanntest und gutes Buch für guten Programmierstil haben Thomas und Hunt (2020) geschrieben.",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Programmieren</span>"
@@ -1800,6 +1800,28 @@
     "crumbs": [
       "Rechtliches",
       "<span class='chapter-number'>27</span>  <span class='chapter-title'>Datenschutzhinweise</span>"
+    ]
+  },
+  {
+    "objectID": "109-Hinweise-Programmieren.html#pipelines-mit-targets",
+    "href": "109-Hinweise-Programmieren.html#pipelines-mit-targets",
+    "title": "\n15  Programmieren\n",
+    "section": "\n15.2 Pipelines mit Targets",
+    "text": "15.2 Pipelines mit Targets\n\n15.2.1 Einführung\nEine Analyse mit vielen Schritten kann leicht unübersichtlich werden. Ein anderes Problem ist, dass man viele Objekte erzeugt, als Ergebnisse der Zwischenschritte. Ändert man einen Zwischenschritt, so ändert sich der Input für alle darauf folgende Analyseschritte. Man muss also nachfolgenden Objekte neu berechnen. Gefährlich wäre, würde man vergessen, diese Objekte neu zu berechnen: Man würde mit einem “veralteten” also falschen Objekt weiterarbeiten, was zwangsläufig zu falschen Ergebnissen führten würde.\nWäre es nicht schön, wenn es ein Tool gäbe, das für Sie den Überblick behält und dafür sorgt, dass die veralteten Objekte (und nur die) bei Bedarf neu berechnet werden?\nSolche Tools gibt es. Wir schauen uns dazu das Tool targets an.\nHier ist ein erstes Beispiel, und hier ist eine weitere Einführung in Targets.\nDiese Präsentation führt in Targets ein mit einer Data-Science-Anwendung.\n\n15.2.2 Richtlinien\nWenn Sie eine Analyse mit Targets durchführen, sollten Sie folgende Richtlinien beachten:\n\nSchreiben Sie Ihre Targets-Pipeline in einer separaten Datei.\nIn einer Targets-Pipeline-Datei sollte nur die Pipeline stehen (inkl. Vorbereitung wie Pakete bereitstellen etc.).\nEine Targets-Pipeline-Datei ist ein reines R-Skript.\nWenn Sie Funktionen schreiben, die Sie in der Pipeline verwenden, schreiben Sie diese in einer separaten Skript-Datei (oder pro Funktion eine eigene Skript-Datei).\nReichen Sie alle Dateien, also auch die Funktionen-Skripte, ein.",
+    "crumbs": [
+      "Prüfungen",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Programmieren</span>"
+    ]
+  },
+  {
+    "objectID": "109-Hinweise-Programmieren.html#literatur",
+    "href": "109-Hinweise-Programmieren.html#literatur",
+    "title": "\n15  Programmieren\n",
+    "section": "\n15.4 Literatur",
+    "text": "15.4 Literatur\n\n\n\n\nThomas, David, und Andrew Hunt. 2020. The Pragmatic Programmer: Your Journey to Mastery. Second edition, 20th anniversary edtion. Boston: Addison-Wesley.",
+    "crumbs": [
+      "Prüfungen",
+      "<span class='chapter-number'>15</span>  <span class='chapter-title'>Programmieren</span>"
     ]
   }
 ]

@@ -9,13 +9,13 @@
 
 - Schreiben Sie Ihren Code in kleine, *in sich abgeschlossene Abschnitte*.
 - Gliedern Sie Ihren Code in *Funktionen.*
-- Schreiben Sie *nicht "hardcoded"*, sondern verwenden Sie allgemeinere, wiederverndbare, flexible Strukturen.
+- Schreiben Sie *nicht "hardcoded"*, sondern verwenden Sie allgemeinere, wiederverwendbare, flexible Strukturen.
 - Finden Sie *prägnante Namen* für Ihre Objekte.
 - *Kommentieren* Sie Ihren Code.
-- Nutzen Sie RMarkdown und/oder *Quarto*, um Ihren Code und Ihre Ergebnisse zu dokumentieren.
+- Nutzen Sie (nach Möglichkeit) *Quarto*, um Ihren Code und Ihre Ergebnisse zu dokumentieren.
 - Nutzen Sie *Git* und GitHub, um Ihren Code zu versionieren und zu teilen.
 - Nutzen Sie möglichst *einfach verständlichen Code*; schreiben Sie in erster Linie für Menschen, und erst in zweiter Linie für Maschinen.
-- Nutzen Sie *bewährte R-Pakete*, um Ihre Arbeit zu erleichtern.
+- Nutzen Sie *bewährte (R-)Pakete*, um Ihre Arbeit zu erleichtern.
 - Nutzen Sie die [*Tidyverse-Pakete*](https://www.tidyverse.org/), soweit möglich, um Ihren Code zu schreiben.
 - Verwenden Sie den *[Tidyverse-Styleguide](https://style.tidyverse.org/)*.
 
@@ -26,6 +26,7 @@
 
 
 ```{r}
+#| include: false
 library(tidyverse)
 library(janitor)
 data("penguins", package = "palmerpenguins")
@@ -86,6 +87,38 @@ Hilfe zur Funktion `remove_constant` erhält man mit `?remove_constant` (das zug
 :::
 
 
+## Pipelines mit Targets
+
+### Einführung
+
+Eine Analyse mit vielen Schritten kann leicht unübersichtlich werden.
+Ein anderes Problem ist, dass man viele Objekte erzeugt, als Ergebnisse der Zwischenschritte.
+Ändert man einen Zwischenschritt, so ändert sich der Input für alle darauf folgende 
+Analyseschritte. Man muss also nachfolgenden Objekte neu berechnen.
+Gefährlich wäre, würde man vergessen, diese Objekte neu zu berechnen:
+Man würde mit einem "veralteten" also falschen Objekt weiterarbeiten,
+was zwangsläufig zu falschen Ergebnissen führten würde.
+
+Wäre es nicht schön, wenn es ein Tool gäbe, das für Sie den Überblick behält und
+dafür sorgt, dass die veralteten Objekte (und nur die) bei Bedarf neu berechnet werden?
+
+Solche Tools gibt es. Wir schauen uns dazu das Tool [targets](https://books.ropensci.org/targets/) an.
+
+[Hier ist ein erstes Beispiel](https://books.ropensci.org/targets/walkthrough.html), und [hier](https://carpentries-incubator.github.io/targets-workshop/aio.html) ist eine weitere Einführung in Targets.
+
+Diese [Präsentation](https://wlandau.github.io/targets-tutorial/#1) führt in Targets ein mit einer Data-Science-Anwendung.
+
+
+### Richtlinien
+
+Wenn Sie eine Analyse mit Targets durchführen, sollten Sie folgende Richtlinien beachten:
+
+- Schreiben Sie Ihre Targets-Pipeline in einer separaten Datei.
+- In einer Targets-Pipeline-Datei sollte nur die Pipeline stehen (inkl. Vorbereitung wie Pakete bereitstellen etc.).
+- Eine Targets-Pipeline-Datei ist ein reines R-Skript.
+- Wenn Sie Funktionen schreiben, die Sie in der Pipeline verwenden, schreiben Sie diese in einer separaten Skript-Datei (oder pro Funktion eine eigene Skript-Datei).
+- Reichen Sie alle Dateien, also auch die Funktionen-Skripte, ein.
+
 
 
 
@@ -99,6 +132,10 @@ Hilfe zur Funktion `remove_constant` erhält man mit `?remove_constant` (das zug
 - Ein bekanntest und gutes Buch für guten Programmierstil haben @thomas2020 geschrieben.
 
 
+
+
+
+## Literatur
 
 
 
