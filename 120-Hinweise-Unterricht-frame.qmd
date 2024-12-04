@@ -36,8 +36,8 @@
 - Es kann sinnvoll sein, sich während der Vorlesung *Notizen* zu den Erläuterungen des Dozenten zu machen.
 - Beachten Sie die Hinweise der Hochschule (s. Moodle) wie die Orientierungshilfe, die Klausur- und *Studiengangsordnungen*. Dort finden Sie verbindliche Hinweise zu vielen organisatorischen Fragen.
 - Es können sich *Aktualisierungen* des Unterrichtsmaterials ergeben. Bitte prüfen Sie regelmäßig, ob neues Material eingestellt ist. Nachdem der Unterricht stattgefunden hat, wird das Material aber nicht mehr geändert, so dass Sie Sicherheit für das Lernen haben.
-- Bitte beachten Sie, dass die meisten Module nur ein Mal pro Jahr angeboten werden (also entweder im Sommer- oder im Wintersemester, aber nicht beides. Eine Ausnahme ist das Bachelormodul, das jedes Semester angeboten wird).
-
+- Bitte beachten Sie, dass die *meisten Module nur ein Mal pro Jahr angeboten* werden (also entweder im Sommer- oder im Wintersemester, aber nicht beides. Eine Ausnahme ist das Bachelormodul, das jedes Semester angeboten wird).
+- Wenn Sie *krank* oder verhindert sind und daher *nicht am Unterricht teilnehmen* können, sind Sie *selber verantwortlich, den Stoff nachzuholen*. Nutzen Sie die eingestellten Lehrmaterialien und fragen Sie Kommilitonis um Hilfe. Der Dozent stellt Lehrmaterialien so zur Verfügung, dass auch ein komplettes Selbststudium möglich ist.
 
 ## Präsenzunterricht
 
@@ -96,12 +96,12 @@
 
 
 
-## Ich brauche Hilfe. Was soll ich tun?
+## Ich check den Stoff nicht. Was soll ich tun?
 
 - Versuchen Sie erst selber, das Problem zu lösen. Manchmal hilft etwas *Abstand* (Pause, drüber schlafen), um ein Problem klarer zu sehen (oder es als nicht mehr so wichtig zu sehen).
 - Fragen Sie *Kommilitonis.*
 - *Recherchen* Sie (online) nach einer Lösung.
-- *Posten* Sie das Problem im Forum oder einem Online-Forum. Wichtig: Stellen Sie Ihrem Post ein [Erbie](https://data-se.netlify.app/2022/01/31/erbie-einfache-reproduzierbare-beispiele-ihres-problems-mit-r-syntax/) bei.
+- *Posten* Sie das Problem im Forum oder einem Online-Forum. Bei Problemen mit R: Stellen Sie Ihrem Post ein [Erbie](https://data-se.netlify.app/2022/01/31/erbie-einfache-reproduzierbare-beispiele-ihres-problems-mit-r-syntax/) bei.
 - Besuchen Sie die *Sprechstunde* des Dozenten.
 - Schreiben Sie möglichst keine Email, sondern posten Sie Ihre Frage im *Forum* o.Ä., da die meisten Fragen für Ihre Kommilitonis auch nützlich sein können (eine Ausnahme sind natürlich individuelle, persönliche Angelegenheiten, die nicht den Stoff betreffen).
 
@@ -126,12 +126,13 @@
 - Prüfen Sie regelmäßig, ob Ihr Zoom-Client aktuell ist (sonst updaten).
 - Aus Gründen der Sicherheit der Teilnehmis kann der Dozent anonyme Teilnahme an Videokonferenzen untersagen.
 - Der Chat sollte nur für Themen des Unterrichts verwendet werden (nicht für private Themen).
-- Aus Sicherheitsgründen kann eine Zoom-Konferenz auf Ihre "offizielle" E-Mail-Adresse (der Hochschule) begrenzt sein. Mit einer anderen, potenziell anonymen E-Mail-Adresse, können Sie also u.U. nicht teilnehmen.
+- Aus Sicherheitsgründen kann eine Zoom-Konferenz auf Ihre "offizielle" E-Mail-Adresse (der Hochschule) begrenzt sein. Mit einer anderen, potenziell anonymen E-Mail-Adresse, können Sie also u.U. nicht teilnehmen. Anders gesagt: Die Identität aller Teilnehmerinnen und Teilnehmer ist offengelegt.
+
 
 
 ### Streaming
 
-In einigen Kursen wird Präsenzunterricht plus Streaming angeboten.
+In einigen Kursen wird *Präsenzunterricht plus Streaming* angeboten.
 In diesem Fall gelten folgende Hinweise:
 
 - Melden Sie sich zu Beginn der Stunde, wenn Sie merken, dass der Ton schwer zu verstehen ist (z.B. über das Mikro).

@@ -60,7 +60,7 @@ d_no_const_cols <-
 d_no_const_cols
 ```
 
-Ähnlicher, aber nicht unbedingt einfacherer Code:
+Ähnlicher, aber nicht unbedingt einfacherer Cogixode:
 
 
 ```{r}
