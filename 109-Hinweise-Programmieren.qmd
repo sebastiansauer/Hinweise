@@ -2,6 +2,16 @@
 
 
 
+## Formalia
+
+- Fügen Sie Ihren Namen in eingereichte Dateiname ein, z.B. `ratlos_rudi_thema_xyz.R`.
+- Fügen Sie Ihren Namen zu Beginn Ihrer eingereichten Code-Datei ein (ganz oben, zu Beginn der Datei).
+- - *Prüfen Sie* zu Beginn der (ersten) Prüfungsaufgabe, ob Sie auf alle *Prüfungsmaterialien zugreifen* können und diese einlesen können. Melden Sie sich bei Problemen sofort beim Prüfer.
+
+
+
+
+
 
 
 ## Schöner Programmieren
