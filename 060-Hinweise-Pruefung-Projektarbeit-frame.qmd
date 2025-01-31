@@ -391,6 +391,9 @@ Besser ist es noch, wenn Sie die Materialien auf einen geeigneten Server (z.B. <
 Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bewertet werden.
 
 
+
+
+
 ## Tipps
 
 Die Bayes-Methode ist gegenüber frequentistischen Ansätzen zu bevorzugen.

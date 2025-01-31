@@ -13,21 +13,20 @@ library(tidyverse)
 
 ## Allgemeine Hinweise
 
+1. Tragen Sie zu Beginn der Prüfung Ihren *Namen* und Ihre *Matrikelnummer* auf Ihre entsprechenden Bögen ein.
 1. Verwenden Sie *Standardwerte* (defaults) der R-Funktionen, soweit nicht anders in der jeweiligen Aufgabe verlangt.
 2. Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die *am besten passende*.
 2.  *Treffen Sie Annahmen*, (nur) wo nötig. 
 2.  Die Prüfung besteht auch aus *Single-  bzw. Multiple-Choice*- (MC)-Aufgaben mit mehreren Antwortoptionen.
-2.  Bei Multiple-Choice-Aufgaben (MC-Aufgaben) ist zumeist genau *eine* Antwortoption auszuwählen aus vier oder fünf Antwortoptionen.
-2.  Im Zweifel ist eine Aussage auf den Stoff, so wie im *Unterricht* behandelt, zu beziehen.
-2.  Jede Aussage einer MC-Aufgabe ist *entweder richtig oder falsch* (aber nicht beides oder keines).
-2.  Die MC-Aufgaben sind *nur mit Kreuzen* zu beantworten; Text wird bei der Korrektur nicht berücksichtigt.
-2.  Jede Aussage gilt *ceteris paribus* (unter sonst gleichen Umständen). Aussagen der Art „A ist B“ (z.B. "Menschen sind sterblich") sind *nur* dann als richtig auszuwählen, wenn die Aussage *immer* richtig ist.
+
 2.  Falls Sie bei einer Aufgabe *mehrere Antworten* finden, aber nur nach einer gefragt ist, geben Sie nur eine an. 
 2.  Falls mehrere (widersprüchliche) Antworten gegeben wurden, wird im Zweifel die *erst genannte* gewertet.
 2.  Die Aufgabenstellung in einer Moodle-Prüfung wird u.U. erst sichtbar, wenn Sie den *Prüfungsbedingungen* zugestimmt haben und die Prüfungszeit begonnen hat.
 3. Durch Ihre Teilnahme an der Prüfung bestätigen Sie, dass Sie die *Hinweise zur Kenntnis genommen* haben.
 2.  Bei Fragen zu R-Syntax spielen Aspekte wie Enter-Taste o.Ä. bei der Beantwortung der Frage keine Rolle; diese Aspekte dürfen zu ignorieren.
+12. Runden Sie auf *zwei Dezimalstellen*, soweit nicht anders angegeben.
 10. Wie auch bei den übrigen Hinweisen gelten diese Maßgaben nur soweit  nicht *explizit andere Hinweise* gegeben wurden.
+
 
 
 ## Aufgaben zur Datenanalyse
@@ -43,6 +42,52 @@ library(tidyverse)
 2.  Achten Sie darauf, R und R-Pakete sowie R-Studio *in aktueller Version* zu verwenden. Das Verwenden älterer Versionen kann (in seltenen Fällen) zu abweichenden Lösungen führen. Im Zweifel beziehen sich alle Aufgaben auf die jeweils aktuellste Version der verwendeten Software.
 2.  Wenn Sie *Text eingeben* sollen: Geben Sie *nur Kleinbuchstaben ein*. Geben Sie nur ein einziges Wort ein. Geben Sie keine Leerzeichen ein.
 
+
+## Besonderheiten von Klausuren im Antwort-Wahl-Verfahren
+
+1.  Bei Multiple-Choice-Aufgaben (MC-Aufgaben bzw. Antwort-Wahl-Verfahren) ist zumeist genau *eine* Antwortoption auszuwählen aus mehreren (meist vier oder fünf) Antwortoptionen.
+2.  Im Zweifel ist eine Aussage auf den Stoff, so wie im *Unterricht* behandelt, zu beziehen.
+2.  Jede Aussage einer MC-Aufgabe ist *entweder richtig oder falsch* (aber nicht beides oder keines).
+2.  Die MC-Aufgaben sind *nur mit Kreuzen* zu beantworten; Text wird bei der Korrektur nicht berücksichtigt.
+2.  Jede Aussage gilt *ceteris paribus* (unter sonst gleichen Umständen). Aussagen der Art „A ist B“ (z.B. "Menschen sind sterblich") sind *nur* dann als richtig auszuwählen, wenn die Aussage *immer* richtig ist.
+3. In der Prüfungsordnung der HS Ansbach ist geregelt, dass *50%* der maximal erreichbaren Punkt benötigt sind zum *Bestehen* (*absolute Bestehensgrenze* s. § 8c APO HS Ansbach); es sei denn, die relative Bestehensgrenze kommt zum Zug.
+4. *Relative Bestehensgrenze* (§ 8c APO Abs 2, Punkt 2): 
+
+>    2. der Prüfling insgesamt mindestens 40 Prozent der maximal erreichbaren Punktzahl erreicht hat und die
+Zahl der vom Prüfling jeweils erreichten Punktzahl um nicht mehr als 15 Prozent (relative Bestehensgrenze)
+die durchschnittlich erreichte Punktzahl der Prüflinge unterschreitet, die erstmals an der entsprechenden
+Prüfung teilgenommen haben. Die relative Bestehensgrenze des Satz 1 Ziff. 2 kommt nur dann zur Anwendung, wenn mindestens 40 Prüflinge zum ersten Mal an der Prüfung teilgenommen haben.
+
+
+@fig-deckblatt zeigt ein Musterdeckblatt einer Klausur.
+
+![Ein Musterdeckblatt einer Klausur](img/QM2-Pruefung-Deckblatt-2024-WiSe.png){#fig-deckblatt width=75%}
+
+
+@fig-antwortbogen zeigt ein Muster eines Antwortbogens.
+
+![Ein Musterantwortbogen einer Klausur](img/QM2-Klausur-MUSTER-Antwortbogen-2024-WiSe.png){#fig-antwortbogen width=75%}
+
+
+:::{.callout-important}
+Tragen Sie zu Beginn der Klausur Ihren Namen und Ihre Matrikelnummer auf dem Antwortbogen (und/oder weiteren Teilen der Klausur) ein. $\square$
+:::
+
+
+
+## Ablauf einer Prüfung
+
+1. Vor dem Prüfungsraum ist u.U. ein Sitzplan ausgehängt. Bitte setzen Sie sich ggf. auf den Ihnen zugewiesenen Platz.
+2. Halten Sie Ihren (gültigen) Studentenausweis bereit.
+3. Drehen Sie die Bögen der Prüfung erst auf Kommando um.
+4. Während der Prüfung werden keine inhaltlichen Fragen beantwortet. Etwaige Unklarheiten oder Fehler in den Aufgaben werden bei der Korrektur geprüft. Informieren Sie den Prüfer oder die Prüferin nach der Prüfung entsprechend.
+5. Auf dem Tisch bei jedem Prüfling dürfen kein Taschen, Mäppchen oder Ähnliches liegen.
+6. Beachten Sie die ausgewiesenen Hilfsmittel.
+7. Kopfbedeckungen sind nicht zulässig.
+8. Prüfungsunfähigkeit ist frühzeitig, ggf. zu Beginn der Prüfung, anzuzeigen (und im Nachgang mit einem entsprechenden Attest zu belegen).
+9. Toilettengänge sind nur einzeln erlaubt.
+10. Denken Sie daran, Ihren Namen und Ihre Matrikelnummer auf den Prüfungsbogen einzutragen.
+11. Bleiben Sie sitzen, falls Sie fertig sind, solange bis die Prüfungszeit vorbei ist.
 
 
 
@@ -74,7 +119,7 @@ library(tidyverse)
 
 
 
-## Verwendete Datensätze
+## Datensätze in der Prüfung
 
 
 
