@@ -135,11 +135,11 @@ Wenn Sie eine Analyse mit Targets durchführen, sollten Sie folgende Richtlinien
 ## Tipps
 
 
-- Wiederholen Sie die Grundlagen des Datenjudos.
-- Programmieraufgaben sind angewandt; theoretische Konzepte stehen nicht im Vordergrund. Stattdessen geht es darum, praktische Probleme zu lösen. In solchen Situationen geht Probieren (oft) über Studieren.
-- Häufig ist es nützlich, nicht sofort loszuschreiben, sondern sich in Ruhe einen Plan für die Lösung zu machen. Zwei Minuten Nachdenken ersetzt oft zwanzig Minuten Programmieren.
-- Wenn Sie nicht weiterkommen, suchen Sie Hilfe. Das kann ein Kommilitone, ein Buch, ein Online-Tutorial oder ein Chatbot sein.
-- Ein bekanntest und gutes Buch für guten Programmierstil haben @thomas2020 geschrieben.
+- Wiederholen Sie die Grundlagen des *Datenjudos.*
+- Programmieraufgaben sind angewandt; theoretische Konzepte stehen nicht im Vordergrund. Stattdessen geht es darum, praktische Probleme zu lösen. In solchen Situationen *geht Probieren (oft) über Studieren*.
+- Häufig ist es nützlich, nicht sofort loszuschreiben, sondern sich in Ruhe einen *Plan* für die Lösung zu machen. Zwei Minuten Nachdenken ersetzt oft zwanzig Minuten Programmieren.
+- Wenn Sie nicht weiterkommen, *suchen Sie Hilfe*. Das kann ein Kommilitone, ein Buch, ein Online-Tutorial oder ein Chatbot sein.
+- Ein bekanntes und gutes Buch für guten Programmierstil haben @thomas2020 geschrieben.
 
 
 

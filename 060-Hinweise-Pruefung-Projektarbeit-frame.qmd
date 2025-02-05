@@ -35,7 +35,7 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 ### Anfordungen zum Textdokument
 
 
-1. Die aufgeführten Wortzahlen gelten mit einem Toleranzbereich von plus/minus 10%. 
+1. Der aufgeführte Umfang an die *Wortmenge* des Text gilt mit einem Toleranzbereich von plus/minus 10%. 
 
 2. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Diagramm als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit auf der Titelseite oder im Anhang an. 
 
@@ -43,6 +43,8 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 
 
 3. Die Arbeit kann in *deutscher* oder *englischer* Sprache eingereicht werden.
+
+4. *Zitieren* Sie nach *APA* bzw. *DGPs* (in jeweils neuester Auflage).
 
 4. *Übrige Gestaltungsaspekte*, die nicht im bereitgestellten Leitfaden aufgeführt sind, sind nach den Vorgaben der *DGPS* (deutsch) oder *APA* (englisch) (jeweils in neuester Version) anzulegen.
 
@@ -53,7 +55,11 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 
 7. Sie können die Arbeit entweder in einem *paginierten* Format schreiben (z.B. Word-Dokument) oder in einem *nicht-paginierten* Format (z.B. HTML-Dokument mit Quarto).
 
-8. Der *Anhang* dient zur Dokumentation von Details, die nicht wichtig genug sind für den knappen Platz des Berichts, aber dennoch zu wichtig sind, um weggelassen zu werden. Nummerieren Sie die Teile des Anhangs. Typische Inhalte des Anhangs sind: Messinstrumente, Analyse-Code, Daten, Stimuli, weiterführende Ergebnisse, Daten-Codebook, Interview-Transkriptionen.
+8. Der *Anhang* dient zur Dokumentation von Details, die nicht wichtig genug sind für den knappen Platz des Berichts, aber dennoch zu wichtig sind, um weggelassen zu werden. Nummerieren Sie die Teile des Anhangs. Typische Inhalte des Anhangs sind: Messinstrumente, Analyse-Code, Daten, Stimuli, weiterführende Ergebnisse, Daten-Codebook, Interview-Transkriptionen. Der Anhang muss nicht ausgedruckt abgegeben werden, es reicht, wenn der Anhang elektronisch eingereicht wird. Es ist zulässig, Dateien als Anhang einzureichen, ohne dass deren Inhalte auf Seiten dargestellt sind. Das ist vor allem sinnvoll bei Tabellen oder Computercode.
+
+9. Weitere Hinweise zur Textformatierung finden Sie z.B. [im Kursbuch zum Forschungsprojekt](https://fopro.netlify.app/030-schreiben#formatierung).
+
+
 
 
 ### Formalia
