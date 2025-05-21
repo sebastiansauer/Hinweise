@@ -8,3 +8,9 @@ Alle folgenden Hinweise gelten nur insoweit Ihre Lehrkraft Ihnen keine anders la
 
 ![Prüfung erfolgreich bestanden. Generiert von Microsoft Bing AI, 2023-10-22](img/thesis-artwork.png){width=50% fig-align="center"}
 
+
+
+:::{.callout-tip}
+Nutzen Sie die Suchfunktion dieser Webseite (s. linke Seite: Suchschlitz mit Lupe), 
+um bestimmten Themen zu suchen. $\square$
+:::

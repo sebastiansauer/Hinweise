@@ -269,21 +269,15 @@ Das Gutachten kann mit Hilfe von [Textbausteinen wie aus dieser Sammlung](https:
 ## Mengengerüst {#sec-mengengeruest}
 
 
+Der Anspruch an den Umfang einer *gute* Arbeit (Anzahl an Seiten etc.) ist wie folgt zu fassen (die Angaben *beziehen sich auf Einzelarbeiten*; bei *Gruppenarbeiten*  ist der *Faktor 2* an das Mengengerüst für die Stichprobengröße  anzulegen), s. @tbl-menge.
 
-
-Der Anspruch an eine *gute* Arbeit ist wie folgt zu fassen (die Angaben *beziehen sich auf Einzelarbeiten*; bei *Gruppenarbeiten*  ist der *Faktor 2* an das Mengengerüst für die Stichprobengröße  anzulegen):
-
-Es sollten überwiegende *Literatur hoher Qualität* (Fachartikel, peer-reviewed) verwendet werden.
-
-
-
-Aufgrund der hohen individuellen Unterschiede von Forschungsfragen können nur ein *grober Rahmen* aufgezeigt werden.
-
-
+Aufgrund der hohen individuellen Unterschiede von Forschungsfragen kann hier nur ein *grober Rahmen* aufgezeigt werden.
 
 
 ```{r mengengeruest}
 #| echo: false
+#| tbl-cap: "Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, ...)"
+#| label: tbl-menge
 
 d <- readxl::read_xlsx("mengengeruest.xlsx")
 
@@ -296,6 +290,12 @@ gt::gt(d)
 
 
 Grundsätzlich gilt hier: Mehr ist besser :-)
+
+
+
+Dabei sollten überwiegend *Literatur hoher Qualität* (Fachartikel, peer-reviewed) zitiert werden.
+
+
 
 
 
