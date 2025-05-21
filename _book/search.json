@@ -784,7 +784,7 @@
     "href": "100-Hinweise-Pruefung-Thesis-frame.html",
     "title": "12  Besonderheiten von Abschlussarbeiten",
     "section": "",
-    "text": "12.1 Willkommen\nBitte beachten Sie auch die übrigen Hinweise, insbesondere die Hinweise zu den schriftlichen Prüfungen sowie die allgemeinen Prüfungshinweise.\nLiebe Studentin, lieber Student,\nSie überlegen, Ihre Abschlussarbeit bei Professor Sauer zu schreiben. Gut! Damit bekommen Sie einen erfahrenen Gutachter und Forscher an Ihre Seite gestellt. Wie in jeder Zusammenarbeit gibt es gewisse Erwartungen für einen erfolgreichen Abschluss. Es ist in Ihrem Sinne, die Erwartungen Ihres Prüfers gut zu kennen, damit Sie prüfen können, ob die skizzierten Rahmenbedingungen für Sie passen. Außerdem können Sie Ihre Forschungsarbeit entsprechend ausrichten. Je klarer die Erwartungen, desto unwahrscheinlicher ist es, dass im Nachgang jemand (z.B. Ihr Prüfer) sagt, er habe das ganz anders gewollt.\nBitte bedenken Sie, dass die hier formulierten Erwartungen an Sie nicht zum Komfort Ihres Prüfers erstellt sind. Es geht darum, typische Fehler zu vermeiden und einen reibungslosen Ablauf der Begutachtung sicherzustellen. Gleichzeitig soll ein solides Qualitätsniveau - anspruchsvoll, aber gut machbar - sichergestellt werden. Lesen Sie sich bitte die Hinweise sorgfältig durch. Wenn Sie sich bei mir für Ihre Abschlussarbeit anmelden, gehe ich davon aus, dass Sie diese Hinweise gelesen haben und einverstanden sind.",
+    "text": "12.1 Willkommen\nLiebe Studentin, lieber Student,\nSie überlegen, Ihre Abschlussarbeit bei Professor Sauer zu schreiben. Gut! Damit bekommen Sie einen erfahrenen Gutachter und Forscher an Ihre Seite gestellt. Wie in jeder Zusammenarbeit gibt es gewisse Erwartungen für einen erfolgreichen Abschluss. Es ist in Ihrem Sinne, die Erwartungen Ihres Prüfers gut zu kennen, damit Sie prüfen können, ob die skizzierten Rahmenbedingungen für Sie passen. Außerdem können Sie Ihre Forschungsarbeit entsprechend ausrichten. Je klarer die Erwartungen, desto unwahrscheinlicher ist es, dass im Nachgang jemand (z.B. Ihr Prüfer) sagt, er habe das ganz anders gewollt.\nBitte bedenken Sie, dass die hier formulierten Erwartungen an Sie nicht zum Komfort Ihres Prüfers erstellt sind. Es geht darum, typische Fehler zu vermeiden und einen reibungslosen Ablauf der Begutachtung sicherzustellen. Gleichzeitig soll ein solides Qualitätsniveau - anspruchsvoll, aber gut machbar - sichergestellt werden. Lesen Sie sich bitte die Hinweise sorgfältig durch. Wenn Sie sich bei mir für Ihre Abschlussarbeit anmelden, gehe ich davon aus, dass Sie diese Hinweise gelesen haben und einverstanden sind.",
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>12</span>  <span class='chapter-title'>Besonderheiten von Abschlussarbeiten</span>"
@@ -1888,6 +1888,17 @@
     "crumbs": [
       "Prüfungen",
       "<span class='chapter-number'>15</span>  <span class='chapter-title'>Programmieren</span>"
+    ]
+  },
+  {
+    "objectID": "060-Hinweise-Pruefung-Projektarbeit-frame.html#sec-mengengeruest",
+    "href": "060-Hinweise-Pruefung-Projektarbeit-frame.html#sec-mengengeruest",
+    "title": "8  Schriftliche Prüfungen",
+    "section": "\n8.3 Mengengerüst",
+    "text": "8.3 Mengengerüst\nDer Anspruch an eine gute Arbeit ist wie folgt zu fassen (die Angaben beziehen sich auf Einzelarbeiten; bei Gruppenarbeiten ist der Faktor 2 an das Mengengerüst für die Stichprobengröße anzulegen):\nEs sollten überwiegende Literatur hoher Qualität (Fachartikel, peer-reviewed) verwendet werden.\nAufgrund der hohen individuellen Unterschiede von Forschungsfragen können nur ein grober Rahmen aufgezeigt werden.\n\n\n\n\n\n\nAnforderung\nProjektarbeit\nAbschlussarbeit (Bachelor)\n\n\n\nQuellenzahl (empirische Arbeit)\n15-20\n40-50\n\n\nQuellenzahl (theoretische Arbeit)\n30-40\n80-100\n\n\nWortzahl (Einzelarbeit)\n4000\n10000-12000\n\n\nWortzahl (Gruppenarbeit mit 2 Personen)\n6000\n18000\n\n\nWortzahl (Gruppenarbeit mit 3 Personen)\n7000\n21000\n\n\nWortzahl (Gruppenarbeit mit 4 oder mehr Personen)\n8000\n24000\n\n\nStichprobengröße (Experimente/Between)\n20-30\n20-30 pro Gruppe\n\n\nStichprobengröße (Experimente/Within)\n15-20\n30 pro Faktor\n\n\nStichprobengröße (beobachtend)\n50\n150-200\n\n\nDesignumfang (experimentell)\n2-3 Variablen\nNA\n\n\nDesignumfang (beobachtend)\n3-4 Variablen\nNA\n\n\nInterviewzahl\n3-4\n8-10\n\n\nInterviewdauer (jeweils)\n30 Min.\n30 Min.\n\n\nBerücksichtigte Quellen für die Feinanalyse eines systematischen Reviews\n40-50\n80-100\n\n\n\n\n\n\nGrundsätzlich gilt hier: Mehr ist besser :-)",
+    "crumbs": [
+      "Prüfungen",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Schriftliche Prüfungen</span>"
     ]
   }
 ]

@@ -1,8 +1,12 @@
 # Besonderheiten von Abschlussarbeiten {#sec-abschlussarbeiten}
 
 
-Bitte beachten Sie auch die übrigen Hinweise, insbesondere die Hinweise zu den [schriftlichen Prüfungen](@sec-schriftliche-pruefungen) sowie die [allgemeinen Prüfungshinweise](@sec-allgemeine-pruefungshinweise).
-
+:::{.callout-note}
+Bitte beachten Sie auch die übrigen Hinweise, insbesondere die Hinweise zu den [schriftlichen Prüfungen](@sec-schriftliche-pruefungen) sowie die [allgemeinen Prüfungshinweise](@sec-allgemeine-pruefungshinweise). 
+In @sec-schriftliche-pruefungen finden Sie eine Vielzahl von Hinweisen, 
+die auch für Abschlussarbeiten gelten, z.B. zur Seitenanzahl ("Mengengerüst"), 
+s. @sec-mengengeruest. $\square$
+:::
 
 
 
