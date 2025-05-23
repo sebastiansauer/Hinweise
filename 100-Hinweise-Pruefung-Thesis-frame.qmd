@@ -1,4 +1,7 @@
-# Besonderheiten von Abschlussarbeiten {#sec-abschlussarbeiten}
+# Besonderheiten von Qualifizierungsarbeiten {#sec-abschlussarbeiten}
+
+
+Qualifizierungsarbeiten: Bachelorthesis, Masterthesis, Doktorarbeit
 
 
 :::{.callout-note}
@@ -19,8 +22,8 @@ s. @sec-mengengeruest. $\square$
 Liebe Studentin, lieber Student,
 
 
-Sie überlegen, Ihre Abschlussarbeit bei Professor Sauer zu schreiben. Gut! 
-Damit bekommen Sie einen erfahrenen Gutachter und Forscher an Ihre Seite gestellt. 
+Sie überlegen, Ihre Qualifizierungsarbeit (Bachelor-, Master-, Doktorarbeit) bei Professor Sauer zu schreiben. 
+Gut! Damit bekommen Sie einen erfahrenen Gutachter und Forscher an Ihre Seite gestellt. 
 Wie in jeder Zusammenarbeit gibt es gewisse Erwartungen für einen erfolgreichen Abschluss. 
 Es ist in Ihrem Sinne, die Erwartungen Ihres Prüfers gut zu kennen, damit Sie prüfen können, 
 ob die skizzierten Rahmenbedingungen für Sie passen. 
@@ -158,7 +161,7 @@ Wenn Sie angemeldet sind, tickt die Uhr. Außerdem können Sie Ihren Titel nicht
 
 ## Fristen
 
-Bitte beachten Sie, dass es für die Anmeldung und Bearbeitung Ihrer Abschlussarbeit definierte Fristen gibt.
+Bitte beachten Sie, dass es für die Anmeldung und Bearbeitung Ihrer Bachelor- und Masterarbeit definierte Fristen gibt.
 
 1. Wahl des Themas: Die *Wahl des Themas* beginnt mit Beginn des 6. Fachsemesters (SoSe: 15. März, WiSe: 1. Oktober).^[es kann aber auch ein anderes FS sein, z.B. das 7. Fachsemester sein]
 2. *Themenvergabe*: Themen (und damit eine verbindliche Zusage meinerseits) vergebe ich bis spätestens Mitte des 6. Fachsemesters (SoSe: 15. Mai, WiSe: 15. November). Nach diesem Termin ist eine Anmeldung (bei mir) erst wieder im Folgesemester möglich (s. Abbildung).
@@ -187,15 +190,27 @@ die Fristen bzw. die Arbeitsdauer festgelegt. Behalten Sie Ihre Fristen gut im B
 
 
 
-## Wie und wann helfen Sie mir bei meiner Abschlussarbeit?
+## Wie und wann helfen Sie mir bei meiner Bachelor- oder Masterarbeit?
 
-Grundsätzlich sollen Sie in der Abschlussarbeit zeigen, dass Sie befähigt sind, selbständig ein wissenschaftliches Problem zu lösen bzw. eine Problemstellung zu untersuchen, vgl. §28 Absatz 1 der APO. Ihre Selbständigkeit ist Teil meiner Erwartung; im Rahmen Ihres Studiums sollten Sie sich alle notwendigen Kompetenzen für die Abschlussarbeit angeeignet haben. Es können aber unerwartete, neue Probleme auftreten (wie eine Datenlage, die ungewöhnliche statistische Verfahren erfordert). In diesem Fall stehe ich Ihnen beratend zur Seite. Ansonsten und grundsätzlich sollten Sie selbständig arbeiten.
+Grundsätzlich sollen Sie in der Abschlussarbeit zeigen, dass Sie befähigt sind, selbständig ein wissenschaftliches Problem zu lösen bzw. eine Problemstellung zu untersuchen, vgl. §28 Absatz 1 der APO. 
+Ihre Selbständigkeit ist Teil meiner Erwartung; im Rahmen Ihres Studiums sollten Sie sich alle notwendigen Kompetenzen für die Abschlussarbeit angeeignet haben. Es können aber unerwartete, neue Probleme auftreten (wie eine Datenlage, die ungewöhnliche statistische Verfahren erfordert). 
+In diesem Fall stehe ich Ihnen beratend zur Seite. Ansonsten und grundsätzlich sollten Sie selbständig arbeiten.
 
-Da Sie eine wissenschaftliche Aufgabe selbständig lösen sollen, ist ein persönliches Gespräch während der Bearbeitungszeit i.d.R. nicht vorgesehen. Bei besonders aufwändigen, ungewöhnlichen oder komplexen Fragestellungen - insbesondere wenn Forschungsmethoden verwendet werden, die nicht im Unterricht gelehrt werden - stehe ich auf Wunsch mit einem Beratungsgespräch zur Seite. Im Zweifel gilt: Fragen Sie mich einfach; es ist meine Verantwortung, zu entscheiden, ob Sie die Frage selber lösen können sollten, oder ob ich Ihnen helfen sollte.
+Da Sie eine wissenschaftliche Aufgabe selbständig lösen sollen, ist ein persönliches Gespräch während der Bearbeitungszeit i.d.R. nicht vorgesehen. 
+Bei besonders aufwändigen, ungewöhnlichen oder komplexen Fragestellungen 
+- insbesondere wenn Forschungsmethoden verwendet werden, die nicht im Unterricht gelehrt werden - stehe ich auf Wunsch mit einem Beratungsgespräch zur Seite. 
+Im Zweifel gilt: Fragen Sie mich einfach; es ist meine Verantwortung, zu entscheiden, 
+ob Sie die Frage selber lösen können sollten, oder ob ich Ihnen helfen sollte.
 
-Wichtig ist, dass Sie wissen, dass ich Ihre Arbeit nicht vorab korrigiere - abgesehen von meinem Feedback auf Ihr Exposé. Bitte reichen Sie mir nicht Ihre Gliederung, Ihren Fragebogen, Ihren Theorieteil etc. vorab ein. Auf der anderen Seite sollten Sie sich aber melden, wenn Sie vor Problemen stehen, die Sie auch nach ernsthaften, ausdauernden Bemühungen nicht lösen können. 
+Wichtig ist, dass Sie wissen, dass ich Ihre Arbeit nicht vorab korrigiere - abgesehen von meinem Feedback auf Ihr Exposé. 
+Bitte reichen Sie mir nicht Ihre Gliederung, Ihren Fragebogen, Ihren Theorieteil etc. vorab ein. 
+Auf der anderen Seite sollten Sie sich aber melden, wenn Sie vor Problemen stehen, die Sie auch nach ernsthaften, ausdauernden Bemühungen nicht lösen können. 
 
-Eine wichtige Hilfe, die ich Ihnen gebe, ist ein Feedback zu Ihrem Exposé (s. unten). Im Rahmen Ihres Exposés skizzieren Sie die zentralen Stränge Ihrer Arbeit vor. Auf dieser Basis kann ich Ihnen grobe (!) Anhaltspunkte geben, ob Sie auf dem richtigen Weg sind. Bitte beachten Sie, dass ein positives Feedback von mir nicht garantiert, dass Sie die Arbeit mit einer bestimmten (z.B. sehr guten) Note abschließen. Ich korrigiere auch nicht alle Fehler im Exposé, sondern zeige Ihnen eine grobe Richtung auf bzw. weise auf einige grobe Fehler hin. Ein ausführliches Feedback bekommen Sie erst nach Abgabe – genau darin, in der eigenen Ausarbeitung, besteht Ihre Prüfungsleistung.
+Eine wichtige Hilfe, die ich Ihnen gebe, ist ein Feedback zu Ihrem Exposé (s. unten). Im Rahmen Ihres Exposés skizzieren Sie die zentralen Stränge Ihrer Arbeit vor. 
+Auf dieser Basis kann ich Ihnen grobe (!) Anhaltspunkte geben, ob Sie auf dem richtigen Weg sind. 
+Bitte beachten Sie, dass ein positives Feedback von mir nicht garantiert, dass Sie die Arbeit mit einer bestimmten (z.B. sehr guten) Note abschließen. 
+Ich korrigiere auch nicht alle Fehler im Exposé, sondern zeige Ihnen eine grobe Richtung auf bzw. weise auf einige grobe Fehler hin. 
+Ein ausführliches Feedback bekommen Sie erst nach Abgabe – genau darin, in der eigenen Ausarbeitung, besteht Ihre Prüfungsleistung.
 
 
 
@@ -205,9 +220,13 @@ Eine wichtige Hilfe, die ich Ihnen gebe, ist ein Feedback zu Ihrem Exposé (s. u
 
 ## Schreiben Sie ein Exposé
 
-Unterm Strich spart Ihnen das Exposé Zeit bzw. ist ein zentraler Baustein für die Qualität der Arbeit. Fehler können früh erkannt und vermieden werden. Die Zeit, die Sie ins Exposé investieren, ist gut investiert. Sie dürfen auch Teile des Exposés identisch in Ihrer Abschlussarbeit verwenden.
+Unterm Strich spart Ihnen das Exposé Zeit bzw. ist ein zentraler Baustein für die Qualität der Arbeit. Fehler können früh erkannt und vermieden werden. 
+Die Zeit, die Sie ins Exposé investieren, ist gut investiert. Sie dürfen auch Teile des Exposés identisch in Ihrer Abschlussarbeit verwenden.
 
-Wichtig ist, dass das Exposé Ihnen genau in dem Maße nützt, wie Sie Energie investieren. Ein "0815-Exposé" (also ein Exposé ohne Fachkenntnis) wird Ihnen wenig nützen. Nur wenn Sie sich auskennen in Ihrem Thema (in Ihrer Forschungsfrage), können Sie ein sinnvolles Exposé schreiben. Und nur dann können Sie nützliches Feedback vom Gutachter bekommen. 
+Wichtig ist, dass das Exposé Ihnen genau in dem Maße nützt, wie Sie Energie investieren. 
+Ein "0815-Exposé" (also ein Exposé ohne Fachkenntnis) wird Ihnen wenig nützen. 
+Nur wenn Sie sich auskennen in Ihrem Thema (in Ihrer Forschungsfrage), können Sie ein sinnvolles Exposé schreiben. 
+Und nur dann können Sie nützliches Feedback vom Gutachter bekommen. 
 
 
 
@@ -215,15 +234,15 @@ Wichtig ist, dass das Exposé Ihnen genau in dem Maße nützt, wie Sie Energie i
 
 Das Exposé ist wie ein normaler wissenschaftlicher Bericht aufzubauen. Folgende Hauptteile sind sinnvoll:
 
-- Abstract: Zusammenfassung aller zentralen Punkte des Dokuments (ca. 150 Wörter).
+- *Abstract*: Zusammenfassung aller zentralen Punkte des Dokuments (ca. 150 Wörter).
 
-- Einführung: Hintergrund und Relevanz Ihrer Forschung sowie die Forschungsfrage und ggf. Hypothesen
+- *Einführung*: Hintergrund und Relevanz Ihrer Forschung sowie die Forschungsfrage und ggf. Hypothesen
 
-- Theorie: Zentraler theoretischer Hintergrund zur Forschungsfrage
+- *Theorie*: Zentraler theoretischer Hintergrund zur Forschungsfrage
 
-Methoden: Forschungsdesign, Stichprobe, Messinstrumente, Versuchsablauf, Datenauswertung
+- *Methoden*: Forschungsdesign, Stichprobe, Messinstrumente, Versuchsablauf, Datenauswertung
 
-optional: Projektplan (Zeit- und Arbeitsplan)
+- *optional*: Projektplan (Zeit- und Arbeitsplan)
 
 
 
@@ -272,22 +291,61 @@ optional: Projektplan (Zeit- und Arbeitsplan)
 
 ## Wenn ich eine theoretische Arbeit schreibe, welche Methode verwende ich dann?
 
-Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben, ist Ihre Methode zumeist die des *Literaturstudiums.* Eine unsystematische oder systematische Literaturrecherche bietet sich an; die *systematische* ist zu bevorzugen. Auch bibliometrische Analysen sind möglich.
+Falls Sie eine theoretische Arbeit schreiben, also keinen empirischen Teil haben, ist Ihre Methode zumeist die des *Literaturstudiums.* 
+Eine unsystematische oder systematische Literaturrecherche bietet sich an; die *systematische* ist zu bevorzugen. 
+Auch bibliometrische Analysen sind möglich.
 
 
 
 
 
-## Anmeldung
+## Formale Anmeldung zur Bachelor- oder Masterarbeit
 
-Wenn Sie ein Formular an mich (oder Dritte, wie die Prüfungsabteilung) senden, nennen Sie bitte stets *Ihren Namen im Dateinamen*. Falsch: "Anmeldung-Thesis.pdf". Richtig: "Anmeldung-Thesis-Müller-Marina-01234567.pdf".
+Wenn Sie ein Formular an mich (oder Dritte, wie die Prüfungsabteilung) senden, 
+nennen Sie bitte stets *Ihren Namen im Dateinamen*. 
+Falsch: "Anmeldung-Thesis.pdf". Richtig: "Anmeldung-Thesis-Müller-Marina-01234567.pdf".
 
-Bitte *füllen Sie das Formular entsprechend aus*, bevor Sie es mir schicken. D.h. tragen Sie Titel der Arbeit sowie Namen der Gutachter schon ein.
+Bitte *füllen Sie das Formular entsprechend aus*, bevor Sie es mir schicken. 
+D.h. tragen Sie Titel der Arbeit sowie Namen der Gutachter schon ein.
 
 
 
 
 
+
+## Besonderheiten von Doktorarbeiten
+
+Ich betreue Themen aus aus der Psychologie (und angrenzender Wissenschaften), 
+denn dort kenne ich die "Spielregeln" und haben einen breiten fachlichen Hintergrund.
+
+Mein Anspruch an Sie ist, dass Ihre Forschungsarbeit anschlussfähig ist an den aktuellen wissenschaftlichen Diskurs.
+Das zeigt sich vielleicht am objektivsten, wenn Sie in gängigen englischsprachigen Fachzeitschriften publizieren als zentrale Leistung im Rahmen Ihrer Dissertation ("kumulative Promotion").
+
+Falls Sie nicht (oder nur teilweise) über einen psychologischen Fachhintergrund verfügen,
+kann es sinnvoll sein, vor oder während der Promotion (intensiv) psychologische und wissenschaftsmethodische Fachliteratur zu lesen.
+
+Kumulative Promotion hat auch den Vorteil, dass Sie von Ihrem Betreuer (z.B. mir) weniger abhängig sind: 
+Schließlich entscheiden anonyme Fachgutachten über die wissenschaftliche Anschlussfähigkeit Ihrer Forschung.
+
+Mit Blick auf die Forschungsmethodik bin ich aufgeschlossen; 
+häufig empfiehlt sich eine Kombination aus theoretischer Arbeit (Literaturüberblick, wie bibliometrische Analyse oder systematisches Review) plus quantitativer Methode (Experimente und/oder Beobachtungsstudine).
+
+Mit meinen Doktorandinnen und Doktoranden pflege ich einerseits regelmäßige Treffen zur Besprechung des aktuellen Stands sowie eine Einbindung in Gruppenformate wie z.B. Forschungskolloquien.
+
+Doktorarbeiten sind i.d.R. eingebunden in ein formales Programm der rahmengebenden Hochschule,
+was u.a. die Teilnahme an Kursen und Nachweis von Prüfungen und ECTS-Erwerb bedeutet;
+ggf. auch Lehre.
+
+Oft dauert eine Doktorarbeit ca. drei Jahre bis zur Abgabe, 
+wenn man die Doktorarbeit "Teilzeit" bearbeitet.
+D.h. wenn man kontinuierlich und ernsthaft der wissenschaftlicher Tätigkeit nachgeht, aber  gleichzeitig für den "Broterwerb" arbeitet.
+
+Bedenken Sie, dass es wichtig ist, der Doktorarbeit eine hohe Priorität in Ihrer Zeitplanung einzuräumen, wenn Sie sich für eine Doktorarbeit entschließen. 
+Je länger sich das Projekt Doktorarbeit hinzieht, desto größer wird die Gefahr, dass es zu keinem Abschluss kommt.
+
+Eine Doktorarbeit ist eine (einmalige) Zeit des Vertiefens in ein Thema.
+Das kann große Freude bereiten, aber auch Disziplin und Durchhaltekraft verlangen.
+Überlegen Sie sich, inwieweit solche Arbeit zu Ihren Lebensumständen und Präferenzen passen.
 
 
 
@@ -298,6 +356,10 @@ Bitte *füllen Sie das Formular entsprechend aus*, bevor Sie es mir schicken. D.
 Im Merkblatt für Abschlussarbeiten der Prüfungsabteilung finden Sie weitere formale Vorgaben, etwa zur ehrenwörtlichen Erklärung. 
 
 Hinweise zu einem etwaigen Kolloquium finden Sie im Kapitel @praesentation.
+
+Sie brauchen noch etwas "Rostlöser" zur Auffrischung der (quantitativen) Forschungsmethodik?
+Werfen Sie doch mal einen Blick in meinen Kurs ["Forschungsprojekt"](https://fopro.netlify.app/).
+
 
 
 
