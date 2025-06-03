@@ -9,7 +9,6 @@
 Es gibt viele Anleitungen, wie man einen (guten systematischen) Literaturüberblick schreibt; 
 @siddaway2019 stellen einen empfehlenswerten mit Schwerpunkt auf der Psychologie bereit.
 
-Für Recherchen mit Google Scholar ist die Software [Publish or Perish](https://harzing.com/resources/publish-or-perish/windows) zu empfehlen.
 
 
 ## Vorgehen nach @siddaway2019
@@ -74,8 +73,12 @@ Für Studierende im Bachelorstudium der Psychologie bietet dieser Leitfaden eine
 
 ## Beispiele für gute systematische Literaturreviews
 
+### Aus studentischer Feder
+
 Die [Schriftenreihe des iwp der FOM Hochschule](https://forschung.fom.de/forschung/institute/iwp/publikationen.html) bietet u.a. [dieses Beispiel für ein systematisches Literaturreview](https://forschung.fom.de/fileadmin/fom/forschung/iwp/Schriftenreihe/FOM-Forschung-iwp-Schriftenreihe-Band-12-Dosch-Kathrin-Unternehmertyp-2022.pdf).
 
+
+### Psychologischer Fachartikel
 
 @goldberg2018 und @chakhssi2018 sind Beispiele für gute Anwendungen systematischer Literaturreviews.
 Im Folgenden ist das methodische Vorgehen von @goldberg2018 dargestellt.
@@ -111,13 +114,75 @@ Die Autoren untersuchten die Wirksamkeit von Interventionen der Positiven Psycho
 
 5. Statistische Analyse
 - Effektstärkeberechnung: Für jede Studie wurden standardisierte Mittelwertsdifferenzen (Hedges’ g) berechnet, wobei Prä- und Post-Interventionswerte berücksichtigt wurden.
-- Publikationsbias: Es wurden Funnel-Plots erstellt und Egger’s Test sowie das Trim-and-Fill-Verfahren angewendet, um mögliche Verzerrungen durch nicht veröffentlichte Studien zu identifizieren.
-europepmc.org
-
-
+- Publikationsbias: Es wurden Analysen durchgeführt, um etwaigen Publikationsbias zu bestimmen.
 
 6. Registrierung und Transparenz
 Das Review wurde im PROSPERO-Register unter der Nummer CRD42016037451 registriert, was die Transparenz und Nachvollziehbarkeit des methodischen Vorgehens unterstützt.
+
+
+## Suchterme
+
+Benutzt man eine Suchmaschine für die Auswahl an geeigneten Studien, ist es ratsam, Suchoperatoren zu verwenden.
+Dazu zählen:
+
+- `"` Anführungsstriche für exakte Suchen, z.B. `"positive psychology interventions"`
+- `OR` (in Großbuchstaben) für das logische Oder, z.B. `"mindfulness" OR "meditation"`
+- `-` Minuszeichen, um Suchterme auszuschließen, z.B. `"mindfulness" -stress`
+- `*` Asterisk-Sternchen als "Joker" -- wird bei Google Scholar nicht unterstützt
+- `(` Klammern, um Suchausdrücke zu grupieren -- wird bei Google Scholar nicht zuverlässig unterstützt
+
+Beispielhaft sind hier die Suchterme aus dem Artikel von @goldberg2018 dargestellt.
+
+```
+Search strategy: PubMed 
+#1	("well-being"[tiab] OR happiness OR happy OR “life satisfaction”[tiab] OR “satisfaction with life”[tiab] OR "positive psychology"[tiab] OR "positive emotion"[tiab] OR "positive feeling"[tiab] OR "positive cognition"[tiab] OR "positive behavior"[tiab] OR "positive behaviour"[tiab] OR compassion[tiab] OR optimism[tiab] OR gratitude[tiab] OR kindness [tiab])
+#2	(Happiness[Mh] OR Positive Psychology[Mh] OR Well Being[Mh] OR Optimism[Mh] OR Life Satisfaction[Mh] OR Compassion[Mh] OR Optimism[Mh])
+#3	(intervention*[tiab] OR therap*[tiab] OR treatment*[tiab] OR training*[tiab] OR program*[tiab] OR exercise[tiab]) 
+#4	(Therapy[Mh] OR Psychotherapy[Mh] OR Training[Mh] OR Exercise[Mh])
+#5	(symptom*[tiab] OR disorder*[tiab] OR illness*[tiab] OR disease*[tiab] OR impairment[tiab] OR “clinical sample”[tiab]) 
+#6	(disorder[Mh] OR disease[Mh] OR clinical psychology[Mh])
+#7	(effect*[tiab] OR effic*[tiab] OR outcome*[tiab] OR evaluat*[tiab]) 
+#8	(random*[tiab] OR RCT*[tiab] OR control*[tiab] OR non-random*[tiab] OR pilot*[tiab] OR condition[tiab])
+#9	#1 OR #2
+#10	#3 OR #4
+#11	#5 OR #6
+#12	#9 AND #10 AND #11 AND #7 AND #8 (filters: English, Adults)
+```
+
+## Reproduzierbarkeit
+
+Auch bei systematischen Überblicksarbeiten spielt Reproduzierbarkeit eine wichtige Rolle.
+Um Reproduzierbarkeit sicherzustellen, sollten folgende Punkte berücksichtigt werden:
+
+- Protokollierung des Vorgehens
+- Protokollierung und Berücksichtigung der PRISMA-Standards
+- Protokollierung aller Studien, die für die Arbeit berücksichtigt wurden.
+
+
+Bei @goldberg2018 findet man (als elektronische Anlage, *supplement 1*) das Verzeichnis der in die Analyse aufgenommene Studien.
+
+
+## Software
+
+
+Für Recherchen mit Google Scholar ist die Software [Publish or Perish](https://harzing.com/resources/publish-or-perish/windows) zu empfehlen,
+s. @fig-pop (verfügbar für Windows und Mac und Linux).
+Die Software ist kostenfrei.
+
+![Publish or Perish: Software für systematische Reviews](img/pop8win.jpg)
+
+
+Mit dieser Software kann man die Suchtreffer von Google Scholar in eine Excel-Liste übertragen.
+
+
+
+## Anhänge
+
+Bei einem systematischen Reviews sind folgende Anhänge sinnvoll:
+
+1. Liste der Suchterme
+2. Liste der analysierten Studien
+
 
 ## Literaturverzeichnis
 
