@@ -74,35 +74,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -230,7 +201,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./100-Hinweise-Pruefung-Thesis-frame.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Besonderheiten von Abschlussarbeiten</span></span></a>
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Besonderheiten von Qualifizierungsarbeiten</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -396,16 +367,15 @@ window.Quarto = {
   <li><a href="#dont-do-it" id="toc-dont-do-it" class="nav-link" data-scroll-target="#dont-do-it"><span class="header-section-number">2.8.1</span> Don’t do it</a></li>
   <li><a href="#und-zu-unerlaubten-hilfsmitteln" id="toc-und-zu-unerlaubten-hilfsmitteln" class="nav-link" data-scroll-target="#und-zu-unerlaubten-hilfsmitteln"><span class="header-section-number">2.8.2</span> … und zu unerlaubten Hilfsmitteln</a></li>
   </ul></li>
-  <li><a href="#einsatz-von-ki-diensten" id="toc-einsatz-von-ki-diensten" class="nav-link" data-scroll-target="#einsatz-von-ki-diensten"><span class="header-section-number">2.9</span> Einsatz von KI-Diensten</a></li>
-  <li><a href="#korrekturhinweise" id="toc-korrekturhinweise" class="nav-link" data-scroll-target="#korrekturhinweise"><span class="header-section-number">2.10</span> Korrekturhinweise</a>
+  <li><a href="#korrekturhinweise" id="toc-korrekturhinweise" class="nav-link" data-scroll-target="#korrekturhinweise"><span class="header-section-number">2.9</span> Korrekturhinweise</a>
   <ul class="collapse">
-  <li><a href="#typische-fehler-in-der-prüfung" id="toc-typische-fehler-in-der-prüfung" class="nav-link" data-scroll-target="#typische-fehler-in-der-prüfung"><span class="header-section-number">2.10.1</span> Typische Fehler in der Prüfung</a></li>
-  <li><a href="#hinweise-zu-scheinmängeln" id="toc-hinweise-zu-scheinmängeln" class="nav-link" data-scroll-target="#hinweise-zu-scheinmängeln"><span class="header-section-number">2.10.2</span> Hinweise zu Scheinmängeln</a></li>
-  <li><a href="#prüfungseinsicht" id="toc-prüfungseinsicht" class="nav-link" data-scroll-target="#prüfungseinsicht"><span class="header-section-number">2.10.3</span> Prüfungseinsicht</a></li>
-  <li><a href="#sec-beanstandung" id="toc-sec-beanstandung" class="nav-link" data-scroll-target="#sec-beanstandung"><span class="header-section-number">2.10.4</span> Beanstandung der Note</a></li>
-  <li><a href="#bitte-formulieren-sie-beanstandungen-nachvollziehbar" id="toc-bitte-formulieren-sie-beanstandungen-nachvollziehbar" class="nav-link" data-scroll-target="#bitte-formulieren-sie-beanstandungen-nachvollziehbar"><span class="header-section-number">2.10.5</span> Bitte formulieren Sie Beanstandungen nachvollziehbar</a></li>
+  <li><a href="#typische-fehler-in-der-prüfung" id="toc-typische-fehler-in-der-prüfung" class="nav-link" data-scroll-target="#typische-fehler-in-der-prüfung"><span class="header-section-number">2.9.1</span> Typische Fehler in der Prüfung</a></li>
+  <li><a href="#hinweise-zu-scheinmängeln" id="toc-hinweise-zu-scheinmängeln" class="nav-link" data-scroll-target="#hinweise-zu-scheinmängeln"><span class="header-section-number">2.9.2</span> Hinweise zu Scheinmängeln</a></li>
+  <li><a href="#prüfungseinsicht" id="toc-prüfungseinsicht" class="nav-link" data-scroll-target="#prüfungseinsicht"><span class="header-section-number">2.9.3</span> Prüfungseinsicht</a></li>
+  <li><a href="#sec-beanstandung" id="toc-sec-beanstandung" class="nav-link" data-scroll-target="#sec-beanstandung"><span class="header-section-number">2.9.4</span> Beanstandung der Note</a></li>
+  <li><a href="#bitte-formulieren-sie-beanstandungen-nachvollziehbar" id="toc-bitte-formulieren-sie-beanstandungen-nachvollziehbar" class="nav-link" data-scroll-target="#bitte-formulieren-sie-beanstandungen-nachvollziehbar"><span class="header-section-number">2.9.5</span> Bitte formulieren Sie Beanstandungen nachvollziehbar</a></li>
   </ul></li>
-  <li><a href="#tipps" id="toc-tipps" class="nav-link" data-scroll-target="#tipps"><span class="header-section-number">2.11</span> Tipps</a></li>
+  <li><a href="#tipps" id="toc-tipps" class="nav-link" data-scroll-target="#tipps"><span class="header-section-number">2.10</span> Tipps</a></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/sebastiansauer/hinweise/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
@@ -532,67 +502,10 @@ window.Quarto = {
 <p>Zu unerlaubten Hilfsmitteln zählt insbesondere die Hilfe Dritter. Die Arbeit darf nur mit Hilfe erlaubter Hilfsmittel geschrieben werden. So ist es nicht zulässig, dass Teile Ihrer Arbeit von anderen Personen geschrieben, verbessert oder sonstig beeinflusst werden. Zu solchen unerlaubten Hilfsmitteln zählt auch das “Korrekturlesen” durch Dritte. Bei Fragen oder im Zweifel sprechen Sie bitte Ihre Betreuerin/Ihren Betreuer an. Das Verwenden von unerlaubten Hilfsmitteln kann von der Prüfungskommission mit Nichtbestehen der Prüfung geahndet werden. Erkundigen Sie sich im Zweifelsfall beim Ihrem Prüfer zu den erlaubten bzw. nicht erlaubten Hilfsmitteln der Prüfung.</p>
 </section>
 </section>
-<section id="einsatz-von-ki-diensten" class="level2" data-number="2.9">
-<h2 data-number="2.9" class="anchored" data-anchor-id="einsatz-von-ki-diensten"><span class="header-section-number">2.9</span> Einsatz von KI-Diensten</h2>
-<p>Bei diesem Prüfer (Prof.&nbsp;Sauer) dürfen Sie KI-Tools ohne Einschränkung nutzen, sofern nicht explizit anders bei der jeweiligen Prüfung ausgewiesen (z.B. auf der jeweiligen Moodle-Seite).</p>
-<p>Dabei haben Sie eine <em>Angabepflicht</em>, <em>wo</em>, <em>wofür</em> und <em>welche</em> KI-Dienste Sie verwendet haben. Der Anhang ist ein sinnvoller Ort, um den Angaben für Ihren KI-Einsatz zu detaillieren. Geben Sie dabei an,</p>
-<ul>
-<li>in welchen Kapiteln</li>
-<li>welche KI-Dienst (inkl. Version und Anbieter)</li>
-<li>Sie für welchen Zweck verwendet haben. Unter <em>Zweck</em> fallen z.B. folgende Verwendung: Zusammenfassung von Literatur, Entwurf einer Gliederung, Umformulieren von Textpassagen, Korrektur von Grammatik und Orthographie, Übersetzung, Entwurf einer Argumentationsstruktur.</li>
-</ul>
-<p>Es ist <em>nicht</em> nötig,</p>
-<ul>
-<li>die KI-Verwendung auf einzelne Absätze (oder genauer) aufzuschlüsseln. Es reicht eine Aufschlüsselung pro Unterkapitel.</li>
-<li>die Prompts anzugeben.</li>
-</ul>
-<div id="exm-ki-pruef" class="theorem example">
-<p><span class="theorem-title"><strong>Beispiel 2.1 (Wo Ihnen welche KI-Tools helfen können)</strong></span> Hier ist eine an Beispielen von KI-Tools und ihrer Einsatzmöglichkeit. Beachten Sie bitte, dass die Entwicklung sehr dynamisch ist, so dass diese Liste nicht unbedingt alle “besten” Tools beinhaltet. Es geht vielmehr darum, Sie zu inspirieren und Ihnen Startpunkte aufzuzeigen. Die aufgeführten Tools sind nicht im Sinne einer expliziten Empfehlung zu verstehen.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
-<ul>
-<li>Identifikation geeigneter <em>Literaturquellen</em>, <a href="https://elicit.com/">Elicit</a>, <a href="https://www.perplexity.ai/">Perplexity</a></li>
-<li>Erstellung eines <em>Gliederungsvorschlags</em>, <a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://gemini.google.com/app">Gemini</a></li>
-<li>Sie können KI-Tools zur Transkription nutzen wie z.B. <a href="https://riverside.fm/transcription">riverside</a>.</li>
-<li><em>Übersetzung</em> Ihres Texts von Deutsch auf Englisch, <a href="https://www.deepl.com/translator">DeepL</a></li>
-<li>Verbesserung des <em>Sprachflusses</em>, <a href="https://www.grammarly.com/">Grammarly</a>, <a href="https://chat.openai.com/">ChatGPT</a></li>
-<li>Ausgabe von <em>Computer-Code</em>, z.B. um eine Analyse mit R durchzuführen, <a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://stackoverflow.com/ai/search">StackOverflow AI</a></li>
-<li>Ausgabe eines <em>Textentwurfs</em>, <a href="https://chat.openai.com/">ChatGPT</a> <span class="math inline">\(\square\)</span></li>
-</ul>
-</div>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Wichtig
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Der Autor bzw. die Autorin eines Textes und damit Träger der Verantwortung sind Sie, die Person. Wenn Sie die Vorteile bestimmter technischer Systeme nutzen, so tragen Sie auch das Risiko für Nebenwirkungen. Es ist nicht möglich, die Verantwortung für Ihr Handeln auf eine Maschine oder einen Dienst abzuschieben.</p>
-<p><em>Sie sind in der Verantwortung für Ihren Text, Ihre Arbeit und Ihr Handeln.</em> KI hin oder her. <span class="math inline">\(\square\)</span></p>
-</div>
-</div>
-<div class="callout callout-style-default callout-caution callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Vorsicht
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Manche KI-Tools neigen zum <em>Fabulieren</em>, erfinden also Dinge, die es nicht gibt; liefern also falsche, unpräzise oder veraltete Information. Und sie tun das mit hoher Überzeugung.</p>
-<p>Ein Sprachmodell ist eine Art Trichter von einer großen Menge an Texten aus dem Internet. Texten, die Menschen geschrieben haben. Alle <em>Vorurteile</em> oder Stereotypen, die Sie etwa in einem Forum in den sozialen Netzwerken finden, haben gute Chancen als Antwort auf Ihren Prompt von der KI ausgegeben zu werden. Achten Sie daher auf Anzeichen von diskriminierender Sprache, wenn Sie ein KI-Sprachmodell verwenden.</p>
-<p>Manche<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> KI-Tools neigen zu Oberflächlichkeit, blumigem Ausdruck und unsteter Argumentation (“<em>Schwafel</em>”). Wissenschaftliche Sprache ist dagegen präzise. Prüfen Sie etwaige Formulierungsvorschläge eines Sprachmodells daraufhin.</p>
-<p>Seien Sie also kritisch gegenüber der Informationen aus KI-Tools. <span class="math inline">\(\square\)</span></p>
-</div>
-</div>
-</section>
-<section id="korrekturhinweise" class="level2" data-number="2.10">
-<h2 data-number="2.10" class="anchored" data-anchor-id="korrekturhinweise"><span class="header-section-number">2.10</span> Korrekturhinweise</h2>
-<section id="typische-fehler-in-der-prüfung" class="level3" data-number="2.10.1">
-<h3 data-number="2.10.1" class="anchored" data-anchor-id="typische-fehler-in-der-prüfung"><span class="header-section-number">2.10.1</span> Typische Fehler in der Prüfung</h3>
+<section id="korrekturhinweise" class="level2" data-number="2.9">
+<h2 data-number="2.9" class="anchored" data-anchor-id="korrekturhinweise"><span class="header-section-number">2.9</span> Korrekturhinweise</h2>
+<section id="typische-fehler-in-der-prüfung" class="level3" data-number="2.9.1">
+<h3 data-number="2.9.1" class="anchored" data-anchor-id="typische-fehler-in-der-prüfung"><span class="header-section-number">2.9.1</span> Typische Fehler in der Prüfung</h3>
 <ol type="1">
 <li><em>Rechtschreibfehler</em> Manchmal muss man genau hinschauen, und leicht vertippt man sich: So heißt der Datensatz vielleicht <code>tips</code> und die Spalte, um die es Ihnen geht <code>tip</code> (oder war es umgekehrt?). Oder die Spalte heißt <code>bill_length</code> aber Sie schreiben <code>bill_lenght</code>.</li>
 <li><em>Datensatz nicht richtig importiert</em> Ob ein Datensatz richtig importiert ist, erkennen Sie daran, ob er im Reiter “Environment” angezeigt wird. Außerdem können Sie dort den Datensatz anklicken, um zu einer Tabellenansicht des Datensatzes zu gelangen. Dort können Sie erkennen, ob z.B. die Anzahl der Spalten korrekt ist (und nicht etwa nur eine) oder z.B. ob die Spaltennamen korrekt sind.</li>
@@ -601,8 +514,8 @@ Vorsicht
 <li>Das Laden <em>zu vieler R-Pakete</em>, die gar nicht benötigt werden, mit dem Ergebnis, dass es mehrere Funktionen des gleichen Namens gibt (z.B. <code>filter()</code>). Das führt dann zu Verwirrung, da dann z.B. nicht die Funktion <code>filter</code> aus <code>tidyverse</code> (<code>dplyr</code>) verwendet wird, wie Sie annehmen, sondern eine Funktion gleichen Namens aus einem anderen Paket, das Sie auch gestartet haben. Tipp: Starten Sie nur die Pakete, die Sie für die Aufgabe benötigen. Zumeist sind das immer die gleichen wenigen Pakete.</li>
 </ol>
 </section>
-<section id="hinweise-zu-scheinmängeln" class="level3" data-number="2.10.2">
-<h3 data-number="2.10.2" class="anchored" data-anchor-id="hinweise-zu-scheinmängeln"><span class="header-section-number">2.10.2</span> Hinweise zu Scheinmängeln</h3>
+<section id="hinweise-zu-scheinmängeln" class="level3" data-number="2.9.2">
+<h3 data-number="2.9.2" class="anchored" data-anchor-id="hinweise-zu-scheinmängeln"><span class="header-section-number">2.9.2</span> Hinweise zu Scheinmängeln</h3>
 <p>Immer wieder kommt es vor, dass Studierende Beanstandungen zu einer Prüfung vorbringen. Teilweise sind diese gerechtfertigt, teilweise nicht. Im Folgenden sehen Sie eine Auswahl an <em>nicht</em> gerechtfertigten Beanstandungen, also nur scheinbaren Mängeln, keine wirklichen Mängel, in einer Prüfung.</p>
 <ul>
 <li><p>“<em>Das zu wählende Vorgehen war nicht 100% klar</em>” – Wenn Sie der Meinung sind, dass das zu wählende Vorgehen (zum Lösen der Aufgabe) nicht komplett klar ist, treffen Sie Annahmen und weisen Sie darauf hin, dass Sie Annahmen getroffen haben. Zum anderen halten Sie sich an das Vorgehen aus dem Unterricht (bzw. den Unterlagen und der Literatur, die im Unterricht verwendet wurde). Eine andere Situation läge vor, wenn die Aufgabe nicht lösbar ist ohne weitere Angaben lösbar ist(“Ist ein Effekt bei n=100 signifikant?”). Im Falle einer nicht lösbaren Aufgabe liegt der Fehler beim Prüfer.</p></li>
@@ -610,8 +523,8 @@ Vorsicht
 <li><p>“<em>Ich sollte die Lösung als Anteil angeben, habe sie aber in Prozent angeben, also <code>42%</code> anstatt von <code>0.42</code></em>”. – Da die angegebene Lösung (als Prozentzahl) falsch ist, kann sie nicht als richtig gewertet werden.</p></li>
 </ul>
 </section>
-<section id="prüfungseinsicht" class="level3" data-number="2.10.3">
-<h3 data-number="2.10.3" class="anchored" data-anchor-id="prüfungseinsicht"><span class="header-section-number">2.10.3</span> Prüfungseinsicht</h3>
+<section id="prüfungseinsicht" class="level3" data-number="2.9.3">
+<h3 data-number="2.9.3" class="anchored" data-anchor-id="prüfungseinsicht"><span class="header-section-number">2.9.3</span> Prüfungseinsicht</h3>
 <p>Sie haben das Recht, Ihre Prüfungsergebnisse einzusehen innerhalb der gesetzlich geregelten Fristen. Der Termin zur Einsichtnahme in die Prüfungsergebnisse wird von mir rechtzeitig (innerhalb der Frist) bereit gestellt (online). Beachten Sie bitte, dass für bestimmte Prüfungsformate keine Einsicht möglich ist bzw. die Einsicht schon vorab veröffentlicht sein kann:</p>
 <ul>
 <li>Bei Projekt- oder Abschlussarbeiten stelle ich ggf. ein Gutachten schon vorab bereit (z.B. via Moodle). Ich schreibe <em>nichts</em> in Ihre Projektarbeit. Außerhalb des Gutachtens gibt es (bei mir) nichts einzusehen.</li>
@@ -623,11 +536,11 @@ Vorsicht
 <ol type="1">
 <li>Die Einsichtnahme findet individuell und online statt.</li>
 <li>Der Prüfer ist nicht anwesend.</li>
-<li>Falls Sie der Meinung sind, einen Fehler in einer Aufgabe oder der Korrektur gefunden zu haben, beachten Sie bitte die Hinweise unter <a href="#sec-beanstandung" class="quarto-xref"><span>Kapitel 2.10.4</span></a>.</li>
+<li>Falls Sie der Meinung sind, einen Fehler in einer Aufgabe oder der Korrektur gefunden zu haben, beachten Sie bitte die Hinweise unter <a href="#sec-beanstandung" class="quarto-xref"><span>Kapitel 2.9.4</span></a>.</li>
 </ol>
 </section>
-<section id="sec-beanstandung" class="level3" data-number="2.10.4">
-<h3 data-number="2.10.4" class="anchored" data-anchor-id="sec-beanstandung"><span class="header-section-number">2.10.4</span> Beanstandung der Note</h3>
+<section id="sec-beanstandung" class="level3" data-number="2.9.4">
+<h3 data-number="2.9.4" class="anchored" data-anchor-id="sec-beanstandung"><span class="header-section-number">2.9.4</span> Beanstandung der Note</h3>
 <p>Falls Sie der Meinung sind, der Gutachter hätte Ihre Arbeit nicht korrekt beurteilt, haben Sie folgende Möglichkeiten zur Beanstandung der Note. Bitte halten Sie folgende Reihenfolge ein:</p>
 <ol type="1">
 <li><em>Prüfungseinsicht</em>: Schauen Sie sich die Aufgabe und Bewertung genau an.</li>
@@ -658,16 +571,16 @@ Vorsicht
 <li>Die Aufgabenstellung war <em>missverständlich</em> (“Erläutern Sie den Hintergrund: ‘Islamistische Selbstmordattentäter wollen als Mehrtürer sterben.’”)</li>
 </ul>
 </section>
-<section id="bitte-formulieren-sie-beanstandungen-nachvollziehbar" class="level3" data-number="2.10.5">
-<h3 data-number="2.10.5" class="anchored" data-anchor-id="bitte-formulieren-sie-beanstandungen-nachvollziehbar"><span class="header-section-number">2.10.5</span> Bitte formulieren Sie Beanstandungen nachvollziehbar</h3>
+<section id="bitte-formulieren-sie-beanstandungen-nachvollziehbar" class="level3" data-number="2.9.5">
+<h3 data-number="2.9.5" class="anchored" data-anchor-id="bitte-formulieren-sie-beanstandungen-nachvollziehbar"><span class="header-section-number">2.9.5</span> Bitte formulieren Sie Beanstandungen nachvollziehbar</h3>
 <p>Falls Sie einen Fehler in einer Aufgabenstellung finden (die der Prüfer zu bestanden hat): Freuen Sie sich! In diesem Fall wird zu Ihren Gunsten entschieden.</p>
 <p>Damit ich Ihre Beanstandung prüfen kann, ist es nötig, dass ich Ihre <em>Beanstandung</em> nachprüfen kann: <em>Zeigen</em> Sie mir meinen Fehler. Es reicht <em>nicht</em> zu sagen “es hat bei mir nicht funktioniert”. Wenn Sie etwa der Meinung sind, dass es die Variable “year” im Datensatz “penguins” nicht gebe, dann schicken Sie mir den R-Code, der an ansprechender Stelle einen Fehler aufwirft (aber <em>ansonsten lauffähig</em> ist). Ein Screenshot kann in einigen Situationen helfen, wenn aber nur ein Teil der Syntax zu sehen ist, ist er nicht ausreichend: Wenn der Befehl <code>data(penguins)</code> nicht funktioniert, so ist zu prüfen, ob Sie vorab mit <code>library(palmerpenguins)</code> das relevante Paket gestartet haben. Andernfalls kann <code>data(penguins)</code> nicht funktionieren und der Fehler läge damit bei Ihnen.</p>
 <p><a href="https://data-se.netlify.app/2022/01/31/erbie-einfache-reproduzierbare-beispiele-ihres-problems-mit-r-syntax/">Hier</a> finden Sie Hinweise für <em>e</em>infache, <em>r</em>eproduzierbare <em>Bei</em>spiele (ERBies); vgl. Sauer (2019), Kap. 3.8.2 (S. 33).</p>
 <p>Die gleiche Messlatte lege ich an mich an: Ich stelle eine Musterlösung (bei der Einsichtnahme) zur Verfügung, die reproduzierbar die Lösung aufzeigt. Sprich: Wenn der R-Code bei mir durchläuft, so wird er auch bei Ihnen durchlaufen.</p>
 </section>
 </section>
-<section id="tipps" class="level2" data-number="2.11">
-<h2 data-number="2.11" class="anchored" data-anchor-id="tipps"><span class="header-section-number">2.11</span> Tipps</h2>
+<section id="tipps" class="level2" data-number="2.10">
+<h2 data-number="2.10" class="anchored" data-anchor-id="tipps"><span class="header-section-number">2.10</span> Tipps</h2>
 <ul>
 <li>Legen Sie regelmäßig <em>Sicherheitskopien</em> Ihrer Projektarbeit an (ggf. auf einem anderen Datenträger).</li>
 <li>Achten Sie darauf, dass Sie <em>nicht mit den Versionen durcheinander</em> kommen, in welcher Datei der aktuelle Stand Ihrer Projektarbeit liegt.</li>
@@ -676,13 +589,6 @@ Vorsicht
 </ul>
 
 
-</section>
-<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn1"><p>Der Autor hat keine geschäftlichen Beziehungen zu den Organisationen, die diese Tools anbieten.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>alle?<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
 </section>
 
 </main> <!-- /main -->

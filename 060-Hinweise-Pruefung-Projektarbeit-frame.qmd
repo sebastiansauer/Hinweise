@@ -57,7 +57,7 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 
 8. Der *Anhang* dient zur Dokumentation von Details, die nicht wichtig genug sind für den knappen Platz des Berichts, aber dennoch zu wichtig sind, um weggelassen zu werden. Nummerieren Sie die Teile des Anhangs. Typische Inhalte des Anhangs sind: Messinstrumente, Analyse-Code, Daten, Stimuli, weiterführende Ergebnisse, Daten-Codebook, Interview-Transkriptionen. Der Anhang muss nicht ausgedruckt abgegeben werden, es reicht, wenn der Anhang elektronisch eingereicht wird. Es ist zulässig, Dateien als Anhang einzureichen, ohne dass deren Inhalte auf Seiten dargestellt sind. Das ist vor allem sinnvoll bei Tabellen oder Computercode.
 
-9. Weitere Hinweise zur Textformatierung finden Sie z.B. [im Kursbuch zum Forschungsprojekt](https://fopro.netlify.app/030-schreiben#formatierung).
+9. Weitere Hinweise zur *Textformatierung* finden Sie z.B. [im Kursbuch zum Forschungsprojekt](https://fopro.netlify.app/030-schreiben#formatierung).
 
 
 
@@ -171,13 +171,11 @@ Beispiel für eine Tabelle zum Nachweis der geleisteten Arbeitsstunden.
 24. Aus Gründen der Fairness und Effizient werden inhaltliche *Fragen* von Studierenden *nur öffentlich*, z. B. im Unterricht oder im Online-Forum, beantwortet (nicht per Mail).
 
 25. Projektmanagement wie das Einteilen der zur Verfügung stehenden Zeit oder Dokumentenmanagement sind Gegenstand der Prüfung. 
-Prüfungsteilnehmer:innen sind dafür eigenständig verantwortlich.
+Prüfungsteilnehmerinnen und -teilnehmer sind dafür eigenständig verantwortlich.
 
 
 
-
-
-
+26. Formulieren Sie stets *prägnant*: So kurz und klar wie möglich und so ausführlich wie nötig. Als typischen Leser stellen Sie sich einen Absolventen Ihres Studiengangs vor. Themen, die dieser Person geläufig sind, sollen nur in wenigen Sätzen oder gar Wörtern angeschnitten werden. Weitschweifigkeit ist generell zu meiden.
 
 
 
@@ -364,37 +362,37 @@ Besser ist es noch, wenn Sie die Materialien auf einen geeigneten Server (z.B. <
 
 
 
-## Merkmale einer sehr guten [schlechten] Arbeit
+<!-- ## Merkmale einer sehr guten [schlechten] Arbeit -->
 
-### Formalia
+<!-- ### Formalia -->
 
-- Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis.
+<!-- - Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis. -->
 
-- Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler].
+<!-- - Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler]. -->
 
-- Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen [nicht] zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig, sondern prägnant formuliert).
-
-
-
-### Methoden
-- Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert.
-
-- Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus.
-
-- Es wurde sehr viel [wenig] empirisches Material (z. B. befragte Personen) ausgewertet.
+<!-- - Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen [nicht] zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig, sondern prägnant formuliert). -->
 
 
 
-### Inhalt
-- Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert.
+<!-- ### Methoden -->
+<!-- - Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert. -->
 
-- Ein roter Faden ist klar [nicht] ersichtlich.
+<!-- - Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus. -->
 
-- Die Arbeit zeichnet sich nicht nur [weder] durch hohes Fachwissen, sondern auch [noch] durch wohl überlegte Argumentation aus.
+<!-- - Es wurde sehr viel [wenig] empirisches Material (z. B. befragte Personen) ausgewertet. -->
 
 
 
-Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bewertet werden.
+<!-- ### Inhalt -->
+<!-- - Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert. -->
+
+<!-- - Ein roter Faden ist klar [nicht] ersichtlich. -->
+
+<!-- - Die Arbeit zeichnet sich nicht nur [weder] durch hohes Fachwissen, sondern auch [noch] durch wohl überlegte Argumentation aus. -->
+
+
+
+<!-- Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bewertet werden. -->
 
 
 
@@ -537,6 +535,71 @@ Hier sind einige typische Fragen, die sich Lesis - implizit oder explizit - stel
 
 
 
+## Einsatz von KI-Diensten
+
+Bei diesem Prüfer (Prof. Sauer) dürfen (nur) Sie bei schriftlichen Prüfungen KI-Tools ohne Einschränkung nutzen, sofern nicht explizit anders bei der jeweiligen Prüfung ausgewiesen.
+
+Dabei haben Sie eine *Angabepflicht*, *wo*,   *wofür* und *welche*  KI-Dienste Sie verwendet haben.
+Der Anhang ist ein sinnvoller Ort, um den Angaben für Ihren KI-Einsatz zu detaillieren.
+Geben Sie dabei an, 
+ 
+- in welchen Kapiteln
+- welche KI-Dienst (inkl. Version und Anbieter)
+- Sie für welchen Zweck verwendet haben. Unter *Zweck* fallen z.B. folgende Verwendung: Zusammenfassung von Literatur, Entwurf einer Gliederung, Umformulieren von Textpassagen, Korrektur von Grammatik und Orthographie, Übersetzung, Entwurf einer Argumentationsstruktur.
+
+
+Es ist *nicht* nötig, 
+
+ - die KI-Verwendung auf einzelne Absätze (oder genauer) aufzuschlüsseln. Es reicht eine Aufschlüsselung pro Unterkapitel.
+ - die Prompts anzugeben.
+
+
+
+
+:::{#exm-ki-pruef}
+### Wo Ihnen welche KI-Tools helfen können
+
+Hier ist eine an Beispielen von KI-Tools und ihrer Einsatzmöglichkeit. Beachten Sie bitte, dass die Entwicklung sehr dynamisch ist, so dass diese Liste nicht unbedingt alle "besten" Tools beinhaltet.
+Es geht vielmehr darum, Sie zu inspirieren und Ihnen Startpunkte aufzuzeigen.
+Die aufgeführten Tools sind nicht im Sinne einer expliziten Empfehlung zu verstehen.^[Der Autor hat keine geschäftlichen Beziehungen zu den Organisationen, die diese Tools anbieten.]
+
+
+
+- Identifikation geeigneter *Literaturquellen*, [Elicit](https://elicit.com/), [Perplexity](https://www.perplexity.ai/)
+- Erstellung eines *Gliederungsvorschlags*, [ChatGPT](https://chat.openai.com/), [Gemini](https://gemini.google.com/app)
+- Sie können KI-Tools zur Transkription nutzen wie z.B. [riverside](https://riverside.fm/transcription).
+- *Übersetzung* Ihres Texts von Deutsch auf Englisch, [DeepL](https://www.deepl.com/translator)
+- Verbesserung des *Sprachflusses*, [Grammarly](https://www.grammarly.com/), [ChatGPT](https://chat.openai.com/)
+- Ausgabe von *Computer-Code*, z.B. um eine Analyse mit R durchzuführen, [ChatGPT](https://chat.openai.com/), [StackOverflow AI](https://stackoverflow.com/ai/search)
+- Ausgabe eines *Textentwurfs*, [ChatGPT](https://chat.openai.com/) $\square$
+:::
+
+
+:::{.callout-important}
+Der Autor bzw. die Autorin eines Textes und damit Träger der Verantwortung sind Sie, die Person.
+Wenn Sie die Vorteile bestimmter technischer Systeme nutzen, so tragen Sie auch das Risiko für Nebenwirkungen.
+Es ist nicht möglich, die Verantwortung für Ihr Handeln auf eine Maschine oder einen Dienst abzuschieben.
+
+*Sie sind in der Verantwortung für Ihren Text, Ihre Arbeit und Ihr Handeln.* KI hin oder her. $\square$
+:::
+
+:::{.callout-caution}
+Manche KI-Tools neigen zum *Fabulieren*, erfinden also Dinge, die es nicht gibt; liefern also falsche, unpräzise oder veraltete Information. Und sie tun das mit hoher Überzeugung.
+
+
+Ein Sprachmodell ist eine Art Trichter von einer großen Menge an Texten aus dem Internet. Texten, die Menschen geschrieben haben.
+Alle *Vorurteile* oder Stereotypen, die Sie etwa in einem Forum in den sozialen Netzwerken finden, haben gute Chancen als Antwort auf Ihren Prompt von der KI ausgegeben zu werden. Achten Sie daher auf Anzeichen von diskriminierender Sprache, wenn Sie ein KI-Sprachmodell verwenden.
+
+
+Manche^[alle?] KI-Tools neigen zu Oberflächlichkeit, blumigem Ausdruck und unsteter Argumentation ("*Schwafel*"). Wissenschaftliche Sprache ist dagegen präzise. Prüfen Sie etwaige Formulierungsvorschläge eines Sprachmodells daraufhin.
+
+
+Seien Sie also kritisch gegenüber der Informationen aus KI-Tools. $\square$
+:::
+
+
+
+
 
 ## Sie sind bestimmt super streng, was die Methoden/Statistik betrifft?
 
@@ -544,7 +607,9 @@ Ja :-)
 
 Im Ernst: Ich erwarte nicht mehr als das, was im Unterricht an methodischem Wissen vermittelt wurde.
 
-Ambitionierten Studierenden sei empfohlen, eine experimentelle Studie durchzuführen (keine Beobachtungsstudie) - sofern möglich, die Arbeit zu präregistrieren (z.B. bei www.osf.io), generell auf gute Reproduzierbarkeit zu achten und multiple Regression zu verwenden - sofern sinnvoll.
+Ambitionierten Studierenden sei empfohlen, eine experimentelle Studie durchzuführen (keine Beobachtungsstudie) -- sofern möglich, 
+die Arbeit zu präregistrieren (z.B. bei www.osf.io), 
+generell auf gute Reproduzierbarkeit zu achten und multiple Regression zu verwenden -- sofern sinnvoll.
 
 Für neue (im Unterricht nicht behandelte quantitative) Methoden bin ich immer offen und freue mich über Ihre Ideen.
 

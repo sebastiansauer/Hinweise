@@ -68,7 +68,32 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script><link href="site_libs/pagedtable-1.1/css/pagedtable.css" rel="stylesheet">
-<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script>
+<script src="site_libs/pagedtable-1.1/js/pagedtable.js"></script><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 </head>
 <body class="nav-sidebar floating">
 
@@ -355,26 +380,19 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sec-mengengeruest" id="toc-sec-mengengeruest" class="nav-link" data-scroll-target="#sec-mengengeruest"><span class="header-section-number">8.3</span> Mengengerüst</a></li>
   <li><a href="#aus-der-checkliste-eines-gutachters" id="toc-aus-der-checkliste-eines-gutachters" class="nav-link" data-scroll-target="#aus-der-checkliste-eines-gutachters"><span class="header-section-number">8.4</span> Aus der Checkliste eines Gutachters</a></li>
   <li><a href="#open-science" id="toc-open-science" class="nav-link" data-scroll-target="#open-science"><span class="header-section-number">8.5</span> Open Science</a></li>
+  <li><a href="#tipps" id="toc-tipps" class="nav-link" data-scroll-target="#tipps"><span class="header-section-number">8.6</span> Tipps</a></li>
   <li>
-<a href="#merkmale-einer-sehr-guten-schlechten-arbeit" id="toc-merkmale-einer-sehr-guten-schlechten-arbeit" class="nav-link" data-scroll-target="#merkmale-einer-sehr-guten-schlechten-arbeit"><span class="header-section-number">8.6</span> Merkmale einer sehr guten [schlechten] Arbeit</a>
+<a href="#merkmale-einer-sehr-guten-arbeit" id="toc-merkmale-einer-sehr-guten-arbeit" class="nav-link" data-scroll-target="#merkmale-einer-sehr-guten-arbeit"><span class="header-section-number">8.7</span> Merkmale einer sehr guten Arbeit</a>
   <ul class="collapse">
-<li><a href="#formalia-2" id="toc-formalia-2" class="nav-link" data-scroll-target="#formalia-2"><span class="header-section-number">8.6.1</span> Formalia</a></li>
-  <li><a href="#methoden-1" id="toc-methoden-1" class="nav-link" data-scroll-target="#methoden-1"><span class="header-section-number">8.6.2</span> Methoden</a></li>
-  <li><a href="#inhalt" id="toc-inhalt" class="nav-link" data-scroll-target="#inhalt"><span class="header-section-number">8.6.3</span> Inhalt</a></li>
+<li><a href="#%C3%BCberblick" id="toc-überblick" class="nav-link" data-scroll-target="#%C3%BCberblick"><span class="header-section-number">8.7.1</span> Überblick</a></li>
+  <li><a href="#reflexion-bereichen-sie-die-welt-mit-ihren-gedanken" id="toc-reflexion-bereichen-sie-die-welt-mit-ihren-gedanken" class="nav-link" data-scroll-target="#reflexion-bereichen-sie-die-welt-mit-ihren-gedanken"><span class="header-section-number">8.7.2</span> Reflexion: Bereichen Sie die Welt mit Ihren Gedanken</a></li>
+  <li><a href="#fachwissen-zeigen-sie-dass-sie-sich-auskennen" id="toc-fachwissen-zeigen-sie-dass-sie-sich-auskennen" class="nav-link" data-scroll-target="#fachwissen-zeigen-sie-dass-sie-sich-auskennen"><span class="header-section-number">8.7.3</span> Fachwissen: Zeigen Sie, dass Sie sich auskennen</a></li>
+  <li><a href="#fluss-der-text-soll-elegant-flie%C3%9Fen" id="toc-fluss-der-text-soll-elegant-fließen" class="nav-link" data-scroll-target="#fluss-der-text-soll-elegant-flie%C3%9Fen"><span class="header-section-number">8.7.4</span> Fluss: Der Text soll elegant fließen</a></li>
+  <li><a href="#redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar" id="toc-redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar" class="nav-link" data-scroll-target="#redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar"><span class="header-section-number">8.7.5</span> Redlichkeit: Machen Sie Ihre Ergebnisse nachvollziehbar</a></li>
+  <li><a href="#leserseite-schreiben-sie-f%C3%BCr-den-leser" id="toc-leserseite-schreiben-sie-für-den-leser" class="nav-link" data-scroll-target="#leserseite-schreiben-sie-f%C3%BCr-den-leser"><span class="header-section-number">8.7.6</span> Leserseite: Schreiben Sie für den Leser</a></li>
   </ul>
 </li>
-  <li><a href="#tipps" id="toc-tipps" class="nav-link" data-scroll-target="#tipps"><span class="header-section-number">8.7</span> Tipps</a></li>
-  <li>
-<a href="#merkmale-einer-sehr-guten-arbeit" id="toc-merkmale-einer-sehr-guten-arbeit" class="nav-link" data-scroll-target="#merkmale-einer-sehr-guten-arbeit"><span class="header-section-number">8.8</span> Merkmale einer sehr guten Arbeit</a>
-  <ul class="collapse">
-<li><a href="#%C3%BCberblick" id="toc-überblick" class="nav-link" data-scroll-target="#%C3%BCberblick"><span class="header-section-number">8.8.1</span> Überblick</a></li>
-  <li><a href="#reflexion-bereichen-sie-die-welt-mit-ihren-gedanken" id="toc-reflexion-bereichen-sie-die-welt-mit-ihren-gedanken" class="nav-link" data-scroll-target="#reflexion-bereichen-sie-die-welt-mit-ihren-gedanken"><span class="header-section-number">8.8.2</span> Reflexion: Bereichen Sie die Welt mit Ihren Gedanken</a></li>
-  <li><a href="#fachwissen-zeigen-sie-dass-sie-sich-auskennen" id="toc-fachwissen-zeigen-sie-dass-sie-sich-auskennen" class="nav-link" data-scroll-target="#fachwissen-zeigen-sie-dass-sie-sich-auskennen"><span class="header-section-number">8.8.3</span> Fachwissen: Zeigen Sie, dass Sie sich auskennen</a></li>
-  <li><a href="#fluss-der-text-soll-elegant-flie%C3%9Fen" id="toc-fluss-der-text-soll-elegant-fließen" class="nav-link" data-scroll-target="#fluss-der-text-soll-elegant-flie%C3%9Fen"><span class="header-section-number">8.8.4</span> Fluss: Der Text soll elegant fließen</a></li>
-  <li><a href="#redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar" id="toc-redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar" class="nav-link" data-scroll-target="#redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar"><span class="header-section-number">8.8.5</span> Redlichkeit: Machen Sie Ihre Ergebnisse nachvollziehbar</a></li>
-  <li><a href="#leserseite-schreiben-sie-f%C3%BCr-den-leser" id="toc-leserseite-schreiben-sie-für-den-leser" class="nav-link" data-scroll-target="#leserseite-schreiben-sie-f%C3%BCr-den-leser"><span class="header-section-number">8.8.6</span> Leserseite: Schreiben Sie für den Leser</a></li>
-  </ul>
-</li>
+  <li><a href="#einsatz-von-ki-diensten" id="toc-einsatz-von-ki-diensten" class="nav-link" data-scroll-target="#einsatz-von-ki-diensten"><span class="header-section-number">8.8</span> Einsatz von KI-Diensten</a></li>
   <li><a href="#sie-sind-bestimmt-super-streng-was-die-methodenstatistik-betrifft" id="toc-sie-sind-bestimmt-super-streng-was-die-methodenstatistik-betrifft" class="nav-link" data-scroll-target="#sie-sind-bestimmt-super-streng-was-die-methodenstatistik-betrifft"><span class="header-section-number">8.9</span> Sie sind bestimmt super streng, was die Methoden/Statistik betrifft?</a></li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/sebastiansauer/hinweise/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
     </div>
@@ -421,7 +439,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
 <li><p>Sie können die Arbeit entweder in einem <em>paginierten</em> Format schreiben (z.B. Word-Dokument) oder in einem <em>nicht-paginierten</em> Format (z.B. HTML-Dokument mit Quarto).</p></li>
 <li><p>Der <em>Anhang</em> dient zur Dokumentation von Details, die nicht wichtig genug sind für den knappen Platz des Berichts, aber dennoch zu wichtig sind, um weggelassen zu werden. Nummerieren Sie die Teile des Anhangs. Typische Inhalte des Anhangs sind: Messinstrumente, Analyse-Code, Daten, Stimuli, weiterführende Ergebnisse, Daten-Codebook, Interview-Transkriptionen. Der Anhang muss nicht ausgedruckt abgegeben werden, es reicht, wenn der Anhang elektronisch eingereicht wird. Es ist zulässig, Dateien als Anhang einzureichen, ohne dass deren Inhalte auf Seiten dargestellt sind. Das ist vor allem sinnvoll bei Tabellen oder Computercode.</p></li>
-<li><p>Weitere Hinweise zur Textformatierung finden Sie z.B. <a href="https://fopro.netlify.app/030-schreiben#formatierung">im Kursbuch zum Forschungsprojekt</a>.</p></li>
+<li><p>Weitere Hinweise zur <em>Textformatierung</em> finden Sie z.B. <a href="https://fopro.netlify.app/030-schreiben#formatierung">im Kursbuch zum Forschungsprojekt</a>.</p></li>
 </ol></section><section id="formalia" class="level3" data-number="8.1.3"><h3 data-number="8.1.3" class="anchored" data-anchor-id="formalia">
 <span class="header-section-number">8.1.3</span> Formalia</h3>
 <ol type="1">
@@ -532,7 +550,8 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Das Thema soll einen <em>direkten psychologischen Bezug</em> aufweisen; eine Forschungsfrage soll psychologisch relevante Aspekte adressieren.</p></li>
 <li><p><em>Inhaltliche Fragen</em> (d.h. den Stoff betreffend) werden im Unterricht jederzeit beantwortet. Sprechen Sie die Dozentis auch gerne vor oder nach dem Unterricht persönlich an.</p></li>
 <li><p>Aus Gründen der Fairness und Effizient werden inhaltliche <em>Fragen</em> von Studierenden <em>nur öffentlich</em>, z. B. im Unterricht oder im Online-Forum, beantwortet (nicht per Mail).</p></li>
-<li><p>Projektmanagement wie das Einteilen der zur Verfügung stehenden Zeit oder Dokumentenmanagement sind Gegenstand der Prüfung. Prüfungsteilnehmer:innen sind dafür eigenständig verantwortlich.</p></li>
+<li><p>Projektmanagement wie das Einteilen der zur Verfügung stehenden Zeit oder Dokumentenmanagement sind Gegenstand der Prüfung. Prüfungsteilnehmerinnen und -teilnehmer sind dafür eigenständig verantwortlich.</p></li>
+<li><p>Formulieren Sie stets <em>prägnant</em>: So kurz und klar wie möglich und so ausführlich wie nötig. Als typischen Leser stellen Sie sich einen Absolventen Ihres Studiengangs vor. Themen, die dieser Person geläufig sind, sollen nur in wenigen Sätzen oder gar Wörtern angeschnitten werden. Weitschweifigkeit ist generell zu meiden.</p></li>
 </ol></section></section><section id="die-benotung" class="level2" data-number="8.2"><h2 data-number="8.2" class="anchored" data-anchor-id="die-benotung">
 <span class="header-section-number">8.2</span> Die Benotung</h2>
 <p>Es wird eine <em>Gesamtnote</em> vergeben und ggf. drei <em>Teilnoten.</em> Die Gesamtnote setzt sich aus den Teilnoten zusammen. Die Gesamtnote ist <em>nicht</em> (notwendig) ein ungewichteter Durchschnitt aus den drei Benotungskriterien.</p>
@@ -590,23 +609,23 @@ ul.task-list li input[type="checkbox"] {
 Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 </figcaption><div aria-describedby="tbl-menge-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="waqacxlaep" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#waqacxlaep table {
+<div id="zgmfgdfirz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#zgmfgdfirz table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#waqacxlaep thead, #waqacxlaep tbody, #waqacxlaep tfoot, #waqacxlaep tr, #waqacxlaep td, #waqacxlaep th {
+#zgmfgdfirz thead, #zgmfgdfirz tbody, #zgmfgdfirz tfoot, #zgmfgdfirz tr, #zgmfgdfirz td, #zgmfgdfirz th {
   border-style: none;
 }
 
-#waqacxlaep p {
+#zgmfgdfirz p {
   margin: 0;
   padding: 0;
 }
 
-#waqacxlaep .gt_table {
+#zgmfgdfirz .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -632,12 +651,12 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-left-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_caption {
+#zgmfgdfirz .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#waqacxlaep .gt_title {
+#zgmfgdfirz .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -649,7 +668,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-bottom-width: 0;
 }
 
-#waqacxlaep .gt_subtitle {
+#zgmfgdfirz .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -661,7 +680,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-top-width: 0;
 }
 
-#waqacxlaep .gt_heading {
+#zgmfgdfirz .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -673,13 +692,13 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-right-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_bottom_border {
+#zgmfgdfirz .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_col_headings {
+#zgmfgdfirz .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -694,7 +713,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-right-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_col_heading {
+#zgmfgdfirz .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -714,7 +733,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   overflow-x: hidden;
 }
 
-#waqacxlaep .gt_column_spanner_outer {
+#zgmfgdfirz .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -726,15 +745,15 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   padding-right: 4px;
 }
 
-#waqacxlaep .gt_column_spanner_outer:first-child {
+#zgmfgdfirz .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#waqacxlaep .gt_column_spanner_outer:last-child {
+#zgmfgdfirz .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#waqacxlaep .gt_column_spanner {
+#zgmfgdfirz .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -746,11 +765,11 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   width: 100%;
 }
 
-#waqacxlaep .gt_spanner_row {
+#zgmfgdfirz .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#waqacxlaep .gt_group_heading {
+#zgmfgdfirz .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -776,7 +795,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   text-align: left;
 }
 
-#waqacxlaep .gt_empty_group_heading {
+#zgmfgdfirz .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -791,15 +810,15 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   vertical-align: middle;
 }
 
-#waqacxlaep .gt_from_md > :first-child {
+#zgmfgdfirz .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#waqacxlaep .gt_from_md > :last-child {
+#zgmfgdfirz .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#waqacxlaep .gt_row {
+#zgmfgdfirz .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -818,7 +837,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   overflow-x: hidden;
 }
 
-#waqacxlaep .gt_stub {
+#zgmfgdfirz .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -831,7 +850,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   padding-right: 5px;
 }
 
-#waqacxlaep .gt_stub_row_group {
+#zgmfgdfirz .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -845,15 +864,15 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   vertical-align: top;
 }
 
-#waqacxlaep .gt_row_group_first td {
+#zgmfgdfirz .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#waqacxlaep .gt_row_group_first th {
+#zgmfgdfirz .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#waqacxlaep .gt_summary_row {
+#zgmfgdfirz .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -863,16 +882,16 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   padding-right: 5px;
 }
 
-#waqacxlaep .gt_first_summary_row {
+#zgmfgdfirz .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_first_summary_row.thick {
+#zgmfgdfirz .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#waqacxlaep .gt_last_summary_row {
+#zgmfgdfirz .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -882,7 +901,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-bottom-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_grand_summary_row {
+#zgmfgdfirz .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -892,7 +911,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   padding-right: 5px;
 }
 
-#waqacxlaep .gt_first_grand_summary_row {
+#zgmfgdfirz .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -902,7 +921,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-top-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_last_grand_summary_row_top {
+#zgmfgdfirz .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -912,11 +931,11 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-bottom-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_striped {
+#zgmfgdfirz .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#waqacxlaep .gt_table_body {
+#zgmfgdfirz .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -925,7 +944,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-bottom-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_footnotes {
+#zgmfgdfirz .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -939,7 +958,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-right-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_footnote {
+#zgmfgdfirz .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -948,7 +967,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   padding-right: 5px;
 }
 
-#waqacxlaep .gt_sourcenotes {
+#zgmfgdfirz .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -962,7 +981,7 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   border-right-color: #D3D3D3;
 }
 
-#waqacxlaep .gt_sourcenote {
+#zgmfgdfirz .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -970,72 +989,72 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
   padding-right: 5px;
 }
 
-#waqacxlaep .gt_left {
+#zgmfgdfirz .gt_left {
   text-align: left;
 }
 
-#waqacxlaep .gt_center {
+#zgmfgdfirz .gt_center {
   text-align: center;
 }
 
-#waqacxlaep .gt_right {
+#zgmfgdfirz .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#waqacxlaep .gt_font_normal {
+#zgmfgdfirz .gt_font_normal {
   font-weight: normal;
 }
 
-#waqacxlaep .gt_font_bold {
+#zgmfgdfirz .gt_font_bold {
   font-weight: bold;
 }
 
-#waqacxlaep .gt_font_italic {
+#zgmfgdfirz .gt_font_italic {
   font-style: italic;
 }
 
-#waqacxlaep .gt_super {
+#zgmfgdfirz .gt_super {
   font-size: 65%;
 }
 
-#waqacxlaep .gt_footnote_marks {
+#zgmfgdfirz .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#waqacxlaep .gt_asterisk {
+#zgmfgdfirz .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#waqacxlaep .gt_indent_1 {
+#zgmfgdfirz .gt_indent_1 {
   text-indent: 5px;
 }
 
-#waqacxlaep .gt_indent_2 {
+#zgmfgdfirz .gt_indent_2 {
   text-indent: 10px;
 }
 
-#waqacxlaep .gt_indent_3 {
+#zgmfgdfirz .gt_indent_3 {
   text-indent: 15px;
 }
 
-#waqacxlaep .gt_indent_4 {
+#zgmfgdfirz .gt_indent_4 {
   text-indent: 20px;
 }
 
-#waqacxlaep .gt_indent_5 {
+#zgmfgdfirz .gt_indent_5 {
   text-indent: 25px;
 }
 
-#waqacxlaep .katex-display {
+#zgmfgdfirz .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#waqacxlaep div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#zgmfgdfirz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
@@ -1178,40 +1197,32 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 <!-- Sprechen Sie mich gerne an, wenn Sie an weiterer Forschung bzw. Veröffentlichung interessiert sind.  -->
 <!-- Ggf. werde ich die Daten für weitere Forschung nutzen bzw. in geeigneten Format publizieren.  -->
 <!-- Sofern Sie dem nicht widersprechen, bis spätestens 7 Tage nach der mündlichen Prüfung, gehe ich von Ihrem Einverständnis aus. -->
-</section><section id="merkmale-einer-sehr-guten-schlechten-arbeit" class="level2" data-number="8.6"><h2 data-number="8.6" class="anchored" data-anchor-id="merkmale-einer-sehr-guten-schlechten-arbeit">
-<span class="header-section-number">8.6</span> Merkmale einer sehr guten [schlechten] Arbeit</h2>
-<section id="formalia-2" class="level3" data-number="8.6.1"><h3 data-number="8.6.1" class="anchored" data-anchor-id="formalia-2">
-<span class="header-section-number">8.6.1</span> Formalia</h3>
-<ul>
-<li><p>Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis.</p></li>
-<li><p>Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler].</p></li>
-<li><p>Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen [nicht] zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig, sondern prägnant formuliert).</p></li>
-</ul></section><section id="methoden-1" class="level3" data-number="8.6.2"><h3 data-number="8.6.2" class="anchored" data-anchor-id="methoden-1">
-<span class="header-section-number">8.6.2</span> Methoden</h3>
-<ul>
-<li><p>Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert.</p></li>
-<li><p>Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus.</p></li>
-<li><p>Es wurde sehr viel [wenig] empirisches Material (z. B. befragte Personen) ausgewertet.</p></li>
-</ul></section><section id="inhalt" class="level3" data-number="8.6.3"><h3 data-number="8.6.3" class="anchored" data-anchor-id="inhalt">
-<span class="header-section-number">8.6.3</span> Inhalt</h3>
-<ul>
-<li><p>Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert.</p></li>
-<li><p>Ein roter Faden ist klar [nicht] ersichtlich.</p></li>
-<li><p>Die Arbeit zeichnet sich nicht nur [weder] durch hohes Fachwissen, sondern auch [noch] durch wohl überlegte Argumentation aus.</p></li>
-</ul>
-<p>Sehr schlechte Abschlussarbeiten können mit “ausreichend” oder “mangelhaft” bewertet werden.</p>
-</section></section><section id="tipps" class="level2" data-number="8.7"><h2 data-number="8.7" class="anchored" data-anchor-id="tipps">
-<span class="header-section-number">8.7</span> Tipps</h2>
+<!-- ## Merkmale einer sehr guten [schlechten] Arbeit -->
+<!-- ### Formalia -->
+<!-- - Die Richtlinien der APA/DGPs zur Gestaltung von wissenschaftlichen Texten wurden fast [kaum/nicht] vollumfänglich umgesetzt. Insbesondere finden sich keine [viele] Zitierfehler im Text und/oder im Literaturverzeichnis. -->
+<!-- - Rechtschreibung, Zeichensetzung und/oder Grammatik sind fehlerfrei [voller Fehler]. -->
+<!-- - Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen [nicht] zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig, sondern prägnant formuliert). -->
+<!-- ### Methoden -->
+<!-- - Es wurden [un]angemessene Methoden ausgewählt und/oder diese richtig [falsch/nicht] angewendet und die Ergebnisse korrekt [falsch/lückenhaft] interpretiert. -->
+<!-- - Die eingesetzte Methodik zeichnet sich durch hohe [geringe] Breite und/oder Tiefe aus. -->
+<!-- - Es wurde sehr viel [wenig] empirisches Material (z. B. befragte Personen) ausgewertet. -->
+<!-- ### Inhalt -->
+<!-- - Es wurde viel [wenig] Literatur von hoher [geringer] Qualität rezipiert. -->
+<!-- - Ein roter Faden ist klar [nicht] ersichtlich. -->
+<!-- - Die Arbeit zeichnet sich nicht nur [weder] durch hohes Fachwissen, sondern auch [noch] durch wohl überlegte Argumentation aus. -->
+<!-- Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bewertet werden. -->
+</section><section id="tipps" class="level2" data-number="8.6"><h2 data-number="8.6" class="anchored" data-anchor-id="tipps">
+<span class="header-section-number">8.6</span> Tipps</h2>
 <p>Die Bayes-Methode ist gegenüber frequentistischen Ansätzen zu bevorzugen.</p>
 <p>In qualitativen Studien bietet sich die Grounded Theorie als Auswertungsmethode an.</p>
 <p>Zur formalen (und inhaltlichen) Gestaltung sei dieses Buch empfohlen: “Peters, J. H., &amp; Dörfler, T. (2019). Abschlussarbeiten in der Psychologie und den Sozialwissenschaften - Schreiben und Gestalten. München: Pearson Studium.” In diesem Titel finden Sie viel Wertvolles zum Aufbau und Gestaltung Ihrer Abschlussarbeit. Formatieren Sie Ihre Arbeit <em>nicht</em> wie ein Manuskript nach APA-Vorlagen, das Sie bei einem Verlag einreichen, sondern wie einen Forschungsbericht (vgl. Peters &amp; Dörfler, 2019, S. 3). Das beinhaltet auch, dass Sie nach APA/DGPs zitieren. Ambitionierte Studierende (insbesondere in einem Master-Studiengang), die auf eine sehr gute Teilnote im Bereich “Formales” abzielen, sollten sich möglichst eng an die formalen Vorgaben halten.</p>
 <p>Richtlinien zur Seitenformatierung und -layout finden Sie in Peters und Dörfler (2019), vgl. Kap. 4. Befolgen Sie die Art, Statistiken zu berichten laut APA bzw. DGPs, sofern Peters und Dörfler (2019) nicht andere Angaben machen.</p>
 <p>Informieren Sie sich im Übrigen über die <em>offiziellen Richtlinien</em> der Hochschule (wie Abgabefristen) in den entsprechenden Dokumenten wie der APO und der SPO.</p>
 <p>Drucken Sie Ihre Arbeit <em>beidseitig</em>, in <em>Klebebindung.</em></p>
-</section><section id="merkmale-einer-sehr-guten-arbeit" class="level2" data-number="8.8"><h2 data-number="8.8" class="anchored" data-anchor-id="merkmale-einer-sehr-guten-arbeit">
-<span class="header-section-number">8.8</span> Merkmale einer sehr guten Arbeit</h2>
-<section id="überblick" class="level3" data-number="8.8.1"><h3 data-number="8.8.1" class="anchored" data-anchor-id="überblick">
-<span class="header-section-number">8.8.1</span> Überblick</h3>
+</section><section id="merkmale-einer-sehr-guten-arbeit" class="level2" data-number="8.7"><h2 data-number="8.7" class="anchored" data-anchor-id="merkmale-einer-sehr-guten-arbeit">
+<span class="header-section-number">8.7</span> Merkmale einer sehr guten Arbeit</h2>
+<section id="überblick" class="level3" data-number="8.7.1"><h3 data-number="8.7.1" class="anchored" data-anchor-id="überblick">
+<span class="header-section-number">8.7.1</span> Überblick</h3>
 <ol type="1">
 <li>Formales</li>
 </ol>
@@ -1235,8 +1246,8 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 <li>Es wurde viel Literatur von hoher Qualität rezipiert.</li>
 <li>Ein roter Faden ist klar ersichtlich.</li>
 <li>Die Arbeit zeichnet sich nicht nur durch hohes Fachwissen, sondern auch durch wohl überlegte Argumentation aus.</li>
-</ul></section><section id="reflexion-bereichen-sie-die-welt-mit-ihren-gedanken" class="level3" data-number="8.8.2"><h3 data-number="8.8.2" class="anchored" data-anchor-id="reflexion-bereichen-sie-die-welt-mit-ihren-gedanken">
-<span class="header-section-number">8.8.2</span> Reflexion: Bereichen Sie die Welt mit Ihren Gedanken</h3>
+</ul></section><section id="reflexion-bereichen-sie-die-welt-mit-ihren-gedanken" class="level3" data-number="8.7.2"><h3 data-number="8.7.2" class="anchored" data-anchor-id="reflexion-bereichen-sie-die-welt-mit-ihren-gedanken">
+<span class="header-section-number">8.7.2</span> Reflexion: Bereichen Sie die Welt mit Ihren Gedanken</h3>
 <ul>
 <li><p>Ein Hauptfehler vieler Arbeiten liegt darin, dass sie nur andere Texte nacherzählen. Wo liegt da der Mehrwert?</p></li>
 <li><p>Der Mehrwert eines wissenschaftlichen Textes liegt in der Neuartigkeit der Gedanken: Kritisieren Sie bestehende Theorien, vergleichen Sie sie, arbeiten Sie das Wesentliche heraus. Übrigens: Auch eine Wiederholungsstudie lohnt sich.</p></li>
@@ -1247,8 +1258,8 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 <li><p>Zur Reflexion gehört auch, dass Sie an den Nutzen des Lesers denken – was bringt ihm die Lektüre Ihres Texts? Sagen Sie z. B. anfangs, warum sich Ihr Thema „lohnt“!</p></li>
 <li><p>Unterscheiden Sie zwischen Beschreibung von Ideen (oder [Ihren] empirischen Ergebnissen) und deren Beurteilung.</p></li>
 <li><p>Beziehen Sie Ihre Ergebnisse/Daten auf die Literatur.</p></li>
-</ul></section><section id="fachwissen-zeigen-sie-dass-sie-sich-auskennen" class="level3" data-number="8.8.3"><h3 data-number="8.8.3" class="anchored" data-anchor-id="fachwissen-zeigen-sie-dass-sie-sich-auskennen">
-<span class="header-section-number">8.8.3</span> Fachwissen: Zeigen Sie, dass Sie sich auskennen</h3>
+</ul></section><section id="fachwissen-zeigen-sie-dass-sie-sich-auskennen" class="level3" data-number="8.7.3"><h3 data-number="8.7.3" class="anchored" data-anchor-id="fachwissen-zeigen-sie-dass-sie-sich-auskennen">
+<span class="header-section-number">8.7.3</span> Fachwissen: Zeigen Sie, dass Sie sich auskennen</h3>
 <ul>
 <li><p>Nachdem Sie darüber nachgedacht haben, was ein lohnendes Thema ist, recherchieren Sie nach Literatur.</p></li>
 <li><p>Ohne einen kundigen (und aktuellen) Überblick über den Stand der Forschung können Sie keine verlässlichen Aussagen treffen – und keine gute Arbeit schreiben.</p></li>
@@ -1258,8 +1269,8 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 <li><p>Ihr Fachwissen zeigen Sie auch dadurch, dass Sie kritisch zu den Texten oder dem Forschungsstand Stellung nehmen.</p></li>
 <li><p>Erläutern Sie nicht die Hintergründe Ihrer Methoden im Detail. Das steht schon in den Lehrbüchern bzw. ist nicht üblich.</p></li>
 <li><p>Gehen Sie auf wesentliche Befunde oder Theorien des Fachgebiets ein, soweit relevant bzw. zweckdienlich.</p></li>
-</ul></section><section id="fluss-der-text-soll-elegant-fließen" class="level3" data-number="8.8.4"><h3 data-number="8.8.4" class="anchored" data-anchor-id="fluss-der-text-soll-elegant-fließen">
-<span class="header-section-number">8.8.4</span> Fluss: Der Text soll elegant fließen</h3>
+</ul></section><section id="fluss-der-text-soll-elegant-fließen" class="level3" data-number="8.7.4"><h3 data-number="8.7.4" class="anchored" data-anchor-id="fluss-der-text-soll-elegant-fließen">
+<span class="header-section-number">8.7.4</span> Fluss: Der Text soll elegant fließen</h3>
 <ul>
 <li><p>Begründen Sie Ihr Vorgehen.</p></li>
 <li><p>Man soll Dinge so einfach wie möglich ausdrücken, aber nicht einfacher (Einstein). Verwechseln Sie nicht komplizierte Wörter mit gehaltvollem Inhalt.</p></li>
@@ -1269,8 +1280,8 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 <li><p>Schreiben Sie elegant: Z. B. meiden Sie (insgesamt) Passivsätze; schreiben Sie aktiv. Wechseln Sie kurze mit langen Sätzen ab. Meiden Sie Amtsdeutsch wie der Teufel das Weihwasser. Ein guter Titel hat selten geschadet. Verwenden Sie die „Ich-Form“ sparsam; genauso das „man“.</p></li>
 <li><p>Nutzen Sie Schaubilder, Diagramme etc. soweit sinnvoll.</p></li>
 <li><p>Machen Sie keine Screenshots von R-Syntax, die Sie im Bericht wiedergeben. Stellen Sie die Syntax stattdessen in eine Datei, die Sie mit einreichen.</p></li>
-</ul></section><section id="redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar" class="level3" data-number="8.8.5"><h3 data-number="8.8.5" class="anchored" data-anchor-id="redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar">
-<span class="header-section-number">8.8.5</span> Redlichkeit: Machen Sie Ihre Ergebnisse nachvollziehbar</h3>
+</ul></section><section id="redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar" class="level3" data-number="8.7.5"><h3 data-number="8.7.5" class="anchored" data-anchor-id="redlichkeit-machen-sie-ihre-ergebnisse-nachvollziehbar">
+<span class="header-section-number">8.7.5</span> Redlichkeit: Machen Sie Ihre Ergebnisse nachvollziehbar</h3>
 <ul>
 <li><p>Was sind Ihre eigenen Gedanken und welche Gedanken haben Sie übernommen – machen Sie dies kenntlich, indem Sie übernommen Gedanken als Zitate kennzeichnen.</p></li>
 <li><p>Es ist nicht schändlich, Gedanken anderer zu übernehmen. Im Gegenteil: „Auf den Schultern von Giganten“ ist eine Credo der Wissenschaft. Sie können also auch replizieren.</p></li>
@@ -1279,8 +1290,8 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 <li><p>Explizieren Sie Ihre Suchstrategie für Literatur (welche Datenbanken? Welche Suchbegriffe? Wie viele Treffer? Welche ausgewählt? Nach welchen Kriterien?) Ausführliche Details packen Sie in den Anhang.</p></li>
 <li><p>Reichen Sie Syntax, Daten und ggf. Stimulus-Materialien (elektronisch) ein.</p></li>
 <li><p>Versuchen Sie, den Nutzen Ihrer Arbeit für Dritte aufzuzeigen.</p></li>
-</ul></section><section id="leserseite-schreiben-sie-für-den-leser" class="level3" data-number="8.8.6"><h3 data-number="8.8.6" class="anchored" data-anchor-id="leserseite-schreiben-sie-für-den-leser">
-<span class="header-section-number">8.8.6</span> Leserseite: Schreiben Sie für den Leser</h3>
+</ul></section><section id="leserseite-schreiben-sie-für-den-leser" class="level3" data-number="8.7.6"><h3 data-number="8.7.6" class="anchored" data-anchor-id="leserseite-schreiben-sie-für-den-leser">
+<span class="header-section-number">8.7.6</span> Leserseite: Schreiben Sie für den Leser</h3>
 <p>Hier sind einige typische Fragen, die sich Lesis - implizit oder explizit - stellen:</p>
 <ul>
 <li>
@@ -1291,15 +1302,82 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 <em>Was soll ich jetzt tun?</em> –&gt; Geben Sie Handlungsempfehlungen, ggf. „Kochrezepte“, wie in einer bestimmten Situation vorzugehen ist, z. B. Typologien beschreiben</li>
 <li>
 <em>So what?</em> –&gt; Tja, und nun :-)</li>
-</ul></section></section><section id="sie-sind-bestimmt-super-streng-was-die-methodenstatistik-betrifft" class="level2" data-number="8.9"><h2 data-number="8.9" class="anchored" data-anchor-id="sie-sind-bestimmt-super-streng-was-die-methodenstatistik-betrifft">
+</ul></section></section><section id="einsatz-von-ki-diensten" class="level2" data-number="8.8"><h2 data-number="8.8" class="anchored" data-anchor-id="einsatz-von-ki-diensten">
+<span class="header-section-number">8.8</span> Einsatz von KI-Diensten</h2>
+<p>Bei diesem Prüfer (Prof.&nbsp;Sauer) dürfen (nur) Sie bei schriftlichen Prüfungen KI-Tools ohne Einschränkung nutzen, sofern nicht explizit anders bei der jeweiligen Prüfung ausgewiesen.</p>
+<p>Dabei haben Sie eine <em>Angabepflicht</em>, <em>wo</em>, <em>wofür</em> und <em>welche</em> KI-Dienste Sie verwendet haben. Der Anhang ist ein sinnvoller Ort, um den Angaben für Ihren KI-Einsatz zu detaillieren. Geben Sie dabei an,</p>
+<ul>
+<li>in welchen Kapiteln</li>
+<li>welche KI-Dienst (inkl. Version und Anbieter)</li>
+<li>Sie für welchen Zweck verwendet haben. Unter <em>Zweck</em> fallen z.B. folgende Verwendung: Zusammenfassung von Literatur, Entwurf einer Gliederung, Umformulieren von Textpassagen, Korrektur von Grammatik und Orthographie, Übersetzung, Entwurf einer Argumentationsstruktur.</li>
+</ul>
+<p>Es ist <em>nicht</em> nötig,</p>
+<ul>
+<li>die KI-Verwendung auf einzelne Absätze (oder genauer) aufzuschlüsseln. Es reicht eine Aufschlüsselung pro Unterkapitel.</li>
+<li>die Prompts anzugeben.</li>
+</ul>
+<div id="exm-ki-pruef" class="theorem example">
+<p><span class="theorem-title"><strong>Beispiel 8.1 (Wo Ihnen welche KI-Tools helfen können)</strong></span> Hier ist eine an Beispielen von KI-Tools und ihrer Einsatzmöglichkeit. Beachten Sie bitte, dass die Entwicklung sehr dynamisch ist, so dass diese Liste nicht unbedingt alle “besten” Tools beinhaltet. Es geht vielmehr darum, Sie zu inspirieren und Ihnen Startpunkte aufzuzeigen. Die aufgeführten Tools sind nicht im Sinne einer expliziten Empfehlung zu verstehen.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<ul>
+<li>Identifikation geeigneter <em>Literaturquellen</em>, <a href="https://elicit.com/">Elicit</a>, <a href="https://www.perplexity.ai/">Perplexity</a>
+</li>
+<li>Erstellung eines <em>Gliederungsvorschlags</em>, <a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://gemini.google.com/app">Gemini</a>
+</li>
+<li>Sie können KI-Tools zur Transkription nutzen wie z.B. <a href="https://riverside.fm/transcription">riverside</a>.</li>
+<li>
+<em>Übersetzung</em> Ihres Texts von Deutsch auf Englisch, <a href="https://www.deepl.com/translator">DeepL</a>
+</li>
+<li>Verbesserung des <em>Sprachflusses</em>, <a href="https://www.grammarly.com/">Grammarly</a>, <a href="https://chat.openai.com/">ChatGPT</a>
+</li>
+<li>Ausgabe von <em>Computer-Code</em>, z.B. um eine Analyse mit R durchzuführen, <a href="https://chat.openai.com/">ChatGPT</a>, <a href="https://stackoverflow.com/ai/search">StackOverflow AI</a>
+</li>
+<li>Ausgabe eines <em>Textentwurfs</em>, <a href="https://chat.openai.com/">ChatGPT</a> <span class="math inline">\(\square\)</span>
+</li>
+</ul>
+</div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Wichtig
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Der Autor bzw. die Autorin eines Textes und damit Träger der Verantwortung sind Sie, die Person. Wenn Sie die Vorteile bestimmter technischer Systeme nutzen, so tragen Sie auch das Risiko für Nebenwirkungen. Es ist nicht möglich, die Verantwortung für Ihr Handeln auf eine Maschine oder einen Dienst abzuschieben.</p>
+<p><em>Sie sind in der Verantwortung für Ihren Text, Ihre Arbeit und Ihr Handeln.</em> KI hin oder her. <span class="math inline">\(\square\)</span></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-caution callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Vorsicht
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Manche KI-Tools neigen zum <em>Fabulieren</em>, erfinden also Dinge, die es nicht gibt; liefern also falsche, unpräzise oder veraltete Information. Und sie tun das mit hoher Überzeugung.</p>
+<p>Ein Sprachmodell ist eine Art Trichter von einer großen Menge an Texten aus dem Internet. Texten, die Menschen geschrieben haben. Alle <em>Vorurteile</em> oder Stereotypen, die Sie etwa in einem Forum in den sozialen Netzwerken finden, haben gute Chancen als Antwort auf Ihren Prompt von der KI ausgegeben zu werden. Achten Sie daher auf Anzeichen von diskriminierender Sprache, wenn Sie ein KI-Sprachmodell verwenden.</p>
+<p>Manche<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> KI-Tools neigen zu Oberflächlichkeit, blumigem Ausdruck und unsteter Argumentation (“<em>Schwafel</em>”). Wissenschaftliche Sprache ist dagegen präzise. Prüfen Sie etwaige Formulierungsvorschläge eines Sprachmodells daraufhin.</p>
+<p>Seien Sie also kritisch gegenüber der Informationen aus KI-Tools. <span class="math inline">\(\square\)</span></p>
+</div>
+</div>
+</section><section id="sie-sind-bestimmt-super-streng-was-die-methodenstatistik-betrifft" class="level2" data-number="8.9"><h2 data-number="8.9" class="anchored" data-anchor-id="sie-sind-bestimmt-super-streng-was-die-methodenstatistik-betrifft">
 <span class="header-section-number">8.9</span> Sie sind bestimmt super streng, was die Methoden/Statistik betrifft?</h2>
 <p>Ja :-)</p>
 <p>Im Ernst: Ich erwarte nicht mehr als das, was im Unterricht an methodischem Wissen vermittelt wurde.</p>
-<p>Ambitionierten Studierenden sei empfohlen, eine experimentelle Studie durchzuführen (keine Beobachtungsstudie) - sofern möglich, die Arbeit zu präregistrieren (z.B. bei www.osf.io), generell auf gute Reproduzierbarkeit zu achten und multiple Regression zu verwenden - sofern sinnvoll.</p>
+<p>Ambitionierten Studierenden sei empfohlen, eine experimentelle Studie durchzuführen (keine Beobachtungsstudie) – sofern möglich, die Arbeit zu präregistrieren (z.B. bei www.osf.io), generell auf gute Reproduzierbarkeit zu achten und multiple Regression zu verwenden – sofern sinnvoll.</p>
 <p>Für neue (im Unterricht nicht behandelte quantitative) Methoden bin ich immer offen und freue mich über Ihre Ideen.</p>
 
 
-</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><hr>
+<ol>
+<li id="fn1"><p>Der Autor hat keine geschäftlichen Beziehungen zu den Organisationen, die diese Tools anbieten.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>alle?<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol></section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");

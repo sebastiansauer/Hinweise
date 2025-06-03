@@ -1,6 +1,8 @@
 # Literaturreviews
 
 
+## Überblick
+
 *Systematische* Literaturreviews (Studie zum Literaturüberblick) sind (ceteris paribus) *nicht*-systematischen Literaturreviews vorzuziehen.
 
 
@@ -9,6 +11,114 @@ Es gibt viele Anleitungen, wie man einen (guten systematischen) Literaturüberbl
 
 Für Recherchen mit Google Scholar ist die Software [Publish or Perish](https://harzing.com/resources/publish-or-perish/windows) zu empfehlen.
 
+
+## Vorgehen nach @siddaway2019
+
+1. Festlegung der Notwendigkeit eines Reviews
+
+- Begründung, warum ein systematischer Review erforderlich ist, z. B. bei widersprüchlichen Ergebnissen in der bestehenden Literatur oder bei offenen Forschungsfragen.
+
+2. Präzise Definition der Forschungsfrage
+
+- Formulierung einer klaren und fokussierten Frage, die den Rahmen für den gesamten Review-Prozess bildet.
+
+3. Planung der Methodik
+
+- Festlegung der Ein- und Ausschlusskriterien für Studien.
+
+- Auswahl geeigneter Datenbanken und Entwicklung einer umfassenden Suchstrategie.
+
+- Berücksichtigung sowohl veröffentlichter als auch unveröffentlichter Arbeiten, um Publikationsbias zu minimieren.
+
+4. Durchführung der Literaturrecherche
+
+- Systematische Suche in den ausgewählten Datenbanken unter Anwendung der definierten Suchbegriffe und Filter.
+
+5. Auswahl relevanter Studien
+
+- Anwendung der Ein- und Ausschlusskriterien zur Identifikation relevanter Studien.
+
+- Dokumentation des Auswahlprozesses, idealerweise mit einem Flussdiagramm (z. B. PRISMA-Flowchart).
+
+6. Datenextraktion
+
+- Systematische Erfassung relevanter Daten aus den eingeschlossenen Studien, wie z. B. Studiendesign, Stichprobengröße, Ergebnisse und Qualität.
+
+7. Bewertung der Studienqualität
+
+- Einsatz standardisierter Instrumente zur Beurteilung der methodischen Qualität der Studien.
+
+8. Synthese der Ergebnisse
+
+- Je nach Art der Daten erfolgt eine narrative Synthese, eine Meta-Analyse oder eine Meta-Synthese.
+
+- Integration der Ergebnisse zur Beantwortung der Forschungsfrage.
+
+9. Kritische Reflexion
+
+- Diskussion der Ergebnisse im Kontext der Forschungsfrage.
+
+- Identifikation von Limitationen, möglichen Biases und Forschungslücken.
+
+10. Berichterstattung
+
+- Transparente und vollständige Darstellung des gesamten Review-Prozesses.
+
+- Einhaltung von Reporting-Standards wie PRISMA zur Sicherstellung der Nachvollziehbarkeit.
+
+Diese strukturierte Vorgehensweise gewährleistet die Transparenz, Reproduzierbarkeit und wissenschaftliche Integrität eines systematischen Literaturreviews. 
+Für Studierende im Bachelorstudium der Psychologie bietet dieser Leitfaden eine wertvolle Orientierung bei der Planung und Durchführung ihrer Arbeiten.
+
+
+
+
+## Beispiele für gute systematische Literaturreviews
+
 Die [Schriftenreihe des iwp der FOM Hochschule](https://forschung.fom.de/forschung/institute/iwp/publikationen.html) bietet u.a. [dieses Beispiel für ein systematisches Literaturreview](https://forschung.fom.de/fileadmin/fom/forschung/iwp/Schriftenreihe/FOM-Forschung-iwp-Schriftenreihe-Band-12-Dosch-Kathrin-Unternehmertyp-2022.pdf).
+
+
+@goldberg2018 und @chakhssi2018 sind Beispiele für gute Anwendungen systematischer Literaturreviews.
+Im Folgenden ist das methodische Vorgehen von @goldberg2018 dargestellt.
+
+1. Zielsetzung und Forschungsfrage
+
+Die Autoren untersuchten die Wirksamkeit von Interventionen der Positiven Psychologie (PPIs) auf das Wohlbefinden (primäres Outcome) sowie auf Depression, Angst und Stress (sekundäre Outcomes) bei klinischen Populationen mit psychiatrischen oder somatischen Erkrankungen.
+
+
+2. Literaturrecherche
+
+- Datenbanken: Es wurde eine umfassende Suche in den Datenbanken PsycINFO, PubMed und Scopus durchgeführt.
+- Zeitraum: Berücksichtigt wurden Studien, die zwischen dem 1. Januar 1998 und dem 31. Mai 2017 veröffentlicht wurden.
+- Suchstrategie: Die Suche erfolgte systematisch unter Verwendung spezifischer Suchbegriffe, um relevante kontrollierte Studien zu identifizieren.
+
+3. Ein- und Ausschlusskriterien
+
+*Einschlusskriterien:*
+
+- Kontrollierte Studien mit erwachsenen Teilnehmern (≥18 Jahre) mit diagnostizierten psychiatrischen oder somatischen Erkrankungen.
+- Interventionen, die auf Theorien der Positiven Psychologie basieren und positive Gefühle, Kognitionen oder Verhaltensweisen fördern.
+- Verwendung validierter Messinstrumente für Wohlbefinden oder verwandte Konstrukte.
+
+*Ausschlusskriterien*:
+
+- Studien, die sich primär auf körperliche Übungen, Achtsamkeit, Meditation oder reminiszente Interventionen konzentrieren.
+- Nicht in englischer Sprache veröffentlichte Studien oder solche ohne Peer-Review.
+
+4. Datenextraktion und Qualitätsbewertung
+
+- Datenextraktion: Es wurden Informationen zu Studiendesign, Teilnehmermerkmalen, Art der Intervention, Dauer, Messzeitpunkten und Ergebnissen systematisch erfasst.
+- Qualitätsbewertung: Die methodische Qualität der Studien wurde anhand eines siebenstufigen Bewertungssystems beurteilt, das auf dem Cochrane-Risiko-von-Bias-Tool und der Jadad-Skala basiert. Kriterien umfassten u.a. Randomisierung, Verblindung, Umgang mit fehlenden Daten und Durchführung von Intention-to-Treat-Analysen.
+
+5. Statistische Analyse
+- Effektstärkeberechnung: Für jede Studie wurden standardisierte Mittelwertsdifferenzen (Hedges’ g) berechnet, wobei Prä- und Post-Interventionswerte berücksichtigt wurden.
+- Publikationsbias: Es wurden Funnel-Plots erstellt und Egger’s Test sowie das Trim-and-Fill-Verfahren angewendet, um mögliche Verzerrungen durch nicht veröffentlichte Studien zu identifizieren.
+europepmc.org
+
+
+
+6. Registrierung und Transparenz
+Das Review wurde im PROSPERO-Register unter der Nummer CRD42016037451 registriert, was die Transparenz und Nachvollziehbarkeit des methodischen Vorgehens unterstützt.
+
+## Literaturverzeichnis
 
 
