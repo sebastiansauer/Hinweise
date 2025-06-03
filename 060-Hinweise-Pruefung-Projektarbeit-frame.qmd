@@ -1,5 +1,10 @@
 # Schriftliche Prüfungen {#sec-schriftliche-pruefungen}
 
+```{r}
+#| include: false
+library(tinytable)
+```
+
 
 Unter *schriftliche Prüfungen* werden hier *Projekt-, Seminar-, Abschlussarbeiten* verstanden.
 
@@ -251,7 +256,7 @@ Bitte beachten Sie, dass die folgende Liste nicht vollständig ist und auch nich
 ### Gutachtenerstellung
 
 
-- Neben der Gesamtnote und den Teilnoten kann der Gutachter zusätzliche noch Kommentare, d.h. ausformulierte Aussagen zur Bewertung bestimmter Teile der Arbeit, hinzufügen.
+- Neben der Gesamtnote und ggf. den Teilnoten kann der Gutachter zusätzliche noch Kommentare, d.h. ausformulierte Aussagen zur Bewertung bestimmter Teile der Arbeit, hinzufügen.
 - Ein Teil des Gesamteindrucks der Arbeit spiegelt sich in den Kommentaren des Gutachters wider. Jedoch spiegelt die Summe der Kommentare nicht (zwangsläufig) die Gesamtnote wider, sondern nur denjenigen Teil, für den der Gutachter es für sinnvoll befunden hat, explizite Kommentare anzugeben.
 - Es ist insbesondere nicht möglich, von der Anzahl der positiven oder negativen Kommentare auf eine bestimmte Note zurückzuschließen.
 - Auch Vergleiche zwischen Gutachten verschiedener Student/innen ist nicht rein auf Basis der Kommentare möglich, da die Kommentare nur einen Ausschnitt des Meinungsbilds des Gutachters widerspiegeln.
@@ -261,6 +266,57 @@ Bitte beachten Sie, dass die folgende Liste nicht vollständig ist und auch nich
 
 
 Das Gutachten kann mit Hilfe von [Textbausteinen wie aus dieser Sammlung](https://sebastiansauer.github.io/textbausteine-korrektur/Textbausteine-Korrektur.html) erstellt sein.
+
+
+### Benotungstabelle
+
+
+```{r benotungstabelle}
+#| echo: false
+
+
+Details <- c("Regeleinhaltung (z.B. Seitenzahl), 
+Zitieren (z.B. Konsistenz, Regelbefolgung im Text und im Literaturverzeichnis), 
+Formatierung (z.B. Übersichtlichkeit, optische Ansprechung), 
+Rechtschreibung (z.B. auch Zeichensetzung, Fremdwörter), 
+Sonstiges (z.B. Referenzieren)
+",
+"Reproduzierbarkeit (z.B. Daten eingereicht), 
+Design (z.B. Anspruch und Korrektheit des Versuchsaufbau und der Messinstrumente), 
+Stichprobe (z.B. Umfang), 
+Auswertung (z.B. Anspruch, Umfang und Korrektheit), 
+Sonstiges (z.B. Güte der Dokumentation)",
+"Roter Faden (z.B. Forschungsfrage als Angelpunkt der Ausarbeitung), 
+Theoretische Aufarbeitung (z.B. Umfang und Korrektheit),
+Quellen (z.B. Güte und Umfang), 
+Sprache (z.B. Prägnanz), 
+Sonstiges (z.B. Limitationen erkannt)",
+"Gesamteindruck"
+)
+
+bewertungsschema <- 
+  data.frame(
+    stringsAsFactors = FALSE,
+    Kriterium = c("Formalia", "Methodik", "Inhalt", "FAZIT"),
+    Gewichtung = c("1/3", "1/3", "1/3", 1),
+    Details = Details,
+    Note = c(NA, NA, NA, NA)
+  )
+
+### HIER NOTEN EINTRAGEN:
+bewertungsschema$Note[bewertungsschema$Kriterium == "Formalia"] <- 2.7
+bewertungsschema$Note[bewertungsschema$Kriterium == "Methodik"] <- 1
+bewertungsschema$Note[bewertungsschema$Kriterium == "Inhalt"] <- 1.3
+
+# GESAMTNOTE:
+
+bewertungsschema$Note[bewertungsschema$Kriterium == "FAZIT"] <- mean(bewertungsschema$Note,na.rm = TRUE)
+
+bewertungsschema |> 
+  tt(theme = "striped", digits = 2) |> 
+    style_tt(i = 4, bold = TRUE)
+
+```
 
 
     
@@ -282,7 +338,7 @@ d <- readxl::read_xlsx("mengengeruest.xlsx")
 # d |> 
 #   DT::datatable(escape = FALSE)
 
-gt::gt(d)
+tt(d)
 ```
 
 
