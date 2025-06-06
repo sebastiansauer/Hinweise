@@ -9,12 +9,13 @@
 ### Bitte meinen Code durchsehen
 
 
-FRAGE: Können Sie bitte mal meinen Code durchsehen, ob alles passt?
+FRAGE: Können Sie bitte mal meinen R-Code durchsehen, ob alles passt?
 
 
-ANTWORT: Das hört sich an wie "bitte schreiben Sie mir meinen Code so, dass er passt". Sie verstehen sicher, dass das zu weit geht.
+ANTWORT: Das hört sich an wie "bitte schreiben Sie mir meinen Code so, dass er passt". Sie verstehen sicher, dass solche Hilfe zu weit ginge.
 
-Aber helfen kann ich Ihnen schon etwas. Sagen Sie mir ein konkretes Problem oder eine konkrete Frage, dann gebe ich Ihnen eine konkrete Antwort. Bitte formulieren Sie Ihre Frage so, dass ich gut helfen kann: Knapp, präzise mit allen Infos aber ohne unnötige Details. S. auch ERBIE: https://statistik1.netlify.app/030-aufbereiten.html#sec-erbie
+Aber helfen kann ich Ihnen schon etwas. Sagen Sie mir ein konkretes Problem oder eine konkrete Frage, dann gebe ich Ihnen eine konkrete Antwort. Bitte formulieren Sie Ihre Frage so, dass ich gut helfen kann: Knapp, präzise mit allen Infos aber ohne unnötige Details. S. auch [ERBIE](https://statistik1.netlify.app/030-aufbereiten.html#sec-erbie).
+
 
 
 ### RStudio Cloud stürzt ab, was tun?
