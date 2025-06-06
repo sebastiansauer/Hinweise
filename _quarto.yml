@@ -59,11 +59,12 @@ book:
         - 120-Hinweise-Unterricht-frame.qmd
         - 130-hinweise-software.qmd
         - 140-boni.qmd
-    - part: "Lernen"
+    - part: "Lernhilfen"
       chapters: 
         - 150-Hinweise-Pruefungsvorbereitung-frame.qmd
         - 160-Hinweise-Lernhilfen-frame.qmd
         - 165-Hinweise-Thesis-frame.qmd
+        - 167-FAQ.qmd
     - part: "Häufige Fehler"
       chapters: 
         - 170-Beispiele-Fehler-Prognosewettbewerb-frame.qmd
