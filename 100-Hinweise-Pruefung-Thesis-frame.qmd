@@ -51,8 +51,39 @@ gehe ich davon aus, dass Sie diese Hinweise gelesen haben und einverstanden sind
 
 ## Themenwahl
 
-Sie können *selber ein Thema vorschlagen* oder eines der Themen wählen, die ich in meiner Liste freier Themen anbiete (s. @sec-themenliste und @tbl-themen). Das Thema soll in Bezug stehen zu Ihrem Studiengang.  Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
+Sie können *selber ein Thema vorschlagen* oder eines der Themen wählen, die ich in meiner Liste freier Themen anbiete (s. @sec-themenliste und @tbl-themen). 
+Das Thema soll in Bezug stehen zu Ihrem Studiengang.  
+Ich betreue Arbeiten mit verschiedener Methodik: theoretische Arbeiten, Arbeiten mit qualitativer Methodik und Arbeiten mit quantitativer Methodik.
 Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
+
+
+### Wie finde ich mein Thema?
+
+Wie finde ich mein Thema? Oder wie findet mein Thema mich? Ist das sowas wie Liebe auf den ersten Blick? Wie als würde man in eine Bar gehen und da sitzt dann diese Person am Tresen und man weiß sofort, gleichsam vom Blitz getoffen: Das ist sie/er!
+
+Naja, nicht ganz genau so ist es mit "ihrem" Thema für Ihre Qualifizierungsarbeit.
+
+Der Weg zum Glück bzw. zu Ihrem Thema heißt: *Lesen*.
+Lesen Sie sich in die Fachliteratur ein. 
+Also: Recherchieren Sie nach ihrer Idee des Themas, das kann noch sehr grob und ungenau sein.
+Diese Idee des Themas kann sich auch noch ändern, das passiert häufig und ist vollkommen in Ordnung. Auf jeden Fall wird sich Ihr Thema noch präzisieren.
+Wichtig ist, dass Sie anfangen, sich einzulesen.
+Sie lesen also einige Fachliteratur.
+Dort finden Sie dann Hinweise für weitere Literatur.
+Parallel bauen Sie sich eine Wissenslandkarte zu Ihren Gedanken beim Lesen auf.
+So wächst Ihre Idee des Themas, s. @fig-thema.
+
+![Durch Lesen und Notizen machen wächst Ihre Idee des Themas](https://fopro.netlify.app/img/spirale-crop.png){#fig-thema width=50%}
+
+
+:::{callout-tip}
+### Nachmachen 2.0
+
+Lesen Sie sich eine Studie genau durch, die ähnlich (in Forschungsfrage oder Methodik) zu Ihrer Themenidee ist.
+Dann konzipierien Sie eine analoge (ähnliche) Studie.
+:::
+
+
 
 
 ### Liste meiner freien Themen {#sec-themenliste}
@@ -315,21 +346,21 @@ D.h. tragen Sie Titel der Arbeit sowie Namen der Gutachter schon ein.
 
 ## Besonderheiten von Doktorarbeiten
 
-Ich betreue Themen aus aus der Psychologie (und angrenzender Wissenschaften), 
+Ich betreue Themen (nur) aus der Psychologie (und angrenzender Wissenschaften), 
 denn dort kenne ich die "Spielregeln" und haben einen breiten fachlichen Hintergrund.
 
-Mein Anspruch an Sie ist, dass Ihre Forschungsarbeit anschlussfähig ist an den aktuellen wissenschaftlichen Diskurs.
+Mein Anspruch an Sie ist, dass Ihre Forschungsarbeit *anschlussfähig* ist an den aktuellen wissenschaftlichen Diskurs.
 Das zeigt sich vielleicht am objektivsten, wenn Sie in gängigen englischsprachigen Fachzeitschriften publizieren als zentrale Leistung im Rahmen Ihrer Dissertation ("kumulative Promotion").
 
 Falls Sie nicht (oder nur teilweise) über einen psychologischen Fachhintergrund verfügen,
 kann es sinnvoll sein, 
 vor oder während der Promotion (intensiv) psychologische und wissenschaftsmethodische Fachliteratur zu lesen.
 
-Kumulative Promotion hat auch den Vorteil, dass Sie von Ihrem Betreuer (z.B. mir) weniger abhängig sind: 
+Die kumulative Promotion hat auch den Vorteil, dass Sie von Ihrem Betreuer (z.B. mir) *weniger abhängig* sind: 
 Schließlich entscheiden anonyme Fachgutachten über die wissenschaftliche Anschlussfähigkeit Ihrer Forschung.
 
-Mit Blick auf die Forschungsmethodik bin ich aufgeschlossen; 
-häufig empfiehlt sich eine Kombination aus theoretischer Arbeit (Literaturüberblick, wie bibliometrische Analyse oder systematisches Review) 
+Mit Blick auf die *Forschungsmethodik* bin ich aufgeschlossen; 
+häufig empfiehlt sich eine *Kombination* aus theoretischer Arbeit (Literaturüberblick, wie bibliometrische Analyse oder systematisches Review) 
 plus quantitativer Methode (Experimente und/oder Beobachtungsstudine).
 
 Mit meinen Doktorandinnen und Doktoranden pflege ich einerseits regelmäßige Treffen zur Besprechung des aktuellen Stands 
@@ -339,7 +370,7 @@ Doktorarbeiten sind i.d.R. eingebunden in ein formales Programm der rahmengebend
 was u.a. die Teilnahme an Kursen und Nachweis von Prüfungen und ECTS-Erwerb bedeutet;
 ggf. auch Lehre.
 
-Oft dauert eine Doktorarbeit ca. drei Jahre bis zur Abgabe, 
+Oft dauert eine Doktorarbeit ca. *drei Jahre* bis zur Abgabe, 
 wenn man die Doktorarbeit "Teilzeit" bearbeitet.
 D.h. wenn man kontinuierlich und ernsthaft der wissenschaftlicher Tätigkeit nachgeht, aber  gleichzeitig für den "Broterwerb" arbeitet.
 
@@ -350,6 +381,15 @@ desto größer wird die Gefahr, dass es zu keinem Abschluss kommt.
 Eine Doktorarbeit ist eine (einmalige) Zeit des Vertiefens in ein Thema.
 Das kann große Freude bereiten, aber auch Disziplin und Durchhaltekraft verlangen.
 Überlegen Sie sich, inwieweit solche Arbeit zu Ihren Lebensumständen und Präferenzen passen.
+
+
+
+## Tipps
+
+
+- Lesen Sie viel *Fachliteratur.*
+- Machen Sie sich *Notizen*, um eine Wissenslandkarte des Gelesenen aufzubauen. Dazu bietet sich ein [Zettelkasten](https://fopro.netlify.app/020-themawahl#zettelkasten) an.
+- Auf den *Schultern* von *Giganten*: Orientieren Sie sich in Ihrem Vorgehen an relevanten Fachartikeln und entwickeln Sie diese Ideen weiter.
 
 
 
