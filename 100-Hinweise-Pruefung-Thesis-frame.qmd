@@ -76,11 +76,11 @@ So wächst Ihre Idee des Themas, s. @fig-thema.
 ![Durch Lesen und Notizen machen wächst Ihre Idee des Themas](https://fopro.netlify.app/img/spirale-crop.png){#fig-thema width=50%}
 
 
-:::{callout-tip}
-### Nachmachen 2.0
+:::{.callout-tip}
+### Auf den Schultern von Giganten
 
-Lesen Sie sich eine Studie genau durch, die ähnlich (in Forschungsfrage oder Methodik) zu Ihrer Themenidee ist.
-Dann konzipierien Sie eine analoge (ähnliche) Studie.
+Tipp: Lesen Sie sich eine Studie genau durch, die ähnlich (in Forschungsfrage oder Methodik) zu Ihrer Themenidee ist.
+Dann konzipierien Sie darafu aufbauend eine analoge (ähnliche) Studie. Das ist nicht "Nachmachen 2.0", sondern die Weiterführung bestehender Erkenntnisse.
 :::
 
 
