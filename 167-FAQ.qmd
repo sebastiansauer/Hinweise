@@ -271,6 +271,16 @@ ANTWORT: Die Aufgaben im Skript sind am wichtigsten. Dazu sollten die Inhalte, a
 
 
 
+### Anmeldung in Moodle nicht möglich?
+
+FRAGE: Ich kann mich nicht in Moodle anmelden. Es erscheint folgender Hinweis bzw. folgende Fehlermeldung: "Leider gibt es derzeit in der Moodle App Probleme mit der Einschreibung in Kurse. Wir suchen eine Lösung für das Problem. Solange schreiben Sie sich bitte über einen Browser (auch am Handy möglich) in Ihre Kurse ein. Bitte entschuldigen Sie die Unannehmlichkeiten."
+
+ANTWORT: Dieser Hinweis betrifft nur die Anmeldung via App auf dem Handy. Die Anmeldung über den Browser (Computer) sollte problemlos funktioneren, s. @fig-login-moodle.
+
+![Bitte klicken Sie auf "Login" bzw. "Hier können Sie sich anmelden", um sich in Moodle anzumelden](img/login-moodle.png){#fig-login-moodle width=75%}
+
+
+
 
 
 
