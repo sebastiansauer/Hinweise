@@ -562,7 +562,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#welche-art-von-fragen" id="toc-welche-art-von-fragen" class="nav-link" data-scroll-target="#welche-art-von-fragen"><span class="header-section-number">23.2.10</span> Welche Art von Fragen?</a></li>
   <li><a href="#vorbereitung" id="toc-vorbereitung" class="nav-link" data-scroll-target="#vorbereitung"><span class="header-section-number">23.2.11</span> Vorbereitung?</a></li>
   <li><a href="#l%C3%BCckenlose-vorbereitung" id="toc-lückenlose-vorbereitung" class="nav-link" data-scroll-target="#l%C3%BCckenlose-vorbereitung"><span class="header-section-number">23.2.12</span> Lückenlose Vorbereitung?</a></li>
-  <li><a href="#anmeldung-in-moodle-nicht-m%C3%B6glich" id="toc-anmeldung-in-moodle-nicht-möglich" class="nav-link" data-scroll-target="#anmeldung-in-moodle-nicht-m%C3%B6glich"><span class="header-section-number">23.2.13</span> Anmeldung in Moodle nicht möglich</a></li>
+  <li><a href="#anmeldung-in-moodle-nicht-m%C3%B6glich" id="toc-anmeldung-in-moodle-nicht-möglich" class="nav-link" data-scroll-target="#anmeldung-in-moodle-nicht-m%C3%B6glich"><span class="header-section-number">23.2.13</span> Anmeldung in Moodle nicht möglich?</a></li>
   </ul>
 </li>
   </ul><div class="toc-actions"><ul><li><a href="https://github.com/sebastiansauer/hinweise/issues/new" class="toc-action"><i class="bi bi-github"></i>Problem melden</a></li></ul></div></nav>
@@ -697,9 +697,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode" id="cb10"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://easystats.github.io/easystats/">easystats</a></span><span class="op">)</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stderr">
 <pre><code># Attaching packages: easystats 0.7.4 (red = needs update)
-✔ bayestestR  0.16.0   ✔ correlation 0.8.7 
+✖ bayestestR  0.16.0   ✔ correlation 0.8.7 
 ✔ datawizard  1.1.0    ✖ effectsize  1.0.0 
-✔ insight     1.3.0    ✖ modelbased  0.11.0
+✖ insight     1.3.0    ✖ modelbased  0.11.0
 ✖ performance 0.13.0   ✖ parameters  0.25.0
 ✔ report      0.6.1    ✔ see         0.11.0
 
@@ -715,7 +715,7 @@ Restart the R-Session and update packages with `easystats::easystats_update()`.<
 <div class="cell-output-display">
 <div data-pagedtable="false">
   <script data-pagedtable-source="" type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Parameter"],"name":[1],"type":["chr"],"align":["left"]},{"label":["CI"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["ROPE_low"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["ROPE_high"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["ROPE_Percentage"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["Effects"],"name":[6],"type":["chr"],"align":["left"]},{"label":["Component"],"name":[7],"type":["chr"],"align":["left"]}],"data":[{"1":"(Intercept)","2":"0.95","3":"-0.5459584","4":"0.5459584","5":"0.0002631579","6":"fixed","7":"conditional","_rn_":"1"},{"1":"year","2":"0.95","3":"-0.5459584","4":"0.5459584","5":"0.7110526316","6":"fixed","7":"conditional","_rn_":"2"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Parameter"],"name":[1],"type":["chr"],"align":["left"]},{"label":["CI"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["ROPE_low"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["ROPE_high"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["ROPE_Percentage"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["Effects"],"name":[6],"type":["chr"],"align":["left"]},{"label":["Component"],"name":[7],"type":["chr"],"align":["left"]}],"data":[{"1":"(Intercept)","2":"0.95","3":"-0.5459584","4":"0.5459584","5":"0.0005263158","6":"fixed","7":"conditional","_rn_":"1"},{"1":"year","2":"0.95","3":"-0.5459584","4":"0.5459584","5":"0.6955263158","6":"fixed","7":"conditional","_rn_":"2"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
 </div>
@@ -733,7 +733,7 @@ Restart the R-Session and update packages with `easystats::easystats_update()`.<
 <div class="cell-output-display">
 <div data-pagedtable="false">
   <script data-pagedtable-source="" type="application/json">
-{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Parameter"],"name":[1],"type":["chr"],"align":["left"]},{"label":["CI"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["ROPE_low"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["ROPE_high"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["ROPE_Percentage"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["Effects"],"name":[6],"type":["chr"],"align":["left"]},{"label":["Component"],"name":[7],"type":["chr"],"align":["left"]}],"data":[{"1":"(Intercept)","2":"0.95","3":"-0.1","4":"0.1","5":"0.9852632","6":"fixed","7":"conditional","_rn_":"1"},{"1":"year","2":"0.95","3":"-0.1","4":"0.1","5":"0.8134211","6":"fixed","7":"conditional","_rn_":"2"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
+{"columns":[{"label":[""],"name":["_rn_"],"type":[""],"align":["left"]},{"label":["Parameter"],"name":[1],"type":["chr"],"align":["left"]},{"label":["CI"],"name":[2],"type":["dbl"],"align":["right"]},{"label":["ROPE_low"],"name":[3],"type":["dbl"],"align":["right"]},{"label":["ROPE_high"],"name":[4],"type":["dbl"],"align":["right"]},{"label":["ROPE_Percentage"],"name":[5],"type":["dbl"],"align":["right"]},{"label":["Effects"],"name":[6],"type":["chr"],"align":["left"]},{"label":["Component"],"name":[7],"type":["chr"],"align":["left"]}],"data":[{"1":"(Intercept)","2":"0.95","3":"-0.1","4":"0.1","5":"0.9842105","6":"fixed","7":"conditional","_rn_":"1"},{"1":"year","2":"0.95","3":"-0.1","4":"0.1","5":"0.8242105","6":"fixed","7":"conditional","_rn_":"2"}],"options":{"columns":{"min":{},"max":[10]},"rows":{"min":[10],"max":[10]},"pages":{}}}
   </script>
 </div>
 </div>
@@ -812,7 +812,7 @@ dbl (6): rownames, bill_length_mm, bill_depth_mm, flipper_length_mm, body_ma...
 <p>FRAGE: Ich befinde mich gerade mitten in der Vorbereitung für meinen Drittversuch des Moduls Quantitative Methoden II neben dem Besuchen der Vorlesungen und Übungen über das Semester arbeite ich bisher hauptsächlich mit ihrem Skript und den dort gegebenen Pen and Paper Aufgaben. Wenn ich das Skript durchgearbeitet habe möchte ich mich des weiteren den Übungsaufgaben und Inhalten von Bourier widmen. Da es sich zeitgleich zum Drittversuch um meine letzte Prüfung vor der Bachelorarbeit handelt möchte ich mich möglichst lückenlos auf die Prüfung vorbereiten, damit keine Möglichkeit besteht die Prüfung nicht zu bestehen. Natürlich können sie keine genauen Inhalte der kommenden Prüfung geben, ich wollte mich trotzdem versichern, dass ich keine Aspekte des Kurses auslasse, die ebenfalls prüfungsrelevant sind.</p>
 <p>ANTWORT: Die Aufgaben im Skript sind am wichtigsten. Dazu sollten die Inhalte, auf die sich die Aufgaben beziehen, gut erarbeitet sein. Darüber hinaus empfiehlt es es sich, sich Varianten zu den eingestellten Aufgaben zu überlegen, z.B. mit anderen Zahlen oder leichten inhaltlichen Variationen. Wichtig ist, die Aufgabe selber zu lösen und sich dann erst die Musterlösung anzuschauen. Viel Erfolg!</p>
 </section><section id="anmeldung-in-moodle-nicht-möglich" class="level3" data-number="23.2.13"><h3 data-number="23.2.13" class="anchored" data-anchor-id="anmeldung-in-moodle-nicht-möglich">
-<span class="header-section-number">23.2.13</span> Anmeldung in Moodle nicht möglich</h3>
+<span class="header-section-number">23.2.13</span> Anmeldung in Moodle nicht möglich?</h3>
 <p>FRAGE: Ich kann mich nicht in Moodle anmelden. Es erscheint folgender Hinweis bzw. folgende Fehlermeldung: “Leider gibt es derzeit in der Moodle App Probleme mit der Einschreibung in Kurse. Wir suchen eine Lösung für das Problem. Solange schreiben Sie sich bitte über einen Browser (auch am Handy möglich) in Ihre Kurse ein. Bitte entschuldigen Sie die Unannehmlichkeiten.”</p>
 <p>ANTWORT: Dieser Hinweis betrifft nur die Anmeldung via App auf dem Handy. Die Anmeldung über den Browser (Computer) sollte problemlos funktioneren, s. <a href="#fig-login-moodle" class="quarto-xref">Abbildung&nbsp;<span>23.1</span></a>.</p>
 <div id="fig-login-moodle" class="quarto-float quarto-figure quarto-figure-center anchored">
