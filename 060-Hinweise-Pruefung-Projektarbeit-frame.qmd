@@ -183,8 +183,43 @@ Prüfungsteilnehmerinnen und -teilnehmer sind dafür eigenständig verantwortlic
 26. Formulieren Sie stets *prägnant*: So kurz und klar wie möglich und so ausführlich wie nötig. Als typischen Leser stellen Sie sich einen Absolventen Ihres Studiengangs vor. Themen, die dieser Person geläufig sind, sollen nur in wenigen Sätzen oder gar Wörtern angeschnitten werden. Weitschweifigkeit ist generell zu meiden.
 
 
+## Formatierung  
+
+Grundsätzlich sollten Sie in Ihren Entscheidungen für Formatierung konsistent sein:
+Wenn Sie sich für ein bestimmtes Vorgehen entschieden haben,
+sollten Sie dieses konsequent anwenden.
+
+
+
+Sie können Ihre schriftliche Prüfungsarbeit in einem paginierten oder nicht paginerten Format abgeben.
+Paginierte Formate weisen Seiten aus, sind also primär für den Druck auf Papier gedacht. 
+Allerdings werden sie auch noch häufig für primär elektronische Dokumente verwendet.
+Nicht paginierte Formate sind HTML-Dokumente oder E-Books.
+Solange Sie keine anders lautenden Vorgaben von Ihrer Betreuungsperson haben, 
+können Sie sich an folgenden Richtlinien (für paginierte Dokumente) orientieren.
+
+
+
+
+1. Verwenden Sie die *Format-Vorgaben der APA* (aktuelle Version)^[V7], um Zitationen, Tabellen und Abbildungen zu formatieren.
+1. *Fließtext* (in längeren Print-Dokumenten wie einer Seminararbeit) ist *mit Serifentext* zu schreiben; Überschriften können serifenlos gesetzt sein.
+2. *Fließtext* soll in *11 Punkt Schriftgröße* gesetzt sein.
+3. Der Text kann linksbündig oder im *Blocksatz* gesetzt sein. 
+4. *Silbentrennung* ist eingeschaltet.
+5. *Zeilenabstand*: 1 – 1,2 Zeilen
+6. Seitenformat (für papierbezogenen Formate): Din-A4
+7. *Einrücken*: Die *erste Zeile jedes Absatze*s wird mit 1.3 cm eingerückt (Ausnahme: Abstract, Titel, Blockzitate und Verzeichnisse). Aber: Der erste Absatz nach einer Überschrift, nach einer Abbildung, einer Tabelle o.Ä.  wird *nicht* eingerückt. Alternativ zum Einrücken können Sie vertikalen Raum verwenden, um Absätze zu trennen (besser ist aber Einrücken). Verwenden Sie aber nicht sowohl Einrücken als auch vertikalen Abstand.
+8. *Kursivschrift*: Sie dürfen Kursivschrift verwenden, wenn Sie etwas hervorheben oder betonen möchten oder bei erstmaliger Einführung neugeprägter Begriffe, Fach- oder Schlüsselbegriffen, bei statistischen Symbolen und Variablen. Meiden Sie Fettdruck und Unterstreichungen.
+9. *Abschnittswechsel*: Vertikaler Abstand ist ein probates Mittel, um Sinnzusammenhänge kenntlich zu machen. Ein neuer Abschnitt wird mit vertikalem Abstand kenntlich gemacht.
+Gestalten Sie Ihre Seiten *doppelseitig* (d. h. linke vs. rechte Seite), auch im Druck (wenn Sie ein paginiertes Format verwenden).
+10. *Kolumnentitel* (Kapitelnummer und -name in Kopfzeile) sind empfehlenswert.
+11. Nummerierung: Verwenden Sie nur *arabische* („normale“) *Ziffern* für die Seitenzahlen (auch bei Abstract etc.).
+12. *Seitenränder*: Da eine gute Lesbarkeit bei nicht mehr als ca. 65 Zeichen liegt, können Sie Ihre Seitenränder entsprechend einstellen. 
+
 
     
+    
+
     
 ## Die Benotung
 
