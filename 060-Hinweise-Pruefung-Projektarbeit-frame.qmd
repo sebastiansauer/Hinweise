@@ -5,8 +5,9 @@
 library(tinytable)
 ```
 
-
+:::{.callout-note}
 Unter *schriftliche Prüfungen* werden hier *Projekt-, Seminar-, Abschlussarbeiten* verstanden.
+:::
 
 Bitte beachten Sie auch die übrigen Hinweise, insbesondere die Hinweise zu den [Besonderheiten von Abschlussarbeiten](@sec-abschlussarbeiten) sowie die [allgemeinen Prüfungshinweise](@sec-allgemeine-pruefungshinweise).
 
@@ -40,9 +41,9 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 ### Anfordungen zum Textdokument
 
 
-1. Der angegebene Umfang an die *Wortmenge* des Texts bezieht sich auf den *Hauptteil* der Arbeit und gilt mit einem Toleranzbereich von plus/minus 10%. 
-
-2. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Bild als solches zählt nicht als Text). Geben Sie die Wortzahl Ihrer Arbeit auf der Titelseite oder im Anhang an. 
+1. Der angegebene Umfang an die *Mengengerüst der Wortzahl* des Texts bezieht sich auf den *Hauptteil* der Arbeit und gilt mit einem Toleranzbereich von plus/minus 10%. Geben Sie die Wortzahl Ihrer Arbeit auf der Titelseite oder im Anhang an. 
+ 
+2. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Bild als solches zählt nicht als Text). Fußnoten und Tabellen bzw. deren Inhalte zählen zur Wortzahl. Die Zählung der Wörter orientiert sich an der Methode von Microsoft Word (i.d.R. ist ein Wort jede Zeichenfolge, die von Leerzeichen oder Satzzeichen umgeben ist, das beinhaltet auch Zahlen und Sonderzeichen).
 
 2. Textsatz und (gestalterische) *Formatierung* der Arbeit orientieren sich an den schriftlich bereitgestellten Hinweisen (z.B. im Skript).
 
