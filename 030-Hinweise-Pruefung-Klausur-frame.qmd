@@ -51,7 +51,9 @@ library(tidyverse)
 4.  Die MC-Aufgaben sind *nur mit Kreuzen* zu beantworten; Text wird bei der Korrektur nicht berücksichtigt.
 5.  Jede Aussage gilt *ceteris paribus* (unter sonst gleichen Umständen). Aussagen der Art „A ist B“ (z.B. "Menschen sind sterblich") sind *nur* dann als richtig auszuwählen, wenn die Aussage *immer* richtig ist.
 6. Bitte tragen Sie ggf. zuerst Ihre Matrikelnummer und Ihren Namen in die Klausur ein (sofern Sie nicht ein personenbezogenes Prüfungsexemlar mit Ihrem Namen bekommen haben).
-7. Bitte kreuzen Sie (in Papierklausuren) *ordentlich* an, da sonst der Korrekteur oder der Scanner u.U. Ihr Kreuz falsch liest, s. @fig-kreuzen und @fig-kreuzen2.
+7. Bitte kreuzen Sie (in Papierklausuren) *ordentlich* an (s. @fig-ankreuzen), da sonst der Korrekteur oder der Scanner u.U. Ihr Kreuz falsch liest. @fig-kreuzen und @fig-kreuzen2 zeigen Beispiele für nicht-lesbare Kreuze aufgrund unordentlichen Kreuzens.
+
+![Antwort *C* ist richtig! Ich bin mir ganz sicher, naja, so ziemlich. Auf jeden Fall kreuze ich *C* an.](img/ankreuzen.png){#fig-ankreuzen width=50%}
 
 ![Bitte ordentlich ankreuzen, sonst kann man Ihren Willen nicht erkennen. In diesem Fall war für den Scanner nicht mehr zu erkennen, welches Kreuz gewählt werden sollte.](img/kreuzen.png){#fig-kreuzen width=50%}
 
