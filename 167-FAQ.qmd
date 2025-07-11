@@ -281,6 +281,22 @@ ANTWORT: Dieser Hinweis betrifft nur die Anmeldung via App auf dem Handy. Die An
 
 
 
+## Prüfungsabgabe
+
+### Fünf Minuten zu spät abgegeben -- noch ok?
+
+
+FRAGE: Ich habe meine Projektarbeit 5 Minuten zu spät abgegeben. Gilt das noch? Nehmen Sie die Prüfung noch an?
+
+ANTWORT: Wenn wir 5 Minuten verspätete Abgabe, also ein "inoffizielle Kulanzzeit" noch akzeptieren, akzeptieren wir dann auch noch 6 Minuten, 10 Minuten, 20 Minuten verspätete Abgabe? Mit welchem Argument verwehren wir dann dem Student, der eine Minute nach der inoffiziellen Kulanzzeit abgibt, die Abgabe? Es gäbe keine Rechtfertigung, der einen Studentin einen inoffiziellen, nicht angekündigten Auschub zu gewähren, aber einem anderen Studenten nicht. Außerdem entsteht eine Ungleichbehandlung zulasten der Studierenden, die sich an die Regeln gehalten haben und dadurch dann weniger Arbeitszeit bekämen und somit benachteiligt würden. Ich fürchte, man kann es drehen und wenden, aber es bleibt: Eine Fristverlängerung ist ungerecht. Daher gilt: Nur fristgerechte Arbeiten werden angenommen.
+
+### Es gab ein technisches Problem bei der Abgabe.
+
+FRAGE: Ich konnte meine Arbeit nicht hochladen, weil es ein technisches Problem gab.
+
+ANTWORT: Ein technisches Problem auf Seiten der Hochschule muss die Hochschule verantworten und es darf sich nicht zu Ungunsten der Studierenden auswirken. Läge ein Problem auf Seiten des Studierenden vor, z.B. der Laptop fällt herunter und ist defekt, hat die Hochschule hingegen keine Verantwortung. Technische Probleme auf Seiten der Server der Hochschule sind gut nachvollziehbar bzw. nachprüfbar. Falls Sie ein technisches Problem seitens der Hochschule anmelden, prüfen wir die entsprechenden Serverprotokolle. Im Fall eines entsprechenden Problems seitens der IT der Hochschule ist ein Einspruch berechtigt (ansonsten nicht).
+
+
 
 
 

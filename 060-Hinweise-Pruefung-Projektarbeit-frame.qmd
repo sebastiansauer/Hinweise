@@ -86,6 +86,8 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 
 19. Bitte beachten Sie etwaige *Anmeldefristen* für die Anmeldung zur Prüfung als auch ggf. zur Anmeldung in einzelne Arbeitsgruppen.
 
+19. Bitte halten Sie die *Abgabefrist* *exakt* ein; nachträglich eingereichte Prüfungen können nicht angenommen werden. Es zählt der (sekundengenaue) Zeitstempel der Upload-Plattform.
+
 20. Soweit nicht anders von der Lehrperson gesagt, gelten die *offiziellen* Anmeldefristen der Hochschule.
 
 21. Vermeiden Sie *kurzfristigen* Upload von Prüfungsleistungen kurz vor dem Verstreichen der  Einreichefrist –- falls technische Probleme auftreten, können diese u. U. nicht mehr gelöst werden.
