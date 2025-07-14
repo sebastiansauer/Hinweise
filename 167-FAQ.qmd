@@ -190,7 +190,7 @@ Hier ist die von der Studentin angesprochene Musterlösung:
 ![](img/toleranz2.png)
 
 
-Und hier ist der Toleranzbereich (vgl. @sec-toleranz) für den Intercept (Achsenabschnitt):
+Und hier ist der Toleranzbereich für den Intercept (Achsenabschnitt):
 
 
 ```{r}

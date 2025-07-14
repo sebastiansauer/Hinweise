@@ -50,7 +50,7 @@ library(tidyverse)
 3.  Jede Aussage einer MC-Aufgabe ist *entweder richtig oder falsch* (aber nicht beides oder keines).
 4.  Die MC-Aufgaben sind *nur mit Kreuzen* zu beantworten; Text wird bei der Korrektur nicht berücksichtigt.
 5.  Jede Aussage gilt *ceteris paribus* (unter sonst gleichen Umständen). Aussagen der Art „A ist B“ (z.B. "Menschen sind sterblich") sind *nur* dann als richtig auszuwählen, wenn die Aussage *immer* richtig ist.
-6. Bitte tragen Sie ggf. zuerst Ihre Matrikelnummer und Ihren Namen in die Klausur ein (sofern Sie nicht ein personenbezogenes Prüfungsexemlar mit Ihrem Namen bekommen haben).
+6. Bitte tragen Sie ggf. zuerst Ihre Matrikelnummer und Ihren Namen in die Klausur ein (sofern Sie nicht ein personenbezogenes Prüfungsexemplar mit Ihrem Namen bekommen haben).
 7. Bitte kreuzen Sie (in Papierklausuren) *ordentlich* an (s. @fig-ankreuzen), da sonst der Korrekteur oder der Scanner u.U. Ihr Kreuz falsch liest. @fig-kreuzen und @fig-kreuzen2 zeigen Beispiele für nicht-lesbare Kreuze aufgrund unordentlichen Kreuzens.
 
 ![Antwort *C* ist richtig! Ich bin mir ganz sicher, naja, so ziemlich. Auf jeden Fall kreuze ich *C* an.](img/ankreuzen.png){#fig-ankreuzen width=50%}
@@ -86,17 +86,26 @@ Tragen Sie zu Beginn der Klausur Ihren Namen und Ihre Matrikelnummer auf dem Ant
 
 ## Ablauf einer Prüfung
 
-1. Vor dem Prüfungsraum ist u.U. ein Sitzplan ausgehängt. Bitte setzen Sie sich ggf. auf den Ihnen zugewiesenen Platz.
-2. Halten Sie Ihren (gültigen) Studentenausweis bereit.
-3. Drehen Sie die Bögen der Prüfung erst auf Geheiß um.
+1. Vor dem Prüfungsraum ist u.U. ein *Sitzplan* ausgehängt. Bitte setzen Sie sich ggf. auf den Ihnen zugewiesenen Platz.
+2. Halten Sie Ihren (gültigen) *Studentenausweis* bereit zur Feststellung Ihrer Identität.
+3. *Startschuss*: *Beginnen* Sie mit dem Bearbeiten der Prüfung *erst auf Geheiß*. Sie dürfen die Prüfung vorab nicht einsehen.
+4. *Zeit um*: Nach *Ablauf* der Prüfungszeit ist jegliches Bearbeiten der Prüfung untersagt. 
 4. Während der Prüfung werden *keine* inhaltlichen Fragen beantwortet. Etwaige Unklarheiten oder Fehler in den Aufgaben werden bei der Korrektur geprüft. Informieren Sie den Prüfer oder die Prüferin nach der Prüfung entsprechend.
-5. Auf dem Tisch jedes Prüflings dürfen kein Taschen, Mäppchen oder Ähnliches liegen.
-6. Beachten Sie die ausgewiesenen Hilfsmittel.
-7. Kopfbedeckungen sind nicht zulässig.
-8. Prüfungsunfähigkeit ist frühzeitig, ggf. zu Beginn der Prüfung, anzuzeigen (und im Nachgang mit einem entsprechenden Attest zu belegen).
-9. Toilettengänge sind nur einzeln erlaubt.
-10. Denken Sie daran, Ihren Namen und Ihre Matrikelnummer auf den Prüfungsbogen einzutragen.
-11. Bleiben Sie sitzen, falls Sie fertig sind, solange bis die Prüfungszeit vorbei ist.
+5. Auf dem *Tisch* jedes Prüflings dürfen *keine Taschen, Mäppchen oder Ähnliches liegen*.
+6. Beachten Sie die ausgewiesenen *Hilfsmittel.*
+7. *Kopfbedeckungen* sind nicht zulässig. Das Gesicht muss unverhüllt sein.
+8. *Prüfungsunfähigkeit* ist frühzeitig, ggf. zu Beginn der Prüfung, anzuzeigen (und im Nachgang mit einem entsprechenden Attest zu belegen).
+9. *Toilettengänge* sind nur einzeln erlaubt.
+10. Denken Sie ggf. daran, Ihren *Namen* und Ihre *Matrikelnummer* auf den *Prüfungsbogen* einzutragen.
+11. In den *letzten 30 Minuten vor Prüfungsende* darf der *Prüfungsraum nicht mehr verlassen* werden (um Unruhe zu vermeiden).
+12. Insbesondere sind alle *Smartgeräte* (Handy, Uhr, ...) *verboten.* Diese dürfen nicht zur Hand sein und nicht benutzt werden.
+13. Auf dem *Tisch* des Prüflings sind neben den erlaubten Hilfsmittel nur folgende Gegenstände erlaubt: *Stift* und *Getränk.*
+14. Nach Anzeige eines *Betrugsversuchs* dürfen Sie ggf. *weiterarbeiten.* Die Prüfungsaufsicht wird den Vorfall dokumentieren und der Prüfungskommission zur Entscheidung geben.
+
+
+:::{.callout-important}
+Widerhandlungen können Nicht-Bestehen der Prüfung nach sich ziehen.
+:::
 
 
 
