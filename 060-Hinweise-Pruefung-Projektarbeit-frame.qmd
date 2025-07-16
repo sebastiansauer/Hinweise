@@ -250,42 +250,32 @@ Bitte beachten Sie, dass die folgende Liste nicht vollständig ist und auch nich
 
 #### Formalia
 
-- Vollständigkeit (Verzeichnisse, Anhänge, Erklärungen)
-
-- Gestaltung 
-
-- Rechtschreibung und Grammatik (Korrektheit; inklusive Interpunktion)
-
-- Zitierweise in Text und Fußnoten (Einheitlichkeit, Korrektheit)
-
-- Literaturverzeichnis (Einheitlichkeit, Korrektheit)
-
-- Umfang (Problemangemessenheit - gem. Leitfaden zur formalen Gestaltung von Seminar- und Abschlussarbeiten)
+- *Vollständigkeit*: Sind alle nötigen Prüfungsteile eingereicht? Dazu zählen auch Verzeichnnisse, Anhänge und Erklärungen der Selbständigkeit.
+- *Gestaltung*: Ist die Formatierung und der optische Eindruck übersichtlich und ansprechend? Sind Prinzipien der Gestaltung von Schriftstücken sowie der Typographie umgesetzt?
+- *Rechtschreibung* und *Grammatik*: Finden sich Fehler in Orthographie, Grammatik oder Interpunktion? 
+- *Zitierweise* und Referenzen: Wird korrekt und einheitlich zitiert? Werden Tabellen und Abbildungen korrekt referenziert im Text? Wurde ein vorgegebener Zitierstelle korrekt umgesetzt?
+- *Literaturverzeichnis*: Wie viele Fehler finden sich im Literaturverzeichnis?
+- *Umfang*: Wie ist der Umfang (das Mengengerüst) der Arbeit in Wortzahl und Problemanang zu bewerten?
+- *Reproduzierbark*: Wie reproduzierbar und nachvollziehbar sind alle Teile der Arbeit? Wurden Daten, Stimuli und Syntax eingereicht bzw. verfügbar gemacht?
 
 
 
 #### Methoden
-- Methodenauswahl (Problembezug)
+- *Methodenauswahl*: Wurden korrekte empirisch-analytische Methoden zur Analyse der Daten ausgewählt? Wurden ggf. der Voraussetzungen bzw. die Stichhaltigkeit der Anwendung überprüft und verargumentiert?
+- *Methodenanwendung*: Wurden die ausgewählten empirisch-analytischen Methoden korrekt angewendet bzw. durchgeführt? Wurden Sie korrekt auf das Problem angewendet?
+- *Interpretation*: Wurden die empirisch-analytisch erzielten Ergebnisse korrekt bewertet und interpretiert? Das beinhaltet auch eine Kritik und Einschätzung der Belastbarkeit bzw. Stichhaltigkeit der Ergebnisse; auch eine sinnvolle Zusammenschau aller in der Arbeit untersuchten Teilaspekte zu einem Fazit gehört dazu.
 
-- Methodenanwendung (Problemlösungsbezug, Angemessenheit, Nachvollziehbarkeit)
-
-- Interpretation der Ergebnisse (Problembezug, Abgewogenheit, Nachvollziehbarkeit, Vollständigkeit)
 
 
 
 #### Inhalt (nicht-empirische Teile)
 
-- Gliederung (Logik, Problembezogenheit, Stringenz)
-
-- Problemstellung und Zielsetzung (nachvollziehbare Herleitung)
-
-- Argumentation (Abgewogenheit, Logik, Neutralität, Problembezogenheit, Stringenz)
-
-- Literaturnutzung (angemessene Breite u. Tiefe der Bearbeitung, Aktualität u. Wissenschaftlichkeit der verwendeten Quellen)
-
-- Sprachlicher Ausdruck (Nachvollziehbarkeit, Verständlichkeit, Verwendung von Fachtermini)
-
-- Problemlösung (Breite u. Tiefe der Problemdurchdringung, Eigenständigkeit der Problemlösung, kritische Reflexion des Vorgehens)
+- *Gliederung*: Ist die Gliederung logisch aufgebaut, stringent und auf die Fragestellung sinnvoll bezogen?
+- *Problemstellung* und Relevanz: Ist das Thema bzw. die Forschungsfrage sinnvoll definiert, begründet und motiviert?
+- *Argumentation*: Wird abgewogen, sachlich, logisch, fachlich fundiert, problembezogen und stringent argumentiert? 
+- *Literaturnutzung*: Wird Literatur in angemessener Breite und Tiefe verarbeitet? Wie ist die Aktualität und Güte einzuschätzen? Wird ein repräsentatives Bild des Kenntnissstand des Themas vermittelt oder eher eine eingeschränkte, veraltete oder verzertte Darstellung? Wird auf Diskrepanzen in der Meinung der Scientific Community und auf offene Fragen in der Literatur hingewiesen? 
+- *Sprachlicher Ausdruck*: Wird korrekt, flüssig, nachvollziehbar, verständlich und unter Verwendung der richtigen Fachbegriffe argumentiert? 
+- *Problemlösung*: Wie sind Breite und Tiefe der Problemdurchdringung einzuschätzen? Wie hoch ist die Eigenständigkeit der Problemlösung? Findet sich in hohem Maße eine kritische Reflexion des Vorgehens und der Ergebnisse der Arbeit?
 
 
 
@@ -306,6 +296,8 @@ Das Gutachten kann mit Hilfe von [Textbausteinen wie aus dieser Sammlung](https:
 
 
 ### Benotungstabelle
+
+Anstelle eines Gutachtens kann Ihre Prüfungsarbeit anhand einer Benotungstabelle wie der folgenden bewertet werden.
 
 
 ```{r benotungstabelle}
