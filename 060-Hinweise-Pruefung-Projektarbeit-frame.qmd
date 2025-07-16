@@ -253,10 +253,10 @@ Bitte beachten Sie, dass die folgende Liste nicht vollständig ist und auch nich
 - *Vollständigkeit*: Sind alle nötigen Prüfungsteile eingereicht? Dazu zählen auch Verzeichnnisse, Anhänge und Erklärungen der Selbständigkeit.
 - *Gestaltung*: Ist die Formatierung und der optische Eindruck übersichtlich und ansprechend? Sind Prinzipien der Gestaltung von Schriftstücken sowie der Typographie umgesetzt?
 - *Rechtschreibung* und *Grammatik*: Finden sich Fehler in Orthographie, Grammatik oder Interpunktion? 
-- *Zitierweise* und Referenzen: Wird korrekt und einheitlich zitiert? Werden Tabellen und Abbildungen korrekt referenziert im Text? Wurde ein vorgegebener Zitierstelle korrekt umgesetzt?
+- *Zitierweise* und Referenzen: Wird korrekt und einheitlich zitiert? Werden Tabellen und Abbildungen korrekt referenziert im Text? Wurde ein vorgegebener Zitierstil korrekt umgesetzt?
 - *Literaturverzeichnis*: Wie viele Fehler finden sich im Literaturverzeichnis?
 - *Umfang*: Wie ist der Umfang (das Mengengerüst) der Arbeit in Wortzahl und Problemanang zu bewerten?
-- *Reproduzierbark*: Wie reproduzierbar und nachvollziehbar sind alle Teile der Arbeit? Wurden Daten, Stimuli und Syntax eingereicht bzw. verfügbar gemacht?
+- *Reproduzierbarkeit*: Wie reproduzierbar und nachvollziehbar sind alle Teile der Arbeit? Wurden Daten, Stimuli und Syntax eingereicht bzw. verfügbar gemacht?
 
 
 
