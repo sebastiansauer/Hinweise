@@ -45,7 +45,14 @@ library(tidyverse)
 
 ## Besonderheiten von Klausuren im Antwort-Wahl-Verfahren
 
-1.  Bei Multiple-Choice-Aufgaben (MC-Aufgaben bzw. Antwort-Wahl-Verfahren) ist zumeist genau *eine* Antwortoption auszuwählen aus mehreren (meist vier oder fünf) Antwortoptionen.
+
+:::{#def-mc}
+### Multiple Choice
+Unter einer *Multiple-Choice-Aufgabe* wird eine Aufgabe verstanden, in denen mehrere Antwortoptionen zur Wahl stehen. Wie viele Antworten richtig sind, ist dabei offen. $\square$
+:::
+
+
+1.  Bei Multiple-Choice-Aufgaben (MC-Aufgaben bzw. Antwort-Wahl-Verfahren) ist zumeist genau *eine* Antwortoption auszuwählen aus mehreren (oft vier oder fünf) Antwortoptionen.
 2.  Im Zweifel ist eine Aussage auf den Stoff, so wie im *Unterricht* behandelt, zu beziehen. Hinweise folgender Art sind nicht zulässig: "Aber in anderen, nicht im Unterricht behandelten Büchern steht etwas anderes, als der Dozent gesagt hat".
 3.  Jede Aussage einer MC-Aufgabe ist *entweder richtig oder falsch* (aber nicht beides oder keines).
 4.  Die MC-Aufgaben sind *nur mit Kreuzen* zu beantworten; Text wird bei der Korrektur nicht berücksichtigt.
@@ -84,23 +91,30 @@ Tragen Sie zu Beginn der Klausur Ihren Namen und Ihre Matrikelnummer auf dem Ant
 
 
 
-## Ablauf einer Prüfung
+## Ablauf einer Klausur
+
+Bitte informieren Sie sich auch in der APO, SPO sowie den Prüfungshinweisen der Hochschulen (auf der Homepage).
+
 
 1. Vor dem Prüfungsraum ist u.U. ein *Sitzplan* ausgehängt. Bitte setzen Sie sich ggf. auf den Ihnen zugewiesenen Platz.
-2. Halten Sie Ihren (gültigen) *Studentenausweis* bereit zur Feststellung Ihrer Identität und zur Zulassung zur Prüfung.
-3. *Startschuss*: *Beginnen* Sie mit dem Bearbeiten der Prüfung *erst auf Geheiß*. Sie dürfen die Prüfung vorab nicht einsehen.
+2. Setzen Sie sich bitte *nur* auf Plätze mit einer Nummer, *nicht* auf Plätze ohne Nummer. Das hat den Hintergrund, dass die Aufsicht protokollieren muss, welcher Prüfling wo sitzt.
+3. Bitte verteilen Sie sich *gleichmäßig* auf die *Plätze*; lassen Sie *möglichst viel Platz* zwischen den Prüflingen.
+2. Halten Sie Ihren (gültigen) *Studentenausweis* bereit zur Feststellung Ihrer Identität, zur Prüfungsfähigkeit und zur Zulassung zur Prüfung. Nur wer angemeldet ist, kann mitschreiben.
+3. *Startschuss*: *Beginnen* Sie mit dem Bearbeiten der Prüfung *erst auf Geheiß*. Sie dürfen keinen Teil der Prüfung vorab nicht einsehen (auch kein Klausurpapier).
 4. *Zeit um*: Nach *Ablauf* der Prüfungszeit ist jegliches Bearbeiten der Prüfung untersagt. 
 4. Während der Prüfung werden *keine* inhaltlichen Fragen beantwortet. Etwaige Unklarheiten oder Fehler in den Aufgaben werden bei der Korrektur geprüft. Informieren Sie den Prüfer oder die Prüferin nach der Prüfung entsprechend.
-5. Auf dem *Tisch* jedes Prüflings dürfen *keine Taschen, Mäppchen oder Ähnliches liegen*.
-6. Beachten Sie die ausgewiesenen *Hilfsmittel.*
+5. Auf dem *Tisch* und am *Körper* jedes Prüflings dürfen *keine Jacken, Mützen, Taschen, Mäppchen oder Ähnliches liegen*.
+13. Auf dem *Tisch* des Prüflings sind neben den erlaubten Hilfsmittel nur folgende Gegenstände erlaubt: Ausweis, *Stifte*, Lineal, Radiergummi/Tippex, und *Getränk.*
+6. Beachten Sie die ausgewiesenen *Hilfsmittel.* Keine anderen Hilfsmittel sind am Körper oder am Platz des Prüflings zulässig.
+7. Ggf. kann der Prüfer ansagen, dass *Taschen* und *Jacken* nicht am Platz des Prüflings abzulegen sind (sondern etwa am Rand bzw. an der *Wand* des Prüfungsraums).
 7. *Kopfbedeckungen* sind nicht zulässig. Das Gesicht muss unverhüllt sein, auch die Ohren müssen unverhüllt sein.
 8. *Prüfungsunfähigkeit* ist frühzeitig, ggf. zu Beginn der Prüfung, anzuzeigen (und im Nachgang mit einem entsprechenden Attest zu belegen).
-9. *Toilettengänge* müssen angezeigt werden, sind nur einzeln erlaubt und werden protokolliert.
-10. Denken Sie ggf. daran, Ihren *Namen* und Ihre *Matrikelnummer* auf den *Prüfungsbogen* einzutragen.
-11. In den *letzten 30 Minuten vor Prüfungsende* darf der *Prüfungsraum nicht mehr verlassen* werden (um Unruhe zu vermeiden).
+9. *Toilettengänge* müssen angezeigt werden, sind nur einzeln erlaubt und werden protokolliert. Um Störung zu vermeiden, sollten Toilettengänge während der Prüfung vermieden werden.
+10. Denken Sie ggf. daran, Ihren *Namen* und Ihre *Matrikelnummer* auf den *Prüfungsbogen* einzutragen. Falls Ihre Prüfungsunterlagen mit Namen versehen sind, prüfen Sie bitte, ob Sie (nur) Ihre Unterlagen erhalten haben.
 12. Insbesondere sind alle *Smartgeräte* (Handy, Uhr, ...) *verboten.* Diese dürfen nicht zur Hand sein und nicht benutzt werden.
-13. Auf dem *Tisch* des Prüflings sind neben den erlaubten Hilfsmittel nur folgende Gegenstände erlaubt: *Stift* und *Getränk.*
 14. Nach Anzeige eines *Betrugsversuchs* dürfen Sie ggf. *weiterarbeiten.* Die Prüfungsaufsicht wird den Vorfall dokumentieren und der Prüfungskommission zur Entscheidung geben.
+15. *Vorzeitige Abgabe* ist *nicht* möglich. Bitte bleiben Sie bis zum Prüfungsende am Platz.
+16. Geben Sie *alle Prüfungsunterlagen* ab, auch Konzeptpapier.
 
 
 :::{.callout-important}
