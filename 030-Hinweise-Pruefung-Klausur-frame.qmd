@@ -28,69 +28,6 @@ library(tidyverse)
 10. Wie auch bei den übrigen Hinweisen gelten diese Maßgaben nur soweit  nicht *explizit andere Hinweise* gegeben wurden.
 
 
-
-## Aufgaben zur Datenanalyse
-
-
-1.  Je nach Spracheinstellung in Moodle kann es sein, dass Sie als *Dezimaltrennzeichen* ein Komma oder einen Punkt verwenden müssen. Moodle weist Sie darauf hin, falls eine Zahl nicht als Zahl erkannt wurde.
-2.  *Runden* Sie bei Fragen, die auf Anteile abzielen auf *zwei Dezimalstellen*, ansonsten auf eine.
-2.  Geben Sie *keine Prozentzahlen* an, sondern *Anteile* (FALSCH: `50%`, RICHTIG: `0.5` bzw. `0,5`).
-2.  Bei Aufgaben, die eine Zahl als Antwort verlangen, ist *nur Ziffern anzugeben* (nicht etwa Buchstaben).
-2.  Alle Berechnungen, die *Zufallszahlen* beinhalten, sollen mit *fixierten Startwert* der Zufallszahlen durchgeführt werden. Es ist die Zahl `42` zu verwenden.
-2.  2.  Wenn *Stichproben simuliert* werden sollen, ziehen Sie $10^3$ Zufallsstichproben.
-2.  In einigen Aufgaben kann verlangt sein, dass Sie einen *bestimmten Datensatz in R importieren* sollen. In diesem Fall wird vorausgesetzt, dass Ihnen [diese Bezugsquelle](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) von Datensätzen bekannt ist und dass Sie wissen, wie man einen Datensatz in R importiert.
-2.  Achten Sie darauf, R und R-Pakete sowie R-Studio *in aktueller Version* zu verwenden. Das Verwenden älterer Versionen kann (in seltenen Fällen) zu abweichenden Lösungen führen. Im Zweifel beziehen sich alle Aufgaben auf die jeweils aktuellste Version der verwendeten Software.
-2.  Wenn Sie *Text eingeben* sollen: Geben Sie *nur Kleinbuchstaben ein*. Geben Sie nur ein einziges Wort ein. Geben Sie keine Leerzeichen ein.
-
-
-## Besonderheiten von Klausuren im Antwort-Wahl-Verfahren
-
-
-:::{#def-mc}
-### Multiple Choice
-Unter einer *Multiple-Choice-Aufgabe* wird eine Aufgabe verstanden, in denen mehrere Antwortoptionen zur Wahl stehen. Wie viele Antworten richtig sind, ist dabei offen. $\square$
-:::
-
-
-1.  Bei Multiple-Choice-Aufgaben (MC-Aufgaben bzw. Antwort-Wahl-Verfahren) ist zumeist genau *eine* Antwortoption auszuwählen aus mehreren (oft vier oder fünf) Antwortoptionen.
-2.  Im Zweifel ist eine Aussage auf den Stoff, so wie im *Unterricht* behandelt, zu beziehen. Hinweise folgender Art sind nicht zulässig: "Aber in anderen, nicht im Unterricht behandelten Büchern steht etwas anderes, als der Dozent gesagt hat".
-3.  Jede Aussage einer MC-Aufgabe ist *entweder richtig oder falsch* (aber nicht beides oder keines).
-4.  Die MC-Aufgaben sind *nur mit Kreuzen* zu beantworten; Text wird bei der Korrektur nicht berücksichtigt.
-5.  Jede Aussage gilt *ceteris paribus* (unter sonst gleichen Umständen). Aussagen der Art „A ist B“ (z.B. "Menschen sind sterblich") sind *nur* dann als richtig auszuwählen, wenn die Aussage *immer* richtig ist.
-6. Bitte tragen Sie ggf. zuerst Ihre Matrikelnummer und Ihren Namen in die Klausur ein (sofern Sie nicht ein personenbezogenes Prüfungsexemplar mit Ihrem Namen bekommen haben).
-7. Bitte kreuzen Sie (in Papierklausuren) *ordentlich* an (s. @fig-ankreuzen), da sonst der Korrekteur oder der Scanner u.U. Ihr Kreuz falsch liest. @fig-kreuzen und @fig-kreuzen2 zeigen Beispiele für nicht-lesbare Kreuze aufgrund unordentlichen Kreuzens.
-
-![Antwort *C* ist richtig! Ich bin mir ganz sicher, naja, so ziemlich. Auf jeden Fall kreuze ich *C* an.](img/ankreuzen.png){#fig-ankreuzen width=50%}
-
-![Bitte ordentlich ankreuzen, sonst kann man Ihren Willen nicht erkennen. In diesem Fall war für den Scanner nicht mehr zu erkennen, welches Kreuz gewählt werden sollte.](img/kreuzen.png){#fig-kreuzen width=50%}
-
-![Bitte nicht über den Kreis hinaus kreuzen, und den Kreis voll ausmalen, um eine Kreuz zu widerrufen.](img/kreuzen2.png){#fig-kreuzen2 width=50%}
-
-8. In der Prüfungsordnung der HS Ansbach ist geregelt, dass *50%* der maximal erreichbaren Punkt benötigt sind zum *Bestehen* (*absolute Bestehensgrenze* s. § 8c APO HS Ansbach); es sei denn, die relative Bestehensgrenze kommt zum Zug.
-4. *Relative Bestehensgrenze* (§ 8c APO Abs 2, Punkt 2): 
-
->    2. der Prüfling insgesamt mindestens 40 Prozent der maximal erreichbaren Punktzahl erreicht hat und die
-Zahl der vom Prüfling jeweils erreichten Punktzahl um nicht mehr als 15 Prozent (relative Bestehensgrenze)
-die durchschnittlich erreichte Punktzahl der Prüflinge unterschreitet, die erstmals an der entsprechenden
-Prüfung teilgenommen haben. Die relative Bestehensgrenze des Satz 1 Ziff. 2 kommt nur dann zur Anwendung, wenn mindestens 40 Prüflinge zum ersten Mal an der Prüfung teilgenommen haben.
-
-
-@fig-deckblatt zeigt ein Musterdeckblatt einer Klausur.
-
-![Ein Musterdeckblatt einer Klausur](img/QM2-Pruefung-Deckblatt-2024-WiSe.png){#fig-deckblatt width=75%}
-
-
-@fig-antwortbogen zeigt ein Muster eines Antwortbogens.
-
-![Ein Musterantwortbogen einer Klausur](img/QM2-Klausur-MUSTER-Antwortbogen-2024-WiSe.png){#fig-antwortbogen width=75%}
-
-
-:::{.callout-important}
-Tragen Sie zu Beginn der Klausur Ihren Namen und Ihre Matrikelnummer auf dem Antwortbogen (und/oder weiteren Teilen der Klausur) ein. $\square$
-:::
-
-
-
 ## Ablauf einer Klausur
 
 Bitte informieren Sie sich auch in der APO, SPO sowie den Prüfungshinweisen der Hochschulen (auf der Homepage).
@@ -119,6 +56,57 @@ Bitte informieren Sie sich auch in der APO, SPO sowie den Prüfungshinweisen der
 
 :::{.callout-important}
 Widerhandlungen können Nicht-Bestehen der Prüfung nach sich ziehen.
+:::
+
+
+
+
+## Besonderheiten von Klausuren im Antwort-Wahl-Verfahren
+
+
+:::{#def-mc}
+### Multiple Choice
+Unter einer *Multiple-Choice-Aufgabe* wird eine Aufgabe verstanden, in denen mehrere Antwortoptionen zur Wahl stehen. Wie viele Antworten richtig sind, ist dabei offen. $\square$
+:::
+
+
+1.  Bei Multiple-Choice-Aufgaben (MC-Aufgaben bzw. Antwort-Wahl-Verfahren) ist zumeist genau *eine* Antwortoption auszuwählen aus mehreren (oft vier oder fünf) Antwortoptionen.
+2.  Im Zweifel ist eine Aussage auf den Stoff, so wie im *Unterricht* behandelt, zu beziehen. Hinweise folgender Art sind nicht zulässig: "Aber in anderen, nicht im Unterricht behandelten Büchern steht etwas anderes, als der Dozent gesagt hat".
+3.  Jede Aussage einer MC-Aufgabe ist *entweder richtig oder falsch* (aber nicht beides oder keines).
+4.  Die MC-Aufgaben sind *nur mit Kreuzen* zu beantworten; Text wird bei der Korrektur nicht berücksichtigt.
+5.  Jede Aussage gilt *ceteris paribus* (unter sonst gleichen Umständen). Aussagen der Art „A ist B“ (z.B. "Menschen sind sterblich") sind *nur* dann als richtig auszuwählen, wenn die Aussage *immer* richtig ist.
+6. Bitte tragen Sie ggf. zuerst Ihre Matrikelnummer und Ihren Namen in die Klausur ein (sofern Sie nicht ein personenbezogenes Prüfungsexemplar mit Ihrem Namen bekommen haben).
+7. Bitte kreuzen Sie (in Papierklausuren) *ordentlich* an (s. @fig-ankreuzen), da sonst der Korrekteur oder der Scanner u.U. Ihr Kreuz falsch liest. @fig-kreuzen und @fig-kreuzen2 zeigen Beispiele für nicht-lesbare Kreuze aufgrund unordentlichen Kreuzens.
+8. Wählen Sie im Zweifel die *am besten passende* Antwortoption aus.
+
+
+![Antwort *C* ist richtig! Ich bin mir ganz sicher, naja, so ziemlich. Auf jeden Fall kreuze ich *C* an.](img/ankreuzen.png){#fig-ankreuzen width=50%}
+
+![Bitte ordentlich ankreuzen, sonst kann man Ihren Willen nicht erkennen. In diesem Fall war für den Scanner nicht mehr zu erkennen, welches Kreuz gewählt werden sollte.](img/kreuzen.png){#fig-kreuzen width=50%}
+
+![Bitte nicht über den Kreis hinaus kreuzen, und den Kreis voll ausmalen, um eine Kreuz zu widerrufen.](img/kreuzen2.png){#fig-kreuzen2 width=50%}
+
+8. In der Prüfungsordnung der HS Ansbach ist geregelt, dass *50%* der maximal erreichbaren Punkt benötigt sind zum *Bestehen* (*absolute Bestehensgrenze* s. § 8c APO HS Ansbach); es sei denn, die relative Bestehensgrenze kommt zum Zug.
+4. *Relative Bestehensgrenze* (§ 8c APO Abs 2, Punkt 2): 
+
+>    2. der Prüfling insgesamt mindestens 40 Prozent der maximal erreichbaren Punktzahl erreicht hat und die
+Zahl der vom Prüfling jeweils erreichten Punktzahl um nicht mehr als 15 Prozent (relative Bestehensgrenze)
+die durchschnittlich erreichte Punktzahl der Prüflinge unterschreitet, die erstmals an der entsprechenden
+Prüfung teilgenommen haben. Die relative Bestehensgrenze des Satz 1 Ziff. 2 kommt nur dann zur Anwendung, wenn mindestens 40 Prüflinge zum ersten Mal an der Prüfung teilgenommen haben.
+
+
+@fig-deckblatt zeigt ein Musterdeckblatt einer Klausur.
+
+![Ein Musterdeckblatt einer Klausur](img/QM2-Pruefung-Deckblatt-2024-WiSe.png){#fig-deckblatt width=75%}
+
+
+@fig-antwortbogen zeigt ein Muster eines Antwortbogens.
+
+![Ein Musterantwortbogen einer Klausur](img/QM2-Klausur-MUSTER-Antwortbogen-2024-WiSe.png){#fig-antwortbogen width=75%}
+
+
+:::{.callout-important}
+Tragen Sie zu Beginn der Klausur Ihren Namen und Ihre Matrikelnummer auf dem Antwortbogen (und/oder weiteren Teilen der Klausur) ein. $\square$
 :::
 
 
@@ -153,6 +141,8 @@ Widerhandlungen können Nicht-Bestehen der Prüfung nach sich ziehen.
 
 ## Datensätze in der Prüfung
 
+In einigen Prüfungen werden Datensätze bearbeitet. 
+Dazu sind hier einige Regelungen und Hinweise formuliert.
 
 
 ```{r prepare-pruefungsdatensaetze}
@@ -289,6 +279,21 @@ Vereinfacht gesagt: Zugelassen sind *nicht-programmierbare, wissenschaftliche* T
 
 
 
+
+
+
+## Aufgaben zur Datenanalyse
+
+
+1.  Je nach Spracheinstellung in Moodle kann es sein, dass Sie als *Dezimaltrennzeichen* ein Komma oder einen Punkt verwenden müssen. Moodle weist Sie darauf hin, falls eine Zahl nicht als Zahl erkannt wurde.
+2.  *Runden* Sie bei Fragen, die auf Anteile abzielen auf *zwei Dezimalstellen*, ansonsten auf eine.
+2.  Geben Sie *keine Prozentzahlen* an, sondern *Anteile* (FALSCH: `50%`, RICHTIG: `0.5` bzw. `0,5`).
+2.  Bei Aufgaben, die eine Zahl als Antwort verlangen, ist *nur Ziffern anzugeben* (nicht etwa Buchstaben).
+2.  Alle Berechnungen, die *Zufallszahlen* beinhalten, sollen mit *fixierten Startwert* der Zufallszahlen durchgeführt werden. Es ist die Zahl `42` zu verwenden.
+2.  2.  Wenn *Stichproben simuliert* werden sollen, ziehen Sie $10^3$ Zufallsstichproben.
+2.  In einigen Aufgaben kann verlangt sein, dass Sie einen *bestimmten Datensatz in R importieren* sollen. In diesem Fall wird vorausgesetzt, dass Ihnen [diese Bezugsquelle](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) von Datensätzen bekannt ist und dass Sie wissen, wie man einen Datensatz in R importiert.
+2.  Achten Sie darauf, R und R-Pakete sowie R-Studio *in aktueller Version* zu verwenden. Das Verwenden älterer Versionen kann (in seltenen Fällen) zu abweichenden Lösungen führen. Im Zweifel beziehen sich alle Aufgaben auf die jeweils aktuellste Version der verwendeten Software.
+2.  Wenn Sie *Text eingeben* sollen: Geben Sie *nur Kleinbuchstaben ein*. Geben Sie nur ein einziges Wort ein. Geben Sie keine Leerzeichen ein.
 
 
 
