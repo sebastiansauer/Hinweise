@@ -66,6 +66,12 @@ Die Webseite [Datenwerk](https://datenwerk.netlify.app/) beherbergt eine Sammlun
 es gibt eine Suchfunktion (wenn Sie den Namen der Aufgabe wissen) und eine Tag-Liste, wenn Sie Aufgaben nach Themengebiet durchsehen wollen.
 
 
+### Eigene Aufgaben erstellen
+
+Nutzen Sie auch einen KI-Bot, um sich Übungsaufgaben erstellen zu lassen. 
+Dazu können Sie dem Bot den Stoff nennen oder das Skript einlesen lassen,
+um auf dieser Basis passende Aufgaben zu erhalten.
+
 
 
 ## Lernmethoden

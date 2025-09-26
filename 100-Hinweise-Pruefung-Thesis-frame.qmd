@@ -330,14 +330,17 @@ Auch bibliometrische Analysen sind möglich.
 
 
 
-## Formale Anmeldung zur Bachelor- oder Masterarbeit
+## Formalia zur Anmeldung und Abgabe
 
 Wenn Sie ein Formular an mich (oder Dritte, wie die Prüfungsabteilung) senden, 
 nennen Sie bitte stets *Ihren Namen im Dateinamen*. 
-Falsch: "Anmeldung-Thesis.pdf". Richtig: "Anmeldung-Thesis-Müller-Marina-01234567.pdf".
+*Falsch*: "Anmeldung-Thesis.pdf". 
+*Richtig*: "Anmeldung-Thesis-Musterfrau-Marina-01234567.pdf".
 
 Bitte *füllen Sie das Formular entsprechend aus*, bevor Sie es mir schicken. 
 D.h. tragen Sie Titel der Arbeit sowie Namen der Gutachter schon ein.
+
+Achten Sie darauf, dass ggf. die Papiervariante und die elektronische Variante Ihrer Arbeit *komplett identisch* sind.
 
 
 
