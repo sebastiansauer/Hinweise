@@ -780,19 +780,19 @@ Hinweis
 <span class="header-section-number">8.3.1.1</span> Formalia</h4>
 <ul>
 <li>
-<em>Vollständigkeit</em>: Sind alle nötigen Prüfungsteile eingereicht? Dazu zählen auch Verzeichnnisse, Anhänge und Erklärungen der Selbständigkeit.</li>
+<em>Vollständigkeit</em>: Sind alle nötigen Prüfungsteile eingereicht? Dazu zählen auch Verzeichnisse, Anhänge und Erklärungen der Selbständigkeit.</li>
 <li>
 <em>Gestaltung</em>: Ist die Formatierung und der optische Eindruck übersichtlich und ansprechend? Sind Prinzipien der Gestaltung von Schriftstücken sowie der Typographie umgesetzt?</li>
 <li>
 <em>Rechtschreibung</em> und <em>Grammatik</em>: Finden sich Fehler in Orthographie, Grammatik oder Interpunktion?</li>
 <li>
-<em>Zitierweise</em> und Referenzen: Wird korrekt und einheitlich zitiert? Werden Tabellen und Abbildungen korrekt referenziert im Text? Wurde ein vorgegebener Zitierstelle korrekt umgesetzt?</li>
+<em>Zitierweise</em> und Referenzen: Wird korrekt und einheitlich zitiert? Werden Tabellen und Abbildungen korrekt referenziert im Text? Wurde ein vorgegebener Zitierstil korrekt umgesetzt?</li>
 <li>
 <em>Literaturverzeichnis</em>: Wie viele Fehler finden sich im Literaturverzeichnis?</li>
 <li>
-<em>Umfang</em>: Wie ist der Umfang (das Mengengerüst) der Arbeit in Wortzahl und Problemanang zu bewerten?</li>
+<em>Umfang</em>: Wie ist der Umfang (das Mengengerüst) der Arbeit in Wortzahl und Problembehandlung zu bewerten?</li>
 <li>
-<em>Reproduzierbark</em>: Wie reproduzierbar und nachvollziehbar sind alle Teile der Arbeit? Wurden Daten, Stimuli und Syntax eingereicht bzw. verfügbar gemacht?</li>
+<em>Reproduzierbarkeit</em>: Wie reproduzierbar und nachvollziehbar sind alle Teile der Arbeit? Wurden Daten, Stimuli und Syntax eingereicht bzw. verfügbar gemacht?</li>
 </ul></section><section id="methoden" class="level4" data-number="8.3.1.2"><h4 data-number="8.3.1.2" class="anchored" data-anchor-id="methoden">
 <span class="header-section-number">8.3.1.2</span> Methoden</h4>
 <ul>
@@ -838,8 +838,8 @@ Hinweis
 
     <script>
 
-      function styleCell_9fcqidtyir491sv3v5en(i, j, css_id) {
-          var table = document.getElementById("tinytable_9fcqidtyir491sv3v5en");
+      function styleCell_f5eyhwj5o852fx70rxsu(i, j, css_id) {
+          var table = document.getElementById("tinytable_f5eyhwj5o852fx70rxsu");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -848,21 +848,8 @@ Hinweis
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_9fcqidtyir491sv3v5en');
-        // Find the row with data-row attribute matching i
-        var targetRow = table.querySelector(`tr [data-row="${i}"]`).closest('tr');
-        var newRow = table.insertRow(targetRow.rowIndex);
-        var newCell = newRow.insertCell(0);
-        newCell.setAttribute("colspan", colspan);
-        newCell.setAttribute("data-col", "0");
-        newCell.setAttribute("data-row", i - 1);
-        // newCell.innerText = content;
-        // this may be unsafe, but innerText does not interpret <br>
-        newCell.innerHTML = content;
-      }
-      function spanCell_9fcqidtyir491sv3v5en(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_9fcqidtyir491sv3v5en");
+      function spanCell_f5eyhwj5o852fx70rxsu(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_f5eyhwj5o852fx70rxsu");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -893,26 +880,26 @@ Hinweis
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '4', j: 0 }, { i: '4', j: 1 }, { i: '4', j: 2 }, { i: '4', j: 3 },  ], css_id: 'tinytable_css_uthdc2en79k551ifo9sa',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '3', j: 0 }, { i: '1', j: 1 }, { i: '3', j: 1 }, { i: '1', j: 2 }, { i: '3', j: 2 }, { i: '1', j: 3 }, { i: '3', j: 3 },  ], css_id: 'tinytable_css_we3avix2c5rxl3yxp92k',}, 
-          { positions: [ { i: '0', j: 0 }, { i: '0', j: 1 }, { i: '0', j: 2 }, { i: '0', j: 3 },  ], css_id: 'tinytable_css_guxveuiemwo2blcdbw2z',}, 
+          { positions: [ { i: '4', j: 0 }, { i: '4', j: 1 }, { i: '4', j: 2 }, { i: '4', j: 3 },  ], css_id: 'tinytable_css_g0ciykxazv2g8cd07rx2',}, 
+          { positions: [ { i: '1', j: 0 }, { i: '3', j: 0 }, { i: '1', j: 1 }, { i: '3', j: 1 }, { i: '1', j: 2 }, { i: '3', j: 2 }, { i: '1', j: 3 }, { i: '3', j: 3 },  ], css_id: 'tinytable_css_2kpbwv2b313ah4lg7zhr',}, 
+          { positions: [ { i: '0', j: 0 }, { i: '0', j: 1 }, { i: '0', j: 2 }, { i: '0', j: 3 },  ], css_id: 'tinytable_css_220bxxmy3ficdxpf9xk7',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_9fcqidtyir491sv3v5en(cell.i, cell.j, group.css_id);
+                  styleCell_f5eyhwj5o852fx70rxsu(cell.i, cell.j, group.css_id);
               });
           });
       });
     </script><style>
       /* tinytable css entries after */
-      .table td.tinytable_css_uthdc2en79k551ifo9sa, .table th.tinytable_css_uthdc2en79k551ifo9sa { font-weight: bold; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_we3avix2c5rxl3yxp92k, .table th.tinytable_css_we3avix2c5rxl3yxp92k { background-color: #ededed; }
-      .table td.tinytable_css_guxveuiemwo2blcdbw2z, .table th.tinytable_css_guxveuiemwo2blcdbw2z { border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_g0ciykxazv2g8cd07rx2, .table th.tinytable_css_g0ciykxazv2g8cd07rx2 { font-weight: bold; border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_2kpbwv2b313ah4lg7zhr, .table th.tinytable_css_2kpbwv2b313ah4lg7zhr { background-color: #ededed; }
+      .table td.tinytable_css_220bxxmy3ficdxpf9xk7, .table th.tinytable_css_220bxxmy3ficdxpf9xk7 { border-bottom: solid #d3d8dc 0.1em; }
     </style>
 <div class="container">
-      <table class="table table-striped" id="tinytable_9fcqidtyir491sv3v5en" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-striped" id="tinytable_f5eyhwj5o852fx70rxsu" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
 <thead><tr>
 <th scope="col" data-row="0" data-col="0">Kriterium</th>
                 <th scope="col" data-row="0" data-col="1">Gewichtung</th>
@@ -976,8 +963,8 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 
     <script>
 
-      function styleCell_9m9v9hjs4rddieofj499(i, j, css_id) {
-          var table = document.getElementById("tinytable_9m9v9hjs4rddieofj499");
+      function styleCell_xnp24fmep77d0e8tins7(i, j, css_id) {
+          var table = document.getElementById("tinytable_xnp24fmep77d0e8tins7");
           var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
           if (cell) {
               console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
@@ -986,21 +973,8 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
               console.warn(`Cell at (${i}, ${j}) not found.`);
           }
       }
-      function insertSpanRow(i, colspan, content) {
-        var table = document.getElementById('tinytable_9m9v9hjs4rddieofj499');
-        // Find the row with data-row attribute matching i
-        var targetRow = table.querySelector(`tr [data-row="${i}"]`).closest('tr');
-        var newRow = table.insertRow(targetRow.rowIndex);
-        var newCell = newRow.insertCell(0);
-        newCell.setAttribute("colspan", colspan);
-        newCell.setAttribute("data-col", "0");
-        newCell.setAttribute("data-row", i - 1);
-        // newCell.innerText = content;
-        // this may be unsafe, but innerText does not interpret <br>
-        newCell.innerHTML = content;
-      }
-      function spanCell_9m9v9hjs4rddieofj499(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_9m9v9hjs4rddieofj499");
+      function spanCell_xnp24fmep77d0e8tins7(i, j, rowspan, colspan) {
+        var table = document.getElementById("tinytable_xnp24fmep77d0e8tins7");
         const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
         if (!targetCell) {
           console.warn(`Cell at (${i}, ${j}) not found.`);
@@ -1031,24 +1005,24 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '14', j: 0 }, { i: '14', j: 1 }, { i: '14', j: 2 },  ], css_id: 'tinytable_css_eu1cjza104mfad8ai7fi',}, 
-          { positions: [ { i: '0', j: 0 }, { i: '0', j: 1 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_wzg2z5cfiqb5ebtbffja',}, 
+          { positions: [ { i: '14', j: 0 }, { i: '14', j: 1 }, { i: '14', j: 2 },  ], css_id: 'tinytable_css_owi4ffoy95yoicd1q5t5',}, 
+          { positions: [ { i: '0', j: 0 }, { i: '0', j: 1 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_9ifgo7k8xff1l7z7uj2z',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_9m9v9hjs4rddieofj499(cell.i, cell.j, group.css_id);
+                  styleCell_xnp24fmep77d0e8tins7(cell.i, cell.j, group.css_id);
               });
           });
       });
     </script><style>
       /* tinytable css entries after */
-      .table td.tinytable_css_eu1cjza104mfad8ai7fi, .table th.tinytable_css_eu1cjza104mfad8ai7fi { border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_wzg2z5cfiqb5ebtbffja, .table th.tinytable_css_wzg2z5cfiqb5ebtbffja { border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+      .table td.tinytable_css_owi4ffoy95yoicd1q5t5, .table th.tinytable_css_owi4ffoy95yoicd1q5t5 { border-bottom: solid #d3d8dc 0.1em; }
+      .table td.tinytable_css_9ifgo7k8xff1l7z7uj2z, .table th.tinytable_css_9ifgo7k8xff1l7z7uj2z { border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
     </style>
 <div class="container">
-      <table class="table table-borderless" id="tinytable_9m9v9hjs4rddieofj499" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="table table-borderless" id="tinytable_xnp24fmep77d0e8tins7" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
 <thead><tr>
 <th scope="col" data-row="0" data-col="0">Anforderung</th>
                 <th scope="col" data-row="0" data-col="1">Projektarbeit</th>
