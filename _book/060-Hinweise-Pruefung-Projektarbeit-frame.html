@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.31">
+<meta name="generator" content="quarto-1.7.32">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="author" content="Sebastian Sauer">
 <meta name="description" content="Hinweise zu Prüfungen und Lehre bei Prof.&nbsp;Sebastian Sauer">
@@ -37,14 +37,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ef56b68f8fa1e9d2ba328e99e439f80.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e1a5c8363afafaef2c763b6775fbf3ca.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-e734deeeb279a5b177aee122187212fa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-45e34dbdf6b7a4316bf9cef334b27403.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-e734deeeb279a5b177aee122187212fa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap-58de5384fcdf7c5ab925c31f483c305b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-dda6af93f8d6e3147ed0b6153654f060.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-58de5384fcdf7c5ab925c31f483c305b.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -436,7 +436,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./145-Tutorium.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Untitled</span></span></a>
+ <span class="menu-text"><span class="chapter-number">20</span>&nbsp; <span class="chapter-title">Als Tutor oder Tutorin arbeiten</span></span></a>
   </div>
 </li>
       </ul>
@@ -842,112 +842,74 @@ Hinweis
 <div class="cell-output-display">
 <!-- preamble start -->
 
-    <script>
-
-      function styleCell_v5mr71sljgj5h8ueoak2(i, j, css_id) {
-          var table = document.getElementById("tinytable_v5mr71sljgj5h8ueoak2");
-          var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
-          if (cell) {
-              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
-              cell.classList.add(css_id);
-          } else {
-              console.warn(`Cell at (${i}, ${j}) not found.`);
-          }
-      }
-      function spanCell_v5mr71sljgj5h8ueoak2(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_v5mr71sljgj5h8ueoak2");
-        const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
-        if (!targetCell) {
-          console.warn(`Cell at (${i}, ${j}) not found.`);
-        }
-
-        // Get all cells that need to be removed
-        const cellsToRemove = [];
-        for (let r = 0; r < rowspan; r++) {
-          for (let c = 0; c < colspan; c++) {
-            if (r === 0 && c === 0) continue; // Skip the target cell
-            const cell = table.querySelector(`[data-row="${i + r}"][data-col="${j + c}"]`);
-            if (cell) {
-              cellsToRemove.push(cell);
-            }
-          }
-        }
-
-        // Remove all cells
-        cellsToRemove.forEach(cell => cell.remove());
-
-        // Set rowspan and colspan of the target cell if it exists
-        if (targetCell) {
-          targetCell.rowSpan = rowspan;
-          targetCell.colSpan = colspan;
-        }
-      }
+    <script src="https://cdn.jsdelivr.net/gh/vincentarelbundock/tinytable@main/inst/tinytable.js"></script><script>
+      // Create table-specific functions using external factory
+      const tableFns_r8q2mhywfsofhfky68oj = TinyTable.createTableFunctions("tinytable_r8q2mhywfsofhfky68oj");
       // tinytable span after
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '4', j: 0 }, { i: '4', j: 1 }, { i: '4', j: 2 }, { i: '4', j: 3 },  ], css_id: 'tinytable_css_bkivwm8mioqef28ram0o',}, 
-          { positions: [ { i: '1', j: 0 }, { i: '3', j: 0 }, { i: '1', j: 1 }, { i: '3', j: 1 }, { i: '1', j: 2 }, { i: '3', j: 2 }, { i: '1', j: 3 }, { i: '3', j: 3 },  ], css_id: 'tinytable_css_7xz6ztttghexpdwgb6i8',}, 
-          { positions: [ { i: '0', j: 0 }, { i: '0', j: 1 }, { i: '0', j: 2 }, { i: '0', j: 3 },  ], css_id: 'tinytable_css_9uos1fdwh5mjf4mnl6vd',}, 
+          { positions: [ { i: '4', j: 1 }, { i: '4', j: 2 }, { i: '4', j: 3 }, { i: '4', j: 4 } ], css_id: 'tinytable_css_x2m9bv661fxyg3invlr9',}, 
+          { positions: [ { i: '1', j: 1 }, { i: '3', j: 1 }, { i: '1', j: 2 }, { i: '3', j: 2 }, { i: '1', j: 3 }, { i: '3', j: 3 }, { i: '1', j: 4 }, { i: '3', j: 4 } ], css_id: 'tinytable_css_2o38tjhrx5ckrk1mma7h',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_v5mr71sljgj5h8ueoak2(cell.i, cell.j, group.css_id);
+                  tableFns_r8q2mhywfsofhfky68oj.styleCell(cell.i, cell.j, group.css_id);
               });
           });
       });
-    </script><style>
-      /* tinytable css entries after */
-      .table td.tinytable_css_bkivwm8mioqef28ram0o, .table th.tinytable_css_bkivwm8mioqef28ram0o { font-weight: bold; border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_7xz6ztttghexpdwgb6i8, .table th.tinytable_css_7xz6ztttghexpdwgb6i8 { background-color: #ededed; }
-      .table td.tinytable_css_9uos1fdwh5mjf4mnl6vd, .table th.tinytable_css_9uos1fdwh5mjf4mnl6vd { border-bottom: solid #d3d8dc 0.1em; }
+    </script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vincentarelbundock/tinytable@main/inst/tinytable.css">
+<style>
+    /* tinytable css entries after */
+    #tinytable_r8q2mhywfsofhfky68oj td.tinytable_css_x2m9bv661fxyg3invlr9, #tinytable_r8q2mhywfsofhfky68oj th.tinytable_css_x2m9bv661fxyg3invlr9 { font-weight: bold }
+    #tinytable_r8q2mhywfsofhfky68oj td.tinytable_css_2o38tjhrx5ckrk1mma7h, #tinytable_r8q2mhywfsofhfky68oj th.tinytable_css_2o38tjhrx5ckrk1mma7h { background-color: #ededed }
     </style>
 <div class="container">
-      <table class="table table-striped" id="tinytable_v5mr71sljgj5h8ueoak2" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="tinytable" id="tinytable_r8q2mhywfsofhfky68oj" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
 <thead><tr>
-<th scope="col" data-row="0" data-col="0">Kriterium</th>
-                <th scope="col" data-row="0" data-col="1">Gewichtung</th>
-                <th scope="col" data-row="0" data-col="2">Details</th>
-                <th scope="col" data-row="0" data-col="3">Note</th>
+<th scope="col" data-row="0" data-col="1">Kriterium</th>
+                <th scope="col" data-row="0" data-col="2">Gewichtung</th>
+                <th scope="col" data-row="0" data-col="3">Details</th>
+                <th scope="col" data-row="0" data-col="4">Note</th>
               </tr></thead>
 <tbody>
 <tr>
-<td data-row="1" data-col="0">Formalia</td>
-                  <td data-row="1" data-col="1">1/3</td>
-                  <td data-row="1" data-col="2">Regeleinhaltung (z.B. Seitenzahl), 
+<td data-row="1" data-col="1">Formalia</td>
+                  <td data-row="1" data-col="2">1/3</td>
+                  <td data-row="1" data-col="3">Regeleinhaltung (z.B. Seitenzahl), 
 Zitieren (z.B. Konsistenz, Regelbefolgung im Text und im Literaturverzeichnis), 
 Formatierung (z.B. Übersichtlichkeit, optische Ansprechung), 
 Rechtschreibung (z.B. auch Zeichensetzung, Fremdwörter), 
 Sonstiges (z.B. Referenzieren)</td>
-                  <td data-row="1" data-col="3">2.7</td>
+                  <td data-row="1" data-col="4">2.7</td>
                 </tr>
 <tr>
-<td data-row="2" data-col="0">Methodik</td>
-                  <td data-row="2" data-col="1">1/3</td>
-                  <td data-row="2" data-col="2">Reproduzierbarkeit (z.B. Daten eingereicht), 
+<td data-row="2" data-col="1">Methodik</td>
+                  <td data-row="2" data-col="2">1/3</td>
+                  <td data-row="2" data-col="3">Reproduzierbarkeit (z.B. Daten eingereicht), 
 Design (z.B. Anspruch und Korrektheit des Versuchsaufbau und der Messinstrumente), 
 Stichprobe (z.B. Umfang), 
 Auswertung (z.B. Anspruch, Umfang und Korrektheit), 
 Sonstiges (z.B. Güte der Dokumentation)</td>
-                  <td data-row="2" data-col="3">1</td>
+                  <td data-row="2" data-col="4">1</td>
                 </tr>
 <tr>
-<td data-row="3" data-col="0">Inhalt</td>
-                  <td data-row="3" data-col="1">1/3</td>
-                  <td data-row="3" data-col="2">Roter Faden (z.B. Forschungsfrage als Angelpunkt der Ausarbeitung), 
+<td data-row="3" data-col="1">Inhalt</td>
+                  <td data-row="3" data-col="2">1/3</td>
+                  <td data-row="3" data-col="3">Roter Faden (z.B. Forschungsfrage als Angelpunkt der Ausarbeitung), 
 Theoretische Aufarbeitung (z.B. Umfang und Korrektheit),
 Quellen (z.B. Güte und Umfang), 
 Sprache (z.B. Prägnanz), 
 Sonstiges (z.B. Limitationen erkannt)</td>
-                  <td data-row="3" data-col="3">1.3</td>
+                  <td data-row="3" data-col="4">1.3</td>
                 </tr>
 <tr>
-<td data-row="4" data-col="0">FAZIT</td>
-                  <td data-row="4" data-col="1">1</td>
-                  <td data-row="4" data-col="2">Gesamteindruck</td>
-                  <td data-row="4" data-col="3">1.7</td>
+<td data-row="4" data-col="1">FAZIT</td>
+                  <td data-row="4" data-col="2">1</td>
+                  <td data-row="4" data-col="3">Gesamteindruck</td>
+                  <td data-row="4" data-col="4">1.7</td>
                 </tr>
 </tbody>
 </table>
@@ -967,143 +929,107 @@ Tabelle&nbsp;8.1: Mengengerüst (Seitenzahlen, Stichprobenumfang, Wortzahl, …)
 <div class="cell-output-display">
 <!-- preamble start -->
 
-    <script>
-
-      function styleCell_of48uanrey32dpd5bo6f(i, j, css_id) {
-          var table = document.getElementById("tinytable_of48uanrey32dpd5bo6f");
-          var cell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
-          if (cell) {
-              console.log(`Styling cell at (${i}, ${j}) with class ${css_id}`);
-              cell.classList.add(css_id);
-          } else {
-              console.warn(`Cell at (${i}, ${j}) not found.`);
-          }
-      }
-      function spanCell_of48uanrey32dpd5bo6f(i, j, rowspan, colspan) {
-        var table = document.getElementById("tinytable_of48uanrey32dpd5bo6f");
-        const targetCell = table.querySelector(`[data-row="${i}"][data-col="${j}"]`);
-        if (!targetCell) {
-          console.warn(`Cell at (${i}, ${j}) not found.`);
-        }
-
-        // Get all cells that need to be removed
-        const cellsToRemove = [];
-        for (let r = 0; r < rowspan; r++) {
-          for (let c = 0; c < colspan; c++) {
-            if (r === 0 && c === 0) continue; // Skip the target cell
-            const cell = table.querySelector(`[data-row="${i + r}"][data-col="${j + c}"]`);
-            if (cell) {
-              cellsToRemove.push(cell);
-            }
-          }
-        }
-
-        // Remove all cells
-        cellsToRemove.forEach(cell => cell.remove());
-
-        // Set rowspan and colspan of the target cell if it exists
-        if (targetCell) {
-          targetCell.rowSpan = rowspan;
-          targetCell.colSpan = colspan;
-        }
-      }
+    <script src="https://cdn.jsdelivr.net/gh/vincentarelbundock/tinytable@main/inst/tinytable.js"></script><script>
+      // Create table-specific functions using external factory
+      const tableFns_6xngf746hqucumapjwvd = TinyTable.createTableFunctions("tinytable_6xngf746hqucumapjwvd");
       // tinytable span after
       window.addEventListener('load', function () {
           var cellsToStyle = [
             // tinytable style arrays after
-          { positions: [ { i: '14', j: 0 }, { i: '14', j: 1 }, { i: '14', j: 2 },  ], css_id: 'tinytable_css_95ei834sxshng70kmvpz',}, 
-          { positions: [ { i: '0', j: 0 }, { i: '0', j: 1 }, { i: '0', j: 2 },  ], css_id: 'tinytable_css_eae1dfkpjnz8qze92nz1',}, 
+          { positions: [ { i: '14', j: 1 }, { i: '14', j: 2 }, { i: '14', j: 3 } ], css_id: 'tinytable_css_1xfsdu0yuykien5muh5o',}, 
+          { positions: [ { i: '0', j: 1 }, { i: '0', j: 2 }, { i: '0', j: 3 } ], css_id: 'tinytable_css_wot88rthixhdhq1zqnbo',}, 
           ];
 
           // Loop over the arrays to style the cells
           cellsToStyle.forEach(function (group) {
               group.positions.forEach(function (cell) {
-                  styleCell_of48uanrey32dpd5bo6f(cell.i, cell.j, group.css_id);
+                  tableFns_6xngf746hqucumapjwvd.styleCell(cell.i, cell.j, group.css_id);
               });
           });
       });
-    </script><style>
-      /* tinytable css entries after */
-      .table td.tinytable_css_95ei834sxshng70kmvpz, .table th.tinytable_css_95ei834sxshng70kmvpz { border-bottom: solid #d3d8dc 0.1em; }
-      .table td.tinytable_css_eae1dfkpjnz8qze92nz1, .table th.tinytable_css_eae1dfkpjnz8qze92nz1 { border-top: solid #d3d8dc 0.1em; border-bottom: solid #d3d8dc 0.05em; }
+    </script><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vincentarelbundock/tinytable@main/inst/tinytable.css">
+<style>
+    /* tinytable css entries after */
+    #tinytable_6xngf746hqucumapjwvd td.tinytable_css_1xfsdu0yuykien5muh5o, #tinytable_6xngf746hqucumapjwvd th.tinytable_css_1xfsdu0yuykien5muh5o {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 0; --line-color-bottom: black; --line-color-left: black; --line-color-right: black; --line-color-top: black; --line-width-bottom: 0.1em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%;  }
+    #tinytable_6xngf746hqucumapjwvd td.tinytable_css_wot88rthixhdhq1zqnbo, #tinytable_6xngf746hqucumapjwvd th.tinytable_css_wot88rthixhdhq1zqnbo {  position: relative; --border-bottom: 1; --border-left: 0; --border-right: 0; --border-top: 1; --line-color-bottom: black; --line-color-left: black; --line-color-right: black; --line-color-top: black; --line-width-bottom: 0.05em; --line-width-left: 0.1em; --line-width-right: 0.1em; --line-width-top: 0.1em; --trim-bottom-left: 0%; --trim-bottom-right: 0%; --trim-left-bottom: 0%; --trim-left-top: 0%; --trim-right-bottom: 0%; --trim-right-top: 0%; --trim-top-left: 0%; --trim-top-right: 0%;  }
     </style>
 <div class="container">
-      <table class="table table-borderless" id="tinytable_of48uanrey32dpd5bo6f" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
+      <table class="tinytable" id="tinytable_6xngf746hqucumapjwvd" style="width: auto; margin-left: auto; margin-right: auto;" data-quarto-disable-processing="true">
 <thead><tr>
-<th scope="col" data-row="0" data-col="0">Anforderung</th>
-                <th scope="col" data-row="0" data-col="1">Projektarbeit</th>
-                <th scope="col" data-row="0" data-col="2">Abschlussarbeit (Bachelor)</th>
+<th scope="col" data-row="0" data-col="1">Anforderung</th>
+                <th scope="col" data-row="0" data-col="2">Projektarbeit</th>
+                <th scope="col" data-row="0" data-col="3">Abschlussarbeit (Bachelor)</th>
               </tr></thead>
 <tbody>
 <tr>
-<td data-row="1" data-col="0">Quellenzahl (empirische Arbeit)</td>
-                  <td data-row="1" data-col="1">15-20</td>
-                  <td data-row="1" data-col="2">40-50</td>
+<td data-row="1" data-col="1">Quellenzahl (empirische Arbeit)</td>
+                  <td data-row="1" data-col="2">15-20</td>
+                  <td data-row="1" data-col="3">40-50</td>
                 </tr>
 <tr>
-<td data-row="2" data-col="0">Quellenzahl (theoretische Arbeit)</td>
-                  <td data-row="2" data-col="1">30-40</td>
-                  <td data-row="2" data-col="2">80-100</td>
+<td data-row="2" data-col="1">Quellenzahl (theoretische Arbeit)</td>
+                  <td data-row="2" data-col="2">30-40</td>
+                  <td data-row="2" data-col="3">80-100</td>
                 </tr>
 <tr>
-<td data-row="3" data-col="0">Wortzahl (Einzelarbeit)</td>
-                  <td data-row="3" data-col="1">4000</td>
-                  <td data-row="3" data-col="2">10000-12000</td>
+<td data-row="3" data-col="1">Wortzahl (Einzelarbeit)</td>
+                  <td data-row="3" data-col="2">4000</td>
+                  <td data-row="3" data-col="3">10000-12000</td>
                 </tr>
 <tr>
-<td data-row="4" data-col="0">Wortzahl (Gruppenarbeit mit 2 Personen)</td>
-                  <td data-row="4" data-col="1">6000</td>
-                  <td data-row="4" data-col="2">18000</td>
+<td data-row="4" data-col="1">Wortzahl (Gruppenarbeit mit 2 Personen)</td>
+                  <td data-row="4" data-col="2">6000</td>
+                  <td data-row="4" data-col="3">18000</td>
                 </tr>
 <tr>
-<td data-row="5" data-col="0">Wortzahl (Gruppenarbeit mit 3 Personen)</td>
-                  <td data-row="5" data-col="1">7000</td>
-                  <td data-row="5" data-col="2">21000</td>
+<td data-row="5" data-col="1">Wortzahl (Gruppenarbeit mit 3 Personen)</td>
+                  <td data-row="5" data-col="2">7000</td>
+                  <td data-row="5" data-col="3">21000</td>
                 </tr>
 <tr>
-<td data-row="6" data-col="0">Wortzahl (Gruppenarbeit mit 4 oder mehr Personen)</td>
-                  <td data-row="6" data-col="1">8000</td>
-                  <td data-row="6" data-col="2">24000</td>
+<td data-row="6" data-col="1">Wortzahl (Gruppenarbeit mit 4 oder mehr Personen)</td>
+                  <td data-row="6" data-col="2">8000</td>
+                  <td data-row="6" data-col="3">24000</td>
                 </tr>
 <tr>
-<td data-row="7" data-col="0">Stichprobengröße (Experimente/Between)</td>
-                  <td data-row="7" data-col="1">20-30</td>
-                  <td data-row="7" data-col="2">20-30 pro Gruppe</td>
+<td data-row="7" data-col="1">Stichprobengröße (Experimente/Between)</td>
+                  <td data-row="7" data-col="2">20-30</td>
+                  <td data-row="7" data-col="3">20-30 pro Gruppe</td>
                 </tr>
 <tr>
-<td data-row="8" data-col="0">Stichprobengröße (Experimente/Within)</td>
-                  <td data-row="8" data-col="1">15-20</td>
-                  <td data-row="8" data-col="2">30 pro Faktor</td>
+<td data-row="8" data-col="1">Stichprobengröße (Experimente/Within)</td>
+                  <td data-row="8" data-col="2">15-20</td>
+                  <td data-row="8" data-col="3">30 pro Faktor</td>
                 </tr>
 <tr>
-<td data-row="9" data-col="0">Stichprobengröße (beobachtend)</td>
-                  <td data-row="9" data-col="1">50</td>
-                  <td data-row="9" data-col="2">150-200</td>
+<td data-row="9" data-col="1">Stichprobengröße (beobachtend)</td>
+                  <td data-row="9" data-col="2">50</td>
+                  <td data-row="9" data-col="3">150-200</td>
                 </tr>
 <tr>
-<td data-row="10" data-col="0">Designumfang (experimentell)</td>
-                  <td data-row="10" data-col="1">2-3 Variablen</td>
-                  <td data-row="10" data-col="2">NA</td>
+<td data-row="10" data-col="1">Designumfang (experimentell)</td>
+                  <td data-row="10" data-col="2">2-3 Variablen</td>
+                  <td data-row="10" data-col="3">NA</td>
                 </tr>
 <tr>
-<td data-row="11" data-col="0">Designumfang (beobachtend)</td>
-                  <td data-row="11" data-col="1">3-4 Variablen</td>
-                  <td data-row="11" data-col="2">NA</td>
+<td data-row="11" data-col="1">Designumfang (beobachtend)</td>
+                  <td data-row="11" data-col="2">3-4 Variablen</td>
+                  <td data-row="11" data-col="3">NA</td>
                 </tr>
 <tr>
-<td data-row="12" data-col="0">Interviewzahl</td>
-                  <td data-row="12" data-col="1">3-4</td>
-                  <td data-row="12" data-col="2">8-10</td>
+<td data-row="12" data-col="1">Interviewzahl</td>
+                  <td data-row="12" data-col="2">3-4</td>
+                  <td data-row="12" data-col="3">8-10</td>
                 </tr>
 <tr>
-<td data-row="13" data-col="0">Interviewdauer (jeweils)</td>
-                  <td data-row="13" data-col="1">30 Min.</td>
+<td data-row="13" data-col="1">Interviewdauer (jeweils)</td>
                   <td data-row="13" data-col="2">30 Min.</td>
+                  <td data-row="13" data-col="3">30 Min.</td>
                 </tr>
 <tr>
-<td data-row="14" data-col="0">Berücksichtigte Quellen für die Feinanalyse eines systematischen Reviews</td>
-                  <td data-row="14" data-col="1">40-50</td>
-                  <td data-row="14" data-col="2">80-100</td>
+<td data-row="14" data-col="1">Berücksichtigte Quellen für die Feinanalyse eines systematischen Reviews</td>
+                  <td data-row="14" data-col="2">40-50</td>
+                  <td data-row="14" data-col="3">80-100</td>
                 </tr>
 </tbody>
 </table>

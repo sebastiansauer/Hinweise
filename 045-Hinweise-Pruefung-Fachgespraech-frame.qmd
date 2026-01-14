@@ -24,17 +24,6 @@ Die Dauer beträgt *10-15 Minuten*, soweit nicht anders vom Dozenten angegeben.
 
 
 
-### Reihenfolge
-
-In der Regel präsentieren mehrere Studierende, so dass sich die Frage nach der Reihenfolge der Prüfungen stellt.
-Aus Gründen der Fairness und Einfachheit bestimmt der Dozent die Reihenfolge  *zufällig*.
-
-:::callout-note
-Die Zufallsreihenfolge aller angemeldeten Prüflinge bestimmt der Dozent durch die R-Funktion `sample`, wobei als Startwert das Datum des (ersten) Prüfungstags herangezogen wird^[Im Format ISO 8601, z.B. "20240116"]. $\square$
-:::
-
-Den Studierenden steht es frei, ihre Position untereinander zu tauschen, sofern die Beteiligten alle zustimmen. 
-
 
 
 
@@ -43,8 +32,8 @@ Den Studierenden steht es frei, ihre Position untereinander zu tauschen, sofern 
 ## Die Prüfperson während Ihrer Präsentation
 
 
-In der Regel wird Sie die Lehrkraft bei Ihrer Ausführungen *nicht unterbrechen*, d
-amit Sie störungsfrei Ihre Argumente entwickeln können.
+In der Regel wird Sie die Lehrkraft bei Ihrer Ausführungen *nicht unterbrechen*, 
+damit Sie störungsfrei Ihre Argumente entwickeln können.
 Nur in Ausnahmefällen wird sich die Lehrkraft dennoch zu Wort melden; 
 dies hat dann immer den Hintergrund, Sie auf den richtigen Weg zurückzuführen, ist also stets konstruktiv gemeint.
 Bitte verstehen Sie diese Maßnahmen vor der -- in Anbetracht der Fülle des zu präsentierenden Materials -- knappen Redezeit. 
