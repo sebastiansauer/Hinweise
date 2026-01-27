@@ -16,7 +16,7 @@ library(tidyverse)
 1. Tragen Sie zu Beginn der Prüfung Ihren *Namen* und Ihre *Matrikelnummer* auf Ihre entsprechenden Bögen ein.
 2. Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die *am besten passende*.
 2.  *Treffen Sie Annahmen*, (nur) wo nötig. 
-2.  Die Prüfung besteht auch aus *Single-  bzw. Multiple-Choice*- (MC)-Aufgaben mit mehreren Antwortoptionen; auch offene Fragen sind möglich.
+2.  Die Prüfung besteht auch aus *Single- bzw. Multiple-Choice*- (MC)-Aufgaben mit mehreren Antwortoptionen; auch offene Fragen sind möglich.
 2.  Falls Sie bei einer Aufgabe *mehrere Antworten* finden, aber nur nach einer gefragt ist, geben Sie nur *eine* an. 
 2.  Falls mehrere (widersprüchliche) Antworten gegeben wurden, wird im Zweifel die *erst genannte* gewertet.
 2.  Die Aufgabenstellung in einer Moodle-Prüfung wird u.U. erst sichtbar, wenn Sie den *Prüfungsbedingungen* zugestimmt haben und die Prüfungszeit begonnen hat.
@@ -98,7 +98,7 @@ Prüfung teilgenommen haben. Die relative Bestehensgrenze des Satz 1 Ziff. 2 kom
 <!-- ![Ein Musterdeckblatt einer Klausur](img/QM2-Pruefung-Deckblatt-2024-WiSe.png){#fig-deckblatt width=75%} -->
 
 
-![Ein Musterdeckblatt einer Statistik-Klausur](img/QM2-Deckblatt.png){#fig-deckblatt width=75%}
+![Ein Musterdeckblatt einer Statistik-Klausur](img/QM2-Deckblatt3.png){#fig-deckblatt width=75%}
 
 
 <!-- @fig-antwortbogen zeigt ein Muster eines Antwortbogens. -->
