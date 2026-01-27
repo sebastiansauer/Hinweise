@@ -98,7 +98,7 @@ Prüfung teilgenommen haben. Die relative Bestehensgrenze des Satz 1 Ziff. 2 kom
 <!-- ![Ein Musterdeckblatt einer Klausur](img/QM2-Pruefung-Deckblatt-2024-WiSe.png){#fig-deckblatt width=75%} -->
 
 
-[Ein Musterdeckblatt einer Statistik-Klausur](img/QM2-Deckblatt.png){#fig-deckblatt width=75%}
+![Ein Musterdeckblatt einer Statistik-Klausur](img/QM2-Deckblatt.png){#fig-deckblatt width=75%}
 
 
 <!-- @fig-antwortbogen zeigt ein Muster eines Antwortbogens. -->
