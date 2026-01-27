@@ -111,10 +111,6 @@ Tragen Sie zu Beginn der Klausur Ihren Namen und Ihre Matrikelnummer ein! $\squa
 :::
 
 
-## Besonderheiten von Moodle-Klausuren
-
-1. Verwenden Sie *Standardwerte* (defaults) der R-Funktionen, soweit nicht anders in der jeweiligen Aufgabe verlangt.
-2.  Bei Fragen zu R-Syntax spielen Aspekte wie Enter-Taste o.Ä. bei der Beantwortung der Frage keine Rolle; diese Aspekte dürfen zu ignorieren.
 
 ## Besonderheiten zur Bayes-Statistik
 
@@ -144,9 +140,45 @@ Tragen Sie zu Beginn der Klausur Ihren Namen und Ihre Matrikelnummer ein! $\squa
 
 
 
-## Datensätze in der Prüfung
+## Zugelassene Taschenrechner
 
-In einigen Prüfungen werden Datensätze bearbeitet. 
+Taschenrechner sind nur dann in der Prüfung zugelassen, 
+wenn dies explizit in der Prüfungsplan vermerkt ist.
+Zugelassen sind in dann nur wissenschaftlicher Taschenrechner, dessen Funktionalität den Regelungen des KMS Nr. VI.7–5 S 5500–6b.80372 vom 11.11.2011 und der [Anlage dazu](https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Faecher/Mathematik/KMBek_und_KMS/Hilfsmittel/regelungen_zur_verwendung_von_taschenrechnern_als_hilfsmittel_bei_leistungsnachweisen.pdf) entspricht.
+
+
+Vereinfacht gesagt: Zugelassen sind *nicht-programmierbare, wissenschaftliche* Taschenrechner.
+
+
+
+>  Ein Taschenrechner gilt als programmierbar, wenn zusätzliche, zum ursprünglichen Funktionsumfang nicht gehörige Routinen gespeichert werden können. (Anlage zum KMS Az.: VI.7 – 5 S 5500 – 6b.80372 vom 11. November 2011)
+
+
+
+
+
+
+## Besonderheiten von Moodle-Klausuren
+
+
+1.  Je nach Spracheinstellung in Moodle kann es sein, dass Sie als *Dezimaltrennzeichen* ein Komma oder einen Punkt verwenden müssen. Moodle weist Sie darauf hin, falls eine Zahl nicht als Zahl erkannt wurde.
+2.  *Runden* Sie bei Fragen, die auf Anteile abzielen auf *zwei Dezimalstellen*, ansonsten auf eine.
+2.  Geben Sie *keine Prozentzahlen* an, sondern *Anteile* (FALSCH: `50%`, RICHTIG: `0.5` bzw. `0,5`).
+2.  Bei Aufgaben, die eine Zahl als Antwort verlangen, ist *nur Ziffern anzugeben* (nicht etwa Buchstaben).
+2.  Alle Berechnungen, die *Zufallszahlen* beinhalten, sollen mit *fixierten Startwert* der Zufallszahlen durchgeführt werden. Es ist die Zahl `42` zu verwenden.
+2.  2.  Wenn *Stichproben simuliert* werden sollen, ziehen Sie $10^3$ Zufallsstichproben.
+2.  In einigen Aufgaben kann verlangt sein, dass Sie einen *bestimmten Datensatz in R importieren* sollen. In diesem Fall wird vorausgesetzt, dass Ihnen [diese Bezugsquelle](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) von Datensätzen bekannt ist und dass Sie wissen, wie man einen Datensatz in R importiert.
+2.  Achten Sie darauf, R und R-Pakete sowie R-Studio *in aktueller Version* zu verwenden. Das Verwenden älterer Versionen kann (in seltenen Fällen) zu abweichenden Lösungen führen. Im Zweifel beziehen sich alle Aufgaben auf die jeweils aktuellste Version der verwendeten Software.
+2.  Wenn Sie *Text eingeben* sollen: Geben Sie *nur Kleinbuchstaben ein*. Geben Sie nur ein einziges Wort ein. Geben Sie keine Leerzeichen ein.
+1. Verwenden Sie *Standardwerte* (defaults) der R-Funktionen, soweit nicht anders in der jeweiligen Aufgabe verlangt.
+2.  Bei Fragen zu *R-Syntax* spielen Aspekte wie *Enter-Taste o.Ä.* bei der Beantwortung der Frage *keine Rolle*; diese Aspekte dürfen zu ignorieren.
+
+
+
+
+## Datensätze in Moodle-Prüfungen
+
+In einigen Moodle-Prüfungen werden Datensätze bearbeitet. 
 Dazu sind hier einige Regelungen und Hinweise formuliert.
 
 
@@ -266,39 +298,6 @@ d_joint |>
 Sie können auch die gesamte CSV-Datei mit Namen und URL zu den Datensätzen [hier](data/pruefungsdatensaetze.csv) herunterladen.
 
 {{< downloadthis data/pruefungsdatensaetze.csv dname = "pruefungsdatensaetze.csv" >}}
-
-
-
-## Zugelassene Taschenrechner
-
-Taschenrechner sind nur dann in der Prüfung zugelassen, 
-wenn dies explizit in der Prüfungsplan vermerkt ist.
-Zugelassen sind in dann nur wissenschaftlicher Taschenrechner, dessen Funktionalität den Regelungen des KMS Nr. VI.7–5 S 5500–6b.80372 vom 11.11.2011 und der [Anlage dazu](https://www.isb.bayern.de/fileadmin/user_upload/Gymnasium/Faecher/Mathematik/KMBek_und_KMS/Hilfsmittel/regelungen_zur_verwendung_von_taschenrechnern_als_hilfsmittel_bei_leistungsnachweisen.pdf) entspricht.
-
-
-Vereinfacht gesagt: Zugelassen sind *nicht-programmierbare, wissenschaftliche* Taschenrechner.
-
-
-
->  Ein Taschenrechner gilt als programmierbar, wenn zusätzliche, zum ursprünglichen Funktionsumfang nicht gehörige Routinen gespeichert werden können. (Anlage zum KMS Az.: VI.7 – 5 S 5500 – 6b.80372 vom 11. November 2011)
-
-
-
-
-
-
-## Aufgaben zur Datenanalyse
-
-
-1.  Je nach Spracheinstellung in Moodle kann es sein, dass Sie als *Dezimaltrennzeichen* ein Komma oder einen Punkt verwenden müssen. Moodle weist Sie darauf hin, falls eine Zahl nicht als Zahl erkannt wurde.
-2.  *Runden* Sie bei Fragen, die auf Anteile abzielen auf *zwei Dezimalstellen*, ansonsten auf eine.
-2.  Geben Sie *keine Prozentzahlen* an, sondern *Anteile* (FALSCH: `50%`, RICHTIG: `0.5` bzw. `0,5`).
-2.  Bei Aufgaben, die eine Zahl als Antwort verlangen, ist *nur Ziffern anzugeben* (nicht etwa Buchstaben).
-2.  Alle Berechnungen, die *Zufallszahlen* beinhalten, sollen mit *fixierten Startwert* der Zufallszahlen durchgeführt werden. Es ist die Zahl `42` zu verwenden.
-2.  2.  Wenn *Stichproben simuliert* werden sollen, ziehen Sie $10^3$ Zufallsstichproben.
-2.  In einigen Aufgaben kann verlangt sein, dass Sie einen *bestimmten Datensatz in R importieren* sollen. In diesem Fall wird vorausgesetzt, dass Ihnen [diese Bezugsquelle](https://vincentarelbundock.github.io/Rdatasets/articles/data.html) von Datensätzen bekannt ist und dass Sie wissen, wie man einen Datensatz in R importiert.
-2.  Achten Sie darauf, R und R-Pakete sowie R-Studio *in aktueller Version* zu verwenden. Das Verwenden älterer Versionen kann (in seltenen Fällen) zu abweichenden Lösungen führen. Im Zweifel beziehen sich alle Aufgaben auf die jeweils aktuellste Version der verwendeten Software.
-2.  Wenn Sie *Text eingeben* sollen: Geben Sie *nur Kleinbuchstaben ein*. Geben Sie nur ein einziges Wort ein. Geben Sie keine Leerzeichen ein.
 
 
 
