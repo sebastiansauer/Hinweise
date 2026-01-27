@@ -17,3 +17,5 @@ _freeze/
 test*.*
 test.*
 
+
+**/*.quarto_ipynb
