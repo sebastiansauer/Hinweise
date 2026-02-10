@@ -13,6 +13,9 @@ library(tidyverse)
 
 ## Allgemeine Hinweise
 
+
+Bitte informieren Sie sich auch in der APO, SPO sowie den Prüfungshinweisen der Hochschulen (auf der Homepage).
+
 1. Tragen Sie zu Beginn der Prüfung Ihren *Namen* und Ihre *Matrikelnummer* auf Ihre entsprechenden Bögen ein.
 2. Findet sich in einer Auswahlliste möglicher Antworten nicht die exakte Lösung, wählen Sie die *am besten passende*.
 2.  *Treffen Sie Annahmen*, (nur) wo nötig. 
@@ -23,13 +26,6 @@ library(tidyverse)
 3. Durch Ihre Teilnahme an der Prüfung bestätigen Sie, dass Sie die *Hinweise zur Kenntnis genommen* haben.
 12. Runden Sie auf *zwei Dezimalstellen*, soweit nicht anders angegeben.
 10. Wie auch bei den übrigen Hinweisen gelten diese Maßgaben nur soweit  nicht *explizit andere Hinweise* gegeben wurden.
-
-
-## Ablauf einer Klausur
-
-Bitte informieren Sie sich auch in der APO, SPO sowie den Prüfungshinweisen der Hochschulen (auf der Homepage).
-
-
 1. Vor dem Prüfungsraum ist u.U. ein *Sitzplan* ausgehängt. Bitte setzen Sie sich ggf. auf den Ihnen zugewiesenen Platz.
 2. Setzen Sie sich bitte *nur* auf Plätze mit einer Nummer, *nicht* auf Plätze ohne Nummer. Das hat den Hintergrund, dass die Aufsicht protokollieren muss, welcher Prüfling wo sitzt.
 3. Bitte verteilen Sie sich *gleichmäßig* auf die *Plätze*; lassen Sie *möglichst viel Platz* zwischen den Prüflingen.
@@ -50,7 +46,11 @@ Bitte informieren Sie sich auch in der APO, SPO sowie den Prüfungshinweisen der
 15. *Vorzeitige Abgabe* ist *nicht* möglich. Bitte bleiben Sie bis zum Prüfungsende am Platz.
 16. Geben Sie *alle Prüfungsunterlagen* ab, auch Konzeptpapier.
 17. Alle Aufgaben werden mit (max.) 1 Punkt bewertet, soweit nicht anders angegeben.
- 
+18. Verwenden Sie nur blaue oder schwarze Kugelschreiber zum schreiben. Tipp: Nehmen Sie sich einen Ersatz-Kugelschreiber mit.   
+19. Erscheinen Sie 20 Minuten vor Prüfungsbeginn.
+20. Stört ein Prüfling während der Prüfung durch Geräusche, Ausrufe, Heulen usw., so kann diese für die anderen Studierenden eine erhebliche Störung sein. Störendes Verhalten kann zum Nichtbestehen der Prüfung führen.
+21. Bei Täuschungsverdacht: Ein Prüfling ist bei begründetem Verdacht auf Täuschung verpflichtet, an der Aufklärung des Verdachts mitzuwirken und eine entsprechende Untersuchung zu dulden.
+22. Wenn ein Prüfling nach Beginn jedoch noch vor Ende einer Prüfungsleistung so erkrankt, dass er seine momentane Leistungsfähigkeit beeinträchtigt sieht, sollte er dies sofort der Prüfungsaufsicht mitteilen und seinen Rücktritt erklären. Danach muss er sofort einen Arzt aufsuchen, der ein eingehendes ärztliches Gutachten ausstellt, das die plötzlich aufgetretene Prüfungsunfähigkeit bestätigt. Unter Vorlage dieses Gutachtens ist dann eine Annullierung beim zuständigen Prüfungsausschuss zu beantragen. 
 
 :::{.callout-important}
 Widerhandlungen können Nicht-Bestehen der Prüfung nach sich ziehen.
@@ -299,5 +299,22 @@ Sie können auch die gesamte CSV-Datei mit Namen und URL zu den Datensätzen [hi
 
 {{< downloadthis data/pruefungsdatensaetze.csv dname = "pruefungsdatensaetze.csv" >}}
 
+
+## Einsichtnahme
+
+Sie haben das Recht auf Einsichtnahme in Ihre Prüfungsergebnisse.
+Dazu stellt Ihnen der Prüfer die Klausur sowie Ihre Antworten vorab online zur Verfügung (auf der jeweiligen Moodle-Seite des Moduls).
+Außerdem stellt der Prüfer die Notenschwellen und sonstige nötige Informationen zur Notenbildung bereit.
+So können Sie selber selbständig prüfen, ob die Note der Prüfers korrekt ist aus Ihrer Sicht.
+
+Wenn Sie zusätzlich zum Präsenztermin der Einsichtnahme kommen möchten, 
+nehmen Sie bitte die vom Prüfer eingestellten Unterlagen zum Termin mit,
+da sie der Prüfer nicht mitbringt (da ja schon online verfügbar).
+Streng genommen ist es nur sinnvoll zur Einsichtnahme zu kommen,
+wenn Ihre Durchsicht zu einer anderen Note kommt als sie der Prüfer eingestellt hat.
+Der Prüfer bietet zu Beginn des Semesters einen Termin zur Einsichtnahme an;
+bitte achten Sie auf die Nachricht der Prüfers (via Moodle über das entsprechende Modul).
+Bitte kommen Sie pünktlich zu Beginn der ausgeschriebenen Zeit der Einsichtnahme;
+wenn keine Studierenden (mehr) da sind, ist die Einsichtnahme beendet.
 
 
