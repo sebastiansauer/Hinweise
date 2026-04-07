@@ -180,24 +180,7 @@ Bitte bereiten Sie sich auf das Gespräch wie folgt vor:
 
 Tipps:
 
-- Lesen Sie vorab die [FAQ]().
-- Lesen Sie vorab die [häufigen Fehler in der Datenanalyse](@tbl-typ-fehler-statistik zeigt häufige Fehler bei statistischen Auswertungen in studentischen Arbeiten.
-
-
-| Nr. | Fehler                                   | Kurzbeschreibung                                                                 | Warum problematisch?                                              | Besser so                                                          |
-|-----|------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|
-| 1   | p-Werte falsch interpretieren            | p wird als Wahrscheinlichkeit der Hypothese gedeutet                            | Missverständnis der Inferenz                                      | Bayes nutzen. Oder p als Wahrscheinlichkeit der Daten unter H₀ interpretieren         |
-| 2   | Signifikanz = Relevanz                   | Signifikante Ergebnisse werden automatisch als wichtig angesehen                | Große N → fast alles signifikant                                  | Effektgrößen und praktische Bedeutung berücksichtigen              |
-| 3   | Fehlende Effektgrößen                    | Nur p-Werte berichtet                                                            | Keine Aussage über Stärke des Effekts                             | d, η², r etc. berichten und interpretieren                         |
-| 4   | Voraussetzungen ignorieren               | Tests ohne Prüfung von Annahmen durchgeführt                                     | Ergebnisse evtl. verzerrt                                         | Annahmen prüfen und ggf. robuste Verfahren nutzen                  |
-| 5   | Falscher Test gewählt                   | Test passt nicht zur Fragestellung                                               | Falsche Schlussfolgerungen                                        | Testwahl an Hypothese und Design anpassen                          |
-| 6   | Skalenniveaus missachten         | Man kann aus dem Durchschnitt von Postleitzahlen keine sinnvolle Aussage ableiten | Sinnlose Ergebnisse                                | Skalenniveau prüfen und passende Auswertung wählen                      |
-| 7   | Korrelation = Kausalität                | Zusammenhänge als Ursache interpretiert                                          | Fehlinterpretation der Daten                                      | Vorsichtig formulieren („Zusammenhang“, „assoziiert mit“)          |
-| 8   | Intransparente Datenbereinigung         | Ausreißer/Fälle ohne klare Regeln entfernt                                       | p-Hacking / Verzerrung                                            | Kriterien vorab festlegen und dokumentieren                        |
-| 9   | Fehlinterpretation von Modellen         | z. B. Regressionskoeffizienten falsch gedeutet                                   | Inhaltlich falsche Aussagen                                       | Modelle korrekt verstehen (Beta, Interaktion, Multikollinearität)  |
-| 10  | Schlechte Ergebnisdarstellung           | Unklare oder fehlende Tabellen/Grafiken, fehlende Beschriftung                                 | Ergebnisse schwer verständlich                                    | Klare, APA-konforme Darstellung                                    |
-| 11  | Hypothesen unpräzise operationalisiert  | Beispiel: „Es gibt einen Unterschied“ → aber kein klarer Test spezifiziert       | Unklar, ob statistischer Test der Forschungsfrage entspricht      | statistische Hypothesen formulieren 
-
-: Typische Fehler in statistischen Auswertungen {#tbl-typ-fehler}
-)
+- Lesen Sie vorab die [FAQ](https://hinweisbuch.netlify.app/167-faq).
+- Lesen Sie vorab die [häufigen Fehler in der Datenanalyse](https://hinweisbuch.netlify.app/180-beispiele-fehler-datenanalyse-frame).
+- Lesen Sie vorab die [Hinweise zu Qualifizierungsarbeiten](https://hinweisbuch.netlify.app/100-hinweise-pruefung-thesis-frame).
 
