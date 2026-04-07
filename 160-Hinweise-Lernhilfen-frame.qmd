@@ -142,7 +142,7 @@ Hier sind einige Quellen (Literatur), die Ihnen helfen sollen, das Lernen (noch 
 ## Hybrider Unterricht
 
 
-Dieser Kurs kann in Präsenz und Online angeboten (bzw. besucht) werden.
+Manche Module können in Präsenz und Online angeboten (bzw. besucht) werden.
 Wenn Sie die Wahl haben, *empfehle ich die Teilnahme in Präsenz*, da der Lernerfolg höher ist.
 Online ist es meist schwieriger, sich zu konzentrieren, da es mehr Ablenkung gibt.
 Aber auch online ist es möglich, den Stoff gut zu lernen, s. @fig-believe-in-you.
@@ -162,4 +162,42 @@ die das Online-Zusammenarbeiten vereinfachen:
 - Nutzen Sie das vom Dozenten bereitgestelle *Forum*, um Fragen zu stellen und Fragen zu beantworten.
 
 
+
+## Beratungsgespräch
+
+Sie können ein Beratungsgespräch bei mir wahrnehmen, z.B. im Zuge Ihrer Vorbereitung der Abschlussarbeit.
+Ziel des Beratungsgespräches ist es, Fragen zu den schriftlichen Hinweisen zu klären (oder etwaige fehlende Informationen zu ergänzen).
+Darüber hinaus sind immer wieder Fragen der Forschungsmethodik (wie Versuchsplanung und Datenanalyse) Gesprächsthema.
+Es soll also darum gehen, ihre konkreten Fragen soweit wie möglich zu beantworten.
+Es ist nicht Ziel das Gesprächs, größere Teile Ihrer Qualifizierungsarbeit vom Prüfer bearbeiten zu lassen ;-)
+
+Bitte bereiten Sie sich auf das Gespräch wie folgt vor:
+
+- Lesen Sie die relevanten Teile des [Hinweisbuches](https://hinweisbuch.netlify.app/). Tipp: Nutzen Sie den Suchschlitz, um nach passenden Stichwörtern zu suchen.
+- Recherchieren Sie in gängigen Fachbüchern oder bei einer KI zu Ihrer Frage. In den Kursbüchern der Autors - [Statistik1](https://sebastiansauer.github.io/statistik1/), [Start:Bayes](https://sebastiansauer.github.io/start-bayes/) und [Forschungsprojekt](https://sebastiansauer.github.io/fopra/) - finden Sie Anleitungen, die auf studentische Arbeiten zugeschnitten sind.
+- Wenn Sie Fragen zur Auswertung haben: Bringen Sie Hypothesen mit zum Gespräch. Bitte klären Sie vorab die Skalenniveaus und die Operationalisierung Ihrer Hypothesen. Zentral ist, dass Sie jederzeit wissen, was die UV und was die AV einer Hypothese ist.
+
+
+Tipps:
+
+- Lesen Sie vorab die [FAQ]().
+- Lesen Sie vorab die [häufigen Fehler in der Datenanalyse](@tbl-typ-fehler-statistik zeigt häufige Fehler bei statistischen Auswertungen in studentischen Arbeiten.
+
+
+| Nr. | Fehler                                   | Kurzbeschreibung                                                                 | Warum problematisch?                                              | Besser so                                                          |
+|-----|------------------------------------------|----------------------------------------------------------------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------|
+| 1   | p-Werte falsch interpretieren            | p wird als Wahrscheinlichkeit der Hypothese gedeutet                            | Missverständnis der Inferenz                                      | Bayes nutzen. Oder p als Wahrscheinlichkeit der Daten unter H₀ interpretieren         |
+| 2   | Signifikanz = Relevanz                   | Signifikante Ergebnisse werden automatisch als wichtig angesehen                | Große N → fast alles signifikant                                  | Effektgrößen und praktische Bedeutung berücksichtigen              |
+| 3   | Fehlende Effektgrößen                    | Nur p-Werte berichtet                                                            | Keine Aussage über Stärke des Effekts                             | d, η², r etc. berichten und interpretieren                         |
+| 4   | Voraussetzungen ignorieren               | Tests ohne Prüfung von Annahmen durchgeführt                                     | Ergebnisse evtl. verzerrt                                         | Annahmen prüfen und ggf. robuste Verfahren nutzen                  |
+| 5   | Falscher Test gewählt                   | Test passt nicht zur Fragestellung                                               | Falsche Schlussfolgerungen                                        | Testwahl an Hypothese und Design anpassen                          |
+| 6   | Skalenniveaus missachten         | Man kann aus dem Durchschnitt von Postleitzahlen keine sinnvolle Aussage ableiten | Sinnlose Ergebnisse                                | Skalenniveau prüfen und passende Auswertung wählen                      |
+| 7   | Korrelation = Kausalität                | Zusammenhänge als Ursache interpretiert                                          | Fehlinterpretation der Daten                                      | Vorsichtig formulieren („Zusammenhang“, „assoziiert mit“)          |
+| 8   | Intransparente Datenbereinigung         | Ausreißer/Fälle ohne klare Regeln entfernt                                       | p-Hacking / Verzerrung                                            | Kriterien vorab festlegen und dokumentieren                        |
+| 9   | Fehlinterpretation von Modellen         | z. B. Regressionskoeffizienten falsch gedeutet                                   | Inhaltlich falsche Aussagen                                       | Modelle korrekt verstehen (Beta, Interaktion, Multikollinearität)  |
+| 10  | Schlechte Ergebnisdarstellung           | Unklare oder fehlende Tabellen/Grafiken, fehlende Beschriftung                                 | Ergebnisse schwer verständlich                                    | Klare, APA-konforme Darstellung                                    |
+| 11  | Hypothesen unpräzise operationalisiert  | Beispiel: „Es gibt einen Unterschied“ → aber kein klarer Test spezifiziert       | Unklar, ob statistischer Test der Forschungsfrage entspricht      | statistische Hypothesen formulieren 
+
+: Typische Fehler in statistischen Auswertungen {#tbl-typ-fehler}
+)
 

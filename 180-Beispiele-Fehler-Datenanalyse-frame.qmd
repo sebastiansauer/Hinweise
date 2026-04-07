@@ -29,3 +29,8 @@ Häufige kleinere Mängel sind z. B.
 - fehlende oder unverständliche Achsenbeschriftung bei Diagrammen 
 - fehlende oder falsche Beschreibung der/des Skalenniveau(s) der untersuchten Variablen
 
+## Häufige Fehler
+
+[Diese Tabelle](https://sebastiansauer.github.io/fopra/080-Auswerten.html#typische-fehler) zeigt häufige Fehler der Datenanalyse in studentischen Arbeiten.
+
+

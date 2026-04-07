@@ -60,7 +60,7 @@ book:
         - 130-hinweise-software.qmd
         - 140-boni.qmd
         - 145-Tutorium.qmd
-    - part: "Lernhilfen"
+    - part: "Unterstützungsangebote"
       chapters: 
         - 150-Hinweise-Pruefungsvorbereitung-frame.qmd
         - 160-Hinweise-Lernhilfen-frame.qmd
