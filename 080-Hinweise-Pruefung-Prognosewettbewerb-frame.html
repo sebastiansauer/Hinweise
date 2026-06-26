@@ -648,7 +648,7 @@ window.Quarto = {
 <p>Ihnen werden <em>zwei Teildatenmengen</em> zur Verfügung gestellt: Zum einen gibt es die Trainingsdaten (auch <em>Lerndaten</em> genannt) und zum anderen gibt es Anwendungsdaten (auch <em>Testdaten</em> genannt), auf die man das Modell anwendet.</p>
 <ol type="1">
 <li><p>Bei den Trainingsdaten (Train-Sample) liegen sowohl die erklärenden Variablen (Prädiktoren, UV) als auch die Zielvariable <span class="math inline">\(y\)</span> vor. Auf diesen Trainingsdaten wird ein Modell der Form <code>y ~ x1 + x2 + ...</code> berechnet.</p></li>
-<li><p>Dieses Modell wird auf den Testdatensatz, für den (Ihnen) die Werte der Zielvariable <span class="math inline">\(y\)</span> unbekannt sind, angewendet. Der unbekannte Wert der Zielvariable <span class="math inline">\(y\)</span> im Testdatensatz wird durch durch Ihr Modell, das mit den Prädiktoren des Testdatensatzes gefürttert wird, prognostiziert.</p></li>
+<li><p>Dieses Modell wird auf den Testdatensatz, für den (Ihnen) die Werte der Zielvariable <span class="math inline">\(y\)</span> unbekannt sind, angewendet. Der unbekannte Wert der Zielvariable <span class="math inline">\(y\)</span> im Testdatensatz wird durch Ihr Modell, das mit den Prädiktoren des Testdatensatzes gefüttert wird, prognostiziert.</p></li>
 <li><p>Liegt zu einem noch späteren Zeitpunkt der echte Wert <span class="math inline">\(y\)</span> vor, so kann die eigene Vorhersage auf ihre Genauigkeit hin evaluiert werden. Diesen Schritt erledigt die Lehrkraft für Sie.</p></li>
 </ol>
 <!-- In der praktischen Anwendung können zeitlich drei aufeinanderfolgende Schritte unterschieden werden (vergleiche oben):  -->
@@ -788,7 +788,7 @@ Abbildung&nbsp;10.1: Zeitplan der Bearbeitung des Prognosewettbewerbs
 <section id="vorbereitung" class="level3" data-number="10.8.2">
 <h3 data-number="10.8.2" class="anchored" data-anchor-id="vorbereitung"><span class="header-section-number">10.8.2</span> Vorbereitung</h3>
 <p>In diesem Abschnitt Ihres Analysedokuments führen Sie die technische Vorbereitung durch. Das betrifft vor allem das Importieren der Daten und das Starten aller R-Pakete, die in der Analyse verwendet werden.</p>
-<p>Zum Importieren der Daten gehen Sie bitte so vor: Legen Sie für diese Analyse ein <em>Projekt in Rstudio</em> an. Speichern Sie in diesem Ordner (auf der Wurzelebene, nicht in Unterverzeichnissen) die zu analyiserenden Daten. Ändern Sie nicht den Dateinamen der Daten. Importieren Sie die Daten z.B. auf folgende Weise: <code>d_train &lt;- read_csv("d_train.csv)</code> bzw. <code>d_test &lt;- read_csv("d_test.csv")</code>. Auf diese Weise ist die Reproduzierbarkeit Ihrer Analyse sichergestellt.</p>
+<p>Zum Importieren der Daten gehen Sie bitte so vor: Legen Sie für diese Analyse ein <em>Projekt in Rstudio</em> an. Speichern Sie in diesem Ordner (auf der Wurzelebene, nicht in Unterverzeichnissen) die zu analysierenden Daten. Ändern Sie nicht den Dateinamen der Daten. Importieren Sie die Daten z.B. auf folgende Weise: <code>d_train &lt;- read_csv("d_train.csv)</code> bzw. <code>d_test &lt;- read_csv("d_test.csv")</code>. Auf diese Weise ist die Reproduzierbarkeit Ihrer Analyse sichergestellt.</p>
 </section>
 <section id="explorative-datenanalyse" class="level3" data-number="10.8.3">
 <h3 data-number="10.8.3" class="anchored" data-anchor-id="explorative-datenanalyse"><span class="header-section-number">10.8.3</span> Explorative Datenanalyse</h3>
