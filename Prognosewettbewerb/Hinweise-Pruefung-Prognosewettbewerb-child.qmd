@@ -60,7 +60,7 @@ Zum einen gibt es die Trainingsdaten (auch *Lerndaten* genannt) und zum anderen 
    Auf diesen Trainingsdaten wird ein Modell der Form `y ~ x1 + x2 + ...` berechnet. 
 
 2.  Dieses  Modell  wird auf den Testdatensatz, für den (Ihnen) die Werte der Zielvariable $y$ unbekannt sind,
-angewendet. Der unbekannte Wert der Zielvariable $y$ im Testdatensatz wird durch durch Ihr Modell, das mit den Prädiktoren des Testdatensatzes gefürttert wird, prognostiziert.
+angewendet. Der unbekannte Wert der Zielvariable $y$ im Testdatensatz wird durch Ihr Modell, das mit den Prädiktoren des Testdatensatzes gefüttert wird, prognostiziert.
 
 3. Liegt zu einem noch späteren Zeitpunkt der echte Wert $y$ vor, 
 so  kann die eigene Vorhersage auf ihre Genauigkeit hin evaluiert werden. Diesen Schritt erledigt die Lehrkraft für Sie.
@@ -273,7 +273,7 @@ Das betrifft vor allem das Importieren der Daten und das Starten aller R-Pakete,
 die in der Analyse verwendet werden.
 
 Zum Importieren der Daten gehen Sie bitte so vor: Legen Sie für diese Analyse ein *Projekt in Rstudio* an. 
-Speichern Sie in diesem Ordner (auf der Wurzelebene, nicht in Unterverzeichnissen) die zu analyiserenden Daten. 
+Speichern Sie in diesem Ordner (auf der Wurzelebene, nicht in Unterverzeichnissen) die zu analysierenden Daten.
 Ändern Sie nicht den Dateinamen der Daten. 
 Importieren Sie die Daten z.B. auf folgende Weise: `d_train <- read_csv("d_train.csv)` bzw. `d_test <- read_csv("d_test.csv")`.
 Auf diese Weise ist die Reproduzierbarkeit Ihrer Analyse sichergestellt.

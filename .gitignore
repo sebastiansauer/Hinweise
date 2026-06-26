@@ -19,3 +19,5 @@ test.*
 
 
 **/*.quarto_ipynb
+
+_book/
