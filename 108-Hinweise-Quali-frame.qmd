@@ -80,17 +80,17 @@ die vor Augen behalten werden soll. Die vorliegende Arbeit setzt dies nur in Tei
 
 ### Basisdesigns nach @flick2020
 
-```{r}
+```{r flick}
 #| echo: false
 library(tibble)
 
 flick_df <- tribble(
   ~Kriterien, ~Fallanalyse, ~Vergleichsstudie, ~Retrospektive_Studie, ~Momentaufnahme, ~Längsschnittstudie,
-  "Offenheit für den Gegenstand", "Fokus auf einen Fall", "Gewisse Standardisierung nötig", "Verlauf wird aus Sicht der Befragten rekonstruiert", "„Snapshot" – keine Entwicklung, keine Prozesse", "Begleitung einer Entwicklung",
+  "Offenheit für den Gegenstand", "Fokus auf einen Fall", "Gewisse Standardisierung nötig", "Verlauf wird aus Sicht der Befragten rekonstruiert", "Snapshot – keine Entwicklung, keine Prozesse", "Begleitung einer Entwicklung",
   "Strukturierung des Gegenstandes", "Auswahl des Falls", "Festlegung der Vergleichs-dimensionen", "Rückblick; Prozessperspektive", "Beschränkung auf aktuellen Stand", "Festlegung des untersuchten Zeitraums",
   "Anwendung", "Institutionen; Biographien", "Komparative Fragen", "Lebensgeschichten, Verläufe", "Routinen, Normen, Wissen", "Entwicklungs-verläufe",
-  "Probleme", "„Rundes" i.S.v. breites Bild zeichnen", "Wahl der Vergleichsdimensionen", "Überlagerung des Aktuellen auf das Alte", "Entscheidung über Relevanz", "Relevante Variablen vorab bestimmen",
-  "Grenzen", "Verallge-meinerung", "Verallgemeinerung", "„Was wäre wenn…" ist schwierig", "Prozesse", "Aufwand"
+  "Probleme", "Rundes i.S.v. breites Bild zeichnen", "Wahl der Vergleichsdimensionen", "Überlagerung des Aktuellen auf das Alte", "Entscheidung über Relevanz", "Relevante Variablen vorab bestimmen",
+  "Grenzen", "Verallge-meinerung", "Verallgemeinerung", "Was wäre wenn… ist schwierig", "Prozesse", "Aufwand"
 )
 
 gt::gt(flick_df)
