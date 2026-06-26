@@ -39,7 +39,7 @@ ANTWORT: Probieren Sie folgende Maßnahmen:
 
 
 
-### Ich brauche ein Kochrezpet zur Datenanalyse
+### Ich brauche ein Kochrezept zur Datenanalyse
 
 FRAGE: Ich brauche ein Kochrezept für die Datenanalyse!
 
@@ -189,7 +189,7 @@ parameters(m10.1)
 ![](img/toleranzbereich.png)
 
 
-ANTWORT: Tatsächlich ist es so, dass es trotz gleichem Wert bei `set.seed()` Abweichungen nicht ausgeschlossen werden können. 
+ANTWORT: Tatsächlich ist es so, dass trotz gleichem Wert bei `set.seed()` Abweichungen nicht ausgeschlossen werden können.
 Hintergrund ist, dass verschiedene Betriebssysteme oder weitere, im Hintergrund involvierte Software in unterschiedlichen Versionen zu Abweichungen führen können.
 In Ihrem Fall ist der Wert aber innerhalb des Toleranzbereichs.
 Im Zweifel werden Sie mit einigem Probieren Ihren Wert nach der Prüfung wiederholen können und so ggf. dem Prüfer nachweisen können, das Ihr Ergebnis statthaft, sogar, wenn es nicht im Toleranzbereich wäre.
@@ -233,7 +233,7 @@ Also alles in Ordnung. Sie brauchen sich keine Sorgen zu machen, die Abweichung 
 FRAGE: Welche Themengebiete werden in der Prüfung besonders behandelt?
 
 
-ANTWORT: In den Prüfungen werden alle Themengebiete abgefragt, die in der Vorlesungbehandelt wurden. Es gibt keine speziellen Schwerpunkte, die besonders behandelt werden. Es ist ratsam, sich auf alle Themengebiete vorzubereiten. Tipp: Schwerpunkte im Unterricht spiegeln sich oft in den Prüfungen wider.
+ANTWORT: In den Prüfungen werden alle Themengebiete abgefragt, die in der Vorlesung behandelt wurden. Es gibt keine speziellen Schwerpunkte, die besonders behandelt werden. Es ist ratsam, sich auf alle Themengebiete vorzubereiten. Tipp: Schwerpunkte im Unterricht spiegeln sich oft in den Prüfungen wider.
 
 
 ### RStudio in der Prüfung?
@@ -259,7 +259,7 @@ Hingegen sind einfache Berechnungen (die mit einem kaufmännischen Taschenrechne
 
 FRAGE: Gibt es bestimmte Übungsaufgaben oder Materialien, die Sie empfehlen, um sich gezielt auf die Theorie-Klausur in QM2 vorzubereiten?
 
-ATNWORT: [Hier](https://datenwerk.netlify.app/#category=qm2-pruefung) finden Sie eine Sammlung von Fragen, die in einer Probeprüfung gestellt wurden. Diese Fragen können Ihnen helfen, sich gezielt auf die Prüfung vorzubereiten.
+ANTWORT: [Hier](https://datenwerk.netlify.app/#category=qm2-pruefung) finden Sie eine Sammlung von Fragen, die in einer Probeprüfung gestellt wurden. Diese Fragen können Ihnen helfen, sich gezielt auf die Prüfung vorzubereiten.
 
 Darüber hinaus sollten Sie die theoretischen Inhalte des Skripts kennen sowie alle Themen, die im Unterricht behandelt wurden.
 
@@ -276,7 +276,7 @@ Zwar ist es formal kein Bestandteil der Prüfung, die Begleitliteratur zu lesen,
 FRAGE: Ich befinde mich gerade mitten in der Vorbereitung für meinen Drittversuch des Moduls Quantitative Methoden II neben dem Besuchen der Vorlesungen und Übungen über das Semester arbeite ich bisher hauptsächlich mit ihrem Skript und den dort gegebenen Pen and Paper Aufgaben. Wenn ich das Skript durchgearbeitet habe möchte ich mich des weiteren den Übungsaufgaben und Inhalten von Bourier widmen. Da es sich zeitgleich zum Drittversuch um meine letzte Prüfung vor der Bachelorarbeit handelt möchte ich mich möglichst lückenlos auf die Prüfung vorbereiten, damit keine Möglichkeit besteht die Prüfung nicht zu bestehen. Natürlich können sie keine genauen Inhalte der kommenden Prüfung geben, ich wollte mich trotzdem versichern, dass ich keine Aspekte des Kurses auslasse, die ebenfalls prüfungsrelevant sind. 
 
 
-ANTWORT: Die Aufgaben im Skript sind am wichtigsten. Dazu sollten die Inhalte, auf die sich die Aufgaben beziehen, gut erarbeitet sein. Darüber hinaus empfiehlt es es sich, sich Varianten zu den eingestellten Aufgaben zu überlegen, z.B. mit anderen Zahlen oder leichten inhaltlichen Variationen. Wichtig ist, die Aufgabe selber zu lösen und sich dann erst die Musterlösung anzuschauen. Viel Erfolg!
+ANTWORT: Die Aufgaben im Skript sind am wichtigsten. Dazu sollten die Inhalte, auf die sich die Aufgaben beziehen, gut erarbeitet sein. Darüber hinaus empfiehlt es sich, sich Varianten zu den eingestellten Aufgaben zu überlegen, z.B. mit anderen Zahlen oder leichten inhaltlichen Variationen. Wichtig ist, die Aufgabe selber zu lösen und sich dann erst die Musterlösung anzuschauen. Viel Erfolg!
 
 
 
@@ -284,7 +284,7 @@ ANTWORT: Die Aufgaben im Skript sind am wichtigsten. Dazu sollten die Inhalte, a
 
 FRAGE: Ich kann mich nicht in Moodle anmelden. Es erscheint folgender Hinweis bzw. folgende Fehlermeldung: "Leider gibt es derzeit in der Moodle App Probleme mit der Einschreibung in Kurse. Wir suchen eine Lösung für das Problem. Solange schreiben Sie sich bitte über einen Browser (auch am Handy möglich) in Ihre Kurse ein. Bitte entschuldigen Sie die Unannehmlichkeiten."
 
-ANTWORT: Dieser Hinweis betrifft nur die Anmeldung via App auf dem Handy. Die Anmeldung über den Browser (Computer) sollte problemlos funktioneren, s. @fig-login-moodle.
+ANTWORT: Dieser Hinweis betrifft nur die Anmeldung via App auf dem Handy. Die Anmeldung über den Browser (Computer) sollte problemlos funktionieren, s. @fig-login-moodle.
 
 ![Bitte klicken Sie auf "Login" bzw. "Hier können Sie sich anmelden", um sich in Moodle anzumelden](img/login-moodle.png){#fig-login-moodle width=75%}
 
@@ -297,7 +297,7 @@ ANTWORT: Dieser Hinweis betrifft nur die Anmeldung via App auf dem Handy. Die An
 
 FRAGE: Ich habe meine Projektarbeit 5 Minuten zu spät abgegeben. Gilt das noch? Nehmen Sie die Prüfung noch an?
 
-ANTWORT: Wenn wir 5 Minuten verspätete Abgabe, also ein "inoffizielle Kulanzzeit" noch akzeptieren, akzeptieren wir dann auch noch 6 Minuten, 10 Minuten, 20 Minuten verspätete Abgabe? Mit welchem Argument verwehren wir dann dem Student, der eine Minute nach der inoffiziellen Kulanzzeit abgibt, die Abgabe? Es gäbe keine Rechtfertigung, der einen Studentin einen inoffiziellen, nicht angekündigten Auschub zu gewähren, aber einem anderen Studenten nicht. Außerdem entsteht eine Ungleichbehandlung zulasten der Studierenden, die sich an die Regeln gehalten haben und dadurch dann weniger Arbeitszeit bekämen und somit benachteiligt würden. Ich fürchte, man kann es drehen und wenden, aber es bleibt: Eine Fristverlängerung ist ungerecht. Daher gilt: Nur fristgerechte Arbeiten werden angenommen.
+ANTWORT: Wenn wir 5 Minuten verspätete Abgabe, also ein "inoffizielle Kulanzzeit" noch akzeptieren, akzeptieren wir dann auch noch 6 Minuten, 10 Minuten, 20 Minuten verspätete Abgabe? Mit welchem Argument verwehren wir dann dem Student, der eine Minute nach der inoffiziellen Kulanzzeit abgibt, die Abgabe? Es gäbe keine Rechtfertigung, der einen Studentin einen inoffiziellen, nicht angekündigten Aufschub zu gewähren, aber einem anderen Studenten nicht. Außerdem entsteht eine Ungleichbehandlung zulasten der Studierenden, die sich an die Regeln gehalten haben und dadurch dann weniger Arbeitszeit bekämen und somit benachteiligt würden. Ich fürchte, man kann es drehen und wenden, aber es bleibt: Eine Fristverlängerung ist ungerecht. Daher gilt: Nur fristgerechte Arbeiten werden angenommen.
 
 ### Es gab ein technisches Problem bei der Abgabe.
 

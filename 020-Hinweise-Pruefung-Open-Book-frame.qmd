@@ -16,7 +16,7 @@
 
 Einige Prüfungen werden als “Take-home-Prüfung” im “Open-Book-Format” geschrieben. Was bedeutet dies?
 
-“Take-home-Prüfung”: Sie bearbeiten die Prüfung in Ihrem privaten Umgebung in Moodle oder in Räumlichkeiten der Hochschule. Eine Überwachung per Kamera findet nicht statt.
+“Take-home-Prüfung”: Sie bearbeiten die Prüfung in Ihrer privaten Umgebung in Moodle oder in Räumlichkeiten der Hochschule. Eine Überwachung per Kamera findet nicht statt.
 
 “Open-Book-Prüfung”: Sie dürfen Hilfsmittel wie Bücher und Folien während der Prüfung nutzen. 
 
@@ -48,7 +48,7 @@ Die Open-Book-Prüfungen werden ggf. auf [diesem, separaten Moodle-Server](https
 
 ### Prüfungsrecht
 
-Für die Open-Book-Prüfungg gilt die aktuelle Prüfungsordnung; die Open-Book-Prüfung fällt *nicht* unter die BayFEV. 
+Für die Open-Book-Prüfung gilt die aktuelle Prüfungsordnung; die Open-Book-Prüfung fällt *nicht* unter die BayFEV. 
 
 
 
@@ -56,7 +56,7 @@ Für die Open-Book-Prüfungg gilt die aktuelle Prüfungsordnung; die Open-Book-P
 ### Datenschutz
 
 Persönliche Daten werden an einer Stelle übermittelt: Moodle (über bzw. in Ihrem Konto). 
-Es findet *keine* Überwachung statt, weder kamaragestützt, akustisch oder softwaregestützt, noch mit sonstigen elektronischen Methoden.
+Es findet *keine* Überwachung statt, weder kameragestützt, akustisch oder softwaregestützt, noch mit sonstigen elektronischen Methoden.
 
 
 

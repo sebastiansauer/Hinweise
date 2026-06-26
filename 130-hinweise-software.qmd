@@ -95,7 +95,7 @@ Bevor Sie `rstanarm` installieren können, müssen Sie noch eine zusätzliche So
 
 Dieser Schritt ist meist nicht nötig, aber zur Sicherheit entledigen wir uns noch von etwaigen Altlasten (alten Versionen von Stan)
 
-Kopieren Sie dazu folgende R-Befehle und führen Sie si aus:
+Kopieren Sie dazu folgende R-Befehle und führen Sie sie aus:
 
 
 ```{r}
@@ -124,7 +124,7 @@ Für einige Module ist es nötig, dass Sie ein  *Literaturverwaltungsprogramm* w
 
 
 
-## Kolloboration
+## Kollaboration
 
 Mit *Kollaboration* ist hier die Zusammenarbeit in (ggf. virtuellen) Arbeitsgruppen gemeint.
 
@@ -152,7 +152,7 @@ Eindrücke nach dem Lesen eines Textes sind oft flüchtig; man vergisst vieles. 
 Das Verschriftlichen kann mithilfe von Exzerpten stattfinden. 
 Um Zusammenhänge zwischen Texten zu erkennen, hilft es etwa, Texten Schlagworte zuzuteilen.
 
-Zusammenfassungen von Texten kann man z.B. mit sog. "Hipster-PDAs" schreiben (vulgo: im Notizbuch), mittels Karteikarten (["Zettelkasten"](https://de.wikipedia.org/wiki/Zettelkasten) nach Niklas Luhmann) oder mit Hilfe geeigneter Software. Eine einfache Software-Lösung bieten z.B. Powerpoint-Folien. Eine neuere Lösung sind KI-gestützte Wissensamangement-Tools wie [notion](https://www.notion.so/product). Grafisch gestützte Methoden wie Mindmaps können auch software unterstützt eingesetzt werden.
+Zusammenfassungen von Texten kann man z.B. mit sog. "Hipster-PDAs" schreiben (vulgo: im Notizbuch), mittels Karteikarten (["Zettelkasten"](https://de.wikipedia.org/wiki/Zettelkasten) nach Niklas Luhmann) oder mit Hilfe geeigneter Software. Eine einfache Software-Lösung bieten z.B. Powerpoint-Folien. Eine neuere Lösung sind KI-gestützte Wissensmanagement-Tools wie [notion](https://www.notion.so/product). Grafisch gestützte Methoden wie Mindmaps können auch software unterstützt eingesetzt werden.
 
 
 ### Asynchrone Kommunikation

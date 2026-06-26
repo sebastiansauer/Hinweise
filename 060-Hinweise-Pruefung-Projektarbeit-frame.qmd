@@ -38,10 +38,10 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 
 
 
-#### Gesaltung des Textdokuments
+#### Gestaltung des Textdokuments
 
 
-1. Der angegebene Umfang an die *Mengengerüst der Wortzahl* des Texts bezieht sich auf den *Hauptteil* der Arbeit und gilt mit einem Toleranzbereich von plus/minus 10%. Geben Sie die Wortzahl Ihrer Arbeit auf der Titelseite oder im Anhang an. 
+1. Der angegebene Umfang an das *Mengengerüst der Wortzahl* des Texts bezieht sich auf den *Hauptteil* der Arbeit und gilt mit einem Toleranzbereich von plus/minus 10%. Geben Sie die Wortzahl Ihrer Arbeit auf der Titelseite oder im Anhang an. 
  
 2. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Bild als solches zählt nicht als Text). Fußnoten und Tabellen bzw. deren Inhalte zählen zur Wortzahl. Die Zählung der Wörter orientiert sich an der Methode von Microsoft Word (i.d.R. ist ein Wort jede Zeichenfolge, die von Leerzeichen oder Satzzeichen umgeben ist, das beinhaltet auch Zahlen und Sonderzeichen).
 
@@ -67,7 +67,7 @@ Der *Anhang* dient zur Dokumentation von Details, die nicht wichtig genug sind f
 - Messinstrumente
 - Analyse-Code (z.B. R-Skript oder Quarto-Datei)
 - Daten
-Stimuli
+- Stimuli
 - weiterführende Ergebnisse, 
 - Daten-Codebook
 - Interview-Transkriptionen. Der Anhang muss nicht ausgedruckt abgegeben werden, es reicht, wenn der Anhang elektronisch eingereicht wird. Führen Sie aber dennoch eine Liste aller Anhänge (also auch der elektronischen Anhänge) als Überblick zu Beginn des Anhangs auf.  Es ist zulässig, Dateien als Anhang einzureichen, ohne dass deren Inhalte auf Seiten dargestellt sind. Das ist vor allem sinnvoll bei Tabellen oder Computercode.
@@ -187,11 +187,11 @@ Beispiel für eine Tabelle zum Nachweis der geleisteten Arbeitsstunden.
 
 1. Wenden Sie die Methoden *quantitativer* Datenanalyse an.
 
-2. Werten Sie mit quantitative Fragestellungen *komplett* mit *R* oder mit *Python* aus.
+2. Werten Sie mit quantitativen Fragestellungen *komplett* mit *R* oder mit *Python* aus.
 
 25. Für *inferenzstatistische Fragestellungen* sind *Bayes-Methoden* (bevorzugt) oder frequentistische Methoden einzusetzen.
 
-4. *Tabellen* (z.B. mit Daten) müssen nicht mit R erstellt sein, sondern können auch von "von Hand" erstellt sein (z.B. mit Word).
+4. *Tabellen* (z.B. mit Daten) müssen nicht mit R erstellt sein, sondern können auch "von Hand" erstellt sein (z.B. mit Word).
 
 2. Es wird erwartet, dass Sie als Versuchsperson an den *Studien der Kommilitonis teilnehmen*, falls nötig.
     
@@ -218,7 +218,7 @@ Beispiel für eine Tabelle zum Nachweis der geleisteten Arbeitsstunden.
 
 23. *Inhaltliche Fragen* (d.h. den Stoff betreffend) werden im Unterricht jederzeit beantwortet. Sprechen Sie die Dozentis auch gerne vor oder nach dem Unterricht persönlich an.
 
-24. Aus Gründen der Fairness und Effizient werden inhaltliche *Fragen* von Studierenden *nur öffentlich*, z. B. im Unterricht oder im Online-Forum, beantwortet (nicht per Mail).
+24. Aus Gründen der Fairness und Effizienz werden inhaltliche *Fragen* von Studierenden *nur öffentlich*, z. B. im Unterricht oder im Online-Forum, beantwortet (nicht per Mail).
 
 25. Projektmanagement wie das Einteilen der zur Verfügung stehenden Zeit oder Dokumentenmanagement sind Gegenstand der Prüfung. 
 Prüfungsteilnehmerinnen und -teilnehmer sind dafür eigenständig verantwortlich.
@@ -279,7 +279,7 @@ Bitte beachten Sie, dass die folgende Liste nicht vollständig ist und auch nich
 - *Gliederung*: Ist die Gliederung logisch aufgebaut, stringent und auf die Fragestellung sinnvoll bezogen?
 - *Problemstellung* und Relevanz: Ist das Thema bzw. die Forschungsfrage sinnvoll definiert, begründet und motiviert?
 - *Argumentation*: Wird abgewogen, sachlich, logisch, fachlich fundiert, problembezogen und stringent argumentiert? 
-- *Literaturnutzung*: Wird Literatur in angemessener Breite und Tiefe verarbeitet? Wie ist die Aktualität und Güte einzuschätzen? Wird ein repräsentatives Bild des Kenntnissstand des Themas vermittelt oder eher eine eingeschränkte, veraltete oder verzertte Darstellung? Wird auf Diskrepanzen in der Meinung der Scientific Community und auf offene Fragen in der Literatur hingewiesen? 
+- *Literaturnutzung*: Wird Literatur in angemessener Breite und Tiefe verarbeitet? Wie ist die Aktualität und Güte einzuschätzen? Wird ein repräsentatives Bild des Kenntnissstand des Themas vermittelt oder eher eine eingeschränkte, veraltete oder verzerrte Darstellung? Wird auf Diskrepanzen in der Meinung der Scientific Community und auf offene Fragen in der Literatur hingewiesen? 
 - *Sprachlicher Ausdruck*: Wird korrekt, flüssig, nachvollziehbar, verständlich und unter Verwendung der richtigen Fachbegriffe argumentiert? 
 - *Problemlösung*: Wie sind Breite und Tiefe der Problemdurchdringung einzuschätzen? Wie hoch ist die Eigenständigkeit der Problemlösung? Findet sich in hohem Maße eine kritische Reflexion des Vorgehens und der Ergebnisse der Arbeit?
 
@@ -289,7 +289,7 @@ Bitte beachten Sie, dass die folgende Liste nicht vollständig ist und auch nich
 ### Gutachtenerstellung
 
 
-- Neben der Gesamtnote und ggf. den Teilnoten kann der Gutachter zusätzliche noch Kommentare, d.h. ausformulierte Aussagen zur Bewertung bestimmter Teile der Arbeit, hinzufügen.
+- Neben der Gesamtnote und ggf. den Teilnoten kann der Gutachter zusätzlich noch Kommentare, d.h. ausformulierte Aussagen zur Bewertung bestimmter Teile der Arbeit, hinzufügen.
 - Ein Teil des Gesamteindrucks der Arbeit spiegelt sich in den Kommentaren des Gutachters wider. Jedoch spiegelt die Summe der Kommentare nicht (zwangsläufig) die Gesamtnote wider, sondern nur denjenigen Teil, für den der Gutachter es für sinnvoll befunden hat, explizite Kommentare anzugeben.
 - Es ist insbesondere nicht möglich, von der Anzahl der positiven oder negativen Kommentare auf eine bestimmte Note zurückzuschließen.
 - Auch Vergleiche zwischen Gutachten verschiedener Student/innen ist nicht rein auf Basis der Kommentare möglich, da die Kommentare nur einen Ausschnitt des Meinungsbilds des Gutachters widerspiegeln.
@@ -513,7 +513,7 @@ Drucken Sie Ihre Arbeit *beidseitig*, in *Klebebindung.*
 
 1. Formales
 
-  - Die Richtlinien zur Gestaltung von wissenschaftlichen Texten wurden (fast) vollumfänglich umgesetzt. Insbesondere finden finden sich (fast) keine Zitierfehler im Text und im Literaturverzeichnis.
+  - Die Richtlinien zur Gestaltung von wissenschaftlichen Texten wurden (fast) vollumfänglich umgesetzt. Insbesondere finden sich (fast) keine Zitierfehler im Text und im Literaturverzeichnis.
   - Rechtschreibung, Zeichensetzung und Grammatik sind (fast) fehlerfrei.
   - Gestaltung und Aufbau der Arbeit ist dem flüssigen Lesen zuträglich (z. B. optisch übersichtlich gestaltet und nicht weitschweifig sondern prägnant formuliert).
 
@@ -559,7 +559,7 @@ Drucken Sie Ihre Arbeit *beidseitig*, in *Klebebindung.*
 
 - Ohne einen kundigen (und aktuellen) Überblick über den Stand der Forschung können Sie keine verlässlichen Aussagen treffen – und keine gute Arbeit schreiben.
 
-- Scheuen Sie sich nicht Fachartikeln; machen Sie sich die Qualität Ihrer Literaturstellen bewusst.
+- Scheuen Sie sich nicht vor Fachartikeln; machen Sie sich die Qualität Ihrer Literaturstellen bewusst.
 
 - Destillieren Sie aus der Vielfalt der Texte die Essenz der Ideen heraus – die Details sind nicht so wichtig.
 
@@ -595,9 +595,9 @@ Drucken Sie Ihre Arbeit *beidseitig*, in *Klebebindung.*
 
 ### Redlichkeit: Machen Sie Ihre Ergebnisse nachvollziehbar
 
-- Was sind Ihre eigenen Gedanken und welche Gedanken haben Sie übernommen – machen Sie dies kenntlich, indem Sie übernommen Gedanken als Zitate kennzeichnen.
+- Was sind Ihre eigenen Gedanken und welche Gedanken haben Sie übernommen – machen Sie dies kenntlich, indem Sie übernommene Gedanken als Zitate kennzeichnen.
 
-- Es ist nicht schändlich, Gedanken anderer zu übernehmen. Im Gegenteil: „Auf den Schultern von Giganten“ ist eine Credo der Wissenschaft. Sie können also auch replizieren.
+- Es ist nicht schändlich, Gedanken anderer zu übernehmen. Im Gegenteil: „Auf den Schultern von Giganten” ist ein Credo der Wissenschaft. Sie können also auch replizieren.
 
 - Andere Wissenschaftlis sollte die Möglichkeit haben, Ihre Ergebnisse rekonstruieren zu können. Dazu zählt, dass Sie Ihre Recherchestrategie offen legen (welche Datenbanken etc.). Ebenso, dass Sie Ihr methodisches Vorgehen nachvollziehbar machen.
 
@@ -650,7 +650,7 @@ Es ist *nicht* nötig,
 :::{#exm-ki-pruef}
 ### Wo Ihnen welche KI-Tools helfen können
 
-Hier ist eine an Beispielen von KI-Tools und ihrer Einsatzmöglichkeit. Beachten Sie bitte, dass die Entwicklung sehr dynamisch ist, so dass diese Liste nicht unbedingt alle "besten" Tools beinhaltet.
+Hier ist eine Auswahl an Beispielen von KI-Tools und ihrer Einsatzmöglichkeit. Beachten Sie bitte, dass die Entwicklung sehr dynamisch ist, so dass diese Liste nicht unbedingt alle "besten" Tools beinhaltet.
 Es geht vielmehr darum, Sie zu inspirieren und Ihnen Startpunkte aufzuzeigen.
 Die aufgeführten Tools sind nicht im Sinne einer expliziten Empfehlung zu verstehen.^[Der Autor hat keine geschäftlichen Beziehungen zu den Organisationen, die diese Tools anbieten.]
 

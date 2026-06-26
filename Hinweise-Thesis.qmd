@@ -59,7 +59,7 @@ d |>
 
 
 
-## Wahl des Themas und dis Gutachtis der Abschlussarbeit
+## Wahl des Themas und des Gutachters der Abschlussarbeit
 
 
 @fig-anmeldung zeigt den Ablauf der Abschlussarbeit mit einem Fokus auf die Vorbereitung, also der Wahl Ihres Themas bzw. die Absprache des Themas mit dem Gutachter.
@@ -222,7 +222,7 @@ optional: Projektplan (Zeit- und Arbeitsplan)
 
 
 Hier folgt ein grobes Mengengerüst für die (empirische) Studie Ihrer Abschlussarbeit, 
-damit Sie eine Einschätzung, wie viel "gut" ist (Teilnote 2). 
+damit Sie eine Einschätzung haben, wie viel "gut" ist (Teilnote 2).
 Dieses Mengengerüst passt nicht für alle Situationen. 
 Bitte sprechen Sie mich im Zweifel darauf an bzw. begründen Sie Ihren Studienaufbau im Exposé und in der Thesis. 
 
@@ -518,7 +518,7 @@ Sehr schlechte Abschlussarbeiten können mit "ausreichend" oder "mangelhaft" bew
 - In qualitativen Studien bietet sich die Grounded Theorie als Auswertungsmethode an.
 
 
-## Sonstige Hinweis
+## Sonstige Hinweise
 
 - Für eine einfachere Kommunikation kontaktieren Sie mich per E-Mail bei Fragen, die nur Sie betreffen. Bei Fragen von allgemeinem Interesse (z.B. "Bis wann müssen wir die Arbeit abgeben?") nutzen Sie bitte (sofern verfügbar) das Kursforum, damit die Kommilitonen auch von dem Austausch profitieren.
 

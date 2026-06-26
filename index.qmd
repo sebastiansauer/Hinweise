@@ -12,5 +12,5 @@ Alle folgenden Hinweise gelten nur insoweit Ihre Lehrkraft Ihnen keine anders la
 
 :::{.callout-tip}
 Nutzen Sie die Suchfunktion dieser Webseite (s. linke Seite: Suchschlitz mit Lupe), 
-um bestimmten Themen zu suchen. $\square$
+um nach bestimmten Themen zu suchen. $\square$
 :::

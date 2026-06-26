@@ -63,7 +63,7 @@ Hier finden Sie Datensätze, die sich eignen, um die Analyse von Daten zu lernen
 
 
 Die Webseite [Datenwerk](https://datenwerk.netlify.app/) beherbergt eine Sammlung an Übungsaufgaben rund um das Thema Datenanalyse.
-es gibt eine Suchfunktion (wenn Sie den Namen der Aufgabe wissen) und eine Tag-Liste, wenn Sie Aufgaben nach Themengebiet durchsehen wollen.
+Es gibt eine Suchfunktion (wenn Sie den Namen der Aufgabe wissen) und eine Tag-Liste, wenn Sie Aufgaben nach Themengebiet durchsehen wollen.
 
 
 ### Eigene Aufgaben erstellen
@@ -96,7 +96,7 @@ Vermeiden Sie, das Lernen aufzuschieben. Bleiben Sie dran!$\square$
 - *Tutorium*: Besuchen Sie ein Tutorium, falls eines angeboten wird.
 - *Vor- und Nachbereitung*: Bereiten Sie den Unterricht vor und nach.
 - *Selbsttest*: Testen Sie sich mit Flashcards (Karteikarten, Vorderseite: Frage, Rückseite: Lösung). Wenn Sie alle Aufgaben dieses Kurses aus dem FF beherrschen, sollte die Prüfung kein Problem sein.
-- *Übungen*: Bearbeiten Sie alle Übungsaufgaben gewissenhaft. Versuchen Sie selber erst, die Aufgabe zu lösen, bevor Sie die Musterlösung anscnhauen.
+- *Übungen*: Bearbeiten Sie alle Übungsaufgaben gewissenhaft. Versuchen Sie selber erst, die Aufgabe zu lösen, bevor Sie die Musterlösung anschauen.
 - Portal *Datenwerk*: Gehen Sie die Aufgaben auf dem Portal [Datenwerk](https://datenwerk.netlify.app/) durch (soweit relevant).
 - *Fallstudien*: Schauen Sie sich meine Fallstudiensammlungen an: https://sebastiansauer-academic.netlify.app/courseware/casestudies/
 - *Lehrkraft* ansprechen: Sprechen Sie die Lehrkraft an, wenn Sie Fragen haben. Haben Sie keine Scheu! Bitte lesen Sie aber vorab die Hinweise, um Redundanz zu vermeiden.
@@ -159,7 +159,7 @@ die das Online-Zusammenarbeiten vereinfachen:
 
 - [Frag-Jetzt-Raum zum anonymen Fragen stellen während des Unterrichts](https://frag.jetzt/home). Der Keycode wird Ihnen bei Bedarf vom Dozenten bereitgestellt.
 - [Padlet](https://de.padlet.com/) zum einfachen (und anonymen) Hochladen von Arbeitsergebnissen der Studentis im Unterricht. Wir nutzen es als eine Art Pinwand zum Sammeln von Arbeitsbeiträgen. Die Zugangsdaten stellt Ihnen der Dozent bereit.
-- Nutzen Sie das vom Dozenten bereitgestelle *Forum*, um Fragen zu stellen und Fragen zu beantworten.
+- Nutzen Sie das vom Dozenten bereitgestellte *Forum*, um Fragen zu stellen und Fragen zu beantworten.
 
 
 
@@ -168,7 +168,7 @@ die das Online-Zusammenarbeiten vereinfachen:
 Sie können ein Beratungsgespräch bei mir wahrnehmen, z.B. im Zuge Ihrer Vorbereitung der Abschlussarbeit.
 Ziel des Beratungsgespräches ist es, Fragen zu den schriftlichen Hinweisen zu klären (oder etwaige fehlende Informationen zu ergänzen).
 Darüber hinaus sind immer wieder Fragen der Forschungsmethodik (wie Versuchsplanung und Datenanalyse) Gesprächsthema.
-Es soll also darum gehen, ihre konkreten Fragen soweit wie möglich zu beantworten.
+Es soll also darum gehen, Ihre konkreten Fragen soweit wie möglich zu beantworten.
 Es ist nicht Ziel das Gesprächs, größere Teile Ihrer Qualifizierungsarbeit vom Prüfer bearbeiten zu lassen ;-)
 
 Bitte bereiten Sie sich auf das Gespräch wie folgt vor:

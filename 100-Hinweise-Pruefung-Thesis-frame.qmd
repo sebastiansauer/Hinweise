@@ -59,7 +59,7 @@ Mein Fokus liegt dabei bei Arbeiten mit quantitativer Methodik.
 
 ### Wie finde ich mein Thema?
 
-Wie finde ich mein Thema? Oder wie findet mein Thema mich? Ist das sowas wie Liebe auf den ersten Blick? Wie als würde man in eine Bar gehen und da sitzt dann diese Person am Tresen und man weiß sofort, gleichsam vom Blitz getoffen: Das ist sie/er!
+Wie finde ich mein Thema? Oder wie findet mein Thema mich? Ist das sowas wie Liebe auf den ersten Blick? Wie als würde man in eine Bar gehen und da sitzt dann diese Person am Tresen und man weiß sofort, gleichsam vom Blitz getroffen: Das ist sie/er!
 
 Naja, nicht ganz genau so ist es mit "Ihrem" Thema für Ihre Qualifizierungsarbeit.
 
@@ -80,7 +80,7 @@ So wächst Ihre Idee des Themas, s. @fig-thema.
 ### Auf den Schultern von Giganten
 
 Tipp: Lesen Sie sich eine Studie genau durch, die ähnlich (in Forschungsfrage oder Methodik) zu Ihrer Themenidee ist.
-Dann konzipierien Sie darafu aufbauend eine analoge (ähnliche) Studie. Das ist nicht "Nachmachen 2.0", sondern die Weiterführung bestehender Erkenntnisse.
+Dann konzipieren Sie darauf aufbauend eine analoge (ähnliche) Studie. Das ist nicht "Nachmachen 2.0", sondern die Weiterführung bestehender Erkenntnisse.
 :::
 
 
@@ -283,7 +283,7 @@ Das Exposé ist wie ein normaler wissenschaftlicher Bericht aufzubauen. Folgende
 
 - Die Forschungsfrage sollte prägnant im Exposé vorgestellt sein.
 
-- Falls Sie ein (grobes) Thema zugeteilt bekommen haben, sollten Sie es - ggf. nach Rücksprache - zu einer (konkrten) Forschungsfrage präzisieren.
+- Falls Sie ein (grobes) Thema zugeteilt bekommen haben, sollten Sie es - ggf. nach Rücksprache - zu einer (konkreten) Forschungsfrage präzisieren.
 
 - Formulieren Sie Hypothesen oder Forschungsfragen konkret, so dass der Leser weiß, was Sie genau machen wollen.
 
@@ -350,7 +350,7 @@ Achten Sie darauf, dass ggf. die Papiervariante und die elektronische Variante I
 ## Besonderheiten von Doktorarbeiten
 
 Ich betreue Themen (nur) aus der Psychologie (und angrenzender Wissenschaften), 
-denn dort kenne ich die "Spielregeln" und haben einen breiten fachlichen Hintergrund.
+denn dort kenne ich die "Spielregeln" und habe einen breiten fachlichen Hintergrund.
 
 Mein Anspruch an Sie ist, dass Ihre Forschungsarbeit *anschlussfähig* ist an den aktuellen wissenschaftlichen Diskurs.
 Das zeigt sich vielleicht am objektivsten, wenn Sie in gängigen englischsprachigen Fachzeitschriften publizieren als zentrale Leistung im Rahmen Ihrer Dissertation ("kumulative Promotion").
@@ -364,7 +364,7 @@ Schließlich entscheiden anonyme Fachgutachten über die wissenschaftliche Ansch
 
 Mit Blick auf die *Forschungsmethodik* bin ich aufgeschlossen; 
 häufig empfiehlt sich eine *Kombination* aus theoretischer Arbeit (Literaturüberblick, wie bibliometrische Analyse oder systematisches Review) 
-plus quantitativer Methode (Experimente und/oder Beobachtungsstudine).
+plus quantitativer Methode (Experimente und/oder Beobachtungsstudien).
 
 Mit meinen Doktorandinnen und Doktoranden pflege ich einerseits regelmäßige Treffen zur Besprechung des aktuellen Stands 
 sowie eine Einbindung in Gruppenformate wie z.B. Forschungskolloquien.
@@ -375,7 +375,7 @@ ggf. auch Lehre.
 
 Oft dauert eine Doktorarbeit ca. *drei Jahre* bis zur Abgabe, 
 wenn man die Doktorarbeit "Teilzeit" bearbeitet.
-D.h. wenn man kontinuierlich und ernsthaft der wissenschaftlicher Tätigkeit nachgeht, aber  gleichzeitig für den "Broterwerb" arbeitet.
+D.h. wenn man kontinuierlich und ernsthaft der wissenschaftlichen Tätigkeit nachgeht, aber gleichzeitig für den "Broterwerb" arbeitet.
 
 Bedenken Sie, dass es wichtig ist, der Doktorarbeit eine hohe Priorität in Ihrer Zeitplanung einzuräumen, wenn Sie sich für eine Doktorarbeit entschließen. 
 Je länger sich das Projekt Doktorarbeit hinzieht, 

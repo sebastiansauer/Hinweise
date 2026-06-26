@@ -30,7 +30,7 @@ Die folgenden Hinweise gelten nur insofern Ihnen die Prüfperson nicht anderslau
 
 13. Zu Beginn der Analyse müssen folgende *Metadaten* *gut ersichtlich* platziert sein (z.B. auf einem Deckblatt):
  
- - Vorname Nachname der Autors/der Autorin
+ - Vorname Nachname des Autors/der Autorin
  - Matrikelnummer
  - Modulname
  - Abgabedatum
@@ -48,7 +48,7 @@ Die folgenden Hinweise gelten nur insofern Ihnen die Prüfperson nicht anderslau
 
 4. Die Wahl eines bestimmten Stylesheets ist nicht von Bedeutung. *Lesbarkeit* und *Übersichtlichkeit* in der Formatierung sind unabhängig davon anzustreben.
 
-5. Im *Kopfbereich* (oder auf einem Deckblatt) sind die relevanten *Metadatan* anzugeben wie Name (Nachname, Vorname) der Autorin/des Autors, Abgabedatum, Titel der Arbeit, Modul.
+5. Im *Kopfbereich* (oder auf einem Deckblatt) sind die relevanten *Metadaten* anzugeben wie Name (Nachname, Vorname) der Autorin/des Autors, Abgabedatum, Titel der Arbeit, Modul.
 
 6. Legen Sie Wert auf die *Reproduzierbarkeit* der Analyse.
 
@@ -176,7 +176,7 @@ Insbesondere kann eine Fünf in einem der Kriterien zum Durchfallen führen, auc
 
 7. Wurde die Aussagekraft von Modellergebnissen richtig eingeschätzt?
 
-8. Waren die Schlussfolgerungen, die aus den statistischen Ergebnissen gezogen wurden, angemessen (z. B. wurde erkannt, dass ein Nicht-Verwerfeen einer Hypothese nicht automatisch ein Bestätigen derselben bedeutet)?
+8. Waren die Schlussfolgerungen, die aus den statistischen Ergebnissen gezogen wurden, angemessen (z. B. wurde erkannt, dass ein Nicht-Verwerfen einer Hypothese nicht automatisch ein Bestätigen derselben bedeutet)?
 
 9. Wurde angemessen gerundet (inkl. konsistente Anzahl von Nachkommastellen)?
 
@@ -204,7 +204,7 @@ Sofern Ihnen die Prüfperson nicht einen Datensatz zugeteilt hat, können Sie di
 
 - [Harvard Dataverse](https://data.harvard.edu/dataverse)
 
-- [UK Data Servicee](https://ukdataservice.ac.uk/find-data/browse/)
+- [UK Data Service](https://ukdataservice.ac.uk/find-data/browse/)
 
 - [Google DataSet Search](https://datasetsearch.research.google.com/)
 
@@ -212,9 +212,9 @@ Sofern Ihnen die Prüfperson nicht einen Datensatz zugeteilt hat, können Sie di
 
 ### Klimawandel
 
-- [German Wather Data from the DWD](https://opendata.dwd.de/)
+- [German Weather Data from the DWD](https://opendata.dwd.de/)
 
-- [Nasa climeate data](https://data.giss.nasa.gov/gistemp/) such as [this data set: Tables of Global and Hemispheric Monthly Means and Zonal Annual Means](https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv)
+- [Nasa Climate Data](https://data.giss.nasa.gov/gistemp/) such as [this data set: Tables of Global and Hemispheric Monthly Means and Zonal Annual Means](https://data.giss.nasa.gov/gistemp/tabledata_v4/GLB.Ts+dSST.csv)
 
 
 - [Data on CO2 and Greenhouse Gas Emissions by Our World in Data](https://github.com/owid/co2-data#data-on-co2-and-greenhouse-gas-emissions-by-our-world-in-data)

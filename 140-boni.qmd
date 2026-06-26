@@ -11,7 +11,7 @@ Anstatt von Skripten auf Basis von PPP werden hier BONIs eingesetzt: *frei zugä
 
 Folienskripte, zu meist auf Basis von Microsoft Powerpoint-Präsentationen, stellen den zentralen Schriftweg der Wissensvermittlung von Hochschullehrkräften zur Zuhörerschaft [@adams2006]. Insgesamt zeigen die Befunde gemischte Befunde zum didaktischen Nutzen dieses Mediums auf [@cosgunogeyik2017; @gambari2015]. 
 
-*BONIs* bieten eine Alternativzu Folien. @fig-boni zeigt einige BONIs des Autors: [Statistik1](https://statistik1.netlify.app/), das BONI für einen einführenden Statistikkurs und [Datenwerk](https://datenwerk.netlify.app/), das BONI eine Aufgabensammlung aus der Statistik.
+*BONIs* bieten eine Alternative zu Folien. @fig-boni zeigt einige BONIs des Autors: [Statistik1](https://statistik1.netlify.app/), das BONI für einen einführenden Statistikkurs und [Datenwerk](https://datenwerk.netlify.app/), das BONI eine Aufgabensammlung aus der Statistik.
 
 <!-- ::: {#fig-boni layout-ncol=2} -->
 

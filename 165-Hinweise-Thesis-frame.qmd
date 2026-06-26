@@ -28,7 +28,7 @@ Hier ist eine Liste von Titeln von früheren (von mir betreuten) Abschlussarbeit
 
 ```{r source-timetable, echo = FALSE}
 #| label: tbl-zeitplan
-#| tbl-cap: Beispiele für Titeln von Abschlussarbeiten 
+#| tbl-cap: Beispiele für Titel von Abschlussarbeiten
 thesis_title <- "specifics/supervised-theses-sauer.xlsx"
 stopifnot(file.exists(thesis_title))
 theses <- 
@@ -60,7 +60,7 @@ In [dieser Zotero-Gruppe](https://www.zotero.org/groups/2502975/ses-emp-fo) find
 
 ### Inferenzstatistik
 
-[Wahrscheinlichkeitsaussgen zu Statitiken: Der Bayes-Golem hilft](https://start-bayes.netlify.app/)
+[Wahrscheinlichkeitsaussagen zu Statistiken: Der Bayes-Golem hilft](https://start-bayes.netlify.app/)
 
 ### Ihr quantitatives Forschungsprojekt von A bis Z
 

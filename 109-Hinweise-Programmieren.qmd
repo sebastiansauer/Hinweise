@@ -4,7 +4,7 @@
 
 ## Formalia
 
-- Fügen Sie Ihren Namen in eingereichte Dateiname ein, z.B. `ratlos_rudi_thema_xyz.R`.
+- Fügen Sie Ihren Namen in eingereichten Dateinamen ein, z.B. `ratlos_rudi_thema_xyz.R`.
 - Fügen Sie Ihren Namen zu Beginn Ihrer eingereichten Code-Datei ein (ganz oben, zu Beginn der Datei).
 - - *Prüfen Sie* zu Beginn der (ersten) Prüfungsaufgabe, ob Sie auf alle *Prüfungsmaterialien zugreifen* können und diese einlesen können. Melden Sie sich bei Problemen sofort beim Prüfer.
 
@@ -70,7 +70,7 @@ d_no_const_cols <-
 d_no_const_cols
 ```
 
-Ähnlicher, aber nicht unbedingt einfacherer Cogixode:
+Ähnlicher, aber nicht unbedingt einfacherer Code:
 
 
 ```{r}
@@ -107,7 +107,7 @@ Ein anderes Problem ist, dass man viele Objekte erzeugt, als Ergebnisse der Zwis
 Analyseschritte. Man muss also nachfolgenden Objekte neu berechnen.
 Gefährlich wäre, würde man vergessen, diese Objekte neu zu berechnen:
 Man würde mit einem "veralteten" also falschen Objekt weiterarbeiten,
-was zwangsläufig zu falschen Ergebnissen führten würde.
+was zwangsläufig zu falschen Ergebnissen führen würde.
 
 Wäre es nicht schön, wenn es ein Tool gäbe, das für Sie den Überblick behält und
 dafür sorgt, dass die veralteten Objekte (und nur die) bei Bedarf neu berechnet werden?

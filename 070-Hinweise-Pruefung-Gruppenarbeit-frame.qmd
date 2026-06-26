@@ -26,7 +26,7 @@ Die Aufteilung der Teilaspekte der Arbeit soll so erfolgen, dass jedes Mitglied 
 Dies kann sich z.B. in etwa gleich großer Zahl an geschriebenen Seiten niederschlagen.
 
 
-Bei *empirischen Arbeiten* soll jedes Mitglied des Teams *ein komplettes empirischen Kapitel* (Methodenteil oder Ergebnisteil) und *ein komplettes theoretischen Kapitel* (Theorieteil oder Diskussion) verfasst. 
+Bei *empirischen Arbeiten* soll jedes Mitglied des Teams *ein komplettes empirisches Kapitel* (Methodenteil oder Ergebnisteil) und *ein komplettes theoretisches Kapitel* (Theorieteil oder Diskussion) verfasst.
 
 Für jedes *Hauptkapitel* des Berichts (z.B. Theorie, Methode, Ergebnis, Diskussion) ist *jeweils genau ein Name* einer Person anzugeben, die für das entsprechende Kapitel verantwortlich ist.
 Geben Sie den Namen in Verbindung mit der Überschrift des Hauptkapitels an, in geeigneter Form, z.B. in einer Fußnote zu der Kapitelüberschrift.
@@ -41,7 +41,7 @@ Die *Einleitung* soll *gemeinsam* verfasst werden (d.h. ohne Auszeichnung eines 
 ## Benotung
 
 
-1. *Einzelnote*: Jedes Mitglieder einer Arbeitsgruppe erhält eine eigene, individuelle Note. Die Noten der Gruppenglieder müssen daher nicht identisch sein (können aber). Alle Kommentare des Gutachters sind mit dem Namen (bzw. Namenskürzel) derjenigen Person versehen, an die der Kommentar gerichtet ist. In die Note (eines bestimmten Gutachtens) fließen nur Abschnitt ein, die von der/dem angegebenen Verfasser:in verfasst wurden sowie diejenigen Abschnitte, die nicht namentlich gekennzeichnet wurden (nur relevant bei Gruppenarbeiten). Kommentare zu Abschnitten, die ohne Namen in der Prüfungsleistung angegeben sind, werden auch ohne Namenshinweis aufgeführt.
+1. *Einzelnote*: Jedes Mitglied einer Arbeitsgruppe erhält eine eigene, individuelle Note. Die Noten der Gruppenglieder müssen daher nicht identisch sein (können aber). Alle Kommentare des Gutachters sind mit dem Namen (bzw. Namenskürzel) derjenigen Person versehen, an die der Kommentar gerichtet ist. In die Note (eines bestimmten Gutachtens) fließen nur Abschnitte ein, die von der/dem angegebenen Verfasser:in verfasst wurden sowie diejenigen Abschnitte, die nicht namentlich gekennzeichnet wurden (nur relevant bei Gruppenarbeiten). Kommentare zu Abschnitten, die ohne Namen in der Prüfungsleistung angegeben sind, werden auch ohne Namenshinweis aufgeführt.
 
 2. Beachten Sie, dass die *Noten der Prüflinge einer Gruppe identisch sein können* (aber nicht müssen).
 Beachten Sie auch, dass es Aspekte eines Projekts gibt, die auf die Arbeitsteile mehrerer Gruppenmitglieder Auswirkung haben. Beispiel: Die theoretische Grundlage einer Forschungsfrage hat Auswirkung auf das zu wählende Forschungsdesign, was wiederum auf die Auswertungsmethodik auswirkt. Schließlich ist die Diskussion der Schwächen der Studien abhängig von den anderen Teilen bzw. dem Vorgehen im Projekt.
@@ -51,7 +51,7 @@ Beachten Sie auch, dass es Aspekte eines Projekts gibt, die auf die Arbeitsteile
 ## Formalia
 
 
-1. Wenn eine Gruppenarbeit als Prüfungsform definiert ist sind *Einzelarbeiten grundsätzlich nicht zulässig*. Umgekehrt sind Gruppenarbeiten (grundsätzlich) nicht zugelassen, wenn die Prüfungsform als Einzelarbeit definiert ist.
+1. Wenn eine Gruppenarbeit als Prüfungsform definiert ist, sind *Einzelarbeiten grundsätzlich nicht zulässig*. Umgekehrt sind Gruppenarbeiten (grundsätzlich) nicht zugelassen, wenn die Prüfungsform als Einzelarbeit definiert ist.
 
 1. Die Prüfperson kann ein Datum angeben, bis zu dem (spätestens) die Gruppenwahl abgeschlossen sein muss.
 
@@ -67,8 +67,8 @@ Beachten Sie auch, dass es Aspekte eines Projekts gibt, die auf die Arbeitsteile
 
 14. *Konflikte in der Gruppe*: Unterschiedliche Ansichten zum Vorgehen sind zuerst innerhalb der Gruppe zu klären. Falls dies erfolglos ist, soll (wenn nötig) die Lehrperson angesprochen werden. Zu beachten ist, dass das Moderieren des Gruppenprozesses Teil der Prüfungsleistung ist. 
 
-15. Falls ei *Studenti keine Partner* bzw. keine Arbeitsgruppe findet *nach selbständigem Suchen*, ist bitte die Lehrkraft rechtzeitig zu kontaktieren.
+15. Falls ein *Studi keine Partner* bzw. keine Arbeitsgruppe findet *nach selbständigem Suchen*, ist bitte die Lehrkraft rechtzeitig zu kontaktieren.
 
-16. Die *individuellen Beiträge* jedes Mitglieds einer Arbeitgruppe müssen *klar ersichtlich* sein.
+16. Die *individuellen Beiträge* jedes Mitglieds einer Arbeitsgruppe müssen *klar ersichtlich* sein.
 
 

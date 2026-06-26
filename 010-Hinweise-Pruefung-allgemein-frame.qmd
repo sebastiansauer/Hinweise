@@ -33,9 +33,9 @@ Wird eine Prüfungsleistung nicht *frist- und formgerecht eingereicht*, so gilt 
 *Prüfungsrelevanter* Stoff ist alles, was im Unterricht behandelt wurde, sofern es nicht explizit (und schriftlich) als "nicht prüfungsrelevant" oder als "Vertiefung" gekennzeichnet ist.
 Insbesondere ist der komplette Inhalt des Skripts und sonstiger vom Dozenten eingestellter Unterlagen prüfungsrelevant (sofern nicht in Teilen anderweitig gekennzeichnet).
 Dazu zählen auch Hinweise auf zu lesende Literatur, aber nicht sonstige Literatur im Literaturverzeichnis.
-Nicht relevant sind die verlinkte externe Inhalte, d.h. Inhalte von Internetadressen, sofern nicht explizit als prüfungsrelevant gekennzeichnet.
+Nicht relevant sind die verlinkten externen Inhalte, d.h. Inhalte von Internetadressen, sofern nicht explizit als prüfungsrelevant gekennzeichnet.
 Der prüfungsrelevante Stoff kann von der Lehrkraft bis zum Beginn des Prüfungszeitraums geändert werden.
-Die Änderungen am Skript sind, sofern es um ein Skript handelt, das auf Github eingestellt ist, komplett dokumentiert. Der Link zum Quelltext (des Skripts) bzw. den Änderungen daran sind über Github komplett dokumentiert (inkl. Zeitstempel).
+Die Änderungen am Skript sind, sofern es sich um ein Skript handelt, das auf Github eingestellt ist, komplett dokumentiert. Der Link zum Quelltext (des Skripts) bzw. den Änderungen daran sind über Github komplett dokumentiert (inkl. Zeitstempel).
 
 
 
@@ -58,10 +58,10 @@ Die Änderungen am Skript sind, sofern es um ein Skript handelt, das auf Github 
 
 1. Wenn Sie bei einer Prüfung durchgefallen sein sollten, so haben Sie grundsätzlich die Möglichkeit, die *Prüfung zu wiederholen*.
 2. Denken Sie daran, sich *rechtzeitig* für Prüfungsleistungen *anzumelden*; beachten Sie die Fristen. Beim Zweit- bzw. Drittversuch gelten besondere Regeln und Fristen. Informieren Sie sich umfassend.
-3. Die *Termine* für die *Wiederholungsprüfungen* werden stets zusammen/zeitgleich mit denen der regulären Prüfungen bekannt gegeben (in der Regel im Moodlekurs, in dessen Rahmen auch die ursprüngliche Prüfung statt fand). 
+3. Die *Termine* für die *Wiederholungsprüfungen* werden stets zusammen/zeitgleich mit denen der regulären Prüfungen bekannt gegeben (in der Regel im Moodlekurs, in dessen Rahmen auch die ursprüngliche Prüfung stattfand). 
 3. Relevanter Stoff und formale Bedingungen (wie Prüfungsform) sind *grundsätzlich identisch zur letzten abgehaltenen Prüfung des Moduls* (d.h. sofern nicht anders angegeben). Daher sind Wiederholungsprüfungen vom Anspruch vergleichbar wie die reguläre Klausur. Die Prüfungen sollen möglichst gleich vom Anspruch sein, um Fairness zu gewährleisten.
-3. Beachten Sie immer die *Hinweise*, die für die Wiederholungsprüfung angegeben sind. Im Einzelfall keine eine Wiederholungsprüfung von der vorherigen Prüfung stärker abweichen. Es gelten immer die Regeln, die dis Dozenti bei der jeweiligen Wiederholungsprüfung veröffentlicht hat.
-4. In der Regel werden alle weiteren *Hinweise* (wie z.B. die Themenvergabe) im *gleichen* *Moodlekurs* veröffentlich, in dessen Rahmen auch die ursprüngliche Prüfung ablief.
+3. Beachten Sie immer die *Hinweise*, die für die Wiederholungsprüfung angegeben sind. Im Einzelfall kann eine Wiederholungsprüfung von der vorherigen Prüfung stärker abweichen. Es gelten immer die Regeln, die die Dozenti bei der jeweiligen Wiederholungsprüfung veröffentlicht hat.
+4. In der Regel werden alle weiteren *Hinweise* (wie z.B. die Themenvergabe) im *gleichen* *Moodlekurs* veröffentlicht, in dessen Rahmen auch die ursprüngliche Prüfung ablief.
 2.  Wird ein *Modul im laufenden Semester* angeboten, so gibt es keine Wiederholungsprüfung. Stattdessen können Sie ggf. an der regulären Klausur des Moduls teilnehmen. Es gilt der aktuelle Stoff bzw. die aktuellen formalen Bedingungen. Es ist möglich, dass der Stoff sich dann substanziell ändert; meist halten sich die Änderungen (im Stoff) aber in Rahmen.
 5. Bitte beachten Sie, dass die meisten *Module nur ein Mal pro Jahr angeboten* werden (also entweder im Sommer- oder im Wintersemester, aber nicht beides. Eine Ausnahme ist das Bachelormodul, das jedes Semester angeboten wird).
 3. Wird ein Modul im laufenden Semester nicht angeboten, gibt es eine *Wiederholungsprüfung*. 
@@ -164,7 +164,7 @@ Als "behandelter" Stoff gelten alle Inhalte, die als *prüfungsrelevant* gekennz
 
 ## Keine Vorab-Korrektur
 
-Aus Gründen der Gleichberechtigung wäre es nicht zulässig, einzelnen Studis die Frage "Können Sie mal über meine Arbeit drüber schauen, ob alles passt?" zu beantworten. Außerdem wäre es nicht sinnvoll: Dann würde der Prüfer ja sich selbst bewerten. Nicht die Prüfer haben ja eine Aufgabe zum Lösen gestellt bekommen,sondern die Studierenden haben eine Aufgabe zu lösen.
+Aus Gründen der Gleichberechtigung wäre es nicht zulässig, einzelnen Studis die Frage "Können Sie mal über meine Arbeit drüber schauen, ob alles passt?" zu beantworten. Außerdem wäre es nicht sinnvoll: Dann würde der Prüfer ja sich selbst bewerten. Nicht die Prüfer haben ja eine Aufgabe zum Lösen gestellt bekommen, sondern die Studierenden haben eine Aufgabe zu lösen.
 Wie aber unterstützen dann die Lehrkräfte bei einer Prüfung? Die Lehrkräfte haben die Verantwortung, den Studierenden alles an die Hand zu geben, um die Prüfungsaufgaben lösen zu können. Das beinhaltet auch, für *fachliche* Fragen bereitzustehen, aber nicht für Fragen wie "können Sie mir meine Prüfung vorab korrigieren?".
 
 
@@ -194,7 +194,7 @@ Falls Sie Fragen zu dem Thema Plagiate haben, sprechen Sie mich jederzeit gerne 
 
 
 Ihre Prüfungsarbeiten können auf Plagiate hin untersucht werden, auch unter Einsatz von maschinellen Methoden oder KI-basierten Methoden (z.B. mit [dieser Methode](https://pubmed.ncbi.nlm.nih.gov/37426542/)). 
-Dabei können die Daten auch an Drittanbieter (z.B. Anbieter von Software zur Plagiatserkennung).
+Dabei können die Daten auch an Drittanbieter (z.B. Anbieter von Software zur Plagiatserkennung) weitergegeben werden.
 
 Bitte beachten: Angenommen in den Projektarbeiten von Studenti A und B werden (substanzielle) Überlappungen gefunden. 
 In dem Fall ist davon auszugehen, dass *beide* Studentis getäuscht haben: eine/r hat abgeschrieben, der/die andere hat die eigene Arbeit dafür bereitgestellt. 
@@ -218,7 +218,7 @@ Die Arbeit darf nur mit Hilfe erlaubter Hilfsmittel geschrieben werden.
 So ist es nicht zulässig, dass Teile Ihrer Arbeit von anderen Personen geschrieben, verbessert oder sonstig beeinflusst werden. 
 Zu solchen unerlaubten Hilfsmitteln zählt auch das "Korrekturlesen" durch Dritte. 
 Bei Fragen oder im Zweifel sprechen Sie bitte Ihre Betreuerin/Ihren Betreuer an. Das Verwenden von unerlaubten Hilfsmitteln kann von der Prüfungskommission mit Nichtbestehen der Prüfung geahndet werden.
-Erkundigen Sie sich im Zweifelsfall beim Ihrem Prüfer zu den erlaubten bzw. nicht
+Erkundigen Sie sich im Zweifelsfall bei Ihrem Prüfer zu den erlaubten bzw. nicht
 erlaubten Hilfsmitteln der Prüfung.
 
 
@@ -292,7 +292,7 @@ Bitte halten Sie folgende Reihenfolge ein:
 
 1. *Prüfungseinsicht*: Schauen Sie sich die Aufgabe und Bewertung genau an. 
 2. *Formale Hinweise*: Lesen Sie sich die formalen Hinweise zur Prüfung, ihren Anforderungen und typischen Fehlern genau durch, um zu sehen, ob Ihr Kritikpunkt nicht vielleicht in den Hinweisen zur Prüfung schon aufgegriffen wird.
-2. *Gespräch* mit *Gutachter*: Sprechen Sie mit der Lehrkraft, versichern Sie zunächst, dass Sie alle Hinwiese gelesen haben. Vielleicht kann man in einem Gespräch etwaige Missverständnisse klären.
+2. *Gespräch* mit *Gutachter*: Sprechen Sie mit der Lehrkraft, versichern Sie zunächst, dass Sie alle Hinweise gelesen haben. Vielleicht kann man in einem Gespräch etwaige Missverständnisse klären.
 3. *Formal Widerspruch einlegen*: Sie können formlos beim Studierendenservice Widerspruch einlegen (nur bis 4 Wochen nach Notenbekanntgabe). Ihr Widerspruch wird dann in der Fakultät geprüft. Der Studierendenservice lässt sich die Unterlagen des Prüfers geben und leitet den Widerspruch und die Prüfung an den Prüfungsausschuss weiter. Dieser entscheidet über die Note. Nur im Zweifelsfall kommt hier noch der Zweitprüfer ins Spiel.
 4. Prüfen Sie ggf. rechtliche Schritte.
 
@@ -327,7 +327,7 @@ Folgenden Kritikpunkte von Studentis haben *Aussicht* auf eine *Änderung* der N
 
 ### Bitte formulieren Sie Beanstandungen nachvollziehbar
 
-Falls Sie einen Fehler in einer Aufgabenstellung finden (die der Prüfer zu bestanden hat): Freuen Sie sich! In diesem Fall wird zu Ihren Gunsten entschieden.
+Falls Sie einen Fehler in einer Aufgabenstellung finden (die der Prüfer zu verantworten hat): Freuen Sie sich! In diesem Fall wird zu Ihren Gunsten entschieden.
 
 Damit ich Ihre Beanstandung prüfen kann, ist es nötig, dass ich Ihre *Beanstandung* nachprüfen kann: *Zeigen* Sie mir meinen Fehler. 
 Es reicht *nicht* zu sagen "es hat bei mir nicht funktioniert". 

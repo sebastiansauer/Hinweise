@@ -31,7 +31,7 @@
 
 - Bitte *laden* Sie sich rechtzeitig die Materialien *herunter.*
 - Beachten Sie die *Vorbereitungshinweise* zur ersten Unterrichtsstunde und für die einzelnen Termine.
-- Kenntnis der *vorzubereitenden Inhalte* wird im Unterricht pro Kapitel und für die Prüfung vorausgsetzt.
+- Kenntnis der *vorzubereitenden Inhalte* wird im Unterricht pro Kapitel und für die Prüfung vorausgesetzt.
 - Ein Foliensatz kann kein Lehrbuch ersetzen; falls Sie bei einem Termin gefehlt haben oder Ihre *Aufzeichnung lückenhaft* ist, lesen Sie bitte in der Literatur nach oder bitten Sie eine/n Kommiliton/in um Hilfe. 
 - Es kann sinnvoll sein, sich während der Vorlesung *Notizen* zu den Erläuterungen des Dozenten zu machen.
 - Beachten Sie die Hinweise der Hochschule (s. Moodle) wie die Orientierungshilfe, die Klausur- und *Studiengangsordnungen*. Dort finden Sie verbindliche Hinweise zu vielen organisatorischen Fragen.
@@ -41,7 +41,7 @@
 
 ## Präsenzunterricht
 
-- Beachten Sie aktuell geltenden *Hygienevorschriften*.
+- Beachten Sie die aktuell geltenden *Hygienevorschriften*.
 - Bitte *meiden* Sie datenhungrige Applikationen wie das *Streamen* von Filmen – Sie behindern den Unterricht durch Verstopfen der Datenautobahn.
 
 
@@ -60,7 +60,7 @@
 - Die *Aufnahme erfolgt nur nach vorheriger Information* durch den Dozenten. 
 - Bei den Bild-Aufnahmen wird nur der Bildschirm des Dozenten aufgenommen; außerdem wird der Ton aufgenommen. 
 - Bitte verzichten Sie daher während der Aufnahme auf Zoom-Reaktionen wie Hand heben, da diese u.U. mit Ihrem Namen auf dem Bildschirm des Dozenten und damit auf der Aufnahme zu sehen sind. 
-- Während einer Aufnahme dürfen aus Datienschutzgründen keine Wortbeiträge zu hören sein, die Personen identifizieren. 
+- Während einer Aufnahme dürfen aus Datenschutzgründen keine Wortbeiträge zu hören sein, die Personen identifizieren.
 - Bitte verzichten Sie während der Aufnahme daher auf Wortbeiträge. 
 - Der Dozent informiert umgehend, wenn er die Aufnahme beendet. 
 - Die *Video-Aufnahmen werden u.U. im Internet (z.B. YouTube) frei veröffentlicht*. Solche offenen Beiträge im Internet können u.U. in Zukunft nicht kontrolliert werden, insbesondere können sie unkontrolliert verbreitet und kommentiert werden. 
@@ -100,7 +100,7 @@
 
 - Versuchen Sie erst selber, das Problem zu lösen. Manchmal hilft etwas *Abstand* (Pause, drüber schlafen), um ein Problem klarer zu sehen (oder es als nicht mehr so wichtig zu sehen).
 - Fragen Sie *Kommilitonis.*
-- *Recherchen* Sie (online) nach einer Lösung.
+- *Recherchieren* Sie (online) nach einer Lösung.
 - *Posten* Sie das Problem im Forum oder einem Online-Forum. Bei Problemen mit R: Stellen Sie Ihrem Post ein [Erbie](https://data-se.netlify.app/2022/01/31/erbie-einfache-reproduzierbare-beispiele-ihres-problems-mit-r-syntax/) bei.
 - Besuchen Sie die *Sprechstunde* des Dozenten.
 - Schreiben Sie möglichst keine Email, sondern posten Sie Ihre Frage im *Forum* o.Ä., da die meisten Fragen für Ihre Kommilitonis auch nützlich sein können (eine Ausnahme sind natürlich individuelle, persönliche Angelegenheiten, die nicht den Stoff betreffen).
@@ -113,10 +113,10 @@
 
 - Ihr Dozent informiert Sie, ob Videokonferenzen in diesem Modul angeboten werden.
 - Für Videokonferenzen/Webinare in diesem Modul wird die Software Zoom verwendet.
- Zur Einwahl benötigen Sie eine Zoom-Meeting-ID bzw. die dazu gehörige URL (Link); außerdem benötigen Sie ggf. ein zugehöriges Passwort. Diese Informationen werden Ihnen vom Dozenten zugestellt-.
+ Zur Einwahl benötigen Sie eine Zoom-Meeting-ID bzw. die dazu gehörige URL (Link); außerdem benötigen Sie ggf. ein zugehöriges Passwort. Diese Informationen werden Ihnen vom Dozenten zugestellt.
 - Für die Teilnahme an der Videokonferenz können Sie einen internetfähigen Rechner oder Tablet/Smartphone verwenden. Alternativ können Sie den Zoom-Client auf Ihrem Computer installieren (die Installation auf dem Rechner ist zu empfehlen).
 - Ein paar Minuten vor Unterrichtsbeginn da sein, hilft beim Ankommen und um etwaige technische Probleme auszuräumen. 
-- -Wenn jede(r) Hintergrundgeräusche vermeidet (auch die Tastatur kann ziemlich laute Geräusche verursachen), verstehen wir uns alle gut. 
+- Wenn jede(r) Hintergrundgeräusche vermeidet (auch die Tastatur kann ziemlich laute Geräusche verursachen), verstehen wir uns alle gut.
 - Das Mikro auszuschalten, wenn man gerade nichts sagen möchte, gibt Freiheit, doch nicht ganz leise zu sein, ohne die anderen zu stören. - Ein Headset ist hilfreich, um Rückkopplungsgeräusche (Echo) zu vermeiden. 
 - Eine einigermaßen schnelle Internetverbindung ist nötig.
 - Ich empfehle, eine Webcam anzuschließen (bzw. freigeben), so dass wir uns sehen können. Das ist der Qualität des Unterrichts zuträglich.

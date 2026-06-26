@@ -129,7 +129,7 @@ Dazu zählen:
 - `OR` (in Großbuchstaben) für das logische Oder, z.B. `"mindfulness" OR "meditation"`
 - `-` Minuszeichen, um Suchterme auszuschließen, z.B. `"mindfulness" -stress`
 - `*` Asterisk-Sternchen als "Joker" -- wird bei Google Scholar nicht unterstützt
-- `(` Klammern, um Suchausdrücke zu grupieren -- wird bei Google Scholar nicht zuverlässig unterstützt
+- `(` Klammern, um Suchausdrücke zu gruppieren -- wird bei Google Scholar nicht zuverlässig unterstützt
 
 Beispielhaft sind hier die Suchterme aus dem Artikel von @goldberg2018 dargestellt.
 
@@ -178,7 +178,7 @@ Mit dieser Software kann man die Suchtreffer von Google Scholar in eine Excel-Li
 
 ## Anhänge
 
-Bei einem systematischen Reviews sind folgende Anhänge sinnvoll:
+Bei einem systematischen Review sind folgende Anhänge sinnvoll:
 
 1. Liste der Suchterme
 2. Liste der analysierten Studien
