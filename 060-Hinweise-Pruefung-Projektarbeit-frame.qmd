@@ -1,4 +1,4 @@
-# Schriftliche Prüfungen {#sec-schriftliche-pruefungen}
+# Prüfungen in Form eines Aufsatzes {#sec-schriftliche-pruefungen}
 
 ```{r}
 #| include: false
@@ -6,7 +6,7 @@ library(tinytable)
 ```
 
 :::{.callout-note}
-Unter *schriftliche Prüfungen* werden hier *Projekt-, Seminar-, Abschlussarbeiten* verstanden.
+Unter *schriftliche Prüfungen* bzw. *Prüfungen in Form eines Aufsatzes" werden hier Prüfungsformen wie *Projekt-, Seminar-, Abschlussarbeiten* verstanden.
 :::
 
 Bitte beachten Sie auch die übrigen Hinweise, insbesondere die Hinweise zu den [Besonderheiten von Abschlussarbeiten](@sec-abschlussarbeiten) sowie die [allgemeinen Prüfungshinweise](@sec-allgemeine-pruefungshinweise).
@@ -38,19 +38,17 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 
 
 
-### Anfordungen zum Textdokument
+#### Gesaltung des Textdokuments
 
 
 1. Der angegebene Umfang an die *Mengengerüst der Wortzahl* des Texts bezieht sich auf den *Hauptteil* der Arbeit und gilt mit einem Toleranzbereich von plus/minus 10%. Geben Sie die Wortzahl Ihrer Arbeit auf der Titelseite oder im Anhang an. 
  
 2. *"Hauptteil"* ist definiert als der *gesamte Text* von (Beginn der) Einführung bis (zum Ende der) Diskussion (ein Bild als solches zählt nicht als Text). Fußnoten und Tabellen bzw. deren Inhalte zählen zur Wortzahl. Die Zählung der Wörter orientiert sich an der Methode von Microsoft Word (i.d.R. ist ein Wort jede Zeichenfolge, die von Leerzeichen oder Satzzeichen umgeben ist, das beinhaltet auch Zahlen und Sonderzeichen).
 
-2. Textsatz und (gestalterische) *Formatierung* der Arbeit orientieren sich an den schriftlich bereitgestellten Hinweisen (z.B. im Skript).
 
 
 3. Die Arbeit kann in *deutscher* oder *englischer* Sprache eingereicht werden.
 
-4. *Zitieren* Sie nach *APA* bzw. *DGPs* (in jeweils neuester Auflage).
 
 4. *Übrige Gestaltungsaspekte*, die nicht im bereitgestellten Leitfaden aufgeführt sind, sind nach den Vorgaben der *DGPS* (deutsch) oder *APA* (englisch) (jeweils in neuester Version) anzulegen.
 
@@ -61,10 +59,55 @@ Die *Prüfungsleistung* wird rechtzeitig von der/dem Prüfer/in definiert und an
 
 7. Sie können die Arbeit entweder in einem *paginierten* Format schreiben (z.B. Word-Dokument) oder in einem *nicht-paginierten* Format (z.B. HTML-Dokument mit Quarto).
 
-8. Der *Anhang* dient zur Dokumentation von Details, die nicht wichtig genug sind für den knappen Platz des Berichts, aber dennoch zu wichtig sind, um weggelassen zu werden. Nummerieren Sie die Teile des Anhangs. Typische Inhalte des Anhangs sind: Messinstrumente, Analyse-Code, Daten, Stimuli, weiterführende Ergebnisse, Daten-Codebook, Interview-Transkriptionen. Der Anhang muss nicht ausgedruckt abgegeben werden, es reicht, wenn der Anhang elektronisch eingereicht wird. Führen Sie aber dennoch eine Liste aller Anhänge (also auch der elektronischen Anhänge) als Überblick zu Beginn des Anhangs auf.  Es ist zulässig, Dateien als Anhang einzureichen, ohne dass deren Inhalte auf Seiten dargestellt sind. Das ist vor allem sinnvoll bei Tabellen oder Computercode.
+
+#### Anhang und einzureichende Materialien
+
+Der *Anhang* dient zur Dokumentation von Details, die nicht wichtig genug sind für den knappen Platz des Berichts, aber dennoch zu wichtig sind, um weggelassen zu werden. Nummerieren Sie die Teile des Anhangs. Typische Inhalte des Anhangs sind: 
+
+- Messinstrumente
+- Analyse-Code (z.B. R-Skript oder Quarto-Datei)
+- Daten
+Stimuli
+- weiterführende Ergebnisse, 
+- Daten-Codebook
+- Interview-Transkriptionen. Der Anhang muss nicht ausgedruckt abgegeben werden, es reicht, wenn der Anhang elektronisch eingereicht wird. Führen Sie aber dennoch eine Liste aller Anhänge (also auch der elektronischen Anhänge) als Überblick zu Beginn des Anhangs auf.  Es ist zulässig, Dateien als Anhang einzureichen, ohne dass deren Inhalte auf Seiten dargestellt sind. Das ist vor allem sinnvoll bei Tabellen oder Computercode.
 
 9. Weitere Hinweise zur *Textformatierung* finden Sie z.B. [im Kursbuch zum Forschungsprojekt](https://fopro.netlify.app/030-schreiben#sec-formatierung).
 
+
+#### Formatierung  
+
+Grundsätzlich sollten Sie in Ihren Entscheidungen für Formatierung konsistent sein:
+Wenn Sie sich für ein bestimmtes Vorgehen entschieden haben,
+sollten Sie dieses konsequent anwenden.
+
+
+
+
+Solange Sie keine anders lautenden Vorgaben von Ihrer Betreuungsperson haben, 
+können Sie sich an folgenden Richtlinien (für paginierte Dokumente) orientieren.
+
+
+
+
+1. Verwenden Sie die *Format-Vorgaben der APA* (aktuelle Version), um Zitationen, Tabellen und Abbildungen zu formatieren.
+1. *Fließtext* (in längeren Print-Dokumenten wie einer Seminararbeit) ist *mit Serifentext* zu schreiben; Überschriften können serifenlos gesetzt sein.
+2. *Fließtext* soll in *11 Punkt Schriftgröße* gesetzt sein.
+3. Der Text kann linksbündig oder im *Blocksatz* gesetzt sein. 
+4. *Silbentrennung* ist eingeschaltet.
+5. *Zeilenabstand*: 1 – 1,2 Zeilen
+6. Seitenformat (für papierbezogenen Formate): Din-A4
+7. *Einrücken*: Die *erste Zeile jedes Absatze*s wird mit 1.3 cm eingerückt (Ausnahme: Abstract, Titel, Blockzitate und Verzeichnisse). Aber: Der erste Absatz nach einer Überschrift, nach einer Abbildung, einer Tabelle o.Ä.  wird *nicht* eingerückt. Alternativ zum Einrücken können Sie vertikalen Raum verwenden, um Absätze zu trennen (besser ist aber Einrücken). Verwenden Sie aber nicht sowohl Einrücken als auch vertikalen Abstand.
+8. *Kursivschrift*: Sie dürfen Kursivschrift verwenden, wenn Sie etwas hervorheben oder betonen möchten oder bei erstmaliger Einführung neugeprägter Begriffe, Fach- oder Schlüsselbegriffen, bei statistischen Symbolen und Variablen. Meiden Sie Fettdruck und Unterstreichungen.
+9. *Abschnittswechsel*: Vertikaler Abstand ist ein probates Mittel, um Sinnzusammenhänge kenntlich zu machen. Ein neuer Abschnitt wird mit vertikalem Abstand kenntlich gemacht.
+Gestalten Sie Ihre Seiten *doppelseitig* (d. h. linke vs. rechte Seite), auch im Druck (wenn Sie ein paginiertes Format verwenden).
+10. *Kolumnentitel* (Kapitelnummer und -name in Kopfzeile) sind empfehlenswert.
+11. Nummerierung: Verwenden Sie nur *arabische* („normale“) *Ziffern* für die Seitenzahlen (auch bei Abstract etc.).
+12. *Seitenränder*: Da eine gute Lesbarkeit bei nicht mehr als ca. 65 Zeichen liegt, können Sie Ihre Seitenränder entsprechend einstellen. 
+
+
+    
+    
 
 
 
@@ -184,43 +227,6 @@ Prüfungsteilnehmerinnen und -teilnehmer sind dafür eigenständig verantwortlic
 
 26. Formulieren Sie stets *prägnant*: So kurz und klar wie möglich und so ausführlich wie nötig. Als typischen Leser stellen Sie sich einen Absolventen Ihres Studiengangs vor. Themen, die dieser Person geläufig sind, sollen nur in wenigen Sätzen oder gar Wörtern angeschnitten werden. Weitschweifigkeit ist generell zu meiden.
 
-
-## Formatierung  
-
-Grundsätzlich sollten Sie in Ihren Entscheidungen für Formatierung konsistent sein:
-Wenn Sie sich für ein bestimmtes Vorgehen entschieden haben,
-sollten Sie dieses konsequent anwenden.
-
-
-
-Sie können Ihre schriftliche Prüfungsarbeit in einem paginierten oder nicht paginerten Format abgeben.
-Paginierte Formate weisen Seiten aus, sind also primär für den Druck auf Papier gedacht. 
-Allerdings werden sie auch noch häufig für primär elektronische Dokumente verwendet.
-Nicht paginierte Formate sind HTML-Dokumente oder E-Books.
-Solange Sie keine anders lautenden Vorgaben von Ihrer Betreuungsperson haben, 
-können Sie sich an folgenden Richtlinien (für paginierte Dokumente) orientieren.
-
-
-
-
-1. Verwenden Sie die *Format-Vorgaben der APA* (aktuelle Version)^[V7], um Zitationen, Tabellen und Abbildungen zu formatieren.
-1. *Fließtext* (in längeren Print-Dokumenten wie einer Seminararbeit) ist *mit Serifentext* zu schreiben; Überschriften können serifenlos gesetzt sein.
-2. *Fließtext* soll in *11 Punkt Schriftgröße* gesetzt sein.
-3. Der Text kann linksbündig oder im *Blocksatz* gesetzt sein. 
-4. *Silbentrennung* ist eingeschaltet.
-5. *Zeilenabstand*: 1 – 1,2 Zeilen
-6. Seitenformat (für papierbezogenen Formate): Din-A4
-7. *Einrücken*: Die *erste Zeile jedes Absatze*s wird mit 1.3 cm eingerückt (Ausnahme: Abstract, Titel, Blockzitate und Verzeichnisse). Aber: Der erste Absatz nach einer Überschrift, nach einer Abbildung, einer Tabelle o.Ä.  wird *nicht* eingerückt. Alternativ zum Einrücken können Sie vertikalen Raum verwenden, um Absätze zu trennen (besser ist aber Einrücken). Verwenden Sie aber nicht sowohl Einrücken als auch vertikalen Abstand.
-8. *Kursivschrift*: Sie dürfen Kursivschrift verwenden, wenn Sie etwas hervorheben oder betonen möchten oder bei erstmaliger Einführung neugeprägter Begriffe, Fach- oder Schlüsselbegriffen, bei statistischen Symbolen und Variablen. Meiden Sie Fettdruck und Unterstreichungen.
-9. *Abschnittswechsel*: Vertikaler Abstand ist ein probates Mittel, um Sinnzusammenhänge kenntlich zu machen. Ein neuer Abschnitt wird mit vertikalem Abstand kenntlich gemacht.
-Gestalten Sie Ihre Seiten *doppelseitig* (d. h. linke vs. rechte Seite), auch im Druck (wenn Sie ein paginiertes Format verwenden).
-10. *Kolumnentitel* (Kapitelnummer und -name in Kopfzeile) sind empfehlenswert.
-11. Nummerierung: Verwenden Sie nur *arabische* („normale“) *Ziffern* für die Seitenzahlen (auch bei Abstract etc.).
-12. *Seitenränder*: Da eine gute Lesbarkeit bei nicht mehr als ca. 65 Zeichen liegt, können Sie Ihre Seitenränder entsprechend einstellen. 
-
-
-    
-    
 
     
 ## Die Benotung
