@@ -31,7 +31,7 @@ Aktuell ist die Version 4.x.x die neueste; Sie sollten auch R > 4.0 nutzen.
 
 #### Installation von R und RStudio
 
-Installieren Sie [R und RStudio](https://data-se.netlify.app/2021/11/30/installation-von-r-und-seiner-freunde/) für Kurse im Bereich Datenanalyse.
+Installieren Sie [R und RStudio](https://sebastiansauer.github.io/data_se/2021/11/30/installation-von-r-und-seiner-freunde/) für Kurse im Bereich Datenanalyse.
 
 - 📺 [Video: R und RStudio installieren für Windows](https://www.youtube.com/watch?v=X_Mxya2Fis0)
 - 📺 [Video: R und RStudio installieren für Mac](https://www.youtube.com/watch?v=Sh7JAI3XM1c)

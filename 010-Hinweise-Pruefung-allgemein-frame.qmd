@@ -338,7 +338,7 @@ wenn aber nur ein Teil der Syntax zu sehen ist, ist er nicht ausreichend: Wenn d
 so ist zu prüfen, ob Sie vorab mit `library(palmerpenguins)` das relevante Paket gestartet haben. 
 Andernfalls kann `data(penguins)` nicht funktionieren und der Fehler läge damit bei Ihnen.
 
-[Hier](https://data-se.netlify.app/2022/01/31/erbie-einfache-reproduzierbare-beispiele-ihres-problems-mit-r-syntax/) finden Sie Hinweise für *e*infache, *r*eproduzierbare *Bei*spiele (ERBies); vgl. Sauer (2019), Kap. 3.8.2 (S. 33).
+[Hier](https://sebastiansauer.github.io/data_se/2022/01/31/erbie-einfache-reproduzierbare-beispiele-ihres-problems-mit-r-syntax/) finden Sie Hinweise für *e*infache, *r*eproduzierbare *Bei*spiele (ERBies); vgl. Sauer (2019), Kap. 3.8.2 (S. 33).
 
 
 

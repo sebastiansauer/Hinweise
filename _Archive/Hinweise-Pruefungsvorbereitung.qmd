@@ -97,7 +97,7 @@ Kontinuierliches Mitlernen ist der Schlüssel zum Erfolg.
 
 ### Datenanalyse
 
-Schauen Sie sich Fallstudien (YACSDAs: Yet-Another-Case-Study-in-Data-Analysis) an, insbesondere die, auf die die Lehrkraft hingewiesen hat. [Hier](https://data-se.netlify.app/) ist ein Fundort für YACSDAs.
+Schauen Sie sich Fallstudien (YACSDAs: Yet-Another-Case-Study-in-Data-Analysis) an, insbesondere die, auf die die Lehrkraft hingewiesen hat. [Hier](https://sebastiansauer.github.io/data_se/) ist ein Fundort für YACSDAs.
 
 
 
