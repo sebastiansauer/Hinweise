@@ -51,10 +51,23 @@ Bitte informieren Sie sich auch in der APO, SPO sowie den Prüfungshinweisen der
 20. Stört ein Prüfling während der Prüfung durch Geräusche, Ausrufe, Heulen usw., so kann diese für die anderen Studierenden eine erhebliche Störung sein. Störendes Verhalten kann zum Nichtbestehen der Prüfung führen.
 21. Bei Täuschungsverdacht: Ein Prüfling ist bei begründetem Verdacht auf Täuschung verpflichtet, an der Aufklärung des Verdachts mitzuwirken und eine entsprechende Untersuchung zu dulden.
 22. Wenn ein Prüfling nach Beginn jedoch noch vor Ende einer Prüfungsleistung so erkrankt, dass er seine momentane Leistungsfähigkeit beeinträchtigt sieht, sollte er dies sofort der Prüfungsaufsicht mitteilen und seinen Rücktritt erklären. Danach muss er sofort einen Arzt aufsuchen, der ein eingehendes ärztliches Gutachten ausstellt, das die plötzlich aufgetretene Prüfungsunfähigkeit bestätigt. Unter Vorlage dieses Gutachtens ist dann eine Annullierung beim zuständigen Prüfungsausschuss zu beantragen. 
+23. Schreiben Sie nur mit schwarzen Kugelschreibern (blaue Farbe wird im Scan nicht immer gut erkannt).
 
 :::{.callout-important}
 Widerhandlungen können Nicht-Bestehen der Prüfung nach sich ziehen.
 :::
+
+
+## Tipps für Papierklausuren
+
+- Bringen Sie Ersatzstifte mit.
+- Vergessen Sie den Taschenrechner mit. Bringen Sie vielleicht noch einen Ersatz-Taschenrechner mit, falls ein Kommilitone den Rechner vergessen hat.
+- Ohrenstöpsel können die Konzentration erhöhen.
+- Bringen Sie sich ein Getränk mit.
+- Meiden Sie Traubenzucker o.Ä. - auf ein kurzes Leistungshoch folgt der Absturz des Blutzuckers und damit Ihrer Leistungsfähigkeit.
+- Eine Armbanduhr hilft Ihnen bei der Zeitplanung.
+- Ein Textmarker hilft, Wesentliches in Aufgaben hervorzuheben.
+- Ein Bleistift für Notizen oder Nebenrechnungen kann nützlich sein.
 
 
 
@@ -112,7 +125,7 @@ Tragen Sie zu Beginn der Klausur Ihren Namen und Ihre Matrikelnummer ein! $\squa
 
 
 
-## Besonderheiten zur Bayes-Statistik
+## Besonderheiten der Bayes-Statistik
 
 
 1.  Verwenden Sie Methoden der *Bayes*-Statistik für inferenzstatistische Analysen (soweit nicht anders vorgegeben).
