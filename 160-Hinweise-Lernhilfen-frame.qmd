@@ -62,7 +62,7 @@ Hier finden Sie Datensätze, die sich eignen, um die Analyse von Daten zu lernen
 ### Aufgabensammlung
 
 
-Die Webseite [Datenwerk](https://datenwerk.netlify.app/) beherbergt eine Sammlung an Übungsaufgaben rund um das Thema Datenanalyse.
+Die Webseite [Datenwerk](https://sebastiansauer.github.io/datenwerk/) beherbergt eine Sammlung an Übungsaufgaben rund um das Thema Datenanalyse.
 Es gibt eine Suchfunktion (wenn Sie den Namen der Aufgabe wissen) und eine Tag-Liste, wenn Sie Aufgaben nach Themengebiet durchsehen wollen.
 
 
@@ -97,8 +97,8 @@ Vermeiden Sie, das Lernen aufzuschieben. Bleiben Sie dran!$\square$
 - *Vor- und Nachbereitung*: Bereiten Sie den Unterricht vor und nach.
 - *Selbsttest*: Testen Sie sich mit Flashcards (Karteikarten, Vorderseite: Frage, Rückseite: Lösung). Wenn Sie alle Aufgaben dieses Kurses aus dem FF beherrschen, sollte die Prüfung kein Problem sein.
 - *Übungen*: Bearbeiten Sie alle Übungsaufgaben gewissenhaft. Versuchen Sie selber erst, die Aufgabe zu lösen, bevor Sie die Musterlösung anschauen.
-- Portal *Datenwerk*: Gehen Sie die Aufgaben auf dem Portal [Datenwerk](https://datenwerk.netlify.app/) durch (soweit relevant).
-- *Fallstudien*: Schauen Sie sich meine Fallstudiensammlungen an: https://sebastiansauer-academic.netlify.app/courseware/casestudies/
+- Portal *Datenwerk*: Gehen Sie die Aufgaben auf dem Portal [Datenwerk](https://sebastiansauer.github.io/datenwerk/) durch (soweit relevant).
+- *Fallstudien*: Schauen Sie sich meine Fallstudiensammlungen an: https://sebastiansauer.github.io/sebastiansaueracademic/courseware/casestudies/
 - *Lehrkraft* ansprechen: Sprechen Sie die Lehrkraft an, wenn Sie Fragen haben. Haben Sie keine Scheu! Bitte lesen Sie aber vorab die Hinweise, um Redundanz zu vermeiden.
 - *Dabei bleiben*: Vermeiden Sie "Bullimie-Lernen" (lange nix, dann alles auf einmal), sondern bevorzugen Sie "Lern-Snacks" (immer wieder ein bisschen).
 - *Zusammenfassungen schreiben*: Schreiben Sie sich eine Zusammenfassung, am besten mit der Hand. Es gibt auch Tools (wie <https://web.hypothes.is/> oder diese [Chrome-Extension](https://chrome.google.com/webstore/detail/hypothesis-web-pdf-annota/bjfhmglciegochdpefhhlphglcehbmek)), die Kommentare in Webseiten ermöglichen.
@@ -173,14 +173,14 @@ Es ist nicht Ziel das Gesprächs, größere Teile Ihrer Qualifizierungsarbeit vo
 
 Bitte bereiten Sie sich auf das Gespräch wie folgt vor:
 
-- Lesen Sie die relevanten Teile des [Hinweisbuches](https://hinweisbuch.netlify.app/). Tipp: Nutzen Sie den Suchschlitz, um nach passenden Stichwörtern zu suchen.
+- Lesen Sie die relevanten Teile des [Hinweisbuches](https://sebastiansauer.github.io/Hinweise/). Tipp: Nutzen Sie den Suchschlitz, um nach passenden Stichwörtern zu suchen.
 - Recherchieren Sie in gängigen Fachbüchern oder bei einer KI zu Ihrer Frage. In den Kursbüchern der Autors - [Statistik1](https://sebastiansauer.github.io/statistik1/), [Start:Bayes](https://sebastiansauer.github.io/start-bayes/) und [Forschungsprojekt](https://sebastiansauer.github.io/fopra/) - finden Sie Anleitungen, die auf studentische Arbeiten zugeschnitten sind.
 - Wenn Sie Fragen zur Auswertung haben: Bringen Sie Hypothesen mit zum Gespräch. Bitte klären Sie vorab die Skalenniveaus und die Operationalisierung Ihrer Hypothesen. Zentral ist, dass Sie jederzeit wissen, was die UV und was die AV einer Hypothese ist.
 
 
 Tipps:
 
-- Lesen Sie vorab die [FAQ](https://hinweisbuch.netlify.app/167-faq).
-- Lesen Sie vorab die [häufigen Fehler in der Datenanalyse](https://hinweisbuch.netlify.app/180-beispiele-fehler-datenanalyse-frame).
-- Lesen Sie vorab die [Hinweise zu Qualifizierungsarbeiten](https://hinweisbuch.netlify.app/100-hinweise-pruefung-thesis-frame).
+- Lesen Sie vorab die [FAQ](https://sebastiansauer.github.io/Hinweise/167-FAQ).
+- Lesen Sie vorab die [häufigen Fehler in der Datenanalyse](https://sebastiansauer.github.io/Hinweise/180-Beispiele-Fehler-Datenanalyse-frame).
+- Lesen Sie vorab die [Hinweise zu Qualifizierungsarbeiten](https://sebastiansauer.github.io/Hinweise/100-Hinweise-Pruefung-Thesis-frame).
 

@@ -14,7 +14,7 @@ FRAGE: Können Sie bitte mal meinen R-Code durchsehen, ob alles passt?
 
 ANTWORT: Das hört sich an wie "bitte schreiben Sie mir meinen Code so, dass er passt". Sie verstehen sicher, dass solche Hilfe zu weit ginge.
 
-Aber helfen kann ich Ihnen schon etwas. Sagen Sie mir ein konkretes Problem oder eine konkrete Frage, dann gebe ich Ihnen eine konkrete Antwort. Bitte formulieren Sie Ihre Frage so, dass ich gut helfen kann: Knapp, präzise mit allen Infos aber ohne unnötige Details. S. auch [ERBIE](https://statistik1.netlify.app/030-aufbereiten.html#sec-erbie).
+Aber helfen kann ich Ihnen schon etwas. Sagen Sie mir ein konkretes Problem oder eine konkrete Frage, dann gebe ich Ihnen eine konkrete Antwort. Bitte formulieren Sie Ihre Frage so, dass ich gut helfen kann: Knapp, präzise mit allen Infos aber ohne unnötige Details. S. auch [ERBIE](https://sebastiansauer.github.io/statistik1/030-aufbereiten.html#sec-erbie).
 
 
 
@@ -44,7 +44,7 @@ ANTWORT: Probieren Sie folgende Maßnahmen:
 FRAGE: Ich brauche ein Kochrezept für die Datenanalyse!
 
 
-ANTWORT: Die [sieben Schritte der Datenanalyse](https://fopro.netlify.app/080-auswerten#%C3%BCber-sieben-br%C3%BCcken-musst-du-gehen-die-sieben-schritte-der-datenanalyse). Die [Checkliste zur Datenanalyse](https://fopro.netlify.app/080-auswerten#sec-checkdaten) oder der [Rostlöser](https://fopro.netlify.app/080-auswerten#rostl%C3%B6ser) wird Ihnen gute Dienste leisten.
+ANTWORT: Die [sieben Schritte der Datenanalyse](https://sebastiansauer.github.io/fopra/080-Auswerten.html#%C3%BCber-sieben-br%C3%BCcken-musst-du-gehen-die-sieben-schritte-der-datenanalyse). Die [Checkliste zur Datenanalyse](https://sebastiansauer.github.io/fopra/080-Auswerten.html#sec-checkdaten) oder der [Rostlöser](https://sebastiansauer.github.io/fopra/080-Auswerten.html#rostl%C3%B6ser) wird Ihnen gute Dienste leisten.
 
 
 
@@ -55,14 +55,14 @@ ANTWORT: Die [sieben Schritte der Datenanalyse](https://fopro.netlify.app/080-au
 
 FRAGE: Wo finde ich eine Probeklausur für QM2? 
 
-ANTWORT: [Dieser Tag](https://datenwerk.netlify.app/#category=qm2-pruefung)  stellt Fragen einer Probeprüfung zusammen.
+ANTWORT: [Dieser Tag](https://sebastiansauer.github.io/datenwerk/#category=qm2-pruefung)  stellt Fragen einer Probeprüfung zusammen.
 
 
 ### Wie bereite ich mich gut auf die Prüfung vor? 
 FRAGE: Wie bereite ich mich gut auf die Prüfung vor? 
 
 ANTWORT:
-[Hier](https://hinweisbuch.netlify.app/hinweise-pruefungsvorbereitung-frame) finden Sie Tipps zur Prüfungsvorbereitung.
+[Hier](https://sebastiansauer.github.io/Hinweise/150-Hinweise-Pruefungsvorbereitung-frame) finden Sie Tipps zur Prüfungsvorbereitung.
 
 
 ### Intercept?
@@ -259,7 +259,7 @@ Hingegen sind einfache Berechnungen (die mit einem kaufmännischen Taschenrechne
 
 FRAGE: Gibt es bestimmte Übungsaufgaben oder Materialien, die Sie empfehlen, um sich gezielt auf die Theorie-Klausur in QM2 vorzubereiten?
 
-ANTWORT: [Hier](https://datenwerk.netlify.app/#category=qm2-pruefung) finden Sie eine Sammlung von Fragen, die in einer Probeprüfung gestellt wurden. Diese Fragen können Ihnen helfen, sich gezielt auf die Prüfung vorzubereiten.
+ANTWORT: [Hier](https://sebastiansauer.github.io/datenwerk/#category=qm2-pruefung) finden Sie eine Sammlung von Fragen, die in einer Probeprüfung gestellt wurden. Diese Fragen können Ihnen helfen, sich gezielt auf die Prüfung vorzubereiten.
 
 Darüber hinaus sollten Sie die theoretischen Inhalte des Skripts kennen sowie alle Themen, die im Unterricht behandelt wurden.
 

@@ -72,7 +72,7 @@ Der *Anhang* dient zur Dokumentation von Details, die nicht wichtig genug sind f
 - Daten-Codebook
 - Interview-Transkriptionen. Der Anhang muss nicht ausgedruckt abgegeben werden, es reicht, wenn der Anhang elektronisch eingereicht wird. Führen Sie aber dennoch eine Liste aller Anhänge (also auch der elektronischen Anhänge) als Überblick zu Beginn des Anhangs auf.  Es ist zulässig, Dateien als Anhang einzureichen, ohne dass deren Inhalte auf Seiten dargestellt sind. Das ist vor allem sinnvoll bei Tabellen oder Computercode.
 
-9. Weitere Hinweise zur *Textformatierung* finden Sie z.B. [im Kursbuch zum Forschungsprojekt](https://fopro.netlify.app/030-schreiben#sec-formatierung).
+9. Weitere Hinweise zur *Textformatierung* finden Sie z.B. [im Kursbuch zum Forschungsprojekt](https://sebastiansauer.github.io/fopra/030-Schreiben.html#sec-formatierung).
 
 
 #### Formatierung  

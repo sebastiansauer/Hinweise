@@ -73,7 +73,7 @@ Dort finden Sie dann Hinweise für weitere Literatur.
 Parallel bauen Sie sich eine Wissenslandkarte zu Ihren Gedanken beim Lesen auf.
 So wächst Ihre Idee des Themas, s. @fig-thema.
 
-![Durch Lesen und Notizen machen wächst Ihre Idee des Themas](https://fopro.netlify.app/img/spirale-crop.png){#fig-thema width=50%}
+![Durch Lesen und Notizen machen wächst Ihre Idee des Themas](https://sebastiansauer.github.io/fopra/img/spirale-crop.png){#fig-thema width=50%}
 
 
 :::{.callout-tip}
@@ -391,7 +391,7 @@ Das kann große Freude bereiten, aber auch Disziplin und Durchhaltekraft verlang
 
 
 - Lesen Sie viel *Fachliteratur.*
-- Machen Sie sich *Notizen*, um eine Wissenslandkarte des Gelesenen aufzubauen. Dazu bietet sich ein [Zettelkasten](https://fopro.netlify.app/020-themawahl#zettelkasten) an.
+- Machen Sie sich *Notizen*, um eine Wissenslandkarte des Gelesenen aufzubauen. Dazu bietet sich ein [Zettelkasten](https://sebastiansauer.github.io/fopra/020-themawahl#zettelkasten) an.
 - Auf den *Schultern* von *Giganten*: Orientieren Sie sich in Ihrem Vorgehen an relevanten Fachartikeln und entwickeln Sie diese Ideen weiter.
 
 
@@ -405,7 +405,7 @@ Im Merkblatt für Abschlussarbeiten der Prüfungsabteilung finden Sie weitere fo
 Hinweise zu einem etwaigen Kolloquium finden Sie im Kapitel @praesentation.
 
 Sie brauchen noch etwas "Rostlöser" zur Auffrischung der (quantitativen) Forschungsmethodik?
-Werfen Sie doch mal einen Blick in meinen Kurs ["Forschungsprojekt"](https://fopro.netlify.app/).
+Werfen Sie doch mal einen Blick in meinen Kurs ["Forschungsprojekt"](https://sebastiansauer.github.io/fopra/).
 
 
 

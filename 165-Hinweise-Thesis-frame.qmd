@@ -55,13 +55,13 @@ In [dieser Zotero-Gruppe](https://www.zotero.org/groups/2502975/ses-emp-fo) find
 
 ### Statistik1
 
-[Grundlagen mit einem Fokus auf Vorhersagemodellierung](https://statistik1.netlify.app/)
+[Grundlagen mit einem Fokus auf Vorhersagemodellierung](https://sebastiansauer.github.io/statistik1/)
 
 
 ### Inferenzstatistik
 
-[Wahrscheinlichkeitsaussagen zu Statistiken: Der Bayes-Golem hilft](https://start-bayes.netlify.app/)
+[Wahrscheinlichkeitsaussagen zu Statistiken: Der Bayes-Golem hilft](https://sebastiansauer.github.io/start-bayes/)
 
 ### Ihr quantitatives Forschungsprojekt von A bis Z
 
-Werfen Sie einen Blick (oder mehrere) in das Kursbuch [FoPro](https://fopro.netlify.app/).
+Werfen Sie einen Blick (oder mehrere) in das Kursbuch [FoPro](https://sebastiansauer.github.io/fopra/).

@@ -11,7 +11,7 @@ Anstatt von Skripten auf Basis von PPP werden hier BONIs eingesetzt: *frei zugä
 
 Folienskripte, zu meist auf Basis von Microsoft Powerpoint-Präsentationen, stellen den zentralen Schriftweg der Wissensvermittlung von Hochschullehrkräften zur Zuhörerschaft [@adams2006]. Insgesamt zeigen die Befunde gemischte Befunde zum didaktischen Nutzen dieses Mediums auf [@cosgunogeyik2017; @gambari2015]. 
 
-*BONIs* bieten eine Alternative zu Folien. @fig-boni zeigt einige BONIs des Autors: [Statistik1](https://statistik1.netlify.app/), das BONI für einen einführenden Statistikkurs und [Datenwerk](https://datenwerk.netlify.app/), das BONI eine Aufgabensammlung aus der Statistik.
+*BONIs* bieten eine Alternative zu Folien. @fig-boni zeigt einige BONIs des Autors: [Statistik1](https://sebastiansauer.github.io/statistik1/), das BONI für einen einführenden Statistikkurs und [Datenwerk](https://sebastiansauer.github.io/datenwerk/), das BONI eine Aufgabensammlung aus der Statistik.
 
 <!-- ::: {#fig-boni layout-ncol=2} -->
 
@@ -26,20 +26,20 @@ Folienskripte, zu meist auf Basis von Microsoft Powerpoint-Präsentationen, stel
 
 ## Statistik1
 ```{=html}
-<iframe width="700" height="400" src="https://statistik1.netlify.app//" title="Ein Einführungskurs in die Statistik mit einem Schwerpunkt auf Prognosemodellierung"></iframe>
+<iframe width="700" height="400" src="https://sebastiansauer.github.io/statistik1/" title="Ein Einführungskurs in die Statistik mit einem Schwerpunkt auf Prognosemodellierung"></iframe>
 ```
 
 ## Datenwerk
 
 ```{=html}
-<iframe width="700" height="400" src="https://datenwerk.netlify.app/" title="DIY: Eine Aufgabensammlung für den Statistikunterricht"></iframe>
+<iframe width="700" height="400" src="https://sebastiansauer.github.io/datenwerk/" title="DIY: Eine Aufgabensammlung für den Statistikunterricht"></iframe>
 ```
 
 
 ## Hinweisbuch
 
 ```{=html}
-<iframe width="700" height="400" src="https://hinweisbuch.netlify.app//" title="DIY: Formale Hinweise zu Prüfungen und Unterricht bei Prof. Sauer"></iframe>
+<iframe width="700" height="400" src="https://sebastiansauer.github.io/Hinweise/" title="DIY: Formale Hinweise zu Prüfungen und Unterricht bei Prof. Sauer"></iframe>
 ```
 
 
@@ -51,14 +51,14 @@ Eine Auswahl von BONIs des Autors.
 
 ## Vorzüge von BONIs
 
-- I wie 🔁 *Interaktiv*: BONIS nutzen moderne Web-Technologie, die den Einsatz vieler interaktiver Elemente erlaubt wie z.B. [Diagramme](https://statistik1.netlify.app/030-aufbereiten#fallstudie), [Animationen](https://statistik1.netlify.app/090-regression2#fig-temp-de), [Apps](https://start-bayes.netlify.app/0300-wskt#baumdiagramm-sucht-problem) oder [Übungsaufgaben](https://start-bayes.netlify.app/0600-post#zur-erinnerung-gitterwerte-in-r-berechnen). Interaktivität ist ein maßgeblicher Faktor für Lernerfolg bei Studierenden [@harbour2015].
+- I wie 🔁 *Interaktiv*: BONIS nutzen moderne Web-Technologie, die den Einsatz vieler interaktiver Elemente erlaubt wie z.B. [Diagramme](https://sebastiansauer.github.io/statistik1/030-aufbereiten#fallstudie), [Animationen](https://sebastiansauer.github.io/statistik1/090-regression2#fig-temp-de), [Apps](https://sebastiansauer.github.io/start-bayes/0300-Wskt.html) oder [Übungsaufgaben](https://sebastiansauer.github.io/start-bayes/0600-Post.html#quiz-aufgaben). Interaktivität ist ein maßgeblicher Faktor für Lernerfolg bei Studierenden [@harbour2015].
 
 - ON wie 🚫🚧 *Offen* und *Online*: BONIs stehen frei (offen) zugänglich im Internet. 
 Dadurch wird die *Barriere minimiert*, das Lernmedium zu nutzen: Es ist nicht nötig, sich in eine Lernplattform einzuloggen. 
 Es ist nicht nötig, eine zusätzliche Software zu öffnen. 
 Ein einziger Klick im Browser reicht.
 
-- O wie 🗝 *Orientiert*: BONIs sind hoch *o*rientiert und zugänglich: Einfach gesagt, ist (fast) jedes Element eines BONIs "verlinkt", hat also eine URL: Nicht nur Kapitel und Unterkapitel, sondern auch [Diagramme](https://statistik1.netlify.app/#fig-yoda), [Gleichungen](https://statistik1.netlify.app/080-regression1#eq-mod1), [Tabellen](https://statistik1.netlify.app/080-regression1#tbl-lm3), [Literaturstellen](https://statistik1.netlify.app/080-regression1#literatur) oder [Aufgaben](https://datenwerk.netlify.app/posts/nerd-gelockert/nerd-gelockert).
+- O wie 🗝 *Orientiert*: BONIs sind hoch *o*rientiert und zugänglich: Einfach gesagt, ist (fast) jedes Element eines BONIs "verlinkt", hat also eine URL: Nicht nur Kapitel und Unterkapitel, sondern auch [Diagramme](https://sebastiansauer.github.io/statistik1/#fig-yoda), [Gleichungen](https://sebastiansauer.github.io/statistik1/080-regression1#eq-mod1), [Tabellen](https://sebastiansauer.github.io/statistik1/080-regression1#tbl-lm3), [Literaturstellen](https://sebastiansauer.github.io/statistik1/080-regression1#literatur) oder [Aufgaben](https://sebastiansauer.github.io/datenwerk/posts/nerd-gelockert/nerd-gelockert).
 
 
 
